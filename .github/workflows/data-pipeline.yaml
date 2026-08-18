@@ -81,7 +81,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      actions: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -177,13 +177,14 @@ jobs:
             git commit -m "chore(contributors): update profiles" -- data/contributors/
           fi
 
-      - name: Push changes and trigger PR workflow
+      - name: Push changes and run PR manager
         run: |
           if git diff --quiet origin/chore/update-data HEAD; then
             echo "No changes to push."
           else
             git push origin chore/update-data
-            gh workflow run "Data Pull Requests" -f target_branch=chore/update-data
+            vp run action:pr-manager
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REF_NAME: chore/update-data
