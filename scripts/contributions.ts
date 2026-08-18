@@ -26,16 +26,6 @@ const sortObjectKeys = <T extends Record<string, any>>(obj: T): T => {
     }, {} as T);
 };
 
-const computeScore = (stats: Omit<Stats, "score">): number => {
-  return Math.round(
-    stats.mergedPrs * 5 +
-      stats.reviews * 3 +
-      stats.reviewsReceived * 1 +
-      stats.issuesLinked * 2 +
-      stats.reactions * 0.1,
-  );
-};
-
 const main = async (): Promise<void> => {
   try {
     await mkdir(CONTRIBUTORS_DIR, { recursive: true });
@@ -100,7 +90,7 @@ const main = async (): Promise<void> => {
       const user = users.get(username)!;
 
       user.orgStats[orgName] = {
-        score: computeScore(rawStats),
+        score: rawStats.score,
         mergedPrs: rawStats.mergedPrs,
         reviews: rawStats.reviews,
         reviewsReceived: rawStats.reviewsReceived,
@@ -164,7 +154,7 @@ const main = async (): Promise<void> => {
         }
 
         user.repoStats[orgName][repoName] = {
-          score: computeScore(rawStats),
+          score: rawStats.score,
           mergedPrs: rawStats.mergedPrs,
           reviews: rawStats.reviews,
           reviewsReceived: rawStats.reviewsReceived,
@@ -182,7 +172,8 @@ const main = async (): Promise<void> => {
   console.log(pc.blue(`▶ Saving ${users.size} contributor profiles...`));
 
   for (const user of users.values()) {
-    const agg: Omit<Stats, "score"> = {
+    const agg: Stats = {
+      score: 0,
       mergedPrs: 0,
       reviews: 0,
       reviewsReceived: 0,
@@ -191,6 +182,7 @@ const main = async (): Promise<void> => {
     };
 
     for (const orgScore of Object.values(user.orgStats)) {
+      agg.score += orgScore.score;
       agg.mergedPrs += orgScore.mergedPrs;
       agg.reviews += orgScore.reviews;
       agg.reviewsReceived += orgScore.reviewsReceived;
@@ -199,7 +191,7 @@ const main = async (): Promise<void> => {
     }
 
     const newAggregatedStats = {
-      score: computeScore(agg),
+      score: agg.score,
       mergedPrs: agg.mergedPrs,
       reviews: agg.reviews,
       reviewsReceived: agg.reviewsReceived,

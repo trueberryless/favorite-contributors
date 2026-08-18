@@ -7,7 +7,8 @@ export class TerminalDashboard {
   private completed = 0;
   private linesRendered = 0;
   private startTime = Date.now();
-  private isCI = !process.stdout.isTTY || process.env.CI === "true" || process.env.GITHUB_ACTIONS === "true";
+  private isCI =
+    !process.stdout.isTTY || process.env.CI === "true" || process.env.GITHUB_ACTIONS === "true";
   private timer: NodeJS.Timeout | null = null;
 
   constructor(concurrency: number, total: number) {

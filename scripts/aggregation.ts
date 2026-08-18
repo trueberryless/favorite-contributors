@@ -48,6 +48,16 @@ const getRepoColor = (repoName: string) => {
   return colors[Math.abs(hash) % colors.length];
 };
 
+const computeScore = (stats: Omit<Stats, "score">): number => {
+  return Math.round(
+    stats.mergedPrs * 5 +
+      stats.reviews * 3 +
+      stats.reviewsReceived * 1 +
+      stats.issuesLinked * 2 +
+      stats.reactions * 0.1,
+  );
+};
+
 class Mutex {
   private promise = Promise.resolve();
 
@@ -189,7 +199,6 @@ const main = async (): Promise<void> => {
     } catch {
       repoEntry = {
         id: `${orgName}/${repoName}`,
-        createdAt: new Date().toISOString(),
         updatedAt: null,
         stats: {},
       };
@@ -209,7 +218,7 @@ const main = async (): Promise<void> => {
       return;
     }
 
-    const newStats: Record<string, Omit<Stats, "score">> = {};
+    const newStats: Record<string, Stats> = {};
     dashboard.updateWorker(workerIndex, repoName, pc.blue("Fetching issues/PR stubs..."), colorize);
 
     const issues = (await octokit.paginate("GET /repos/{owner}/{repo}/issues", {
@@ -232,6 +241,7 @@ const main = async (): Promise<void> => {
 
       if (!newStats[login]) {
         newStats[login] = {
+          score: 0,
           mergedPrs: 0,
           reviews: 0,
           reviewsReceived: 0,
@@ -311,6 +321,7 @@ const main = async (): Promise<void> => {
       if (isHumanAuthor) {
         if (!newStats[authorLogin]) {
           newStats[authorLogin] = {
+            score: 0,
             mergedPrs: 0,
             reviews: 0,
             reviewsReceived: 0,
@@ -355,6 +366,7 @@ const main = async (): Promise<void> => {
           for (const reviewerLogin of reviewersForThisPr) {
             if (!newStats[reviewerLogin]) {
               newStats[reviewerLogin] = {
+                score: 0,
                 mergedPrs: 0,
                 reviews: 0,
                 reviewsReceived: 0,
@@ -370,6 +382,10 @@ const main = async (): Promise<void> => {
           }
         }
       }
+    }
+
+    for (const username of Object.keys(newStats)) {
+      newStats[username].score = computeScore(newStats[username]);
     }
 
     const sortedNewStats = sortObjectKeys(newStats);
@@ -401,7 +417,7 @@ const main = async (): Promise<void> => {
       dashboard.updateWorker(workerIndex, repoName, pc.blue("Syncing org checkpoint..."), colorize);
 
       const repoFiles = await readFileList(orgReposDir);
-      const combinedOrgStats: Record<string, Omit<Stats, "score">> = {};
+      const combinedOrgStats: Record<string, Stats> = {};
 
       for (const file of repoFiles) {
         if (!file.endsWith(".json")) continue;
@@ -412,6 +428,7 @@ const main = async (): Promise<void> => {
           for (const [username, stats] of Object.entries(rData.stats)) {
             if (!combinedOrgStats[username]) {
               combinedOrgStats[username] = {
+                score: 0,
                 mergedPrs: 0,
                 reviews: 0,
                 reviewsReceived: 0,
@@ -437,6 +454,10 @@ const main = async (): Promise<void> => {
             );
           }
         }
+      }
+
+      for (const username of Object.keys(combinedOrgStats)) {
+        combinedOrgStats[username].score = computeScore(combinedOrgStats[username]);
       }
 
       const orgData = await readJson<Organisation>(orgFilePath);
