@@ -1,0 +1,189 @@
+name: Data Pipeline
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      orgs: ${{ steps.prepare-matrix.outputs.orgs }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - uses: voidzero-dev/setup-vp@250f29ce396baf5e8f24498e17c0dfdebabc26eb # v1
+        with:
+          sfw: true
+          run-install: true
+          cache: true
+
+      - name: Prepare matrix
+        id: prepare-matrix
+        run: vp run action:aggregation-preparation
+
+  aggregate:
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        org: ${{ fromJson(needs.prepare.outputs.orgs) }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          fetch-depth: 2
+
+      - uses: voidzero-dev/setup-vp@250f29ce396baf5e8f24498e17c0dfdebabc26eb # v1
+        with:
+          sfw: true
+          run-install: true
+          cache: true
+
+      - run: vp run aggregation ${{ matrix.org }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for file changes
+        id: check-changes
+        run: |
+          git status --porcelain data/organisations/${{ matrix.org }}.json data/repositories/${{ matrix.org }}/
+          if [ -n "$(git status --porcelain data/organisations/${{ matrix.org }}.json data/repositories/${{ matrix.org }}/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        if: steps.check-changes.outputs.changed == 'true'
+        with:
+          name: data-${{ matrix.org }}
+          path: |
+            data/organisations/${{ matrix.org }}.json
+            data/repositories/${{ matrix.org }}/
+          if-no-files-found: ignore
+          retention-days: 1
+
+  collect:
+    needs: aggregate
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+
+      - name: Switch to data branch
+        run: |
+          git fetch origin chore/update-data || true
+          git checkout chore/update-data 2>/dev/null || git checkout -b chore/update-data
+
+      - uses: voidzero-dev/setup-vp@250f29ce396baf5e8f24498e17c0dfdebabc26eb # v1
+        with:
+          sfw: true
+          run-install: true
+          cache: true
+
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          pattern: data-*
+          merge-multiple: true
+          path: data/
+
+      - name: Run Contributions Aggregation
+        run: vp run contributions
+
+      - name: Generate Summary
+        if: always()
+        run: |
+          echo "## 🚀 Data Pipeline Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          git add data/
+          git status --porcelain > all_changes.txt || true
+
+          grep "^[AM]" all_changes.txt | grep "data/organisations/" > org_changes.txt || true
+          grep "^[AM]" all_changes.txt | grep "data/repositories/" > repo_changes.txt || true
+          grep "^[AM]" all_changes.txt | grep "data/contributors/" > contrib_changes.txt || true
+
+          ORG_MODIFIED=$(cat org_changes.txt | wc -l)
+          REPO_MODIFIED=$(cat repo_changes.txt | wc -l)
+          CONTRIB_UPDATED=$(cat contrib_changes.txt | wc -l)
+
+          echo "### 📈 Overview" >> $GITHUB_STEP_SUMMARY
+          echo "| Category | Updates / Changes |" >> $GITHUB_STEP_SUMMARY
+          echo "| --- | --- |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🏢 Organization Files Updated | $ORG_MODIFIED |" >> $GITHUB_STEP_SUMMARY
+          echo "| 📁 Repository Files Updated | $REPO_MODIFIED |" >> $GITHUB_STEP_SUMMARY
+          echo "| 👤 Contributor Profiles Updated | $CONTRIB_UPDATED |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -s org_changes.txt ] || [ -s repo_changes.txt ]; then
+            echo "### 🏢 Organization & Repository Updates" >> $GITHUB_STEP_SUMMARY
+            echo "| Status | Path |" >> $GITHUB_STEP_SUMMARY
+            echo "| --- | --- |" >> $GITHUB_STEP_SUMMARY
+            while read -r status file; do
+              if [ "$status" = "A" ]; then
+                echo "| ✨ Added | \`$file\` |" >> $GITHUB_STEP_SUMMARY
+              elif [ "$status" = "M" ]; then
+                echo "| 🔄 Modified | \`$file\` |" >> $GITHUB_STEP_SUMMARY
+              fi
+            done < <(cat org_changes.txt repo_changes.txt)
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -s contrib_changes.txt ]; then
+            echo "### 👤 Contributor Profile Updates" >> $GITHUB_STEP_SUMMARY
+            echo "| Status | Contributor |" >> $GITHUB_STEP_SUMMARY
+            echo "| --- | --- |" >> $GITHUB_STEP_SUMMARY
+            while read -r status file; do
+              contrib_name=$(basename "$file" .json)
+              if [ "$status" = "A" ]; then
+                echo "| ✨ Added | \`$contrib_name\` |" >> $GITHUB_STEP_SUMMARY
+              elif [ "$status" = "M" ]; then
+                echo "| 🔄 Updated | \`$contrib_name\` |" >> $GITHUB_STEP_SUMMARY
+              fi
+            done < contrib_changes.txt
+          else
+            echo "_No contributor profiles were updated in this run._" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit aggregated data per org
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if ! git diff-index --quiet HEAD -- data/organisations/ data/repositories/; then
+            git commit -m "chore(data): update stats for organisations" -- data/organisations/ data/repositories/
+          fi
+
+      - name: Commit contribution data
+        run: |
+          if ! git diff-index --quiet HEAD -- data/contributors/; then
+            git commit -m "chore(contributors): update profiles" -- data/contributors/
+          fi
+
+      - name: Push changes and trigger PR workflow
+        run: |
+          if git diff --quiet origin/chore/update-data HEAD; then
+            echo "No changes to push."
+          else
+            git push origin chore/update-data
+            gh workflow run "Data Pull Requests" -f target_branch=chore/update-data
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
