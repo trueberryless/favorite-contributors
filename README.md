@@ -1,43 +1,17 @@
-# Astro Starter Kit: Minimal
+# Favorite contributors
 
-```sh
-pnpm create astro@latest -- --template minimal
+[![Netlify Status](https://api.netlify.com/api/v1/badges/25c8109c-8671-4e7b-958e-cdabfdc65170/deploy-status)](https://app.netlify.com/projects/favorite-contributors/deploys)
+
+This is a little fun Astro project I built because I really like to play around with GitHub data in some ways -- especially if it involves GitHub Actions.
+
+It's setup in a way where a selection of GitHub organisations is defined and all the contributions from popular repositories from these organisations will be backfilled and updated automatically. To add a new organisation, just create a new JSON file under [`/data`](./data) with the name of the org (in this example `withastro.json`) and this content:
+
+```json
+{
+  "id": "withastro",
+  "updatedAt": null
+}
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `pnpm install`         | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Made with ❤️ by Felix  
+[License MIT](./LICENSE)
