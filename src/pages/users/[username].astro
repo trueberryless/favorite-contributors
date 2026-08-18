@@ -1,0 +1,58 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import ProfileHeader from "../../components/users/ProfileHeader.astro";
+import GlobalStats from "../../components/users/GlobalStats.astro";
+import OrgStats from "../../components/users/OrganisationStats.astro";
+import RepoStats from "../../components/users/RepositoryStats.astro";
+import type { Contributor } from "../../content.config";
+
+export async function getStaticPaths() {
+  const contributors: { data: Contributor }[] = await getCollection("contributors");
+
+  const ranked = [...contributors].sort(
+    (a, b) => b.data.aggregatedStats.score - a.data.aggregatedStats.score
+  );
+
+  return ranked.map((contributor, index) => ({
+    params: { username: contributor.data.username },
+    props: { contributor: contributor.data, rank: index + 1 },
+  }));
+}
+
+export interface Props {
+  contributor: Contributor;
+  rank: number;
+}
+
+const { contributor, rank } = Astro.props;
+const { aggregatedStats, orgStats, repoStats } = contributor;
+---
+
+<Layout title={`${contributor.username} - Contributor Profile`}>
+  <main class="profile-container">
+    <ProfileHeader
+      username={contributor.username}
+      rank={rank}
+      lastUpdated={contributor.lastUpdated}
+    />
+
+    <GlobalStats aggregatedStats={aggregatedStats} />
+
+    {Object.keys(orgStats).length > 0 && (
+      <OrgStats orgStats={orgStats} />
+    )}
+
+    {Object.keys(repoStats).length > 0 && (
+      <RepoStats repoStats={repoStats} />
+    )}
+  </main>
+</Layout>
+
+<style>
+  .profile-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+</style>

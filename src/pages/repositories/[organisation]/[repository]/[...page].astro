@@ -1,0 +1,89 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import Layout from "../../../../layouts/Layout.astro";
+import RepositoryHeader from "../../../../components/repositories/RepositoryHeader.astro";
+import Leaderboard from "../../../../components/Leaderboard.astro";
+import type { Repository } from "../../../../content.config";
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const repositories: { data: Repository }[] = await getCollection("repositories");
+
+  return repositories.flatMap((repository) => {
+    const [organisation, repoName] = repository.data.id.split("/");
+
+    const contributors = Object.entries(repository.data.stats)
+      .map(([username, stats]: [string, any]) => ({
+        username,
+        stats: {
+          score: stats.score || 0,
+          mergedPrs: stats.mergedPrs || 0,
+          reviews: stats.reviews || 0,
+          reviewsReceived: stats.reviewsReceived || 0,
+          issuesLinked: stats.issuesLinked || 0,
+          reactions: stats.reactions || 0,
+        },
+      }))
+      .sort((a, b) => b.stats.score - a.stats.score);
+
+    return paginate(contributors, {
+      params: {
+        organisation: organisation,
+        repository: repoName
+      },
+      props: {
+        repositoryData: repository.data,
+        totalContributors: contributors.length
+      },
+      pageSize: 50,
+    });
+  });
+}) satisfies GetStaticPaths;
+
+const { page, repositoryData, totalContributors } = Astro.props;
+const organisation = Astro.params.organisation;
+const repository = Astro.params.repository;
+---
+
+<Layout title={`${organisation}/${repository} - Repository Leaderboard`}>
+  <main class="repository-container">
+    <RepositoryHeader
+      organisationName={organisation}
+      organisationUrl={`/organisations/${organisation}`}
+      repositoryName={repository}
+      lastUpdated={repositoryData.updatedAt}
+      totalContributors={totalContributors}
+    />
+
+    <section class="fade-in" style="animation-delay: 100ms;">
+      <div class="section-heading">Repository Leaderboard</div>
+      <Leaderboard page={page} />
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .repository-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+  .section-heading {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section-heading::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: var(--card-border);
+    opacity: 0.5;
+  }
+</style>

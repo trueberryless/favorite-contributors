@@ -1,0 +1,361 @@
+---
+import type { Page } from "astro";
+import type { Stats } from "../content.config";
+
+export interface Props {
+  page: Page<{
+    username: string;
+    stats: Stats;
+  }>;
+}
+
+const { page } = Astro.props;
+
+const isFirstPage = page.currentPage === 1;
+const podium = isFirstPage ? page.data.slice(0, 3) : [];
+const rest = isFirstPage ? page.data.slice(3) : page.data;
+---
+
+<div class="leaderboard-container">
+  {isFirstPage && podium.length > 0 && (
+    <div class="podium-container">
+      {podium.map((contributor, index) => {
+        const rank = index + 1;
+        return (
+          <div class={`podium-position rank-${rank}`}>
+            <div class="animated-pop" style={`animation-delay: ${index * 150}ms`}>
+              <a href={`/users/${contributor.username}`} class={`podium-card card-${rank}`}>
+                <div class="rank">#{rank}</div>
+                <div class="avatar-wrapper">
+                  {rank === 1 && (
+                    <svg class="decor decor-gold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/>
+                    </svg>
+                  )}
+                  {rank === 2 && (
+                    <svg class="decor decor-silver" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/>
+                    </svg>
+                  )}
+                  {rank === 3 && (
+                    <svg class="decor decor-bronze" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/>
+                    </svg>
+                  )}
+                  <img src={`https://github.com/${contributor.username}.png?size=200`} alt={contributor.username} loading={rank === 1 ? "eager" : "lazy"} />
+                </div>
+                <div class="info">
+                  <h2>{contributor.username}</h2>
+                  <div class="stats">
+                    <span>Score: {contributor.stats.score}</span>
+                    <span>PRs: {contributor.stats.mergedPrs}</span>
+                    <span>Reviews: {contributor.stats.reviews}</span>
+                    <span>Issues: {contributor.stats.issuesLinked}</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  )}
+
+  <div class="rest-container">
+    {rest.map((contributor, index) => {
+      const realRank = isFirstPage ? page.start + index + 4 : page.start + index + 1;
+      const animationClass = isFirstPage ? "animated-pop" : "fade-in-up";
+      const delay = isFirstPage ? Math.min((index + 3) * 60, 400) : Math.min(index * 20, 200);
+
+      return (
+        <div class={animationClass} style={`animation-delay: ${delay}ms`}>
+          <a href={`/users/${contributor.username}`} class="contributor-card">
+            <div class="rank">#{realRank}</div>
+            <img src={`https://github.com/${contributor.username}.png?size=120`} alt={contributor.username} loading="lazy" />
+            <div class="info">
+              <h2>{contributor.username}</h2>
+              <div class="stats">
+                <span>Score: {contributor.stats.score}</span>
+                <span>PRs: {contributor.stats.mergedPrs}</span>
+                <span>Reviews: {contributor.stats.reviews}</span>
+                <span>Issues: {contributor.stats.issuesLinked}</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      );
+    })}
+  </div>
+
+  <div class={isFirstPage ? "pagination animated-pop" : "pagination fade-in-up"} style={`animation-delay: ${isFirstPage ? '400ms' : '200ms'}`}>
+    {page.url.prev ? <a href={page.url.prev} class="btn">Previous</a> : <span class="btn disabled">Previous</span>}
+    <span class="page-indicator">Page {page.currentPage} of {page.lastPage}</span>
+    {page.url.next ? <a href={page.url.next} class="btn">Next</a> : <span class="btn disabled">Next</span>}
+  </div>
+</div>
+
+<style>
+  .leaderboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .podium-card, .contributor-card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+
+  .podium-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+  }
+
+  .contributor-card:hover {
+    transform: translateX(4px);
+    border-color: rgba(255,255,255,0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .podium-container {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 1fr;
+    align-items: end;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+  }
+
+  .podium-position {
+    width: 100%;
+  }
+  .podium-position.rank-1 { grid-column: 2; grid-row: 1; transform: translateY(-2rem) scale(1.05); z-index: 3; }
+  .podium-position.rank-2 { grid-column: 1; grid-row: 1; transform: translateY(1.5rem); z-index: 2; }
+  .podium-position.rank-3 { grid-column: 3; grid-row: 1; transform: translateY(3rem); z-index: 1; }
+
+  .podium-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background: var(--card-bg, #1e1e1e);
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--card-border, #333);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+
+  .podium-card.card-1 { border-color: rgba(251, 191, 36, 0.4); background: linear-gradient(180deg, rgba(251, 191, 36, 0.08) 0%, var(--card-bg, #1e1e1e) 100%); }
+  .podium-card.card-2 { border-color: rgba(203, 213, 225, 0.4); background: linear-gradient(180deg, rgba(203, 213, 225, 0.08) 0%, var(--card-bg, #1e1e1e) 100%); }
+  .podium-card.card-3 { border-color: rgba(217, 119, 6, 0.4); background: linear-gradient(180deg, rgba(217, 119, 6, 0.08) 0%, var(--card-bg, #1e1e1e) 100%); }
+
+  .podium-card .rank {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--text-color);
+    opacity: 0.9;
+    margin-bottom: 1rem;
+    font-family: var(--font-mono);
+  }
+
+  .avatar-wrapper {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+
+  .decor {
+    position: absolute;
+    z-index: 10;
+  }
+
+  .decor-gold {
+    top: -42px;
+    right: 14px;
+    width: 54px;
+    height: 54px;
+    transform: rotate(8deg);
+    color: #FBBF24;
+    filter: drop-shadow(0 4px 12px rgba(251, 191, 36, 0.5));
+  }
+
+  .decor-silver {
+    top: -32px;
+    left: 4px;
+    width: 46px;
+    height: 46px;
+    transform: rotate(-22deg);
+    color: #CBD5E1;
+    filter: drop-shadow(0 4px 12px rgba(203, 213, 225, 0.4));
+  }
+
+  .decor-bronze {
+    top: -26px;
+    right: 8px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(22deg);
+    color: #D97706;
+    filter: drop-shadow(0 4px 12px rgba(217, 119, 6, 0.5));
+  }
+
+  .podium-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--card-bg, #1e1e1e);
+    position: relative;
+    z-index: 5;
+  }
+
+  .podium-card .info h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    color: var(--text-color);
+  }
+
+  .rest-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contributor-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: var(--card-bg, #1e1e1e);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--card-border, #333);
+    box-shadow: 0 1px 2px var(--shadow-color, rgba(0,0,0,0.1));
+  }
+
+  .contributor-card .rank {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-muted, #888);
+    min-width: 3rem;
+  }
+
+  .contributor-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .contributor-card .info h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    color: var(--text-color);
+  }
+
+  .contributor-card .stats, .podium-card .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-color);
+  }
+
+  .podium-card .stats {
+    justify-content: center;
+  }
+
+  .stats span {
+    background: var(--tag-bg, #2a2a2a);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .pagination .btn {
+    padding: 0.75rem 1.5rem;
+    background: var(--card-bg, #1e1e1e);
+    border: 1px solid var(--card-border, #333);
+    border-radius: 0.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+
+  .pagination .btn:hover:not(.disabled) {
+    background: var(--tag-bg, #2a2a2a);
+  }
+
+  .pagination .disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .page-indicator {
+    font-size: 0.95rem;
+    color: var(--text-muted, #888);
+    font-weight: 500;
+  }
+
+  .animated-pop {
+    opacity: 0;
+    animation: pop-in 0.8s cubic-bezier(0.16, 0.3, 0.3, 1) forwards;
+    will-change: transform, opacity;
+  }
+
+  .fade-in-up {
+    opacity: 0;
+    animation: fade-in-up 0.5s ease-out forwards;
+    will-change: transform, opacity;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animated-pop, .fade-in-up {
+      animation: none;
+      opacity: 1;
+    }
+  }
+
+  @keyframes pop-in {
+    from { transform: translate3d(0, 20px, 0) scale(0.96); opacity: 0; }
+    50% { transform: translate3d(0, -6px, 0) scale(1.02); opacity: 1; }
+    70% { transform: translate3d(0, 2px, 0) scale(0.998); opacity: 1; }
+    to { transform: translate3d(0, 0, 0) scale(1); opacity: 1; }
+  }
+
+  @keyframes fade-in-up {
+    from { transform: translateY(15px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  @media (max-width: 768px) {
+    .podium-container {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    .podium-position.rank-1, .podium-position.rank-2, .podium-position.rank-3 {
+      grid-column: 1;
+      grid-row: auto;
+      transform: none;
+    }
+    .podium-position.rank-1 { order: 1; }
+    .podium-position.rank-2 { order: 2; }
+    .podium-position.rank-3 { order: 3; }
+  }
+</style>

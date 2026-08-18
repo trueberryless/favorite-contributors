@@ -1,0 +1,70 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import SearchableList from "../../components/SearchableList.astro";
+import type { Repository } from "../../content.config";
+
+const repositories: { data: Repository }[] = await getCollection("repositories");
+
+const items = repositories.map((repo) => {
+  const [org, repoName] = repo.data.id.split("/");
+  const statsList = Object.values(repo.data.stats);
+  const totalScore = statsList.reduce((acc, curr) => acc + (curr.score || 0), 0);
+  const totalPrs = statsList.reduce((acc, curr) => acc + curr.mergedPrs, 0);
+  const totalReviews = statsList.reduce((acc, curr) => acc + curr.reviews, 0);
+  const totalReviewsReceived = statsList.reduce((acc, curr) => acc + curr.reviewsReceived, 0);
+  const totalIssues = statsList.reduce((acc, curr) => acc + curr.issuesLinked, 0);
+  const totalReactions = statsList.reduce((acc, curr) => acc + curr.reactions, 0);
+
+  return {
+    name: repoName,
+    subName: org,
+    href: `/repositories/${org}/${repoName}`,
+    avatarUrl: `https://github.com/${org}.png?size=120`,
+    stats: {
+      score: totalScore,
+      mergedPrs: totalPrs,
+      reviews: totalReviews,
+      reviewsReceived: totalReviewsReceived,
+      issuesLinked: totalIssues,
+      reactions: totalReactions,
+    },
+  };
+}).sort((a, b) => b.stats.score - a.stats.score);
+---
+
+<Layout title="Repositories Overview - Global Leaderboard">
+  <main class="overview-container">
+    <div class="overview-header fade-in">
+      <h1>All Repositories</h1>
+      <p class="subtitle">Search and explore all tracked repositories</p>
+    </div>
+    <div class="fade-in" style="animation-delay: 100ms;">
+      <SearchableList items={items} placeholder="Search repositories..." />
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .overview-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+  .overview-header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  .overview-header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+    color: var(--text-color);
+    letter-spacing: -0.02em;
+  }
+  .subtitle {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin: 0;
+  }
+</style>

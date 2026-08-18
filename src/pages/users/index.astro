@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import SearchableList from "../../components/SearchableList.astro";
+import type { Contributor } from "../../content.config";
+
+const contributors: { data: Contributor }[] = await getCollection("contributors");
+
+const items = contributors
+  .map((c) => ({
+    name: c.data.username,
+    href: `/users/${c.data.username}`,
+    avatarUrl: `https://github.com/${c.data.username}.png?size=120`,
+    stats: c.data.aggregatedStats,
+  }))
+  .sort((a, b) => b.stats.score - a.stats.score);
+---
+
+<Layout title="Users Overview - Global Leaderboard">
+  <main class="overview-container">
+    <div class="overview-header fade-in">
+      <h1>All Users</h1>
+      <p class="subtitle">Search and explore all participating contributors</p>
+    </div>
+    <div class="fade-in" style="animation-delay: 100ms;">
+      <SearchableList items={items} placeholder="Search users..." />
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .overview-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+  .overview-header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  .overview-header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+    color: var(--text-color);
+    letter-spacing: -0.02em;
+  }
+  .subtitle {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin: 0;
+  }
+</style>

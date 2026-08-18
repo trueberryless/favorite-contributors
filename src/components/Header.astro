@@ -1,0 +1,72 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+
+const pathname = new URL(Astro.request.url).pathname;
+const isActive = (path: string) => pathname === path || (path !== '/' && pathname.startsWith(path));
+---
+
+<header class="site-header">
+  <div class="header-content">
+    <nav class="nav-links">
+      <a href="/" class={isActive('/') && pathname === '/' ? 'active' : ''}>Home</a>
+      <a href="/organisations" class={isActive('/organisations') ? 'active' : ''}>Organisations</a>
+      <a href="/repositories" class={isActive('/repositories') ? 'active' : ''}>Repositories</a>
+      <a href="/users" class={isActive('/users') ? 'active' : ''}>Users</a>
+    </nav>
+    <div class="header-actions">
+      <ThemeToggle />
+    </div>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--card-border);
+    position: sticky;
+    top: 0;
+    height: var(--header-height);
+    z-index: 100;
+    backdrop-filter: blur(8px);
+    background-color: color-mix(in srgb, var(--card-bg) 85%, transparent);
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.15s ease;
+    white-space: nowrap;
+  }
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: var(--text-color);
+  }
+  .header-actions {
+    display: flex;
+    align-items: center;
+  }
+  @media (max-width: 640px) {
+    .header-content {
+      padding: 0.75rem 1rem;
+    }
+    .nav-links {
+      gap: 1rem;
+    }
+  }
+</style>

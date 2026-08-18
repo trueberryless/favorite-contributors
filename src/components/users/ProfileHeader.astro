@@ -1,0 +1,77 @@
+---
+export interface Props {
+  username: string;
+  rank: number;
+  lastUpdated: string | Date;
+}
+
+const { username, rank, lastUpdated } = Astro.props;
+---
+
+<header class="profile-header fade-in">
+  <div class="user-identity">
+    <img src={`https://github.com/${username}.png?size=240`} alt={username} />
+    <div class="user-titles">
+      <h1>{username}</h1>
+      <div class="badges">
+        <span class="badge rank-badge">Global Rank: #{rank}</span>
+        <span class="badge date-badge">Updated: {new Date(lastUpdated).toLocaleDateString()}</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+  .profile-header {
+    margin-bottom: 3rem;
+  }
+  .user-identity {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .user-identity img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--card-border);
+  }
+  .user-titles h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.75rem 0;
+    color: var(--text-color);
+    letter-spacing: -0.02em;
+  }
+  .badges {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .badge {
+    background: var(--tag-bg);
+    color: var(--accent-color);
+    padding: 0.35rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .badge.date-badge {
+    color: var(--text-muted);
+    background: transparent;
+    border: 1px solid var(--card-border);
+  }
+  @media (max-width: 768px) {
+    .user-identity {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+    }
+    .badges {
+      justify-content: center;
+    }
+  }
+</style>

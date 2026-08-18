@@ -1,0 +1,125 @@
+---
+export interface Props {
+  orgStats: Record<string, {
+    score: number;
+    mergedPrs: number;
+    reviews: number;
+  }>;
+}
+
+const { orgStats } = Astro.props;
+---
+
+<section class="org-section fade-in" style="animation-delay: 200ms;">
+  <div class="section-heading">Organizations Overview</div>
+  <div class="org-grid">
+    {Object.entries(orgStats)
+      .sort((a, b) => b[1].score - a[1].score)
+      .map(([org, stat]) => (
+      <a href={`/organisations/${org}`} class="org-card">
+        <h3>{org}</h3>
+        <div class="org-metrics">
+          <div class="metric"><span class="mlbl">Score</span><span class="mval">{stat.score.toLocaleString()}</span></div>
+          <div class="metric"><span class="mlbl">PRs</span><span class="mval">{stat.mergedPrs.toLocaleString()}</span></div>
+          <div class="metric"><span class="mlbl">Reviews</span><span class="mval">{stat.reviews.toLocaleString()}</span></div>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .org-section {
+    margin-bottom: 4rem;
+  }
+  .section-heading {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section-heading::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: var(--card-border);
+    opacity: 0.5;
+  }
+  .org-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+  .org-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 1rem;
+    padding: 1.25rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    overflow: hidden;
+  }
+  .org-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px var(--shadow-color);
+  }
+  .org-card h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    color: var(--text-color);
+    font-weight: 700;
+    word-break: break-word;
+    transition: color 0.15s ease;
+  }
+  .org-card:hover h3 {
+    color: var(--accent-color);
+  }
+  .org-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+  .metric {
+    display: flex;
+    flex-direction: column;
+  }
+  .mlbl {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+  .mval {
+    font-size: clamp(1.1rem, 4vw, 1.25rem);
+    color: var(--text-color);
+    font-family: var(--font-mono);
+    font-weight: 500;
+    word-break: break-word;
+  }
+
+  @media (min-width: 640px) {
+    .org-grid {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.25rem;
+    }
+    .org-card {
+      padding: 1.5rem;
+    }
+    .org-card h3 {
+      margin-bottom: 1.25rem;
+    }
+    .org-metrics {
+      gap: 2rem;
+    }
+  }
+</style>

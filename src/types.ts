@@ -9,9 +9,8 @@ export interface Stats {
 
 export interface Entity {
   id: string;
-  createdAt: string;
   updatedAt: string | null;
-  stats: Record<string, Omit<Stats, "score">>;
+  stats: Record<string, Stats>;
 }
 
 export type Organisation = Entity;

@@ -1,0 +1,187 @@
+---
+export interface Props {
+  repoStats: Record<string, Record<string, {
+    score: number;
+    mergedPrs: number;
+    reviews: number;
+    reviewsReceived: number;
+    issuesLinked: number;
+    reactions: number;
+  }>>;
+}
+
+const { repoStats } = Astro.props;
+---
+
+<section class="repo-section fade-in" style="animation-delay: 300ms;">
+  <div class="section-heading">Repository Breakdown</div>
+  <div class="repo-groups">
+    {Object.entries(repoStats).map(([org, repos]) => (
+      <div class="org-repo-group">
+        <h3 class="org-repo-title">{org}</h3>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th class="repo-name-col">Repository</th>
+                <th>Score</th>
+                <th>PRs</th>
+                <th>Reviews</th>
+                <th class="hidden-mobile">Issues</th>
+                <th class="hidden-mobile">Reactions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {Object.entries(repos)
+                .sort((a, b) => b[1].score - a[1].score)
+                .map(([repo, stat]) => (
+                <tr class="repo-row">
+                  <td class="repo-name-col">
+                    <a href={`/repositories/${org}/${repo}`} class="repo-link">{repo}</a>
+                  </td>
+                  <td class="stat-highlight">{stat.score.toLocaleString()}</td>
+                  <td>{stat.mergedPrs.toLocaleString()}</td>
+                  <td>{stat.reviews.toLocaleString()}</td>
+                  <td class="hidden-mobile">{stat.issuesLinked.toLocaleString()}</td>
+                  <td class="hidden-mobile">{stat.reactions.toLocaleString()}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .repo-section {
+    margin-bottom: 4rem;
+  }
+  .section-heading {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section-heading::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: var(--card-border);
+    opacity: 0.5;
+  }
+  .org-repo-group {
+    margin-bottom: 2rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    overflow: clip;
+  }
+  .org-repo-title {
+    margin: 0;
+    padding: 1rem 1.25rem;
+    background: transparent;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 700;
+    border-bottom: 1px solid var(--card-border);
+    word-break: break-word;
+  }
+  .table-container {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: right;
+    margin-bottom: -1px;
+  }
+  th, td {
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+  }
+  th {
+    position: sticky;
+    top: var(--header-height);
+    z-index: 10;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    background: var(--card-bg);
+    box-shadow: inset 0 -1px 0 var(--card-border);
+  }
+  td {
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    border-bottom: 1px solid var(--card-border);
+    color: var(--text-color);
+    transition: background 0.15s;
+  }
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 1rem;
+  }
+  tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 1rem;
+  }
+
+  .repo-row {
+    position: relative;
+  }
+  .repo-row:hover td {
+    background: var(--hover-bg);
+  }
+  .repo-link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: inherit;
+  }
+  .repo-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+  .repo-row:hover .repo-link {
+    color: var(--accent-color);
+  }
+
+  .repo-name-col {
+    text-align: left;
+    font-family: var(--font-sans);
+    color: var(--text-color);
+    font-weight: 600;
+  }
+  .stat-highlight {
+    color: var(--accent-color);
+    font-weight: 600;
+  }
+
+  @media (min-width: 640px) {
+    .org-repo-title {
+      padding: 1.25rem 1.5rem;
+    }
+    th, td {
+      padding: 1rem 1.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hidden-mobile {
+      display: none;
+    }
+  }
+</style>

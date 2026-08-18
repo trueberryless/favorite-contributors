@@ -1,0 +1,256 @@
+---
+import type { Stats } from "../content.config";
+
+export interface Item {
+  name: string;
+  subName?: string;
+  href: string;
+  avatarUrl?: string;
+  stats: Stats;
+}
+
+export interface Props {
+  items: Item[];
+  placeholder?: string;
+}
+
+const { items, placeholder = "Search..." } = Astro.props;
+---
+
+<div class="searchable-container" id="search-component" data-items={JSON.stringify(items)}>
+  <div class="search-bar-wrapper">
+    <div class="search-input-container">
+      <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input
+        type="text"
+        id="search-input"
+        placeholder={placeholder}
+        autocomplete="off"
+      />
+      <button id="clear-search" class="clear-btn" aria-label="Clear search" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="results-list" class="results-container">
+    {items.map((item, index) => (
+      <a href={item.href} class="contributor-card item-row" data-name={item.name.toLowerCase()}>
+        <div class="rank">#{index + 1}</div>
+        {item.avatarUrl && (
+          <img src={item.avatarUrl} alt={item.name} loading="lazy" />
+        )}
+        <div class="info">
+          <h2>{item.subName && <span class="sub-name">{item.subName} /</span>} {item.name}</h2>
+          <div class="stats">
+            <span>Score: {item.stats.score.toLocaleString()}</span>
+            <span>PRs: {item.stats.mergedPrs.toLocaleString()}</span>
+            <span>Reviews: {item.stats.reviews.toLocaleString()}</span>
+            <span>Issues: {item.stats.issuesLinked.toLocaleString()}</span>
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+
+  <div id="no-results" class="no-results" style="display: none;">
+    <p>No results found</p>
+  </div>
+</div>
+
+<script>
+  const container = document.getElementById('search-component');
+  if (container) {
+    const input = document.getElementById('search-input') as HTMLInputElement;
+    const clearBtn = document.getElementById('clear-search') as HTMLButtonElement;
+    const rows = container.querySelectorAll('.item-row') as NodeListOf<HTMLElement>;
+    const noResults = document.getElementById('no-results') as HTMLElement;
+
+    const filterItems = () => {
+      const query = input.value.toLowerCase().trim();
+      let visibleCount = 0;
+
+      if (query.length > 0) {
+        clearBtn.style.display = 'flex';
+      } else {
+        clearBtn.style.display = 'none';
+      }
+
+      rows.forEach((row) => {
+        const name = row.getAttribute('data-name') || '';
+        if (name.includes(query)) {
+          row.style.display = 'flex';
+          visibleCount++;
+        } else {
+          row.style.display = 'none';
+        }
+      });
+
+      if (visibleCount === 0) {
+        noResults.style.display = 'block';
+      } else {
+        noResults.style.display = 'none';
+      }
+    };
+
+    input.addEventListener('input', filterItems);
+
+    clearBtn.addEventListener('click', () => {
+      input.value = '';
+      filterItems();
+      input.focus();
+    });
+  }
+</script>
+
+<style>
+  .searchable-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .search-bar-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .search-input-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    color: var(--text-muted);
+    pointer-events: none;
+  }
+
+  #search-input {
+    width: 100%;
+    padding: 0.85rem 2.5rem 0.85rem 3rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 0.75rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-family: inherit;
+    box-shadow: 0 2px 6px var(--shadow-color);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  #search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color) 20%, transparent);
+  }
+
+  .clear-btn {
+    position: absolute;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    border-radius: 50%;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .clear-btn:hover {
+    background: var(--tag-bg);
+    color: var(--text-color);
+  }
+
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contributor-card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: var(--card-bg);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 1px 2px var(--shadow-color);
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+
+  .contributor-card:hover {
+    transform: translateX(4px);
+    border-color: color-mix(in srgb, var(--accent-color) 50%, var(--card-border));
+    box-shadow: 0 4px 12px var(--shadow-color);
+  }
+
+  .rank {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-muted);
+    min-width: 3rem;
+  }
+
+  .contributor-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: var(--tag-bg);
+    border: 1px solid var(--card-border);
+  }
+
+  .info h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    color: var(--text-color);
+  }
+
+  .sub-name {
+    color: var(--text-muted);
+    font-weight: normal;
+  }
+
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-color);
+  }
+
+  .stats span {
+    background: var(--tag-bg);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+  }
+</style>

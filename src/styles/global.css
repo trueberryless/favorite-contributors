@@ -1,0 +1,48 @@
+:root {
+  --bg-color: #eff1f5;
+  --text-color: #4c4f69;
+  --card-bg: #ffffff;
+  --card-border: #ccd0da;
+  --text-muted: #8c8fa1;
+  --tag-bg: #e6e9ef;
+  --shadow-color: rgba(76, 79, 105, 0.05);
+  --accent-color: #df8e1d;
+  --accent-text: #eff1f5;
+  --hover-bg: #e6e9ef;
+  --primary-gradient: linear-gradient(135deg, #df8e1d, #fe640b);
+
+  --header-height: 4.5rem;
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root[data-theme="dark"] {
+  --bg-color: #11111b;
+  --text-color: #cdd6f4;
+  --card-bg: #1e1e2e;
+  --card-border: #313244;
+  --text-muted: #a6adc8;
+  --tag-bg: #313244;
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  --accent-color: #f9e2af;
+  --accent-text: #11111b;
+  --hover-bg: #313244;
+  --primary-gradient: linear-gradient(135deg, #f9e2af, #fab387);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
