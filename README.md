@@ -1,5 +1,6 @@
 # Favorite contributors
 
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/25c8109c-8671-4e7b-958e-cdabfdc65170/deploy-status)](https://app.netlify.com/projects/favorite-contributors/deploys)
 
 This is a little fun Astro project I built because I really like to play around with GitHub data in some ways -- especially if it involves GitHub Actions.
