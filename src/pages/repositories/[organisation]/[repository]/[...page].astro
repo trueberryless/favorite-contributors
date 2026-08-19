@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 import Layout from "../../../../layouts/Layout.astro";
 import RepositoryHeader from "../../../../components/repositories/RepositoryHeader.astro";
 import Leaderboard from "../../../../components/Leaderboard.astro";
-import type { Repository } from "../../../../content.config";
+import type { Repository } from "../../../../schema";
 
 export const getStaticPaths = (async ({ paginate }) => {
   const repositories: { data: Repository }[] = await getCollection("repositories");

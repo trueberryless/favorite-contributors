@@ -1,43 +1,29 @@
 import { defineCollection } from "astro:content";
-import { z } from "astro/zod";
 import { glob } from "astro/loaders";
+import { contributorSchema, entitySchema } from "./schema";
 
-export const statsSchema = z.object({
-  score: z.number(),
-  mergedPrs: z.number(),
-  reviews: z.number(),
-  reviewsReceived: z.number(),
-  issuesLinked: z.number(),
-  reactions: z.number(),
-});
-
-export const entitySchema = z.object({
-  id: z.string(),
-  updatedAt: z.string().nullable(),
-  stats: z.record(z.string(), statsSchema),
-});
-
-export const contributorSchema = z.object({
-  username: z.string(),
-  lastUpdated: z.string(),
-  aggregatedStats: statsSchema,
-  orgStats: z.record(z.string(), statsSchema),
-  repoStats: z.record(z.string(), z.record(z.string(), statsSchema)),
-});
-
-export type Stats = z.infer<typeof statsSchema>;
-export type Entity = z.infer<typeof entitySchema>;
-export type Organisation = Entity;
-export type Repository = Entity;
-export type Contributor = z.infer<typeof contributorSchema>;
+const filteredGlob = (options: Parameters<typeof glob>[0]) => {
+  const loader = glob(options);
+  return {
+    ...loader,
+    async load(context: any) {
+      const originalSet = context.store.set;
+      context.store.set = (entry: any) => {
+        if (entry.data && entry.data.updatedAt === null) return;
+        return originalSet(entry);
+      };
+      await loader.load(context);
+    },
+  };
+};
 
 const organisations = defineCollection({
-  loader: glob({ pattern: "*.json", base: "./data/organisations" }),
+  loader: filteredGlob({ pattern: "*.json", base: "./data/organisations" }),
   schema: entitySchema,
 });
 
 const repositories = defineCollection({
-  loader: glob({ pattern: "**/*.json", base: "./data/repositories" }),
+  loader: filteredGlob({ pattern: "**/*.json", base: "./data/repositories" }),
   schema: entitySchema,
 });
 

@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import SearchableList from "../../components/SearchableList.astro";
-import type { Contributor } from "../../content.config";
+import type { Contributor } from "../../schema";
 
 const contributors: { data: Contributor }[] = await getCollection("contributors");
 

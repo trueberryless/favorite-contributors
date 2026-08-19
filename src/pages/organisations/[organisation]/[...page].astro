@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import OrganisationHeader from "../../../components/organisations/OrganisationHeader.astro";
 import Leaderboard from "../../../components/Leaderboard.astro";
-import type { Organisation } from "../../../content.config";
+import type { Organisation } from "../../../schema";
 
 export const getStaticPaths = (async ({ paginate }) => {
   const organisations: { data: Organisation }[] = await getCollection("organisations");

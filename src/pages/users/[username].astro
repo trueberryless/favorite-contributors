@@ -5,7 +5,7 @@ import ProfileHeader from "../../components/users/ProfileHeader.astro";
 import GlobalStats from "../../components/users/GlobalStats.astro";
 import OrgStats from "../../components/users/OrganisationStats.astro";
 import RepoStats from "../../components/users/RepositoryStats.astro";
-import type { Contributor } from "../../content.config";
+import type { Contributor } from "../../schema";
 
 export async function getStaticPaths() {
   const contributors: { data: Contributor }[] = await getCollection("contributors");
