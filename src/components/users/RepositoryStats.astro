@@ -16,7 +16,13 @@ const { repoStats } = Astro.props;
 <section class="repo-section fade-in" style="animation-delay: 300ms;">
   <div class="section-heading">Repository Breakdown</div>
   <div class="repo-groups">
-    {Object.entries(repoStats).map(([org, repos]) => (
+    {Object.entries(repoStats)
+      .sort((a, b) => {
+        const scoreA = Object.values(a[1]).reduce((acc, repo) => acc + repo.score, 0);
+        const scoreB = Object.values(b[1]).reduce((acc, repo) => acc + repo.score, 0);
+        return scoreB - scoreA;
+      })
+      .map(([org, repos]) => (
       <div class="org-repo-group">
         <h3 class="org-repo-title">{org}</h3>
         <div class="table-container">
