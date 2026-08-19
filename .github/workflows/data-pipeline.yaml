@@ -157,6 +157,8 @@ jobs:
             echo "_No contributor profiles were updated in this run._" >> $GITHUB_STEP_SUMMARY
           fi
 
+          rm -f all_changes.txt org_changes.txt repo_changes.txt contrib_changes.txt
+
       - name: Commit aggregated data per org
         run: |
           git config user.name "github-actions[bot]"
@@ -174,5 +176,7 @@ jobs:
 
       - name: Push changes
         run: |
+          git reset --hard HEAD
+          git clean -fd
           git pull --rebase origin main
           git push origin main
