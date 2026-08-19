@@ -1,7 +1,7 @@
 import { readdir, readFile, appendFile } from "node:fs/promises";
 import { resolve, join } from "node:path";
-import type { Organisation } from "../../src/types.ts";
-import { MAX_MATRIX_SIZE } from "../utils/consts.ts";
+import type { Organisation } from "../src/types.ts";
+import { MAX_MATRIX_SIZE } from "./utils/consts.ts";
 
 const ORGS_DIR = resolve("./data/organisations");
 
@@ -20,9 +20,10 @@ const main = async (): Promise<void> => {
 
   const filteredOrgs = organisations
     .sort((a, b) => {
-      const aTime = a.updatedAt ? new Date(a.updatedAt).getTime() : 0;
-      const bTime = b.updatedAt ? new Date(b.updatedAt).getTime() : 0;
-      return aTime - bTime;
+      if (!a.updatedAt && !b.updatedAt) return 0;
+      if (!a.updatedAt) return -1;
+      if (!b.updatedAt) return 1;
+      return new Date(a.updatedAt).getTime() - new Date(b.updatedAt).getTime();
     })
     .slice(0, MAX_MATRIX_SIZE)
     .map((entry) => entry.id);

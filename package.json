@@ -11,10 +11,9 @@
     "lint": "vp lint",
     "format": "vp fmt",
     "check": "vp check",
+    "preparation": "node --env-file-if-exists=.env scripts/preparation.ts",
     "aggregation": "node --env-file-if-exists=.env scripts/aggregation.ts",
-    "contributions": "node --env-file-if-exists=.env scripts/contributions.ts",
-    "action:aggregation-preparation": "node --env-file-if-exists=.env scripts/workflows/aggregation-preparation.ts",
-    "action:pr-manager": "node --env-file-if-exists=.env scripts/workflows/pr-manager.ts"
+    "contributions": "node --env-file-if-exists=.env scripts/contributions.ts"
   },
   "dependencies": {
     "@octokit/core": "^7.0.7",
