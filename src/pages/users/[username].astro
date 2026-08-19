@@ -17,6 +17,7 @@ export async function getStaticPaths() {
   return ranked.map((contributor, index) => ({
     params: { username: contributor.data.username },
     props: { contributor: contributor.data, rank: index + 1 },
+    cacheKey: `${contributor.data.lastUpdated}-${index + 1}`,
   }));
 }
 

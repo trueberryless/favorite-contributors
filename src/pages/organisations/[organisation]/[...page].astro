@@ -24,7 +24,7 @@ export const getStaticPaths = (async ({ paginate }) => {
       }))
       .sort((a, b) => b.stats.score - a.stats.score);
 
-    return paginate(contributors, {
+    const paginatedPaths = paginate(contributors, {
       params: { organisation: organisation.data.id },
       props: {
         organisationData: organisation.data,
@@ -32,6 +32,11 @@ export const getStaticPaths = (async ({ paginate }) => {
       },
       pageSize: 50,
     });
+
+    return paginatedPaths.map((path) => ({
+      ...path,
+      cacheKey: String(organisation.data.updatedAt),
+    }));
   });
 }) satisfies GetStaticPaths;
 

@@ -15,7 +15,16 @@ export const getStaticPaths = (async ({ paginate }) => {
     }))
     .sort((a, b) => b.stats.score - a.stats.score);
 
-  return paginate(ranked, { pageSize: 50 });
+  const latestUpdate = Math.max(
+    ...contributors.map((c) => new Date(c.data.lastUpdated).getTime())
+  );
+
+  const paginatedPaths = paginate(ranked, { pageSize: 50 });
+
+  return paginatedPaths.map((path) => ({
+    ...path,
+    cacheKey: String(latestUpdate),
+  }));
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
