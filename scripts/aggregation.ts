@@ -150,17 +150,6 @@ const main = async (): Promise<void> => {
   }
 
   const orgFilePath = join(ORGS_DIR, `${orgName}.json`);
-  let orgEntry: Organisation;
-  try {
-    orgEntry = await readJson<Organisation>(orgFilePath);
-  } catch (error) {
-    console.error(
-      pc.red(`✖ Error: Could not read organisation file for '${orgName}' at ${orgFilePath}.`),
-      error,
-    );
-    process.exit(1);
-  }
-
   const orgReposDir = join(REPOS_DIR, orgName);
   await mkdir(orgReposDir, { recursive: true });
 
@@ -465,7 +454,6 @@ const main = async (): Promise<void> => {
 
       if (JSON.stringify(orgData.stats) !== JSON.stringify(sortedOrgStats)) {
         orgData.stats = sortedOrgStats;
-        orgData.updatedAt = new Date().toISOString();
         await writeJson<Organisation>(orgFilePath, orgData);
       }
 
@@ -477,6 +465,11 @@ const main = async (): Promise<void> => {
   });
 
   dashboard.stop();
+
+  const finalOrgData = await readJson<Organisation>(orgFilePath);
+  finalOrgData.updatedAt = new Date().toISOString();
+  await writeJson<Organisation>(orgFilePath, finalOrgData);
+
   console.log(pc.green(`\n✨ Successfully completed optimal aggregation for ${orgName}.`));
 };
 
