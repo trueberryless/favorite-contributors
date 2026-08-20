@@ -37,6 +37,7 @@ const isActive = (path: string) => pathname === path || (path !== '/' && pathnam
     padding: 1rem 1.5rem;
     max-width: 1000px;
     margin: 0 auto;
+    height: 100%;
   }
   .nav-links {
     display: flex;
@@ -63,7 +64,7 @@ const isActive = (path: string) => pathname === path || (path !== '/' && pathnam
   }
   @media (max-width: 640px) {
     .header-content {
-      padding: 0.75rem 1rem;
+      padding: 0 1rem;
     }
     .nav-links {
       gap: 1rem;
