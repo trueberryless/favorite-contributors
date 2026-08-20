@@ -65,8 +65,9 @@ const repository = Astro.params.repository;
 <style>
   .repository-container {
     max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    padding: 3rem 1.5rem;
+    padding: 1.5rem 1rem;
   }
   .section-heading {
     font-size: 0.85rem;
@@ -85,5 +86,11 @@ const repository = Astro.params.repository;
     flex: 1;
     background: var(--card-border);
     opacity: 0.5;
+  }
+
+  @media (min-width: 768px) {
+    .repository-container {
+      padding: 3rem 1.5rem;
+    }
   }
 </style>

@@ -219,12 +219,21 @@ const { items, placeholder = "Search..." } = Astro.props;
     object-fit: cover;
     background: var(--tag-bg);
     border: 1px solid var(--card-border);
+    flex-shrink: 0;
+  }
+
+  .info {
+    min-width: 0;
+    flex: 1;
   }
 
   .info h2 {
     margin: 0 0 0.5rem 0;
     font-size: 1.25rem;
     color: var(--text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .sub-name {
@@ -252,5 +261,51 @@ const { items, placeholder = "Search..." } = Astro.props;
     padding: 3rem;
     color: var(--text-muted);
     font-size: 1.1rem;
+  }
+
+  @media (max-width: 768px) {
+    .contributor-card {
+      display: grid;
+      grid-template-columns: max-content max-content 1fr;
+      align-items: center;
+      gap: 0.5rem 0.75rem;
+      padding: 1rem;
+    }
+
+    .info {
+      display: contents;
+    }
+
+    .rank {
+      font-size: 1.15rem;
+      min-width: 1.75rem;
+      margin: 0;
+    }
+
+    .contributor-card img {
+      width: 40px;
+      height: 40px;
+      margin: 0;
+    }
+
+    .info h2 {
+      font-size: 1.15rem;
+      margin: 0;
+    }
+
+    .stats {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.25rem;
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    .stats span {
+      padding: 0.2rem 0.4rem;
+      font-size: 0.75rem;
+    }
   }
 </style>

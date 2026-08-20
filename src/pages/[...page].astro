@@ -30,6 +30,15 @@ const { page } = Astro.props;
 <style>
   .container {
     max-width: 1000px;
-    margin: 3rem auto;
+    width: 100%;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
   }
 </style>

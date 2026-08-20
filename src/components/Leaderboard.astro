@@ -47,10 +47,10 @@ const rest = isFirstPage ? page.data.slice(3) : page.data;
                 <div class="info">
                   <h2>{contributor.username}</h2>
                   <div class="stats">
-                    <span>Score: {contributor.stats.score}</span>
-                    <span>PRs: {contributor.stats.mergedPrs}</span>
-                    <span>Reviews: {contributor.stats.reviews}</span>
-                    <span>Issues: {contributor.stats.issuesLinked}</span>
+                    <span>Score: {contributor.stats.score.toLocaleString()}</span>
+                    <span>PRs: {contributor.stats.mergedPrs.toLocaleString()}</span>
+                    <span>Reviews: {contributor.stats.reviews.toLocaleString()}</span>
+                    <span>Issues: {contributor.stats.issuesLinked.toLocaleString()}</span>
                   </div>
                 </div>
               </a>
@@ -75,10 +75,10 @@ const rest = isFirstPage ? page.data.slice(3) : page.data;
             <div class="info">
               <h2>{contributor.username}</h2>
               <div class="stats">
-                <span>Score: {contributor.stats.score}</span>
-                <span>PRs: {contributor.stats.mergedPrs}</span>
-                <span>Reviews: {contributor.stats.reviews}</span>
-                <span>Issues: {contributor.stats.issuesLinked}</span>
+                <span>Score: {contributor.stats.score.toLocaleString()}</span>
+                <span>PRs: {contributor.stats.mergedPrs.toLocaleString()}</span>
+                <span>Reviews: {contributor.stats.reviews.toLocaleString()}</span>
+                <span>Issues: {contributor.stats.issuesLinked.toLocaleString()}</span>
               </div>
             </div>
           </a>
@@ -244,7 +244,6 @@ const rest = isFirstPage ? page.data.slice(3) : page.data;
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--text-muted, #888);
-    min-width: 3rem;
   }
 
   .contributor-card img {
@@ -252,12 +251,21 @@ const rest = isFirstPage ? page.data.slice(3) : page.data;
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .contributor-card .info {
+    min-width: 0;
+    flex: 1;
   }
 
   .contributor-card .info h2 {
     margin: 0 0 0.5rem 0;
     font-size: 1.25rem;
     color: var(--text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .contributor-card .stats, .podium-card .stats {
@@ -348,6 +356,8 @@ const rest = isFirstPage ? page.data.slice(3) : page.data;
     .podium-container {
       grid-template-columns: 1fr;
       gap: 1.5rem;
+      padding-top: 1rem;
+      margin-bottom: 2rem;
     }
     .podium-position.rank-1, .podium-position.rank-2, .podium-position.rank-3 {
       grid-column: 1;
@@ -357,5 +367,95 @@ const rest = isFirstPage ? page.data.slice(3) : page.data;
     .podium-position.rank-1 { order: 1; }
     .podium-position.rank-2 { order: 2; }
     .podium-position.rank-3 { order: 3; }
+
+    .podium-card, .contributor-card {
+      display: grid;
+      grid-template-columns: max-content max-content 1fr;
+      align-items: center;
+      gap: 0.5rem 0.75rem;
+      text-align: left;
+    }
+
+    .podium-card {
+      padding: 1.25rem 1rem;
+    }
+
+    .contributor-card {
+      padding: 1rem;
+    }
+
+    .podium-card .info, .contributor-card .info {
+      display: contents;
+    }
+
+    .podium-card .rank {
+      font-size: 1.5rem;
+      margin: 0;
+      min-width: 2rem;
+    }
+
+    .contributor-card .rank {
+      font-size: 1.15rem;
+      margin: 0;
+      min-width: 1.75rem;
+    }
+
+    .avatar-wrapper {
+      width: 48px;
+      height: 48px;
+      margin: 0;
+    }
+
+    .contributor-card img {
+      width: 40px;
+      height: 40px;
+      margin: 0;
+    }
+
+    .podium-card .info h2, .contributor-card .info h2 {
+      font-size: 1.15rem;
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .podium-card .stats, .contributor-card .stats {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.25rem;
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    .stats span {
+      padding: 0.2rem 0.4rem;
+      font-size: 0.75rem;
+    }
+
+    .decor-gold {
+      top: -17px;
+      right: 7px;
+      width: 24px;
+      height: 24px;
+    }
+    .decor-silver {
+      top: -11px;
+      left: 3px;
+      width: 20px;
+      height: 20px;
+    }
+    .decor-bronze {
+      top: -7px;
+      right: 6px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .podium-card:hover {
+      transform: translateY(-4px);
+    }
   }
 </style>

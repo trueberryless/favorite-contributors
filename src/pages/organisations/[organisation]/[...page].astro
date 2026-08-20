@@ -57,8 +57,9 @@ const organisationId = Astro.params.organisation;
 <style>
   .organisation-container {
     max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    padding: 3rem 1.5rem;
+    padding: 1.5rem 1rem;
   }
   .section-heading {
     font-size: 0.85rem;
@@ -77,5 +78,11 @@ const organisationId = Astro.params.organisation;
     flex: 1;
     background: var(--card-border);
     opacity: 0.5;
+  }
+
+  @media (min-width: 768px) {
+    .organisation-container {
+      padding: 3rem 1.5rem;
+    }
   }
 </style>

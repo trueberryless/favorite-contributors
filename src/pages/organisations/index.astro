@@ -46,15 +46,16 @@ const items = organisations.map((org) => {
 <style>
   .overview-container {
     max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    padding: 3rem 1.5rem;
+    padding: 1.5rem 1rem;
   }
   .overview-header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   .overview-header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     margin: 0 0 0.5rem 0;
     color: var(--text-color);
@@ -62,7 +63,22 @@ const items = organisations.map((org) => {
   }
   .subtitle {
     color: var(--text-muted);
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    .overview-container {
+      padding: 3rem 1.5rem;
+    }
+    .overview-header {
+      margin-bottom: 2.5rem;
+    }
+    .overview-header h1 {
+      font-size: 2.5rem;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+    }
   }
 </style>

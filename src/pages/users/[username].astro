@@ -52,7 +52,14 @@ const { aggregatedStats, orgStats, repoStats } = contributor;
 <style>
   .profile-container {
     max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    padding: 3rem 1.5rem;
+    padding: 1.5rem 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .profile-container {
+      padding: 3rem 1.5rem;
+    }
   }
 </style>
