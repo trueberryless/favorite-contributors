@@ -25,7 +25,8 @@ const { repoStats } = Astro.props;
       .map(([org, repos]) => (
       <div class="org-repo-group">
         <h3 class="org-repo-title">{org}</h3>
-        <div class="table-container">
+
+        <div class="table-container desktop-only">
           <table>
             <thead>
               <tr>
@@ -33,8 +34,8 @@ const { repoStats } = Astro.props;
                 <th>Score</th>
                 <th>PRs</th>
                 <th>Reviews</th>
-                <th class="hidden-mobile">Issues</th>
-                <th class="hidden-mobile">Reactions</th>
+                <th>Issues</th>
+                <th>Reactions</th>
               </tr>
             </thead>
             <tbody>
@@ -48,17 +49,97 @@ const { repoStats } = Astro.props;
                   <td class="stat-highlight">{stat.score.toLocaleString()}</td>
                   <td>{stat.mergedPrs.toLocaleString()}</td>
                   <td>{stat.reviews.toLocaleString()}</td>
-                  <td class="hidden-mobile">{stat.issuesLinked.toLocaleString()}</td>
-                  <td class="hidden-mobile">{stat.reactions.toLocaleString()}</td>
+                  <td>{stat.issuesLinked.toLocaleString()}</td>
+                  <td>{stat.reactions.toLocaleString()}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+
+        <div class="accordion-container mobile-only">
+          {Object.entries(repos)
+            .sort((a, b) => b[1].score - a[1].score)
+            .map(([repo, stat]) => (
+            <details class="repo-accordion">
+              <summary class="repo-summary">
+                <span class="repo-name-mobile">{repo}</span>
+                <span class="repo-score-mobile">{stat.score.toLocaleString()}</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </summary>
+              <div class="repo-details-wrapper">
+                <div class="repo-details">
+                  <div class="stat-grid">
+                    <div class="stat-item">
+                      <span class="stat-label">PRs</span>
+                      <span class="stat-value">{stat.mergedPrs.toLocaleString()}</span>
+                    </div>
+                    <div class="stat-item">
+                      <span class="stat-label">Reviews</span>
+                      <span class="stat-value">{stat.reviews.toLocaleString()}</span>
+                    </div>
+                    <div class="stat-item">
+                      <span class="stat-label">Issues</span>
+                      <span class="stat-value">{stat.issuesLinked.toLocaleString()}</span>
+                    </div>
+                    <div class="stat-item">
+                      <span class="stat-label">Reactions</span>
+                      <span class="stat-value">{stat.reactions.toLocaleString()}</span>
+                    </div>
+                  </div>
+                  <a href={`/repositories/${org}/${repo}`} class="repo-action-button">Go to repo page</a>
+                </div>
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     ))}
   </div>
 </section>
+
+<script>
+  if (typeof window !== 'undefined') {
+    document.querySelectorAll('.repo-accordion').forEach(details => {
+      const summary = details.querySelector('.repo-summary');
+      const content = details.querySelector('.repo-details-wrapper') as HTMLElement;
+      let isAnimating = false;
+
+      if (summary && content) {
+        summary.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (isAnimating) return;
+          isAnimating = true;
+
+          if (details.hasAttribute('open')) {
+            content.style.height = `${content.offsetHeight}px`;
+            content.offsetHeight;
+            content.style.height = '0';
+
+            setTimeout(() => {
+              details.removeAttribute('open');
+              content.style.height = '';
+              isAnimating = false;
+            }, 200);
+          } else {
+            details.setAttribute('open', '');
+            const targetHeight = content.scrollHeight;
+            content.style.height = '0';
+            content.offsetHeight;
+            content.style.height = `${targetHeight}px`;
+
+            setTimeout(() => {
+              content.style.height = '';
+              isAnimating = false;
+            }, 200);
+          }
+        });
+      }
+    });
+  }
+</script>
 
 <style>
   .repo-section {
@@ -100,15 +181,31 @@ const { repoStats } = Astro.props;
     border-bottom: 1px solid var(--card-border);
     word-break: break-word;
   }
+
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: block;
+  }
+
   .table-container {
     width: 100%;
   }
   table {
     width: 100%;
+    min-width: 600px;
+    table-layout: fixed;
     border-collapse: separate;
     border-spacing: 0;
     text-align: right;
     margin-bottom: -1px;
+  }
+  th.repo-name-col {
+    width: 35%;
+  }
+  th:not(.repo-name-col) {
+    width: 13%;
   }
   th, td {
     padding: 0.75rem 1rem;
@@ -137,13 +234,6 @@ const { repoStats } = Astro.props;
     border-bottom: none;
   }
 
-  tbody tr:last-child td:first-child {
-    border-bottom-left-radius: 1rem;
-  }
-  tbody tr:last-child td:last-child {
-    border-bottom-right-radius: 1rem;
-  }
-
   .repo-row {
     position: relative;
   }
@@ -164,16 +254,115 @@ const { repoStats } = Astro.props;
   .repo-row:hover .repo-link {
     color: var(--accent-color);
   }
-
   .repo-name-col {
     text-align: left;
     font-family: var(--font-sans);
     color: var(--text-color);
     font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .stat-highlight {
     color: var(--accent-color);
     font-weight: 600;
+  }
+
+  .repo-accordion {
+    border-bottom: 1px solid var(--card-border);
+  }
+  .repo-accordion:last-child {
+    border-bottom: none;
+  }
+  .repo-summary {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    background: var(--card-bg);
+    transition: background 0.15s;
+  }
+  .repo-summary::-webkit-details-marker {
+    display: none;
+  }
+  .repo-summary:hover {
+    background: var(--hover-bg);
+  }
+  .repo-name-mobile {
+    flex: 1;
+    font-family: var(--font-sans);
+    color: var(--text-color);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .repo-score-mobile {
+    color: var(--accent-color);
+    font-weight: 600;
+    font-family: var(--font-mono);
+    margin-right: 1rem;
+  }
+  .accordion-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+  }
+  .repo-accordion[open] .accordion-icon {
+    transform: rotate(180deg);
+  }
+  .repo-details-wrapper {
+    overflow: hidden;
+    transition: height 0.2s ease;
+  }
+  .repo-details {
+    padding: 1rem 1.25rem;
+    background: var(--hover-bg);
+    border-top: 1px solid var(--card-border);
+  }
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .stat-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+  }
+  .stat-value {
+    font-family: var(--font-mono);
+    color: var(--text-color);
+    font-size: 0.95rem;
+  }
+  .repo-action-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem;
+    background: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    transition: all 0.15s;
+    box-sizing: border-box;
+  }
+  .repo-action-button:hover {
+    background: var(--accent-color);
+    color: var(--card-bg);
   }
 
   @media (min-width: 640px) {
@@ -185,8 +374,11 @@ const { repoStats } = Astro.props;
     }
   }
 
-  @media (max-width: 768px) {
-    .hidden-mobile {
+  @media (max-width: 1024px) {
+    .mobile-only {
+      display: block;
+    }
+    .desktop-only {
       display: none;
     }
   }
