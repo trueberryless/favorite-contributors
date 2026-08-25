@@ -15,9 +15,13 @@ export interface Props {
 }
 
 const { items, placeholder = "Search..." } = Astro.props;
+const itemsWithRank = items.map((item, index) => ({ ...item, rank: index + 1 }));
+const initialItems = itemsWithRank.slice(0, 50);
 ---
 
-<div class="searchable-container" id="search-component" data-items={JSON.stringify(items)}>
+<div class="searchable-container" id="search-component">
+  <script id="search-data" type="application/json" is:inline set:html={JSON.stringify(itemsWithRank)}></script>
+
   <div class="search-bar-wrapper">
     <div class="search-input-container">
       <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -40,19 +44,19 @@ const { items, placeholder = "Search..." } = Astro.props;
   </div>
 
   <div id="results-list" class="results-container">
-    {items.map((item, index) => (
+    {initialItems.map((item) => (
       <a href={item.href} class="contributor-card item-row" data-name={item.name.toLowerCase()}>
-        <div class="rank">#{index + 1}</div>
+        <div class="rank">#{item.rank}</div>
         {item.avatarUrl && (
           <img src={item.avatarUrl} alt={item.name} loading="lazy" />
         )}
         <div class="info">
-          <h2>{item.subName && <span class="sub-name">{item.subName} /</span>} {item.name}</h2>
+          <h2>{item.subName && <span class="sub-name">{item.subName} /</span>} <span class="name-text">{item.name}</span></h2>
           <div class="stats">
-            <span>Score: {item.stats.score.toLocaleString()}</span>
-            <span>PRs: {item.stats.mergedPrs.toLocaleString()}</span>
-            <span>Reviews: {item.stats.reviews.toLocaleString()}</span>
-            <span>Issues: {item.stats.issuesLinked.toLocaleString()}</span>
+            <span class="score-stat">Score: {item.stats.score.toLocaleString()}</span>
+            <span class="prs-stat">PRs: {item.stats.mergedPrs.toLocaleString()}</span>
+            <span class="reviews-stat">Reviews: {item.stats.reviews.toLocaleString()}</span>
+            <span class="issues-stat">Issues: {item.stats.issuesLinked.toLocaleString()}</span>
           </div>
         </div>
       </a>
@@ -62,40 +66,117 @@ const { items, placeholder = "Search..." } = Astro.props;
   <div id="no-results" class="no-results" style="display: none;">
     <p>No results found</p>
   </div>
+
+  <template id="user-card-template">
+    <a href="" class="contributor-card item-row" data-name="">
+      <div class="rank"></div>
+      <img src="" alt="" loading="lazy" style="display: none;" />
+      <div class="info">
+        <h2><span class="sub-name" style="display: none;"></span><span class="name-text"></span></h2>
+        <div class="stats">
+          <span class="score-stat"></span>
+          <span class="prs-stat"></span>
+          <span class="reviews-stat"></span>
+          <span class="issues-stat"></span>
+        </div>
+      </div>
+    </a>
+  </template>
 </div>
 
 <script>
+  interface RenderItem {
+    rank: number;
+    name: string;
+    subName?: string;
+    href: string;
+    avatarUrl?: string;
+    stats: {
+      score: number;
+      mergedPrs: number;
+      reviews: number;
+      issuesLinked: number;
+    };
+  }
+
   const container = document.getElementById('search-component');
   if (container) {
     const input = document.getElementById('search-input') as HTMLInputElement;
     const clearBtn = document.getElementById('clear-search') as HTMLButtonElement;
-    const rows = container.querySelectorAll('.item-row') as NodeListOf<HTMLElement>;
+    const resultsList = document.getElementById('results-list') as HTMLElement;
     const noResults = document.getElementById('no-results') as HTMLElement;
+    const dataScript = document.getElementById('search-data') as HTMLScriptElement;
+    const template = document.getElementById('user-card-template') as HTMLTemplateElement;
+
+    const allItems: RenderItem[] = dataScript ? JSON.parse(dataScript.textContent || '[]') : [];
+
+    const renderItems = (itemsToRender: RenderItem[]) => {
+      resultsList.innerHTML = '';
+      const fragment = document.createDocumentFragment();
+
+      itemsToRender.forEach(item => {
+        const clone = template.content.cloneNode(true) as DocumentFragment;
+        const link = clone.querySelector('.contributor-card') as HTMLAnchorElement;
+        const rank = clone.querySelector('.rank') as HTMLElement;
+        const img = clone.querySelector('img') as HTMLImageElement;
+        const subName = clone.querySelector('.sub-name') as HTMLElement;
+        const nameText = clone.querySelector('.name-text') as HTMLElement;
+        const score = clone.querySelector('.score-stat') as HTMLElement;
+        const prs = clone.querySelector('.prs-stat') as HTMLElement;
+        const reviews = clone.querySelector('.reviews-stat') as HTMLElement;
+        const issues = clone.querySelector('.issues-stat') as HTMLElement;
+
+        link.href = item.href;
+        link.setAttribute('data-name', item.name.toLowerCase());
+        rank.textContent = `#${item.rank}`;
+
+        if (item.avatarUrl) {
+          img.src = item.avatarUrl;
+          img.alt = item.name;
+          img.style.display = 'block';
+        } else {
+          img.remove();
+        }
+
+        if (item.subName) {
+          subName.textContent = `${item.subName} / `;
+          subName.style.display = 'inline';
+        } else {
+          subName.remove();
+        }
+
+        nameText.textContent = item.name;
+        score.textContent = `Score: ${item.stats.score.toLocaleString()}`;
+        prs.textContent = `PRs: ${item.stats.mergedPrs.toLocaleString()}`;
+        reviews.textContent = `Reviews: ${item.stats.reviews.toLocaleString()}`;
+        issues.textContent = `Issues: ${item.stats.issuesLinked.toLocaleString()}`;
+
+        fragment.appendChild(clone);
+      });
+
+      resultsList.appendChild(fragment);
+    };
 
     const filterItems = () => {
       const query = input.value.toLowerCase().trim();
-      let visibleCount = 0;
 
       if (query.length > 0) {
         clearBtn.style.display = 'flex';
+        const filtered = allItems.filter((item: RenderItem) => item.name.toLowerCase().includes(query)).slice(0, 50);
+
+        if (filtered.length === 0) {
+          resultsList.style.display = 'none';
+          noResults.style.display = 'block';
+        } else {
+          resultsList.style.display = 'flex';
+          noResults.style.display = 'none';
+          renderItems(filtered);
+        }
       } else {
         clearBtn.style.display = 'none';
-      }
-
-      rows.forEach((row) => {
-        const name = row.getAttribute('data-name') || '';
-        if (name.includes(query)) {
-          row.style.display = 'flex';
-          visibleCount++;
-        } else {
-          row.style.display = 'none';
-        }
-      });
-
-      if (visibleCount === 0) {
-        noResults.style.display = 'block';
-      } else {
+        resultsList.style.display = 'flex';
         noResults.style.display = 'none';
+        renderItems(allItems.slice(0, 50));
       }
     };
 

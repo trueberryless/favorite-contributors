@@ -13,8 +13,7 @@ const items = contributors
     avatarUrl: `https://github.com/${c.data.username}.png?size=120`,
     stats: c.data.aggregatedStats,
   }))
-  .sort((a, b) => b.stats.score - a.stats.score)
-  .slice(0, 50);
+  .sort((a, b) => b.stats.score - a.stats.score);
 ---
 
 <Layout title="Users Overview - Global Leaderboard">
