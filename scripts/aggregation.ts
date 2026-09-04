@@ -2,12 +2,17 @@ import { Octokit } from "@octokit/core";
 import { paginateRest } from "@octokit/plugin-paginate-rest";
 import { paginateGraphQL } from "@octokit/plugin-paginate-graphql";
 import { retry } from "@octokit/plugin-retry";
-import { readFile, writeFile, rm, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { resolve, join } from "node:path";
 import pc from "picocolors";
 import type { Organisation, Repository, Stats } from "../src/types.ts";
 import { TerminalDashboard } from "./utils/terminal.ts";
-import { CONCURRENCY_LIMIT, MIN_STARS_THRESHOLD } from "./utils/consts.ts";
+import {
+  CONCURRENCY_LIMIT,
+  MIN_STARS_THRESHOLD,
+  PR_PAGE_SIZE,
+  PR_BACKFILL_BATCHES_PER_RUN,
+} from "./utils/consts.ts";
 
 const OctokitWithPlugins = Octokit.plugin(paginateRest, paginateGraphQL, retry);
 const ORGS_DIR = resolve("./data/organisations");
@@ -29,6 +34,14 @@ const readJson = async <T>(filePath: string): Promise<T> => {
 const writeJson = async <T>(filePath: string, data: T): Promise<void> => {
   await writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf-8");
 };
+
+const toIssueItem = (issue: any): IssueItem => ({
+  number: issue.number,
+  user: issue.user ? { login: issue.user.login, type: issue.user.type } : null,
+  reactions: issue.reactions?.total_count
+    ? { total_count: issue.reactions.total_count }
+    : undefined,
+});
 
 const sortObjectKeys = <T extends Record<string, any>>(obj: T): T => {
   return Object.keys(obj)
@@ -60,7 +73,6 @@ const computeScore = (stats: Omit<Stats, "score">): number => {
 
 class Mutex {
   private promise = Promise.resolve();
-
   async lock(): Promise<() => void> {
     let release!: () => void;
     const next = new Promise<void>((res) => (release = res));
@@ -95,36 +107,19 @@ interface Repo {
 
 interface IssueItem {
   number: number;
-  user: {
-    login: string;
-    type: string;
-  } | null;
-  reactions?: {
-    total_count: number;
-  };
+  user: { login: string; type: string } | null;
+  reactions?: { total_count: number };
 }
 
 interface GraphQLPullRequestNode {
   number: number;
-  author: {
-    login: string;
-    __typename: string;
-  } | null;
+  updatedAt: string;
+  author: { login: string; __typename: string } | null;
   merged: boolean;
-  closingIssuesReferences: {
-    totalCount: number;
-  };
-  reactions: {
-    totalCount: number;
-  };
+  closingIssuesReferences: { totalCount: number };
+  reactions: { totalCount: number };
   reviews: {
-    nodes: Array<{
-      state: string;
-      author: {
-        login: string;
-        __typename: string;
-      } | null;
-    } | null>;
+    nodes: Array<{ state: string; author: { login: string; __typename: string } | null } | null>;
   };
 }
 
@@ -132,20 +127,26 @@ interface GraphQLResponse {
   repository: {
     pullRequests: {
       nodes: Array<GraphQLPullRequestNode | null>;
-      pageInfo: {
-        hasNextPage: boolean;
-        endCursor: string | null;
-      };
+      pageInfo: { hasNextPage: boolean; endCursor: string | null };
     };
   };
+}
+
+interface RepoRawData {
+  syncState: {
+    lastRunAt: string | null;
+    prBackfillCursor: string | null;
+    prBackfillComplete: boolean;
+    issuesBackfillComplete: boolean;
+  };
+  issues: Record<number, IssueItem>;
+  prs: Record<number, GraphQLPullRequestNode>;
 }
 
 const main = async (): Promise<void> => {
   const orgName = process.argv[2];
   if (!orgName) {
-    console.error(
-      pc.red("✖ Error: Organization name argument is required. Usage: pnpm aggregation <orgName>"),
-    );
+    console.error(pc.red("✖ Error: Organization name argument is required."));
     process.exit(1);
   }
 
@@ -153,20 +154,13 @@ const main = async (): Promise<void> => {
   const orgReposDir = join(REPOS_DIR, orgName);
   await mkdir(orgReposDir, { recursive: true });
 
-  console.log(pc.blue(`▶ Fetching repositories for ${orgName}...`));
   const repos = (await octokit.paginate("GET /orgs/{org}/repos", {
     org: orgName,
     type: "sources",
     per_page: 100,
   })) as Repo[];
-
   const publicRepos = repos.filter(
     (repo) => !repo.private && repo.stargazers_count >= MIN_STARS_THRESHOLD,
-  );
-  console.log(
-    pc.green(
-      `✔ Found ${publicRepos.length} public source repositories (>= ${MIN_STARS_THRESHOLD} stars) for ${orgName}. Starting threads...`,
-    ),
   );
 
   const orgMutex = new Mutex();
@@ -179,55 +173,229 @@ const main = async (): Promise<void> => {
     const repoName = repo.name;
     const colorize = getRepoColor(repoName);
     const repoFilePath = join(orgReposDir, `${repoName}.json`);
-
-    dashboard.updateWorker(workerIndex, repoName, pc.gray("Initializing..."), colorize);
+    const rawFilePath = join(orgReposDir, `${repoName}.raw.json`);
+    const currentRunTimestamp = new Date().toISOString();
 
     let repoEntry: Repository;
     try {
       repoEntry = await readJson<Repository>(repoFilePath);
     } catch {
-      repoEntry = {
-        id: `${orgName}/${repoName}`,
-        updatedAt: null,
-        stats: {},
+      repoEntry = { id: `${orgName}/${repoName}`, updatedAt: null, stats: {} };
+    }
+
+    let rawData: RepoRawData;
+    try {
+      rawData = await readJson<RepoRawData>(rawFilePath);
+    } catch {
+      rawData = {
+        syncState: {
+          lastRunAt: null,
+          prBackfillCursor: null,
+          prBackfillComplete: false,
+          issuesBackfillComplete: false,
+        },
+        issues: {},
+        prs: {},
       };
     }
 
-    const repoUpdatedAt = new Date(repo.updated_at).getTime();
-    const lastCrawledAt = repoEntry.updatedAt ? new Date(repoEntry.updatedAt).getTime() : 0;
+    if (!rawData.syncState) {
+      rawData.syncState = {
+        lastRunAt: null,
+        prBackfillCursor: null,
+        prBackfillComplete: false,
+        issuesBackfillComplete: false,
+      };
+    }
 
-    if (repoEntry.updatedAt && repoUpdatedAt <= lastCrawledAt) {
+    const fetchGraphQLBatchSafe = async (
+      cursor: string | null,
+      initialPageSize: number = PR_PAGE_SIZE,
+    ) => {
+      let currentSize = initialPageSize;
+
+      while (currentSize >= 1) {
+        try {
+          return (await octokit.graphql(
+            `
+            query($org: String!, $repo: String!, $cursor: String, $pageSize: Int!) {
+              repository(owner: $org, name: $repo) {
+                pullRequests(first: $pageSize, after: $cursor, orderBy: {field: UPDATED_AT, direction: DESC}, states: [MERGED, CLOSED, OPEN]) {
+                  pageInfo { hasNextPage, endCursor }
+                  nodes {
+                    number, updatedAt, merged
+                    author { login, __typename }
+                    closingIssuesReferences(first: 10) { totalCount }
+                    reactions { totalCount }
+                    reviews(first: 30) { nodes { state, author { login, __typename } } }
+                  }
+                }
+              }
+            }
+          `,
+            { org: orgName, repo: repoName, cursor, pageSize: currentSize },
+          )) as GraphQLResponse;
+        } catch (error: any) {
+          if (error.status && error.status >= 500) {
+            if (currentSize === 1) {
+              throw new Error(`Unrecoverable 500 error at cursor ${cursor} even with pageSize 1.`);
+            }
+            currentSize = Math.floor(currentSize / 2);
+            dashboard.updateWorker(
+              workerIndex,
+              repoName,
+              pc.yellow(`⚠ 500 Timeout. Retrying batch with size ${currentSize}...`),
+              colorize,
+            );
+          } else {
+            throw error;
+          }
+        }
+      }
+      throw new Error("Unexpected end of fetch loop");
+    };
+
+    if (rawData.syncState.lastRunAt) {
       dashboard.updateWorker(
         workerIndex,
         repoName,
-        pc.gray("No changes since last crawl. Skipping."),
+        pc.blue("Phase 1: Fetching recent updates..."),
         colorize,
       );
-      dashboard.incrementCompleted();
-      return;
+
+      try {
+        const fetchedIssues = (await octokit.paginate("GET /repos/{owner}/{repo}/issues", {
+          owner: orgName,
+          repo: repoName,
+          state: "all",
+          per_page: 100,
+          since: rawData.syncState.lastRunAt,
+        })) as IssueItem[];
+        for (const issue of fetchedIssues) rawData.issues[issue.number] = toIssueItem(issue);
+
+        let hasNext = true;
+        let updateCursor: string | null = null;
+        let newPrsFound = 0;
+
+        while (hasNext) {
+          const res = await fetchGraphQLBatchSafe(updateCursor, PR_PAGE_SIZE);
+          const prs = res.repository.pullRequests;
+          let reachedOld = false;
+
+          for (const node of prs.nodes) {
+            if (!node) continue;
+            if (node.updatedAt <= rawData.syncState.lastRunAt!) {
+              reachedOld = true;
+              break;
+            }
+            rawData.prs[node.number] = node;
+            newPrsFound++;
+          }
+
+          if (reachedOld) break;
+          hasNext = prs.pageInfo.hasNextPage;
+          updateCursor = prs.pageInfo.endCursor;
+        }
+        dashboard.updateWorker(
+          workerIndex,
+          repoName,
+          pc.blue(`Phase 1 Done. Caught ${newPrsFound} PR updates.`),
+          colorize,
+        );
+      } catch (error) {
+        dashboard.updateWorker(
+          workerIndex,
+          repoName,
+          pc.yellow(`⚠ Phase 1 partial failure. Saving what we have.`),
+          colorize,
+        );
+      }
     }
 
-    const newStats: Record<string, Stats> = {};
-    dashboard.updateWorker(workerIndex, repoName, pc.blue("Fetching issues/PR stubs..."), colorize);
+    if (!rawData.syncState.issuesBackfillComplete) {
+      dashboard.updateWorker(
+        workerIndex,
+        repoName,
+        pc.yellow("Phase 2: Full historical issue backfill..."),
+        colorize,
+      );
+      try {
+        const allIssues = (await octokit.paginate("GET /repos/{owner}/{repo}/issues", {
+          owner: orgName,
+          repo: repoName,
+          state: "all",
+          per_page: 100,
+        })) as IssueItem[];
+        for (const issue of allIssues) rawData.issues[issue.number] = toIssueItem(issue);
+        rawData.syncState.issuesBackfillComplete = true;
+      } catch (error) {
+        dashboard.updateWorker(
+          workerIndex,
+          repoName,
+          pc.yellow(`⚠ Issues backfill paused due to limit.`),
+          colorize,
+        );
+      }
+    }
 
-    const issues = (await octokit.paginate("GET /repos/{owner}/{repo}/issues", {
-      owner: orgName,
-      repo: repoName,
-      per_page: 100,
-      state: "all",
-    })) as IssueItem[];
+    if (!rawData.syncState.prBackfillComplete) {
+      let backfillBatchCount = 0;
+
+      while (
+        !rawData.syncState.prBackfillComplete &&
+        backfillBatchCount < PR_BACKFILL_BATCHES_PER_RUN
+      ) {
+        dashboard.updateWorker(
+          workerIndex,
+          repoName,
+          pc.yellow(
+            `Phase 2: PR Backfill batch ${backfillBatchCount + 1}/${PR_BACKFILL_BATCHES_PER_RUN}...`,
+          ),
+          colorize,
+        );
+
+        try {
+          const res = await fetchGraphQLBatchSafe(
+            rawData.syncState.prBackfillCursor,
+            PR_PAGE_SIZE,
+          );
+          const prs = res.repository.pullRequests;
+
+          for (const node of prs.nodes) {
+            if (!node) continue;
+            if (!rawData.prs[node.number] || rawData.prs[node.number].updatedAt < node.updatedAt) {
+              rawData.prs[node.number] = node;
+            }
+          }
+
+          rawData.syncState.prBackfillCursor = prs.pageInfo.endCursor;
+          if (!prs.pageInfo.hasNextPage) {
+            rawData.syncState.prBackfillComplete = true;
+          }
+          backfillBatchCount++;
+        } catch (error) {
+          dashboard.updateWorker(
+            workerIndex,
+            repoName,
+            pc.red(`⚠ PR Backfill paused for this run. Saving progress.`),
+            colorize,
+          );
+          break;
+        }
+      }
+    }
+
+    rawData.syncState.lastRunAt = currentRunTimestamp;
+    await writeJson<RepoRawData>(rawFilePath, rawData);
 
     dashboard.updateWorker(
       workerIndex,
       repoName,
-      pc.cyan(`Loaded ${issues.length} basic stubs. Resolving GraphQL PRs...`),
+      pc.blue("Aggregating stats from cache..."),
       colorize,
     );
-
-    for (const issue of issues) {
-      if (!issue.user || issue.user.type === "Bot") continue;
-      const login = issue.user.login;
-
+    const newStats: Record<string, Stats> = {};
+    const initializeUser = (login: string) => {
       if (!newStats[login]) {
         newStats[login] = {
           score: 0,
@@ -238,184 +406,70 @@ const main = async (): Promise<void> => {
           reactions: 0,
         };
       }
+    };
 
-      if (issue.reactions && issue.reactions.total_count) {
-        newStats[login].reactions += issue.reactions.total_count;
-      }
+    for (const issue of Object.values(rawData.issues)) {
+      if (!issue.user || issue.user.type === "Bot") continue;
+      initializeUser(issue.user.login);
+      if (issue.reactions?.total_count)
+        newStats[issue.user.login].reactions += issue.reactions.total_count;
     }
 
-    let hasNextPage = true;
-    let cursor: string | null = null;
-    const pullRequests: GraphQLPullRequestNode[] = [];
-
-    while (hasNextPage) {
-      const response: GraphQLResponse = await octokit.graphql(
-        `
-        query($org: String!, $repo: String!, $cursor: String) {
-          repository(owner: $org, name: $repo) {
-            pullRequests(first: 100, after: $cursor, states: [MERGED, CLOSED, OPEN]) {
-              pageInfo {
-                hasNextPage
-                endCursor
-              }
-              nodes {
-                number
-                author {
-                  login
-                  __typename
-                }
-                merged
-                closingIssuesReferences(first: 100) { totalCount }
-                reactions { totalCount }
-                reviews(first: 100) {
-                  nodes {
-                    state
-                    author {
-                      login
-                      __typename
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-        `,
-        { org: orgName, repo: repoName, cursor },
-      );
-
-      const prConnection = response.repository.pullRequests;
-      hasNextPage = prConnection.pageInfo.hasNextPage;
-      cursor = prConnection.pageInfo.endCursor;
-
-      const validNodes = prConnection.nodes.filter(
-        (node): node is GraphQLPullRequestNode => node !== null,
-      );
-      pullRequests.push(...validNodes);
-
-      dashboard.updateWorker(
-        workerIndex,
-        repoName,
-        pc.magenta(`Batch fetched... Total PRs: ${pullRequests.length}`),
-        colorize,
-      );
-    }
-
-    dashboard.updateWorker(workerIndex, repoName, pc.blue("Aggregating stats..."), colorize);
-
-    for (const pr of pullRequests) {
+    for (const pr of Object.values(rawData.prs)) {
       const authorLogin = pr.author?.login;
       const isHumanAuthor = authorLogin && pr.author?.__typename !== "Bot";
 
       if (isHumanAuthor) {
-        if (!newStats[authorLogin]) {
-          newStats[authorLogin] = {
-            score: 0,
-            mergedPrs: 0,
-            reviews: 0,
-            reviewsReceived: 0,
-            issuesLinked: 0,
-            reactions: 0,
-          };
-        }
-        if (pr.reactions && pr.reactions.totalCount) {
-          newStats[authorLogin].reactions += pr.reactions.totalCount;
-        }
+        initializeUser(authorLogin);
+        if (pr.reactions?.totalCount) newStats[authorLogin].reactions += pr.reactions.totalCount;
       }
 
       if (pr.merged) {
         if (isHumanAuthor) {
           newStats[authorLogin].mergedPrs += 1;
-          if (pr.closingIssuesReferences && pr.closingIssuesReferences.totalCount) {
+          if (pr.closingIssuesReferences?.totalCount)
             newStats[authorLogin].issuesLinked += pr.closingIssuesReferences.totalCount;
-          }
         }
 
-        if (pr.reviews && pr.reviews.nodes) {
+        if (pr.reviews?.nodes) {
           const reviewersForThisPr = new Set<string>();
           let approvalCount = 0;
 
           for (const review of pr.reviews.nodes) {
             if (!review || !review.author || review.author.__typename === "Bot") continue;
-            const reviewerLogin = review.author.login;
-
-            if (
-              review.state === "APPROVED" ||
-              review.state === "CHANGES_REQUESTED" ||
-              review.state === "COMMENTED"
-            ) {
-              reviewersForThisPr.add(reviewerLogin);
-            }
-
-            if (review.state === "APPROVED") {
-              approvalCount += 1;
-            }
+            if (["APPROVED", "CHANGES_REQUESTED", "COMMENTED"].includes(review.state))
+              reviewersForThisPr.add(review.author.login);
+            if (review.state === "APPROVED") approvalCount += 1;
           }
 
           for (const reviewerLogin of reviewersForThisPr) {
-            if (!newStats[reviewerLogin]) {
-              newStats[reviewerLogin] = {
-                score: 0,
-                mergedPrs: 0,
-                reviews: 0,
-                reviewsReceived: 0,
-                issuesLinked: 0,
-                reactions: 0,
-              };
-            }
+            initializeUser(reviewerLogin);
             newStats[reviewerLogin].reviews += 1;
           }
-
-          if (isHumanAuthor) {
-            newStats[authorLogin].reviewsReceived += approvalCount;
-          }
+          if (isHumanAuthor) newStats[authorLogin].reviewsReceived += approvalCount;
         }
       }
     }
 
-    for (const username of Object.keys(newStats)) {
+    for (const username of Object.keys(newStats))
       newStats[username].score = computeScore(newStats[username]);
-    }
 
-    const sortedNewStats = sortObjectKeys(newStats);
-
-    if (JSON.stringify(repoEntry.stats) === JSON.stringify(sortedNewStats)) {
-      dashboard.updateWorker(
-        workerIndex,
-        repoName,
-        pc.gray("Stats unchanged. Skipping write to preserve updatedAt."),
-        colorize,
-      );
-      dashboard.incrementCompleted();
-      return;
-    }
-
-    repoEntry.stats = sortedNewStats;
-    repoEntry.updatedAt = new Date().toISOString();
+    repoEntry.stats = sortObjectKeys(newStats);
+    repoEntry.updatedAt = currentRunTimestamp;
     await writeJson<Repository>(repoFilePath, repoEntry);
 
-    dashboard.updateWorker(
-      workerIndex,
-      repoName,
-      pc.yellow("Waiting for lock to update org stats..."),
-      colorize,
-    );
-
+    dashboard.updateWorker(workerIndex, repoName, pc.yellow("Syncing to Org..."), colorize);
     const release = await orgMutex.lock();
     try {
-      dashboard.updateWorker(workerIndex, repoName, pc.blue("Syncing org checkpoint..."), colorize);
-
       const repoFiles = await readFileList(orgReposDir);
       const combinedOrgStats: Record<string, Stats> = {};
 
       for (const file of repoFiles) {
-        if (!file.endsWith(".json")) continue;
-        const targetFilePath = join(orgReposDir, file);
+        if (!file.endsWith(".json") || file.endsWith(".raw.json")) continue;
         try {
-          const rData = await readJson<Repository>(targetFilePath);
-
+          const rData = await readJson<Repository>(join(orgReposDir, file));
           for (const [username, stats] of Object.entries(rData.stats)) {
-            if (!combinedOrgStats[username]) {
+            if (!combinedOrgStats[username])
               combinedOrgStats[username] = {
                 score: 0,
                 mergedPrs: 0,
@@ -424,40 +478,26 @@ const main = async (): Promise<void> => {
                 issuesLinked: 0,
                 reactions: 0,
               };
-            }
             combinedOrgStats[username].mergedPrs += stats.mergedPrs;
             combinedOrgStats[username].reviews += stats.reviews;
             combinedOrgStats[username].reviewsReceived += stats.reviewsReceived;
             combinedOrgStats[username].issuesLinked += stats.issuesLinked;
             combinedOrgStats[username].reactions += stats.reactions;
           }
-        } catch {
-          dashboard.logMessage(
-            pc.yellow(`⚠ Warning: Found corrupted repo file at ${targetFilePath}. Removing it.`),
-          );
-          try {
-            await rm(targetFilePath);
-          } catch {
-            dashboard.logMessage(
-              pc.red(`✖ Error: Failed to remove corrupted file ${targetFilePath}`),
-            );
-          }
-        }
+        } catch {}
       }
 
-      for (const username of Object.keys(combinedOrgStats)) {
+      for (const username of Object.keys(combinedOrgStats))
         combinedOrgStats[username].score = computeScore(combinedOrgStats[username]);
-      }
 
       const orgData = await readJson<Organisation>(orgFilePath);
-      const sortedOrgStats = sortObjectKeys(combinedOrgStats);
+      orgData.stats = sortObjectKeys(combinedOrgStats);
+      await writeJson<Organisation>(orgFilePath, orgData);
 
-      if (JSON.stringify(orgData.stats) !== JSON.stringify(sortedOrgStats)) {
-        orgData.stats = sortedOrgStats;
-        await writeJson<Organisation>(orgFilePath, orgData);
-      }
-
-      dashboard.updateWorker(workerIndex, repoName, pc.green("✔ Done."), colorize);
+      let badge = rawData.syncState.prBackfillComplete
+        ? "✔ Done (Fully Synced)"
+        : "✔ Done (Backfilling...)";
+      dashboard.updateWorker(workerIndex, repoName, pc.green(badge), colorize);
     } finally {
       release();
       dashboard.incrementCompleted();
@@ -465,12 +505,10 @@ const main = async (): Promise<void> => {
   });
 
   dashboard.stop();
-
   const finalOrgData = await readJson<Organisation>(orgFilePath);
   finalOrgData.updatedAt = new Date().toISOString();
   await writeJson<Organisation>(orgFilePath, finalOrgData);
-
-  console.log(pc.green(`\n✨ Successfully completed optimal aggregation for ${orgName}.`));
+  console.log(pc.green(`\n✨ Finished aggregation for ${orgName}.`));
 };
 
 async function readFileList(dir: string): Promise<string[]> {

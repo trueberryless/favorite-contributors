@@ -47,6 +47,39 @@ const main = async (): Promise<void> => {
 
   const orgFiles = files.filter((f) => f.endsWith(".json"));
   const users = new Map<string, Contributor>();
+  const canonicalUsername = new Map<string, string>();
+
+  const mergeStats = (existing: Stats | undefined, incoming: Stats): Stats => ({
+    score: (existing?.score ?? 0) + incoming.score,
+    mergedPrs: (existing?.mergedPrs ?? 0) + incoming.mergedPrs,
+    reviews: (existing?.reviews ?? 0) + incoming.reviews,
+    reviewsReceived: (existing?.reviewsReceived ?? 0) + incoming.reviewsReceived,
+    issuesLinked: (existing?.issuesLinked ?? 0) + incoming.issuesLinked,
+    reactions: (existing?.reactions ?? 0) + incoming.reactions,
+  });
+
+  const getOrCreateUser = (username: string): Contributor => {
+    const key = username.toLowerCase();
+    const canonical = canonicalUsername.get(key);
+    if (canonical) return users.get(canonical)!;
+    canonicalUsername.set(key, username);
+    const user: Contributor = {
+      username,
+      lastUpdated: new Date().toISOString(),
+      aggregatedStats: {
+        score: 0,
+        mergedPrs: 0,
+        reviews: 0,
+        reviewsReceived: 0,
+        issuesLinked: 0,
+        reactions: 0,
+      },
+      orgStats: {},
+      repoStats: {},
+    };
+    users.set(username, user);
+    return user;
+  };
 
   console.log(pc.blue(`▶ Processing ${orgFiles.length} organisations for contributions...`));
   const dashboard = new TerminalDashboard(1, orgFiles.length);
@@ -70,33 +103,15 @@ const main = async (): Promise<void> => {
     dashboard.updateWorker(0, orgName, pc.blue("Aggregating stats..."), pc.cyan);
 
     for (const [username, rawStats] of Object.entries(orgEntry.stats)) {
-      if (!users.has(username)) {
-        users.set(username, {
-          username,
-          lastUpdated: new Date().toISOString(),
-          aggregatedStats: {
-            score: 0,
-            mergedPrs: 0,
-            reviews: 0,
-            reviewsReceived: 0,
-            issuesLinked: 0,
-            reactions: 0,
-          },
-          orgStats: {},
-          repoStats: {},
-        });
-      }
-
-      const user = users.get(username)!;
-
-      user.orgStats[orgName] = {
+      const user = getOrCreateUser(username);
+      user.orgStats[orgName] = mergeStats(user.orgStats[orgName], {
         score: rawStats.score,
         mergedPrs: rawStats.mergedPrs,
         reviews: rawStats.reviews,
         reviewsReceived: rawStats.reviewsReceived,
         issuesLinked: rawStats.issuesLinked,
         reactions: rawStats.reactions,
-      };
+      });
 
       if (!user.repoStats[orgName]) {
         user.repoStats[orgName] = {};
@@ -130,37 +145,20 @@ const main = async (): Promise<void> => {
       const repoName = repoFile.replace(".json", "");
 
       for (const [username, rawStats] of Object.entries(repoEntry.stats)) {
-        if (!users.has(username)) {
-          users.set(username, {
-            username,
-            lastUpdated: new Date().toISOString(),
-            aggregatedStats: {
-              score: 0,
-              mergedPrs: 0,
-              reviews: 0,
-              reviewsReceived: 0,
-              issuesLinked: 0,
-              reactions: 0,
-            },
-            orgStats: {},
-            repoStats: {},
-          });
-        }
-
-        const user = users.get(username)!;
+        const user = getOrCreateUser(username);
 
         if (!user.repoStats[orgName]) {
           user.repoStats[orgName] = {};
         }
 
-        user.repoStats[orgName][repoName] = {
+        user.repoStats[orgName][repoName] = mergeStats(user.repoStats[orgName][repoName], {
           score: rawStats.score,
           mergedPrs: rawStats.mergedPrs,
           reviews: rawStats.reviews,
           reviewsReceived: rawStats.reviewsReceived,
           issuesLinked: rawStats.issuesLinked,
           reactions: rawStats.reactions,
-        };
+        });
       }
     }
 
