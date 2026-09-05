@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T00:22:39.815Z",
+    "lastRunAt": "2026-09-05T17:39:28.834Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMC0yMFQxNjowMToxMVrOQIZpcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6395,7 +6395,7 @@
     },
     "219": {
       "number": 219,
-      "updatedAt": "2026-09-03T21:31:56Z",
+      "updatedAt": "2026-09-05T08:47:28Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -7156,7 +7156,7 @@
     },
     "252": {
       "number": 252,
-      "updatedAt": "2026-08-31T13:23:31Z",
+      "updatedAt": "2026-09-05T08:44:37Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -7174,7 +7174,7 @@
     },
     "253": {
       "number": 253,
-      "updatedAt": "2026-09-03T21:36:04Z",
+      "updatedAt": "2026-09-05T08:51:35Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -7236,8 +7236,8 @@
     },
     "256": {
       "number": 256,
-      "updatedAt": "2026-08-31T13:28:39Z",
-      "merged": false,
+      "updatedAt": "2026-09-05T08:43:36Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -7249,7 +7249,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "257": {
