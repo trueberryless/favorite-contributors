@@ -1,0 +1,77 @@
+{
+  "syncState": {
+    "lastRunAt": "2026-09-05T04:59:46.526Z",
+    "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNC0yMVQxNjowMTozOFrOTtsEYw==",
+    "prBackfillComplete": true,
+    "issuesBackfillComplete": true
+  },
+  "issues": {
+    "1": {
+      "number": 1,
+      "user": {
+        "login": "sgoudham",
+        "type": "User"
+      }
+    },
+    "2": {
+      "number": 2,
+      "user": {
+        "login": "murtaza64",
+        "type": "User"
+      }
+    },
+    "3": {
+      "number": 3,
+      "user": {
+        "login": "c220622c",
+        "type": "User"
+      }
+    }
+  },
+  "prs": {
+    "1": {
+      "number": 1,
+      "updatedAt": "2023-04-21T16:01:38Z",
+      "merged": true,
+      "author": {
+        "login": "sgoudham",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2": {
+      "number": 2,
+      "updatedAt": "2024-05-28T20:57:32Z",
+      "merged": false,
+      "author": {
+        "login": "murtaza64",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "kkrypt0nn",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

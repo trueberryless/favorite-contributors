@@ -1,0 +1,59 @@
+{
+  "syncState": {
+    "lastRunAt": "2026-09-05T04:54:47.722Z",
+    "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wNS0yOFQxODoyMjoyNlrOC2AXRQ==",
+    "prBackfillComplete": true,
+    "issuesBackfillComplete": true
+  },
+  "issues": {
+    "1": {
+      "number": 1,
+      "user": {
+        "login": "flyinhigh",
+        "type": "User"
+      }
+    },
+    "2": {
+      "number": 2,
+      "user": {
+        "login": "MoYummy",
+        "type": "User"
+      }
+    },
+    "3": {
+      "number": 3,
+      "user": {
+        "login": "YuryKorovko",
+        "type": "User"
+      }
+    }
+  },
+  "prs": {
+    "2": {
+      "number": 2,
+      "updatedAt": "2018-05-28T18:22:26Z",
+      "merged": true,
+      "author": {
+        "login": "MoYummy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

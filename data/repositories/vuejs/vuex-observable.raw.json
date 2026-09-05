@@ -1,0 +1,107 @@
+{
+  "syncState": {
+    "lastRunAt": "2026-09-05T04:54:40.519Z",
+    "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNVQwMToyMjo0NFrOBjxZbA==",
+    "prBackfillComplete": true,
+    "issuesBackfillComplete": true
+  },
+  "issues": {
+    "1": {
+      "number": 1,
+      "user": {
+        "login": "maurop123",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "2": {
+      "number": 2,
+      "user": {
+        "login": "robinvdvleuten",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 11
+      }
+    },
+    "3": {
+      "number": 3,
+      "user": {
+        "login": "yi-bai",
+        "type": "User"
+      }
+    },
+    "4": {
+      "number": 4,
+      "user": {
+        "login": "chin-phang",
+        "type": "User"
+      }
+    },
+    "5": {
+      "number": 5,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 4
+      }
+    },
+    "6": {
+      "number": 6,
+      "user": {
+        "login": "SPxiaomin-zz",
+        "type": "User"
+      }
+    }
+  },
+  "prs": {
+    "1": {
+      "number": 1,
+      "updatedAt": "2017-07-05T01:22:44Z",
+      "merged": true,
+      "author": {
+        "login": "maurop123",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dieguezz",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4": {
+      "number": 4,
+      "updatedAt": "2018-01-21T11:24:44Z",
+      "merged": false,
+      "author": {
+        "login": "chin-phang",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    }
+  }
+}

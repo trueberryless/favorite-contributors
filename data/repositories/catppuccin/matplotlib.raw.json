@@ -1,0 +1,119 @@
+{
+  "syncState": {
+    "lastRunAt": "2026-09-05T04:59:41.142Z",
+    "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0yOFQxNToxNjo1OFrORk3dQg==",
+    "prBackfillComplete": true,
+    "issuesBackfillComplete": true
+  },
+  "issues": {
+    "1": {
+      "number": 1,
+      "user": {
+        "login": "brambozz",
+        "type": "User"
+      }
+    },
+    "2": {
+      "number": 2,
+      "user": {
+        "login": "brambozz",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "3": {
+      "number": 3,
+      "user": {
+        "login": "miloth",
+        "type": "User"
+      }
+    },
+    "4": {
+      "number": 4,
+      "user": {
+        "login": "brambozz",
+        "type": "User"
+      }
+    }
+  },
+  "prs": {
+    "1": {
+      "number": 1,
+      "updatedAt": "2022-12-28T15:16:58Z",
+      "merged": true,
+      "author": {
+        "login": "brambozz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3": {
+      "number": 3,
+      "updatedAt": "2024-06-18T12:26:00Z",
+      "merged": true,
+      "author": {
+        "login": "miloth",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "brambozz",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4": {
+      "number": 4,
+      "updatedAt": "2024-06-18T12:37:40Z",
+      "merged": true,
+      "author": {
+        "login": "brambozz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    }
+  }
+}

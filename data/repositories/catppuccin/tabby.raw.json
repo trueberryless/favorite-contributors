@@ -1,0 +1,155 @@
+{
+  "syncState": {
+    "lastRunAt": "2026-09-05T04:59:36.253Z",
+    "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNy0wOVQxNjozNjozOFrOVQBwHw==",
+    "prBackfillComplete": true,
+    "issuesBackfillComplete": true
+  },
+  "issues": {
+    "1": {
+      "number": 1,
+      "user": {
+        "login": "ngmisl",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2": {
+      "number": 2,
+      "user": {
+        "login": "joerg",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "4": {
+      "number": 4,
+      "user": {
+        "login": "uncenter",
+        "type": "User"
+      }
+    },
+    "5": {
+      "number": 5,
+      "user": {
+        "login": "uncenter",
+        "type": "User"
+      }
+    },
+    "6": {
+      "number": 6,
+      "user": {
+        "login": "sgoudham",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "7": {
+      "number": 7,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "8": {
+      "number": 8,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    }
+  },
+  "prs": {
+    "3": {
+      "number": 3,
+      "updatedAt": "2023-07-09T16:36:38Z",
+      "merged": true,
+      "author": null,
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4": {
+      "number": 4,
+      "updatedAt": "2025-05-16T20:16:10Z",
+      "merged": true,
+      "author": {
+        "login": "uncenter",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sgoudham",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "5": {
+      "number": 5,
+      "updatedAt": "2025-05-16T20:18:45Z",
+      "merged": true,
+      "author": {
+        "login": "uncenter",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sgoudham",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "7": {
+      "number": 7,
+      "updatedAt": "2025-05-16T20:23:21Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    }
+  }
+}
