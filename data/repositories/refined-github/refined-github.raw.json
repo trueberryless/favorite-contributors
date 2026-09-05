@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-04T22:29:26.716Z",
+    "lastRunAt": "2026-09-05T15:35:31.910Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wNFQxOTo0NjoyMVrPAAAAAQj4Who=",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -80693,6 +80693,37 @@
         "login": "moraesc",
         "type": "User"
       }
+    },
+    "10046": {
+      "number": 10046,
+      "user": {
+        "login": "HasselNot7",
+        "type": "User"
+      }
+    },
+    "10047": {
+      "number": 10047,
+      "user": {
+        "login": "patrickelectric",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "10048": {
+      "number": 10048,
+      "user": {
+        "login": "kidonng",
+        "type": "User"
+      }
+    },
+    "10049": {
+      "number": 10049,
+      "user": {
+        "login": "cqxswbc2",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -80724,10 +80755,87 @@
     },
     "10045": {
       "number": 10045,
-      "updatedAt": "2026-09-04T22:09:40Z",
+      "updatedAt": "2026-09-05T04:23:34Z",
       "merged": false,
       "author": {
         "login": "moraesc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10046": {
+      "number": 10046,
+      "updatedAt": "2026-09-05T05:35:43Z",
+      "merged": false,
+      "author": {
+        "login": "HasselNot7",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HasselNot7",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10047": {
+      "number": 10047,
+      "updatedAt": "2026-09-05T12:26:12Z",
+      "merged": false,
+      "author": {
+        "login": "patrickelectric",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10049": {
+      "number": 10049,
+      "updatedAt": "2026-09-05T08:53:18Z",
+      "merged": false,
+      "author": {
+        "login": "cqxswbc2",
         "__typename": "User"
       },
       "closingIssuesReferences": {

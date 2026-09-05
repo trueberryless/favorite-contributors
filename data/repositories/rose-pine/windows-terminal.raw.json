@@ -1,0 +1,195 @@
+{
+  "syncState": {
+    "lastRunAt": "2026-09-05T15:33:03.103Z",
+    "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wOS0wMVQwMjowODoxOVrOKyaGrw==",
+    "prBackfillComplete": true,
+    "issuesBackfillComplete": true
+  },
+  "issues": {
+    "1": {
+      "number": 1,
+      "user": {
+        "login": "lonelyevil",
+        "type": "User"
+      }
+    },
+    "2": {
+      "number": 2,
+      "user": {
+        "login": "mvllow",
+        "type": "User"
+      }
+    },
+    "3": {
+      "number": 3,
+      "user": {
+        "login": "fvrests",
+        "type": "User"
+      }
+    },
+    "4": {
+      "number": 4,
+      "user": {
+        "login": "maxstollmayer",
+        "type": "User"
+      }
+    },
+    "5": {
+      "number": 5,
+      "user": {
+        "login": "Omenabaka",
+        "type": "User"
+      }
+    },
+    "6": {
+      "number": 6,
+      "user": {
+        "login": "Omenabaka",
+        "type": "User"
+      }
+    },
+    "7": {
+      "number": 7,
+      "user": {
+        "login": "spenserblack",
+        "type": "User"
+      }
+    },
+    "8": {
+      "number": 8,
+      "user": {
+        "login": "spenserblack",
+        "type": "User"
+      }
+    }
+  },
+  "prs": {
+    "3": {
+      "number": 3,
+      "updatedAt": "2021-09-01T02:08:19Z",
+      "merged": true,
+      "author": {
+        "login": "fvrests",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4": {
+      "number": 4,
+      "updatedAt": "2024-01-03T16:43:44Z",
+      "merged": true,
+      "author": {
+        "login": "maxstollmayer",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "mvllow",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "maxstollmayer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "mvllow",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "maxstollmayer",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "5": {
+      "number": 5,
+      "updatedAt": "2026-04-02T16:49:12Z",
+      "merged": true,
+      "author": {
+        "login": "Omenabaka",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6": {
+      "number": 6,
+      "updatedAt": "2026-04-02T16:49:50Z",
+      "merged": true,
+      "author": {
+        "login": "Omenabaka",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8": {
+      "number": 8,
+      "updatedAt": "2026-06-22T15:27:11Z",
+      "merged": true,
+      "author": {
+        "login": "spenserblack",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "mvllow",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
