@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T08:54:45.478Z",
+    "lastRunAt": "2026-09-05T22:14:12.414Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNC0wNVQxMzo0NToxMlrO0AsyQw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2093,6 +2093,20 @@
       "number": 293,
       "user": {
         "login": "stephenlrandall",
+        "type": "User"
+      }
+    },
+    "294": {
+      "number": 294,
+      "user": {
+        "login": "dcavalcante",
+        "type": "User"
+      }
+    },
+    "295": {
+      "number": 295,
+      "user": {
+        "login": "dcavalcante",
         "type": "User"
       }
     }
@@ -6162,7 +6176,7 @@
     },
     "283": {
       "number": 283,
-      "updatedAt": "2026-08-27T21:50:04Z",
+      "updatedAt": "2026-09-05T15:38:35Z",
       "merged": false,
       "author": {
         "login": "gtritchie",
@@ -6198,7 +6212,7 @@
     },
     "287": {
       "number": 287,
-      "updatedAt": "2026-08-24T01:20:03Z",
+      "updatedAt": "2026-09-05T19:02:57Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -6248,6 +6262,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "295": {
+      "number": 295,
+      "updatedAt": "2026-09-05T18:57:28Z",
+      "merged": true,
+      "author": {
+        "login": "dcavalcante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Princesseuh",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
