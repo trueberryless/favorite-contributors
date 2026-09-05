@@ -1,0 +1,178 @@
+{
+  "syncState": {
+    "lastRunAt": "2026-09-05T12:30:37.881Z",
+    "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0xMC0wNFQxMjoxNjoxOVrOrBZuMg==",
+    "prBackfillComplete": true,
+    "issuesBackfillComplete": true
+  },
+  "issues": {
+    "1": {
+      "number": 1,
+      "user": {
+        "login": "br0p0p",
+        "type": "User"
+      }
+    },
+    "2": {
+      "number": 2,
+      "user": {
+        "login": "43081j",
+        "type": "User"
+      }
+    },
+    "3": {
+      "number": 3,
+      "user": {
+        "login": "43081j",
+        "type": "User"
+      }
+    },
+    "4": {
+      "number": 4,
+      "user": {
+        "login": "br0p0p",
+        "type": "User"
+      }
+    },
+    "5": {
+      "number": 5,
+      "user": {
+        "login": "lencioni",
+        "type": "User"
+      }
+    }
+  },
+  "prs": {
+    "1": {
+      "number": 1,
+      "updatedAt": "2025-10-05T13:45:58Z",
+      "merged": true,
+      "author": {
+        "login": "br0p0p",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2": {
+      "number": 2,
+      "updatedAt": "2025-10-04T12:16:19Z",
+      "merged": true,
+      "author": {
+        "login": "43081j",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4": {
+      "number": 4,
+      "updatedAt": "2025-10-06T07:59:00Z",
+      "merged": true,
+      "author": {
+        "login": "br0p0p",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "br0p0p",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "br0p0p",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "br0p0p",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "5": {
+      "number": 5,
+      "updatedAt": "2025-11-08T09:01:01Z",
+      "merged": true,
+      "author": {
+        "login": "lencioni",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
