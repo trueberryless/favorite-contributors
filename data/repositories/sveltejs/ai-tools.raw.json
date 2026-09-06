@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T20:02:51.062Z",
+    "lastRunAt": "2026-09-06T13:07:46.771Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1866,6 +1866,13 @@
       "user": {
         "login": "paoloricciuti",
         "type": "User"
+      }
+    },
+    "259": {
+      "number": 259,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -6980,7 +6987,7 @@
     },
     "203": {
       "number": 203,
-      "updatedAt": "2026-09-01T01:22:53Z",
+      "updatedAt": "2026-09-05T20:55:39Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -8308,6 +8315,24 @@
             }
           }
         ]
+      }
+    },
+    "259": {
+      "number": 259,
+      "updatedAt": "2026-09-05T20:56:11Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
