@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T20:05:59.422Z",
+    "lastRunAt": "2026-09-06T16:26:43.888Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13836,6 +13836,13 @@
       "number": 3180,
       "user": {
         "login": "contactjawad",
+        "type": "User"
+      }
+    },
+    "3181": {
+      "number": 3181,
+      "user": {
+        "login": "GebleaAlex",
         "type": "User"
       }
     }
@@ -38597,6 +38604,32 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3181": {
+      "number": 3181,
+      "updatedAt": "2026-09-06T13:37:54Z",
+      "merged": true,
+      "author": {
+        "login": "GebleaAlex",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
             }
           }
         ]

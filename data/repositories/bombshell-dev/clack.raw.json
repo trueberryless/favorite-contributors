@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T22:11:13.314Z",
+    "lastRunAt": "2026-09-06T16:28:15.439Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4697,6 +4697,16 @@
       "user": {
         "login": "Zheng-Shuo",
         "type": "User"
+      }
+    },
+    "599": {
+      "number": 599,
+      "user": {
+        "login": "43081j",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -16301,6 +16311,32 @@
       },
       "reactions": {
         "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "599": {
+      "number": 599,
+      "updatedAt": "2026-09-06T12:41:30Z",
+      "merged": false,
+      "author": {
+        "login": "43081j",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
