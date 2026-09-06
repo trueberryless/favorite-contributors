@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T15:51:59.151Z",
+    "lastRunAt": "2026-09-06T09:24:44.174Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8840,6 +8840,20 @@
       "number": 1223,
       "user": {
         "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "1224": {
+      "number": 1224,
+      "user": {
+        "login": "sentry[bot]",
+        "type": "Bot"
+      }
+    },
+    "1225": {
+      "number": 1225,
+      "user": {
+        "login": "LadyBluenotes",
         "type": "User"
       }
     }
@@ -32349,6 +32363,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1224": {
+      "number": 1224,
+      "updatedAt": "2026-09-05T23:04:34Z",
+      "merged": false,
+      "author": {
+        "login": "sentry",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1225": {
+      "number": 1225,
+      "updatedAt": "2026-09-06T02:18:33Z",
+      "merged": false,
+      "author": {
+        "login": "LadyBluenotes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

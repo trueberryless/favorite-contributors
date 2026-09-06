@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T15:52:12.174Z",
+    "lastRunAt": "2026-09-06T09:24:51.414Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yMlQxNDoyOToxMFrO9OqwMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -85,6 +85,13 @@
         "login": "Yuripetusko",
         "type": "User"
       }
+    },
+    "12": {
+      "number": 12,
+      "user": {
+        "login": "LadyBluenotes",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -134,10 +141,36 @@
     },
     "4": {
       "number": 4,
-      "updatedAt": "2026-08-03T10:11:13Z",
-      "merged": false,
+      "updatedAt": "2026-09-06T02:02:34Z",
+      "merged": true,
       "author": {
         "login": "AlemTuzlak",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LadyBluenotes",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "5": {
+      "number": 5,
+      "updatedAt": "2026-08-05T00:01:32Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
         "__typename": "User"
       },
       "closingIssuesReferences": {
@@ -150,12 +183,12 @@
         "nodes": []
       }
     },
-    "5": {
-      "number": 5,
-      "updatedAt": "2026-08-05T00:01:32Z",
-      "merged": true,
+    "12": {
+      "number": 12,
+      "updatedAt": "2026-09-06T02:17:25Z",
+      "merged": false,
       "author": {
-        "login": "tannerlinsley",
+        "login": "LadyBluenotes",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T17:37:18.099Z",
+    "lastRunAt": "2026-09-06T09:34:42.511Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0xNFQxNTowMTo0N1rOdVEJrQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23335,8 +23335,8 @@
     },
     "1048": {
       "number": 1048,
-      "updatedAt": "2026-09-05T16:53:21Z",
-      "merged": false,
+      "updatedAt": "2026-09-05T17:53:45Z",
+      "merged": true,
       "author": {
         "login": "JosueGalRe",
         "__typename": "User"
@@ -23348,7 +23348,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mr-cheffy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

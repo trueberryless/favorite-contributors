@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T15:52:11.510Z",
+    "lastRunAt": "2026-09-06T09:24:50.716Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNC0yMVQwMDo1NDoxOFrO1CVDJQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -129,6 +129,13 @@
       "number": 18,
       "user": {
         "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "19": {
+      "number": 19,
+      "user": {
+        "login": "LadyBluenotes",
         "type": "User"
       }
     }
@@ -457,6 +464,24 @@
       "merged": true,
       "author": {
         "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19": {
+      "number": 19,
+      "updatedAt": "2026-09-06T03:45:00Z",
+      "merged": true,
+      "author": {
+        "login": "LadyBluenotes",
         "__typename": "User"
       },
       "closingIssuesReferences": {

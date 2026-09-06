@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T15:51:54.812Z",
+    "lastRunAt": "2026-09-06T09:24:41.662Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -14994,6 +14994,13 @@
       "number": 2372,
       "user": {
         "login": "AlexanderHott",
+        "type": "User"
+      }
+    },
+    "2373": {
+      "number": 2373,
+      "user": {
+        "login": "ousamabenyounes",
         "type": "User"
       }
     }
@@ -44161,7 +44168,7 @@
     },
     "2371": {
       "number": 2371,
-      "updatedAt": "2026-09-04T07:15:21Z",
+      "updatedAt": "2026-09-06T07:48:45Z",
       "merged": false,
       "author": {
         "login": "dikshit-n",
@@ -44216,8 +44223,47 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dikshit-n",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
           }
         ]
+      }
+    },
+    "2373": {
+      "number": 2373,
+      "updatedAt": "2026-09-05T16:36:13Z",
+      "merged": false,
+      "author": {
+        "login": "ousamabenyounes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

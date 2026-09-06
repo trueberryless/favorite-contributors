@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T15:35:31.910Z",
+    "lastRunAt": "2026-09-06T09:16:57.648Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wNFQxOTo0NjoyMVrPAAAAAQj4Who=",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -80552,7 +80552,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 12
+        "total_count": 14
       }
     },
     "10027": {
@@ -80724,6 +80724,48 @@
         "login": "cqxswbc2",
         "type": "User"
       }
+    },
+    "10050": {
+      "number": 10050,
+      "user": {
+        "login": "qasic",
+        "type": "User"
+      }
+    },
+    "10051": {
+      "number": 10051,
+      "user": {
+        "login": "goosewobbler",
+        "type": "User"
+      }
+    },
+    "10052": {
+      "number": 10052,
+      "user": {
+        "login": "2u841r",
+        "type": "User"
+      }
+    },
+    "10053": {
+      "number": 10053,
+      "user": {
+        "login": "kytta",
+        "type": "User"
+      }
+    },
+    "10054": {
+      "number": 10054,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10055": {
+      "number": 10055,
+      "user": {
+        "login": "Chiku-09",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -80755,7 +80797,7 @@
     },
     "10045": {
       "number": 10045,
-      "updatedAt": "2026-09-05T04:23:34Z",
+      "updatedAt": "2026-09-05T23:45:39Z",
       "merged": false,
       "author": {
         "login": "moraesc",
@@ -80773,6 +80815,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "moraesc",
               "__typename": "User"
             }
           }
@@ -80836,6 +80885,78 @@
       "merged": false,
       "author": {
         "login": "cqxswbc2",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10050": {
+      "number": 10050,
+      "updatedAt": "2026-09-06T02:19:53Z",
+      "merged": false,
+      "author": {
+        "login": "qasic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10051": {
+      "number": 10051,
+      "updatedAt": "2026-09-05T18:12:53Z",
+      "merged": false,
+      "author": {
+        "login": "goosewobbler",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10052": {
+      "number": 10052,
+      "updatedAt": "2026-09-06T01:26:11Z",
+      "merged": false,
+      "author": {
+        "login": "2u841r",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10054": {
+      "number": 10054,
+      "updatedAt": "2026-09-06T04:48:59Z",
+      "merged": false,
+      "author": {
+        "login": "fregante",
         "__typename": "User"
       },
       "closingIssuesReferences": {

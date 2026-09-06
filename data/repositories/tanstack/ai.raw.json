@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T15:52:08.733Z",
+    "lastRunAt": "2026-09-06T09:24:49.104Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0xMC0xN1QxNToxNTowMlrOrlQ5pQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9055,6 +9055,20 @@
       "number": 1332,
       "user": {
         "login": "jherr",
+        "type": "User"
+      }
+    },
+    "1333": {
+      "number": 1333,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1334": {
+      "number": 1334,
+      "user": {
+        "login": "LadyBluenotes",
         "type": "User"
       }
     }
@@ -45082,8 +45096,8 @@
     },
     "1326": {
       "number": 1326,
-      "updatedAt": "2026-09-05T09:32:34Z",
-      "merged": false,
+      "updatedAt": "2026-09-06T01:16:03Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -45095,7 +45109,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "tombeckenham",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LadyBluenotes",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1327": {
@@ -45126,7 +45155,7 @@
     },
     "1330": {
       "number": 1330,
-      "updatedAt": "2026-09-04T20:48:43Z",
+      "updatedAt": "2026-09-06T04:42:07Z",
       "merged": false,
       "author": {
         "login": "8times4",
@@ -45163,6 +45192,42 @@
       "merged": false,
       "author": {
         "login": "jherr",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1333": {
+      "number": 1333,
+      "updatedAt": "2026-09-06T01:22:08Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1334": {
+      "number": 1334,
+      "updatedAt": "2026-09-06T04:42:03Z",
+      "merged": false,
+      "author": {
+        "login": "LadyBluenotes",
         "__typename": "User"
       },
       "closingIssuesReferences": {
