@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-05T22:12:25.931Z",
+    "lastRunAt": "2026-09-06T18:33:27.411Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOS0wN1QwMjozMDo1NFrOereczA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -587,6 +587,13 @@
       "user": {
         "login": "42willow",
         "type": "User"
+      }
+    },
+    "83": {
+      "number": 83,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -2015,6 +2022,24 @@
             }
           }
         ]
+      }
+    },
+    "83": {
+      "number": 83,
+      "updatedAt": "2026-09-05T22:31:35Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
