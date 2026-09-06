@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-06T05:00:29.081Z",
+    "lastRunAt": "2026-09-06T23:01:14.484Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0xMS0yOFQxMzoxNDowNVrOg3SthQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2636,6 +2636,20 @@
     },
     "367": {
       "number": 367,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "368": {
+      "number": 368,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "369": {
+      "number": 369,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -9875,7 +9889,7 @@
     },
     "364": {
       "number": 364,
-      "updatedAt": "2026-09-01T15:46:51Z",
+      "updatedAt": "2026-09-06T21:52:39Z",
       "merged": false,
       "author": {
         "login": "oxc-guard",
@@ -9893,8 +9907,8 @@
     },
     "365": {
       "number": 365,
-      "updatedAt": "2026-08-30T20:52:22Z",
-      "merged": false,
+      "updatedAt": "2026-09-06T21:50:37Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9931,6 +9945,42 @@
       "number": 367,
       "updatedAt": "2026-09-01T15:44:49Z",
       "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "368": {
+      "number": 368,
+      "updatedAt": "2026-09-06T21:52:37Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "369": {
+      "number": 369,
+      "updatedAt": "2026-09-06T21:52:47Z",
+      "merged": false,
       "author": {
         "login": "renovate",
         "__typename": "Bot"

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-06T05:00:30.385Z",
+    "lastRunAt": "2026-09-06T23:01:15.696Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wNFQwOTo0NDozOFrOwWroFA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2734,6 +2734,20 @@
       "user": {
         "login": "CarlosAmaral",
         "type": "User"
+      }
+    },
+    "376": {
+      "number": 376,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "377": {
+      "number": 377,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -8343,6 +8357,42 @@
       "author": {
         "login": "wagenet",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "376": {
+      "number": 376,
+      "updatedAt": "2026-09-06T16:47:44Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "377": {
+      "number": 377,
+      "updatedAt": "2026-09-06T16:48:34Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

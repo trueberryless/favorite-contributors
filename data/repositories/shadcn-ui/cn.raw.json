@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-06T09:16:12.349Z",
+    "lastRunAt": "2026-09-06T23:02:59.567Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wMVQxMjowOToxM1rPAAAAAQb2sJE=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -182,6 +182,20 @@
       "user": {
         "login": "XanthanGum",
         "type": "User"
+      }
+    },
+    "74": {
+      "number": 74,
+      "user": {
+        "login": "shadcn",
+        "type": "User"
+      }
+    },
+    "75": {
+      "number": 75,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -552,6 +566,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "74": {
+      "number": 74,
+      "updatedAt": "2026-09-06T12:09:37Z",
+      "merged": true,
+      "author": {
+        "login": "shadcn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "75": {
+      "number": 75,
+      "updatedAt": "2026-09-06T12:12:05Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
