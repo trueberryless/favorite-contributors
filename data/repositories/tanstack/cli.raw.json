@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-06T09:24:47.128Z",
+    "lastRunAt": "2026-09-07T00:53:00.200Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0xOFQwMjoxOTo0MVrOi3_cXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3600,6 +3600,13 @@
       "number": 508,
       "user": {
         "login": "itzzjustmateo",
+        "type": "User"
+      }
+    },
+    "509": {
+      "number": 509,
+      "user": {
+        "login": "jherr",
         "type": "User"
       }
     }
@@ -10795,6 +10802,32 @@
           },
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "509": {
+      "number": 509,
+      "updatedAt": "2026-09-06T16:56:58Z",
+      "merged": false,
+      "author": {
+        "login": "jherr",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
             "author": {
               "login": "AlemTuzlak",
               "__typename": "User"
