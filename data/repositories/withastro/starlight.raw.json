@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-12T16:28:42.118Z",
+    "lastRunAt": "2026-09-13T12:35:23.560Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27282,6 +27282,13 @@
       "number": 4195,
       "user": {
         "login": "jhoward321",
+        "type": "User"
+      }
+    },
+    "4197": {
+      "number": 4197,
+      "user": {
+        "login": "trueberryless",
         "type": "User"
       }
     }
@@ -132878,7 +132885,7 @@
     },
     "4192": {
       "number": 4192,
-      "updatedAt": "2026-09-11T10:50:57Z",
+      "updatedAt": "2026-09-12T18:27:33Z",
       "merged": false,
       "author": {
         "login": "HiDeoo",
@@ -132912,13 +132919,27 @@
               "login": "delucis",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "4195": {
       "number": 4195,
-      "updatedAt": "2026-09-12T00:03:01Z",
+      "updatedAt": "2026-09-12T18:35:07Z",
       "merged": false,
       "author": {
         "login": "jhoward321",
@@ -132931,7 +132952,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4197": {
+      "number": 4197,
+      "updatedAt": "2026-09-12T20:30:58Z",
+      "merged": false,
+      "author": {
+        "login": "trueberryless",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "gameroman",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
