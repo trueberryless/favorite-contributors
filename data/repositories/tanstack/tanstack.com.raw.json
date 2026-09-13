@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-12T23:17:41.754Z",
+    "lastRunAt": "2026-09-13T19:22:46.487Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33762,8 +33762,8 @@
     },
     "1268": {
       "number": 1268,
-      "updatedAt": "2026-09-12T11:03:27Z",
-      "merged": false,
+      "updatedAt": "2026-09-13T10:18:26Z",
+      "merged": true,
       "author": {
         "login": "sentry",
         "__typename": "Bot"
@@ -33775,7 +33775,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "TkDodo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1270": {

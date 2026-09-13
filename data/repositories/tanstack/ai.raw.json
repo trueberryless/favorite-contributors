@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-12T23:17:45.868Z",
+    "lastRunAt": "2026-09-13T19:22:49.745Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0xMC0xN1QxNToxNTowMlrOrlQ5pQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9334,6 +9334,13 @@
       "number": 1374,
       "user": {
         "login": "kolaworld",
+        "type": "User"
+      }
+    },
+    "1375": {
+      "number": 1375,
+      "user": {
+        "login": "citizen204",
         "type": "User"
       }
     }
@@ -46263,7 +46270,7 @@
     },
     "1371": {
       "number": 1371,
-      "updatedAt": "2026-09-12T09:41:38Z",
+      "updatedAt": "2026-09-13T10:42:22Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -46315,6 +46322,32 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1375": {
+      "number": 1375,
+      "updatedAt": "2026-09-13T11:55:30Z",
+      "merged": false,
+      "author": {
+        "login": "citizen204",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

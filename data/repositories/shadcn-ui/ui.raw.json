@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-12T21:19:33.035Z",
+    "lastRunAt": "2026-09-13T19:15:41.521Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMS0yNVQxNTo0MjoxOFrOSHX_HQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -72892,6 +72892,41 @@
         "login": "deniiiiz-i",
         "type": "User"
       }
+    },
+    "11894": {
+      "number": 11894,
+      "user": {
+        "login": "nusygako",
+        "type": "User"
+      }
+    },
+    "11895": {
+      "number": 11895,
+      "user": {
+        "login": "yukihito-jokyu",
+        "type": "User"
+      }
+    },
+    "11896": {
+      "number": 11896,
+      "user": {
+        "login": "dajiaohuang",
+        "type": "User"
+      }
+    },
+    "11897": {
+      "number": 11897,
+      "user": {
+        "login": "Riyadh-Muradi",
+        "type": "User"
+      }
+    },
+    "11898": {
+      "number": 11898,
+      "user": {
+        "login": "Riyadh-Muradi",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -128549,7 +128584,7 @@
     },
     "8118": {
       "number": 8118,
-      "updatedAt": "2026-09-10T23:42:50Z",
+      "updatedAt": "2026-09-13T15:23:55Z",
       "merged": false,
       "author": {
         "login": "max-programming",
@@ -131586,7 +131621,7 @@
     },
     "8405": {
       "number": 8405,
-      "updatedAt": "2025-10-23T20:22:21Z",
+      "updatedAt": "2026-09-13T01:37:21Z",
       "merged": false,
       "author": {
         "login": "ma-r-s",
@@ -177910,6 +177945,104 @@
       "merged": false,
       "author": {
         "login": "deniiiiz-i",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11894": {
+      "number": 11894,
+      "updatedAt": "2026-09-13T06:50:49Z",
+      "merged": false,
+      "author": {
+        "login": "nusygako",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "11895": {
+      "number": 11895,
+      "updatedAt": "2026-09-13T08:41:49Z",
+      "merged": false,
+      "author": {
+        "login": "yukihito-jokyu",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11896": {
+      "number": 11896,
+      "updatedAt": "2026-09-13T08:32:47Z",
+      "merged": false,
+      "author": {
+        "login": "dajiaohuang",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11897": {
+      "number": 11897,
+      "updatedAt": "2026-09-13T13:59:41Z",
+      "merged": false,
+      "author": {
+        "login": "Riyadh-Muradi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11898": {
+      "number": 11898,
+      "updatedAt": "2026-09-13T13:59:53Z",
+      "merged": false,
+      "author": {
+        "login": "Riyadh-Muradi",
         "__typename": "User"
       },
       "closingIssuesReferences": {
