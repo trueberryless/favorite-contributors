@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-12T13:04:47.829Z",
+    "lastRunAt": "2026-09-13T06:37:19.853Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMS0yMVQxNDoxNzoxN1rORui15Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -34367,6 +34367,20 @@
     },
     "5431": {
       "number": 5431,
+      "user": {
+        "login": "brc-dd",
+        "type": "User"
+      }
+    },
+    "5432": {
+      "number": 5432,
+      "user": {
+        "login": "brc-dd",
+        "type": "User"
+      }
+    },
+    "5433": {
+      "number": 5433,
       "user": {
         "login": "brc-dd",
         "type": "User"
@@ -76422,6 +76436,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "5432": {
+      "number": 5432,
+      "updatedAt": "2026-09-12T13:57:41Z",
+      "merged": false,
+      "author": {
+        "login": "brc-dd",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "5433": {
+      "number": 5433,
+      "updatedAt": "2026-09-13T05:14:11Z",
+      "merged": true,
+      "author": {
+        "login": "brc-dd",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

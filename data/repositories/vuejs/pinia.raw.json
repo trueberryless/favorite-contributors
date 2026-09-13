@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-12T13:04:46.046Z",
+    "lastRunAt": "2026-09-13T06:37:18.285Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -38574,7 +38574,7 @@
     },
     "3179": {
       "number": 3179,
-      "updatedAt": "2026-09-02T14:55:31Z",
+      "updatedAt": "2026-09-12T13:43:47Z",
       "merged": false,
       "author": {
         "login": "contactjawad",
@@ -38587,12 +38587,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lvyanyan",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3180": {
       "number": 3180,
-      "updatedAt": "2026-09-02T15:01:14Z",
+      "updatedAt": "2026-09-12T13:43:49Z",
       "merged": false,
       "author": {
         "login": "contactjawad",
@@ -38611,6 +38619,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lvyanyan",
+              "__typename": "User"
             }
           }
         ]

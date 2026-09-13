@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-12T16:26:47.958Z",
+    "lastRunAt": "2026-09-13T06:38:43.738Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4737,6 +4737,13 @@
       "number": 603,
       "user": {
         "login": "umfarah1406",
+        "type": "User"
+      }
+    },
+    "604": {
+      "number": 604,
+      "user": {
+        "login": "mixto",
         "type": "User"
       }
     }
@@ -16367,7 +16374,7 @@
     },
     "596": {
       "number": 596,
-      "updatedAt": "2026-09-12T16:15:25Z",
+      "updatedAt": "2026-09-12T23:33:24Z",
       "merged": false,
       "author": {
         "login": "dreyfus92",
@@ -16392,6 +16399,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "dreyfus92",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "umfarah1406",
               "__typename": "User"
             }
           }
@@ -16530,6 +16544,24 @@
             }
           }
         ]
+      }
+    },
+    "604": {
+      "number": 604,
+      "updatedAt": "2026-09-12T19:48:25Z",
+      "merged": false,
+      "author": {
+        "login": "mixto",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
