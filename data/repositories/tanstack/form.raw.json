@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T19:22:44.434Z",
+    "lastRunAt": "2026-09-14T20:33:04.912Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15051,6 +15051,9 @@
       "user": {
         "login": "dikshit-n",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "2381": {
@@ -15106,6 +15109,30 @@
       "number": 2388,
       "user": {
         "login": "harshit-d3v",
+        "type": "User"
+      }
+    },
+    "2390": {
+      "number": 2390,
+      "user": {
+        "login": "awdr74100",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2391": {
+      "number": 2391,
+      "user": {
+        "login": "awdr74100",
+        "type": "User"
+      }
+    },
+    "2392": {
+      "number": 2392,
+      "user": {
+        "login": "awdr74100",
         "type": "User"
       }
     }
@@ -44039,8 +44066,8 @@
     },
     "2356": {
       "number": 2356,
-      "updatedAt": "2026-08-27T10:23:44Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T15:04:46Z",
+      "merged": true,
       "author": {
         "login": "scttcper",
         "__typename": "User"
@@ -44057,6 +44084,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "scttcper",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LeCarbonator",
               "__typename": "User"
             }
           }
@@ -44215,7 +44249,7 @@
     },
     "2368": {
       "number": 2368,
-      "updatedAt": "2026-09-05T09:29:03Z",
+      "updatedAt": "2026-09-14T12:01:19Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -44461,7 +44495,7 @@
     },
     "2379": {
       "number": 2379,
-      "updatedAt": "2026-09-10T11:00:43Z",
+      "updatedAt": "2026-09-14T12:01:42Z",
       "merged": false,
       "author": {
         "login": "KevinVandy",
@@ -44479,7 +44513,7 @@
     },
     "2380": {
       "number": 2380,
-      "updatedAt": "2026-09-11T02:45:27Z",
+      "updatedAt": "2026-09-14T08:10:53Z",
       "merged": false,
       "author": {
         "login": "dikshit-n",
@@ -44489,7 +44523,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -44620,8 +44654,8 @@
     },
     "2387": {
       "number": 2387,
-      "updatedAt": "2026-09-11T23:11:13Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T09:45:23Z",
+      "merged": true,
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
@@ -44634,6 +44668,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2392": {
+      "number": 2392,
+      "updatedAt": "2026-09-14T18:26:00Z",
+      "merged": false,
+      "author": {
+        "login": "awdr74100",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

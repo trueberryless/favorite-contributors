@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T19:22:46.255Z",
+    "lastRunAt": "2026-09-14T20:33:06.951Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7911,6 +7911,34 @@
       "number": 1285,
       "user": {
         "login": "rubinsh",
+        "type": "User"
+      }
+    },
+    "1286": {
+      "number": 1286,
+      "user": {
+        "login": "gameroman",
+        "type": "User"
+      }
+    },
+    "1287": {
+      "number": 1287,
+      "user": {
+        "login": "piecyk",
+        "type": "User"
+      }
+    },
+    "1288": {
+      "number": 1288,
+      "user": {
+        "login": "piecyk",
+        "type": "User"
+      }
+    },
+    "1289": {
+      "number": 1289,
+      "user": {
+        "login": "piecyk",
         "type": "User"
       }
     }
@@ -22134,8 +22162,8 @@
     },
     "1279": {
       "number": 1279,
-      "updatedAt": "2026-09-11T16:12:21Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T10:15:32Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -22152,7 +22180,7 @@
     },
     "1280": {
       "number": 1280,
-      "updatedAt": "2026-09-12T16:32:12Z",
+      "updatedAt": "2026-09-14T08:53:48Z",
       "merged": false,
       "author": {
         "login": "piecyk",
@@ -22179,14 +22207,21 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
           }
         ]
       }
     },
     "1282": {
       "number": 1282,
-      "updatedAt": "2026-09-13T08:47:19Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T09:35:53Z",
+      "merged": true,
       "author": {
         "login": "Jigoooo",
         "__typename": "User"
@@ -22203,14 +22238,84 @@
     },
     "1284": {
       "number": 1284,
-      "updatedAt": "2026-09-13T17:28:46Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T09:01:53Z",
+      "merged": true,
       "author": {
         "login": "rubinsh",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1286": {
+      "number": 1286,
+      "updatedAt": "2026-09-13T19:58:58Z",
+      "merged": false,
+      "author": {
+        "login": "gameroman",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1288": {
+      "number": 1288,
+      "updatedAt": "2026-09-14T06:19:51Z",
+      "merged": false,
+      "author": {
+        "login": "piecyk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1289": {
+      "number": 1289,
+      "updatedAt": "2026-09-14T09:02:31Z",
+      "merged": true,
+      "author": {
+        "login": "piecyk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
