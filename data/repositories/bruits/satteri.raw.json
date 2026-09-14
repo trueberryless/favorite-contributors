@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T12:36:08.897Z",
+    "lastRunAt": "2026-09-14T03:50:34.461Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNC0wNVQxMzo0NToxMlrO0AsyQw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6282,7 +6282,7 @@
     },
     "287": {
       "number": 287,
-      "updatedAt": "2026-09-07T13:26:34Z",
+      "updatedAt": "2026-09-13T14:30:12Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -6434,8 +6434,8 @@
     },
     "303": {
       "number": 303,
-      "updatedAt": "2026-09-13T09:32:19Z",
-      "merged": false,
+      "updatedAt": "2026-09-13T14:31:46Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -6447,7 +6447,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Princesseuh",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

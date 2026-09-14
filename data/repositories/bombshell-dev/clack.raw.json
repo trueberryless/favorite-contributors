@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T06:38:43.738Z",
+    "lastRunAt": "2026-09-14T03:47:42.091Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4714,6 +4714,9 @@
       "user": {
         "login": "dreyfus92",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 3
       }
     },
     "601": {
@@ -4745,6 +4748,13 @@
       "user": {
         "login": "mixto",
         "type": "User"
+      }
+    },
+    "605": {
+      "number": 605,
+      "user": {
+        "login": "bombshell-bot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -16447,8 +16457,8 @@
     },
     "601": {
       "number": 601,
-      "updatedAt": "2026-09-11T19:36:00Z",
-      "merged": false,
+      "updatedAt": "2026-09-13T09:33:45Z",
+      "merged": true,
       "author": {
         "login": "gameroman",
         "__typename": "User"
@@ -16548,11 +16558,29 @@
     },
     "604": {
       "number": 604,
-      "updatedAt": "2026-09-12T19:48:25Z",
+      "updatedAt": "2026-09-13T18:30:13Z",
       "merged": false,
       "author": {
         "login": "mixto",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "605": {
+      "number": 605,
+      "updatedAt": "2026-09-13T16:59:35Z",
+      "merged": true,
+      "author": {
+        "login": "bombshell-bot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
