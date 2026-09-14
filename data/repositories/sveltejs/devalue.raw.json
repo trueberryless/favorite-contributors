@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T01:22:17.384Z",
+    "lastRunAt": "2026-09-13T23:56:52.707Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMy0xMFQyMzo0NjoyN1rOCmH-jw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1457,6 +1457,13 @@
       "number": 190,
       "user": {
         "login": "leonidaz",
+        "type": "User"
+      }
+    },
+    "191": {
+      "number": 191,
+      "user": {
+        "login": "MFA-G",
         "type": "User"
       }
     }
@@ -4450,6 +4457,24 @@
       "merged": false,
       "author": {
         "login": "leonidaz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "191": {
+      "number": 191,
+      "updatedAt": "2026-09-13T07:53:36Z",
+      "merged": false,
+      "author": {
+        "login": "MFA-G",
         "__typename": "User"
       },
       "closingIssuesReferences": {

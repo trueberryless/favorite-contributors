@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T06:37:14.705Z",
+    "lastRunAt": "2026-09-13T23:59:27.834Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOS0wM1QxODo0MjozN1rOErLYSw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -95620,6 +95620,48 @@
       "number": 15493,
       "user": {
         "login": "ja-plus",
+        "type": "User"
+      }
+    },
+    "15494": {
+      "number": 15494,
+      "user": {
+        "login": "edison1105",
+        "type": "User"
+      }
+    },
+    "15495": {
+      "number": 15495,
+      "user": {
+        "login": "Jia-ben00",
+        "type": "User"
+      }
+    },
+    "15496": {
+      "number": 15496,
+      "user": {
+        "login": "Jia-ben00",
+        "type": "User"
+      }
+    },
+    "15497": {
+      "number": 15497,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "15498": {
+      "number": 15498,
+      "user": {
+        "login": "JohannesGezachew",
+        "type": "User"
+      }
+    },
+    "15499": {
+      "number": 15499,
+      "user": {
+        "login": "ondrhn",
         "type": "User"
       }
     }
@@ -219150,7 +219192,7 @@
     },
     "13113": {
       "number": 13113,
-      "updatedAt": "2025-10-11T07:14:43Z",
+      "updatedAt": "2026-09-13T14:30:04Z",
       "merged": false,
       "author": {
         "login": "chirokas",
@@ -219169,6 +219211,13 @@
             "author": {
               "login": "connorshea",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
@@ -250845,7 +250894,7 @@
     },
     "15244": {
       "number": 15244,
-      "updatedAt": "2026-09-13T01:24:15Z",
+      "updatedAt": "2026-09-13T21:35:31Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -250863,7 +250912,7 @@
     },
     "15245": {
       "number": 15245,
-      "updatedAt": "2026-09-11T17:10:14Z",
+      "updatedAt": "2026-09-13T10:06:14Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -254738,6 +254787,86 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "15494": {
+      "number": 15494,
+      "updatedAt": "2026-09-13T07:22:37Z",
+      "merged": false,
+      "author": {
+        "login": "edison1105",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "15497": {
+      "number": 15497,
+      "updatedAt": "2026-09-13T17:04:50Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "15498": {
+      "number": 15498,
+      "updatedAt": "2026-09-13T14:31:23Z",
+      "merged": false,
+      "author": {
+        "login": "JohannesGezachew",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "15499": {
+      "number": 15499,
+      "updatedAt": "2026-09-13T17:40:59Z",
+      "merged": false,
+      "author": {
+        "login": "ondrhn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

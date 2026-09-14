@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T06:36:18.619Z",
+    "lastRunAt": "2026-09-13T23:58:30.030Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMy0yNFQwMjowMjoyNVrONOuB9w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7349,6 +7349,13 @@
     },
     "1031": {
       "number": 1031,
+      "user": {
+        "login": "NoiseFan",
+        "type": "User"
+      }
+    },
+    "1032": {
+      "number": 1032,
       "user": {
         "login": "NoiseFan",
         "type": "User"
@@ -29442,6 +29449,24 @@
             }
           }
         ]
+      }
+    },
+    "1032": {
+      "number": 1032,
+      "updatedAt": "2026-09-13T12:44:57Z",
+      "merged": true,
+      "author": {
+        "login": "NoiseFan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
