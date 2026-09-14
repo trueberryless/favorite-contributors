@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T19:13:53.781Z",
+    "lastRunAt": "2026-09-14T16:15:11.407Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0xNFQxMjoxMjoxN1rOXzkiDg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9462,6 +9462,23 @@
       "number": 1300,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1301": {
+      "number": 1301,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1302": {
+      "number": 1302,
+      "user": {
+        "login": "oxc-guard[bot]",
         "type": "Bot"
       }
     }
@@ -34339,6 +34356,57 @@
       "merged": true,
       "author": {
         "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1301": {
+      "number": 1301,
+      "updatedAt": "2026-09-14T07:34:17Z",
+      "merged": false,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1302": {
+      "number": 1302,
+      "updatedAt": "2026-09-14T09:26:57Z",
+      "merged": false,
+      "author": {
+        "login": "oxc-guard",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
