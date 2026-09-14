@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T21:42:46.659Z",
+    "lastRunAt": "2026-09-14T23:21:51.795Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6807,6 +6807,16 @@
       "number": 929,
       "user": {
         "login": "BaconMan1168",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "930": {
+      "number": 930,
+      "user": {
+        "login": "subashstanz",
         "type": "User"
       },
       "reactions": {
@@ -27129,6 +27139,39 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "930": {
+      "number": 930,
+      "updatedAt": "2026-09-14T13:58:25Z",
+      "merged": false,
+      "author": {
+        "login": "subashstanz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
               "__typename": "Bot"
             }
           }

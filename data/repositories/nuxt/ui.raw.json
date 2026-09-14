@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T21:42:00.412Z",
+    "lastRunAt": "2026-09-14T23:21:03.498Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xOFQxMzoxNTo0NlrOLraJ-A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -48260,6 +48260,9 @@
       "user": {
         "login": "mateusznarowski",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "6286": {
@@ -53130,6 +53133,62 @@
       "number": 6938,
       "user": {
         "login": "dvd233",
+        "type": "User"
+      }
+    },
+    "6939": {
+      "number": 6939,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "6940": {
+      "number": 6940,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "6941": {
+      "number": 6941,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "6942": {
+      "number": 6942,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "6943": {
+      "number": 6943,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "6944": {
+      "number": 6944,
+      "user": {
+        "login": "abhishek-junghare",
+        "type": "User"
+      }
+    },
+    "6945": {
+      "number": 6945,
+      "user": {
+        "login": "luckasdc",
+        "type": "User"
+      }
+    },
+    "6946": {
+      "number": 6946,
+      "user": {
+        "login": "luckasdc",
         "type": "User"
       }
     }
@@ -134435,8 +134494,8 @@
     },
     "6915": {
       "number": 6915,
-      "updatedAt": "2026-09-12T07:12:44Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T15:57:55Z",
+      "merged": true,
       "author": {
         "login": "benjamincanac",
         "__typename": "User"
@@ -134842,7 +134901,33 @@
     },
     "6937": {
       "number": 6937,
-      "updatedAt": "2026-09-13T05:26:36Z",
+      "updatedAt": "2026-09-14T08:48:28Z",
+      "merged": true,
+      "author": {
+        "login": "dvd233",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "6938": {
+      "number": 6938,
+      "updatedAt": "2026-09-13T05:57:19Z",
       "merged": false,
       "author": {
         "login": "dvd233",
@@ -134858,12 +134943,102 @@
         "nodes": []
       }
     },
-    "6938": {
-      "number": 6938,
-      "updatedAt": "2026-09-13T05:57:19Z",
+    "6939": {
+      "number": 6939,
+      "updatedAt": "2026-09-14T08:49:38Z",
       "merged": false,
       "author": {
-        "login": "dvd233",
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6940": {
+      "number": 6940,
+      "updatedAt": "2026-09-14T07:42:19Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6941": {
+      "number": 6941,
+      "updatedAt": "2026-09-14T07:46:08Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6942": {
+      "number": 6942,
+      "updatedAt": "2026-09-14T08:49:28Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6943": {
+      "number": 6943,
+      "updatedAt": "2026-09-14T08:01:40Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6946": {
+      "number": 6946,
+      "updatedAt": "2026-09-14T19:43:35Z",
+      "merged": false,
+      "author": {
+        "login": "luckasdc",
         "__typename": "User"
       },
       "closingIssuesReferences": {

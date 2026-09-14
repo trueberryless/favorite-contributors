@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T21:41:52.117Z",
+    "lastRunAt": "2026-09-14T23:20:54.357Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNi0wNVQxMzowOTozMlrOB2Owow==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3152,6 +3152,20 @@
       "user": {
         "login": "danielroe",
         "type": "User"
+      }
+    },
+    "451": {
+      "number": 451,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "452": {
+      "number": 452,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -12895,7 +12909,7 @@
     },
     "444": {
       "number": 444,
-      "updatedAt": "2026-09-09T22:04:00Z",
+      "updatedAt": "2026-09-14T08:57:07Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -12991,8 +13005,8 @@
     },
     "448": {
       "number": 448,
-      "updatedAt": "2026-09-10T19:11:58Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T08:56:25Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -13004,7 +13018,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "449": {
@@ -13049,6 +13071,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "451": {
+      "number": 451,
+      "updatedAt": "2026-09-14T08:43:13Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "452": {
+      "number": 452,
+      "updatedAt": "2026-09-14T07:53:25Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
