@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-14T20:26:25.533Z",
+    "lastRunAt": "2026-09-15T17:35:15.150Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wNFQxOTo0NjoyMVrPAAAAAQj4Who=",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -80988,6 +80988,13 @@
         "login": "erenbati",
         "type": "User"
       }
+    },
+    "10087": {
+      "number": 10087,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -81867,7 +81874,7 @@
     },
     "10084": {
       "number": 10084,
-      "updatedAt": "2026-09-13T19:34:58Z",
+      "updatedAt": "2026-09-15T08:27:50Z",
       "merged": false,
       "author": {
         "login": "Mihir4921",
@@ -81880,7 +81887,36 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "10085": {
@@ -81918,7 +81954,7 @@
     },
     "10086": {
       "number": 10086,
-      "updatedAt": "2026-09-14T19:16:38Z",
+      "updatedAt": "2026-09-15T13:32:10Z",
       "merged": false,
       "author": {
         "login": "erenbati",
@@ -81938,8 +81974,33 @@
               "login": "fregante",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "erenbati",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "10087": {
+      "number": 10087,
+      "updatedAt": "2026-09-15T08:13:38Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
