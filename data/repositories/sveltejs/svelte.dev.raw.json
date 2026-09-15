@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-14T23:24:02.702Z",
+    "lastRunAt": "2026-09-15T23:07:00.095Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15884,6 +15884,13 @@
       "user": {
         "login": "jycouet",
         "type": "User"
+      }
+    },
+    "2221": {
+      "number": 2221,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -48872,7 +48879,7 @@
     },
     "1877": {
       "number": 1877,
-      "updatedAt": "2026-09-14T20:11:17Z",
+      "updatedAt": "2026-09-15T21:44:31Z",
       "merged": false,
       "author": {
         "login": "aymericzip",
@@ -55028,7 +55035,7 @@
     },
     "2134": {
       "number": 2134,
-      "updatedAt": "2026-09-08T14:47:40Z",
+      "updatedAt": "2026-09-15T14:10:13Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -57188,8 +57195,8 @@
     },
     "2219": {
       "number": 2219,
-      "updatedAt": "2026-09-14T22:14:52Z",
-      "merged": false,
+      "updatedAt": "2026-09-15T14:10:14Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -57201,16 +57208,42 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2220": {
       "number": 2220,
-      "updatedAt": "2026-09-14T22:43:13Z",
+      "updatedAt": "2026-09-15T09:50:10Z",
       "merged": false,
       "author": {
         "login": "jycouet",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2221": {
+      "number": 2221,
+      "updatedAt": "2026-09-15T14:16:03Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

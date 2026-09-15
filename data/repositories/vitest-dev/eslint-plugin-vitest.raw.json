@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T01:46:19.113Z",
+    "lastRunAt": "2026-09-15T23:08:29.274Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNC0wMlQxOTo0NjoxMVrOMIduEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7122,6 +7122,13 @@
       "number": 963,
       "user": {
         "login": "warren-run-bot",
+        "type": "User"
+      }
+    },
+    "964": {
+      "number": 964,
+      "user": {
+        "login": "ethanstoner",
         "type": "User"
       }
     }
@@ -20865,6 +20872,24 @@
       "merged": false,
       "author": {
         "login": "warren-run-bot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "964": {
+      "number": 964,
+      "updatedAt": "2026-09-15T17:34:11Z",
+      "merged": false,
+      "author": {
+        "login": "ethanstoner",
         "__typename": "User"
       },
       "closingIssuesReferences": {

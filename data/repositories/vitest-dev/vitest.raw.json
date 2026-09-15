@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T01:46:19.113Z",
+    "lastRunAt": "2026-09-15T23:08:29.273Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wNFQxMzowNjowN1rOL2O6CQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -73694,6 +73694,9 @@
       "user": {
         "login": "macarie",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     },
     "11222": {
@@ -74028,6 +74031,51 @@
       "number": 11270,
       "user": {
         "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "11271": {
+      "number": 11271,
+      "user": {
+        "login": "Raj4478",
+        "type": "User"
+      }
+    },
+    "11274": {
+      "number": 11274,
+      "user": {
+        "login": "Martinspire",
+        "type": "User"
+      }
+    },
+    "11275": {
+      "number": 11275,
+      "user": {
+        "login": "vitest-release-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "11276": {
+      "number": 11276,
+      "user": {
+        "login": "martin-honzatko",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "11277": {
+      "number": 11277,
+      "user": {
+        "login": "yamachi4416",
+        "type": "User"
+      }
+    },
+    "11278": {
+      "number": 11278,
+      "user": {
+        "login": "7rulnik",
         "type": "User"
       }
     }
@@ -241225,7 +241273,7 @@
     },
     "11066": {
       "number": 11066,
-      "updatedAt": "2026-09-01T01:11:16Z",
+      "updatedAt": "2026-09-15T09:57:58Z",
       "merged": false,
       "author": {
         "login": "hi-ogawa",
@@ -241238,7 +241286,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "macarie",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "11067": {
@@ -241887,7 +241943,7 @@
     },
     "11100": {
       "number": 11100,
-      "updatedAt": "2026-08-29T16:43:48Z",
+      "updatedAt": "2026-09-15T10:20:27Z",
       "merged": false,
       "author": {
         "login": "ShreeBohara",
@@ -241900,7 +241956,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "11101": {
@@ -243024,7 +243088,7 @@
     },
     "11166": {
       "number": 11166,
-      "updatedAt": "2026-09-10T19:17:00Z",
+      "updatedAt": "2026-09-15T21:03:38Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -243042,7 +243106,7 @@
     },
     "11167": {
       "number": 11167,
-      "updatedAt": "2026-09-15T00:23:55Z",
+      "updatedAt": "2026-09-15T21:01:30Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -243489,7 +243553,7 @@
     },
     "11197": {
       "number": 11197,
-      "updatedAt": "2026-09-14T15:06:47Z",
+      "updatedAt": "2026-09-15T18:21:36Z",
       "merged": false,
       "author": {
         "login": "johan-gorter",
@@ -244040,7 +244104,7 @@
     },
     "11221": {
       "number": 11221,
-      "updatedAt": "2026-09-10T19:54:54Z",
+      "updatedAt": "2026-09-15T10:57:23Z",
       "merged": false,
       "author": {
         "login": "macarie",
@@ -244050,7 +244114,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 2
       },
       "reviews": {
         "nodes": [
@@ -244079,6 +244143,27 @@
             "state": "COMMENTED",
             "author": {
               "login": "macarie",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "macarie",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "hi-ogawa",
               "__typename": "User"
             }
           }
@@ -244236,7 +244321,7 @@
     },
     "11236": {
       "number": 11236,
-      "updatedAt": "2026-09-11T22:34:50Z",
+      "updatedAt": "2026-09-15T09:07:36Z",
       "merged": false,
       "author": {
         "login": "im10furry",
@@ -244272,8 +244357,8 @@
     },
     "11240": {
       "number": 11240,
-      "updatedAt": "2026-09-11T18:06:02Z",
-      "merged": false,
+      "updatedAt": "2026-09-15T05:39:06Z",
+      "merged": true,
       "author": {
         "login": "catinbag",
         "__typename": "User"
@@ -244285,7 +244370,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "11242": {
@@ -244308,7 +244401,7 @@
     },
     "11247": {
       "number": 11247,
-      "updatedAt": "2026-09-12T16:49:01Z",
+      "updatedAt": "2026-09-15T14:39:55Z",
       "merged": false,
       "author": {
         "login": "axelray-dev",
@@ -244344,7 +244437,7 @@
     },
     "11249": {
       "number": 11249,
-      "updatedAt": "2026-09-13T01:47:59Z",
+      "updatedAt": "2026-09-15T11:08:13Z",
       "merged": false,
       "author": {
         "login": "yamachi4416",
@@ -244357,12 +244450,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "11252": {
       "number": 11252,
-      "updatedAt": "2026-09-13T17:04:16Z",
+      "updatedAt": "2026-09-15T09:30:48Z",
       "merged": false,
       "author": {
         "login": "im10furry",
@@ -244398,7 +244499,7 @@
     },
     "11254": {
       "number": 11254,
-      "updatedAt": "2026-09-13T22:14:22Z",
+      "updatedAt": "2026-09-15T08:22:33Z",
       "merged": false,
       "author": {
         "login": "GTUTETTY",
@@ -244411,12 +244512,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "11255": {
       "number": 11255,
-      "updatedAt": "2026-09-14T00:25:02Z",
+      "updatedAt": "2026-09-15T21:04:03Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -244434,7 +244543,7 @@
     },
     "11256": {
       "number": 11256,
-      "updatedAt": "2026-09-14T00:25:28Z",
+      "updatedAt": "2026-09-15T21:04:24Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -244452,7 +244561,7 @@
     },
     "11258": {
       "number": 11258,
-      "updatedAt": "2026-09-14T03:52:46Z",
+      "updatedAt": "2026-09-15T21:04:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -244470,7 +244579,7 @@
     },
     "11259": {
       "number": 11259,
-      "updatedAt": "2026-09-14T03:53:22Z",
+      "updatedAt": "2026-09-15T21:05:11Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -244549,8 +244658,8 @@
     },
     "11261": {
       "number": 11261,
-      "updatedAt": "2026-09-14T08:13:23Z",
-      "merged": false,
+      "updatedAt": "2026-09-15T04:58:41Z",
+      "merged": true,
       "author": {
         "login": "kingmakeruix",
         "__typename": "User"
@@ -244562,12 +244671,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "11262": {
       "number": 11262,
-      "updatedAt": "2026-09-14T09:31:46Z",
+      "updatedAt": "2026-09-15T02:29:01Z",
       "merged": false,
       "author": {
         "login": "hi-ogawa",
@@ -244585,7 +244702,7 @@
     },
     "11264": {
       "number": 11264,
-      "updatedAt": "2026-09-14T09:43:57Z",
+      "updatedAt": "2026-09-15T02:29:55Z",
       "merged": false,
       "author": {
         "login": "hi-ogawa",
@@ -244625,6 +244742,83 @@
       "merged": false,
       "author": {
         "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11271": {
+      "number": 11271,
+      "updatedAt": "2026-09-15T14:07:27Z",
+      "merged": false,
+      "author": {
+        "login": "Raj4478",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "AriPerkkio",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "11275": {
+      "number": 11275,
+      "updatedAt": "2026-09-15T08:35:59Z",
+      "merged": true,
+      "author": {
+        "login": "vitest-release-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AriPerkkio",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "11278": {
+      "number": 11278,
+      "updatedAt": "2026-09-15T15:47:20Z",
+      "merged": false,
+      "author": {
+        "login": "7rulnik",
         "__typename": "User"
       },
       "closingIssuesReferences": {

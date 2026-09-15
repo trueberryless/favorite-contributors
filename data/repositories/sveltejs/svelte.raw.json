@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-14T23:23:51.143Z",
+    "lastRunAt": "2026-09-15T23:06:48.723Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -136835,6 +136835,27 @@
       "user": {
         "login": "Owskar",
         "type": "User"
+      }
+    },
+    "18823": {
+      "number": 18823,
+      "user": {
+        "login": "fgallaire",
+        "type": "User"
+      }
+    },
+    "18824": {
+      "number": 18824,
+      "user": {
+        "login": "jkbz64",
+        "type": "User"
+      }
+    },
+    "18825": {
+      "number": 18825,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -358429,7 +358450,7 @@
     },
     "18042": {
       "number": 18042,
-      "updatedAt": "2026-09-11T10:36:46Z",
+      "updatedAt": "2026-09-15T18:57:21Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -365065,7 +365086,7 @@
     },
     "18405": {
       "number": 18405,
-      "updatedAt": "2026-09-11T10:36:54Z",
+      "updatedAt": "2026-09-15T18:57:32Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -365650,7 +365671,7 @@
     },
     "18461": {
       "number": 18461,
-      "updatedAt": "2026-09-11T10:36:53Z",
+      "updatedAt": "2026-09-15T18:57:31Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -366383,7 +366404,7 @@
     },
     "18511": {
       "number": 18511,
-      "updatedAt": "2026-09-11T10:36:57Z",
+      "updatedAt": "2026-09-15T18:57:33Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -371535,6 +371556,42 @@
       "author": {
         "login": "Owskar",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18823": {
+      "number": 18823,
+      "updatedAt": "2026-09-15T05:16:37Z",
+      "merged": false,
+      "author": {
+        "login": "fgallaire",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18825": {
+      "number": 18825,
+      "updatedAt": "2026-09-15T12:15:41Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 1
