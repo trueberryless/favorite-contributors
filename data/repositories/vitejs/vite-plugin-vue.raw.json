@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T23:57:47.539Z",
+    "lastRunAt": "2026-09-15T01:45:39.754Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wM1QxMDowNjoxNlrORDHjHw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5564,6 +5564,20 @@
         "login": "titan-9-AI",
         "type": "User"
       }
+    },
+    "845": {
+      "number": 845,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "846": {
+      "number": 846,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
     }
   },
   "prs": {
@@ -9849,8 +9863,8 @@
     },
     "475": {
       "number": 475,
-      "updatedAt": "2025-12-03T13:38:04Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T09:28:03Z",
+      "merged": true,
       "author": {
         "login": "userquin",
         "__typename": "User"
@@ -9862,7 +9876,15 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "476": {
@@ -14924,7 +14946,7 @@
     },
     "819": {
       "number": 819,
-      "updatedAt": "2026-07-24T06:33:34Z",
+      "updatedAt": "2026-09-14T06:30:54Z",
       "merged": false,
       "author": {
         "login": "btea",
@@ -15066,7 +15088,7 @@
     },
     "826": {
       "number": 826,
-      "updatedAt": "2026-09-13T01:57:13Z",
+      "updatedAt": "2026-09-14T15:53:51Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15154,7 +15176,7 @@
     },
     "831": {
       "number": 831,
-      "updatedAt": "2026-09-09T23:06:14Z",
+      "updatedAt": "2026-09-14T05:08:55Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15172,7 +15194,7 @@
     },
     "832": {
       "number": 832,
-      "updatedAt": "2026-09-11T02:47:04Z",
+      "updatedAt": "2026-09-14T06:34:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15350,8 +15372,8 @@
     },
     "843": {
       "number": 843,
-      "updatedAt": "2026-09-11T02:46:15Z",
-      "merged": false,
+      "updatedAt": "2026-09-14T06:31:58Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -15363,12 +15385,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "844": {
       "number": 844,
-      "updatedAt": "2026-09-11T18:59:05Z",
+      "updatedAt": "2026-09-14T05:05:17Z",
       "merged": false,
       "author": {
         "login": "titan-9-AI",
@@ -15382,6 +15412,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "845": {
+      "number": 845,
+      "updatedAt": "2026-09-14T05:05:44Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "846": {
+      "number": 846,
+      "updatedAt": "2026-09-14T05:06:37Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

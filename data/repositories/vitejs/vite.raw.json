@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-13T23:57:42.829Z",
+    "lastRunAt": "2026-09-15T01:45:36.214Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNC0yM1QxMzo1MDo1MFrOGEXiQQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -136190,6 +136190,9 @@
       "user": {
         "login": "btea",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "23477": {
@@ -136217,6 +136220,48 @@
       "number": 23480,
       "user": {
         "login": "btea",
+        "type": "User"
+      }
+    },
+    "23481": {
+      "number": 23481,
+      "user": {
+        "login": "fbwe425",
+        "type": "User"
+      }
+    },
+    "23482": {
+      "number": 23482,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "23483": {
+      "number": 23483,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "23484": {
+      "number": 23484,
+      "user": {
+        "login": "nulluid",
+        "type": "User"
+      }
+    },
+    "23485": {
+      "number": 23485,
+      "user": {
+        "login": "smeng9",
+        "type": "User"
+      }
+    },
+    "23486": {
+      "number": 23486,
+      "user": {
+        "login": "smeng9",
         "type": "User"
       }
     }
@@ -442795,7 +442840,7 @@
     },
     "23282": {
       "number": 23282,
-      "updatedAt": "2026-08-20T11:12:55Z",
+      "updatedAt": "2026-09-14T19:49:42Z",
       "merged": false,
       "author": {
         "login": "rastuhacode",
@@ -445569,7 +445614,7 @@
     },
     "23418": {
       "number": 23418,
-      "updatedAt": "2026-09-02T11:49:33Z",
+      "updatedAt": "2026-09-14T17:47:18Z",
       "merged": false,
       "author": {
         "login": "ferferga",
@@ -445729,7 +445774,7 @@
     },
     "23429": {
       "number": 23429,
-      "updatedAt": "2026-09-04T02:39:48Z",
+      "updatedAt": "2026-09-14T07:26:06Z",
       "merged": false,
       "author": {
         "login": "gilangabdian",
@@ -445827,7 +445872,7 @@
     },
     "23436": {
       "number": 23436,
-      "updatedAt": "2026-09-06T03:47:47Z",
+      "updatedAt": "2026-09-14T13:09:45Z",
       "merged": false,
       "author": {
         "login": "kakiuwang-ui",
@@ -446332,7 +446377,7 @@
     },
     "23465": {
       "number": 23465,
-      "updatedAt": "2026-09-10T11:37:03Z",
+      "updatedAt": "2026-09-14T06:00:21Z",
       "merged": true,
       "author": {
         "login": "github-actions",
@@ -446345,7 +446390,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "babamottos-bit",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "23466": {
@@ -446458,8 +446511,8 @@
     },
     "23476": {
       "number": 23476,
-      "updatedAt": "2026-09-12T14:20:20Z",
-      "merged": false,
+      "updatedAt": "2026-09-15T01:31:30Z",
+      "merged": true,
       "author": {
         "login": "btea",
         "__typename": "User"
@@ -446468,10 +446521,18 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "bluwy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "23477": {
@@ -446542,6 +446603,78 @@
       "merged": false,
       "author": {
         "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23482": {
+      "number": 23482,
+      "updatedAt": "2026-09-15T01:33:53Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23483": {
+      "number": 23483,
+      "updatedAt": "2026-09-14T02:29:06Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23484": {
+      "number": 23484,
+      "updatedAt": "2026-09-14T21:58:16Z",
+      "merged": false,
+      "author": {
+        "login": "nulluid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23486": {
+      "number": 23486,
+      "updatedAt": "2026-09-14T23:21:57Z",
+      "merged": false,
+      "author": {
+        "login": "smeng9",
         "__typename": "User"
       },
       "closingIssuesReferences": {
