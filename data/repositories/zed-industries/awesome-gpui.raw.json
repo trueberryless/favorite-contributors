@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-14T20:38:11.439Z",
+    "lastRunAt": "2026-09-15T20:30:59.105Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -735,6 +735,13 @@
       "number": 99,
       "user": {
         "login": "JosephTLyons",
+        "type": "User"
+      }
+    },
+    "100": {
+      "number": 100,
+      "user": {
+        "login": "joris-gallot",
         "type": "User"
       }
     }
@@ -2428,6 +2435,24 @@
       "merged": true,
       "author": {
         "login": "JosephTLyons",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "100": {
+      "number": 100,
+      "updatedAt": "2026-09-15T16:03:53Z",
+      "merged": false,
+      "author": {
+        "login": "joris-gallot",
         "__typename": "User"
       },
       "closingIssuesReferences": {

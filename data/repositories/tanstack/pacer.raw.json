@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-14T20:33:09.375Z",
+    "lastRunAt": "2026-09-15T20:26:01.327Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xMVQxNzoyMDo1M1rOjiypRg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1740,6 +1740,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "262": {
+      "number": 262,
+      "user": {
+        "login": "2yunseong",
+        "type": "User"
+      }
+    },
+    "263": {
+      "number": 263,
+      "user": {
+        "login": "2yunseong",
+        "type": "User"
       }
     }
   },
@@ -6430,8 +6444,8 @@
     },
     "259": {
       "number": 259,
-      "updatedAt": "2026-09-10T11:01:23Z",
-      "merged": false,
+      "updatedAt": "2026-09-15T16:04:24Z",
+      "merged": true,
       "author": {
         "login": "KevinVandy",
         "__typename": "User"
@@ -6474,6 +6488,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "263": {
+      "number": 263,
+      "updatedAt": "2026-09-15T13:12:09Z",
+      "merged": false,
+      "author": {
+        "login": "2yunseong",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
