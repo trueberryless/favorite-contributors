@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T01:47:08.237Z",
+    "lastRunAt": "2026-09-16T01:34:18.285Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23897,6 +23897,9 @@
       "user": {
         "login": "hymair",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "3136": {
@@ -74893,7 +74896,7 @@
     },
     "3102": {
       "number": 3102,
-      "updatedAt": "2026-09-12T10:25:48Z",
+      "updatedAt": "2026-09-16T00:30:50Z",
       "merged": false,
       "author": {
         "login": "sxzz",
@@ -74981,6 +74984,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "sxzz",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }
