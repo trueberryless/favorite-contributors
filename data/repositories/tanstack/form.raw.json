@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T20:25:56.624Z",
+    "lastRunAt": "2026-09-16T17:40:01.054Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15131,6 +15131,13 @@
     },
     "2392": {
       "number": 2392,
+      "user": {
+        "login": "awdr74100",
+        "type": "User"
+      }
+    },
+    "2393": {
+      "number": 2393,
       "user": {
         "login": "awdr74100",
         "type": "User"
@@ -44249,7 +44256,7 @@
     },
     "2368": {
       "number": 2368,
-      "updatedAt": "2026-09-14T12:01:19Z",
+      "updatedAt": "2026-09-16T05:42:05Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -44495,8 +44502,8 @@
     },
     "2379": {
       "number": 2379,
-      "updatedAt": "2026-09-15T16:03:58Z",
-      "merged": false,
+      "updatedAt": "2026-09-16T05:38:07Z",
+      "merged": true,
       "author": {
         "login": "KevinVandy",
         "__typename": "User"
@@ -44673,6 +44680,32 @@
     "2392": {
       "number": 2392,
       "updatedAt": "2026-09-14T18:26:00Z",
+      "merged": false,
+      "author": {
+        "login": "awdr74100",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2393": {
+      "number": 2393,
+      "updatedAt": "2026-09-16T15:56:58Z",
       "merged": false,
       "author": {
         "login": "awdr74100",

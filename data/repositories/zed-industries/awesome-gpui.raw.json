@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T20:30:59.105Z",
+    "lastRunAt": "2026-09-16T17:45:18.499Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -742,6 +742,13 @@
       "number": 100,
       "user": {
         "login": "joris-gallot",
+        "type": "User"
+      }
+    },
+    "101": {
+      "number": 101,
+      "user": {
+        "login": "fluxdb-alt",
         "type": "User"
       }
     }
@@ -2449,8 +2456,8 @@
     },
     "100": {
       "number": 100,
-      "updatedAt": "2026-09-15T16:03:53Z",
-      "merged": false,
+      "updatedAt": "2026-09-15T22:49:40Z",
+      "merged": true,
       "author": {
         "login": "joris-gallot",
         "__typename": "User"
@@ -2462,7 +2469,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JosephTLyons",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "101": {
+      "number": 101,
+      "updatedAt": "2026-09-16T17:00:01Z",
+      "merged": true,
+      "author": {
+        "login": "fluxdb-alt",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JosephTLyons",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
