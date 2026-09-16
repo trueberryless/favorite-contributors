@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T23:07:45.545Z",
+    "lastRunAt": "2026-09-16T23:38:09.452Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNC0xMFQwODo0Njo1MVrOkg6sAw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4371,6 +4371,27 @@
       "number": 577,
       "user": {
         "login": "antfubot",
+        "type": "User"
+      }
+    },
+    "578": {
+      "number": 578,
+      "user": {
+        "login": "SaKaNa-Y",
+        "type": "User"
+      }
+    },
+    "579": {
+      "number": 579,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "580": {
+      "number": 580,
+      "user": {
+        "login": "webfansplz",
         "type": "User"
       }
     }
@@ -14438,7 +14459,7 @@
     },
     "563": {
       "number": 563,
-      "updatedAt": "2026-09-11T12:21:30Z",
+      "updatedAt": "2026-09-16T04:51:59Z",
       "merged": false,
       "author": {
         "login": "SaKaNa-Y",
@@ -14690,6 +14711,68 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "578": {
+      "number": 578,
+      "updatedAt": "2026-09-16T02:25:07Z",
+      "merged": false,
+      "author": {
+        "login": "SaKaNa-Y",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "579": {
+      "number": 579,
+      "updatedAt": "2026-09-16T14:08:27Z",
+      "merged": false,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "580": {
+      "number": 580,
+      "updatedAt": "2026-09-16T15:18:45Z",
+      "merged": false,
+      "author": {
+        "login": "webfansplz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
