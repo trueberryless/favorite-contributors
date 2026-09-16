@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T20:36:02.365Z",
+    "lastRunAt": "2026-09-16T20:58:46.260Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0xNlQwNzowODozM1rOdXQN3A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -107688,7 +107688,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 2
+        "total_count": 4
       }
     },
     "15301": {
@@ -107967,6 +107967,9 @@
       "user": {
         "login": "octaviusz",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "15337": {
@@ -108272,7 +108275,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "15381": {
@@ -108482,6 +108485,63 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "15412": {
+      "number": 15412,
+      "user": {
+        "login": "federaa",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15415": {
+      "number": 15415,
+      "user": {
+        "login": "zoltanvisy",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15416": {
+      "number": 15416,
+      "user": {
+        "login": "osmundf",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15417": {
+      "number": 15417,
+      "user": {
+        "login": "derekagraham78",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15419": {
+      "number": 15419,
+      "user": {
+        "login": "octaviusz",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15420": {
+      "number": 15420,
+      "user": {
+        "login": "octaviusz",
+        "type": "User"
       }
     }
   },
@@ -134131,7 +134191,7 @@
     },
     "12397": {
       "number": 12397,
-      "updatedAt": "2026-09-08T07:50:29Z",
+      "updatedAt": "2026-09-15T23:29:43Z",
       "merged": false,
       "author": {
         "login": "gordonn",
@@ -155010,7 +155070,7 @@
     },
     "15282": {
       "number": 15282,
-      "updatedAt": "2026-09-15T09:44:21Z",
+      "updatedAt": "2026-09-16T17:52:18Z",
       "merged": false,
       "author": {
         "login": "FlorianButz",
@@ -155029,6 +155089,13 @@
             "author": {
               "login": "mr-cheffy",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
             }
           }
         ]
@@ -155517,7 +155584,7 @@
     },
     "15336": {
       "number": 15336,
-      "updatedAt": "2026-09-14T15:10:07Z",
+      "updatedAt": "2026-09-16T17:48:56Z",
       "merged": false,
       "author": {
         "login": "octaviusz",
@@ -155527,7 +155594,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -156079,14 +156146,32 @@
     },
     "15409": {
       "number": 15409,
-      "updatedAt": "2026-09-15T15:35:57Z",
-      "merged": false,
+      "updatedAt": "2026-09-15T21:06:38Z",
+      "merged": true,
       "author": {
         "login": "mr-cheffy",
         "__typename": "User"
       },
       "closingIssuesReferences": {
+        "totalCount": 2
+      },
+      "reactions": {
         "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "15420": {
+      "number": 15420,
+      "updatedAt": "2026-09-16T17:37:41Z",
+      "merged": false,
+      "author": {
+        "login": "octaviusz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 3
       },
       "reactions": {
         "totalCount": 0

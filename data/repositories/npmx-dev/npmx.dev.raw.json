@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T20:36:49.198Z",
+    "lastRunAt": "2026-09-16T20:59:37.209Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0yMlQxODowNzoxMFrOvrttxw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -25426,6 +25426,13 @@
       "number": 3256,
       "user": {
         "login": "graphieros",
+        "type": "User"
+      }
+    },
+    "3257": {
+      "number": 3257,
+      "user": {
+        "login": "szymonchudy",
         "type": "User"
       }
     }
@@ -107085,7 +107092,7 @@
     },
     "2784": {
       "number": 2784,
-      "updatedAt": "2026-09-09T06:54:48Z",
+      "updatedAt": "2026-09-16T07:00:52Z",
       "merged": false,
       "author": {
         "login": "serhalp",
@@ -117866,7 +117873,7 @@
     },
     "3159": {
       "number": 3159,
-      "updatedAt": "2026-09-09T06:54:45Z",
+      "updatedAt": "2026-09-16T07:00:47Z",
       "merged": false,
       "author": {
         "login": "ColumbusLabs",
@@ -117927,7 +117934,7 @@
     },
     "3161": {
       "number": 3161,
-      "updatedAt": "2026-09-09T06:54:44Z",
+      "updatedAt": "2026-09-16T07:00:45Z",
       "merged": false,
       "author": {
         "login": "LubuSeb",
@@ -118115,7 +118122,7 @@
     },
     "3165": {
       "number": 3165,
-      "updatedAt": "2026-09-09T06:54:43Z",
+      "updatedAt": "2026-09-16T07:00:43Z",
       "merged": false,
       "author": {
         "login": "elracing",
@@ -119171,7 +119178,7 @@
     },
     "3202": {
       "number": 3202,
-      "updatedAt": "2026-09-15T11:35:13Z",
+      "updatedAt": "2026-09-16T20:00:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -119647,7 +119654,7 @@
     },
     "3221": {
       "number": 3221,
-      "updatedAt": "2026-09-13T14:48:31Z",
+      "updatedAt": "2026-09-16T20:52:51Z",
       "merged": false,
       "author": {
         "login": "WilcoSp",
@@ -120409,7 +120416,7 @@
     },
     "3252": {
       "number": 3252,
-      "updatedAt": "2026-09-14T20:31:33Z",
+      "updatedAt": "2026-09-16T05:45:33Z",
       "merged": false,
       "author": {
         "login": "Chirag6722",
@@ -120508,6 +120515,32 @@
             "author": {
               "login": "43081j",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3257": {
+      "number": 3257,
+      "updatedAt": "2026-09-16T09:18:01Z",
+      "merged": false,
+      "author": {
+        "login": "szymonchudy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]

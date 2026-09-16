@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T23:05:19.039Z",
+    "lastRunAt": "2026-09-16T21:01:32.243Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6817,6 +6817,40 @@
       "number": 930,
       "user": {
         "login": "subashstanz",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "931": {
+      "number": 931,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "932": {
+      "number": 932,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "933": {
+      "number": 933,
+      "user": {
+        "login": "clanky1024",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "934": {
+      "number": 934,
+      "user": {
+        "login": "zkochan",
         "type": "User"
       },
       "reactions": {
@@ -27155,6 +27189,108 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "931": {
+      "number": 931,
+      "updatedAt": "2026-09-16T12:35:44Z",
+      "merged": false,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "932": {
+      "number": 932,
+      "updatedAt": "2026-09-16T15:05:11Z",
+      "merged": false,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "933": {
+      "number": 933,
+      "updatedAt": "2026-09-16T18:22:42Z",
+      "merged": false,
+      "author": {
+        "login": "clanky1024",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "934": {
+      "number": 934,
+      "updatedAt": "2026-09-16T20:59:09Z",
+      "merged": false,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 1
