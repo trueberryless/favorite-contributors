@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-15T12:51:43.670Z",
+    "lastRunAt": "2026-09-16T12:46:07.533Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27609,7 +27609,7 @@
     },
     "1109": {
       "number": 1109,
-      "updatedAt": "2026-09-11T01:04:47Z",
+      "updatedAt": "2026-09-16T07:56:37Z",
       "merged": false,
       "author": {
         "login": "Creatixpy",
@@ -27622,7 +27622,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "joaopedrodcf",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1110": {
@@ -27973,8 +27988,8 @@
     },
     "1122": {
       "number": 1122,
-      "updatedAt": "2026-09-15T08:27:12Z",
-      "merged": false,
+      "updatedAt": "2026-09-15T16:58:18Z",
+      "merged": true,
       "author": {
         "login": "dreyfus92",
         "__typename": "User"
@@ -27999,7 +28014,7 @@
     },
     "1124": {
       "number": 1124,
-      "updatedAt": "2026-09-15T12:06:51Z",
+      "updatedAt": "2026-09-15T18:10:51Z",
       "merged": false,
       "author": {
         "login": "eranhirsch",
