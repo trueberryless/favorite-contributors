@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-16T01:38:06.275Z",
+    "lastRunAt": "2026-09-17T03:51:21.400Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0xNlQyMjozNzowOFrOxALlzQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3680,6 +3680,27 @@
       "number": 714,
       "user": {
         "login": "zshannon",
+        "type": "User"
+      }
+    },
+    "715": {
+      "number": 715,
+      "user": {
+        "login": "mattzcarey",
+        "type": "User"
+      }
+    },
+    "716": {
+      "number": 716,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "717": {
+      "number": 717,
+      "user": {
+        "login": "asantos00",
         "type": "User"
       }
     }
@@ -8103,8 +8124,8 @@
     },
     "712": {
       "number": 712,
-      "updatedAt": "2026-09-15T17:02:29Z",
-      "merged": false,
+      "updatedAt": "2026-09-16T19:07:08Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -8121,10 +8142,79 @@
     },
     "714": {
       "number": 714,
-      "updatedAt": "2026-09-16T00:39:21Z",
+      "updatedAt": "2026-09-16T14:41:01Z",
       "merged": false,
       "author": {
         "login": "zshannon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "715": {
+      "number": 715,
+      "updatedAt": "2026-09-16T07:49:14Z",
+      "merged": false,
+      "author": {
+        "login": "mattzcarey",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "716": {
+      "number": 716,
+      "updatedAt": "2026-09-16T12:26:01Z",
+      "merged": false,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "717": {
+      "number": 717,
+      "updatedAt": "2026-09-16T14:56:55Z",
+      "merged": false,
+      "author": {
+        "login": "asantos00",
         "__typename": "User"
       },
       "closingIssuesReferences": {

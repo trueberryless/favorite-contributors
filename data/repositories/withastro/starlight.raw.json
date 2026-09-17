@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-16T01:38:05.278Z",
+    "lastRunAt": "2026-09-17T03:51:20.804Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27327,6 +27327,13 @@
       "number": 4202,
       "user": {
         "login": "jacobortiz",
+        "type": "User"
+      }
+    },
+    "4203": {
+      "number": 4203,
+      "user": {
+        "login": "HiDeoo",
         "type": "User"
       }
     }
@@ -127360,7 +127367,7 @@
     },
     "3954": {
       "number": 3954,
-      "updatedAt": "2026-08-22T09:34:31Z",
+      "updatedAt": "2026-09-16T14:18:56Z",
       "merged": false,
       "author": {
         "login": "Goudarz",
@@ -132851,7 +132858,7 @@
     },
     "4187": {
       "number": 4187,
-      "updatedAt": "2026-09-08T14:08:03Z",
+      "updatedAt": "2026-09-16T17:44:06Z",
       "merged": false,
       "author": {
         "login": "HiDeoo",
@@ -132864,7 +132871,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4188": {
@@ -132923,7 +132938,7 @@
     },
     "4192": {
       "number": 4192,
-      "updatedAt": "2026-09-12T18:27:33Z",
+      "updatedAt": "2026-09-16T17:37:56Z",
       "merged": false,
       "author": {
         "login": "HiDeoo",
@@ -133095,8 +133110,8 @@
     },
     "4200": {
       "number": 4200,
-      "updatedAt": "2026-09-15T21:20:42Z",
-      "merged": false,
+      "updatedAt": "2026-09-16T10:26:12Z",
+      "merged": true,
       "author": {
         "login": "yanthomasdev",
         "__typename": "User"
@@ -133115,13 +133130,20 @@
               "login": "delucis",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "4201": {
       "number": 4201,
-      "updatedAt": "2026-09-15T16:41:53Z",
+      "updatedAt": "2026-09-16T11:26:28Z",
       "merged": false,
       "author": {
         "login": "linux-universe",
@@ -133134,15 +133156,63 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "linux-universe",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4202": {
       "number": 4202,
-      "updatedAt": "2026-09-15T22:24:37Z",
-      "merged": false,
+      "updatedAt": "2026-09-16T10:35:01Z",
+      "merged": true,
       "author": {
         "login": "jacobortiz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4203": {
+      "number": 4203,
+      "updatedAt": "2026-09-16T17:47:00Z",
+      "merged": false,
+      "author": {
+        "login": "HiDeoo",
         "__typename": "User"
       },
       "closingIssuesReferences": {
