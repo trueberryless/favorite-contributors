@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-16T07:24:17.119Z",
+    "lastRunAt": "2026-09-17T09:18:14.343Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0wNVQxNzowMjo1NFrOXm0cPA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7698,6 +7698,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1161": {
+      "number": 1161,
+      "user": {
+        "login": "siketyan",
+        "type": "User"
       }
     }
   },
@@ -21858,8 +21865,8 @@
     },
     "1079": {
       "number": 1079,
-      "updatedAt": "2026-09-15T12:04:46Z",
-      "merged": false,
+      "updatedAt": "2026-09-16T16:51:39Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -23232,6 +23239,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1161": {
+      "number": 1161,
+      "updatedAt": "2026-09-16T18:03:02Z",
+      "merged": true,
+      "author": {
+        "login": "siketyan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Netail",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

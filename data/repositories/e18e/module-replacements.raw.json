@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-16T12:46:07.533Z",
+    "lastRunAt": "2026-09-17T09:19:41.946Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27609,7 +27609,7 @@
     },
     "1109": {
       "number": 1109,
-      "updatedAt": "2026-09-16T07:56:37Z",
+      "updatedAt": "2026-09-17T08:18:24Z",
       "merged": false,
       "author": {
         "login": "Creatixpy",
@@ -27627,6 +27627,27 @@
             "state": "APPROVED",
             "author": {
               "login": "joaopedrodcf",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Creatixpy",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
               "__typename": "User"
             }
           },
@@ -27668,8 +27689,8 @@
     },
     "1111": {
       "number": 1111,
-      "updatedAt": "2026-09-13T09:38:28Z",
-      "merged": false,
+      "updatedAt": "2026-09-17T07:42:36Z",
+      "merged": true,
       "author": {
         "login": "dreyfus92",
         "__typename": "User"
@@ -27693,6 +27714,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dreyfus92",
               "__typename": "User"
             }
           }
@@ -27884,7 +27912,47 @@
     },
     "1118": {
       "number": 1118,
-      "updatedAt": "2026-09-15T08:35:46Z",
+      "updatedAt": "2026-09-17T07:41:53Z",
+      "merged": true,
+      "author": {
+        "login": "dreyfus92",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1119": {
+      "number": 1119,
+      "updatedAt": "2026-09-17T07:41:08Z",
       "merged": false,
       "author": {
         "login": "dreyfus92",
@@ -27904,26 +27972,7 @@
               "login": "43081j",
               "__typename": "User"
             }
-          }
-        ]
-      }
-    },
-    "1119": {
-      "number": 1119,
-      "updatedAt": "2026-09-15T08:30:20Z",
-      "merged": false,
-      "author": {
-        "login": "dreyfus92",
-        "__typename": "User"
-      },
-      "closingIssuesReferences": {
-        "totalCount": 1
-      },
-      "reactions": {
-        "totalCount": 0
-      },
-      "reviews": {
-        "nodes": [
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -27936,7 +27985,7 @@
     },
     "1120": {
       "number": 1120,
-      "updatedAt": "2026-09-15T08:29:45Z",
+      "updatedAt": "2026-09-17T07:40:39Z",
       "merged": false,
       "author": {
         "login": "dreyfus92",
@@ -27950,6 +27999,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
