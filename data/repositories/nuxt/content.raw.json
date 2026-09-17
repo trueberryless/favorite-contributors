@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-16T21:00:34.303Z",
+    "lastRunAt": "2026-09-17T21:38:49.235Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -26198,7 +26198,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "3740": {
@@ -27050,6 +27050,20 @@
       "number": 3852,
       "user": {
         "login": "dostufffancy",
+        "type": "User"
+      }
+    },
+    "3853": {
+      "number": 3853,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "3854": {
+      "number": 3854,
+      "user": {
+        "login": "leonceaklin",
         "type": "User"
       }
     }
@@ -71554,6 +71568,24 @@
             }
           }
         ]
+      }
+    },
+    "3853": {
+      "number": 3853,
+      "updatedAt": "2026-09-16T22:26:28Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

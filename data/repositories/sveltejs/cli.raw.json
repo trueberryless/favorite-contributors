@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-16T23:37:21.522Z",
+    "lastRunAt": "2026-09-17T21:41:20.972Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9719,6 +9719,13 @@
       "number": 1324,
       "user": {
         "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1325": {
+      "number": 1325,
+      "user": {
+        "login": "katsugtgz",
         "type": "User"
       }
     }
@@ -37000,7 +37007,7 @@
     },
     "1323": {
       "number": 1323,
-      "updatedAt": "2026-09-16T23:27:16Z",
+      "updatedAt": "2026-09-17T19:37:51Z",
       "merged": false,
       "author": {
         "login": "sacrosanctic",
@@ -37020,16 +37027,48 @@
               "login": "jycouet",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "1324": {
       "number": 1324,
-      "updatedAt": "2026-09-16T22:54:20Z",
+      "updatedAt": "2026-09-17T15:49:08Z",
       "merged": false,
       "author": {
         "login": "sacrosanctic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1325": {
+      "number": 1325,
+      "updatedAt": "2026-09-17T08:51:55Z",
+      "merged": false,
+      "author": {
+        "login": "katsugtgz",
         "__typename": "User"
       },
       "closingIssuesReferences": {
