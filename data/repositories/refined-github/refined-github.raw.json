@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-16T17:33:19.070Z",
+    "lastRunAt": "2026-09-17T18:27:12.571Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wNFQxOTo0NjoyMVrPAAAAAQj4Who=",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -81016,6 +81016,23 @@
         "login": "fregante",
         "type": "User"
       }
+    },
+    "10091": {
+      "number": 10091,
+      "user": {
+        "login": "dhanashankar1020",
+        "type": "User"
+      }
+    },
+    "10092": {
+      "number": 10092,
+      "user": {
+        "login": "exaltedo2",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
     }
   },
   "prs": {
@@ -82040,8 +82057,8 @@
     },
     "10090": {
       "number": 10090,
-      "updatedAt": "2026-09-16T08:52:37Z",
-      "merged": false,
+      "updatedAt": "2026-09-17T09:00:16Z",
+      "merged": true,
       "author": {
         "login": "fregante",
         "__typename": "User"
@@ -82053,7 +82070,87 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10091": {
+      "number": 10091,
+      "updatedAt": "2026-09-17T07:13:23Z",
+      "merged": false,
+      "author": {
+        "login": "dhanashankar1020",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "10092": {
+      "number": 10092,
+      "updatedAt": "2026-09-17T17:26:06Z",
+      "merged": false,
+      "author": {
+        "login": "exaltedo2",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "exaltedo2",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "exaltedo2",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "exaltedo2",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

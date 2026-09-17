@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-16T17:40:01.054Z",
+    "lastRunAt": "2026-09-17T18:33:42.610Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15140,6 +15140,13 @@
       "number": 2393,
       "user": {
         "login": "awdr74100",
+        "type": "User"
+      }
+    },
+    "2394": {
+      "number": 2394,
+      "user": {
+        "login": "harry-whorlow",
         "type": "User"
       }
     }
@@ -40386,7 +40393,7 @@
     },
     "2156": {
       "number": 2156,
-      "updatedAt": "2026-05-22T21:21:29Z",
+      "updatedAt": "2026-09-17T17:13:40Z",
       "merged": false,
       "author": {
         "login": "NullVoxPopuli-ai-agent",
@@ -40530,6 +40537,27 @@
             "state": "COMMENTED",
             "author": {
               "login": "NullVoxPopuli",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "NullVoxPopuli-ai-agent",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "NullVoxPopuli",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "NullVoxPopuli-ai-agent",
               "__typename": "User"
             }
           }
@@ -44314,7 +44342,7 @@
     },
     "2371": {
       "number": 2371,
-      "updatedAt": "2026-09-06T07:48:45Z",
+      "updatedAt": "2026-09-17T02:38:11Z",
       "merged": false,
       "author": {
         "login": "dikshit-n",
@@ -44382,6 +44410,34 @@
             "author": {
               "login": "dikshit-n",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dikshit-n",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dikshit-n",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           },
           {
@@ -44719,6 +44775,46 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2394": {
+      "number": 2394,
+      "updatedAt": "2026-09-17T14:26:36Z",
+      "merged": false,
+      "author": {
+        "login": "harry-whorlow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harry-whorlow",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
