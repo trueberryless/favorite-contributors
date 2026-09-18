@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T00:01:35.893Z",
+    "lastRunAt": "2026-09-18T23:07:22.720Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0xOFQyMzozNjowN1rOTGCltw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16419,6 +16419,13 @@
       "number": 2324,
       "user": {
         "login": "pynappo",
+        "type": "User"
+      }
+    },
+    "2325": {
+      "number": 2325,
+      "user": {
+        "login": "fe50c",
         "type": "User"
       }
     }
@@ -81154,8 +81161,8 @@
     },
     "2267": {
       "number": 2267,
-      "updatedAt": "2026-09-10T01:13:54Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T06:59:31Z",
+      "merged": true,
       "author": {
         "login": "SakethKanchi",
         "__typename": "User"
@@ -81186,6 +81193,13 @@
             "state": "APPROVED",
             "author": {
               "login": "uncenter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "GenShibe",
               "__typename": "User"
             }
           }
@@ -82311,6 +82325,24 @@
       "merged": false,
       "author": {
         "login": "pynappo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2325": {
+      "number": 2325,
+      "updatedAt": "2026-09-18T19:02:01Z",
+      "merged": false,
+      "author": {
+        "login": "fe50c",
         "__typename": "User"
       },
       "closingIssuesReferences": {

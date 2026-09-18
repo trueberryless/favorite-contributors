@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T03:58:56.014Z",
+    "lastRunAt": "2026-09-18T23:08:14.063Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27348,6 +27348,23 @@
       "number": 4205,
       "user": {
         "login": "wasi-master",
+        "type": "User"
+      }
+    },
+    "4206": {
+      "number": 4206,
+      "user": {
+        "login": "astrobot-houston",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "4207": {
+      "number": 4207,
+      "user": {
+        "login": "trueberryless",
         "type": "User"
       }
     }
@@ -133171,8 +133188,8 @@
     },
     "4201": {
       "number": 4201,
-      "updatedAt": "2026-09-16T11:26:28Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T09:53:24Z",
+      "merged": true,
       "author": {
         "login": "linux-universe",
         "__typename": "User"
@@ -133296,10 +133313,62 @@
     },
     "4205": {
       "number": 4205,
-      "updatedAt": "2026-09-17T21:31:21Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T10:09:18Z",
+      "merged": true,
       "author": {
         "login": "wasi-master",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4206": {
+      "number": 4206,
+      "updatedAt": "2026-09-18T10:01:12Z",
+      "merged": true,
+      "author": {
+        "login": "astrobot-houston",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4207": {
+      "number": 4207,
+      "updatedAt": "2026-09-18T10:12:05Z",
+      "merged": false,
+      "author": {
+        "login": "trueberryless",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T23:59:50.796Z",
+    "lastRunAt": "2026-09-18T23:05:32.274Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17049,6 +17049,9 @@
       "user": {
         "login": "jessehouwing",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "2372": {
@@ -17225,6 +17228,16 @@
       "user": {
         "login": "Winipedia",
         "type": "User"
+      }
+    },
+    "2394": {
+      "number": 2394,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -53437,7 +53450,7 @@
     },
     "2268": {
       "number": 2268,
-      "updatedAt": "2026-08-05T00:38:58Z",
+      "updatedAt": "2026-09-18T07:10:46Z",
       "merged": true,
       "author": {
         "login": "shaanmajid",
@@ -55276,6 +55289,46 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2394": {
+      "number": 2394,
+      "updatedAt": "2026-09-18T06:10:13Z",
+      "merged": false,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

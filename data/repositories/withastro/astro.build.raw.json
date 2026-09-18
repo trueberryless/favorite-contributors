@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T03:58:54.432Z",
+    "lastRunAt": "2026-09-18T23:08:12.200Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0xMFQxODoyODoxMFrOMLT_KA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -19886,6 +19886,20 @@
     },
     "2712": {
       "number": 2712,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2713": {
+      "number": 2713,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2714": {
+      "number": 2714,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -85284,7 +85298,7 @@
     },
     "2683": {
       "number": 2683,
-      "updatedAt": "2026-09-16T10:08:08Z",
+      "updatedAt": "2026-09-18T23:08:03Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -86102,7 +86116,51 @@
     },
     "2712": {
       "number": 2712,
-      "updatedAt": "2026-09-17T22:13:52Z",
+      "updatedAt": "2026-09-18T09:37:54Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2713": {
+      "number": 2713,
+      "updatedAt": "2026-09-18T23:08:04Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2714": {
+      "number": 2714,
+      "updatedAt": "2026-09-18T23:07:52Z",
       "merged": false,
       "author": {
         "login": "renovate",

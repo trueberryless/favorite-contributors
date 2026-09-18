@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T00:01:39.675Z",
+    "lastRunAt": "2026-09-18T23:07:26.633Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0yNFQwMDozMTo1OVrOZ805Zg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1298,7 +1298,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "171": {
@@ -1309,6 +1309,20 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "172": {
+      "number": 172,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "173": {
+      "number": 173,
+      "user": {
+        "login": "tecandrew",
+        "type": "User"
       }
     }
   },
@@ -3385,8 +3399,26 @@
     },
     "170": {
       "number": 170,
-      "updatedAt": "2026-09-16T12:58:18Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T17:17:30Z",
+      "merged": true,
+      "author": {
+        "login": "ryanwinchester",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "171": {
+      "number": 171,
+      "updatedAt": "2026-09-18T17:16:56Z",
+      "merged": true,
       "author": {
         "login": "ryanwinchester",
         "__typename": "User"
@@ -3401,19 +3433,37 @@
         "nodes": []
       }
     },
-    "171": {
-      "number": 171,
-      "updatedAt": "2026-09-16T13:05:43Z",
-      "merged": false,
+    "172": {
+      "number": 172,
+      "updatedAt": "2026-09-18T17:47:26Z",
+      "merged": true,
       "author": {
-        "login": "ryanwinchester",
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "173": {
+      "number": 173,
+      "updatedAt": "2026-09-18T17:44:22Z",
+      "merged": true,
+      "author": {
+        "login": "tecandrew",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 0
       },
       "reviews": {
         "nodes": []
