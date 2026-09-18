@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T03:50:27.779Z",
+    "lastRunAt": "2026-09-18T00:01:35.893Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0xOFQyMzozNjowN1rOTGCltw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16412,6 +16412,13 @@
       "number": 2323,
       "user": {
         "login": "koibtw",
+        "type": "User"
+      }
+    },
+    "2324": {
+      "number": 2324,
+      "user": {
+        "login": "pynappo",
         "type": "User"
       }
     }
@@ -82282,10 +82289,28 @@
     },
     "2323": {
       "number": 2323,
-      "updatedAt": "2026-09-16T18:27:28Z",
+      "updatedAt": "2026-09-17T11:05:14Z",
       "merged": false,
       "author": {
         "login": "koibtw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2324": {
+      "number": 2324,
+      "updatedAt": "2026-09-17T10:58:21Z",
+      "merged": false,
+      "author": {
+        "login": "pynappo",
         "__typename": "User"
       },
       "closingIssuesReferences": {
