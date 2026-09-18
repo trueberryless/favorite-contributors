@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T03:51:20.804Z",
+    "lastRunAt": "2026-09-18T03:58:56.014Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27334,6 +27334,20 @@
       "number": 4203,
       "user": {
         "login": "HiDeoo",
+        "type": "User"
+      }
+    },
+    "4204": {
+      "number": 4204,
+      "user": {
+        "login": "yanthomasdev",
+        "type": "User"
+      }
+    },
+    "4205": {
+      "number": 4205,
+      "user": {
+        "login": "wasi-master",
         "type": "User"
       }
     }
@@ -132858,8 +132872,8 @@
     },
     "4187": {
       "number": 4187,
-      "updatedAt": "2026-09-16T17:44:06Z",
-      "merged": false,
+      "updatedAt": "2026-09-17T14:23:14Z",
+      "merged": true,
       "author": {
         "login": "HiDeoo",
         "__typename": "User"
@@ -132874,6 +132888,13 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "delucis",
               "__typename": "User"
@@ -132938,7 +132959,7 @@
     },
     "4192": {
       "number": 4192,
-      "updatedAt": "2026-09-16T17:37:56Z",
+      "updatedAt": "2026-09-17T14:39:42Z",
       "merged": false,
       "author": {
         "login": "HiDeoo",
@@ -132984,6 +133005,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
               "__typename": "User"
             }
           }
@@ -133183,7 +133211,7 @@
     },
     "4202": {
       "number": 4202,
-      "updatedAt": "2026-09-16T10:35:01Z",
+      "updatedAt": "2026-09-18T00:25:09Z",
       "merged": true,
       "author": {
         "login": "jacobortiz",
@@ -133209,10 +133237,69 @@
     },
     "4203": {
       "number": 4203,
-      "updatedAt": "2026-09-16T17:47:00Z",
-      "merged": false,
+      "updatedAt": "2026-09-17T10:59:37Z",
+      "merged": true,
       "author": {
         "login": "HiDeoo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4204": {
+      "number": 4204,
+      "updatedAt": "2026-09-17T14:36:49Z",
+      "merged": true,
+      "author": {
+        "login": "yanthomasdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4205": {
+      "number": 4205,
+      "updatedAt": "2026-09-17T21:31:21Z",
+      "merged": false,
+      "author": {
+        "login": "wasi-master",
         "__typename": "User"
       },
       "closingIssuesReferences": {

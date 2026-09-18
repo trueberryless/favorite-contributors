@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T03:51:16.761Z",
+    "lastRunAt": "2026-09-18T03:58:52.343Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wOC0yNFQyMjo1OTo1NFrOKtBdaA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8447,6 +8447,13 @@
       "number": 1169,
       "user": {
         "login": "victormelo-del",
+        "type": "User"
+      }
+    },
+    "1170": {
+      "number": 1170,
+      "user": {
+        "login": "delucis",
         "type": "User"
       }
     }
@@ -31203,6 +31210,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1170": {
+      "number": 1170,
+      "updatedAt": "2026-09-17T14:10:26Z",
+      "merged": true,
+      "author": {
+        "login": "delucis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
