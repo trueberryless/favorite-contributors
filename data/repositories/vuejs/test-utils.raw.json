@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T23:58:28.177Z",
+    "lastRunAt": "2026-09-18T20:36:30.005Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMi0yNFQxMzoyMjoxMVrOFpKUmw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20329,6 +20329,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "2948": {
+      "number": 2948,
+      "user": {
+        "login": "niukanen1",
+        "type": "User"
       }
     }
   },
@@ -68971,8 +68978,8 @@
     },
     "2941": {
       "number": 2941,
-      "updatedAt": "2026-09-06T03:23:57Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T05:31:02Z",
+      "merged": true,
       "author": {
         "login": "MaxFreedomPollard",
         "__typename": "User"
@@ -68984,7 +68991,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2942": {
@@ -69087,6 +69102,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2948": {
+      "number": 2948,
+      "updatedAt": "2026-09-18T06:12:24Z",
+      "merged": false,
+      "author": {
+        "login": "niukanen1",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

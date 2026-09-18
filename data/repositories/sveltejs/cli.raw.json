@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T21:41:20.972Z",
+    "lastRunAt": "2026-09-18T20:33:49.414Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9726,6 +9726,34 @@
       "number": 1325,
       "user": {
         "login": "katsugtgz",
+        "type": "User"
+      }
+    },
+    "1326": {
+      "number": 1326,
+      "user": {
+        "login": "jycouet",
+        "type": "User"
+      }
+    },
+    "1327": {
+      "number": 1327,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1328": {
+      "number": 1328,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "1329": {
+      "number": 1329,
+      "user": {
+        "login": "teemingc",
         "type": "User"
       }
     }
@@ -37007,14 +37035,14 @@
     },
     "1323": {
       "number": 1323,
-      "updatedAt": "2026-09-17T19:37:51Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T18:42:48Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
@@ -37069,6 +37097,68 @@
       "merged": false,
       "author": {
         "login": "katsugtgz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1326": {
+      "number": 1326,
+      "updatedAt": "2026-09-18T18:22:26Z",
+      "merged": true,
+      "author": {
+        "login": "jycouet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1327": {
+      "number": 1327,
+      "updatedAt": "2026-09-18T18:43:17Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1329": {
+      "number": 1329,
+      "updatedAt": "2026-09-18T18:59:27Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
         "__typename": "User"
       },
       "closingIssuesReferences": {

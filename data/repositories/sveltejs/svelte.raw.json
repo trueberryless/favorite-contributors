@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T21:41:08.938Z",
+    "lastRunAt": "2026-09-18T20:33:35.665Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -136912,6 +136912,20 @@
       "user": {
         "login": "karanmahato44",
         "type": "User"
+      }
+    },
+    "18837": {
+      "number": 18837,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "18838": {
+      "number": 18838,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -370647,7 +370661,7 @@
     },
     "18750": {
       "number": 18750,
-      "updatedAt": "2026-09-11T11:49:42Z",
+      "updatedAt": "2026-09-18T19:26:48Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -371297,7 +371311,7 @@
     },
     "18791": {
       "number": 18791,
-      "updatedAt": "2026-09-11T11:39:23Z",
+      "updatedAt": "2026-09-18T12:24:08Z",
       "merged": false,
       "author": {
         "login": "cuishuang",
@@ -371765,6 +371779,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "18838": {
+      "number": 18838,
+      "updatedAt": "2026-09-18T19:24:07Z",
+      "merged": true,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

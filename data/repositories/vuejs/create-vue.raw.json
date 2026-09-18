@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T23:58:30.996Z",
+    "lastRunAt": "2026-09-18T20:36:32.354Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xN1QwNjo1ODoyNVrOLizwBQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -30535,8 +30535,8 @@
     },
     "1144": {
       "number": 1144,
-      "updatedAt": "2026-09-17T03:09:29Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T10:52:16Z",
+      "merged": true,
       "author": {
         "login": "btea",
         "__typename": "User"
@@ -30548,7 +30548,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
