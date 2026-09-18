@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T14:25:34.165Z",
+    "lastRunAt": "2026-09-18T13:31:52.538Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0xNlQxNjowNDowMVrOb6xwWw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3173,9 +3173,6 @@
       "user": {
         "login": "camc314",
         "type": "User"
-      },
-      "reactions": {
-        "total_count": 1
       }
     },
     "440": {
@@ -3225,6 +3222,13 @@
     },
     "446": {
       "number": 446,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "447": {
+      "number": 447,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -10998,8 +11002,8 @@
     },
     "439": {
       "number": 439,
-      "updatedAt": "2026-09-07T15:32:19Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T07:37:49Z",
+      "merged": true,
       "author": {
         "login": "camc314",
         "__typename": "User"
@@ -11008,7 +11012,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 0
       },
       "reviews": {
         "nodes": [
@@ -11031,6 +11035,13 @@
             "author": {
               "login": "camc314",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
             }
           }
         ]
@@ -11162,8 +11173,8 @@
     },
     "444": {
       "number": 444,
-      "updatedAt": "2026-09-11T18:12:17Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T02:53:28Z",
+      "merged": true,
       "author": {
         "login": "oxc-guard",
         "__typename": "Bot"
@@ -11175,13 +11186,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "445": {
       "number": 445,
-      "updatedAt": "2026-09-13T17:50:30Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T03:04:00Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -11198,8 +11217,26 @@
     },
     "446": {
       "number": 446,
-      "updatedAt": "2026-09-15T21:52:04Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T03:00:27Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "447": {
+      "number": 447,
+      "updatedAt": "2026-09-18T06:16:47Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"

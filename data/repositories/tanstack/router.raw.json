@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T18:33:42.611Z",
+    "lastRunAt": "2026-09-18T13:41:16.040Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOC0wNlQwNzowMjo1MlrO-1D3rw==",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -53729,6 +53729,13 @@
         "login": "brenelz",
         "type": "User"
       }
+    },
+    "8466": {
+      "number": 8466,
+      "user": {
+        "login": "SyMind",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -56022,7 +56029,7 @@
     },
     "7936": {
       "number": 7936,
-      "updatedAt": "2026-09-11T00:59:46Z",
+      "updatedAt": "2026-09-18T00:49:30Z",
       "merged": false,
       "author": {
         "login": "kdelay",
@@ -67658,7 +67665,7 @@
     },
     "8459": {
       "number": 8459,
-      "updatedAt": "2026-09-17T03:15:38Z",
+      "updatedAt": "2026-09-18T00:40:06Z",
       "merged": false,
       "author": {
         "login": "nstepien",
@@ -67672,6 +67679,27 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nstepien",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -67820,6 +67848,32 @@
             "author": {
               "login": "birkskyum",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "8466": {
+      "number": 8466,
+      "updatedAt": "2026-09-18T10:08:06Z",
+      "merged": false,
+      "author": {
+        "login": "SyMind",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nx-cloud",
+              "__typename": "Bot"
             }
           }
         ]

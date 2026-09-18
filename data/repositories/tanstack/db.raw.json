@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T18:33:48.622Z",
+    "lastRunAt": "2026-09-18T13:41:21.957Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xN1QwODoxOTo0NVrOjt-zMw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13130,6 +13130,13 @@
     },
     "1847": {
       "number": 1847,
+      "user": {
+        "login": "KyleAMathews",
+        "type": "User"
+      }
+    },
+    "1848": {
+      "number": 1848,
       "user": {
         "login": "KyleAMathews",
         "type": "User"
@@ -27975,8 +27982,8 @@
     },
     "843": {
       "number": 843,
-      "updatedAt": "2026-09-17T17:42:52Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T13:11:51Z",
+      "merged": true,
       "author": {
         "login": "KyleAMathews",
         "__typename": "User"
@@ -28036,6 +28043,13 @@
             "author": {
               "login": "kevin-dp",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           },
           {
@@ -47226,7 +47240,7 @@
     },
     "1838": {
       "number": 1838,
-      "updatedAt": "2026-09-17T16:36:05Z",
+      "updatedAt": "2026-09-18T13:22:14Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -47262,8 +47276,8 @@
     },
     "1840": {
       "number": 1840,
-      "updatedAt": "2026-09-17T17:32:30Z",
-      "merged": false,
+      "updatedAt": "2026-09-17T20:18:46Z",
+      "merged": true,
       "author": {
         "login": "KyleAMathews",
         "__typename": "User"
@@ -47332,8 +47346,8 @@
     },
     "1843": {
       "number": 1843,
-      "updatedAt": "2026-09-17T17:21:45Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T13:12:18Z",
+      "merged": true,
       "author": {
         "login": "KyleAMathews",
         "__typename": "User"
@@ -47479,6 +47493,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1848": {
+      "number": 1848,
+      "updatedAt": "2026-09-18T13:14:20Z",
+      "merged": false,
+      "author": {
+        "login": "KyleAMathews",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

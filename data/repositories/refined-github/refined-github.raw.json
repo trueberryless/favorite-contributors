@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T18:27:12.571Z",
+    "lastRunAt": "2026-09-18T13:34:34.698Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wNFQxOTo0NjoyMVrPAAAAAQj4Who=",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -80837,6 +80837,9 @@
       "user": {
         "login": "fregante",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "10066": {
@@ -81033,6 +81036,27 @@
       "reactions": {
         "total_count": 1
       }
+    },
+    "10093": {
+      "number": 10093,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10094": {
+      "number": 10094,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10095": {
+      "number": 10095,
+      "user": {
+        "login": "scs0209",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -81228,7 +81252,7 @@
     },
     "10046": {
       "number": 10046,
-      "updatedAt": "2026-09-11T08:39:59Z",
+      "updatedAt": "2026-09-18T10:22:09Z",
       "merged": true,
       "author": {
         "login": "HasselNot7",
@@ -81261,7 +81285,7 @@
     },
     "10047": {
       "number": 10047,
-      "updatedAt": "2026-09-12T08:53:35Z",
+      "updatedAt": "2026-09-18T09:53:11Z",
       "merged": false,
       "author": {
         "login": "patrickelectric",
@@ -81876,7 +81900,7 @@
     },
     "10082": {
       "number": 10082,
-      "updatedAt": "2026-09-12T15:12:57Z",
+      "updatedAt": "2026-09-18T06:11:51Z",
       "merged": false,
       "author": {
         "login": "TheNetherWatcher",
@@ -81894,7 +81918,7 @@
     },
     "10083": {
       "number": 10083,
-      "updatedAt": "2026-09-12T13:43:49Z",
+      "updatedAt": "2026-09-18T06:11:52Z",
       "merged": false,
       "author": {
         "login": "TheNetherWatcher",
@@ -81912,8 +81936,8 @@
     },
     "10084": {
       "number": 10084,
-      "updatedAt": "2026-09-16T06:48:43Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T09:03:59Z",
+      "merged": true,
       "author": {
         "login": "Mihir4921",
         "__typename": "User"
@@ -81967,6 +81991,13 @@
               "login": "fregante",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Mihir4921",
+              "__typename": "User"
+            }
           }
         ]
       }
@@ -82006,7 +82037,7 @@
     },
     "10086": {
       "number": 10086,
-      "updatedAt": "2026-09-15T13:32:10Z",
+      "updatedAt": "2026-09-18T12:58:33Z",
       "merged": false,
       "author": {
         "login": "erenbati",
@@ -82031,6 +82062,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "erenbati",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
               "__typename": "User"
             }
           }
@@ -82101,7 +82139,7 @@
     },
     "10092": {
       "number": 10092,
-      "updatedAt": "2026-09-17T17:26:06Z",
+      "updatedAt": "2026-09-18T09:52:34Z",
       "merged": false,
       "author": {
         "login": "exaltedo2",
@@ -82149,8 +82187,51 @@
               "login": "fregante",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "10094": {
+      "number": 10094,
+      "updatedAt": "2026-09-18T10:01:38Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10095": {
+      "number": 10095,
+      "updatedAt": "2026-09-18T13:26:43Z",
+      "merged": false,
+      "author": {
+        "login": "scs0209",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
