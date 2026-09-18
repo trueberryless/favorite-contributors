@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-17T21:39:40.936Z",
+    "lastRunAt": "2026-09-18T17:41:22.465Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6889,6 +6889,26 @@
     },
     "938": {
       "number": 938,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "939": {
+      "number": 939,
+      "user": {
+        "login": "TrevorBurnham",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "940": {
+      "number": 940,
       "user": {
         "login": "zkochan",
         "type": "User"
@@ -27548,6 +27568,65 @@
           },
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "939": {
+      "number": 939,
+      "updatedAt": "2026-09-18T16:22:41Z",
+      "merged": false,
+      "author": {
+        "login": "TrevorBurnham",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "940": {
+      "number": 940,
+      "updatedAt": "2026-09-18T17:41:16Z",
+      "merged": false,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
