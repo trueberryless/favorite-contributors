@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T08:57:42.001Z",
+    "lastRunAt": "2026-09-19T01:28:59.424Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -119940,7 +119940,7 @@
     },
     "4460": {
       "number": 4460,
-      "updatedAt": "2026-09-06T14:55:50Z",
+      "updatedAt": "2026-09-18T13:05:12Z",
       "merged": false,
       "author": {
         "login": "dyc3",
@@ -122094,7 +122094,7 @@
     },
     "4558": {
       "number": 4558,
-      "updatedAt": "2026-09-17T09:24:43Z",
+      "updatedAt": "2026-09-18T13:07:03Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -122107,13 +122107,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4559": {
       "number": 4559,
-      "updatedAt": "2026-09-17T23:34:50Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T09:23:37Z",
+      "merged": true,
       "author": {
         "login": "yanthomasdev",
         "__typename": "User"
