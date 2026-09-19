@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T23:08:09.941Z",
+    "lastRunAt": "2026-09-19T20:11:52.883Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wMy0xNlQxODowODo1NlrOI2m33A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -131670,6 +131670,41 @@
       "user": {
         "login": "astro-factory[bot]",
         "type": "Bot"
+      }
+    },
+    "18070": {
+      "number": 18070,
+      "user": {
+        "login": "OlaoluwaM",
+        "type": "User"
+      }
+    },
+    "18071": {
+      "number": 18071,
+      "user": {
+        "login": "okxint",
+        "type": "User"
+      }
+    },
+    "18072": {
+      "number": 18072,
+      "user": {
+        "login": "alyekypo",
+        "type": "User"
+      }
+    },
+    "18073": {
+      "number": 18073,
+      "user": {
+        "login": "mkusaka",
+        "type": "User"
+      }
+    },
+    "18074": {
+      "number": 18074,
+      "user": {
+        "login": "SurefireStudios",
+        "type": "User"
       }
     }
   },
@@ -516984,7 +517019,7 @@
     },
     "17959": {
       "number": 17959,
-      "updatedAt": "2026-09-18T00:38:08Z",
+      "updatedAt": "2026-09-19T19:57:16Z",
       "merged": false,
       "author": {
         "login": "dcavalcante",
@@ -518977,6 +519012,68 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "18071": {
+      "number": 18071,
+      "updatedAt": "2026-09-19T07:00:48Z",
+      "merged": false,
+      "author": {
+        "login": "okxint",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18072": {
+      "number": 18072,
+      "updatedAt": "2026-09-19T13:14:22Z",
+      "merged": false,
+      "author": {
+        "login": "alyekypo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18074": {
+      "number": 18074,
+      "updatedAt": "2026-09-19T15:46:05Z",
+      "merged": false,
+      "author": {
+        "login": "SurefireStudios",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

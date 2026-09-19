@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T23:08:14.063Z",
+    "lastRunAt": "2026-09-19T20:11:56.894Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27365,6 +27365,13 @@
       "number": 4207,
       "user": {
         "login": "trueberryless",
+        "type": "User"
+      }
+    },
+    "4208": {
+      "number": 4208,
+      "user": {
+        "login": "azorkai",
         "type": "User"
       }
     }
@@ -128728,7 +128735,7 @@
     },
     "4011": {
       "number": 4011,
-      "updatedAt": "2026-09-08T11:56:53Z",
+      "updatedAt": "2026-09-19T19:11:03Z",
       "merged": false,
       "author": {
         "login": "trueberryless",
@@ -128830,6 +128837,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
               "__typename": "User"
             }
           },
@@ -133369,6 +133383,24 @@
       "merged": false,
       "author": {
         "login": "trueberryless",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4208": {
+      "number": 4208,
+      "updatedAt": "2026-09-19T00:43:12Z",
+      "merged": false,
+      "author": {
+        "login": "azorkai",
         "__typename": "User"
       },
       "closingIssuesReferences": {
