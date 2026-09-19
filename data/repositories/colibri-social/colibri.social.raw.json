@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T01:29:43.905Z",
+    "lastRunAt": "2026-09-19T22:26:39.406Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMy0wNVQxNzoxMjoxMVrOxyzgsA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1171,6 +1171,13 @@
       "number": 168,
       "user": {
         "login": "TheBrambleShark",
+        "type": "User"
+      }
+    },
+    "169": {
+      "number": 169,
+      "user": {
+        "login": "louisescher",
         "type": "User"
       }
     }
@@ -3265,6 +3272,24 @@
       "author": {
         "login": "colibri-release-bot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "169": {
+      "number": 169,
+      "updatedAt": "2026-09-19T13:31:25Z",
+      "merged": true,
+      "author": {
+        "login": "louisescher",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
