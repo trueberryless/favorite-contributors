@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T17:40:27.628Z",
+    "lastRunAt": "2026-09-19T14:41:31.831Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -11997,6 +11997,13 @@
       "number": 1622,
       "user": {
         "login": "thaikolja",
+        "type": "User"
+      }
+    },
+    "1623": {
+      "number": 1623,
+      "user": {
+        "login": "davidtheheroes",
         "type": "User"
       }
     }
@@ -36712,8 +36719,8 @@
     },
     "1622": {
       "number": 1622,
-      "updatedAt": "2026-09-18T17:36:29Z",
-      "merged": false,
+      "updatedAt": "2026-09-19T08:41:48Z",
+      "merged": true,
       "author": {
         "login": "thaikolja",
         "__typename": "User"
@@ -36725,7 +36732,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

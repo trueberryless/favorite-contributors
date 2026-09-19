@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T17:40:31.166Z",
+    "lastRunAt": "2026-09-19T14:41:33.990Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xOFQxMzoxNTo0NlrOLraJ-A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -53007,7 +53007,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 25
+        "total_count": 31
       }
     },
     "6920": {
@@ -53374,6 +53374,40 @@
       "number": 6976,
       "user": {
         "login": "benjamincanac",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "6977": {
+      "number": 6977,
+      "user": {
+        "login": "yamachi4416",
+        "type": "User"
+      }
+    },
+    "6978": {
+      "number": 6978,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "6979": {
+      "number": 6979,
+      "user": {
+        "login": "lazerg",
+        "type": "User"
+      }
+    },
+    "6980": {
+      "number": 6980,
+      "user": {
+        "login": "lazerg",
         "type": "User"
       }
     }
@@ -133079,7 +133113,7 @@
     },
     "6838": {
       "number": 6838,
-      "updatedAt": "2026-09-18T13:11:58Z",
+      "updatedAt": "2026-09-18T20:46:48Z",
       "merged": false,
       "author": {
         "login": "lazerg",
@@ -133982,7 +134016,7 @@
     },
     "6879": {
       "number": 6879,
-      "updatedAt": "2026-09-18T13:49:35Z",
+      "updatedAt": "2026-09-18T20:56:06Z",
       "merged": false,
       "author": {
         "login": "lazerg",
@@ -135740,14 +135774,94 @@
     },
     "6976": {
       "number": 6976,
-      "updatedAt": "2026-09-18T17:40:10Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T19:30:07Z",
+      "merged": true,
       "author": {
         "login": "benjamincanac",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6977": {
+      "number": 6977,
+      "updatedAt": "2026-09-18T19:36:56Z",
+      "merged": false,
+      "author": {
+        "login": "yamachi4416",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6978": {
+      "number": 6978,
+      "updatedAt": "2026-09-18T20:59:15Z",
+      "merged": true,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "6979": {
+      "number": 6979,
+      "updatedAt": "2026-09-18T21:02:14Z",
+      "merged": false,
+      "author": {
+        "login": "lazerg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6980": {
+      "number": 6980,
+      "updatedAt": "2026-09-18T21:07:22Z",
+      "merged": false,
+      "author": {
+        "login": "lazerg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

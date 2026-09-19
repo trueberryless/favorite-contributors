@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T20:33:49.470Z",
+    "lastRunAt": "2026-09-19T14:43:58.468Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1945,6 +1945,27 @@
       "number": 269,
       "user": {
         "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "270": {
+      "number": 270,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "271": {
+      "number": 271,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "272": {
+      "number": 272,
+      "user": {
+        "login": "olegpolin",
         "type": "User"
       }
     }
@@ -5679,7 +5700,7 @@
     },
     "150": {
       "number": 150,
-      "updatedAt": "2026-09-18T18:12:58Z",
+      "updatedAt": "2026-09-19T06:54:16Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -5929,7 +5950,7 @@
     },
     "159": {
       "number": 159,
-      "updatedAt": "2026-09-17T11:17:19Z",
+      "updatedAt": "2026-09-19T00:54:29Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -8560,6 +8581,68 @@
       "merged": false,
       "author": {
         "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "270": {
+      "number": 270,
+      "updatedAt": "2026-09-19T11:18:58Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "271": {
+      "number": 271,
+      "updatedAt": "2026-09-19T11:20:13Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "272": {
+      "number": 272,
+      "updatedAt": "2026-09-19T14:14:22Z",
+      "merged": false,
+      "author": {
+        "login": "olegpolin",
         "__typename": "User"
       },
       "closingIssuesReferences": {

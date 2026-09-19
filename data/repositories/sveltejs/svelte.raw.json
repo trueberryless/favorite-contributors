@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-18T20:33:35.665Z",
+    "lastRunAt": "2026-09-19T14:43:46.516Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -136926,6 +136926,51 @@
       "user": {
         "login": "svelte-triage-bot[bot]",
         "type": "Bot"
+      }
+    },
+    "18839": {
+      "number": 18839,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "18840": {
+      "number": 18840,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "18841": {
+      "number": 18841,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "18842": {
+      "number": 18842,
+      "user": {
+        "login": "Nic-Polumeyv",
+        "type": "User"
+      }
+    },
+    "18843": {
+      "number": 18843,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "18844": {
+      "number": 18844,
+      "user": {
+        "login": "Abdellox",
+        "type": "User"
       }
     }
   },
@@ -370661,8 +370706,8 @@
     },
     "18750": {
       "number": 18750,
-      "updatedAt": "2026-09-18T19:26:48Z",
-      "merged": false,
+      "updatedAt": "2026-09-18T23:43:33Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -370674,7 +370719,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18751": {
@@ -371585,7 +371638,7 @@
     },
     "18819": {
       "number": 18819,
-      "updatedAt": "2026-09-13T04:12:03Z",
+      "updatedAt": "2026-09-19T00:06:47Z",
       "merged": false,
       "author": {
         "login": "lbesecker195",
@@ -371765,7 +371818,7 @@
     },
     "18836": {
       "number": 18836,
-      "updatedAt": "2026-09-17T14:18:04Z",
+      "updatedAt": "2026-09-19T00:06:34Z",
       "merged": false,
       "author": {
         "login": "karanmahato44",
@@ -371805,6 +371858,112 @@
             }
           }
         ]
+      }
+    },
+    "18839": {
+      "number": 18839,
+      "updatedAt": "2026-09-18T21:23:45Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "18841": {
+      "number": 18841,
+      "updatedAt": "2026-09-19T00:08:01Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18842": {
+      "number": 18842,
+      "updatedAt": "2026-09-19T01:51:55Z",
+      "merged": false,
+      "author": {
+        "login": "Nic-Polumeyv",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18843": {
+      "number": 18843,
+      "updatedAt": "2026-09-19T13:51:26Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "18844": {
+      "number": 18844,
+      "updatedAt": "2026-09-19T13:19:06Z",
+      "merged": false,
+      "author": {
+        "login": "Abdellox",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
