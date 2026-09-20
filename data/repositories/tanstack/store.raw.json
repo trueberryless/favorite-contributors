@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T05:14:06.660Z",
+    "lastRunAt": "2026-09-20T22:47:10.351Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2473,6 +2473,20 @@
       "number": 364,
       "user": {
         "login": "IdrisCelik",
+        "type": "User"
+      }
+    },
+    "365": {
+      "number": 365,
+      "user": {
+        "login": "benjavicente",
+        "type": "User"
+      }
+    },
+    "366": {
+      "number": 366,
+      "user": {
+        "login": "benjavicente",
         "type": "User"
       }
     }
@@ -9250,6 +9264,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "365": {
+      "number": 365,
+      "updatedAt": "2026-09-20T19:30:43Z",
+      "merged": false,
+      "author": {
+        "login": "benjavicente",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "366": {
+      "number": 366,
+      "updatedAt": "2026-09-20T21:07:17Z",
+      "merged": false,
+      "author": {
+        "login": "benjavicente",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

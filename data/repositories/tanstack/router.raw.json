@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T05:14:03.788Z",
+    "lastRunAt": "2026-09-20T22:47:07.531Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOC0wNlQwNzowMjo1MlrO-1D3rw==",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -53777,6 +53777,20 @@
         "login": "freshgiammi",
         "type": "User"
       }
+    },
+    "8473": {
+      "number": 8473,
+      "user": {
+        "login": "christian-apollo",
+        "type": "User"
+      }
+    },
+    "8474": {
+      "number": 8474,
+      "user": {
+        "login": "christian-apollo",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -68073,10 +68087,43 @@
     },
     "8472": {
       "number": 8472,
-      "updatedAt": "2026-09-19T20:58:27Z",
+      "updatedAt": "2026-09-20T13:54:59Z",
       "merged": false,
       "author": {
         "login": "freshgiammi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nx-cloud",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8474": {
+      "number": 8474,
+      "updatedAt": "2026-09-20T14:15:22Z",
+      "merged": false,
+      "author": {
+        "login": "christian-apollo",
         "__typename": "User"
       },
       "closingIssuesReferences": {

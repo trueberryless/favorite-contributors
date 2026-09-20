@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T00:20:19.484Z",
+    "lastRunAt": "2026-09-20T22:40:35.485Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wNFQxOTo0NjoyMVrPAAAAAQj4Who=",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -81109,6 +81109,48 @@
         "login": "ramgao",
         "type": "User"
       }
+    },
+    "10103": {
+      "number": 10103,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10104": {
+      "number": 10104,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10105": {
+      "number": 10105,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10106": {
+      "number": 10106,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10107": {
+      "number": 10107,
+      "user": {
+        "login": "Xottab-DUTY",
+        "type": "User"
+      }
+    },
+    "10108": {
+      "number": 10108,
+      "user": {
+        "login": "luoling8192",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -82396,6 +82438,94 @@
       "merged": false,
       "author": {
         "login": "ramgao",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10103": {
+      "number": 10103,
+      "updatedAt": "2026-09-20T07:40:38Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "10104": {
+      "number": 10104,
+      "updatedAt": "2026-09-20T07:56:56Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10105": {
+      "number": 10105,
+      "updatedAt": "2026-09-20T09:19:10Z",
+      "merged": false,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10106": {
+      "number": 10106,
+      "updatedAt": "2026-09-20T09:28:58Z",
+      "merged": false,
+      "author": {
+        "login": "fregante",
         "__typename": "User"
       },
       "closingIssuesReferences": {
