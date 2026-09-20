@@ -18,17 +18,26 @@ const filteredGlob = (options: Parameters<typeof glob>[0]) => {
 };
 
 const organisations = defineCollection({
-  loader: filteredGlob({ pattern: "*.json", base: "./data/organisations" }),
+  loader: filteredGlob({ 
+    pattern: ["*.json", "!*.raw.json"], 
+    base: "./data/organisations" 
+  }),
   schema: entitySchema,
 });
 
 const repositories = defineCollection({
-  loader: filteredGlob({ pattern: "**/*.json", base: "./data/repositories" }),
+  loader: filteredGlob({ 
+    pattern: ["**/*.json", "!**/*.raw.json"], 
+    base: "./data/repositories" 
+  }),
   schema: entitySchema,
 });
 
 const contributors = defineCollection({
-  loader: glob({ pattern: "*.json", base: "./data/contributors" }),
+  loader: glob({ 
+    pattern: ["*.json", "!*.raw.json"], 
+    base: "./data/contributors" 
+  }),
   schema: contributorSchema,
 });
 
