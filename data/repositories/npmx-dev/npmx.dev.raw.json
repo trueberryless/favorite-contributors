@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T14:40:45.338Z",
+    "lastRunAt": "2026-09-20T05:24:44.213Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0yMlQxODowNzoxMFrOvrttxw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -24598,6 +24598,9 @@
       "user": {
         "login": "luc122c",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "3148": {
@@ -25497,6 +25500,23 @@
       "user": {
         "login": "danielroe",
         "type": "User"
+      }
+    },
+    "3267": {
+      "number": 3267,
+      "user": {
+        "login": "WilcoSp",
+        "type": "User"
+      }
+    },
+    "3268": {
+      "number": 3268,
+      "user": {
+        "login": "trueberryless",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -105491,7 +105511,7 @@
     },
     "2726": {
       "number": 2726,
-      "updatedAt": "2026-09-19T06:52:23Z",
+      "updatedAt": "2026-09-19T19:54:20Z",
       "merged": false,
       "author": {
         "login": "alexdln",
@@ -110549,7 +110569,7 @@
     },
     "2929": {
       "number": 2929,
-      "updatedAt": "2026-09-14T07:23:03Z",
+      "updatedAt": "2026-09-19T21:47:14Z",
       "merged": false,
       "author": {
         "login": "BittuBarnwal7479",
@@ -110672,6 +110692,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "ghostdevv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
               "__typename": "User"
             }
           }
@@ -117651,7 +117678,7 @@
     },
     "3147": {
       "number": 3147,
-      "updatedAt": "2026-09-18T06:53:16Z",
+      "updatedAt": "2026-09-19T21:32:55Z",
       "merged": false,
       "author": {
         "login": "luc122c",
@@ -117661,7 +117688,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -117704,6 +117731,34 @@
             "state": "APPROVED",
             "author": {
               "login": "serhalp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "trueberryless",
               "__typename": "User"
             }
           }
@@ -119248,7 +119303,7 @@
     },
     "3202": {
       "number": 3202,
-      "updatedAt": "2026-09-19T07:02:48Z",
+      "updatedAt": "2026-09-20T04:57:54Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -119659,7 +119714,7 @@
     },
     "3219": {
       "number": 3219,
-      "updatedAt": "2026-09-15T11:38:34Z",
+      "updatedAt": "2026-09-19T20:44:47Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -119724,8 +119779,8 @@
     },
     "3221": {
       "number": 3221,
-      "updatedAt": "2026-09-19T10:13:20Z",
-      "merged": false,
+      "updatedAt": "2026-09-19T20:49:34Z",
+      "merged": true,
       "author": {
         "login": "WilcoSp",
         "__typename": "User"
@@ -119819,6 +119874,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "WilcoSp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "trueberryless",
               "__typename": "User"
             }
           }
@@ -120287,7 +120356,7 @@
     },
     "3244": {
       "number": 3244,
-      "updatedAt": "2026-09-19T06:41:08Z",
+      "updatedAt": "2026-09-19T20:53:29Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -120726,6 +120795,65 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "3267": {
+      "number": 3267,
+      "updatedAt": "2026-09-19T19:50:46Z",
+      "merged": false,
+      "author": {
+        "login": "WilcoSp",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3268": {
+      "number": 3268,
+      "updatedAt": "2026-09-19T20:34:32Z",
+      "merged": true,
+      "author": {
+        "login": "trueberryless",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

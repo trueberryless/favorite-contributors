@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T14:41:33.828Z",
+    "lastRunAt": "2026-09-20T05:25:35.819Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0xNFQyMToxODo0NVrOOVF6Qg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8230,6 +8230,20 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "1097": {
+      "number": 1097,
+      "user": {
+        "login": "schunski",
+        "type": "User"
+      }
+    },
+    "1098": {
+      "number": 1098,
+      "user": {
+        "login": "lazerg",
+        "type": "User"
       }
     }
   },
@@ -22080,6 +22094,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1098": {
+      "number": 1098,
+      "updatedAt": "2026-09-20T01:43:21Z",
+      "merged": false,
+      "author": {
+        "login": "lazerg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

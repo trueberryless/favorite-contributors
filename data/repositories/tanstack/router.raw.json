@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T11:29:22.204Z",
+    "lastRunAt": "2026-09-20T05:14:03.788Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOC0wNlQwNzowMjo1MlrO-1D3rw==",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -52140,6 +52140,9 @@
       "user": {
         "login": "puncsky",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "8238": {
@@ -53490,6 +53493,9 @@
       "user": {
         "login": "will-kim-querypie",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "8431": {
@@ -53749,6 +53755,27 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "8470": {
+      "number": 8470,
+      "user": {
+        "login": "kurekszymon",
+        "type": "User"
+      }
+    },
+    "8471": {
+      "number": 8471,
+      "user": {
+        "login": "harshit-d3v",
+        "type": "User"
+      }
+    },
+    "8472": {
+      "number": 8472,
+      "user": {
+        "login": "freshgiammi",
+        "type": "User"
       }
     }
   },
@@ -58517,7 +58544,7 @@
     },
     "8076": {
       "number": 8076,
-      "updatedAt": "2026-08-21T06:41:01Z",
+      "updatedAt": "2026-09-20T01:43:02Z",
       "merged": false,
       "author": {
         "login": "running-grass",
@@ -61029,7 +61056,7 @@
     },
     "8194": {
       "number": 8194,
-      "updatedAt": "2026-09-06T16:14:18Z",
+      "updatedAt": "2026-09-19T16:04:13Z",
       "merged": false,
       "author": {
         "login": "rajat12826",
@@ -67024,7 +67051,7 @@
     },
     "8430": {
       "number": 8430,
-      "updatedAt": "2026-09-15T02:54:35Z",
+      "updatedAt": "2026-09-19T13:47:20Z",
       "merged": false,
       "author": {
         "login": "will-kim-querypie",
@@ -67034,7 +67061,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -67926,6 +67953,131 @@
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8470": {
+      "number": 8470,
+      "updatedAt": "2026-09-19T13:52:24Z",
+      "merged": false,
+      "author": {
+        "login": "kurekszymon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8471": {
+      "number": 8471,
+      "updatedAt": "2026-09-19T19:03:57Z",
+      "merged": false,
+      "author": {
+        "login": "harshit-d3v",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harshit-d3v",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harshit-d3v",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harshit-d3v",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harshit-d3v",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harshit-d3v",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8472": {
+      "number": 8472,
+      "updatedAt": "2026-09-19T20:58:27Z",
+      "merged": false,
+      "author": {
+        "login": "freshgiammi",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T11:39:23.968Z",
+    "lastRunAt": "2026-09-20T05:24:06.341Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0xNlQwNzowODozM1rOdXQN3A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -108275,7 +108275,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 2
+        "total_count": 3
       }
     },
     "15381": {
@@ -108995,6 +108995,50 @@
       "number": 15479,
       "user": {
         "login": "Jones8683",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15480": {
+      "number": 15480,
+      "user": {
+        "login": "Zylaah",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15483": {
+      "number": 15483,
+      "user": {
+        "login": "FlorianButz",
+        "type": "User"
+      }
+    },
+    "15484": {
+      "number": 15484,
+      "user": {
+        "login": "yoobi",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15485": {
+      "number": 15485,
+      "user": {
+        "login": "mr-cheffy",
+        "type": "User"
+      }
+    },
+    "15486": {
+      "number": 15486,
+      "user": {
+        "login": "Jasonbc",
         "type": "User"
       },
       "reactions": {
@@ -156974,7 +157018,7 @@
     },
     "15471": {
       "number": 15471,
-      "updatedAt": "2026-09-18T18:13:50Z",
+      "updatedAt": "2026-09-19T18:49:46Z",
       "merged": false,
       "author": {
         "login": "xWielo",
@@ -156993,6 +157037,50 @@
             "author": {
               "login": "mr-cheffy",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "15483": {
+      "number": 15483,
+      "updatedAt": "2026-09-19T22:56:05Z",
+      "merged": false,
+      "author": {
+        "login": "FlorianButz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "15485": {
+      "number": 15485,
+      "updatedAt": "2026-09-19T18:42:54Z",
+      "merged": true,
+      "author": {
+        "login": "mr-cheffy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
             }
           }
         ]
