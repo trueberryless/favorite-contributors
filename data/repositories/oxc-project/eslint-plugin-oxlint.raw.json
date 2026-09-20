@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T06:24:29.196Z",
+    "lastRunAt": "2026-09-20T00:18:00.066Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0xMVQwMzo0MzowOFrOY5SVWg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5599,6 +5599,20 @@
       "user": {
         "login": "oxc-guard[bot]",
         "type": "Bot"
+      }
+    },
+    "782": {
+      "number": 782,
+      "user": {
+        "login": "macchiitaka",
+        "type": "User"
+      }
+    },
+    "783": {
+      "number": 783,
+      "user": {
+        "login": "macchiitaka",
+        "type": "User"
       }
     }
   },
@@ -19195,8 +19209,8 @@
     },
     "777": {
       "number": 777,
-      "updatedAt": "2026-09-02T12:08:09Z",
-      "merged": false,
+      "updatedAt": "2026-09-19T15:13:44Z",
+      "merged": true,
       "author": {
         "login": "mfeltscher",
         "__typename": "User"
@@ -19208,7 +19222,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Sysix",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "778": {
