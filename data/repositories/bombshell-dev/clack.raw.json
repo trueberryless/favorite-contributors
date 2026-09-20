@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T17:54:27.327Z",
+    "lastRunAt": "2026-09-20T14:08:13.232Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4782,6 +4782,13 @@
       "number": 609,
       "user": {
         "login": "Timbic",
+        "type": "User"
+      }
+    },
+    "610": {
+      "number": 610,
+      "user": {
+        "login": "43081j",
         "type": "User"
       }
     }
@@ -16666,6 +16673,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "610": {
+      "number": 610,
+      "updatedAt": "2026-09-20T10:41:39Z",
+      "merged": false,
+      "author": {
+        "login": "43081j",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

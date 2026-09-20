@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T20:10:57.363Z",
+    "lastRunAt": "2026-09-20T14:09:13.509Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0xOFQyMzozNjowN1rOTGCltw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -81725,7 +81725,7 @@
     },
     "2295": {
       "number": 2295,
-      "updatedAt": "2026-09-06T15:55:38Z",
+      "updatedAt": "2026-09-19T22:03:18Z",
       "merged": false,
       "author": {
         "login": "WalkQuackBack",
@@ -81820,6 +81820,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "WalkQuackBack",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "uncenter",
               "__typename": "User"
             }
           }
@@ -82321,14 +82335,14 @@
     },
     "2324": {
       "number": 2324,
-      "updatedAt": "2026-09-17T10:58:21Z",
+      "updatedAt": "2026-09-19T21:38:24Z",
       "merged": false,
       "author": {
         "login": "pynappo",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
@@ -82339,7 +82353,7 @@
     },
     "2325": {
       "number": 2325,
-      "updatedAt": "2026-09-18T19:02:01Z",
+      "updatedAt": "2026-09-20T02:14:29Z",
       "merged": false,
       "author": {
         "login": "fe50c",
@@ -82352,7 +82366,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

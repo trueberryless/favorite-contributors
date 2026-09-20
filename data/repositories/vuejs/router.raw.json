@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-19T17:52:55.330Z",
+    "lastRunAt": "2026-09-20T14:06:45.224Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17588,6 +17588,13 @@
       "number": 2802,
       "user": {
         "login": "ondrhn",
+        "type": "User"
+      }
+    },
+    "2804": {
+      "number": 2804,
+      "user": {
+        "login": "danielroe",
         "type": "User"
       }
     }
@@ -48032,7 +48039,7 @@
     },
     "2778": {
       "number": 2778,
-      "updatedAt": "2026-08-21T02:38:39Z",
+      "updatedAt": "2026-09-20T03:38:23Z",
       "merged": false,
       "author": {
         "login": "lunar-soil",
@@ -48551,6 +48558,32 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2804": {
+      "number": 2804,
+      "updatedAt": "2026-09-19T22:37:50Z",
+      "merged": false,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
             }
           }
         ]
