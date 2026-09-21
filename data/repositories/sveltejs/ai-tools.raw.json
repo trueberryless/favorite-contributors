@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T10:00:48.720Z",
+    "lastRunAt": "2026-09-21T05:58:25.463Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1971,6 +1971,13 @@
     },
     "273": {
       "number": 273,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "274": {
+      "number": 274,
       "user": {
         "login": "paoloricciuti",
         "type": "User"
@@ -5707,7 +5714,7 @@
     },
     "150": {
       "number": 150,
-      "updatedAt": "2026-09-19T18:34:22Z",
+      "updatedAt": "2026-09-20T10:16:04Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -8628,7 +8635,7 @@
     },
     "271": {
       "number": 271,
-      "updatedAt": "2026-09-19T11:20:13Z",
+      "updatedAt": "2026-09-20T15:49:58Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -8641,7 +8648,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "272": {
@@ -8660,6 +8675,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "274": {
+      "number": 274,
+      "updatedAt": "2026-09-20T22:06:00Z",
+      "merged": false,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "khromov",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

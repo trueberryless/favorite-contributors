@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T14:07:34.009Z",
+    "lastRunAt": "2026-09-21T06:01:43.391Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17232,6 +17232,33 @@
     },
     "2394": {
       "number": 2394,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2395": {
+      "number": 2395,
+      "user": {
+        "login": "ubiratansoares",
+        "type": "User"
+      }
+    },
+    "2396": {
+      "number": 2396,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2397": {
+      "number": 2397,
       "user": {
         "login": "woodruffw",
         "type": "User"
@@ -42943,7 +42970,7 @@
     },
     "1614": {
       "number": 1614,
-      "updatedAt": "2026-02-19T08:13:02Z",
+      "updatedAt": "2026-09-20T18:27:35Z",
       "merged": false,
       "author": {
         "login": "dguido",
@@ -55293,8 +55320,8 @@
     },
     "2394": {
       "number": 2394,
-      "updatedAt": "2026-09-18T06:10:13Z",
-      "merged": false,
+      "updatedAt": "2026-09-20T17:38:29Z",
+      "merged": true,
       "author": {
         "login": "woodruffw",
         "__typename": "User"
@@ -55327,8 +55354,69 @@
               "login": "woodruffw",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "2395": {
+      "number": 2395,
+      "updatedAt": "2026-09-20T18:11:04Z",
+      "merged": false,
+      "author": {
+        "login": "ubiratansoares",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2396": {
+      "number": 2396,
+      "updatedAt": "2026-09-20T18:27:35Z",
+      "merged": true,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2397": {
+      "number": 2397,
+      "updatedAt": "2026-09-20T18:39:28Z",
+      "merged": false,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

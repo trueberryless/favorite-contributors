@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T10:00:45.469Z",
+    "lastRunAt": "2026-09-21T05:58:21.111Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0xNlQwMTowOToxNVrOHhHIBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -117470,6 +117470,27 @@
       "number": 17170,
       "user": {
         "login": "mikenikles",
+        "type": "User"
+      }
+    },
+    "17171": {
+      "number": 17171,
+      "user": {
+        "login": "Nic-Polumeyv",
+        "type": "User"
+      }
+    },
+    "17172": {
+      "number": 17172,
+      "user": {
+        "login": "Nic-Polumeyv",
+        "type": "User"
+      }
+    },
+    "17173": {
+      "number": 17173,
+      "user": {
+        "login": "Nic-Polumeyv",
         "type": "User"
       }
     }
@@ -387271,7 +387292,7 @@
     },
     "16968": {
       "number": 16968,
-      "updatedAt": "2026-09-19T18:05:58Z",
+      "updatedAt": "2026-09-21T02:46:52Z",
       "merged": false,
       "author": {
         "login": "Nic-Polumeyv",
@@ -387325,6 +387346,20 @@
             "author": {
               "login": "Nic-Polumeyv",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
@@ -391187,7 +391222,7 @@
     },
     "17136": {
       "number": 17136,
-      "updatedAt": "2026-09-19T11:52:17Z",
+      "updatedAt": "2026-09-20T12:58:14Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",
@@ -391824,7 +391859,7 @@
     },
     "17166": {
       "number": 17166,
-      "updatedAt": "2026-09-19T21:50:34Z",
+      "updatedAt": "2026-09-21T02:52:19Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -391900,6 +391935,75 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "17171": {
+      "number": 17171,
+      "updatedAt": "2026-09-21T05:05:54Z",
+      "merged": false,
+      "author": {
+        "login": "Nic-Polumeyv",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17172": {
+      "number": 17172,
+      "updatedAt": "2026-09-21T04:05:10Z",
+      "merged": false,
+      "author": {
+        "login": "Nic-Polumeyv",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17173": {
+      "number": 17173,
+      "updatedAt": "2026-09-21T05:08:44Z",
+      "merged": false,
+      "author": {
+        "login": "Nic-Polumeyv",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "github-advanced-security",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "github-advanced-security",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
