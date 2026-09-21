@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T14:10:03.931Z",
+    "lastRunAt": "2026-09-21T12:34:59.725Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -102330,6 +102330,13 @@
       "number": 14590,
       "user": {
         "login": "astrobot-houston",
+        "type": "User"
+      }
+    },
+    "14591": {
+      "number": 14591,
+      "user": {
+        "login": "nasty23-star",
         "type": "User"
       }
     }
@@ -555708,7 +555715,7 @@
     },
     "14513": {
       "number": 14513,
-      "updatedAt": "2026-09-18T12:26:21Z",
+      "updatedAt": "2026-09-21T06:43:21Z",
       "merged": false,
       "author": {
         "login": "Yusaku01",
@@ -555721,7 +555728,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Yusaku01",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14514": {
@@ -555884,7 +555906,7 @@
     },
     "14521": {
       "number": 14521,
-      "updatedAt": "2026-09-18T12:26:26Z",
+      "updatedAt": "2026-09-21T06:42:12Z",
       "merged": false,
       "author": {
         "login": "Yusaku01",
@@ -555897,7 +555919,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Yusaku01",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14522": {
@@ -556806,7 +556843,7 @@
     },
     "14553": {
       "number": 14553,
-      "updatedAt": "2026-09-18T21:08:27Z",
+      "updatedAt": "2026-09-21T10:40:06Z",
       "merged": false,
       "author": {
         "login": "EastSun5566",
@@ -556882,13 +556919,20 @@
               "login": "EastSun5566",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "14554": {
       "number": 14554,
-      "updatedAt": "2026-09-16T08:36:26Z",
+      "updatedAt": "2026-09-20T14:34:07Z",
       "merged": false,
       "author": {
         "login": "nasty23-star",
@@ -556939,8 +556983,8 @@
     },
     "14556": {
       "number": 14556,
-      "updatedAt": "2026-09-14T22:49:07Z",
-      "merged": false,
+      "updatedAt": "2026-09-20T16:38:04Z",
+      "merged": true,
       "author": {
         "login": "bulebrainbrand",
         "__typename": "User"
@@ -556952,7 +556996,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14557": {
@@ -557752,8 +557804,8 @@
     },
     "14588": {
       "number": 14588,
-      "updatedAt": "2026-09-20T04:10:44Z",
-      "merged": false,
+      "updatedAt": "2026-09-20T16:44:12Z",
+      "merged": true,
       "author": {
         "login": "yamotech",
         "__typename": "User"
@@ -557765,7 +557817,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14589": {
@@ -557796,10 +557856,36 @@
     },
     "14590": {
       "number": 14590,
-      "updatedAt": "2026-09-20T08:33:19Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T10:05:54Z",
+      "merged": true,
       "author": {
         "login": "astrobot-houston",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14591": {
+      "number": 14591,
+      "updatedAt": "2026-09-20T20:39:21Z",
+      "merged": false,
+      "author": {
+        "login": "nasty23-star",
         "__typename": "User"
       },
       "closingIssuesReferences": {

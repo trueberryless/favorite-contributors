@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T14:10:07.005Z",
+    "lastRunAt": "2026-09-21T12:35:04.075Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27386,6 +27386,13 @@
       "number": 4210,
       "user": {
         "login": "jsparkdev",
+        "type": "User"
+      }
+    },
+    "4211": {
+      "number": 4211,
+      "user": {
+        "login": "HiDeoo",
         "type": "User"
       }
     }
@@ -133393,8 +133400,8 @@
     },
     "4207": {
       "number": 4207,
-      "updatedAt": "2026-09-18T10:12:05Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T07:57:47Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -133406,13 +133413,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4208": {
       "number": 4208,
-      "updatedAt": "2026-09-19T00:43:12Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T07:41:48Z",
+      "merged": true,
       "author": {
         "login": "azorkai",
         "__typename": "User"
@@ -133424,19 +133439,53 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4210": {
       "number": 4210,
-      "updatedAt": "2026-09-20T02:13:57Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T10:11:23Z",
+      "merged": true,
       "author": {
         "login": "jsparkdev",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4211": {
+      "number": 4211,
+      "updatedAt": "2026-09-21T11:45:45Z",
+      "merged": false,
+      "author": {
+        "login": "HiDeoo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
