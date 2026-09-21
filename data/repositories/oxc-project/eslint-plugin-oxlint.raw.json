@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T20:30:54.306Z",
+    "lastRunAt": "2026-09-21T22:30:59.438Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0xMVQwMzo0MzowOFrOY5SVWg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5613,6 +5613,13 @@
       "user": {
         "login": "macchiitaka",
         "type": "User"
+      }
+    },
+    "784": {
+      "number": 784,
+      "user": {
+        "login": "oxc-guard[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -19049,7 +19056,7 @@
     },
     "769": {
       "number": 769,
-      "updatedAt": "2026-09-20T18:56:41Z",
+      "updatedAt": "2026-09-20T20:54:47Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -19209,7 +19216,7 @@
     },
     "777": {
       "number": 777,
-      "updatedAt": "2026-09-19T15:13:44Z",
+      "updatedAt": "2026-09-21T15:55:48Z",
       "merged": true,
       "author": {
         "login": "mfeltscher",
@@ -19286,7 +19293,7 @@
     },
     "780": {
       "number": 780,
-      "updatedAt": "2026-09-20T18:56:17Z",
+      "updatedAt": "2026-09-20T20:54:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -19318,6 +19325,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "784": {
+      "number": 784,
+      "updatedAt": "2026-09-21T13:12:41Z",
+      "merged": true,
+      "author": {
+        "login": "oxc-guard",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

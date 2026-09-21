@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T20:30:54.765Z",
+    "lastRunAt": "2026-09-21T22:30:59.661Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0xNlQxNjowNDowMVrOb6xwWw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3245,6 +3245,13 @@
       "number": 449,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "450": {
+      "number": 450,
+      "user": {
+        "login": "oxc-guard[bot]",
         "type": "Bot"
       }
     }
@@ -10201,7 +10208,7 @@
     },
     "398": {
       "number": 398,
-      "updatedAt": "2026-09-20T18:55:04Z",
+      "updatedAt": "2026-09-20T22:06:20Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -11299,6 +11306,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "450": {
+      "number": 450,
+      "updatedAt": "2026-09-21T18:34:38Z",
+      "merged": true,
+      "author": {
+        "login": "oxc-guard",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
