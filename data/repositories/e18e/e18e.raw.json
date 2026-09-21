@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T20:28:00.994Z",
+    "lastRunAt": "2026-09-21T18:35:13.663Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0wNFQxNzoyMDo0NVrObow3Ig==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1831,6 +1831,13 @@
     },
     "253": {
       "number": 253,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "254": {
+      "number": 254,
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
@@ -10448,6 +10455,24 @@
             }
           }
         ]
+      }
+    },
+    "254": {
+      "number": 254,
+      "updatedAt": "2026-09-21T18:24:24Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

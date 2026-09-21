@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T17:37:03.396Z",
+    "lastRunAt": "2026-09-21T18:31:35.345Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16151,6 +16151,20 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "2315": {
+      "number": 2315,
+      "user": {
+        "login": "mixelburg",
+        "type": "User"
+      }
+    },
+    "2316": {
+      "number": 2316,
+      "user": {
+        "login": "changbaebang",
+        "type": "User"
       }
     }
   },
@@ -58992,7 +59006,7 @@
     },
     "2303": {
       "number": 2303,
-      "updatedAt": "2026-09-14T07:35:28Z",
+      "updatedAt": "2026-09-21T11:22:05Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -59088,8 +59102,8 @@
     },
     "2310": {
       "number": 2310,
-      "updatedAt": "2026-09-20T15:53:58Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T10:53:11Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -59101,12 +59115,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "bluwy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2311": {
       "number": 2311,
-      "updatedAt": "2026-09-20T15:54:57Z",
+      "updatedAt": "2026-09-21T11:22:51Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -59124,8 +59146,8 @@
     },
     "2312": {
       "number": 2312,
-      "updatedAt": "2026-09-20T15:57:21Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T11:17:47Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -59137,7 +59159,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "bluwy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2313": {
@@ -59160,7 +59190,7 @@
     },
     "2314": {
       "number": 2314,
-      "updatedAt": "2026-09-20T15:58:34Z",
+      "updatedAt": "2026-09-21T11:21:23Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -59168,6 +59198,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2315": {
+      "number": 2315,
+      "updatedAt": "2026-09-20T22:17:36Z",
+      "merged": false,
+      "author": {
+        "login": "mixelburg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2316": {
+      "number": 2316,
+      "updatedAt": "2026-09-21T01:54:46Z",
+      "merged": false,
+      "author": {
+        "login": "changbaebang",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
