@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T05:25:31.648Z",
+    "lastRunAt": "2026-09-21T00:55:10.676Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOC0yNlQxNjo0NzoxM1rOEoT8zA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12514,6 +12514,16 @@
       },
       "reactions": {
         "total_count": 2
+      }
+    },
+    "1822": {
+      "number": 1822,
+      "user": {
+        "login": "yamachi4416",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -40236,7 +40246,7 @@
     },
     "1815": {
       "number": 1815,
-      "updatedAt": "2026-09-08T18:29:24Z",
+      "updatedAt": "2026-09-20T11:30:09Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -40324,7 +40334,7 @@
     },
     "1819": {
       "number": 1819,
-      "updatedAt": "2026-09-19T23:14:32Z",
+      "updatedAt": "2026-09-20T11:30:18Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -40401,6 +40411,39 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1822": {
+      "number": 1822,
+      "updatedAt": "2026-09-20T12:31:00Z",
+      "merged": true,
+      "author": {
+        "login": "yamachi4416",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
             }
           }
         ]

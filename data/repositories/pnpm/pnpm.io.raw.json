@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T09:59:17.850Z",
+    "lastRunAt": "2026-09-21T00:56:03.668Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6952,6 +6952,16 @@
       "user": {
         "login": "zkochan",
         "type": "User"
+      }
+    },
+    "945": {
+      "number": 945,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -27842,6 +27852,88 @@
             "state": "APPROVED",
             "author": {
               "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "945": {
+      "number": 945,
+      "updatedAt": "2026-09-20T23:59:53Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
               "__typename": "Bot"
             }
           }
