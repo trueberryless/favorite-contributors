@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T06:00:50.941Z",
+    "lastRunAt": "2026-09-22T12:26:50.599Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -48539,8 +48539,8 @@
     },
     "2802": {
       "number": 2802,
-      "updatedAt": "2026-09-14T17:50:38Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T11:59:46Z",
+      "merged": true,
       "author": {
         "login": "ondrhn",
         "__typename": "User"
@@ -48565,8 +48565,8 @@
     },
     "2804": {
       "number": 2804,
-      "updatedAt": "2026-09-19T22:37:50Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T12:18:14Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -48581,6 +48581,13 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "posva",
               "__typename": "User"

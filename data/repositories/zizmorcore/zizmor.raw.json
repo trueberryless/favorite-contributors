@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T06:01:43.391Z",
+    "lastRunAt": "2026-09-22T12:27:51.877Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17265,6 +17265,53 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "2399": {
+      "number": 2399,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2400": {
+      "number": 2400,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2401": {
+      "number": 2401,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2402": {
+      "number": 2402,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2403": {
+      "number": 2403,
+      "user": {
+        "login": "hashcatHitman",
+        "type": "User"
       }
     }
   },
@@ -55367,7 +55414,7 @@
     },
     "2395": {
       "number": 2395,
-      "updatedAt": "2026-09-20T18:11:04Z",
+      "updatedAt": "2026-09-21T18:15:52Z",
       "merged": false,
       "author": {
         "login": "ubiratansoares",
@@ -55380,7 +55427,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ubiratansoares",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2396": {
@@ -55403,8 +55465,80 @@
     },
     "2397": {
       "number": 2397,
-      "updatedAt": "2026-09-20T18:39:28Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T16:31:59Z",
+      "merged": true,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2399": {
+      "number": 2399,
+      "updatedAt": "2026-09-21T16:34:16Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2400": {
+      "number": 2400,
+      "updatedAt": "2026-09-21T16:33:14Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2401": {
+      "number": 2401,
+      "updatedAt": "2026-09-21T16:32:58Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2402": {
+      "number": 2402,
+      "updatedAt": "2026-09-21T18:02:10Z",
+      "merged": true,
       "author": {
         "login": "woodruffw",
         "__typename": "User"

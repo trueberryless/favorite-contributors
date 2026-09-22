@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T12:33:44.225Z",
+    "lastRunAt": "2026-09-22T12:29:32.877Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0xMFQwNDoyNjo0NVrOL6K_zg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3944,7 +3944,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 27
+        "total_count": 28
       }
     },
     "601": {
@@ -3961,7 +3961,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 2
+        "total_count": 3
       }
     },
     "603": {
@@ -3975,6 +3975,13 @@
       "number": 604,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "605": {
+      "number": 605,
+      "user": {
+        "login": "github-actions[bot]",
         "type": "Bot"
       }
     }
@@ -10830,8 +10837,8 @@
     },
     "602": {
       "number": 602,
-      "updatedAt": "2026-09-02T17:35:58Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T21:23:41Z",
+      "merged": true,
       "author": {
         "login": "AlexNabokikh",
         "__typename": "User"
@@ -10840,10 +10847,18 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 2
+        "totalCount": 3
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "rogeruiz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "603": {
@@ -10880,6 +10895,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "605": {
+      "number": 605,
+      "updatedAt": "2026-09-21T21:33:18Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "rogeruiz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

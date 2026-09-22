@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T06:00:38.161Z",
+    "lastRunAt": "2026-09-22T12:26:36.102Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNS0xMC0yMFQwMDo1OToxMVrOAt6fpw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -30718,6 +30718,20 @@
       "number": 4550,
       "user": {
         "login": "hrynko",
+        "type": "User"
+      }
+    },
+    "4551": {
+      "number": 4551,
+      "user": {
+        "login": "richtexteditor",
+        "type": "User"
+      }
+    },
+    "4552": {
+      "number": 4552,
+      "user": {
+        "login": "t8y2",
         "type": "User"
       }
     }
@@ -132161,7 +132175,7 @@
     },
     "4542": {
       "number": 4542,
-      "updatedAt": "2026-09-20T03:49:05Z",
+      "updatedAt": "2026-09-22T00:13:12Z",
       "merged": false,
       "author": {
         "login": "SalvatoreCervone",
@@ -132291,6 +132305,42 @@
       "merged": false,
       "author": {
         "login": "hrynko",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4551": {
+      "number": 4551,
+      "updatedAt": "2026-09-22T00:05:07Z",
+      "merged": false,
+      "author": {
+        "login": "richtexteditor",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4552": {
+      "number": 4552,
+      "updatedAt": "2026-09-22T08:47:34Z",
+      "merged": false,
+      "author": {
+        "login": "t8y2",
         "__typename": "User"
       },
       "closingIssuesReferences": {
