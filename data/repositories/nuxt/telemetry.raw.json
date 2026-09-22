@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T00:55:11.866Z",
+    "lastRunAt": "2026-09-22T06:37:25.296Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wN1QxMDoyMToyM1rOGD9Aig==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3539,6 +3539,20 @@
     },
     "487": {
       "number": 487,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "488": {
+      "number": 488,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "489": {
+      "number": 489,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -14459,7 +14473,7 @@
     },
     "487": {
       "number": 487,
-      "updatedAt": "2026-09-14T08:46:43Z",
+      "updatedAt": "2026-09-21T16:52:35Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -14473,6 +14487,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "488": {
+      "number": 488,
+      "updatedAt": "2026-09-21T08:09:11Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "489": {
+      "number": 489,
+      "updatedAt": "2026-09-21T08:08:54Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

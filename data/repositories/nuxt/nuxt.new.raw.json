@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T00:55:16.930Z",
+    "lastRunAt": "2026-09-22T06:37:30.982Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOC0zMFQyMzo1NzozNlrOPgE7lg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4030,6 +4030,13 @@
     },
     "570": {
       "number": 570,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "571": {
+      "number": 571,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -14499,7 +14506,7 @@
     },
     "537": {
       "number": 537,
-      "updatedAt": "2026-09-15T10:03:46Z",
+      "updatedAt": "2026-09-21T10:37:06Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -14721,7 +14728,7 @@
     },
     "548": {
       "number": 548,
-      "updatedAt": "2026-09-16T07:52:10Z",
+      "updatedAt": "2026-09-21T22:51:36Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -14739,7 +14746,7 @@
     },
     "549": {
       "number": 549,
-      "updatedAt": "2026-09-14T12:58:29Z",
+      "updatedAt": "2026-09-21T22:51:33Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -14935,7 +14942,7 @@
     },
     "559": {
       "number": 559,
-      "updatedAt": "2026-09-17T22:10:35Z",
+      "updatedAt": "2026-09-21T10:36:21Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15171,6 +15178,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "571": {
+      "number": 571,
+      "updatedAt": "2026-09-21T10:15:55Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

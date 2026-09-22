@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T00:55:15.292Z",
+    "lastRunAt": "2026-09-22T06:37:30.187Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0wMlQxMzo0OToyNlrOMfVTEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17543,6 +17543,23 @@
       "user": {
         "login": "Flo0806",
         "type": "User"
+      }
+    },
+    "2428": {
+      "number": 2428,
+      "user": {
+        "login": "HugoRCD",
+        "type": "User"
+      }
+    },
+    "2429": {
+      "number": 2429,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     }
   },
@@ -54989,7 +55006,7 @@
     },
     "2400": {
       "number": 2400,
-      "updatedAt": "2026-09-14T09:57:05Z",
+      "updatedAt": "2026-09-21T21:41:22Z",
       "merged": false,
       "author": {
         "login": "larbish",
@@ -55590,7 +55607,7 @@
     },
     "2423": {
       "number": 2423,
-      "updatedAt": "2026-09-19T00:55:35Z",
+      "updatedAt": "2026-09-21T13:28:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -55652,8 +55669,8 @@
     },
     "2426": {
       "number": 2426,
-      "updatedAt": "2026-09-14T08:45:18Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T08:31:56Z",
+      "merged": true,
       "author": {
         "login": "HugoRCD",
         "__typename": "User"
@@ -55716,6 +55733,50 @@
             "state": "COMMENTED",
             "author": {
               "login": "Flo0806",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2428": {
+      "number": 2428,
+      "updatedAt": "2026-09-21T08:36:08Z",
+      "merged": true,
+      "author": {
+        "login": "HugoRCD",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2429": {
+      "number": 2429,
+      "updatedAt": "2026-09-21T08:48:18Z",
+      "merged": true,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
               "__typename": "User"
             }
           }

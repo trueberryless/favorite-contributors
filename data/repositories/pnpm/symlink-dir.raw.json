@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T00:56:03.668Z",
+    "lastRunAt": "2026-09-22T06:38:22.912Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0yOFQxMTozNDoyN1rOBixA7g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -636,6 +636,13 @@
     },
     "90": {
       "number": 90,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "91": {
+      "number": 91,
       "user": {
         "login": "zkochan",
         "type": "User"
@@ -2080,6 +2087,32 @@
     "90": {
       "number": 90,
       "updatedAt": "2026-09-20T23:14:09Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "91": {
+      "number": 91,
+      "updatedAt": "2026-09-21T08:27:04Z",
       "merged": true,
       "author": {
         "login": "zkochan",

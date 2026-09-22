@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T00:55:11.531Z",
+    "lastRunAt": "2026-09-22T06:37:24.807Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27079,6 +27079,27 @@
       "user": {
         "login": "davestewart",
         "type": "User"
+      }
+    },
+    "3857": {
+      "number": 3857,
+      "user": {
+        "login": "farnabaz",
+        "type": "User"
+      }
+    },
+    "3858": {
+      "number": 3858,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "3859": {
+      "number": 3859,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -71553,8 +71574,8 @@
     },
     "3851": {
       "number": 3851,
-      "updatedAt": "2026-09-15T10:14:17Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T15:11:04Z",
+      "merged": true,
       "author": {
         "login": "farnabaz",
         "__typename": "User"
@@ -71580,13 +71601,20 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
           }
         ]
       }
     },
     "3853": {
       "number": 3853,
-      "updatedAt": "2026-09-16T22:26:28Z",
+      "updatedAt": "2026-09-21T15:47:57Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -71604,7 +71632,61 @@
     },
     "3855": {
       "number": 3855,
-      "updatedAt": "2026-09-18T02:13:46Z",
+      "updatedAt": "2026-09-21T15:47:43Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3857": {
+      "number": 3857,
+      "updatedAt": "2026-09-21T15:45:34Z",
+      "merged": true,
+      "author": {
+        "login": "farnabaz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3858": {
+      "number": 3858,
+      "updatedAt": "2026-09-21T15:51:24Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3859": {
+      "number": 3859,
+      "updatedAt": "2026-09-21T15:51:26Z",
       "merged": false,
       "author": {
         "login": "dependabot",

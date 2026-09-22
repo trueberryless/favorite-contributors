@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T05:58:24.577Z",
+    "lastRunAt": "2026-09-22T06:40:18.021Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0xN1QwMjozMDozNVrOWoCLRQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1371,6 +1371,13 @@
       "user": {
         "login": "leonidaz",
         "type": "User"
+      }
+    },
+    "189": {
+      "number": 189,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -4561,7 +4568,7 @@
     },
     "155": {
       "number": 155,
-      "updatedAt": "2026-08-12T07:05:21Z",
+      "updatedAt": "2026-09-21T21:30:44Z",
       "merged": false,
       "author": {
         "login": "MathiasWP",
@@ -4997,7 +5004,7 @@
     },
     "183": {
       "number": 183,
-      "updatedAt": "2026-09-18T18:52:31Z",
+      "updatedAt": "2026-09-21T22:02:05Z",
       "merged": false,
       "author": {
         "login": "leonidaz",
@@ -5155,11 +5162,37 @@
     },
     "188": {
       "number": 188,
-      "updatedAt": "2026-09-20T19:02:47Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T21:30:27Z",
+      "merged": true,
       "author": {
         "login": "leonidaz",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "189": {
+      "number": 189,
+      "updatedAt": "2026-09-21T21:30:47Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

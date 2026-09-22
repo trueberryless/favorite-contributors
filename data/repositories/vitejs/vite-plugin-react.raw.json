@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T05:59:09.880Z",
+    "lastRunAt": "2026-09-22T06:41:06.665Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wMlQxMjo1MjozM1rORCLjPw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10050,6 +10050,13 @@
       "number": 1466,
       "user": {
         "login": "jaden-chen",
+        "type": "User"
+      }
+    },
+    "1467": {
+      "number": 1467,
+      "user": {
+        "login": "kklem0",
         "type": "User"
       }
     }
@@ -32685,7 +32692,7 @@
     },
     "1436": {
       "number": 1436,
-      "updatedAt": "2026-09-16T19:48:07Z",
+      "updatedAt": "2026-09-21T08:15:58Z",
       "merged": false,
       "author": {
         "login": "kklem0",
@@ -32859,7 +32866,7 @@
     },
     "1445": {
       "number": 1445,
-      "updatedAt": "2026-09-20T09:28:13Z",
+      "updatedAt": "2026-09-21T19:51:45Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -33119,8 +33126,8 @@
     },
     "1461": {
       "number": 1461,
-      "updatedAt": "2026-09-17T04:42:53Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T11:45:27Z",
+      "merged": true,
       "author": {
         "login": "ArnaudBarre",
         "__typename": "User"
@@ -33132,7 +33139,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1462": {
@@ -33159,6 +33174,24 @@
       "merged": true,
       "author": {
         "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1467": {
+      "number": 1467,
+      "updatedAt": "2026-09-21T08:28:11Z",
+      "merged": false,
+      "author": {
+        "login": "kklem0",
         "__typename": "User"
       },
       "closingIssuesReferences": {

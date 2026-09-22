@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T05:58:12.446Z",
+    "lastRunAt": "2026-09-22T06:40:05.341Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -136998,6 +136998,30 @@
       "number": 18849,
       "user": {
         "login": "git-no",
+        "type": "User"
+      }
+    },
+    "18850": {
+      "number": 18850,
+      "user": {
+        "login": "ndri",
+        "type": "User"
+      }
+    },
+    "18851": {
+      "number": 18851,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "18852": {
+      "number": 18852,
+      "user": {
+        "login": "johannesmutter",
         "type": "User"
       }
     }
@@ -372028,6 +372052,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "18851": {
+      "number": 18851,
+      "updatedAt": "2026-09-21T16:16:57Z",
+      "merged": false,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
