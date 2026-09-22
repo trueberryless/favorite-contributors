@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T22:47:07.531Z",
+    "lastRunAt": "2026-09-22T01:11:40.541Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOC0wNlQwNzowMjo1MlrO-1D3rw==",
     "prBackfillComplete": false,
     "issuesBackfillComplete": true
@@ -53791,6 +53791,27 @@
         "login": "christian-apollo",
         "type": "User"
       }
+    },
+    "8475": {
+      "number": 8475,
+      "user": {
+        "login": "yukihito-jokyu",
+        "type": "User"
+      }
+    },
+    "8476": {
+      "number": 8476,
+      "user": {
+        "login": "snooze-all",
+        "type": "User"
+      }
+    },
+    "8477": {
+      "number": 8477,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
     }
   },
   "prs": {
@@ -54340,7 +54361,7 @@
     },
     "7254": {
       "number": 7254,
-      "updatedAt": "2026-09-16T21:15:41Z",
+      "updatedAt": "2026-09-21T20:15:35Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -61181,8 +61202,8 @@
     },
     "8202": {
       "number": 8202,
-      "updatedAt": "2026-09-14T19:04:56Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T20:15:11Z",
+      "merged": true,
       "author": {
         "login": "czearing",
         "__typename": "User"
@@ -61194,7 +61215,29 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nx-cloud",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nx-cloud",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nx-cloud",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "8204": {
@@ -63224,7 +63267,7 @@
     },
     "8285": {
       "number": 8285,
-      "updatedAt": "2026-09-07T16:33:37Z",
+      "updatedAt": "2026-09-21T21:06:05Z",
       "merged": false,
       "author": {
         "login": "devtechedge",
@@ -63975,7 +64018,7 @@
     },
     "8314": {
       "number": 8314,
-      "updatedAt": "2026-09-09T21:06:36Z",
+      "updatedAt": "2026-09-21T21:20:27Z",
       "merged": false,
       "author": {
         "login": "devtechedge",
@@ -67910,7 +67953,7 @@
     },
     "8466": {
       "number": 8466,
-      "updatedAt": "2026-09-18T10:08:06Z",
+      "updatedAt": "2026-09-21T20:42:39Z",
       "merged": false,
       "author": {
         "login": "SyMind",
@@ -67924,6 +67967,20 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nx-cloud",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -68125,6 +68182,60 @@
       "author": {
         "login": "christian-apollo",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8475": {
+      "number": 8475,
+      "updatedAt": "2026-09-21T16:33:49Z",
+      "merged": false,
+      "author": {
+        "login": "yukihito-jokyu",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8476": {
+      "number": 8476,
+      "updatedAt": "2026-09-22T00:44:12Z",
+      "merged": false,
+      "author": {
+        "login": "snooze-all",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8477": {
+      "number": 8477,
+      "updatedAt": "2026-09-21T20:20:18Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

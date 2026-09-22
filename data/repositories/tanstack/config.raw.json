@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T22:47:10.840Z",
+    "lastRunAt": "2026-09-22T01:11:43.979Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0zMVQxMDowMDozNVrOYvrnQg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2875,6 +2875,27 @@
       "number": 411,
       "user": {
         "login": "KevinVandy",
+        "type": "User"
+      }
+    },
+    "412": {
+      "number": 412,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "413": {
+      "number": 413,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "414": {
+      "number": 414,
+      "user": {
+        "login": "lachlancollins",
         "type": "User"
       }
     }
@@ -10337,7 +10358,7 @@
     },
     "406": {
       "number": 406,
-      "updatedAt": "2026-09-20T10:59:21Z",
+      "updatedAt": "2026-09-21T23:42:19Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10355,7 +10376,7 @@
     },
     "407": {
       "number": 407,
-      "updatedAt": "2026-09-15T16:16:10Z",
+      "updatedAt": "2026-09-21T12:28:14Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10457,6 +10478,91 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "412": {
+      "number": 412,
+      "updatedAt": "2026-09-21T12:30:27Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "TkDodo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "413": {
+      "number": 413,
+      "updatedAt": "2026-09-21T12:24:48Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "TkDodo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "414": {
+      "number": 414,
+      "updatedAt": "2026-09-21T11:28:46Z",
+      "merged": true,
+      "author": {
+        "login": "lachlancollins",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "TkDodo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

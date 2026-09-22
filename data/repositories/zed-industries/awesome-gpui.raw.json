@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-20T22:52:13.666Z",
+    "lastRunAt": "2026-09-22T01:16:48.309Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -763,6 +763,13 @@
       "number": 103,
       "user": {
         "login": "abishek77s",
+        "type": "User"
+      }
+    },
+    "104": {
+      "number": 104,
+      "user": {
+        "login": "ShayanAbbas1",
         "type": "User"
       }
     }
@@ -2540,10 +2547,28 @@
     },
     "103": {
       "number": 103,
-      "updatedAt": "2026-09-20T14:30:11Z",
-      "merged": false,
+      "updatedAt": "2026-09-21T03:46:28Z",
+      "merged": true,
       "author": {
         "login": "abishek77s",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "104": {
+      "number": 104,
+      "updatedAt": "2026-09-21T14:10:19Z",
+      "merged": true,
+      "author": {
+        "login": "ShayanAbbas1",
         "__typename": "User"
       },
       "closingIssuesReferences": {
