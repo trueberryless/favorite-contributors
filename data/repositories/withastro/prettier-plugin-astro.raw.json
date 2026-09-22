@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T12:34:59.728Z",
+    "lastRunAt": "2026-09-22T17:11:00.089Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wOS0wOFQxODozOTowOFrOK4EsGw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3608,7 +3608,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 3
       }
     },
     "488": {
@@ -3616,6 +3616,9 @@
       "user": {
         "login": "Princesseuh",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "489": {
@@ -3623,6 +3626,20 @@
       "user": {
         "login": "ephbaum",
         "type": "User"
+      }
+    },
+    "490": {
+      "number": 490,
+      "user": {
+        "login": "Princesseuh",
+        "type": "User"
+      }
+    },
+    "491": {
+      "number": 491,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -11266,11 +11283,55 @@
     },
     "488": {
       "number": 488,
-      "updatedAt": "2026-09-18T13:21:35Z",
+      "updatedAt": "2026-09-21T18:37:22Z",
+      "merged": true,
+      "author": {
+        "login": "Princesseuh",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "490": {
+      "number": 490,
+      "updatedAt": "2026-09-21T16:13:02Z",
       "merged": false,
       "author": {
         "login": "Princesseuh",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "491": {
+      "number": 491,
+      "updatedAt": "2026-09-21T18:37:43Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

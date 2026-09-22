@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T12:35:04.075Z",
+    "lastRunAt": "2026-09-22T17:11:04.079Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27393,6 +27393,13 @@
       "number": 4211,
       "user": {
         "login": "HiDeoo",
+        "type": "User"
+      }
+    },
+    "4212": {
+      "number": 4212,
+      "user": {
+        "login": "astrobot-houston",
         "type": "User"
       }
     }
@@ -128756,7 +128763,7 @@
     },
     "4011": {
       "number": 4011,
-      "updatedAt": "2026-09-19T19:11:03Z",
+      "updatedAt": "2026-09-22T11:06:29Z",
       "merged": false,
       "author": {
         "login": "trueberryless",
@@ -128872,6 +128879,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
               "__typename": "User"
             }
           }
@@ -131931,7 +131945,7 @@
     },
     "4149": {
       "number": 4149,
-      "updatedAt": "2026-09-01T15:55:35Z",
+      "updatedAt": "2026-09-22T15:45:36Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -131945,6 +131959,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -132626,7 +132647,7 @@
     },
     "4175": {
       "number": 4175,
-      "updatedAt": "2026-09-08T12:48:13Z",
+      "updatedAt": "2026-09-22T12:29:12Z",
       "merged": false,
       "author": {
         "login": "delucis",
@@ -132639,7 +132660,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4176": {
@@ -133478,8 +133507,8 @@
     },
     "4211": {
       "number": 4211,
-      "updatedAt": "2026-09-21T11:45:45Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T16:47:33Z",
+      "merged": true,
       "author": {
         "login": "HiDeoo",
         "__typename": "User"
@@ -133491,7 +133520,62 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4212": {
+      "number": 4212,
+      "updatedAt": "2026-09-22T16:52:30Z",
+      "merged": true,
+      "author": {
+        "login": "astrobot-houston",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

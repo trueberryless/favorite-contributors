@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T18:31:35.345Z",
+    "lastRunAt": "2026-09-22T17:13:30.435Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3246,7 +3246,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 7
+        "total_count": 8
       }
     },
     "439": {
@@ -59006,7 +59006,7 @@
     },
     "2303": {
       "number": 2303,
-      "updatedAt": "2026-09-21T11:22:05Z",
+      "updatedAt": "2026-09-22T03:34:09Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -59128,7 +59128,7 @@
     },
     "2311": {
       "number": 2311,
-      "updatedAt": "2026-09-21T11:22:51Z",
+      "updatedAt": "2026-09-22T03:35:40Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -59190,8 +59190,8 @@
     },
     "2314": {
       "number": 2314,
-      "updatedAt": "2026-09-21T11:21:23Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T03:30:43Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -59203,7 +59203,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "bluwy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2315": {
