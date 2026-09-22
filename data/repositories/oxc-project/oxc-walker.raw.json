@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-21T22:31:01.412Z",
+    "lastRunAt": "2026-09-22T23:10:41.060Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0xMS0yOFQxMzoxNDowNVrOg3SthQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2695,6 +2695,23 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "376": {
+      "number": 376,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "377": {
+      "number": 377,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -9931,7 +9948,7 @@
     },
     "364": {
       "number": 364,
-      "updatedAt": "2026-09-20T22:30:57Z",
+      "updatedAt": "2026-09-22T02:12:12Z",
       "merged": false,
       "author": {
         "login": "oxc-guard",
@@ -10021,7 +10038,7 @@
     },
     "369": {
       "number": 369,
-      "updatedAt": "2026-09-20T22:30:53Z",
+      "updatedAt": "2026-09-22T07:38:57Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10143,6 +10160,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "376": {
+      "number": 376,
+      "updatedAt": "2026-09-22T02:10:23Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "377": {
+      "number": 377,
+      "updatedAt": "2026-09-22T14:56:09Z",
+      "merged": false,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T01:11:40.535Z",
+    "lastRunAt": "2026-09-22T23:13:37.533Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33235,6 +33235,34 @@
       "number": 6593,
       "user": {
         "login": "KevinVandy",
+        "type": "User"
+      }
+    },
+    "6594": {
+      "number": 6594,
+      "user": {
+        "login": "briankchan",
+        "type": "User"
+      }
+    },
+    "6595": {
+      "number": 6595,
+      "user": {
+        "login": "johanrd",
+        "type": "User"
+      }
+    },
+    "6597": {
+      "number": 6597,
+      "user": {
+        "login": "sorena-paydar",
+        "type": "User"
+      }
+    },
+    "6598": {
+      "number": 6598,
+      "user": {
+        "login": "nazaiva",
         "type": "User"
       }
     }
@@ -72977,7 +73005,7 @@
     },
     "6567": {
       "number": 6567,
-      "updatedAt": "2026-09-01T02:10:10Z",
+      "updatedAt": "2026-09-22T23:00:46Z",
       "merged": false,
       "author": {
         "login": "koreahghg",
@@ -73317,7 +73345,7 @@
     },
     "6582": {
       "number": 6582,
-      "updatedAt": "2026-09-18T04:33:00Z",
+      "updatedAt": "2026-09-22T23:04:45Z",
       "merged": false,
       "author": {
         "login": "koreahghg",
@@ -73535,6 +73563,58 @@
       "merged": true,
       "author": {
         "login": "KevinVandy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "6597": {
+      "number": 6597,
+      "updatedAt": "2026-09-22T12:26:22Z",
+      "merged": false,
+      "author": {
+        "login": "sorena-paydar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "6598": {
+      "number": 6598,
+      "updatedAt": "2026-09-22T23:01:18Z",
+      "merged": false,
+      "author": {
+        "login": "nazaiva",
         "__typename": "User"
       },
       "closingIssuesReferences": {
