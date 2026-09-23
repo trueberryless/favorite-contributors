@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T17:11:00.089Z",
+    "lastRunAt": "2026-09-23T13:00:42.794Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -102393,6 +102393,34 @@
       "number": 14599,
       "user": {
         "login": "angelmarfil",
+        "type": "User"
+      }
+    },
+    "14600": {
+      "number": 14600,
+      "user": {
+        "login": "ArmandPhilippot",
+        "type": "User"
+      }
+    },
+    "14601": {
+      "number": 14601,
+      "user": {
+        "login": "jsparkdev",
+        "type": "User"
+      }
+    },
+    "14602": {
+      "number": 14602,
+      "user": {
+        "login": "jsparkdev",
+        "type": "User"
+      }
+    },
+    "14603": {
+      "number": 14603,
+      "user": {
+        "login": "jsparkdev",
         "type": "User"
       }
     }
@@ -550370,7 +550398,7 @@
     },
     "14304": {
       "number": 14304,
-      "updatedAt": "2026-09-19T19:45:58Z",
+      "updatedAt": "2026-09-23T10:26:10Z",
       "merged": false,
       "author": {
         "login": "hugosmoreira",
@@ -555969,8 +555997,8 @@
     },
     "14521": {
       "number": 14521,
-      "updatedAt": "2026-09-22T06:52:27Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T07:58:23Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
         "__typename": "User"
@@ -555996,14 +556024,21 @@
               "login": "Yusaku01",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "14522": {
       "number": 14522,
-      "updatedAt": "2026-09-17T18:01:23Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T19:08:50Z",
+      "merged": true,
       "author": {
         "login": "hanford",
         "__typename": "User"
@@ -557375,7 +557410,7 @@
     },
     "14566": {
       "number": 14566,
-      "updatedAt": "2026-09-15T20:53:03Z",
+      "updatedAt": "2026-09-22T19:58:55Z",
       "merged": false,
       "author": {
         "login": "angelmarfil",
@@ -557388,7 +557423,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14567": {
@@ -557577,8 +557620,8 @@
     },
     "14573": {
       "number": 14573,
-      "updatedAt": "2026-09-18T13:27:00Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T19:32:17Z",
+      "merged": true,
       "author": {
         "login": "matthewp",
         "__typename": "User"
@@ -557780,8 +557823,8 @@
     },
     "14581": {
       "number": 14581,
-      "updatedAt": "2026-09-19T13:18:36Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T22:28:17Z",
+      "merged": true,
       "author": {
         "login": "angelmarfil",
         "__typename": "User"
@@ -557793,7 +557836,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14582": {
@@ -558078,7 +558136,7 @@
     },
     "14592": {
       "number": 14592,
-      "updatedAt": "2026-09-22T12:32:16Z",
+      "updatedAt": "2026-09-23T12:14:25Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -558096,6 +558154,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
               "__typename": "User"
             }
           }
@@ -558274,10 +558339,90 @@
     },
     "14599": {
       "number": 14599,
-      "updatedAt": "2026-09-22T14:15:41Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T20:24:44Z",
+      "merged": true,
       "author": {
         "login": "angelmarfil",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14600": {
+      "number": 14600,
+      "updatedAt": "2026-09-22T22:07:02Z",
+      "merged": false,
+      "author": {
+        "login": "ArmandPhilippot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14601": {
+      "number": 14601,
+      "updatedAt": "2026-09-22T23:45:52Z",
+      "merged": false,
+      "author": {
+        "login": "jsparkdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14602": {
+      "number": 14602,
+      "updatedAt": "2026-09-22T23:42:13Z",
+      "merged": false,
+      "author": {
+        "login": "jsparkdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14603": {
+      "number": 14603,
+      "updatedAt": "2026-09-22T23:48:57Z",
+      "merged": false,
+      "author": {
+        "login": "jsparkdev",
         "__typename": "User"
       },
       "closingIssuesReferences": {

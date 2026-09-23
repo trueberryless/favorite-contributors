@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T12:27:51.877Z",
+    "lastRunAt": "2026-09-23T12:57:43.989Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17311,6 +17311,27 @@
       "number": 2403,
       "user": {
         "login": "hashcatHitman",
+        "type": "User"
+      }
+    },
+    "2404": {
+      "number": 2404,
+      "user": {
+        "login": "sindre-nistad",
+        "type": "User"
+      }
+    },
+    "2405": {
+      "number": 2405,
+      "user": {
+        "login": "ubiratansoares",
+        "type": "User"
+      }
+    },
+    "2406": {
+      "number": 2406,
+      "user": {
+        "login": "kquinsland01",
         "type": "User"
       }
     }
@@ -54336,7 +54357,7 @@
     },
     "2318": {
       "number": 2318,
-      "updatedAt": "2026-08-21T15:20:18Z",
+      "updatedAt": "2026-09-23T01:04:47Z",
       "merged": false,
       "author": {
         "login": "JackMyers001",
@@ -54349,7 +54370,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2319": {
@@ -55414,7 +55443,7 @@
     },
     "2395": {
       "number": 2395,
-      "updatedAt": "2026-09-21T18:15:52Z",
+      "updatedAt": "2026-09-23T12:05:20Z",
       "merged": false,
       "author": {
         "login": "ubiratansoares",
@@ -55428,6 +55457,27 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ubiratansoares",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -55551,6 +55601,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2405": {
+      "number": 2405,
+      "updatedAt": "2026-09-22T21:15:18Z",
+      "merged": false,
+      "author": {
+        "login": "ubiratansoares",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ubiratansoares",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

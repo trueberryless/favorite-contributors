@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T12:28:43.419Z",
+    "lastRunAt": "2026-09-23T12:58:32.195Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16672,8 +16672,8 @@
     },
     "608": {
       "number": 608,
-      "updatedAt": "2026-09-21T08:40:31Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T15:55:18Z",
+      "merged": true,
       "author": {
         "login": "kai-natori",
         "__typename": "User"
@@ -16697,6 +16697,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "kai-natori",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
               "__typename": "User"
             }
           }
@@ -16731,7 +16745,7 @@
     },
     "611": {
       "number": 611,
-      "updatedAt": "2026-09-21T05:37:18Z",
+      "updatedAt": "2026-09-22T15:57:25Z",
       "merged": false,
       "author": {
         "login": "bombshell-bot",
