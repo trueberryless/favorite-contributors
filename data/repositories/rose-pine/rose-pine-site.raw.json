@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T23:11:32.068Z",
+    "lastRunAt": "2026-09-23T21:16:37.379Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0yMVQxOTozMDozN1rOMWa8kA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1723,6 +1723,13 @@
       "number": 239,
       "user": {
         "login": "rosedelightful",
+        "type": "User"
+      }
+    },
+    "240": {
+      "number": 240,
+      "user": {
+        "login": "mvllow",
         "type": "User"
       }
     }
@@ -5298,6 +5305,24 @@
       "merged": true,
       "author": {
         "login": "fvrests",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "240": {
+      "number": 240,
+      "updatedAt": "2026-09-23T03:13:03Z",
+      "merged": false,
+      "author": {
+        "login": "mvllow",
         "__typename": "User"
       },
       "closingIssuesReferences": {

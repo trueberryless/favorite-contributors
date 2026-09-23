@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T20:25:22.616Z",
+    "lastRunAt": "2026-09-23T21:13:00.172Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8711,6 +8711,30 @@
       "number": 1130,
       "user": {
         "login": "MaxwellCohen",
+        "type": "User"
+      }
+    },
+    "1131": {
+      "number": 1131,
+      "user": {
+        "login": "MaxwellCohen",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1132": {
+      "number": 1132,
+      "user": {
+        "login": "anilloutombam",
+        "type": "User"
+      }
+    },
+    "1133": {
+      "number": 1133,
+      "user": {
+        "login": "anilloutombam",
         "type": "User"
       }
     }
@@ -28015,8 +28039,8 @@
     },
     "1119": {
       "number": 1119,
-      "updatedAt": "2026-09-22T19:10:03Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T07:48:18Z",
+      "merged": true,
       "author": {
         "login": "dreyfus92",
         "__typename": "User"
@@ -28038,6 +28062,13 @@
           },
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "43081j",
               "__typename": "User"
@@ -28048,8 +28079,8 @@
     },
     "1120": {
       "number": 1120,
-      "updatedAt": "2026-09-22T19:07:15Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T07:48:00Z",
+      "merged": true,
       "author": {
         "login": "dreyfus92",
         "__typename": "User"
@@ -28071,6 +28102,13 @@
           },
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "43081j",
               "__typename": "User"
@@ -28155,6 +28193,42 @@
       "merged": false,
       "author": {
         "login": "Haasini-kudala",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1132": {
+      "number": 1132,
+      "updatedAt": "2026-09-23T15:51:35Z",
+      "merged": false,
+      "author": {
+        "login": "anilloutombam",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1133": {
+      "number": 1133,
+      "updatedAt": "2026-09-23T16:16:39Z",
+      "merged": false,
+      "author": {
+        "login": "anilloutombam",
         "__typename": "User"
       },
       "closingIssuesReferences": {
