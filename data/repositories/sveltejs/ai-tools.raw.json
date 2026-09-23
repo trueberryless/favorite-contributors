@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T06:40:19.393Z",
+    "lastRunAt": "2026-09-23T07:28:45.791Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1978,6 +1978,20 @@
     },
     "274": {
       "number": 274,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "275": {
+      "number": 275,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "276": {
+      "number": 276,
       "user": {
         "login": "paoloricciuti",
         "type": "User"
@@ -5714,7 +5728,7 @@
     },
     "150": {
       "number": 150,
-      "updatedAt": "2026-09-21T23:49:27Z",
+      "updatedAt": "2026-09-22T20:39:55Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -8635,7 +8649,7 @@
     },
     "271": {
       "number": 271,
-      "updatedAt": "2026-09-20T15:49:58Z",
+      "updatedAt": "2026-09-22T20:39:08Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -8650,7 +8664,7 @@
       "reviews": {
         "nodes": [
           {
-            "state": "APPROVED",
+            "state": "DISMISSED",
             "author": {
               "login": "paoloricciuti",
               "__typename": "User"
@@ -8679,7 +8693,7 @@
     },
     "274": {
       "number": 274,
-      "updatedAt": "2026-09-21T09:23:59Z",
+      "updatedAt": "2026-09-22T20:12:53Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -8739,6 +8753,50 @@
             "state": "COMMENTED",
             "author": {
               "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "275": {
+      "number": 275,
+      "updatedAt": "2026-09-22T15:25:29Z",
+      "merged": false,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "276": {
+      "number": 276,
+      "updatedAt": "2026-09-22T20:37:56Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
               "__typename": "User"
             }
           }

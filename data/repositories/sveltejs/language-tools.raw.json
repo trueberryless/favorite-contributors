@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T06:40:14.173Z",
+    "lastRunAt": "2026-09-23T07:28:41.084Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMy0xNVQyMjowMzo1OFrOFyz7vQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23340,6 +23340,13 @@
       "number": 3123,
       "user": {
         "login": "that-richan",
+        "type": "User"
+      }
+    },
+    "3124": {
+      "number": 3124,
+      "user": {
+        "login": "Kirisamememe",
         "type": "User"
       }
     }
@@ -55398,7 +55405,7 @@
     },
     "3107": {
       "number": 3107,
-      "updatedAt": "2026-09-22T06:11:31Z",
+      "updatedAt": "2026-09-23T00:44:45Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -55602,8 +55609,8 @@
     },
     "3119": {
       "number": 3119,
-      "updatedAt": "2026-09-22T04:09:47Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T00:44:27Z",
+      "merged": true,
       "author": {
         "login": "that-richan",
         "__typename": "User"
@@ -55615,7 +55622,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jasonlyu123",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3121": {

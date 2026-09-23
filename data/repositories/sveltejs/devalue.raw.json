@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T06:40:08.522Z",
+    "lastRunAt": "2026-09-23T07:28:35.691Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMy0xMFQyMzo0NjoyN1rOCmH-jw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1583,6 +1583,34 @@
       "number": 209,
       "user": {
         "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "210": {
+      "number": 210,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "211": {
+      "number": 211,
+      "user": {
+        "login": "DRMacIver",
+        "type": "User"
+      }
+    },
+    "212": {
+      "number": 212,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "213": {
+      "number": 213,
+      "user": {
+        "login": "Likio3000",
         "type": "User"
       }
     }
@@ -5194,8 +5222,8 @@
     },
     "209": {
       "number": 209,
-      "updatedAt": "2026-09-21T21:46:36Z",
-      "merged": false,
+      "updatedAt": "2026-09-22T09:42:12Z",
+      "merged": true,
       "author": {
         "login": "Rich-Harris",
         "__typename": "User"
@@ -5212,6 +5240,76 @@
             "state": "APPROVED",
             "author": {
               "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "210": {
+      "number": 210,
+      "updatedAt": "2026-09-22T09:45:46Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "212": {
+      "number": 212,
+      "updatedAt": "2026-09-22T12:13:12Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "213": {
+      "number": 213,
+      "updatedAt": "2026-09-23T02:18:59Z",
+      "merged": false,
+      "author": {
+        "login": "Likio3000",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
               "__typename": "User"
             }
           }
