@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T23:13:37.533Z",
+    "lastRunAt": "2026-09-23T23:55:32.143Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33103,6 +33103,9 @@
       "user": {
         "login": "V1OL3TF0X",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     },
     "6574": {
@@ -33263,6 +33266,20 @@
       "number": 6598,
       "user": {
         "login": "nazaiva",
+        "type": "User"
+      }
+    },
+    "6599": {
+      "number": 6599,
+      "user": {
+        "login": "vishruthasgowda",
+        "type": "User"
+      }
+    },
+    "6600": {
+      "number": 6600,
+      "user": {
+        "login": "cipherprofessor",
         "type": "User"
       }
     }
@@ -49740,7 +49757,7 @@
     },
     "4160": {
       "number": 4160,
-      "updatedAt": "2022-07-16T23:44:06Z",
+      "updatedAt": "2026-09-23T17:49:29Z",
       "merged": true,
       "author": {
         "login": "moomooskycow",
@@ -73625,6 +73642,99 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "6599": {
+      "number": 6599,
+      "updatedAt": "2026-09-23T09:11:52Z",
+      "merged": false,
+      "author": {
+        "login": "vishruthasgowda",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6600": {
+      "number": 6600,
+      "updatedAt": "2026-09-23T15:12:48Z",
+      "merged": false,
+      "author": {
+        "login": "cipherprofessor",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "cipherprofessor",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "cipherprofessor",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "cipherprofessor",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {

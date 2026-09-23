@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-22T23:13:43.267Z",
+    "lastRunAt": "2026-09-23T23:55:37.970Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNy0yNlQxNToxNTozMVrOoLJpDw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3547,6 +3547,27 @@
       "number": 528,
       "user": {
         "login": "parth-goai",
+        "type": "User"
+      }
+    },
+    "529": {
+      "number": 529,
+      "user": {
+        "login": "AlemTuzlak",
+        "type": "User"
+      }
+    },
+    "530": {
+      "number": 530,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "531": {
+      "number": 531,
+      "user": {
+        "login": "AlemTuzlak",
         "type": "User"
       }
     }
@@ -8495,7 +8516,7 @@
     },
     "290": {
       "number": 290,
-      "updatedAt": "2026-09-22T19:03:07Z",
+      "updatedAt": "2026-09-23T11:39:32Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -12615,8 +12636,8 @@
     },
     "515": {
       "number": 515,
-      "updatedAt": "2026-08-27T09:25:50Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T09:21:51Z",
+      "merged": true,
       "author": {
         "login": "bart-krakowski",
         "__typename": "User"
@@ -12655,7 +12676,7 @@
     },
     "516": {
       "number": 516,
-      "updatedAt": "2026-08-24T17:02:47Z",
+      "updatedAt": "2026-09-23T17:25:59Z",
       "merged": false,
       "author": {
         "login": "thedv91",
@@ -12681,8 +12702,8 @@
     },
     "517": {
       "number": 517,
-      "updatedAt": "2026-08-24T16:30:20Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T08:41:07Z",
+      "merged": true,
       "author": {
         "login": "thedv91",
         "__typename": "User"
@@ -12769,8 +12790,8 @@
     },
     "521": {
       "number": 521,
-      "updatedAt": "2026-08-31T13:21:40Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T09:12:02Z",
+      "merged": true,
       "author": {
         "login": "bart-krakowski",
         "__typename": "User"
@@ -12783,6 +12804,20 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -12852,6 +12887,110 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "529": {
+      "number": 529,
+      "updatedAt": "2026-09-23T08:19:40Z",
+      "merged": true,
+      "author": {
+        "login": "AlemTuzlak",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "530": {
+      "number": 530,
+      "updatedAt": "2026-09-23T11:31:21Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "531": {
+      "number": 531,
+      "updatedAt": "2026-09-23T11:27:25Z",
+      "merged": true,
+      "author": {
+        "login": "AlemTuzlak",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
