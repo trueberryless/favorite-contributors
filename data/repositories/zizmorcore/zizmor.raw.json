@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T12:57:43.989Z",
+    "lastRunAt": "2026-09-24T09:07:28.221Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17333,6 +17333,26 @@
       "user": {
         "login": "kquinsland01",
         "type": "User"
+      }
+    },
+    "2407": {
+      "number": 2407,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2408": {
+      "number": 2408,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -55443,7 +55463,7 @@
     },
     "2395": {
       "number": 2395,
-      "updatedAt": "2026-09-23T12:05:20Z",
+      "updatedAt": "2026-09-24T00:17:46Z",
       "merged": false,
       "author": {
         "login": "ubiratansoares",
@@ -55489,6 +55509,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "ubiratansoares",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
               "__typename": "User"
             }
           }
@@ -55627,6 +55654,42 @@
             }
           }
         ]
+      }
+    },
+    "2407": {
+      "number": 2407,
+      "updatedAt": "2026-09-24T00:11:02Z",
+      "merged": true,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2408": {
+      "number": 2408,
+      "updatedAt": "2026-09-24T00:48:50Z",
+      "merged": true,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

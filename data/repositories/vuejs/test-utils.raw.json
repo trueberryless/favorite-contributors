@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T07:31:25.995Z",
+    "lastRunAt": "2026-09-24T09:06:33.890Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMi0yNFQxMzoyMjoxMVrOFpKUmw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20350,6 +20350,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "2951": {
+      "number": 2951,
+      "user": {
+        "login": "ackwell",
+        "type": "User"
       }
     }
   },
@@ -69126,8 +69133,8 @@
     },
     "2948": {
       "number": 2948,
-      "updatedAt": "2026-09-18T06:12:24Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T11:32:56Z",
+      "merged": true,
       "author": {
         "login": "niukanen1",
         "__typename": "User"
@@ -69139,7 +69146,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2950": {
@@ -69158,6 +69180,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2951": {
+      "number": 2951,
+      "updatedAt": "2026-09-24T07:22:52Z",
+      "merged": true,
+      "author": {
+        "login": "ackwell",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
