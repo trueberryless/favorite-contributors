@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T21:14:38.521Z",
+    "lastRunAt": "2026-09-24T22:03:26.244Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51138,6 +51138,20 @@
       "number": 8421,
       "user": {
         "login": "Zanark",
+        "type": "User"
+      }
+    },
+    "8422": {
+      "number": 8422,
+      "user": {
+        "login": "15ggd",
+        "type": "User"
+      }
+    },
+    "8423": {
+      "number": 8423,
+      "user": {
+        "login": "MFA-G",
         "type": "User"
       }
     }
@@ -181414,7 +181428,7 @@
     },
     "8236": {
       "number": 8236,
-      "updatedAt": "2026-09-17T04:25:04Z",
+      "updatedAt": "2026-09-24T14:19:10Z",
       "merged": false,
       "author": {
         "login": "torturado",
@@ -183448,7 +183462,7 @@
     },
     "8382": {
       "number": 8382,
-      "updatedAt": "2026-08-29T17:48:27Z",
+      "updatedAt": "2026-09-24T17:16:35Z",
       "merged": false,
       "author": {
         "login": "szpeterr",
@@ -184027,6 +184041,32 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8423": {
+      "number": 8423,
+      "updatedAt": "2026-09-24T01:26:16Z",
+      "merged": false,
+      "author": {
+        "login": "MFA-G",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

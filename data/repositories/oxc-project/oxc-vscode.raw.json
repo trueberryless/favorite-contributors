@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T21:15:34.605Z",
+    "lastRunAt": "2026-09-24T22:04:20.112Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wNFQwOTo0NDozOFrOwWroFA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2901,6 +2901,30 @@
       "number": 399,
       "user": {
         "login": "s-h-a-d-o-w",
+        "type": "User"
+      }
+    },
+    "400": {
+      "number": 400,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "401": {
+      "number": 401,
+      "user": {
+        "login": "eigilnikolajsen",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "402": {
+      "number": 402,
+      "user": {
+        "login": "leaysgur",
         "type": "User"
       }
     }
@@ -8843,6 +8867,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "400": {
+      "number": 400,
+      "updatedAt": "2026-09-23T21:37:53Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "402": {
+      "number": 402,
+      "updatedAt": "2026-09-24T09:25:53Z",
+      "merged": false,
+      "author": {
+        "login": "leaysgur",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
