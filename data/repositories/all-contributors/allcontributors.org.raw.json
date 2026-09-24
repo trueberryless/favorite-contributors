@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T17:47:49.447Z",
+    "lastRunAt": "2026-09-24T14:22:46.847Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0yOFQxNTo0NDo1NlrOA6KG0Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7373,6 +7373,20 @@
       "user": {
         "login": "adrienave",
         "type": "User"
+      }
+    },
+    "1164": {
+      "number": 1164,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1165": {
+      "number": 1165,
+      "user": {
+        "login": "allcontributors[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -26209,7 +26223,7 @@
     },
     "1162": {
       "number": 1162,
-      "updatedAt": "2026-09-17T05:33:52Z",
+      "updatedAt": "2026-09-24T05:34:14Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -26227,8 +26241,8 @@
     },
     "1163": {
       "number": 1163,
-      "updatedAt": "2026-09-20T10:16:48Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T08:25:10Z",
+      "merged": true,
       "author": {
         "login": "adrienave",
         "__typename": "User"
@@ -26240,7 +26254,67 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1164": {
+      "number": 1164,
+      "updatedAt": "2026-09-24T08:23:22Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1165": {
+      "number": 1165,
+      "updatedAt": "2026-09-24T08:25:42Z",
+      "merged": true,
+      "author": {
+        "login": "allcontributors",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

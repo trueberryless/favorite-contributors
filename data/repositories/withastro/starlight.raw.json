@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T13:00:47.129Z",
+    "lastRunAt": "2026-09-24T14:21:10.252Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27400,6 +27400,27 @@
       "number": 4212,
       "user": {
         "login": "astrobot-houston",
+        "type": "User"
+      }
+    },
+    "4214": {
+      "number": 4214,
+      "user": {
+        "login": "medProgAyat",
+        "type": "User"
+      }
+    },
+    "4215": {
+      "number": 4215,
+      "user": {
+        "login": "HiDeoo",
+        "type": "User"
+      }
+    },
+    "4216": {
+      "number": 4216,
+      "user": {
+        "login": "delucis",
         "type": "User"
       }
     }
@@ -120462,7 +120483,7 @@
     },
     "3674": {
       "number": 3674,
-      "updatedAt": "2026-03-24T11:12:04Z",
+      "updatedAt": "2026-09-24T13:43:31Z",
       "merged": false,
       "author": {
         "login": "controversial",
@@ -127433,7 +127454,7 @@
     },
     "3954": {
       "number": 3954,
-      "updatedAt": "2026-09-16T14:18:56Z",
+      "updatedAt": "2026-09-23T14:30:14Z",
       "merged": false,
       "author": {
         "login": "Goudarz",
@@ -131952,7 +131973,7 @@
     },
     "4149": {
       "number": 4149,
-      "updatedAt": "2026-09-23T12:54:38Z",
+      "updatedAt": "2026-09-24T14:18:11Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -131977,6 +131998,48 @@
             "state": "COMMENTED",
             "author": {
               "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
               "__typename": "User"
             }
           }
@@ -132488,7 +132551,7 @@
     },
     "4168": {
       "number": 4168,
-      "updatedAt": "2026-09-02T13:58:05Z",
+      "updatedAt": "2026-09-24T12:39:45Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -133579,6 +133642,84 @@
             "state": "APPROVED",
             "author": {
               "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4214": {
+      "number": 4214,
+      "updatedAt": "2026-09-24T12:47:54Z",
+      "merged": false,
+      "author": {
+        "login": "medProgAyat",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4215": {
+      "number": 4215,
+      "updatedAt": "2026-09-24T12:00:57Z",
+      "merged": false,
+      "author": {
+        "login": "HiDeoo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4216": {
+      "number": 4216,
+      "updatedAt": "2026-09-24T11:23:27Z",
+      "merged": true,
+      "author": {
+        "login": "delucis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
               "__typename": "User"
             }
           }
