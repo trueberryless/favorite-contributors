@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T01:43:03.125Z",
+    "lastRunAt": "2026-09-24T03:34:23.693Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xOFQxMzoxNTo0NlrOLraJ-A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51287,6 +51287,9 @@
       "user": {
         "login": "gabrielstuff",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "6692": {
@@ -53007,7 +53010,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 37
+        "total_count": 63
       }
     },
     "6920": {
@@ -53607,6 +53610,41 @@
       "number": 7009,
       "user": {
         "login": "parsajiravand",
+        "type": "User"
+      }
+    },
+    "7010": {
+      "number": 7010,
+      "user": {
+        "login": "MartinSwoboda",
+        "type": "User"
+      }
+    },
+    "7011": {
+      "number": 7011,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "7013": {
+      "number": 7013,
+      "user": {
+        "login": "abhishek-junghare",
+        "type": "User"
+      }
+    },
+    "7014": {
+      "number": 7014,
+      "user": {
+        "login": "naruko-hstk",
+        "type": "User"
+      }
+    },
+    "7015": {
+      "number": 7015,
+      "user": {
+        "login": "oliver139",
         "type": "User"
       }
     }
@@ -130908,7 +130946,7 @@
     },
     "6691": {
       "number": 6691,
-      "updatedAt": "2026-09-22T14:43:17Z",
+      "updatedAt": "2026-09-23T13:41:22Z",
       "merged": false,
       "author": {
         "login": "gabrielstuff",
@@ -130918,7 +130956,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -136603,8 +136641,8 @@
     },
     "7006": {
       "number": 7006,
-      "updatedAt": "2026-09-22T18:57:04Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T10:26:28Z",
+      "merged": true,
       "author": {
         "login": "benjamincanac",
         "__typename": "User"
@@ -136639,7 +136677,7 @@
     },
     "7008": {
       "number": 7008,
-      "updatedAt": "2026-09-22T22:17:02Z",
+      "updatedAt": "2026-09-23T07:05:49Z",
       "merged": false,
       "author": {
         "login": "parsajiravand",
@@ -136665,7 +136703,7 @@
     },
     "7009": {
       "number": 7009,
-      "updatedAt": "2026-09-22T21:52:39Z",
+      "updatedAt": "2026-09-23T09:06:48Z",
       "merged": false,
       "author": {
         "login": "parsajiravand",
@@ -136678,7 +136716,85 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "7010": {
+      "number": 7010,
+      "updatedAt": "2026-09-23T08:55:35Z",
+      "merged": true,
+      "author": {
+        "login": "MartinSwoboda",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "7011": {
+      "number": 7011,
+      "updatedAt": "2026-09-23T13:30:49Z",
+      "merged": false,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "7015": {
+      "number": 7015,
+      "updatedAt": "2026-09-24T03:32:44Z",
+      "merged": false,
+      "author": {
+        "login": "oliver139",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

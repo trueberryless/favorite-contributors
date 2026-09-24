@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T07:28:45.739Z",
+    "lastRunAt": "2026-09-24T03:37:45.091Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9817,6 +9817,13 @@
       "number": 1338,
       "user": {
         "login": "erenbati",
+        "type": "User"
+      }
+    },
+    "1339": {
+      "number": 1339,
+      "user": {
+        "login": "sacrosanctic",
         "type": "User"
       }
     }
@@ -37520,6 +37527,24 @@
       "merged": false,
       "author": {
         "login": "erenbati",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1339": {
+      "number": 1339,
+      "updatedAt": "2026-09-23T20:17:25Z",
+      "merged": false,
+      "author": {
+        "login": "sacrosanctic",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T01:43:08.629Z",
+    "lastRunAt": "2026-09-24T03:34:28.045Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0xOVQyMzoyOTo0OFrOZ1J0_g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6744,6 +6744,27 @@
       "number": 918,
       "user": {
         "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "919": {
+      "number": 919,
+      "user": {
+        "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "920": {
+      "number": 920,
+      "user": {
+        "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "921": {
+      "number": 921,
+      "user": {
+        "login": "harlan-zw",
         "type": "User"
       }
     }
@@ -23951,7 +23972,7 @@
     },
     "873": {
       "number": 873,
-      "updatedAt": "2026-09-22T21:56:03Z",
+      "updatedAt": "2026-09-23T21:16:30Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -24935,6 +24956,68 @@
             }
           }
         ]
+      }
+    },
+    "919": {
+      "number": 919,
+      "updatedAt": "2026-09-23T12:42:49Z",
+      "merged": true,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "920": {
+      "number": 920,
+      "updatedAt": "2026-09-23T21:16:16Z",
+      "merged": true,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "921": {
+      "number": 921,
+      "updatedAt": "2026-09-24T03:34:15Z",
+      "merged": false,
+      "author": {
+        "login": "harlan-zw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

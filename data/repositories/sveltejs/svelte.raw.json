@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T07:28:32.306Z",
+    "lastRunAt": "2026-09-24T03:37:32.580Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -131479,7 +131479,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 197
+        "total_count": 199
       }
     },
     "18043": {
@@ -137085,6 +137085,79 @@
       "number": 18861,
       "user": {
         "login": "dummdidumm",
+        "type": "User"
+      }
+    },
+    "18862": {
+      "number": 18862,
+      "user": {
+        "login": "l0uisgrange",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "18863": {
+      "number": 18863,
+      "user": {
+        "login": "Dextheking1",
+        "type": "User"
+      }
+    },
+    "18864": {
+      "number": 18864,
+      "user": {
+        "login": "maricastroc",
+        "type": "User"
+      }
+    },
+    "18865": {
+      "number": 18865,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "18866": {
+      "number": 18866,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "18867": {
+      "number": 18867,
+      "user": {
+        "login": "Dextheking1",
+        "type": "User"
+      }
+    },
+    "18868": {
+      "number": 18868,
+      "user": {
+        "login": "xyrolle",
+        "type": "User"
+      }
+    },
+    "18869": {
+      "number": 18869,
+      "user": {
+        "login": "xyrolle",
+        "type": "User"
+      }
+    },
+    "18870": {
+      "number": 18870,
+      "user": {
+        "login": "kwy404",
+        "type": "User"
+      }
+    },
+    "18871": {
+      "number": 18871,
+      "user": {
+        "login": "kwy404",
         "type": "User"
       }
     }
@@ -358680,7 +358753,7 @@
     },
     "18042": {
       "number": 18042,
-      "updatedAt": "2026-09-15T18:57:21Z",
+      "updatedAt": "2026-09-23T17:02:45Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -358690,7 +358763,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 197
+        "totalCount": 199
       },
       "reviews": {
         "nodes": [
@@ -365316,7 +365389,7 @@
     },
     "18405": {
       "number": 18405,
-      "updatedAt": "2026-09-15T18:57:32Z",
+      "updatedAt": "2026-09-23T17:03:06Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -365901,7 +365974,7 @@
     },
     "18461": {
       "number": 18461,
-      "updatedAt": "2026-09-15T18:57:31Z",
+      "updatedAt": "2026-09-23T17:03:04Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -366634,7 +366707,7 @@
     },
     "18511": {
       "number": 18511,
-      "updatedAt": "2026-09-15T18:57:33Z",
+      "updatedAt": "2026-09-23T17:03:08Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -367421,7 +367494,7 @@
     },
     "18558": {
       "number": 18558,
-      "updatedAt": "2026-09-22T20:49:51Z",
+      "updatedAt": "2026-09-23T19:12:28Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
@@ -372003,8 +372076,8 @@
     },
     "18841": {
       "number": 18841,
-      "updatedAt": "2026-09-19T00:08:01Z",
-      "merged": false,
+      "updatedAt": "2026-09-23T16:37:07Z",
+      "merged": true,
       "author": {
         "login": "teemingc",
         "__typename": "User"
@@ -372016,7 +372089,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18842": {
@@ -372258,7 +372339,7 @@
     },
     "18858": {
       "number": 18858,
-      "updatedAt": "2026-09-22T14:15:16Z",
+      "updatedAt": "2026-09-23T17:01:40Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -372312,7 +372393,7 @@
     },
     "18861": {
       "number": 18861,
-      "updatedAt": "2026-09-22T21:36:55Z",
+      "updatedAt": "2026-09-23T23:17:57Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
@@ -372339,8 +372420,191 @@
               "login": "dummdidumm",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
           }
         ]
+      }
+    },
+    "18863": {
+      "number": 18863,
+      "updatedAt": "2026-09-23T13:52:54Z",
+      "merged": false,
+      "author": {
+        "login": "Dextheking1",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18864": {
+      "number": 18864,
+      "updatedAt": "2026-09-23T16:58:50Z",
+      "merged": true,
+      "author": {
+        "login": "maricastroc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "18866": {
+      "number": 18866,
+      "updatedAt": "2026-09-23T16:27:23Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18867": {
+      "number": 18867,
+      "updatedAt": "2026-09-23T18:00:35Z",
+      "merged": false,
+      "author": {
+        "login": "Dextheking1",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18869": {
+      "number": 18869,
+      "updatedAt": "2026-09-23T23:09:30Z",
+      "merged": false,
+      "author": {
+        "login": "xyrolle",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18870": {
+      "number": 18870,
+      "updatedAt": "2026-09-24T01:24:45Z",
+      "merged": false,
+      "author": {
+        "login": "kwy404",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18871": {
+      "number": 18871,
+      "updatedAt": "2026-09-24T02:45:42Z",
+      "merged": false,
+      "author": {
+        "login": "kwy404",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

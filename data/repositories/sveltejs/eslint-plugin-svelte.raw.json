@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T07:28:42.984Z",
+    "lastRunAt": "2026-09-24T03:37:42.747Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNC0zMFQwNjo1Njo0MVrOJU1oVA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -11510,6 +11510,20 @@
       "number": 1579,
       "user": {
         "login": "marekdedic",
+        "type": "User"
+      }
+    },
+    "1580": {
+      "number": 1580,
+      "user": {
+        "login": "badreddinesaadioui",
+        "type": "User"
+      }
+    },
+    "1581": {
+      "number": 1581,
+      "user": {
+        "login": "badreddinesaadioui",
         "type": "User"
       }
     }
@@ -38035,6 +38049,32 @@
           },
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "marekdedic",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1581": {
+      "number": 1581,
+      "updatedAt": "2026-09-23T15:17:46Z",
+      "merged": false,
+      "author": {
+        "login": "badreddinesaadioui",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
             "author": {
               "login": "marekdedic",
               "__typename": "User"

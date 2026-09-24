@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T01:43:05.182Z",
+    "lastRunAt": "2026-09-24T03:34:25.651Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xNFQxMzo0NToyN1rON_gp8A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7422,6 +7422,13 @@
       "number": 926,
       "user": {
         "login": "harlan-zw",
+        "type": "User"
+      }
+    },
+    "927": {
+      "number": 927,
+      "user": {
+        "login": "key-arg",
         "type": "User"
       }
     }
@@ -22194,7 +22201,7 @@
     },
     "921": {
       "number": 921,
-      "updatedAt": "2026-09-22T13:20:07Z",
+      "updatedAt": "2026-09-23T11:03:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22262,6 +22269,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "927": {
+      "number": 927,
+      "updatedAt": "2026-09-23T17:43:27Z",
+      "merged": false,
+      "author": {
+        "login": "key-arg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T01:43:44.233Z",
+    "lastRunAt": "2026-09-24T03:35:12.019Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6979,6 +6979,9 @@
       "user": {
         "login": "fengmk2",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "948": {
@@ -6993,6 +6996,16 @@
     },
     "949": {
       "number": 949,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "950": {
+      "number": 950,
       "user": {
         "login": "zkochan",
         "type": "User"
@@ -28012,7 +28025,7 @@
     },
     "947": {
       "number": 947,
-      "updatedAt": "2026-09-22T17:53:28Z",
+      "updatedAt": "2026-09-23T15:06:13Z",
       "merged": false,
       "author": {
         "login": "fengmk2",
@@ -28022,10 +28035,25 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "948": {
@@ -28113,6 +28141,24 @@
             }
           }
         ]
+      }
+    },
+    "950": {
+      "number": 950,
+      "updatedAt": "2026-09-23T19:17:36Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
