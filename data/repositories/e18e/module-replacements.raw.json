@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T21:13:00.172Z",
+    "lastRunAt": "2026-09-24T18:37:50.849Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8735,6 +8735,27 @@
       "number": 1133,
       "user": {
         "login": "anilloutombam",
+        "type": "User"
+      }
+    },
+    "1134": {
+      "number": 1134,
+      "user": {
+        "login": "anilloutombam",
+        "type": "User"
+      }
+    },
+    "1135": {
+      "number": 1135,
+      "user": {
+        "login": "anilloutombam",
+        "type": "User"
+      }
+    },
+    "1136": {
+      "number": 1136,
+      "user": {
+        "login": "MaxwellCohen",
         "type": "User"
       }
     }
@@ -28207,8 +28228,8 @@
     },
     "1132": {
       "number": 1132,
-      "updatedAt": "2026-09-23T15:51:35Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T09:08:21Z",
+      "merged": true,
       "author": {
         "login": "anilloutombam",
         "__typename": "User"
@@ -28225,10 +28246,28 @@
     },
     "1133": {
       "number": 1133,
-      "updatedAt": "2026-09-23T16:16:39Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T08:42:03Z",
+      "merged": true,
       "author": {
         "login": "anilloutombam",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1136": {
+      "number": 1136,
+      "updatedAt": "2026-09-24T13:12:03Z",
+      "merged": true,
+      "author": {
+        "login": "MaxwellCohen",
         "__typename": "User"
       },
       "closingIssuesReferences": {
