@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T09:06:14.690Z",
+    "lastRunAt": "2026-09-25T11:21:19.954Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNS0xMC0yMFQwMDo1OToxMVrOAt6fpw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -30739,6 +30739,20 @@
       "number": 4553,
       "user": {
         "login": "parade0393",
+        "type": "User"
+      }
+    },
+    "4554": {
+      "number": 4554,
+      "user": {
+        "login": "KonstantinKai",
+        "type": "User"
+      }
+    },
+    "4555": {
+      "number": 4555,
+      "user": {
+        "login": "ianjennings",
         "type": "User"
       }
     }
@@ -130672,7 +130686,7 @@
     },
     "4435": {
       "number": 4435,
-      "updatedAt": "2026-04-29T14:37:15Z",
+      "updatedAt": "2026-09-24T18:00:00Z",
       "merged": false,
       "author": {
         "login": "thegdsks",
@@ -132362,10 +132376,46 @@
     },
     "4553": {
       "number": 4553,
-      "updatedAt": "2026-09-24T06:15:31Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T12:33:38Z",
+      "merged": true,
       "author": {
         "login": "parade0393",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4554": {
+      "number": 4554,
+      "updatedAt": "2026-09-25T07:29:53Z",
+      "merged": false,
+      "author": {
+        "login": "KonstantinKai",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4555": {
+      "number": 4555,
+      "updatedAt": "2026-09-24T19:44:36Z",
+      "merged": false,
+      "author": {
+        "login": "ianjennings",
         "__typename": "User"
       },
       "closingIssuesReferences": {

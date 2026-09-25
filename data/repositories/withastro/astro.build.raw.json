@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T14:21:08.776Z",
+    "lastRunAt": "2026-09-25T11:25:17.448Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0xMFQxODoyODoxMFrOMLT_KA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20015,6 +20015,13 @@
       "user": {
         "login": "florian-lefebvre",
         "type": "User"
+      }
+    },
+    "2731": {
+      "number": 2731,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -86709,6 +86716,24 @@
             }
           }
         ]
+      }
+    },
+    "2731": {
+      "number": 2731,
+      "updatedAt": "2026-09-25T05:26:44Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

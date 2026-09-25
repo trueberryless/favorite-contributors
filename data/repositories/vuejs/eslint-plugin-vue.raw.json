@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T09:06:19.898Z",
+    "lastRunAt": "2026-09-25T11:21:24.636Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23959,6 +23959,23 @@
     },
     "3143": {
       "number": 3143,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "3144": {
+      "number": 3144,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3145": {
+      "number": 3145,
       "user": {
         "login": "ValentinYoushkevich",
         "type": "User"
@@ -74959,7 +74976,7 @@
     },
     "3102": {
       "number": 3102,
-      "updatedAt": "2026-09-16T00:30:50Z",
+      "updatedAt": "2026-09-25T05:34:09Z",
       "merged": false,
       "author": {
         "login": "sxzz",
@@ -75777,7 +75794,7 @@
     },
     "3134": {
       "number": 3134,
-      "updatedAt": "2026-09-23T12:52:28Z",
+      "updatedAt": "2026-09-25T02:06:53Z",
       "merged": false,
       "author": {
         "login": "chiliec",
@@ -75795,6 +75812,20 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chiliec",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chiliec",
               "__typename": "User"
             }
           }
@@ -75865,7 +75896,7 @@
     },
     "3141": {
       "number": 3141,
-      "updatedAt": "2026-09-24T07:50:13Z",
+      "updatedAt": "2026-09-24T11:58:35Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -75878,12 +75909,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3142": {
       "number": 3142,
-      "updatedAt": "2026-09-24T08:37:20Z",
+      "updatedAt": "2026-09-24T11:47:06Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -75896,12 +75935,60 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3143": {
       "number": 3143,
-      "updatedAt": "2026-09-24T09:05:38Z",
+      "updatedAt": "2026-09-24T12:50:35Z",
+      "merged": true,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "rzzf",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3144": {
+      "number": 3144,
+      "updatedAt": "2026-09-24T12:18:07Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -75915,6 +76002,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "3145": {
+      "number": 3145,
+      "updatedAt": "2026-09-24T13:10:41Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

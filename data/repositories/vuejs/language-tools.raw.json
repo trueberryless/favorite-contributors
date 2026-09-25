@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T09:06:34.427Z",
+    "lastRunAt": "2026-09-25T11:21:38.672Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0wM1QwMTo0NzozN1rOHaKaIA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -42098,6 +42098,20 @@
         "login": "serkodev",
         "type": "User"
       }
+    },
+    "6212": {
+      "number": 6212,
+      "user": {
+        "login": "uturnr",
+        "type": "User"
+      }
+    },
+    "6213": {
+      "number": 6213,
+      "user": {
+        "login": "uturnr",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -67579,8 +67593,8 @@
     },
     "6210": {
       "number": 6210,
-      "updatedAt": "2026-09-22T10:06:59Z",
-      "merged": false,
+      "updatedAt": "2026-09-25T01:16:39Z",
+      "merged": true,
       "author": {
         "login": "KazariEX",
         "__typename": "User"
@@ -67597,14 +67611,40 @@
     },
     "6211": {
       "number": 6211,
-      "updatedAt": "2026-09-23T01:34:21Z",
-      "merged": false,
+      "updatedAt": "2026-09-25T01:15:55Z",
+      "merged": true,
       "author": {
         "login": "serkodev",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KazariEX",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "6213": {
+      "number": 6213,
+      "updatedAt": "2026-09-25T01:14:05Z",
+      "merged": true,
+      "author": {
+        "login": "uturnr",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T09:06:29.194Z",
+    "lastRunAt": "2026-09-25T11:21:33.771Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17595,6 +17595,20 @@
       "number": 2804,
       "user": {
         "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "2805": {
+      "number": 2805,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2806": {
+      "number": 2806,
+      "user": {
+        "login": "shuvroroy",
         "type": "User"
       }
     }
@@ -48594,6 +48608,57 @@
             }
           }
         ]
+      }
+    },
+    "2805": {
+      "number": 2805,
+      "updatedAt": "2026-09-25T09:54:48Z",
+      "merged": false,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2806": {
+      "number": 2806,
+      "updatedAt": "2026-09-24T18:07:06Z",
+      "merged": false,
+      "author": {
+        "login": "shuvroroy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
