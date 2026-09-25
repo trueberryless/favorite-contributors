@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T22:03:26.244Z",
+    "lastRunAt": "2026-09-25T19:55:43.792Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51152,6 +51152,13 @@
       "number": 8423,
       "user": {
         "login": "MFA-G",
+        "type": "User"
+      }
+    },
+    "8424": {
+      "number": 8424,
+      "user": {
+        "login": "roissdfr",
         "type": "User"
       }
     }
@@ -184081,6 +184088,24 @@
             }
           }
         ]
+      }
+    },
+    "8424": {
+      "number": 8424,
+      "updatedAt": "2026-09-25T03:12:14Z",
+      "merged": false,
+      "author": {
+        "login": "roissdfr",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

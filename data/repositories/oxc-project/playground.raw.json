@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T22:04:16.631Z",
+    "lastRunAt": "2026-09-25T19:56:32.423Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0xNlQxNjowNDowMVrOb6xwWw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3253,6 +3253,23 @@
       "user": {
         "login": "oxc-guard[bot]",
         "type": "Bot"
+      }
+    },
+    "451": {
+      "number": 451,
+      "user": {
+        "login": "leaysgur",
+        "type": "User"
+      }
+    },
+    "452": {
+      "number": 452,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -11321,6 +11338,50 @@
       },
       "reactions": {
         "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "451": {
+      "number": 451,
+      "updatedAt": "2026-09-25T09:12:28Z",
+      "merged": true,
+      "author": {
+        "login": "leaysgur",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "452": {
+      "number": 452,
+      "updatedAt": "2026-09-25T11:07:36Z",
+      "merged": true,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [

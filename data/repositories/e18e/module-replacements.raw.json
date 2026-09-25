@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T18:37:50.849Z",
+    "lastRunAt": "2026-09-25T19:54:15.638Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8756,6 +8756,20 @@
       "number": 1136,
       "user": {
         "login": "MaxwellCohen",
+        "type": "User"
+      }
+    },
+    "1137": {
+      "number": 1137,
+      "user": {
+        "login": "fratzinger",
+        "type": "User"
+      }
+    },
+    "1138": {
+      "number": 1138,
+      "user": {
+        "login": "fratzinger",
         "type": "User"
       }
     }
@@ -27265,7 +27279,7 @@
     },
     "1086": {
       "number": 1086,
-      "updatedAt": "2026-09-07T23:46:32Z",
+      "updatedAt": "2026-09-25T16:04:24Z",
       "merged": false,
       "author": {
         "login": "dreyfus92",
@@ -28268,6 +28282,24 @@
       "merged": true,
       "author": {
         "login": "MaxwellCohen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1138": {
+      "number": 1138,
+      "updatedAt": "2026-09-24T19:21:56Z",
+      "merged": false,
+      "author": {
+        "login": "fratzinger",
         "__typename": "User"
       },
       "closingIssuesReferences": {

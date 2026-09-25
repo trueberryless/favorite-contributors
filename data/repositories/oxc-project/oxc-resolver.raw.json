@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T22:04:15.754Z",
+    "lastRunAt": "2026-09-25T19:56:31.423Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0wNlQwNTo0MzozM1rOYUIW6g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10126,6 +10126,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1396": {
+      "number": 1396,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
       }
     }
   },
@@ -34356,7 +34363,7 @@
     },
     "1376": {
       "number": 1376,
-      "updatedAt": "2026-09-23T07:28:29Z",
+      "updatedAt": "2026-09-25T11:50:04Z",
       "merged": false,
       "author": {
         "login": "oxc-guard",
@@ -34726,7 +34733,7 @@
     },
     "1395": {
       "number": 1395,
-      "updatedAt": "2026-09-24T02:56:14Z",
+      "updatedAt": "2026-09-25T11:48:34Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -34740,6 +34747,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1396": {
+      "number": 1396,
+      "updatedAt": "2026-09-25T11:44:19Z",
+      "merged": true,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

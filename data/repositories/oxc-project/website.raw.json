@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T22:04:14.609Z",
+    "lastRunAt": "2026-09-25T19:56:30.415Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0xNFQxMjoxMjoxN1rOXzkiDg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9529,6 +9529,13 @@
       "user": {
         "login": "oxc-guard[bot]",
         "type": "Bot"
+      }
+    },
+    "1310": {
+      "number": 1310,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
       }
     }
   },
@@ -34629,6 +34636,46 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1310": {
+      "number": 1310,
+      "updatedAt": "2026-09-25T11:08:05Z",
+      "merged": true,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
