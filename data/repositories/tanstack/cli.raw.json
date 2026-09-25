@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-25T00:41:52.600Z",
+    "lastRunAt": "2026-09-25T23:11:22.732Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0xOFQwMjoxOTo0MVrOi3_cXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3652,6 +3652,13 @@
       "number": 515,
       "user": {
         "login": "43081j",
+        "type": "User"
+      }
+    },
+    "516": {
+      "number": 516,
+      "user": {
+        "login": "yamcodes",
         "type": "User"
       }
     }
@@ -10941,6 +10948,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "516": {
+      "number": 516,
+      "updatedAt": "2026-09-25T17:00:45Z",
+      "merged": false,
+      "author": {
+        "login": "yamcodes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

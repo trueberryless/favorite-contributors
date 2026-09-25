@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-25T00:41:50.653Z",
+    "lastRunAt": "2026-09-25T23:11:20.799Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9361,6 +9361,13 @@
       "user": {
         "login": "KevinVandy",
         "type": "User"
+      }
+    },
+    "1297": {
+      "number": 1297,
+      "user": {
+        "login": "sentry[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -34541,6 +34548,24 @@
       "author": {
         "login": "KevinVandy",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1297": {
+      "number": 1297,
+      "updatedAt": "2026-09-25T11:10:13Z",
+      "merged": false,
+      "author": {
+        "login": "sentry",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
