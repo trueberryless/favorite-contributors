@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T03:37:44.156Z",
+    "lastRunAt": "2026-09-25T05:57:45.741Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0xN1QwMjozMDozNVrOWoCLRQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1559,6 +1559,104 @@
       "number": 215,
       "user": {
         "login": "leonidaz",
+        "type": "User"
+      }
+    },
+    "216": {
+      "number": 216,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "217": {
+      "number": 217,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "218": {
+      "number": 218,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "219": {
+      "number": 219,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "220": {
+      "number": 220,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "221": {
+      "number": 221,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "222": {
+      "number": 222,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "223": {
+      "number": 223,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "224": {
+      "number": 224,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "225": {
+      "number": 225,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "226": {
+      "number": 226,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "227": {
+      "number": 227,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "228": {
+      "number": 228,
+      "user": {
+        "login": "dummdidumm",
+        "type": "User"
+      }
+    },
+    "229": {
+      "number": 229,
+      "user": {
+        "login": "Rich-Harris",
         "type": "User"
       }
     }
@@ -5912,8 +6010,8 @@
     },
     "212": {
       "number": 212,
-      "updatedAt": "2026-09-24T02:46:34Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T14:25:59Z",
+      "merged": true,
       "author": {
         "login": "leonidaz",
         "__typename": "User"
@@ -5925,12 +6023,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "213": {
       "number": 213,
-      "updatedAt": "2026-09-24T02:58:53Z",
+      "updatedAt": "2026-09-25T03:47:21Z",
       "merged": false,
       "author": {
         "login": "leonidaz",
@@ -5948,10 +6054,80 @@
     },
     "214": {
       "number": 214,
-      "updatedAt": "2026-09-24T03:09:58Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T14:30:38Z",
+      "merged": true,
       "author": {
         "login": "leonidaz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "215": {
+      "number": 215,
+      "updatedAt": "2026-09-25T02:51:16Z",
+      "merged": true,
+      "author": {
+        "login": "leonidaz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "216": {
+      "number": 216,
+      "updatedAt": "2026-09-24T12:15:16Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "217": {
+      "number": 217,
+      "updatedAt": "2026-09-24T20:34:47Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
         "__typename": "User"
       },
       "closingIssuesReferences": {
@@ -5964,16 +6140,253 @@
         "nodes": []
       }
     },
-    "215": {
-      "number": 215,
-      "updatedAt": "2026-09-24T03:10:04Z",
+    "218": {
+      "number": 218,
+      "updatedAt": "2026-09-24T20:28:07Z",
       "merged": false,
       "author": {
-        "login": "leonidaz",
+        "login": "Rich-Harris",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "219": {
+      "number": 219,
+      "updatedAt": "2026-09-24T12:37:51Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "220": {
+      "number": 220,
+      "updatedAt": "2026-09-24T12:39:58Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "221": {
+      "number": 221,
+      "updatedAt": "2026-09-24T12:39:31Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "222": {
+      "number": 222,
+      "updatedAt": "2026-09-24T20:29:38Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "223": {
+      "number": 223,
+      "updatedAt": "2026-09-24T12:41:13Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "224": {
+      "number": 224,
+      "updatedAt": "2026-09-24T12:42:06Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "225": {
+      "number": 225,
+      "updatedAt": "2026-09-25T02:43:43Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "226": {
+      "number": 226,
+      "updatedAt": "2026-09-25T02:55:15Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "227": {
+      "number": 227,
+      "updatedAt": "2026-09-25T02:45:17Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "228": {
+      "number": 228,
+      "updatedAt": "2026-09-25T02:01:55Z",
+      "merged": false,
+      "author": {
+        "login": "dummdidumm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "229": {
+      "number": 229,
+      "updatedAt": "2026-09-25T02:02:06Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T03:35:12.019Z",
+    "lastRunAt": "2026-09-25T05:55:55.388Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7012,6 +7012,23 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "951": {
+      "number": 951,
+      "user": {
+        "login": "puRe1337",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "952": {
+      "number": 952,
+      "user": {
+        "login": "TrevorBurnham",
+        "type": "User"
       }
     }
   },
@@ -28159,6 +28176,60 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "951": {
+      "number": 951,
+      "updatedAt": "2026-09-24T21:06:08Z",
+      "merged": false,
+      "author": {
+        "login": "puRe1337",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

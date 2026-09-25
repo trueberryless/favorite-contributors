@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T03:37:44.518Z",
+    "lastRunAt": "2026-09-25T05:57:45.898Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16031,6 +16031,34 @@
       "user": {
         "login": "Rich-Harris",
         "type": "User"
+      }
+    },
+    "2242": {
+      "number": 2242,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2243": {
+      "number": 2243,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2244": {
+      "number": 2244,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2245": {
+      "number": 2245,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -55175,7 +55203,7 @@
     },
     "2134": {
       "number": 2134,
-      "updatedAt": "2026-09-23T23:17:57Z",
+      "updatedAt": "2026-09-24T15:24:44Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -57790,8 +57818,8 @@
     },
     "2236": {
       "number": 2236,
-      "updatedAt": "2026-09-23T22:18:58Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T15:01:21Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -57803,7 +57831,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2238": {
@@ -57826,14 +57862,102 @@
     },
     "2240": {
       "number": 2240,
-      "updatedAt": "2026-09-23T23:54:56Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T21:29:19Z",
+      "merged": true,
       "author": {
         "login": "teemingc",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2242": {
+      "number": 2242,
+      "updatedAt": "2026-09-24T15:48:47Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Conduitry",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2243": {
+      "number": 2243,
+      "updatedAt": "2026-09-24T16:20:09Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2244": {
+      "number": 2244,
+      "updatedAt": "2026-09-24T21:44:50Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2245": {
+      "number": 2245,
+      "updatedAt": "2026-09-25T02:52:57Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
