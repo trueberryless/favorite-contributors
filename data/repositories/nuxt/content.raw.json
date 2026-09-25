@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-24T03:34:19.834Z",
+    "lastRunAt": "2026-09-25T00:45:17.273Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -71155,7 +71155,7 @@
     },
     "3826": {
       "number": 3826,
-      "updatedAt": "2026-09-05T15:04:04Z",
+      "updatedAt": "2026-09-24T11:15:17Z",
       "merged": false,
       "author": {
         "login": "lazerg",
@@ -71494,8 +71494,8 @@
     },
     "3845": {
       "number": 3845,
-      "updatedAt": "2026-09-05T08:54:13Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T19:01:14Z",
+      "merged": true,
       "author": {
         "login": "onmax",
         "__typename": "User"
@@ -71507,13 +71507,28 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3846": {
       "number": 3846,
-      "updatedAt": "2026-09-05T08:57:01Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T15:04:46Z",
+      "merged": true,
       "author": {
         "login": "onmax",
         "__typename": "User"
@@ -71525,13 +71540,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3847": {
       "number": 3847,
-      "updatedAt": "2026-09-05T08:57:04Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T12:31:31Z",
+      "merged": true,
       "author": {
         "login": "onmax",
         "__typename": "User"
@@ -71543,7 +71566,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3848": {

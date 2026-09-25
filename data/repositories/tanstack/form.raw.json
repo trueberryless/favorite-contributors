@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T23:55:32.144Z",
+    "lastRunAt": "2026-09-25T00:41:48.618Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15210,6 +15210,13 @@
       "number": 2403,
       "user": {
         "login": "changbaebang",
+        "type": "User"
+      }
+    },
+    "2404": {
+      "number": 2404,
+      "user": {
+        "login": "max-te",
         "type": "User"
       }
     }
@@ -44411,7 +44418,7 @@
     },
     "2368": {
       "number": 2368,
-      "updatedAt": "2026-09-22T09:33:24Z",
+      "updatedAt": "2026-09-25T00:27:59Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -45130,8 +45137,8 @@
     },
     "2401": {
       "number": 2401,
-      "updatedAt": "2026-09-22T10:07:27Z",
-      "merged": false,
+      "updatedAt": "2026-09-25T00:26:21Z",
+      "merged": true,
       "author": {
         "login": "crutchcorn",
         "__typename": "User"
@@ -45217,6 +45224,53 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2404": {
+      "number": 2404,
+      "updatedAt": "2026-09-24T17:59:51Z",
+      "merged": false,
+      "author": {
+        "login": "max-te",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "max-te",
+              "__typename": "User"
             }
           },
           {

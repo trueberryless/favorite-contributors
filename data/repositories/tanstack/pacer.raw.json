@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T23:55:37.368Z",
+    "lastRunAt": "2026-09-25T00:41:53.532Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xMVQxNzoyMDo1M1rOjiypRg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1767,6 +1767,13 @@
       "number": 266,
       "user": {
         "login": "SimenB",
+        "type": "User"
+      }
+    },
+    "267": {
+      "number": 267,
+      "user": {
+        "login": "KevinVandy",
         "type": "User"
       }
     }
@@ -6349,7 +6356,7 @@
     },
     "254": {
       "number": 254,
-      "updatedAt": "2026-08-20T11:00:36Z",
+      "updatedAt": "2026-09-25T00:00:14Z",
       "merged": false,
       "author": {
         "login": "manudeli",
@@ -6362,13 +6369,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "255": {
       "number": 255,
-      "updatedAt": "2026-08-25T02:00:29Z",
-      "merged": false,
+      "updatedAt": "2026-09-24T21:01:01Z",
+      "merged": true,
       "author": {
         "login": "KevinVandy",
         "__typename": "User"
@@ -6386,6 +6401,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "crutchcorn",
+              "__typename": "User"
             }
           }
         ]
@@ -6530,7 +6552,7 @@
     },
     "265": {
       "number": 265,
-      "updatedAt": "2026-09-23T09:54:45Z",
+      "updatedAt": "2026-09-24T07:28:53Z",
       "merged": false,
       "author": {
         "login": "SimenB",
@@ -6543,7 +6565,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "266": {
@@ -6570,6 +6607,24 @@
             }
           }
         ]
+      }
+    },
+    "267": {
+      "number": 267,
+      "updatedAt": "2026-09-24T21:09:30Z",
+      "merged": false,
+      "author": {
+        "login": "KevinVandy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

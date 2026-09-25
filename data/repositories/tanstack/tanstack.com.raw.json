@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-23T23:55:34.798Z",
+    "lastRunAt": "2026-09-25T00:41:50.653Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9333,6 +9333,34 @@
       "user": {
         "login": "sentry[bot]",
         "type": "Bot"
+      }
+    },
+    "1293": {
+      "number": 1293,
+      "user": {
+        "login": "tombeckenham",
+        "type": "User"
+      }
+    },
+    "1294": {
+      "number": 1294,
+      "user": {
+        "login": "tombeckenham",
+        "type": "User"
+      }
+    },
+    "1295": {
+      "number": 1295,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "1296": {
+      "number": 1296,
+      "user": {
+        "login": "KevinVandy",
+        "type": "User"
       }
     }
   },
@@ -34286,7 +34314,7 @@
     },
     "1284": {
       "number": 1284,
-      "updatedAt": "2026-09-21T17:11:04Z",
+      "updatedAt": "2026-09-24T19:57:39Z",
       "merged": false,
       "author": {
         "login": "tannerlinsley",
@@ -34446,11 +34474,73 @@
     },
     "1292": {
       "number": 1292,
-      "updatedAt": "2026-09-23T23:02:59Z",
+      "updatedAt": "2026-09-24T01:12:36Z",
       "merged": false,
       "author": {
         "login": "sentry",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1294": {
+      "number": 1294,
+      "updatedAt": "2026-09-24T10:36:31Z",
+      "merged": true,
+      "author": {
+        "login": "tombeckenham",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1295": {
+      "number": 1295,
+      "updatedAt": "2026-09-24T19:41:27Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1296": {
+      "number": 1296,
+      "updatedAt": "2026-09-24T22:26:18Z",
+      "merged": true,
+      "author": {
+        "login": "KevinVandy",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
