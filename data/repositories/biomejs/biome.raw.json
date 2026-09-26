@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-25T15:57:35.331Z",
+    "lastRunAt": "2026-09-26T16:38:14.393Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0xNFQwODoxMDo0N1rOV9opLA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -79694,6 +79694,55 @@
       "number": 11958,
       "user": {
         "login": "erenbati",
+        "type": "User"
+      }
+    },
+    "11959": {
+      "number": 11959,
+      "user": {
+        "login": "dyc3",
+        "type": "User"
+      }
+    },
+    "11960": {
+      "number": 11960,
+      "user": {
+        "login": "dyc3",
+        "type": "User"
+      }
+    },
+    "11961": {
+      "number": 11961,
+      "user": {
+        "login": "dyc3",
+        "type": "User"
+      }
+    },
+    "11962": {
+      "number": 11962,
+      "user": {
+        "login": "AlbinoGeek",
+        "type": "User"
+      }
+    },
+    "11963": {
+      "number": 11963,
+      "user": {
+        "login": "benjamin-cooper-ai",
+        "type": "User"
+      }
+    },
+    "11965": {
+      "number": 11965,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "11966": {
+      "number": 11966,
+      "user": {
+        "login": "RinZ27",
         "type": "User"
       }
     }
@@ -338512,7 +338561,7 @@
     },
     "11742": {
       "number": 11742,
-      "updatedAt": "2026-09-14T20:54:36Z",
+      "updatedAt": "2026-09-25T22:38:20Z",
       "merged": false,
       "author": {
         "login": "Netail",
@@ -338538,6 +338587,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Netail",
+              "__typename": "User"
             }
           }
         ]
@@ -340020,7 +340076,7 @@
     },
     "11801": {
       "number": 11801,
-      "updatedAt": "2026-09-25T13:37:31Z",
+      "updatedAt": "2026-09-25T19:05:38Z",
       "merged": false,
       "author": {
         "login": "dyc3",
@@ -340509,14 +340565,14 @@
     },
     "11815": {
       "number": 11815,
-      "updatedAt": "2026-09-25T13:21:08Z",
+      "updatedAt": "2026-09-26T11:55:09Z",
       "merged": false,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
-        "totalCount": 20
+        "totalCount": 23
       },
       "reactions": {
         "totalCount": 0
@@ -342616,7 +342672,7 @@
     },
     "11917": {
       "number": 11917,
-      "updatedAt": "2026-09-23T17:55:18Z",
+      "updatedAt": "2026-09-25T18:25:32Z",
       "merged": false,
       "author": {
         "login": "dyc3",
@@ -342634,7 +342690,7 @@
     },
     "11918": {
       "number": 11918,
-      "updatedAt": "2026-09-24T16:52:37Z",
+      "updatedAt": "2026-09-26T13:39:55Z",
       "merged": false,
       "author": {
         "login": "dyc3",
@@ -342768,7 +342824,7 @@
     },
     "11921": {
       "number": 11921,
-      "updatedAt": "2026-09-24T06:07:34Z",
+      "updatedAt": "2026-09-25T23:25:13Z",
       "merged": true,
       "author": {
         "login": "hirehamir",
@@ -343144,8 +343200,8 @@
     },
     "11955": {
       "number": 11955,
-      "updatedAt": "2026-09-25T14:28:01Z",
-      "merged": false,
+      "updatedAt": "2026-09-26T11:53:32Z",
+      "merged": true,
       "author": {
         "login": "dyc3",
         "__typename": "User"
@@ -343157,7 +343213,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "11956": {
@@ -343213,8 +343277,8 @@
     },
     "11958": {
       "number": 11958,
-      "updatedAt": "2026-09-25T15:03:58Z",
-      "merged": false,
+      "updatedAt": "2026-09-25T20:01:36Z",
+      "merged": true,
       "author": {
         "login": "erenbati",
         "__typename": "User"
@@ -343226,7 +343290,151 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "11959": {
+      "number": 11959,
+      "updatedAt": "2026-09-25T17:30:22Z",
+      "merged": true,
+      "author": {
+        "login": "dyc3",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "siketyan",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "11960": {
+      "number": 11960,
+      "updatedAt": "2026-09-25T18:46:26Z",
+      "merged": false,
+      "author": {
+        "login": "dyc3",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "11961": {
+      "number": 11961,
+      "updatedAt": "2026-09-25T19:32:50Z",
+      "merged": false,
+      "author": {
+        "login": "dyc3",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "11965": {
+      "number": 11965,
+      "updatedAt": "2026-09-26T16:37:23Z",
+      "merged": false,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "11966": {
+      "number": 11966,
+      "updatedAt": "2026-09-26T16:18:50Z",
+      "merged": false,
+      "author": {
+        "login": "RinZ27",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
