@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-25T05:57:33.564Z",
+    "lastRunAt": "2026-09-26T07:09:37.034Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -137214,6 +137214,27 @@
       "number": 18879,
       "user": {
         "login": "dummdidumm",
+        "type": "User"
+      }
+    },
+    "18880": {
+      "number": 18880,
+      "user": {
+        "login": "dummdidumm",
+        "type": "User"
+      }
+    },
+    "18881": {
+      "number": 18881,
+      "user": {
+        "login": "dummdidumm",
+        "type": "User"
+      }
+    },
+    "18882": {
+      "number": 18882,
+      "user": {
+        "login": "dajiaohuang",
         "type": "User"
       }
     }
@@ -371422,7 +371443,7 @@
     },
     "18776": {
       "number": 18776,
-      "updatedAt": "2026-09-25T04:07:53Z",
+      "updatedAt": "2026-09-25T22:11:07Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",
@@ -371435,7 +371456,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18779": {
@@ -371864,7 +371893,7 @@
     },
     "18818": {
       "number": 18818,
-      "updatedAt": "2026-09-13T02:27:26Z",
+      "updatedAt": "2026-09-25T18:01:26Z",
       "merged": false,
       "author": {
         "login": "mrchatam",
@@ -371972,7 +372001,7 @@
     },
     "18828": {
       "number": 18828,
-      "updatedAt": "2026-09-16T06:22:36Z",
+      "updatedAt": "2026-09-25T21:42:09Z",
       "merged": false,
       "author": {
         "login": "rickryan26-Bot",
@@ -371990,8 +372019,8 @@
     },
     "18829": {
       "number": 18829,
-      "updatedAt": "2026-09-16T06:34:37Z",
-      "merged": false,
+      "updatedAt": "2026-09-25T21:41:52Z",
+      "merged": true,
       "author": {
         "login": "svelte-triage-bot",
         "__typename": "Bot"
@@ -372003,7 +372032,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18831": {
@@ -372044,7 +372081,7 @@
     },
     "18835": {
       "number": 18835,
-      "updatedAt": "2026-09-16T19:50:51Z",
+      "updatedAt": "2026-09-25T22:47:05Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",
@@ -372395,7 +372432,7 @@
     },
     "18858": {
       "number": 18858,
-      "updatedAt": "2026-09-25T02:49:35Z",
+      "updatedAt": "2026-09-25T21:44:32Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -372627,7 +372664,7 @@
     },
     "18869": {
       "number": 18869,
-      "updatedAt": "2026-09-24T19:14:43Z",
+      "updatedAt": "2026-09-25T08:29:47Z",
       "merged": false,
       "author": {
         "login": "xyrolle",
@@ -372707,7 +372744,7 @@
     },
     "18873": {
       "number": 18873,
-      "updatedAt": "2026-09-25T02:44:13Z",
+      "updatedAt": "2026-09-25T10:02:35Z",
       "merged": true,
       "author": {
         "login": "waltuov",
@@ -372751,7 +372788,7 @@
     },
     "18875": {
       "number": 18875,
-      "updatedAt": "2026-09-24T18:35:43Z",
+      "updatedAt": "2026-09-25T22:10:02Z",
       "merged": false,
       "author": {
         "login": "Dextheking1",
@@ -372853,6 +372890,82 @@
             }
           }
         ]
+      }
+    },
+    "18880": {
+      "number": 18880,
+      "updatedAt": "2026-09-25T21:31:20Z",
+      "merged": false,
+      "author": {
+        "login": "dummdidumm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18881": {
+      "number": 18881,
+      "updatedAt": "2026-09-25T08:40:48Z",
+      "merged": false,
+      "author": {
+        "login": "dummdidumm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "18882": {
+      "number": 18882,
+      "updatedAt": "2026-09-25T12:33:51Z",
+      "merged": false,
+      "author": {
+        "login": "dajiaohuang",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

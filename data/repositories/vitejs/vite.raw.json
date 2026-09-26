@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-25T05:58:32.208Z",
+    "lastRunAt": "2026-09-26T07:10:30.362Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNC0yM1QxMzo1MDo1MFrOGEXiQQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -123199,7 +123199,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 12
+        "total_count": 13
       }
     },
     "21547": {
@@ -136921,6 +136921,51 @@
       "number": 23583,
       "user": {
         "login": "btea",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "23584": {
+      "number": 23584,
+      "user": {
+        "login": "grzdev",
+        "type": "User"
+      }
+    },
+    "23585": {
+      "number": 23585,
+      "user": {
+        "login": "u9g",
+        "type": "User"
+      }
+    },
+    "23586": {
+      "number": 23586,
+      "user": {
+        "login": "sapphi-red",
+        "type": "User"
+      }
+    },
+    "23587": {
+      "number": 23587,
+      "user": {
+        "login": "h-a-n-a",
+        "type": "User"
+      }
+    },
+    "23588": {
+      "number": 23588,
+      "user": {
+        "login": "ChisakaKanako",
+        "type": "User"
+      }
+    },
+    "23589": {
+      "number": 23589,
+      "user": {
+        "login": "charan-rathore",
         "type": "User"
       }
     }
@@ -447044,7 +447089,7 @@
     },
     "23463": {
       "number": 23463,
-      "updatedAt": "2026-09-11T09:21:52Z",
+      "updatedAt": "2026-09-25T11:01:46Z",
       "merged": false,
       "author": {
         "login": "h-a-n-a",
@@ -447668,7 +447713,7 @@
     },
     "23503": {
       "number": 23503,
-      "updatedAt": "2026-09-17T08:29:08Z",
+      "updatedAt": "2026-09-25T07:30:24Z",
       "merged": false,
       "author": {
         "login": "kingmakeruix",
@@ -447806,8 +447851,8 @@
     },
     "23513": {
       "number": 23513,
-      "updatedAt": "2026-09-18T06:22:13Z",
-      "merged": false,
+      "updatedAt": "2026-09-25T08:01:42Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -447819,7 +447864,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "23514": {
@@ -448678,8 +448731,8 @@
     },
     "23568": {
       "number": 23568,
-      "updatedAt": "2026-09-25T02:16:51Z",
-      "merged": false,
+      "updatedAt": "2026-09-25T08:08:59Z",
+      "merged": true,
       "author": {
         "login": "h-a-n-a",
         "__typename": "User"
@@ -448692,6 +448745,27 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "h-a-n-a",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -448820,7 +448894,7 @@
     },
     "23578": {
       "number": 23578,
-      "updatedAt": "2026-09-25T02:21:35Z",
+      "updatedAt": "2026-09-25T08:58:00Z",
       "merged": false,
       "author": {
         "login": "beduldul",
@@ -448921,10 +448995,62 @@
     },
     "23582": {
       "number": 23582,
-      "updatedAt": "2026-09-25T05:43:52Z",
-      "merged": false,
+      "updatedAt": "2026-09-25T10:08:31Z",
+      "merged": true,
       "author": {
         "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "23583": {
+      "number": 23583,
+      "updatedAt": "2026-09-25T10:08:49Z",
+      "merged": true,
+      "author": {
+        "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "23584": {
+      "number": 23584,
+      "updatedAt": "2026-09-25T07:24:07Z",
+      "merged": false,
+      "author": {
+        "login": "grzdev",
         "__typename": "User"
       },
       "closingIssuesReferences": {
@@ -448937,16 +449063,52 @@
         "nodes": []
       }
     },
-    "23583": {
-      "number": 23583,
-      "updatedAt": "2026-09-25T05:58:21Z",
+    "23586": {
+      "number": 23586,
+      "updatedAt": "2026-09-25T10:54:14Z",
       "merged": false,
       "author": {
-        "login": "btea",
+        "login": "sapphi-red",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23587": {
+      "number": 23587,
+      "updatedAt": "2026-09-25T11:25:54Z",
+      "merged": false,
+      "author": {
+        "login": "h-a-n-a",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23589": {
+      "number": 23589,
+      "updatedAt": "2026-09-26T06:24:25Z",
+      "merged": false,
+      "author": {
+        "login": "charan-rathore",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
