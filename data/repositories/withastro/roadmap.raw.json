@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-25T11:25:17.402Z",
+    "lastRunAt": "2026-09-26T12:23:34.923Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wMVQyMTo0ODoxMFrOLykBIw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1080,7 +1080,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 25
+        "total_count": 26
       }
     },
     "944": {
@@ -1507,6 +1507,13 @@
     },
     "1438": {
       "number": 1438,
+      "user": {
+        "login": "florian-lefebvre",
+        "type": "User"
+      }
+    },
+    "1444": {
+      "number": 1444,
       "user": {
         "login": "florian-lefebvre",
         "type": "User"
@@ -7050,7 +7057,7 @@
     },
     "916": {
       "number": 916,
-      "updatedAt": "2026-09-24T13:10:09Z",
+      "updatedAt": "2026-09-26T09:40:59Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -7060,7 +7067,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 25
+        "totalCount": 26
       },
       "reviews": {
         "nodes": [
@@ -9706,6 +9713,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1444": {
+      "number": 1444,
+      "updatedAt": "2026-09-25T14:01:07Z",
+      "merged": false,
+      "author": {
+        "login": "florian-lefebvre",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
