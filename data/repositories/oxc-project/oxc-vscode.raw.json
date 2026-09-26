@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-25T19:56:36.583Z",
+    "lastRunAt": "2026-09-26T19:35:42.485Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wNFQwOTo0NDozOFrOwWroFA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2942,6 +2942,13 @@
       "number": 404,
       "user": {
         "login": "oxc-guard[bot]",
+        "type": "Bot"
+      }
+    },
+    "405": {
+      "number": 405,
+      "user": {
+        "login": "renovate[bot]",
         "type": "Bot"
       }
     }
@@ -8840,7 +8847,7 @@
     },
     "396": {
       "number": 396,
-      "updatedAt": "2026-09-20T09:30:15Z",
+      "updatedAt": "2026-09-26T10:09:42Z",
       "merged": false,
       "author": {
         "login": "KuSh",
@@ -8853,12 +8860,34 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KuSh",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KuSh",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "397": {
       "number": 397,
-      "updatedAt": "2026-09-20T09:47:02Z",
+      "updatedAt": "2026-09-26T19:33:18Z",
       "merged": false,
       "author": {
         "login": "KuSh",
@@ -8871,7 +8900,43 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Sysix",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KuSh",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KuSh",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KuSh",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Sysix",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "398": {
@@ -8894,8 +8959,8 @@
     },
     "400": {
       "number": 400,
-      "updatedAt": "2026-09-25T02:08:07Z",
-      "merged": false,
+      "updatedAt": "2026-09-26T08:14:24Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -8934,6 +8999,24 @@
       "merged": true,
       "author": {
         "login": "oxc-guard",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "405": {
+      "number": 405,
+      "updatedAt": "2026-09-26T08:11:27Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
