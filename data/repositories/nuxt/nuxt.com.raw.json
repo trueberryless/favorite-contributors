@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-25T00:45:22.187Z",
+    "lastRunAt": "2026-09-26T01:52:07.691Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0wMlQxMzo0OToyNlrOMfVTEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17587,6 +17587,13 @@
       "number": 2433,
       "user": {
         "login": "konkol00",
+        "type": "User"
+      }
+    },
+    "2434": {
+      "number": 2434,
+      "user": {
+        "login": "lukas-a-brand",
         "type": "User"
       }
     }
@@ -55034,7 +55041,7 @@
     },
     "2400": {
       "number": 2400,
-      "updatedAt": "2026-09-24T11:47:31Z",
+      "updatedAt": "2026-09-25T14:50:13Z",
       "merged": false,
       "author": {
         "login": "larbish",
@@ -55047,7 +55054,22 @@
         "totalCount": 3
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "larbish",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2401": {
@@ -55871,6 +55893,24 @@
       "merged": false,
       "author": {
         "login": "konkol00",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2434": {
+      "number": 2434,
+      "updatedAt": "2026-09-25T16:21:07Z",
+      "merged": false,
+      "author": {
+        "login": "lukas-a-brand",
         "__typename": "User"
       },
       "closingIssuesReferences": {
