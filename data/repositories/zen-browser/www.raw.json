@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T01:50:22.893Z",
+    "lastRunAt": "2026-09-26T22:29:09.192Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0xNFQxNTowMTo0N1rOdVEJrQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7607,6 +7607,76 @@
     },
     "1056": {
       "number": 1056,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1057": {
+      "number": 1057,
+      "user": {
+        "login": "taroj1205",
+        "type": "User"
+      }
+    },
+    "1058": {
+      "number": 1058,
+      "user": {
+        "login": "taroj1205",
+        "type": "User"
+      }
+    },
+    "1059": {
+      "number": 1059,
+      "user": {
+        "login": "taroj1205",
+        "type": "User"
+      }
+    },
+    "1060": {
+      "number": 1060,
+      "user": {
+        "login": "taroj1205",
+        "type": "User"
+      }
+    },
+    "1061": {
+      "number": 1061,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1062": {
+      "number": 1062,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1063": {
+      "number": 1063,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1064": {
+      "number": 1064,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1065": {
+      "number": 1065,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1066": {
+      "number": 1066,
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
@@ -23511,7 +23581,7 @@
     },
     "1052": {
       "number": 1052,
-      "updatedAt": "2026-09-21T08:06:28Z",
+      "updatedAt": "2026-09-26T12:41:16Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -23524,7 +23594,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "taroj1205",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1053": {
@@ -23547,8 +23625,8 @@
     },
     "1054": {
       "number": 1054,
-      "updatedAt": "2026-09-21T08:19:28Z",
-      "merged": false,
+      "updatedAt": "2026-09-26T11:04:56Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -23560,12 +23638,168 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "taroj1205",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1055": {
       "number": 1055,
-      "updatedAt": "2026-09-21T08:07:58Z",
+      "updatedAt": "2026-09-26T09:18:12Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "taroj1205",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1056": {
+      "number": 1056,
+      "updatedAt": "2026-09-26T07:10:08Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "taroj1205",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1057": {
+      "number": 1057,
+      "updatedAt": "2026-09-26T07:55:58Z",
+      "merged": true,
+      "author": {
+        "login": "taroj1205",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mr-cheffy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1058": {
+      "number": 1058,
+      "updatedAt": "2026-09-26T08:12:50Z",
+      "merged": true,
+      "author": {
+        "login": "taroj1205",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mr-cheffy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1059": {
+      "number": 1059,
+      "updatedAt": "2026-09-26T08:40:47Z",
+      "merged": false,
+      "author": {
+        "login": "taroj1205",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1060": {
+      "number": 1060,
+      "updatedAt": "2026-09-26T12:40:15Z",
+      "merged": true,
+      "author": {
+        "login": "taroj1205",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mr-cheffy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1061": {
+      "number": 1061,
+      "updatedAt": "2026-09-26T12:43:12Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -23581,9 +23815,81 @@
         "nodes": []
       }
     },
-    "1056": {
-      "number": 1056,
-      "updatedAt": "2026-09-21T08:09:11Z",
+    "1062": {
+      "number": 1062,
+      "updatedAt": "2026-09-26T12:44:50Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1063": {
+      "number": 1063,
+      "updatedAt": "2026-09-26T12:45:24Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1064": {
+      "number": 1064,
+      "updatedAt": "2026-09-26T12:46:48Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1065": {
+      "number": 1065,
+      "updatedAt": "2026-09-26T12:48:07Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1066": {
+      "number": 1066,
+      "updatedAt": "2026-09-26T12:48:53Z",
       "merged": false,
       "author": {
         "login": "dependabot",

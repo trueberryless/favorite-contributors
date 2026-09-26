@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T01:50:22.893Z",
+    "lastRunAt": "2026-09-26T22:29:09.192Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0xNlQwNzowODozM1rOdXQN3A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -108618,7 +108618,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "15433": {
@@ -109606,6 +109606,50 @@
       "user": {
         "login": "cupcakearmy",
         "type": "User"
+      }
+    },
+    "15560": {
+      "number": 15560,
+      "user": {
+        "login": "MEGAToster",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15561": {
+      "number": 15561,
+      "user": {
+        "login": "alexvltn",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "15562": {
+      "number": 15562,
+      "user": {
+        "login": "FlorianButz",
+        "type": "User"
+      }
+    },
+    "15563": {
+      "number": 15563,
+      "user": {
+        "login": "ArneshBanerjee",
+        "type": "User"
+      }
+    },
+    "15564": {
+      "number": 15564,
+      "user": {
+        "login": "Sruhvx-jpg",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -154107,7 +154151,7 @@
     },
     "15016": {
       "number": 15016,
-      "updatedAt": "2026-09-25T23:25:31Z",
+      "updatedAt": "2026-09-26T07:18:06Z",
       "merged": false,
       "author": {
         "login": "abachmann",
@@ -157794,7 +157838,7 @@
     },
     "15504": {
       "number": 15504,
-      "updatedAt": "2026-09-21T18:00:20Z",
+      "updatedAt": "2026-09-26T15:06:49Z",
       "merged": true,
       "author": {
         "login": "FlorianButz",
@@ -157882,7 +157926,7 @@
     },
     "15524": {
       "number": 15524,
-      "updatedAt": "2026-09-25T22:23:17Z",
+      "updatedAt": "2026-09-26T15:06:53Z",
       "merged": true,
       "author": {
         "login": "FlorianButz",
@@ -158150,7 +158194,7 @@
     },
     "15553": {
       "number": 15553,
-      "updatedAt": "2026-09-25T16:22:16Z",
+      "updatedAt": "2026-09-26T19:45:37Z",
       "merged": false,
       "author": {
         "login": "Vedaant-Rajoo",
@@ -158163,7 +158207,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "mr-cheffy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "15558": {
@@ -158182,6 +158234,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "15562": {
+      "number": 15562,
+      "updatedAt": "2026-09-26T17:58:06Z",
+      "merged": false,
+      "author": {
+        "login": "FlorianButz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "15563": {
+      "number": 15563,
+      "updatedAt": "2026-09-26T19:21:30Z",
+      "merged": false,
+      "author": {
+        "login": "ArneshBanerjee",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "mr-cheffy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
