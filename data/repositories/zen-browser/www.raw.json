@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T22:29:09.192Z",
+    "lastRunAt": "2026-09-27T23:18:36.573Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0xNFQxNTowMTo0N1rOdVEJrQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7677,6 +7677,13 @@
     },
     "1066": {
       "number": 1066,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1067": {
+      "number": 1067,
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
@@ -23799,7 +23806,7 @@
     },
     "1061": {
       "number": 1061,
-      "updatedAt": "2026-09-26T12:43:12Z",
+      "updatedAt": "2026-09-27T11:54:41Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -23817,7 +23824,7 @@
     },
     "1062": {
       "number": 1062,
-      "updatedAt": "2026-09-26T12:44:50Z",
+      "updatedAt": "2026-09-27T11:54:59Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -23835,8 +23842,8 @@
     },
     "1063": {
       "number": 1063,
-      "updatedAt": "2026-09-26T12:45:24Z",
-      "merged": false,
+      "updatedAt": "2026-09-27T11:51:14Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -23848,12 +23855,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "taroj1205",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1064": {
       "number": 1064,
-      "updatedAt": "2026-09-26T12:46:48Z",
+      "updatedAt": "2026-09-27T03:34:41Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -23871,7 +23886,7 @@
     },
     "1065": {
       "number": 1065,
-      "updatedAt": "2026-09-26T12:48:07Z",
+      "updatedAt": "2026-09-27T11:51:37Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -23884,12 +23899,46 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "taroj1205",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1066": {
       "number": 1066,
-      "updatedAt": "2026-09-26T12:48:53Z",
+      "updatedAt": "2026-09-27T03:30:11Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "taroj1205",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1067": {
+      "number": 1067,
+      "updatedAt": "2026-09-27T11:54:38Z",
       "merged": false,
       "author": {
         "login": "dependabot",
