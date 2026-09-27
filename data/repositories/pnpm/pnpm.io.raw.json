@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T01:52:57.974Z",
+    "lastRunAt": "2026-09-27T00:48:48.530Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7082,6 +7082,43 @@
       "number": 958,
       "user": {
         "login": "skagedal",
+        "type": "User"
+      }
+    },
+    "959": {
+      "number": 959,
+      "user": {
+        "login": "neonsid",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "960": {
+      "number": 960,
+      "user": {
+        "login": "neonsid",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "961": {
+      "number": 961,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "962": {
+      "number": 962,
+      "user": {
+        "login": "zkochan",
         "type": "User"
       }
     }
@@ -28445,7 +28482,7 @@
     },
     "955": {
       "number": 955,
-      "updatedAt": "2026-09-25T15:51:21Z",
+      "updatedAt": "2026-09-26T03:39:07Z",
       "merged": false,
       "author": {
         "login": "amishabenramani",
@@ -28463,8 +28500,8 @@
     },
     "956": {
       "number": 956,
-      "updatedAt": "2026-09-25T16:44:16Z",
-      "merged": false,
+      "updatedAt": "2026-09-26T13:42:55Z",
+      "merged": true,
       "author": {
         "login": "0monish",
         "__typename": "User"
@@ -28503,6 +28540,13 @@
             "author": {
               "login": "greptile-apps",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
             }
           }
         ]
@@ -28551,6 +28595,221 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "959": {
+      "number": 959,
+      "updatedAt": "2026-09-26T07:27:52Z",
+      "merged": false,
+      "author": {
+        "login": "neonsid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "neonsid",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "960": {
+      "number": 960,
+      "updatedAt": "2026-09-26T07:27:51Z",
+      "merged": false,
+      "author": {
+        "login": "neonsid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "neonsid",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "961": {
+      "number": 961,
+      "updatedAt": "2026-09-26T14:49:26Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "962": {
+      "number": 962,
+      "updatedAt": "2026-09-27T00:47:28Z",
+      "merged": false,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

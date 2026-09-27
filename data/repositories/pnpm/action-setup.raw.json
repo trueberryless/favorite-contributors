@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T01:52:59.463Z",
+    "lastRunAt": "2026-09-27T00:48:49.481Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wOFQxNDozOTo0M1rOGMB2DA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2321,6 +2321,9 @@
       "user": {
         "login": "skagedal",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -6212,7 +6215,7 @@
     },
     "290": {
       "number": 290,
-      "updatedAt": "2026-09-25T21:50:01Z",
+      "updatedAt": "2026-09-26T11:51:36Z",
       "merged": false,
       "author": {
         "login": "skagedal",
@@ -6222,10 +6225,46 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "skagedal",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

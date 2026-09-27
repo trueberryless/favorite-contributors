@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T07:09:47.676Z",
+    "lastRunAt": "2026-09-27T00:50:38.500Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0xN1QwMjozMDozNVrOWoCLRQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1704,6 +1704,34 @@
     },
     "236": {
       "number": 236,
+      "user": {
+        "login": "leonidaz",
+        "type": "User"
+      }
+    },
+    "237": {
+      "number": 237,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "238": {
+      "number": 238,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "239": {
+      "number": 239,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "240": {
+      "number": 240,
       "user": {
         "login": "leonidaz",
         "type": "User"
@@ -6085,7 +6113,7 @@
     },
     "213": {
       "number": 213,
-      "updatedAt": "2026-09-25T22:38:53Z",
+      "updatedAt": "2026-09-26T14:05:30Z",
       "merged": false,
       "author": {
         "login": "leonidaz",
@@ -6605,7 +6633,84 @@
     },
     "235": {
       "number": 235,
-      "updatedAt": "2026-09-25T22:53:34Z",
+      "updatedAt": "2026-09-26T13:56:10Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "236": {
+      "number": 236,
+      "updatedAt": "2026-09-26T13:59:36Z",
+      "merged": false,
+      "author": {
+        "login": "leonidaz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "237": {
+      "number": 237,
+      "updatedAt": "2026-09-26T14:58:47Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "238": {
+      "number": 238,
+      "updatedAt": "2026-09-26T14:05:07Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -6621,9 +6726,27 @@
         "nodes": []
       }
     },
-    "236": {
-      "number": 236,
-      "updatedAt": "2026-09-26T03:40:16Z",
+    "239": {
+      "number": 239,
+      "updatedAt": "2026-09-26T14:44:41Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "240": {
+      "number": 240,
+      "updatedAt": "2026-09-26T15:50:24Z",
       "merged": false,
       "author": {
         "login": "leonidaz",
