@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T12:23:36.463Z",
+    "lastRunAt": "2026-09-27T12:20:21.798Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27466,6 +27466,13 @@
       "number": 4222,
       "user": {
         "login": "breken-ai",
+        "type": "User"
+      }
+    },
+    "4223": {
+      "number": 4223,
+      "user": {
+        "login": "clong365",
         "type": "User"
       }
     }
@@ -133947,6 +133954,24 @@
       "merged": false,
       "author": {
         "login": "breken-ai",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4223": {
+      "number": 4223,
+      "updatedAt": "2026-09-26T14:30:26Z",
+      "merged": false,
+      "author": {
+        "login": "clong365",
         "__typename": "User"
       },
       "closingIssuesReferences": {

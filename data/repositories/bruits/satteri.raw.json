@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T12:24:15.580Z",
+    "lastRunAt": "2026-09-27T12:21:00.539Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNC0wNVQxMzo0NToxMlrO0AsyQw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2204,6 +2204,13 @@
       "number": 308,
       "user": {
         "login": "Viktotovich",
+        "type": "User"
+      }
+    },
+    "309": {
+      "number": 309,
+      "user": {
+        "login": "michelabboud",
         "type": "User"
       }
     }
@@ -5678,7 +5685,7 @@
     },
     "246": {
       "number": 246,
-      "updatedAt": "2026-08-21T03:42:52Z",
+      "updatedAt": "2026-09-26T15:58:47Z",
       "merged": false,
       "author": {
         "login": "stephenlrandall",
@@ -6070,8 +6077,8 @@
     },
     "271": {
       "number": 271,
-      "updatedAt": "2026-09-08T10:24:51Z",
-      "merged": false,
+      "updatedAt": "2026-09-26T16:41:13Z",
+      "merged": true,
       "author": {
         "login": "Princesseuh",
         "__typename": "User"
@@ -6317,7 +6324,7 @@
     },
     "287": {
       "number": 287,
-      "updatedAt": "2026-09-21T03:47:07Z",
+      "updatedAt": "2026-09-27T01:18:11Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -6335,7 +6342,7 @@
     },
     "291": {
       "number": 291,
-      "updatedAt": "2026-09-08T10:25:18Z",
+      "updatedAt": "2026-09-27T01:27:34Z",
       "merged": false,
       "author": {
         "login": "Princesseuh",
@@ -6397,8 +6404,8 @@
     },
     "297": {
       "number": 297,
-      "updatedAt": "2026-09-07T22:25:22Z",
-      "merged": false,
+      "updatedAt": "2026-09-27T01:08:57Z",
+      "merged": true,
       "author": {
         "login": "gtritchie",
         "__typename": "User"
@@ -6410,13 +6417,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Princesseuh",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "298": {
       "number": 298,
-      "updatedAt": "2026-09-08T23:17:45Z",
-      "merged": false,
+      "updatedAt": "2026-09-27T01:06:01Z",
+      "merged": true,
       "author": {
         "login": "odysseus0",
         "__typename": "User"
@@ -6428,7 +6443,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Princesseuh",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "299": {
