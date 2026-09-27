@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T12:22:45.654Z",
+    "lastRunAt": "2026-09-27T06:25:32.513Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0xOFQyMzozNjowN1rOTGCltw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16471,6 +16471,13 @@
       "number": 2331,
       "user": {
         "login": "Boreo",
+        "type": "User"
+      }
+    },
+    "2332": {
+      "number": 2332,
+      "user": {
+        "login": "uncenter",
         "type": "User"
       }
     }
@@ -82553,7 +82560,7 @@
     },
     "2325": {
       "number": 2325,
-      "updatedAt": "2026-09-20T17:59:51Z",
+      "updatedAt": "2026-09-26T20:41:37Z",
       "merged": false,
       "author": {
         "login": "fe50c",
@@ -82573,13 +82580,20 @@
               "login": "uncenter",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "2328": {
       "number": 2328,
-      "updatedAt": "2026-09-24T12:34:43Z",
+      "updatedAt": "2026-09-26T20:02:10Z",
       "merged": false,
       "author": {
         "login": "palhatlem",
@@ -82592,12 +82606,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "palhatlem",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "palhatlem",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2331": {
       "number": 2331,
-      "updatedAt": "2026-09-25T23:08:50Z",
+      "updatedAt": "2026-09-27T00:40:55Z",
       "merged": false,
       "author": {
         "login": "Boreo",
@@ -82605,6 +82648,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2332": {
+      "number": 2332,
+      "updatedAt": "2026-09-26T19:56:37Z",
+      "merged": false,
+      "author": {
+        "login": "uncenter",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

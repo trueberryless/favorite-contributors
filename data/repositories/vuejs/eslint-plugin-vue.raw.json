@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T07:12:08.058Z",
+    "lastRunAt": "2026-09-27T06:22:36.372Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23986,6 +23986,9 @@
       "user": {
         "login": "ValentinYoushkevich",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -75801,7 +75804,7 @@
     },
     "3134": {
       "number": 3134,
-      "updatedAt": "2026-09-25T02:06:53Z",
+      "updatedAt": "2026-09-26T12:34:10Z",
       "merged": false,
       "author": {
         "login": "chiliec",
@@ -75833,6 +75836,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "chiliec",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
               "__typename": "User"
             }
           }
@@ -76039,7 +76049,7 @@
     },
     "3146": {
       "number": 3146,
-      "updatedAt": "2026-09-26T05:19:08Z",
+      "updatedAt": "2026-09-26T12:29:12Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -76049,10 +76059,18 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

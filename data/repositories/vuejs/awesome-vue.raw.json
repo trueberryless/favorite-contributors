@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T07:12:03.558Z",
+    "lastRunAt": "2026-09-27T06:22:31.525Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNS0xMC0yMFQwMDo1OToxMVrOAt6fpw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -30760,6 +30760,13 @@
       "number": 4556,
       "user": {
         "login": "lukas-a-brand",
+        "type": "User"
+      }
+    },
+    "4559": {
+      "number": 4559,
+      "user": {
+        "login": "aidanhibbard",
         "type": "User"
       }
     }
@@ -132441,6 +132448,24 @@
       "merged": false,
       "author": {
         "login": "lukas-a-brand",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4559": {
+      "number": 4559,
+      "updatedAt": "2026-09-27T00:53:50Z",
+      "merged": false,
+      "author": {
+        "login": "aidanhibbard",
         "__typename": "User"
       },
       "closingIssuesReferences": {

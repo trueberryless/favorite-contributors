@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-26T07:12:18.514Z",
+    "lastRunAt": "2026-09-27T06:22:47.566Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -38702,8 +38702,8 @@
     },
     "3185": {
       "number": 3185,
-      "updatedAt": "2026-09-25T19:10:15Z",
-      "merged": false,
+      "updatedAt": "2026-09-26T12:42:53Z",
+      "merged": true,
       "author": {
         "login": "ondrhn",
         "__typename": "User"
@@ -38715,7 +38715,15 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
