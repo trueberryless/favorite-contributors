@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T06:21:43.359Z",
+    "lastRunAt": "2026-09-28T01:56:39.678Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wNFQxMzowNjowN1rOL2O6CQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -74323,6 +74323,9 @@
       "user": {
         "login": "PolariTOON",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "11312": {
@@ -74696,6 +74699,72 @@
       "user": {
         "login": "ysknsid25",
         "type": "User"
+      }
+    },
+    "11365": {
+      "number": 11365,
+      "user": {
+        "login": "sheremet-va",
+        "type": "User"
+      }
+    },
+    "11366": {
+      "number": 11366,
+      "user": {
+        "login": "sheremet-va",
+        "type": "User"
+      }
+    },
+    "11367": {
+      "number": 11367,
+      "user": {
+        "login": "sheremet-va",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "11369": {
+      "number": 11369,
+      "user": {
+        "login": "WhitefistEmperor",
+        "type": "User"
+      }
+    },
+    "11370": {
+      "number": 11370,
+      "user": {
+        "login": "nanami-0713",
+        "type": "User"
+      }
+    },
+    "11371": {
+      "number": 11371,
+      "user": {
+        "login": "Addin",
+        "type": "User"
+      }
+    },
+    "11372": {
+      "number": 11372,
+      "user": {
+        "login": "hungateJoseph",
+        "type": "User"
+      }
+    },
+    "11373": {
+      "number": 11373,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "11374": {
+      "number": 11374,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -230341,7 +230410,7 @@
     },
     "10586": {
       "number": 10586,
-      "updatedAt": "2026-09-13T01:47:47Z",
+      "updatedAt": "2026-09-28T00:18:00Z",
       "merged": false,
       "author": {
         "login": "yamachi4416",
@@ -243831,7 +243900,7 @@
     },
     "11167": {
       "number": 11167,
-      "updatedAt": "2026-09-27T00:23:45Z",
+      "updatedAt": "2026-09-27T16:23:35Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -246761,7 +246830,7 @@
     },
     "11358": {
       "number": 11358,
-      "updatedAt": "2026-09-25T15:55:54Z",
+      "updatedAt": "2026-09-27T13:56:41Z",
       "merged": false,
       "author": {
         "login": "feastyr69",
@@ -246838,6 +246907,166 @@
       "author": {
         "login": "ysknsid25",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11365": {
+      "number": 11365,
+      "updatedAt": "2026-09-27T10:58:50Z",
+      "merged": true,
+      "author": {
+        "login": "sheremet-va",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AriPerkkio",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "11366": {
+      "number": 11366,
+      "updatedAt": "2026-09-27T12:12:39Z",
+      "merged": true,
+      "author": {
+        "login": "sheremet-va",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11367": {
+      "number": 11367,
+      "updatedAt": "2026-09-27T15:26:48Z",
+      "merged": false,
+      "author": {
+        "login": "sheremet-va",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "macarie",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "11369": {
+      "number": 11369,
+      "updatedAt": "2026-09-27T17:04:21Z",
+      "merged": false,
+      "author": {
+        "login": "WhitefistEmperor",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11370": {
+      "number": 11370,
+      "updatedAt": "2026-09-27T14:03:08Z",
+      "merged": false,
+      "author": {
+        "login": "nanami-0713",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11372": {
+      "number": 11372,
+      "updatedAt": "2026-09-27T23:12:49Z",
+      "merged": false,
+      "author": {
+        "login": "hungateJoseph",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11373": {
+      "number": 11373,
+      "updatedAt": "2026-09-28T00:26:55Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11374": {
+      "number": 11374,
+      "updatedAt": "2026-09-28T00:27:30Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
