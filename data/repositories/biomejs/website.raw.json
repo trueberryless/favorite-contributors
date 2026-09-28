@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T17:11:05.334Z",
+    "lastRunAt": "2026-09-28T16:58:23.827Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32075,6 +32075,90 @@
       "number": 4574,
       "user": {
         "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "4575": {
+      "number": 4575,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4576": {
+      "number": 4576,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4577": {
+      "number": 4577,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "4578": {
+      "number": 4578,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4579": {
+      "number": 4579,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4580": {
+      "number": 4580,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4581": {
+      "number": 4581,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4582": {
+      "number": 4582,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4583": {
+      "number": 4583,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4584": {
+      "number": 4584,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4585": {
+      "number": 4585,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4586": {
+      "number": 4586,
+      "user": {
+        "login": "noritaka1166",
         "type": "User"
       }
     }
@@ -122471,8 +122555,8 @@
     },
     "4571": {
       "number": 4571,
-      "updatedAt": "2026-09-27T10:50:47Z",
-      "merged": false,
+      "updatedAt": "2026-09-28T15:23:20Z",
+      "merged": true,
       "author": {
         "login": "dyc3",
         "__typename": "User"
@@ -122484,13 +122568,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4572": {
       "number": 4572,
-      "updatedAt": "2026-09-27T04:09:22Z",
-      "merged": false,
+      "updatedAt": "2026-09-27T19:10:07Z",
+      "merged": true,
       "author": {
         "login": "dyc3",
         "__typename": "User"
@@ -122509,13 +122601,27 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "4573": {
       "number": 4573,
-      "updatedAt": "2026-09-27T14:12:05Z",
+      "updatedAt": "2026-09-28T10:09:34Z",
       "merged": false,
       "author": {
         "login": "Netail",
@@ -122555,6 +122661,222 @@
             }
           }
         ]
+      }
+    },
+    "4575": {
+      "number": 4575,
+      "updatedAt": "2026-09-28T02:30:01Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4576": {
+      "number": 4576,
+      "updatedAt": "2026-09-28T02:30:59Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4577": {
+      "number": 4577,
+      "updatedAt": "2026-09-28T00:43:58Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4578": {
+      "number": 4578,
+      "updatedAt": "2026-09-28T02:41:31Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4579": {
+      "number": 4579,
+      "updatedAt": "2026-09-28T02:41:49Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4580": {
+      "number": 4580,
+      "updatedAt": "2026-09-28T04:47:18Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4581": {
+      "number": 4581,
+      "updatedAt": "2026-09-28T05:51:59Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4582": {
+      "number": 4582,
+      "updatedAt": "2026-09-28T06:07:56Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4583": {
+      "number": 4583,
+      "updatedAt": "2026-09-28T06:08:16Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4584": {
+      "number": 4584,
+      "updatedAt": "2026-09-28T09:27:32Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4585": {
+      "number": 4585,
+      "updatedAt": "2026-09-28T09:41:31Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4586": {
+      "number": 4586,
+      "updatedAt": "2026-09-28T13:10:31Z",
+      "merged": false,
+      "author": {
+        "login": "noritaka1166",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
