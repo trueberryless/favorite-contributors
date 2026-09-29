@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-28T01:57:31.611Z",
+    "lastRunAt": "2026-09-29T15:28:38.564Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -76082,7 +76082,7 @@
     },
     "3147": {
       "number": 3147,
-      "updatedAt": "2026-09-28T00:08:27Z",
+      "updatedAt": "2026-09-28T21:46:45Z",
       "merged": false,
       "author": {
         "login": "Cherry",
@@ -76095,7 +76095,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

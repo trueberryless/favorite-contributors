@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-28T01:57:48.802Z",
+    "lastRunAt": "2026-09-29T15:29:00.500Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0yMVQwNzoyNzozMVrOWmaDxQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -22376,7 +22376,7 @@
     },
     "1126": {
       "number": 1126,
-      "updatedAt": "2026-08-27T07:16:46Z",
+      "updatedAt": "2026-09-28T13:18:44Z",
       "merged": false,
       "author": {
         "login": "SidStraw",
@@ -22618,8 +22618,8 @@
     },
     "1141": {
       "number": 1141,
-      "updatedAt": "2026-09-25T07:45:34Z",
-      "merged": false,
+      "updatedAt": "2026-09-28T09:28:30Z",
+      "merged": true,
       "author": {
         "login": "vansh-nagar",
         "__typename": "User"
@@ -22631,7 +22631,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1142": {
