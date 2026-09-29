@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-28T16:58:23.827Z",
+    "lastRunAt": "2026-09-29T23:55:19.524Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32157,6 +32157,27 @@
     },
     "4586": {
       "number": 4586,
+      "user": {
+        "login": "noritaka1166",
+        "type": "User"
+      }
+    },
+    "4587": {
+      "number": 4587,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "4588": {
+      "number": 4588,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "4589": {
+      "number": 4589,
       "user": {
         "login": "noritaka1166",
         "type": "User"
@@ -118104,7 +118125,7 @@
     },
     "4378": {
       "number": 4378,
-      "updatedAt": "2026-09-17T17:58:38Z",
+      "updatedAt": "2026-09-29T08:27:13Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -120939,8 +120960,8 @@
     },
     "4498": {
       "number": 4498,
-      "updatedAt": "2026-09-21T09:12:44Z",
-      "merged": false,
+      "updatedAt": "2026-09-29T08:28:24Z",
+      "merged": true,
       "author": {
         "login": "ematipico",
         "__typename": "User"
@@ -121296,7 +121317,7 @@
     },
     "4510": {
       "number": 4510,
-      "updatedAt": "2026-09-17T17:51:04Z",
+      "updatedAt": "2026-09-29T09:17:03Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -121378,6 +121399,27 @@
             "author": {
               "login": "yanthomasdev",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
@@ -122863,8 +122905,8 @@
     },
     "4586": {
       "number": 4586,
-      "updatedAt": "2026-09-28T13:10:31Z",
-      "merged": false,
+      "updatedAt": "2026-09-28T19:53:01Z",
+      "merged": true,
       "author": {
         "login": "noritaka1166",
         "__typename": "User"
@@ -122877,6 +122919,68 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "4587": {
+      "number": 4587,
+      "updatedAt": "2026-09-29T04:41:57Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4588": {
+      "number": 4588,
+      "updatedAt": "2026-09-29T08:19:00Z",
+      "merged": true,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4589": {
+      "number": 4589,
+      "updatedAt": "2026-09-29T16:11:21Z",
+      "merged": true,
+      "author": {
+        "login": "noritaka1166",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
