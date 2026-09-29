@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T23:20:19.476Z",
+    "lastRunAt": "2026-09-29T08:55:45.039Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNi0wN1QwMzowMjozMVrOUkhWCQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3241,6 +3241,20 @@
       "user": {
         "login": "danielroe",
         "type": "User"
+      }
+    },
+    "445": {
+      "number": 445,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "446": {
+      "number": 446,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -11961,7 +11975,7 @@
     },
     "390": {
       "number": 390,
-      "updatedAt": "2026-09-25T00:35:45Z",
+      "updatedAt": "2026-09-28T05:39:38Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -13294,6 +13308,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "445": {
+      "number": 445,
+      "updatedAt": "2026-09-28T05:37:15Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "446": {
+      "number": 446,
+      "updatedAt": "2026-09-28T06:57:14Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

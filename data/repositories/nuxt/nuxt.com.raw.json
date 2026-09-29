@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T23:20:16.815Z",
+    "lastRunAt": "2026-09-29T08:55:41.309Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0wMlQxMzo0OToyNlrOMfVTEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17605,6 +17605,13 @@
       },
       "reactions": {
         "total_count": 7
+      }
+    },
+    "2436": {
+      "number": 2436,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -53022,7 +53029,7 @@
     },
     "2316": {
       "number": 2316,
-      "updatedAt": "2026-09-15T10:30:55Z",
+      "updatedAt": "2026-09-28T10:07:55Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -55051,7 +55058,7 @@
     },
     "2400": {
       "number": 2400,
-      "updatedAt": "2026-09-25T14:50:13Z",
+      "updatedAt": "2026-09-28T19:45:39Z",
       "merged": false,
       "author": {
         "login": "larbish",
@@ -55362,7 +55369,7 @@
     },
     "2413": {
       "number": 2413,
-      "updatedAt": "2026-09-16T17:59:25Z",
+      "updatedAt": "2026-09-29T03:39:57Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -55667,7 +55674,7 @@
     },
     "2423": {
       "number": 2423,
-      "updatedAt": "2026-09-21T13:28:42Z",
+      "updatedAt": "2026-09-28T08:44:53Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -55685,8 +55692,8 @@
     },
     "2424": {
       "number": 2424,
-      "updatedAt": "2026-09-15T10:31:48Z",
-      "merged": false,
+      "updatedAt": "2026-09-29T03:29:27Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -55698,7 +55705,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2425": {
@@ -55964,6 +55979,24 @@
             }
           }
         ]
+      }
+    },
+    "2436": {
+      "number": 2436,
+      "updatedAt": "2026-09-28T09:32:53Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

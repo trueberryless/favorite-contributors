@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T23:20:17.757Z",
+    "lastRunAt": "2026-09-29T08:55:42.655Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xNFQxMzo0NToyN1rON_gp8A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7444,6 +7444,9 @@
       "user": {
         "login": "felixgabler",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "930": {
@@ -7454,6 +7457,20 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "931": {
+      "number": 931,
+      "user": {
+        "login": "harlan-zw",
+        "type": "User"
+      }
+    },
+    "932": {
+      "number": 932,
+      "user": {
+        "login": "harlan-zw",
+        "type": "User"
       }
     }
   },
@@ -21402,7 +21419,7 @@
     },
     "884": {
       "number": 884,
-      "updatedAt": "2026-09-22T04:02:14Z",
+      "updatedAt": "2026-09-28T13:48:13Z",
       "merged": false,
       "author": {
         "login": "harlan-zw",
@@ -22225,7 +22242,7 @@
     },
     "921": {
       "number": 921,
-      "updatedAt": "2026-09-27T00:24:29Z",
+      "updatedAt": "2026-09-28T12:57:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22297,8 +22314,8 @@
     },
     "927": {
       "number": 927,
-      "updatedAt": "2026-09-23T17:43:27Z",
-      "merged": false,
+      "updatedAt": "2026-09-28T13:51:13Z",
+      "merged": true,
       "author": {
         "login": "key-arg",
         "__typename": "User"
@@ -22330,8 +22347,8 @@
     },
     "930": {
       "number": 930,
-      "updatedAt": "2026-09-26T02:22:35Z",
-      "merged": false,
+      "updatedAt": "2026-09-28T13:28:55Z",
+      "merged": true,
       "author": {
         "login": "felixgabler",
         "__typename": "User"
@@ -22341,6 +22358,42 @@
       },
       "reactions": {
         "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "931": {
+      "number": 931,
+      "updatedAt": "2026-09-28T13:51:17Z",
+      "merged": true,
+      "author": {
+        "login": "harlan-zw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "932": {
+      "number": 932,
+      "updatedAt": "2026-09-28T15:07:39Z",
+      "merged": true,
+      "author": {
+        "login": "harlan-zw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
       },
       "reviews": {
         "nodes": []

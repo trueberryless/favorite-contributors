@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T23:21:06.634Z",
+    "lastRunAt": "2026-09-29T08:56:30.509Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7153,6 +7153,63 @@
       "number": 966,
       "user": {
         "login": "erkamyaman",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "967": {
+      "number": 967,
+      "user": {
+        "login": "jdalton",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "968": {
+      "number": 968,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "969": {
+      "number": 969,
+      "user": {
+        "login": "TiagoGranelli",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "970": {
+      "number": 970,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "971": {
+      "number": 971,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "972": {
+      "number": 972,
+      "user": {
+        "login": "happy520ai",
         "type": "User"
       },
       "reactions": {
@@ -27450,7 +27507,7 @@
     },
     "929": {
       "number": 929,
-      "updatedAt": "2026-09-13T00:37:10Z",
+      "updatedAt": "2026-09-28T09:39:53Z",
       "merged": false,
       "author": {
         "login": "BaconMan1168",
@@ -27473,6 +27530,13 @@
           },
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
@@ -28519,7 +28583,7 @@
     },
     "955": {
       "number": 955,
-      "updatedAt": "2026-09-26T03:39:07Z",
+      "updatedAt": "2026-09-28T14:34:15Z",
       "merged": false,
       "author": {
         "login": "amishabenramani",
@@ -29058,6 +29122,357 @@
             "author": {
               "login": "zkochan",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "967": {
+      "number": 967,
+      "updatedAt": "2026-09-28T01:04:15Z",
+      "merged": false,
+      "author": {
+        "login": "jdalton",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jdalton",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "968": {
+      "number": 968,
+      "updatedAt": "2026-09-28T01:41:22Z",
+      "merged": false,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "969": {
+      "number": 969,
+      "updatedAt": "2026-09-28T22:32:32Z",
+      "merged": false,
+      "author": {
+        "login": "TiagoGranelli",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "TiagoGranelli",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "970": {
+      "number": 970,
+      "updatedAt": "2026-09-29T00:29:44Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "github-advanced-security",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "971": {
+      "number": 971,
+      "updatedAt": "2026-09-29T01:40:14Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "972": {
+      "number": 972,
+      "updatedAt": "2026-09-29T07:24:06Z",
+      "merged": false,
+      "author": {
+        "login": "happy520ai",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "happy520ai",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
             }
           }
         ]

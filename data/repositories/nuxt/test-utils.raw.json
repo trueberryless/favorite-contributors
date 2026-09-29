@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T23:20:11.584Z",
+    "lastRunAt": "2026-09-29T08:55:35.135Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOC0yNlQxNjo0NzoxM1rOEoT8zA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12542,6 +12542,20 @@
     },
     "1825": {
       "number": 1825,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1826": {
+      "number": 1826,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1827": {
+      "number": 1827,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -40509,6 +40523,50 @@
     "1825": {
       "number": 1825,
       "updatedAt": "2026-09-26T12:51:06Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1826": {
+      "number": 1826,
+      "updatedAt": "2026-09-28T05:58:32Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1827": {
+      "number": 1827,
+      "updatedAt": "2026-09-28T00:27:36Z",
       "merged": false,
       "author": {
         "login": "renovate",
