@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-28T08:23:57.163Z",
+    "lastRunAt": "2026-09-29T20:11:19.458Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0xNlQyMjozNzowOFrOxALlzQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4102,6 +4102,83 @@
       "number": 787,
       "user": {
         "login": "rikbrown",
+        "type": "User"
+      }
+    },
+    "788": {
+      "number": 788,
+      "user": {
+        "login": "rikbrown",
+        "type": "User"
+      }
+    },
+    "789": {
+      "number": 789,
+      "user": {
+        "login": "rikbrown",
+        "type": "User"
+      }
+    },
+    "790": {
+      "number": 790,
+      "user": {
+        "login": "cgaravitoq",
+        "type": "User"
+      }
+    },
+    "791": {
+      "number": 791,
+      "user": {
+        "login": "matthewp",
+        "type": "User"
+      }
+    },
+    "792": {
+      "number": 792,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "793": {
+      "number": 793,
+      "user": {
+        "login": "matthewp",
+        "type": "User"
+      }
+    },
+    "794": {
+      "number": 794,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "795": {
+      "number": 795,
+      "user": {
+        "login": "hsheth2",
+        "type": "User"
+      }
+    },
+    "797": {
+      "number": 797,
+      "user": {
+        "login": "rikbrown",
+        "type": "User"
+      }
+    },
+    "798": {
+      "number": 798,
+      "user": {
+        "login": "joeblew999",
+        "type": "User"
+      }
+    },
+    "799": {
+      "number": 799,
+      "user": {
+        "login": "joeblew999",
         "type": "User"
       }
     }
@@ -9088,8 +9165,8 @@
     },
     "770": {
       "number": 770,
-      "updatedAt": "2026-09-25T21:37:25Z",
-      "merged": false,
+      "updatedAt": "2026-09-28T17:40:04Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -9104,6 +9181,13 @@
         "nodes": [
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "matthewp",
               "__typename": "User"
@@ -9230,6 +9314,78 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "791": {
+      "number": 791,
+      "updatedAt": "2026-09-28T19:55:21Z",
+      "merged": true,
+      "author": {
+        "login": "matthewp",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "792": {
+      "number": 792,
+      "updatedAt": "2026-09-28T19:58:52Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "793": {
+      "number": 793,
+      "updatedAt": "2026-09-28T20:33:25Z",
+      "merged": true,
+      "author": {
+        "login": "matthewp",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "794": {
+      "number": 794,
+      "updatedAt": "2026-09-28T20:34:44Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
