@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T20:23:59.736Z",
+    "lastRunAt": "2026-09-29T02:14:40.654Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2506,6 +2506,41 @@
     },
     "369": {
       "number": 369,
+      "user": {
+        "login": "Sheraff",
+        "type": "User"
+      }
+    },
+    "370": {
+      "number": 370,
+      "user": {
+        "login": "JoviDeCroock",
+        "type": "User"
+      }
+    },
+    "371": {
+      "number": 371,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "372": {
+      "number": 372,
+      "user": {
+        "login": "Sheraff",
+        "type": "User"
+      }
+    },
+    "373": {
+      "number": 373,
+      "user": {
+        "login": "Sheraff",
+        "type": "User"
+      }
+    },
+    "374": {
+      "number": 374,
       "user": {
         "login": "Sheraff",
         "type": "User"
@@ -8694,7 +8729,7 @@
     },
     "337": {
       "number": 337,
-      "updatedAt": "2026-09-24T14:57:16Z",
+      "updatedAt": "2026-09-28T17:30:13Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -9377,7 +9412,95 @@
     },
     "369": {
       "number": 369,
-      "updatedAt": "2026-09-27T19:45:53Z",
+      "updatedAt": "2026-09-28T17:25:15Z",
+      "merged": true,
+      "author": {
+        "login": "Sheraff",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "davidkpiano",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "370": {
+      "number": 370,
+      "updatedAt": "2026-09-28T06:57:09Z",
+      "merged": false,
+      "author": {
+        "login": "JoviDeCroock",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "371": {
+      "number": 371,
+      "updatedAt": "2026-09-28T17:28:46Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "373": {
+      "number": 373,
+      "updatedAt": "2026-09-28T21:36:26Z",
+      "merged": false,
+      "author": {
+        "login": "Sheraff",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "374": {
+      "number": 374,
+      "updatedAt": "2026-09-28T21:34:55Z",
       "merged": false,
       "author": {
         "login": "Sheraff",

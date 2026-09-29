@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T20:23:56.068Z",
+    "lastRunAt": "2026-09-29T02:14:37.727Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15252,6 +15252,13 @@
       "number": 2409,
       "user": {
         "login": "dasjideepak",
+        "type": "User"
+      }
+    },
+    "2410": {
+      "number": 2410,
+      "user": {
+        "login": "TiagoGranelli",
         "type": "User"
       }
     }
@@ -45371,7 +45378,7 @@
     },
     "2408": {
       "number": 2408,
-      "updatedAt": "2026-09-27T07:41:06Z",
+      "updatedAt": "2026-09-28T13:46:08Z",
       "merged": false,
       "author": {
         "login": "maricastroc",
@@ -45384,7 +45391,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dasjideepak",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2409": {
@@ -45397,6 +45412,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2410": {
+      "number": 2410,
+      "updatedAt": "2026-09-27T21:07:25Z",
+      "merged": false,
+      "author": {
+        "login": "TiagoGranelli",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

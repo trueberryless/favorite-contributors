@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-27T20:23:56.068Z",
+    "lastRunAt": "2026-09-29T02:14:37.727Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33287,6 +33287,13 @@
       "number": 6601,
       "user": {
         "login": "davidmateita",
+        "type": "User"
+      }
+    },
+    "6602": {
+      "number": 6602,
+      "user": {
+        "login": "hnton2",
         "type": "User"
       }
     }
@@ -73739,6 +73746,46 @@
             "state": "COMMENTED",
             "author": {
               "login": "cipherprofessor",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "6602": {
+      "number": 6602,
+      "updatedAt": "2026-09-29T02:01:06Z",
+      "merged": false,
+      "author": {
+        "login": "hnton2",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "hnton2",
               "__typename": "User"
             }
           },
