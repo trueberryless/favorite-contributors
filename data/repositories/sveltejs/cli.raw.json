@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T08:58:32.518Z",
+    "lastRunAt": "2026-09-30T16:44:58.084Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9855,6 +9855,20 @@
       "number": 1343,
       "user": {
         "login": "manuel3108",
+        "type": "User"
+      }
+    },
+    "1344": {
+      "number": 1344,
+      "user": {
+        "login": "pluxain",
+        "type": "User"
+      }
+    },
+    "1345": {
+      "number": 1345,
+      "user": {
+        "login": "vipul2774",
         "type": "User"
       }
     }
@@ -37629,7 +37643,7 @@
     },
     "1340": {
       "number": 1340,
-      "updatedAt": "2026-09-27T07:40:43Z",
+      "updatedAt": "2026-09-29T18:24:43Z",
       "merged": false,
       "author": {
         "login": "erenbati",
@@ -37679,6 +37693,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1344": {
+      "number": 1344,
+      "updatedAt": "2026-09-30T07:27:01Z",
+      "merged": false,
+      "author": {
+        "login": "pluxain",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "pluxain",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
