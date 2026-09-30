@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T20:11:18.705Z",
+    "lastRunAt": "2026-09-30T21:21:09.740Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27501,6 +27501,34 @@
       "number": 4227,
       "user": {
         "login": "I90rche",
+        "type": "User"
+      }
+    },
+    "4228": {
+      "number": 4228,
+      "user": {
+        "login": "jsparkdev",
+        "type": "User"
+      }
+    },
+    "4229": {
+      "number": 4229,
+      "user": {
+        "login": "HiDeoo",
+        "type": "User"
+      }
+    },
+    "4230": {
+      "number": 4230,
+      "user": {
+        "login": "steelcm",
+        "type": "User"
+      }
+    },
+    "4231": {
+      "number": 4231,
+      "user": {
+        "login": "trueberryless",
         "type": "User"
       }
     }
@@ -128871,7 +128899,7 @@
     },
     "4011": {
       "number": 4011,
-      "updatedAt": "2026-09-29T14:22:32Z",
+      "updatedAt": "2026-09-30T14:52:40Z",
       "merged": false,
       "author": {
         "login": "trueberryless",
@@ -129008,6 +129036,34 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
               "__typename": "User"
             }
           }
@@ -133963,7 +134019,7 @@
     },
     "4220": {
       "number": 4220,
-      "updatedAt": "2026-09-29T09:00:28Z",
+      "updatedAt": "2026-09-30T19:50:39Z",
       "merged": false,
       "author": {
         "login": "delucis",
@@ -133981,6 +134037,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
               "__typename": "User"
             }
           }
@@ -134069,8 +134139,8 @@
     },
     "4225": {
       "number": 4225,
-      "updatedAt": "2026-09-29T15:02:36Z",
-      "merged": false,
+      "updatedAt": "2026-09-30T16:07:14Z",
+      "merged": true,
       "author": {
         "login": "HiDeoo",
         "__typename": "User"
@@ -134082,12 +134152,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4226": {
       "number": 4226,
-      "updatedAt": "2026-09-29T17:39:16Z",
+      "updatedAt": "2026-09-30T16:32:39Z",
       "merged": false,
       "author": {
         "login": "HiDeoo",
@@ -134100,12 +134178,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4227": {
       "number": 4227,
-      "updatedAt": "2026-09-29T18:53:26Z",
+      "updatedAt": "2026-09-30T16:36:01Z",
       "merged": false,
       "author": {
         "login": "I90rche",
@@ -134119,6 +134205,102 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "4228": {
+      "number": 4228,
+      "updatedAt": "2026-09-30T11:06:36Z",
+      "merged": true,
+      "author": {
+        "login": "jsparkdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4229": {
+      "number": 4229,
+      "updatedAt": "2026-09-30T09:40:07Z",
+      "merged": false,
+      "author": {
+        "login": "HiDeoo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4230": {
+      "number": 4230,
+      "updatedAt": "2026-09-30T14:38:13Z",
+      "merged": true,
+      "author": {
+        "login": "steelcm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4231": {
+      "number": 4231,
+      "updatedAt": "2026-09-30T14:06:26Z",
+      "merged": true,
+      "author": {
+        "login": "trueberryless",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

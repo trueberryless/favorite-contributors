@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T15:28:55.965Z",
+    "lastRunAt": "2026-09-30T21:16:59.396Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0wM1QwMTo0NzozN1rOHaKaIA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -42231,6 +42231,13 @@
         "login": "00200200",
         "type": "User"
       }
+    },
+    "6231": {
+      "number": 6231,
+      "user": {
+        "login": "hungateJoseph",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -68046,8 +68053,8 @@
     },
     "6230": {
       "number": 6230,
-      "updatedAt": "2026-09-29T15:20:50Z",
-      "merged": false,
+      "updatedAt": "2026-09-29T15:53:33Z",
+      "merged": true,
       "author": {
         "login": "00200200",
         "__typename": "User"
@@ -68071,6 +68078,74 @@
             "state": "COMMENTED",
             "author": {
               "login": "00200200",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "KazariEX",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KazariEX",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KazariEX",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KazariEX",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KazariEX",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "6231": {
+      "number": 6231,
+      "updatedAt": "2026-09-30T17:46:04Z",
+      "merged": true,
+      "author": {
+        "login": "hungateJoseph",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KazariEX",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KazariEX",
               "__typename": "User"
             }
           }

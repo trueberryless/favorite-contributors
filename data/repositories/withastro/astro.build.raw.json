@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T20:11:17.348Z",
+    "lastRunAt": "2026-09-30T21:21:08.191Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0xMFQxODoyODoxMFrOMLT_KA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20105,6 +20105,20 @@
     },
     "2742": {
       "number": 2742,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2743": {
+      "number": 2743,
+      "user": {
+        "login": "sarah11918",
+        "type": "User"
+      }
+    },
+    "2744": {
+      "number": 2744,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -87073,7 +87087,7 @@
     },
     "2741": {
       "number": 2741,
-      "updatedAt": "2026-09-28T20:41:02Z",
+      "updatedAt": "2026-09-30T16:35:34Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -87086,12 +87100,107 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2742": {
       "number": 2742,
-      "updatedAt": "2026-09-29T03:16:17Z",
+      "updatedAt": "2026-09-30T15:34:43Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2743": {
+      "number": 2743,
+      "updatedAt": "2026-09-30T12:11:50Z",
+      "merged": true,
+      "author": {
+        "login": "sarah11918",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sarah11918",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sarah11918",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sarah11918",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sarah11918",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2744": {
+      "number": 2744,
+      "updatedAt": "2026-09-30T16:33:36Z",
       "merged": false,
       "author": {
         "login": "renovate",

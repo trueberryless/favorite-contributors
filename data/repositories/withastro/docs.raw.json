@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T20:11:14.976Z",
+    "lastRunAt": "2026-09-30T21:21:05.834Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -102675,6 +102675,65 @@
       "number": 14639,
       "user": {
         "login": "awwa",
+        "type": "User"
+      }
+    },
+    "14640": {
+      "number": 14640,
+      "user": {
+        "login": "ArmandPhilippot",
+        "type": "User"
+      }
+    },
+    "14641": {
+      "number": 14641,
+      "user": {
+        "login": "jsparkdev",
+        "type": "User"
+      }
+    },
+    "14642": {
+      "number": 14642,
+      "user": {
+        "login": "ArmandPhilippot",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "14643": {
+      "number": 14643,
+      "user": {
+        "login": "mauroviveros",
+        "type": "User"
+      }
+    },
+    "14644": {
+      "number": 14644,
+      "user": {
+        "login": "angelmarfil",
+        "type": "User"
+      }
+    },
+    "14645": {
+      "number": 14645,
+      "user": {
+        "login": "mauroviveros",
+        "type": "User"
+      }
+    },
+    "14646": {
+      "number": 14646,
+      "user": {
+        "login": "nasty23-star",
+        "type": "User"
+      }
+    },
+    "14647": {
+      "number": 14647,
+      "user": {
+        "login": "nasty23-star",
         "type": "User"
       }
     }
@@ -558682,7 +558741,7 @@
     },
     "14600": {
       "number": 14600,
-      "updatedAt": "2026-09-28T13:31:38Z",
+      "updatedAt": "2026-09-29T20:37:15Z",
       "merged": false,
       "author": {
         "login": "ArmandPhilippot",
@@ -558988,7 +559047,7 @@
     },
     "14614": {
       "number": 14614,
-      "updatedAt": "2026-09-29T14:25:42Z",
+      "updatedAt": "2026-09-30T10:34:29Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -559102,6 +559161,13 @@
           },
           {
             "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
             "author": {
               "login": "ArmandPhilippot",
               "__typename": "User"
@@ -559617,7 +559683,7 @@
     },
     "14632": {
       "number": 14632,
-      "updatedAt": "2026-09-28T09:56:36Z",
+      "updatedAt": "2026-09-30T14:52:16Z",
       "merged": false,
       "author": {
         "login": "florian-lefebvre",
@@ -559630,7 +559696,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14633": {
@@ -559757,7 +559838,79 @@
     },
     "14638": {
       "number": 14638,
-      "updatedAt": "2026-09-29T16:10:18Z",
+      "updatedAt": "2026-09-30T15:50:16Z",
+      "merged": false,
+      "author": {
+        "login": "ArmandPhilippot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14639": {
+      "number": 14639,
+      "updatedAt": "2026-09-30T16:27:02Z",
+      "merged": false,
+      "author": {
+        "login": "awwa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14640": {
+      "number": 14640,
+      "updatedAt": "2026-09-29T20:29:55Z",
       "merged": false,
       "author": {
         "login": "ArmandPhilippot",
@@ -559781,16 +559934,144 @@
         ]
       }
     },
-    "14639": {
-      "number": 14639,
-      "updatedAt": "2026-09-29T16:26:40Z",
-      "merged": false,
+    "14641": {
+      "number": 14641,
+      "updatedAt": "2026-09-30T11:06:20Z",
+      "merged": true,
       "author": {
-        "login": "awwa",
+        "login": "jsparkdev",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14642": {
+      "number": 14642,
+      "updatedAt": "2026-09-30T13:48:45Z",
+      "merged": true,
+      "author": {
+        "login": "ArmandPhilippot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "angelmarfil",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Princesseuh",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14643": {
+      "number": 14643,
+      "updatedAt": "2026-09-30T16:32:38Z",
+      "merged": false,
+      "author": {
+        "login": "mauroviveros",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "angelmarfil",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "angelmarfil",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14644": {
+      "number": 14644,
+      "updatedAt": "2026-09-30T17:47:18Z",
+      "merged": false,
+      "author": {
+        "login": "angelmarfil",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14645": {
+      "number": 14645,
+      "updatedAt": "2026-09-30T19:27:04Z",
+      "merged": false,
+      "author": {
+        "login": "mauroviveros",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14647": {
+      "number": 14647,
+      "updatedAt": "2026-09-30T21:04:17Z",
+      "merged": false,
+      "author": {
+        "login": "nasty23-star",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

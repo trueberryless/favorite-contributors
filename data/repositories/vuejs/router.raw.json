@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T15:28:49.807Z",
+    "lastRunAt": "2026-09-30T21:16:53.541Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -48457,7 +48457,7 @@
     },
     "2794": {
       "number": 2794,
-      "updatedAt": "2026-09-27T16:22:32Z",
+      "updatedAt": "2026-09-30T12:51:00Z",
       "merged": false,
       "author": {
         "login": "lvyanyan",
@@ -48470,7 +48470,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jamalkamaladdin",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lvyanyan",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2795": {

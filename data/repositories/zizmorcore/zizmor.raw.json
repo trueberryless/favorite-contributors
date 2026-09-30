@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T15:29:54.104Z",
+    "lastRunAt": "2026-09-30T21:17:59.156Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17460,6 +17460,20 @@
       "number": 2420,
       "user": {
         "login": "ndabas",
+        "type": "User"
+      }
+    },
+    "2421": {
+      "number": 2421,
+      "user": {
+        "login": "Bubu-Droid",
+        "type": "User"
+      }
+    },
+    "2422": {
+      "number": 2422,
+      "user": {
+        "login": "bayandin",
         "type": "User"
       }
     }
@@ -55986,7 +56000,7 @@
     },
     "2420": {
       "number": 2420,
-      "updatedAt": "2026-09-29T15:11:33Z",
+      "updatedAt": "2026-09-30T15:08:00Z",
       "merged": false,
       "author": {
         "login": "ndabas",
@@ -56000,6 +56014,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2421": {
+      "number": 2421,
+      "updatedAt": "2026-09-30T04:03:27Z",
+      "merged": true,
+      "author": {
+        "login": "Bubu-Droid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
