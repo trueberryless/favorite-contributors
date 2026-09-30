@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T08:55:39.618Z",
+    "lastRunAt": "2026-09-30T10:45:25.229Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0xNFQyMToxODo0NVrOOVF6Qg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8262,6 +8262,20 @@
     },
     "1101": {
       "number": 1101,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1102": {
+      "number": 1102,
+      "user": {
+        "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "1103": {
+      "number": 1103,
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
@@ -20680,7 +20694,7 @@
     },
     "1028": {
       "number": 1028,
-      "updatedAt": "2026-08-23T22:30:26Z",
+      "updatedAt": "2026-09-30T06:35:06Z",
       "merged": false,
       "author": {
         "login": "cernymatej",
@@ -22119,7 +22133,7 @@
     },
     "1098": {
       "number": 1098,
-      "updatedAt": "2026-09-20T01:43:21Z",
+      "updatedAt": "2026-09-30T09:43:10Z",
       "merged": false,
       "author": {
         "login": "lazerg",
@@ -22164,6 +22178,50 @@
     "1101": {
       "number": 1101,
       "updatedAt": "2026-09-28T23:07:38Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1102": {
+      "number": 1102,
+      "updatedAt": "2026-09-29T11:44:19Z",
+      "merged": true,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "antfu",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1103": {
+      "number": 1103,
+      "updatedAt": "2026-09-30T05:05:26Z",
       "merged": false,
       "author": {
         "login": "dependabot",

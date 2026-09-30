@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T08:54:38.885Z",
+    "lastRunAt": "2026-09-30T10:44:23.612Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0zMFQxNjo0OToyNlrOwG8izg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1171,6 +1171,13 @@
       "number": 157,
       "user": {
         "login": "dantman",
+        "type": "User"
+      }
+    },
+    "158": {
+      "number": 158,
+      "user": {
+        "login": "hyoban",
         "type": "User"
       }
     }
@@ -4822,6 +4829,32 @@
       "merged": true,
       "author": {
         "login": "9romise",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "158": {
+      "number": 158,
+      "updatedAt": "2026-09-30T02:25:43Z",
+      "merged": false,
+      "author": {
+        "login": "hyoban",
         "__typename": "User"
       },
       "closingIssuesReferences": {

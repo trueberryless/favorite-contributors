@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T02:14:40.654Z",
+    "lastRunAt": "2026-09-30T10:41:20.150Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2543,6 +2543,13 @@
       "number": 374,
       "user": {
         "login": "Sheraff",
+        "type": "User"
+      }
+    },
+    "375": {
+      "number": 375,
+      "user": {
+        "login": "grzdev",
         "type": "User"
       }
     }
@@ -8729,7 +8736,7 @@
     },
     "337": {
       "number": 337,
-      "updatedAt": "2026-09-28T17:30:13Z",
+      "updatedAt": "2026-09-29T08:09:05Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -9464,8 +9471,8 @@
     },
     "371": {
       "number": 371,
-      "updatedAt": "2026-09-28T17:28:46Z",
-      "merged": false,
+      "updatedAt": "2026-09-29T07:57:49Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -9504,6 +9511,24 @@
       "merged": false,
       "author": {
         "login": "Sheraff",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "375": {
+      "number": 375,
+      "updatedAt": "2026-09-29T16:26:54Z",
+      "merged": false,
+      "author": {
+        "login": "grzdev",
         "__typename": "User"
       },
       "closingIssuesReferences": {

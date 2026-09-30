@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T02:14:39.891Z",
+    "lastRunAt": "2026-09-30T10:41:19.584Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9410,6 +9410,48 @@
       "user": {
         "login": "sentry[bot]",
         "type": "Bot"
+      }
+    },
+    "1304": {
+      "number": 1304,
+      "user": {
+        "login": "6TELOIV",
+        "type": "User"
+      }
+    },
+    "1305": {
+      "number": 1305,
+      "user": {
+        "login": "6TELOIV",
+        "type": "User"
+      }
+    },
+    "1306": {
+      "number": 1306,
+      "user": {
+        "login": "LadyBluenotes",
+        "type": "User"
+      }
+    },
+    "1307": {
+      "number": 1307,
+      "user": {
+        "login": "LadyBluenotes",
+        "type": "User"
+      }
+    },
+    "1308": {
+      "number": 1308,
+      "user": {
+        "login": "LadyBluenotes",
+        "type": "User"
+      }
+    },
+    "1309": {
+      "number": 1309,
+      "user": {
+        "login": "LadyBluenotes",
+        "type": "User"
       }
     }
   },
@@ -33018,8 +33060,8 @@
     },
     "1225": {
       "number": 1225,
-      "updatedAt": "2026-09-06T14:04:46Z",
-      "merged": false,
+      "updatedAt": "2026-09-30T03:46:17Z",
+      "merged": true,
       "author": {
         "login": "LadyBluenotes",
         "__typename": "User"
@@ -33031,7 +33073,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1226": {
@@ -34740,6 +34790,142 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1305": {
+      "number": 1305,
+      "updatedAt": "2026-09-29T18:37:44Z",
+      "merged": false,
+      "author": {
+        "login": "6TELOIV",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1306": {
+      "number": 1306,
+      "updatedAt": "2026-09-30T06:13:06Z",
+      "merged": true,
+      "author": {
+        "login": "LadyBluenotes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sukvvon",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1307": {
+      "number": 1307,
+      "updatedAt": "2026-09-30T06:12:23Z",
+      "merged": true,
+      "author": {
+        "login": "LadyBluenotes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sukvvon",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1308": {
+      "number": 1308,
+      "updatedAt": "2026-09-30T06:12:39Z",
+      "merged": true,
+      "author": {
+        "login": "LadyBluenotes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sukvvon",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1309": {
+      "number": 1309,
+      "updatedAt": "2026-09-30T05:39:53Z",
+      "merged": false,
+      "author": {
+        "login": "LadyBluenotes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LeCarbonator",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "LadyBluenotes",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
