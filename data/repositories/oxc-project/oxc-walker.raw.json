@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-28T22:29:32.353Z",
+    "lastRunAt": "2026-09-30T04:25:14.175Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0xMS0yOFQxMzoxNDowNVrOg3SthQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2744,6 +2744,13 @@
     },
     "382": {
       "number": 382,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "383": {
+      "number": 383,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -9983,7 +9990,7 @@
     },
     "364": {
       "number": 364,
-      "updatedAt": "2026-09-27T23:02:59Z",
+      "updatedAt": "2026-09-29T03:58:46Z",
       "merged": false,
       "author": {
         "login": "oxc-guard",
@@ -10297,8 +10304,8 @@
     },
     "381": {
       "number": 381,
-      "updatedAt": "2026-09-28T21:45:29Z",
-      "merged": false,
+      "updatedAt": "2026-09-29T03:57:24Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -10315,8 +10322,34 @@
     },
     "382": {
       "number": 382,
-      "updatedAt": "2026-09-28T21:45:35Z",
-      "merged": false,
+      "updatedAt": "2026-09-29T09:43:29Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "383": {
+      "number": 383,
+      "updatedAt": "2026-09-29T09:51:32Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"

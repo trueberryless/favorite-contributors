@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T02:13:10.304Z",
+    "lastRunAt": "2026-09-30T04:26:51.112Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wMVQxMjowOToxM1rPAAAAAQb2sJE=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -239,7 +239,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 7
+        "total_count": 8
       }
     },
     "141": {
@@ -347,6 +347,13 @@
       "number": 155,
       "user": {
         "login": "shadcn",
+        "type": "User"
+      }
+    },
+    "156": {
+      "number": 156,
+      "user": {
+        "login": "TheAlexLichter",
         "type": "User"
       }
     }
@@ -1024,6 +1031,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "156": {
+      "number": 156,
+      "updatedAt": "2026-09-29T12:36:06Z",
+      "merged": false,
+      "author": {
+        "login": "TheAlexLichter",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

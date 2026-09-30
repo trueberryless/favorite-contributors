@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-29T02:13:53.820Z",
+    "lastRunAt": "2026-09-30T04:27:34.315Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -77750,6 +77750,9 @@
       "user": {
         "login": "fregante",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "9645": {
@@ -81391,6 +81394,76 @@
       "number": 10140,
       "user": {
         "login": "goosewobbler",
+        "type": "User"
+      }
+    },
+    "10141": {
+      "number": 10141,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10142": {
+      "number": 10142,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10143": {
+      "number": 10143,
+      "user": {
+        "login": "rasmusbe",
+        "type": "User"
+      }
+    },
+    "10144": {
+      "number": 10144,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10145": {
+      "number": 10145,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10146": {
+      "number": 10146,
+      "user": {
+        "login": "ethernet8023",
+        "type": "User"
+      }
+    },
+    "10147": {
+      "number": 10147,
+      "user": {
+        "login": "Jacobfaib",
+        "type": "User"
+      }
+    },
+    "10148": {
+      "number": 10148,
+      "user": {
+        "login": "Jacobfaib",
+        "type": "User"
+      }
+    },
+    "10149": {
+      "number": 10149,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10150": {
+      "number": 10150,
+      "user": {
+        "login": "ethernet8023",
         "type": "User"
       }
     }
@@ -264594,7 +264667,7 @@
     },
     "10116": {
       "number": 10116,
-      "updatedAt": "2026-09-23T21:44:41Z",
+      "updatedAt": "2026-09-29T06:12:37Z",
       "merged": false,
       "author": {
         "login": "Shadorux",
@@ -264805,7 +264878,7 @@
     },
     "10130": {
       "number": 10130,
-      "updatedAt": "2026-09-27T07:33:01Z",
+      "updatedAt": "2026-09-29T20:42:53Z",
       "merged": false,
       "author": {
         "login": "erenbati",
@@ -264819,6 +264892,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
           {
             "state": "CHANGES_REQUESTED",
             "author": {
@@ -264930,7 +265010,7 @@
     },
     "10136": {
       "number": 10136,
-      "updatedAt": "2026-09-27T14:35:33Z",
+      "updatedAt": "2026-09-29T11:07:32Z",
       "merged": false,
       "author": {
         "login": "nanami-0713",
@@ -265039,10 +265119,175 @@
     },
     "10140": {
       "number": 10140,
-      "updatedAt": "2026-09-29T02:05:50Z",
-      "merged": false,
+      "updatedAt": "2026-09-29T11:08:14Z",
+      "merged": true,
       "author": {
         "login": "goosewobbler",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10141": {
+      "number": 10141,
+      "updatedAt": "2026-09-29T10:59:06Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10142": {
+      "number": 10142,
+      "updatedAt": "2026-09-29T14:59:52Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10143": {
+      "number": 10143,
+      "updatedAt": "2026-09-29T18:32:16Z",
+      "merged": false,
+      "author": {
+        "login": "rasmusbe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "rasmusbe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10144": {
+      "number": 10144,
+      "updatedAt": "2026-09-29T14:39:23Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10145": {
+      "number": 10145,
+      "updatedAt": "2026-09-29T17:18:36Z",
+      "merged": false,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10146": {
+      "number": 10146,
+      "updatedAt": "2026-09-29T17:28:29Z",
+      "merged": false,
+      "author": {
+        "login": "ethernet8023",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10150": {
+      "number": 10150,
+      "updatedAt": "2026-09-29T23:40:43Z",
+      "merged": false,
+      "author": {
+        "login": "ethernet8023",
         "__typename": "User"
       },
       "closingIssuesReferences": {
