@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T10:41:26.379Z",
+    "lastRunAt": "2026-10-01T14:20:25.181Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yOVQwMToyMzowMVrO97ywkQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1113,6 +1113,76 @@
       "number": 156,
       "user": {
         "login": "d3lay",
+        "type": "User"
+      }
+    },
+    "157": {
+      "number": 157,
+      "user": {
+        "login": "greglum",
+        "type": "User"
+      }
+    },
+    "158": {
+      "number": 158,
+      "user": {
+        "login": "greglum",
+        "type": "User"
+      }
+    },
+    "159": {
+      "number": 159,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "160": {
+      "number": 160,
+      "user": {
+        "login": "greglum",
+        "type": "User"
+      }
+    },
+    "161": {
+      "number": 161,
+      "user": {
+        "login": "greglum",
+        "type": "User"
+      }
+    },
+    "162": {
+      "number": 162,
+      "user": {
+        "login": "greglum",
+        "type": "User"
+      }
+    },
+    "163": {
+      "number": 163,
+      "user": {
+        "login": "greglum",
+        "type": "User"
+      }
+    },
+    "164": {
+      "number": 164,
+      "user": {
+        "login": "greglum",
+        "type": "User"
+      }
+    },
+    "165": {
+      "number": 165,
+      "user": {
+        "login": "greglum",
+        "type": "User"
+      }
+    },
+    "166": {
+      "number": 166,
+      "user": {
+        "login": "greglum",
         "type": "User"
       }
     }
@@ -4421,10 +4491,206 @@
     },
     "155": {
       "number": 155,
-      "updatedAt": "2026-09-22T16:20:50Z",
+      "updatedAt": "2026-10-01T06:40:58Z",
       "merged": false,
       "author": {
         "login": "nafasebra",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "157": {
+      "number": 157,
+      "updatedAt": "2026-09-30T23:01:19Z",
+      "merged": true,
+      "author": {
+        "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "158": {
+      "number": 158,
+      "updatedAt": "2026-09-30T23:21:33Z",
+      "merged": false,
+      "author": {
+        "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "159": {
+      "number": 159,
+      "updatedAt": "2026-09-30T23:02:45Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "160": {
+      "number": 160,
+      "updatedAt": "2026-10-01T00:08:46Z",
+      "merged": false,
+      "author": {
+        "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "161": {
+      "number": 161,
+      "updatedAt": "2026-10-01T01:14:27Z",
+      "merged": false,
+      "author": {
+        "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "162": {
+      "number": 162,
+      "updatedAt": "2026-10-01T01:27:49Z",
+      "merged": false,
+      "author": {
+        "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "163": {
+      "number": 163,
+      "updatedAt": "2026-10-01T01:35:12Z",
+      "merged": false,
+      "author": {
+        "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "164": {
+      "number": 164,
+      "updatedAt": "2026-10-01T01:33:33Z",
+      "merged": false,
+      "author": {
+        "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "165": {
+      "number": 165,
+      "updatedAt": "2026-10-01T02:12:30Z",
+      "merged": false,
+      "author": {
+        "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "166": {
+      "number": 166,
+      "updatedAt": "2026-10-01T02:15:27Z",
+      "merged": false,
+      "author": {
+        "login": "greglum",
         "__typename": "User"
       },
       "closingIssuesReferences": {

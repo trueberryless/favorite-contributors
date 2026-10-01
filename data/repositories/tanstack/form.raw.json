@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T10:41:17.173Z",
+    "lastRunAt": "2026-10-01T14:20:14.958Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15273,6 +15273,27 @@
       "number": 2412,
       "user": {
         "login": "dasjideepak",
+        "type": "User"
+      }
+    },
+    "2413": {
+      "number": 2413,
+      "user": {
+        "login": "crutchcorn",
+        "type": "User"
+      }
+    },
+    "2414": {
+      "number": 2414,
+      "user": {
+        "login": "crutchcorn",
+        "type": "User"
+      }
+    },
+    "2415": {
+      "number": 2415,
+      "user": {
+        "login": "okxint",
         "type": "User"
       }
     }
@@ -44474,7 +44495,7 @@
     },
     "2368": {
       "number": 2368,
-      "updatedAt": "2026-09-25T00:27:59Z",
+      "updatedAt": "2026-10-01T07:15:27Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -45071,7 +45092,7 @@
     },
     "2396": {
       "number": 2396,
-      "updatedAt": "2026-09-22T05:45:14Z",
+      "updatedAt": "2026-10-01T07:23:22Z",
       "merged": false,
       "author": {
         "login": "crutchcorn",
@@ -45084,7 +45105,29 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2397": {
@@ -45468,6 +45511,83 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2413": {
+      "number": 2413,
+      "updatedAt": "2026-09-30T21:22:45Z",
+      "merged": false,
+      "author": {
+        "login": "crutchcorn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2414": {
+      "number": 2414,
+      "updatedAt": "2026-10-01T07:13:34Z",
+      "merged": true,
+      "author": {
+        "login": "crutchcorn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LadyBluenotes",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LeCarbonator",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2415": {
+      "number": 2415,
+      "updatedAt": "2026-10-01T07:39:26Z",
+      "merged": false,
+      "author": {
+        "login": "okxint",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

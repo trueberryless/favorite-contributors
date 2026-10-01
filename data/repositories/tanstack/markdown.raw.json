@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T10:41:26.278Z",
+    "lastRunAt": "2026-10-01T14:20:24.554Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yMlQxNDoyOToxMFrO9OqwMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -172,6 +172,23 @@
     },
     "24": {
       "number": 24,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "25": {
+      "number": 25,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "26": {
+      "number": 26,
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
@@ -393,7 +410,7 @@
     },
     "19": {
       "number": 19,
-      "updatedAt": "2026-09-12T17:15:53Z",
+      "updatedAt": "2026-10-01T01:54:03Z",
       "merged": false,
       "author": {
         "login": "silouanwright",
@@ -437,7 +454,7 @@
     },
     "21": {
       "number": 21,
-      "updatedAt": "2026-09-12T17:48:05Z",
+      "updatedAt": "2026-10-01T01:54:04Z",
       "merged": false,
       "author": {
         "login": "karthick3018",
@@ -508,6 +525,57 @@
     "24": {
       "number": 24,
       "updatedAt": "2026-09-30T03:05:15Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "25": {
+      "number": 25,
+      "updatedAt": "2026-10-01T01:55:49Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "26": {
+      "number": 26,
+      "updatedAt": "2026-10-01T02:08:51Z",
       "merged": true,
       "author": {
         "login": "github-actions",

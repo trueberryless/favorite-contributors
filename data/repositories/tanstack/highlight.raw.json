@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T10:41:26.008Z",
+    "lastRunAt": "2026-10-01T14:20:24.345Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yNlQxNjoxNzozNVrO9pQaTg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -151,6 +151,20 @@
       "user": {
         "login": "tannerlinsley",
         "type": "User"
+      }
+    },
+    "22": {
+      "number": 22,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "23": {
+      "number": 23,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -515,6 +529,50 @@
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "22": {
+      "number": 22,
+      "updatedAt": "2026-09-30T22:37:17Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "23": {
+      "number": 23,
+      "updatedAt": "2026-09-30T22:44:16Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

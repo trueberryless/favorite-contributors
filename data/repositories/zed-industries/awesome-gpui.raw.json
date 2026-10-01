@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T10:42:27.848Z",
+    "lastRunAt": "2026-10-01T14:21:22.343Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -819,6 +819,20 @@
       "number": 111,
       "user": {
         "login": "mttzzz",
+        "type": "User"
+      }
+    },
+    "112": {
+      "number": 112,
+      "user": {
+        "login": "joris-gallot",
+        "type": "User"
+      }
+    },
+    "113": {
+      "number": 113,
+      "user": {
+        "login": "carlosaugustodossantossouzaaug-star",
         "type": "User"
       }
     }
@@ -2754,6 +2768,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "112": {
+      "number": 112,
+      "updatedAt": "2026-09-30T17:09:35Z",
+      "merged": true,
+      "author": {
+        "login": "joris-gallot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "113": {
+      "number": 113,
+      "updatedAt": "2026-09-30T17:10:45Z",
+      "merged": false,
+      "author": {
+        "login": "carlosaugustodossantossouzaaug-star",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "JosephTLyons",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T10:41:19.536Z",
+    "lastRunAt": "2026-10-01T14:20:17.508Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7974,6 +7974,20 @@
       "number": 1294,
       "user": {
         "login": "minwookshin",
+        "type": "User"
+      }
+    },
+    "1295": {
+      "number": 1295,
+      "user": {
+        "login": "okxint",
+        "type": "User"
+      }
+    },
+    "1296": {
+      "number": 1296,
+      "user": {
+        "login": "piecyk",
         "type": "User"
       }
     }
@@ -22419,6 +22433,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1295": {
+      "number": 1295,
+      "updatedAt": "2026-10-01T07:39:31Z",
+      "merged": false,
+      "author": {
+        "login": "okxint",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1296": {
+      "number": 1296,
+      "updatedAt": "2026-10-01T08:31:18Z",
+      "merged": false,
+      "author": {
+        "login": "piecyk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
