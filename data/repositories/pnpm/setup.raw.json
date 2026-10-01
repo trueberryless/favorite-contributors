@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T16:43:02.718Z",
+    "lastRunAt": "2026-10-01T19:46:16.297Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -436,7 +436,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 8
+        "total_count": 12
       }
     },
     "50": {
@@ -588,6 +588,23 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "69": {
+      "number": 69,
+      "user": {
+        "login": "okisdev",
+        "type": "User"
+      }
+    },
+    "70": {
+      "number": 70,
+      "user": {
+        "login": "okisdev",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -1950,7 +1967,7 @@
     },
     "49": {
       "number": 49,
-      "updatedAt": "2026-09-20T20:25:03Z",
+      "updatedAt": "2026-10-01T08:25:19Z",
       "merged": true,
       "author": {
         "login": "Neonsy",
@@ -1960,7 +1977,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 8
+        "totalCount": 12
       },
       "reviews": {
         "nodes": [
@@ -2024,6 +2041,13 @@
             "state": "APPROVED",
             "author": {
               "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Senderek",
               "__typename": "User"
             }
           }
@@ -2452,6 +2476,88 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "70": {
+      "number": 70,
+      "updatedAt": "2026-10-01T12:42:25Z",
+      "merged": false,
+      "author": {
+        "login": "okisdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "okisdev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "okisdev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "okisdev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "okisdev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

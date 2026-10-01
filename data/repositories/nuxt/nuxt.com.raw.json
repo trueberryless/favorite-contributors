@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T10:45:26.975Z",
+    "lastRunAt": "2026-10-01T19:45:27.874Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0wMlQxMzo0OToyNlrOMfVTEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17618,6 +17618,20 @@
       "number": 2437,
       "user": {
         "login": "HugoRCD",
+        "type": "User"
+      }
+    },
+    "2438": {
+      "number": 2438,
+      "user": {
+        "login": "DarlanPrado",
+        "type": "User"
+      }
+    },
+    "2439": {
+      "number": 2439,
+      "user": {
+        "login": "DarlanPrado",
         "type": "User"
       }
     }
@@ -53036,7 +53050,7 @@
     },
     "2316": {
       "number": 2316,
-      "updatedAt": "2026-09-28T10:07:55Z",
+      "updatedAt": "2026-10-01T00:07:13Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -56030,6 +56044,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2439": {
+      "number": 2439,
+      "updatedAt": "2026-10-01T15:11:26Z",
+      "merged": false,
+      "author": {
+        "login": "DarlanPrado",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
