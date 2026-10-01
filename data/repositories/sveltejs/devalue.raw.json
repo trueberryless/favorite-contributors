@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T16:44:46.897Z",
+    "lastRunAt": "2026-10-01T23:44:26.359Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMy0xMFQyMzo0NjoyN1rOCmH-jw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1618,6 +1618,13 @@
       "number": 214,
       "user": {
         "login": "devtechedge",
+        "type": "User"
+      }
+    },
+    "215": {
+      "number": 215,
+      "user": {
+        "login": "NotAFlightRisk",
         "type": "User"
       }
     }
@@ -5333,6 +5340,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "215": {
+      "number": 215,
+      "updatedAt": "2026-10-01T01:11:10Z",
+      "merged": false,
+      "author": {
+        "login": "NotAFlightRisk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

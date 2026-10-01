@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T16:45:51.449Z",
+    "lastRunAt": "2026-10-01T23:45:55.544Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wMi0wNVQyMzozNzoxNlrOIeFqJw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12305,6 +12305,13 @@
       "number": 1763,
       "user": {
         "login": "mdong1909",
+        "type": "User"
+      }
+    },
+    "1764": {
+      "number": 1764,
+      "user": {
+        "login": "docschina-bot",
         "type": "User"
       }
     }
@@ -46707,10 +46714,28 @@
     },
     "1763": {
       "number": 1763,
-      "updatedAt": "2026-09-27T11:58:55Z",
+      "updatedAt": "2026-10-01T06:53:07Z",
       "merged": false,
       "author": {
         "login": "mdong1909",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1764": {
+      "number": 1764,
+      "updatedAt": "2026-10-01T06:29:56Z",
+      "merged": true,
+      "author": {
+        "login": "docschina-bot",
         "__typename": "User"
       },
       "closingIssuesReferences": {

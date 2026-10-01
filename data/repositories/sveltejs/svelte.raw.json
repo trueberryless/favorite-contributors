@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T16:44:42.737Z",
+    "lastRunAt": "2026-10-01T23:44:22.428Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -137330,6 +137330,34 @@
       "user": {
         "login": "svelte-triage-bot[bot]",
         "type": "Bot"
+      }
+    },
+    "18897": {
+      "number": 18897,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "18898": {
+      "number": 18898,
+      "user": {
+        "login": "cfal",
+        "type": "User"
+      }
+    },
+    "18899": {
+      "number": 18899,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "18900": {
+      "number": 18900,
+      "user": {
+        "login": "maksim-romanov",
+        "type": "User"
       }
     }
   },
@@ -371738,7 +371766,7 @@
     },
     "18791": {
       "number": 18791,
-      "updatedAt": "2026-09-18T12:24:08Z",
+      "updatedAt": "2026-10-01T07:30:09Z",
       "merged": false,
       "author": {
         "login": "cuishuang",
@@ -371751,7 +371779,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18793": {
@@ -371940,7 +371976,7 @@
     },
     "18815": {
       "number": 18815,
-      "updatedAt": "2026-09-12T20:37:07Z",
+      "updatedAt": "2026-10-01T01:13:22Z",
       "merged": false,
       "author": {
         "login": "AayushDani",
@@ -371953,7 +371989,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rober1208",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18816": {
@@ -372797,7 +372841,7 @@
     },
     "18869": {
       "number": 18869,
-      "updatedAt": "2026-09-29T12:38:50Z",
+      "updatedAt": "2026-10-01T15:14:07Z",
       "merged": false,
       "author": {
         "login": "xyrolle",
@@ -372810,7 +372854,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "GrygrFlzr",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "GrygrFlzr",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18870": {
@@ -372848,7 +372907,7 @@
     },
     "18871": {
       "number": 18871,
-      "updatedAt": "2026-09-24T02:45:42Z",
+      "updatedAt": "2026-10-01T16:22:58Z",
       "merged": false,
       "author": {
         "login": "kwy404",
@@ -373319,6 +373378,42 @@
       "author": {
         "login": "svelte-triage-bot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18899": {
+      "number": 18899,
+      "updatedAt": "2026-10-01T15:22:52Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18900": {
+      "number": 18900,
+      "updatedAt": "2026-10-01T21:03:16Z",
+      "merged": false,
+      "author": {
+        "login": "maksim-romanov",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1

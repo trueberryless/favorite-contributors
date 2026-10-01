@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T21:17:59.156Z",
+    "lastRunAt": "2026-10-01T23:48:37.809Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17474,6 +17474,30 @@
       "number": 2422,
       "user": {
         "login": "bayandin",
+        "type": "User"
+      }
+    },
+    "2423": {
+      "number": 2423,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2424": {
+      "number": 2424,
+      "user": {
+        "login": "ndabas",
+        "type": "User"
+      }
+    },
+    "2425": {
+      "number": 2425,
+      "user": {
+        "login": "shaanmajid",
         "type": "User"
       }
     }
@@ -55964,7 +55988,7 @@
     },
     "2418": {
       "number": 2418,
-      "updatedAt": "2026-09-29T03:51:32Z",
+      "updatedAt": "2026-10-01T05:15:35Z",
       "merged": false,
       "author": {
         "login": "woodruffw",
@@ -55977,7 +56001,15 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2419": {
@@ -56000,8 +56032,8 @@
     },
     "2420": {
       "number": 2420,
-      "updatedAt": "2026-09-30T15:08:00Z",
-      "merged": false,
+      "updatedAt": "2026-10-01T04:50:39Z",
+      "merged": true,
       "author": {
         "login": "ndabas",
         "__typename": "User"
@@ -56013,7 +56045,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2421": {
@@ -56040,6 +56080,60 @@
             }
           }
         ]
+      }
+    },
+    "2423": {
+      "number": 2423,
+      "updatedAt": "2026-10-01T03:46:35Z",
+      "merged": false,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2424": {
+      "number": 2424,
+      "updatedAt": "2026-10-01T09:57:34Z",
+      "merged": false,
+      "author": {
+        "login": "ndabas",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2425": {
+      "number": 2425,
+      "updatedAt": "2026-10-01T22:13:04Z",
+      "merged": false,
+      "author": {
+        "login": "shaanmajid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

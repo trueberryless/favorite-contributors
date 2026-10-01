@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-09-30T16:44:55.090Z",
+    "lastRunAt": "2026-10-01T23:44:34.125Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNC0yN1QwMToxNTozMFrOJSC2xg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6709,6 +6709,20 @@
       "number": 948,
       "user": {
         "login": "GregBorin",
+        "type": "User"
+      }
+    },
+    "949": {
+      "number": 949,
+      "user": {
+        "login": "baseballyama",
+        "type": "User"
+      }
+    },
+    "950": {
+      "number": 950,
+      "user": {
+        "login": "baseballyama",
         "type": "User"
       }
     }
@@ -17784,7 +17798,7 @@
     },
     "607": {
       "number": 607,
-      "updatedAt": "2024-12-14T03:19:13Z",
+      "updatedAt": "2026-10-01T04:10:32Z",
       "merged": false,
       "author": {
         "login": "baseballyama",
@@ -17797,7 +17811,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "609": {
@@ -21698,7 +21720,7 @@
     },
     "808": {
       "number": 808,
-      "updatedAt": "2026-09-25T06:36:06Z",
+      "updatedAt": "2026-10-01T17:04:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21896,7 +21918,7 @@
     },
     "819": {
       "number": 819,
-      "updatedAt": "2026-09-25T06:36:00Z",
+      "updatedAt": "2026-10-01T17:04:38Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22691,7 +22713,7 @@
     },
     "862": {
       "number": 862,
-      "updatedAt": "2026-09-25T06:36:04Z",
+      "updatedAt": "2026-10-01T17:04:40Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23746,20 +23768,35 @@
     },
     "913": {
       "number": 913,
-      "updatedAt": "2026-07-22T03:23:11Z",
+      "updatedAt": "2026-10-01T04:07:20Z",
       "merged": false,
       "author": {
         "login": "baseballyama",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 1
+        "totalCount": 2
       },
       "reactions": {
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "baseballyama",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "914": {
@@ -23908,7 +23945,7 @@
     },
     "925": {
       "number": 925,
-      "updatedAt": "2026-09-25T06:36:09Z",
+      "updatedAt": "2026-10-01T17:04:45Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24316,6 +24353,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "949": {
+      "number": 949,
+      "updatedAt": "2026-10-01T03:50:42Z",
+      "merged": false,
+      "author": {
+        "login": "baseballyama",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
