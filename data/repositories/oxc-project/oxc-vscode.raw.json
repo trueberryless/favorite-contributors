@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-01T06:59:18.822Z",
+    "lastRunAt": "2026-10-02T16:34:23.991Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wNFQwOTo0NDozOFrOwWroFA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -364,7 +364,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 4
+        "total_count": 5
       }
     },
     "52": {
@@ -1504,7 +1504,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 4
+        "total_count": 6
       }
     },
     "207": {
@@ -2158,6 +2158,9 @@
       "user": {
         "login": "thernstig",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "296": {
@@ -2985,6 +2988,27 @@
       "user": {
         "login": "Claude",
         "type": "Bot"
+      }
+    },
+    "411": {
+      "number": 411,
+      "user": {
+        "login": "leaysgur",
+        "type": "User"
+      }
+    },
+    "412": {
+      "number": 412,
+      "user": {
+        "login": "Claude",
+        "type": "Bot"
+      }
+    },
+    "413": {
+      "number": 413,
+      "user": {
+        "login": "Sysix",
+        "type": "User"
       }
     }
   },
@@ -8864,7 +8888,7 @@
     },
     "395": {
       "number": 395,
-      "updatedAt": "2026-09-27T18:15:31Z",
+      "updatedAt": "2026-10-01T20:43:55Z",
       "merged": false,
       "author": {
         "login": "KuSh",
@@ -9141,8 +9165,8 @@
     },
     "407": {
       "number": 407,
-      "updatedAt": "2026-09-30T22:08:23Z",
-      "merged": false,
+      "updatedAt": "2026-10-01T20:34:38Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9159,7 +9183,7 @@
     },
     "408": {
       "number": 408,
-      "updatedAt": "2026-09-30T23:02:30Z",
+      "updatedAt": "2026-10-01T12:29:14Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -9195,11 +9219,87 @@
     },
     "410": {
       "number": 410,
-      "updatedAt": "2026-09-30T23:21:24Z",
-      "merged": false,
+      "updatedAt": "2026-10-01T20:30:31Z",
+      "merged": true,
       "author": {
         "login": "anthropic-code-agent",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "411": {
+      "number": 411,
+      "updatedAt": "2026-10-01T15:03:10Z",
+      "merged": true,
+      "author": {
+        "login": "leaysgur",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "412": {
+      "number": 412,
+      "updatedAt": "2026-10-02T16:24:03Z",
+      "merged": true,
+      "author": {
+        "login": "anthropic-code-agent",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Sysix",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "413": {
+      "number": 413,
+      "updatedAt": "2026-10-02T16:33:25Z",
+      "merged": true,
+      "author": {
+        "login": "Sysix",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
