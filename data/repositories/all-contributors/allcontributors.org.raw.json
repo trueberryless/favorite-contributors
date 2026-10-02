@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-01T00:43:54.841Z",
+    "lastRunAt": "2026-10-02T04:32:37.550Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0yOFQxNTo0NDo1NlrOA6KG0Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7540,6 +7540,27 @@
       "number": 1187,
       "user": {
         "login": "allcontributors[bot]",
+        "type": "Bot"
+      }
+    },
+    "1188": {
+      "number": 1188,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1189": {
+      "number": 1189,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1190": {
+      "number": 1190,
+      "user": {
+        "login": "dependabot[bot]",
         "type": "Bot"
       }
     }
@@ -26780,6 +26801,84 @@
       "merged": true,
       "author": {
         "login": "allcontributors",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1188": {
+      "number": 1188,
+      "updatedAt": "2026-10-01T14:01:51Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1189": {
+      "number": 1189,
+      "updatedAt": "2026-10-01T09:34:15Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1190": {
+      "number": 1190,
+      "updatedAt": "2026-10-01T09:37:23Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
