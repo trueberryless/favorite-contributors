@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-01T06:57:13.303Z",
+    "lastRunAt": "2026-10-02T10:45:34.511Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNC0xNlQxNzo0NToyNFrO0wuQ-g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -734,6 +734,13 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "101": {
+      "number": 101,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
       }
     }
   },
@@ -2645,8 +2652,8 @@
     },
     "98": {
       "number": 98,
-      "updatedAt": "2026-10-01T00:47:07Z",
-      "merged": false,
+      "updatedAt": "2026-10-01T08:24:55Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -2663,8 +2670,8 @@
     },
     "99": {
       "number": 99,
-      "updatedAt": "2026-10-01T00:47:43Z",
-      "merged": false,
+      "updatedAt": "2026-10-01T08:23:59Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -2681,11 +2688,29 @@
     },
     "100": {
       "number": 100,
-      "updatedAt": "2026-10-01T00:51:33Z",
-      "merged": false,
+      "updatedAt": "2026-10-01T08:51:08Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "101": {
+      "number": 101,
+      "updatedAt": "2026-10-02T10:33:23Z",
+      "merged": false,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
