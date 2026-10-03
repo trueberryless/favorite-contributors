@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T10:45:34.511Z",
+    "lastRunAt": "2026-10-03T15:52:56.794Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNC0xNlQxNzo0NToyNFrO0wuQ-g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2706,8 +2706,8 @@
     },
     "101": {
       "number": 101,
-      "updatedAt": "2026-10-02T10:33:23Z",
-      "merged": false,
+      "updatedAt": "2026-10-02T11:04:07Z",
+      "merged": true,
       "author": {
         "login": "paoloricciuti",
         "__typename": "User"
@@ -2719,7 +2719,29 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

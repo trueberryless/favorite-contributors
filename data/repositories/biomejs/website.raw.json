@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T10:44:05.617Z",
+    "lastRunAt": "2026-10-03T15:51:31.002Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32223,6 +32223,13 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "4596": {
+      "number": 4596,
+      "user": {
+        "login": "dyc3",
+        "type": "User"
       }
     }
   },
@@ -121245,7 +121252,7 @@
     },
     "4508": {
       "number": 4508,
-      "updatedAt": "2026-09-17T20:34:04Z",
+      "updatedAt": "2026-10-02T14:29:16Z",
       "merged": false,
       "author": {
         "login": "yanthomasdev",
@@ -123089,7 +123096,7 @@
     },
     "4593": {
       "number": 4593,
-      "updatedAt": "2026-09-30T23:06:11Z",
+      "updatedAt": "2026-10-02T15:34:12Z",
       "merged": false,
       "author": {
         "login": "yanthomasdev",
@@ -123103,6 +123110,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -123147,6 +123161,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "4596": {
+      "number": 4596,
+      "updatedAt": "2026-10-02T22:05:52Z",
+      "merged": false,
+      "author": {
+        "login": "dyc3",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
