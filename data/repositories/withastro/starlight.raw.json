@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T04:31:09.194Z",
+    "lastRunAt": "2026-10-03T11:55:17.440Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27564,6 +27564,41 @@
       "number": 4237,
       "user": {
         "login": "dragomano",
+        "type": "User"
+      }
+    },
+    "4238": {
+      "number": 4238,
+      "user": {
+        "login": "okxint",
+        "type": "User"
+      }
+    },
+    "4239": {
+      "number": 4239,
+      "user": {
+        "login": "trueproxies",
+        "type": "User"
+      }
+    },
+    "4240": {
+      "number": 4240,
+      "user": {
+        "login": "trueberryless",
+        "type": "User"
+      }
+    },
+    "4241": {
+      "number": 4241,
+      "user": {
+        "login": "trueberryless",
+        "type": "User"
+      }
+    },
+    "4242": {
+      "number": 4242,
+      "user": {
+        "login": "trueberryless",
         "type": "User"
       }
     }
@@ -134464,7 +134499,7 @@
     },
     "4235": {
       "number": 4235,
-      "updatedAt": "2026-10-01T14:47:38Z",
+      "updatedAt": "2026-10-02T08:15:26Z",
       "merged": false,
       "author": {
         "login": "astrobot-houston",
@@ -134482,10 +134517,87 @@
     },
     "4236": {
       "number": 4236,
-      "updatedAt": "2026-10-01T23:14:41Z",
-      "merged": false,
+      "updatedAt": "2026-10-02T10:16:52Z",
+      "merged": true,
       "author": {
         "login": "jsparkdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4237": {
+      "number": 4237,
+      "updatedAt": "2026-10-02T08:13:21Z",
+      "merged": true,
+      "author": {
+        "login": "dragomano",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4238": {
+      "number": 4238,
+      "updatedAt": "2026-10-02T08:02:41Z",
+      "merged": false,
+      "author": {
+        "login": "okxint",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4239": {
+      "number": 4239,
+      "updatedAt": "2026-10-02T11:59:04Z",
+      "merged": false,
+      "author": {
+        "login": "trueproxies",
         "__typename": "User"
       },
       "closingIssuesReferences": {
@@ -134498,12 +134610,48 @@
         "nodes": []
       }
     },
-    "4237": {
-      "number": 4237,
-      "updatedAt": "2026-10-02T01:37:11Z",
+    "4240": {
+      "number": 4240,
+      "updatedAt": "2026-10-03T09:03:58Z",
       "merged": false,
       "author": {
-        "login": "dragomano",
+        "login": "trueberryless",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4241": {
+      "number": 4241,
+      "updatedAt": "2026-10-02T15:41:06Z",
+      "merged": false,
+      "author": {
+        "login": "trueberryless",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4242": {
+      "number": 4242,
+      "updatedAt": "2026-10-02T15:44:17Z",
+      "merged": false,
+      "author": {
+        "login": "trueberryless",
         "__typename": "User"
       },
       "closingIssuesReferences": {

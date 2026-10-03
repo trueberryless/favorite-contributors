@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T04:31:52.295Z",
+    "lastRunAt": "2026-10-03T11:56:03.922Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0wMlQyMDo1NDozOVrOpl321A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1961,6 +1961,13 @@
       "number": 331,
       "user": {
         "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "332": {
+      "number": 332,
+      "user": {
+        "login": "pjonsson",
         "type": "User"
       }
     }
@@ -7043,7 +7050,7 @@
     },
     "329": {
       "number": 329,
-      "updatedAt": "2026-09-17T09:59:30Z",
+      "updatedAt": "2026-10-03T08:32:27Z",
       "merged": false,
       "author": {
         "login": "pjonsson",
@@ -7062,6 +7069,13 @@
             "author": {
               "login": "goulvenclech",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
             }
           }
         ]
@@ -7124,6 +7138,24 @@
             }
           }
         ]
+      }
+    },
+    "332": {
+      "number": 332,
+      "updatedAt": "2026-10-03T08:40:21Z",
+      "merged": false,
+      "author": {
+        "login": "pjonsson",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

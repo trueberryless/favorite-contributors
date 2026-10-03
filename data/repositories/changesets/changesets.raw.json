@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T10:42:21.799Z",
+    "lastRunAt": "2026-10-03T11:57:27.005Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -11642,7 +11642,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 2
+        "total_count": 3
       }
     },
     "1673": {
@@ -16220,6 +16220,20 @@
       "number": 2324,
       "user": {
         "login": "trevor-scheer",
+        "type": "User"
+      }
+    },
+    "2325": {
+      "number": 2325,
+      "user": {
+        "login": "kaanisthatyou",
+        "type": "User"
+      }
+    },
+    "2326": {
+      "number": 2326,
+      "user": {
+        "login": "Boulea7",
         "type": "User"
       }
     }
@@ -59352,6 +59366,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2325": {
+      "number": 2325,
+      "updatedAt": "2026-10-02T13:56:36Z",
+      "merged": false,
+      "author": {
+        "login": "kaanisthatyou",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2326": {
+      "number": 2326,
+      "updatedAt": "2026-10-02T17:45:16Z",
+      "merged": false,
+      "author": {
+        "login": "Boulea7",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
