@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T16:34:23.991Z",
+    "lastRunAt": "2026-10-03T19:05:24.228Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wNFQwOTo0NDozOFrOwWroFA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3008,6 +3008,20 @@
       "number": 413,
       "user": {
         "login": "Sysix",
+        "type": "User"
+      }
+    },
+    "414": {
+      "number": 414,
+      "user": {
+        "login": "oxc-guard[bot]",
+        "type": "Bot"
+      }
+    },
+    "415": {
+      "number": 415,
+      "user": {
+        "login": "dwiyatci",
         "type": "User"
       }
     }
@@ -9183,8 +9197,8 @@
     },
     "408": {
       "number": 408,
-      "updatedAt": "2026-10-01T12:29:14Z",
-      "merged": false,
+      "updatedAt": "2026-10-02T16:51:17Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9300,6 +9314,24 @@
       "author": {
         "login": "Sysix",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "414": {
+      "number": 414,
+      "updatedAt": "2026-10-02T17:17:02Z",
+      "merged": true,
+      "author": {
+        "login": "oxc-guard",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

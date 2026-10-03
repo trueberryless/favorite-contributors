@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T21:13:23.186Z",
+    "lastRunAt": "2026-10-03T19:08:30.705Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yOVQwMToyMzowMVrO97ywkQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1183,6 +1183,13 @@
       "number": 166,
       "user": {
         "login": "greglum",
+        "type": "User"
+      }
+    },
+    "167": {
+      "number": 167,
+      "user": {
+        "login": "tannerlinsley",
         "type": "User"
       }
     }
@@ -4491,7 +4498,7 @@
     },
     "155": {
       "number": 155,
-      "updatedAt": "2026-10-01T06:40:58Z",
+      "updatedAt": "2026-10-03T10:37:30Z",
       "merged": false,
       "author": {
         "login": "nafasebra",
@@ -4561,8 +4568,8 @@
     },
     "159": {
       "number": 159,
-      "updatedAt": "2026-09-30T23:02:45Z",
-      "merged": false,
+      "updatedAt": "2026-10-03T15:04:42Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -4691,6 +4698,24 @@
       "merged": false,
       "author": {
         "login": "greglum",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "167": {
+      "number": 167,
+      "updatedAt": "2026-10-03T14:57:52Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
         "__typename": "User"
       },
       "closingIssuesReferences": {
