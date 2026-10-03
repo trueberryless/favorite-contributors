@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-01T23:47:41.564Z",
+    "lastRunAt": "2026-10-03T06:07:34.469Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -48766,8 +48766,8 @@
     },
     "2809": {
       "number": 2809,
-      "updatedAt": "2026-10-01T16:31:46Z",
-      "merged": false,
+      "updatedAt": "2026-10-02T10:05:23Z",
+      "merged": true,
       "author": {
         "login": "giaBaoJS",
         "__typename": "User"
@@ -48779,13 +48779,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2810": {
       "number": 2810,
-      "updatedAt": "2026-10-01T17:44:25Z",
-      "merged": false,
+      "updatedAt": "2026-10-02T10:06:04Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -48802,8 +48810,8 @@
     },
     "2811": {
       "number": 2811,
-      "updatedAt": "2026-10-01T18:26:25Z",
-      "merged": false,
+      "updatedAt": "2026-10-02T10:06:07Z",
+      "merged": true,
       "author": {
         "login": "kwy404",
         "__typename": "User"
@@ -48815,7 +48823,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

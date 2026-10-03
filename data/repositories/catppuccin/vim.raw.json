@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T04:29:58.312Z",
+    "lastRunAt": "2026-10-03T06:10:04.819Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0wMlQwODo1NzoxOFrOOri9ew==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -301,6 +301,16 @@
         "login": "mao-yining",
         "type": "User"
       }
+    },
+    "42": {
+      "number": 42,
+      "user": {
+        "login": "mao-yining",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
     }
   },
   "prs": {
@@ -577,6 +587,24 @@
       },
       "reactions": {
         "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "42": {
+      "number": 42,
+      "updatedAt": "2026-10-03T01:30:43Z",
+      "merged": true,
+      "author": {
+        "login": "mao-yining",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []

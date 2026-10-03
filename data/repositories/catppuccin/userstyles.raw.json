@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-02T04:30:08.898Z",
+    "lastRunAt": "2026-10-03T06:10:14.439Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0xOFQyMzozNjowN1rOTGCltw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16478,6 +16478,13 @@
       "number": 2332,
       "user": {
         "login": "uncenter",
+        "type": "User"
+      }
+    },
+    "2333": {
+      "number": 2333,
+      "user": {
+        "login": "daivik007",
         "type": "User"
       }
     }
@@ -82676,6 +82683,24 @@
       "merged": false,
       "author": {
         "login": "uncenter",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2333": {
+      "number": 2333,
+      "updatedAt": "2026-10-03T02:09:32Z",
+      "merged": false,
+      "author": {
+        "login": "daivik007",
         "__typename": "User"
       },
       "closingIssuesReferences": {

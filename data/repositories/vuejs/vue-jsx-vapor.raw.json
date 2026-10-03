@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-01T23:47:50.546Z",
+    "lastRunAt": "2026-10-03T06:07:43.405Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0yOFQxMTozMDoyMlrOc-FkXw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -598,6 +598,9 @@
       "user": {
         "login": "TechQuery",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "76": {
@@ -611,6 +614,16 @@
       "number": 77,
       "user": {
         "login": "leonidaz",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "78": {
+      "number": 78,
+      "user": {
+        "login": "re-thc",
         "type": "User"
       },
       "reactions": {
@@ -863,7 +876,7 @@
     },
     "63": {
       "number": 63,
-      "updatedAt": "2026-10-01T11:01:32Z",
+      "updatedAt": "2026-10-03T06:07:30Z",
       "merged": false,
       "author": {
         "login": "zhiyuanzmj",
@@ -925,8 +938,8 @@
     },
     "75": {
       "number": 75,
-      "updatedAt": "2026-10-01T11:01:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-03T03:43:16Z",
+      "merged": true,
       "author": {
         "login": "TechQuery",
         "__typename": "User"
@@ -935,7 +948,25 @@
         "totalCount": 0
       },
       "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "78": {
+      "number": 78,
+      "updatedAt": "2026-10-03T02:26:19Z",
+      "merged": true,
+      "author": {
+        "login": "re-thc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
