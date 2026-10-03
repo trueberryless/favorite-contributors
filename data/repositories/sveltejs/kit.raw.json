@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-01T23:44:32.590Z",
+    "lastRunAt": "2026-10-03T00:41:15.515Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0xNlQwMTowOToxNVrOHhHIBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -118429,6 +118429,55 @@
       "number": 17305,
       "user": {
         "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "17307": {
+      "number": 17307,
+      "user": {
+        "login": "Nic-Polumeyv",
+        "type": "User"
+      }
+    },
+    "17308": {
+      "number": 17308,
+      "user": {
+        "login": "Nic-Polumeyv",
+        "type": "User"
+      }
+    },
+    "17309": {
+      "number": 17309,
+      "user": {
+        "login": "evdama",
+        "type": "User"
+      }
+    },
+    "17310": {
+      "number": 17310,
+      "user": {
+        "login": "evdama",
+        "type": "User"
+      }
+    },
+    "17311": {
+      "number": 17311,
+      "user": {
+        "login": "machadinhos",
+        "type": "User"
+      }
+    },
+    "17313": {
+      "number": 17313,
+      "user": {
+        "login": "t-eckert",
+        "type": "User"
+      }
+    },
+    "17314": {
+      "number": 17314,
+      "user": {
+        "login": "t-eckert",
         "type": "User"
       }
     }
@@ -378353,7 +378402,7 @@
     },
     "16604": {
       "number": 16604,
-      "updatedAt": "2026-10-01T16:55:18Z",
+      "updatedAt": "2026-10-02T17:27:38Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -395729,7 +395778,7 @@
     },
     "17302": {
       "number": 17302,
-      "updatedAt": "2026-10-01T21:28:17Z",
+      "updatedAt": "2026-10-02T10:14:29Z",
       "merged": false,
       "author": {
         "login": "khughitt",
@@ -395765,7 +395814,7 @@
     },
     "17304": {
       "number": 17304,
-      "updatedAt": "2026-10-01T23:22:05Z",
+      "updatedAt": "2026-10-02T00:10:41Z",
       "merged": false,
       "author": {
         "login": "Nic-Polumeyv",
@@ -395783,14 +395832,131 @@
     },
     "17305": {
       "number": 17305,
-      "updatedAt": "2026-10-01T23:32:53Z",
-      "merged": false,
+      "updatedAt": "2026-10-01T23:47:49Z",
+      "merged": true,
       "author": {
         "login": "teemingc",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "17307": {
+      "number": 17307,
+      "updatedAt": "2026-10-02T21:25:22Z",
+      "merged": false,
+      "author": {
+        "login": "Nic-Polumeyv",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17308": {
+      "number": 17308,
+      "updatedAt": "2026-10-02T21:48:01Z",
+      "merged": false,
+      "author": {
+        "login": "Nic-Polumeyv",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "17310": {
+      "number": 17310,
+      "updatedAt": "2026-10-03T00:23:29Z",
+      "merged": false,
+      "author": {
+        "login": "evdama",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "17314": {
+      "number": 17314,
+      "updatedAt": "2026-10-03T00:38:28Z",
+      "merged": false,
+      "author": {
+        "login": "t-eckert",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

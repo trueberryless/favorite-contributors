@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-01T23:45:56.249Z",
+    "lastRunAt": "2026-10-03T00:42:06.020Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNS0xN1QwNjoyNjoyNFrOJno8kw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2480,6 +2480,9 @@
       "user": {
         "login": "danbom",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "1837": {
@@ -2508,6 +2511,9 @@
       "user": {
         "login": "danbom",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     }
   },
@@ -6071,8 +6077,8 @@
     },
     "1836": {
       "number": 1836,
-      "updatedAt": "2026-10-01T04:04:57Z",
-      "merged": false,
+      "updatedAt": "2026-10-02T00:39:11Z",
+      "merged": true,
       "author": {
         "login": "danbom",
         "__typename": "User"
@@ -6081,16 +6087,24 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Gumball12",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1840": {
       "number": 1840,
-      "updatedAt": "2026-10-01T03:41:04Z",
-      "merged": false,
+      "updatedAt": "2026-10-02T00:34:15Z",
+      "merged": true,
       "author": {
         "login": "danbom",
         "__typename": "User"
@@ -6099,10 +6113,18 @@
         "totalCount": 2
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 2
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Gumball12",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
