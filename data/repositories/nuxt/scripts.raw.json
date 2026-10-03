@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T00:38:55.841Z",
+    "lastRunAt": "2026-10-03T22:23:16.351Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xNFQxMzo0NToyN1rON_gp8A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7529,6 +7529,13 @@
       "number": 940,
       "user": {
         "login": "felixgabler",
+        "type": "User"
+      }
+    },
+    "941": {
+      "number": 941,
+      "user": {
+        "login": "harlan-zw",
         "type": "User"
       }
     }
@@ -21478,7 +21485,7 @@
     },
     "884": {
       "number": 884,
-      "updatedAt": "2026-10-02T07:37:54Z",
+      "updatedAt": "2026-10-03T07:56:43Z",
       "merged": false,
       "author": {
         "login": "harlan-zw",
@@ -22301,7 +22308,7 @@
     },
     "921": {
       "number": 921,
-      "updatedAt": "2026-10-03T00:30:48Z",
+      "updatedAt": "2026-10-03T20:24:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22537,14 +22544,40 @@
     },
     "940": {
       "number": 940,
-      "updatedAt": "2026-10-02T17:13:33Z",
-      "merged": false,
+      "updatedAt": "2026-10-03T07:27:38Z",
+      "merged": true,
       "author": {
         "login": "felixgabler",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "941": {
+      "number": 941,
+      "updatedAt": "2026-10-03T07:52:33Z",
+      "merged": true,
+      "author": {
+        "login": "harlan-zw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

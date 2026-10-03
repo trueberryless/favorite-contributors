@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T00:38:49.889Z",
+    "lastRunAt": "2026-10-03T22:23:10.158Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOC0yNlQxNjo0NzoxM1rOEoT8zA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12600,6 +12600,13 @@
       "number": 1833,
       "user": {
         "login": "yschroe",
+        "type": "User"
+      }
+    },
+    "1834": {
+      "number": 1834,
+      "user": {
+        "login": "yamachi4416",
         "type": "User"
       }
     }
@@ -39965,7 +39972,7 @@
     },
     "1799": {
       "number": 1799,
-      "updatedAt": "2026-09-11T14:15:13Z",
+      "updatedAt": "2026-10-03T13:30:15Z",
       "merged": false,
       "author": {
         "login": "wattanx",
@@ -40813,14 +40820,40 @@
     },
     "1832": {
       "number": 1832,
-      "updatedAt": "2026-10-02T10:10:05Z",
-      "merged": false,
+      "updatedAt": "2026-10-03T16:54:18Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1834": {
+      "number": 1834,
+      "updatedAt": "2026-10-03T13:05:33Z",
+      "merged": false,
+      "author": {
+        "login": "yamachi4416",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 2
       },
       "reactions": {
         "totalCount": 0
