@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T19:08:29.235Z",
+    "lastRunAt": "2026-10-04T21:17:53.263Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wMVQxNjoyMzowNlrOvu2KcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1041,6 +1041,20 @@
     },
     "165": {
       "number": 165,
+      "user": {
+        "login": "KevinVandy",
+        "type": "User"
+      }
+    },
+    "166": {
+      "number": 166,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "167": {
+      "number": 167,
       "user": {
         "login": "KevinVandy",
         "type": "User"
@@ -3606,7 +3620,51 @@
     },
     "165": {
       "number": 165,
-      "updatedAt": "2026-10-03T18:42:44Z",
+      "updatedAt": "2026-10-04T04:58:53Z",
+      "merged": true,
+      "author": {
+        "login": "KevinVandy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "tannerlinsley",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "166": {
+      "number": 166,
+      "updatedAt": "2026-10-04T05:03:50Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "167": {
+      "number": 167,
+      "updatedAt": "2026-10-04T19:28:25Z",
       "merged": false,
       "author": {
         "login": "KevinVandy",

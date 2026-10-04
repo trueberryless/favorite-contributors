@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T19:08:30.274Z",
+    "lastRunAt": "2026-10-04T21:17:54.372Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yNlQxNjoxNzozNVrO9pQaTg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -178,6 +178,13 @@
       "number": 25,
       "user": {
         "login": "M-Hassan-Raza",
+        "type": "User"
+      }
+    },
+    "26": {
+      "number": 26,
+      "user": {
+        "login": "kahwee",
         "type": "User"
       }
     }
@@ -632,6 +639,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "26": {
+      "number": 26,
+      "updatedAt": "2026-10-04T06:15:06Z",
+      "merged": false,
+      "author": {
+        "login": "kahwee",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

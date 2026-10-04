@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T19:08:26.169Z",
+    "lastRunAt": "2026-10-04T21:17:50.055Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9499,7 +9499,7 @@
     },
     "373": {
       "number": 373,
-      "updatedAt": "2026-09-28T21:36:26Z",
+      "updatedAt": "2026-10-04T20:03:00Z",
       "merged": false,
       "author": {
         "login": "Sheraff",
@@ -9512,7 +9512,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "davidkpiano",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "374": {

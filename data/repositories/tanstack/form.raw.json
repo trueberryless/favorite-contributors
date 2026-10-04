@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T19:08:23.550Z",
+    "lastRunAt": "2026-10-04T21:17:46.919Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15301,6 +15301,20 @@
       "number": 2416,
       "user": {
         "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "2418": {
+      "number": 2418,
+      "user": {
+        "login": "LeCarbonator",
+        "type": "User"
+      }
+    },
+    "2419": {
+      "number": 2419,
+      "user": {
+        "login": "MFA-G",
         "type": "User"
       }
     }
@@ -45613,6 +45627,60 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2419": {
+      "number": 2419,
+      "updatedAt": "2026-10-04T13:21:21Z",
+      "merged": false,
+      "author": {
+        "login": "MFA-G",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "MFA-G",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "MFA-G",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
