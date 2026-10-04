@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T11:55:14.152Z",
+    "lastRunAt": "2026-10-04T07:54:37.594Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -102819,6 +102819,9 @@
       "user": {
         "login": "Yusaku01",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "14661": {
@@ -102846,6 +102849,20 @@
       "number": 14664,
       "user": {
         "login": "piyush97",
+        "type": "User"
+      }
+    },
+    "14665": {
+      "number": 14665,
+      "user": {
+        "login": "pruthvi2103",
+        "type": "User"
+      }
+    },
+    "14666": {
+      "number": 14666,
+      "user": {
+        "login": "awwa",
         "type": "User"
       }
     }
@@ -559946,8 +559963,8 @@
     },
     "14637": {
       "number": 14637,
-      "updatedAt": "2026-09-29T16:30:22Z",
-      "merged": false,
+      "updatedAt": "2026-10-04T05:48:48Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
         "__typename": "User"
@@ -559959,7 +559976,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14638": {
@@ -560018,7 +560043,7 @@
     },
     "14639": {
       "number": 14639,
-      "updatedAt": "2026-10-01T14:06:23Z",
+      "updatedAt": "2026-10-04T05:55:34Z",
       "merged": false,
       "author": {
         "login": "awwa",
@@ -560372,7 +560397,7 @@
     },
     "14654": {
       "number": 14654,
-      "updatedAt": "2026-10-02T17:30:44Z",
+      "updatedAt": "2026-10-03T15:47:47Z",
       "merged": false,
       "author": {
         "login": "astrobot-houston",
@@ -560476,8 +560501,8 @@
     },
     "14659": {
       "number": 14659,
-      "updatedAt": "2026-10-02T14:47:05Z",
-      "merged": false,
+      "updatedAt": "2026-10-04T05:24:00Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
         "__typename": "User"
@@ -560489,13 +560514,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14660": {
       "number": 14660,
-      "updatedAt": "2026-10-02T15:20:01Z",
-      "merged": false,
+      "updatedAt": "2026-10-04T05:18:00Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
         "__typename": "User"
@@ -560504,10 +560537,18 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14661": {
@@ -560556,7 +560597,7 @@
     },
     "14663": {
       "number": 14663,
-      "updatedAt": "2026-10-03T02:59:55Z",
+      "updatedAt": "2026-10-04T02:27:55Z",
       "merged": false,
       "author": {
         "login": "Fuan200",
@@ -560569,7 +560610,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "angelmarfil",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14664": {
@@ -560578,6 +560627,24 @@
       "merged": false,
       "author": {
         "login": "piyush97",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14666": {
+      "number": 14666,
+      "updatedAt": "2026-10-04T06:22:27Z",
+      "merged": false,
+      "author": {
+        "login": "awwa",
         "__typename": "User"
       },
       "closingIssuesReferences": {

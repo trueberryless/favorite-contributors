@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T06:08:26.625Z",
+    "lastRunAt": "2026-10-04T07:52:05.062Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17539,6 +17539,20 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "2430": {
+      "number": 2430,
+      "user": {
+        "login": "LucaCappelletti94",
+        "type": "User"
+      }
+    },
+    "2431": {
+      "number": 2431,
+      "user": {
+        "login": "LucaCappelletti94",
+        "type": "User"
       }
     }
   },
@@ -56236,6 +56250,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2431": {
+      "number": 2431,
+      "updatedAt": "2026-10-04T06:00:44Z",
+      "merged": false,
+      "author": {
+        "login": "LucaCappelletti94",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "LucaCappelletti94",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

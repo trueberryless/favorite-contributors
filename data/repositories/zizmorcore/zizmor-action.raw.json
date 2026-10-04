@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T06:08:26.625Z",
+    "lastRunAt": "2026-10-04T07:52:05.063Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNS0xOFQxNDo1MDoyMFrOlphYXg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1272,6 +1272,26 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "171": {
+      "number": 171,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "172": {
+      "number": 172,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
       },
       "reactions": {
         "total_count": 1
@@ -3949,14 +3969,14 @@
     },
     "169": {
       "number": 169,
-      "updatedAt": "2026-09-13T11:03:16Z",
-      "merged": false,
+      "updatedAt": "2026-10-04T02:53:42Z",
+      "merged": true,
       "author": {
         "login": "potiuk",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
@@ -4116,6 +4136,27 @@
               "login": "potiuk",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "potiuk",
+              "__typename": "User"
+            }
           }
         ]
       }
@@ -4127,6 +4168,24 @@
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "172": {
+      "number": 172,
+      "updatedAt": "2026-10-04T03:57:44Z",
+      "merged": false,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
