@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T15:54:29.489Z",
+    "lastRunAt": "2026-10-04T18:02:45.413Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51243,6 +51243,20 @@
       "number": 8437,
       "user": {
         "login": "khalidrahmanhanify",
+        "type": "User"
+      }
+    },
+    "8438": {
+      "number": 8438,
+      "user": {
+        "login": "Miodec",
+        "type": "User"
+      }
+    },
+    "8440": {
+      "number": 8440,
+      "user": {
+        "login": "Miodec",
         "type": "User"
       }
     }
@@ -184091,7 +184105,7 @@
     },
     "8417": {
       "number": 8417,
-      "updatedAt": "2026-09-20T12:52:25Z",
+      "updatedAt": "2026-10-04T14:38:10Z",
       "merged": false,
       "author": {
         "login": "peter-lillie",
@@ -184266,7 +184280,7 @@
     },
     "8430": {
       "number": 8430,
-      "updatedAt": "2026-09-29T03:56:48Z",
+      "updatedAt": "2026-10-04T02:10:30Z",
       "merged": false,
       "author": {
         "login": "sha1am",
@@ -184398,7 +184412,7 @@
     },
     "8436": {
       "number": 8436,
-      "updatedAt": "2026-10-01T23:58:34Z",
+      "updatedAt": "2026-10-04T14:56:40Z",
       "merged": false,
       "author": {
         "login": "ShizukoV",
@@ -184424,6 +184438,50 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8438": {
+      "number": 8438,
+      "updatedAt": "2026-10-04T14:33:08Z",
+      "merged": true,
+      "author": {
+        "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8440": {
+      "number": 8440,
+      "updatedAt": "2026-10-04T16:20:50Z",
+      "merged": false,
+      "author": {
+        "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
