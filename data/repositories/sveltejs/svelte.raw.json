@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T00:41:07.852Z",
+    "lastRunAt": "2026-10-04T01:53:05.889Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -136826,7 +136826,7 @@
     "18820": {
       "number": 18820,
       "user": {
-        "login": "KayanoLiam",
+        "login": "akasakariko",
         "type": "User"
       }
     },
@@ -137448,6 +137448,41 @@
       "number": 18914,
       "user": {
         "login": "soreavis",
+        "type": "User"
+      }
+    },
+    "18915": {
+      "number": 18915,
+      "user": {
+        "login": "tachsin",
+        "type": "User"
+      }
+    },
+    "18916": {
+      "number": 18916,
+      "user": {
+        "login": "tachsin",
+        "type": "User"
+      }
+    },
+    "18917": {
+      "number": 18917,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "18918": {
+      "number": 18918,
+      "user": {
+        "login": "AbhiPra24",
+        "type": "User"
+      }
+    },
+    "18919": {
+      "number": 18919,
+      "user": {
+        "login": "Autumnlight02",
         "type": "User"
       }
     }
@@ -372181,10 +372216,10 @@
     },
     "18820": {
       "number": 18820,
-      "updatedAt": "2026-09-13T16:15:37Z",
+      "updatedAt": "2026-10-03T09:20:33Z",
       "merged": false,
       "author": {
-        "login": "KayanoLiam",
+        "login": "akasakariko",
         "__typename": "User"
       },
       "closingIssuesReferences": {
@@ -372553,8 +372588,8 @@
     },
     "18851": {
       "number": 18851,
-      "updatedAt": "2026-09-30T08:12:09Z",
-      "merged": false,
+      "updatedAt": "2026-10-03T11:35:22Z",
+      "merged": true,
       "author": {
         "login": "paoloricciuti",
         "__typename": "User"
@@ -372578,6 +372613,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
               "__typename": "User"
             }
           }
@@ -372692,7 +372741,7 @@
     },
     "18858": {
       "number": 18858,
-      "updatedAt": "2026-09-28T21:45:43Z",
+      "updatedAt": "2026-10-03T11:38:09Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -373702,6 +373751,93 @@
       "merged": false,
       "author": {
         "login": "soreavis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18915": {
+      "number": 18915,
+      "updatedAt": "2026-10-03T09:07:24Z",
+      "merged": false,
+      "author": {
+        "login": "tachsin",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18916": {
+      "number": 18916,
+      "updatedAt": "2026-10-03T09:28:28Z",
+      "merged": false,
+      "author": {
+        "login": "tachsin",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18917": {
+      "number": 18917,
+      "updatedAt": "2026-10-03T10:36:24Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "18918": {
+      "number": 18918,
+      "updatedAt": "2026-10-03T15:42:02Z",
+      "merged": false,
+      "author": {
+        "login": "AbhiPra24",
         "__typename": "User"
       },
       "closingIssuesReferences": {

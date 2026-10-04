@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T00:41:18.413Z",
+    "lastRunAt": "2026-10-04T01:53:17.078Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16391,6 +16391,27 @@
     },
     "2292": {
       "number": 2292,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2293": {
+      "number": 2293,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2294": {
+      "number": 2294,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2295": {
+      "number": 2295,
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
@@ -57839,7 +57860,7 @@
     },
     "2223": {
       "number": 2223,
-      "updatedAt": "2026-10-01T20:19:53Z",
+      "updatedAt": "2026-10-03T18:13:37Z",
       "merged": false,
       "author": {
         "login": "jycouet",
@@ -58471,7 +58492,7 @@
     },
     "2250": {
       "number": 2250,
-      "updatedAt": "2026-09-26T22:08:30Z",
+      "updatedAt": "2026-10-03T18:12:52Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -59382,7 +59403,7 @@
     },
     "2292": {
       "number": 2292,
-      "updatedAt": "2026-10-02T07:00:40Z",
+      "updatedAt": "2026-10-03T14:43:26Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -59395,7 +59416,93 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2293": {
+      "number": 2293,
+      "updatedAt": "2026-10-03T11:36:14Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2294": {
+      "number": 2294,
+      "updatedAt": "2026-10-03T11:45:18Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2295": {
+      "number": 2295,
+      "updatedAt": "2026-10-03T13:01:41Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

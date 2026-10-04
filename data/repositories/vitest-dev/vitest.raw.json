@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T06:06:34.430Z",
+    "lastRunAt": "2026-10-04T01:54:44.107Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wNFQxMzowNjowN1rOL2O6CQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -73550,6 +73550,9 @@
       "user": {
         "login": "johan-gorter",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "11198": {
@@ -75354,6 +75357,55 @@
       "number": 11456,
       "user": {
         "login": "franckchen",
+        "type": "User"
+      }
+    },
+    "11458": {
+      "number": 11458,
+      "user": {
+        "login": "yusuke-oba1",
+        "type": "User"
+      }
+    },
+    "11459": {
+      "number": 11459,
+      "user": {
+        "login": "arjunharshana",
+        "type": "User"
+      }
+    },
+    "11460": {
+      "number": 11460,
+      "user": {
+        "login": "DavidAtJustClaim",
+        "type": "User"
+      }
+    },
+    "11461": {
+      "number": 11461,
+      "user": {
+        "login": "lifeiscontent",
+        "type": "User"
+      }
+    },
+    "11462": {
+      "number": 11462,
+      "user": {
+        "login": "arjunharshana",
+        "type": "User"
+      }
+    },
+    "11463": {
+      "number": 11463,
+      "user": {
+        "login": "Hashim1999164",
+        "type": "User"
+      }
+    },
+    "11464": {
+      "number": 11464,
+      "user": {
+        "login": "prestonwillis10",
         "type": "User"
       }
     }
@@ -244959,7 +245011,7 @@
     },
     "11197": {
       "number": 11197,
-      "updatedAt": "2026-09-29T07:20:09Z",
+      "updatedAt": "2026-10-03T19:31:32Z",
       "merged": false,
       "author": {
         "login": "johan-gorter",
@@ -244969,7 +245021,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -244995,7 +245047,7 @@
             }
           },
           {
-            "state": "APPROVED",
+            "state": "DISMISSED",
             "author": {
               "login": "sheremet-va",
               "__typename": "User"
@@ -245086,7 +245138,7 @@
     },
     "11203": {
       "number": 11203,
-      "updatedAt": "2026-10-02T10:57:10Z",
+      "updatedAt": "2026-10-04T01:17:28Z",
       "merged": false,
       "author": {
         "login": "sandeep780049",
@@ -246622,7 +246674,7 @@
     },
     "11299": {
       "number": 11299,
-      "updatedAt": "2026-09-19T02:01:23Z",
+      "updatedAt": "2026-10-04T00:58:23Z",
       "merged": true,
       "author": {
         "login": "fengmk2",
@@ -246819,7 +246871,7 @@
     },
     "11309": {
       "number": 11309,
-      "updatedAt": "2026-09-20T00:44:16Z",
+      "updatedAt": "2026-10-04T00:58:22Z",
       "merged": false,
       "author": {
         "login": "Lukecele",
@@ -246855,7 +246907,7 @@
     },
     "11313": {
       "number": 11313,
-      "updatedAt": "2026-09-19T11:06:36Z",
+      "updatedAt": "2026-10-03T06:49:04Z",
       "merged": false,
       "author": {
         "login": "ShantanuTaro",
@@ -249267,7 +249319,7 @@
     },
     "11444": {
       "number": 11444,
-      "updatedAt": "2026-10-02T08:03:36Z",
+      "updatedAt": "2026-10-03T09:22:27Z",
       "merged": false,
       "author": {
         "login": "lifeiscontent",
@@ -249409,6 +249461,96 @@
             }
           }
         ]
+      }
+    },
+    "11458": {
+      "number": 11458,
+      "updatedAt": "2026-10-03T07:01:07Z",
+      "merged": false,
+      "author": {
+        "login": "yusuke-oba1",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11459": {
+      "number": 11459,
+      "updatedAt": "2026-10-03T12:20:50Z",
+      "merged": false,
+      "author": {
+        "login": "arjunharshana",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11461": {
+      "number": 11461,
+      "updatedAt": "2026-10-03T09:24:03Z",
+      "merged": false,
+      "author": {
+        "login": "lifeiscontent",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11462": {
+      "number": 11462,
+      "updatedAt": "2026-10-03T12:10:44Z",
+      "merged": false,
+      "author": {
+        "login": "arjunharshana",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11463": {
+      "number": 11463,
+      "updatedAt": "2026-10-03T21:58:11Z",
+      "merged": false,
+      "author": {
+        "login": "Hashim1999164",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

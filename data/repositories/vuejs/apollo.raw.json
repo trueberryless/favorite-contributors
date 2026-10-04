@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T06:07:26.911Z",
+    "lastRunAt": "2026-10-04T01:55:40.303Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMi0yM1QwODo0NzozNFrOBmOJIA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -11300,6 +11300,9 @@
       "user": {
         "login": "nickmessing",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -20747,8 +20750,8 @@
     },
     "1620": {
       "number": 1620,
-      "updatedAt": "2026-09-28T11:31:04Z",
-      "merged": false,
+      "updatedAt": "2026-10-03T09:11:49Z",
+      "merged": true,
       "author": {
         "login": "nickmessing",
         "__typename": "User"
@@ -20757,10 +20760,18 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Akryum",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

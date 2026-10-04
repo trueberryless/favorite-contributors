@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T00:41:14.953Z",
+    "lastRunAt": "2026-10-04T01:53:13.340Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMy0xNVQyMjowMzo1OFrOFyz7vQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23170,6 +23170,9 @@
       "user": {
         "login": "golmakov",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "3100": {
@@ -23256,7 +23259,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 17
+        "total_count": 18
       }
     },
     "3112": {
@@ -55454,7 +55457,7 @@
     },
     "3107": {
       "number": 3107,
-      "updatedAt": "2026-09-29T20:39:24Z",
+      "updatedAt": "2026-10-03T07:20:07Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -55490,7 +55493,7 @@
     },
     "3111": {
       "number": 3111,
-      "updatedAt": "2026-09-25T00:57:24Z",
+      "updatedAt": "2026-10-03T05:25:26Z",
       "merged": false,
       "author": {
         "login": "jasonlyu123",
@@ -55500,7 +55503,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 17
+        "totalCount": 18
       },
       "reviews": {
         "nodes": [
@@ -55737,8 +55740,8 @@
     },
     "3122": {
       "number": 3122,
-      "updatedAt": "2026-09-30T13:23:05Z",
-      "merged": false,
+      "updatedAt": "2026-10-03T07:19:48Z",
+      "merged": true,
       "author": {
         "login": "Hashim1999164",
         "__typename": "User"
@@ -55750,7 +55753,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jasonlyu123",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3126": {
@@ -55791,7 +55802,7 @@
     },
     "3129": {
       "number": 3129,
-      "updatedAt": "2026-09-30T03:44:35Z",
+      "updatedAt": "2026-10-03T22:00:22Z",
       "merged": false,
       "author": {
         "login": "Nic-Polumeyv",
@@ -55804,7 +55815,64 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jasonlyu123",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jasonlyu123",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jasonlyu123",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jasonlyu123",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3130": {
