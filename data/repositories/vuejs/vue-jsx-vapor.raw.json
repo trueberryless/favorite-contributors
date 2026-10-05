@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T01:55:56.732Z",
+    "lastRunAt": "2026-10-05T06:06:34.574Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0yOFQxMTozMDoyMlrOc-FkXw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -636,6 +636,16 @@
         "login": "re-thc",
         "type": "User"
       }
+    },
+    "80": {
+      "number": 80,
+      "user": {
+        "login": "re-thc",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
     }
   },
   "prs": {
@@ -992,6 +1002,24 @@
       },
       "reactions": {
         "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "80": {
+      "number": 80,
+      "updatedAt": "2026-10-04T17:16:57Z",
+      "merged": false,
+      "author": {
+        "login": "re-thc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []

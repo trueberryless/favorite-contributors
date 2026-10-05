@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T07:52:05.062Z",
+    "lastRunAt": "2026-10-05T06:07:18.470Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17553,6 +17553,16 @@
       "user": {
         "login": "LucaCappelletti94",
         "type": "User"
+      }
+    },
+    "2432": {
+      "number": 2432,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -56156,7 +56166,7 @@
     },
     "2424": {
       "number": 2424,
-      "updatedAt": "2026-10-01T09:57:34Z",
+      "updatedAt": "2026-10-05T03:24:56Z",
       "merged": false,
       "author": {
         "login": "ndabas",
@@ -56169,7 +56179,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2425": {
@@ -56254,7 +56272,7 @@
     },
     "2431": {
       "number": 2431,
-      "updatedAt": "2026-10-04T06:00:44Z",
+      "updatedAt": "2026-10-04T17:36:04Z",
       "merged": false,
       "author": {
         "login": "LucaCappelletti94",
@@ -56281,8 +56299,54 @@
               "login": "LucaCappelletti94",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "LucaCappelletti94",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "LucaCappelletti94",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "2432": {
+      "number": 2432,
+      "updatedAt": "2026-10-05T03:49:18Z",
+      "merged": true,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
