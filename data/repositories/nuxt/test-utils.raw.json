@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T22:23:10.158Z",
+    "lastRunAt": "2026-10-05T00:06:06.362Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOC0yNlQxNjo0NzoxM1rOEoT8zA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12608,6 +12608,16 @@
       "user": {
         "login": "yamachi4416",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1835": {
+      "number": 1835,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -40820,7 +40830,7 @@
     },
     "1832": {
       "number": 1832,
-      "updatedAt": "2026-10-03T16:54:18Z",
+      "updatedAt": "2026-10-04T09:19:21Z",
       "merged": true,
       "author": {
         "login": "renovate",
@@ -40840,13 +40850,20 @@
               "login": "danielroe",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "1834": {
       "number": 1834,
-      "updatedAt": "2026-10-03T13:05:33Z",
+      "updatedAt": "2026-10-04T22:00:56Z",
       "merged": false,
       "author": {
         "login": "yamachi4416",
@@ -40854,6 +40871,32 @@
       },
       "closingIssuesReferences": {
         "totalCount": 2
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1835": {
+      "number": 1835,
+      "updatedAt": "2026-10-04T20:23:46Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

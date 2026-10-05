@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T01:53:17.078Z",
+    "lastRunAt": "2026-10-05T00:08:03.319Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16412,6 +16412,20 @@
     },
     "2295": {
       "number": 2295,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2296": {
+      "number": 2296,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2297": {
+      "number": 2297,
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
@@ -59403,7 +59417,7 @@
     },
     "2292": {
       "number": 2292,
-      "updatedAt": "2026-10-03T14:43:26Z",
+      "updatedAt": "2026-10-04T06:52:14Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -59499,6 +59513,50 @@
             "state": "APPROVED",
             "author": {
               "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2296": {
+      "number": 2296,
+      "updatedAt": "2026-10-04T02:58:44Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2297": {
+      "number": 2297,
+      "updatedAt": "2026-10-04T18:21:25Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
               "__typename": "User"
             }
           }

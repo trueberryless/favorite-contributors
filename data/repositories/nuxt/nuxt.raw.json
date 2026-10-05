@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-03T22:23:04.634Z",
+    "lastRunAt": "2026-10-05T00:06:01.211Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMS0xOFQxNToyNjowMFrORpTwtg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -214307,7 +214307,7 @@
         "type": "Bot"
       },
       "reactions": {
-        "total_count": 9
+        "total_count": 10
       }
     },
     "36169": {
@@ -216350,6 +216350,30 @@
       "number": 36452,
       "user": {
         "login": "peterbud",
+        "type": "User"
+      }
+    },
+    "36453": {
+      "number": 36453,
+      "user": {
+        "login": "0d00ciallo0721",
+        "type": "User"
+      }
+    },
+    "36454": {
+      "number": 36454,
+      "user": {
+        "login": "Mini-ghost",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "36455": {
+      "number": 36455,
+      "user": {
+        "login": "danielroe",
         "type": "User"
       }
     }
@@ -521204,7 +521228,7 @@
     },
     "36168": {
       "number": 36168,
-      "updatedAt": "2026-10-03T15:53:47Z",
+      "updatedAt": "2026-10-04T21:34:28Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -521214,7 +521238,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 9
+        "totalCount": 10
       },
       "reviews": {
         "nodes": []
@@ -526921,8 +526945,8 @@
     },
     "36436": {
       "number": 36436,
-      "updatedAt": "2026-09-29T11:20:16Z",
-      "merged": false,
+      "updatedAt": "2026-10-04T21:33:56Z",
+      "merged": true,
       "author": {
         "login": "mansurkhoja",
         "__typename": "User"
@@ -526934,7 +526958,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "36441": {
@@ -526997,8 +527029,8 @@
     },
     "36444": {
       "number": 36444,
-      "updatedAt": "2026-09-30T20:08:25Z",
-      "merged": false,
+      "updatedAt": "2026-10-04T21:19:43Z",
+      "merged": true,
       "author": {
         "login": "AndreyYolkin",
         "__typename": "User"
@@ -527011,6 +527043,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
           {
             "state": "APPROVED",
             "author": {
@@ -527184,7 +527223,7 @@
     },
     "36452": {
       "number": 36452,
-      "updatedAt": "2026-10-03T18:43:59Z",
+      "updatedAt": "2026-10-04T21:02:55Z",
       "merged": false,
       "author": {
         "login": "peterbud",
@@ -527192,6 +527231,84 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "36453": {
+      "number": 36453,
+      "updatedAt": "2026-10-04T12:27:15Z",
+      "merged": false,
+      "author": {
+        "login": "0d00ciallo0721",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "36454": {
+      "number": 36454,
+      "updatedAt": "2026-10-04T21:26:52Z",
+      "merged": true,
+      "author": {
+        "login": "Mini-ghost",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "36455": {
+      "number": 36455,
+      "updatedAt": "2026-10-04T21:26:53Z",
+      "merged": true,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
