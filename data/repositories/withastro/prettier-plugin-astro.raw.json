@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T07:54:37.594Z",
+    "lastRunAt": "2026-10-05T15:11:07.412Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wOS0wOFQxODozOTowOFrOK4EsGw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3661,6 +3661,13 @@
       "user": {
         "login": "oti",
         "type": "User"
+      }
+    },
+    "495": {
+      "number": 495,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -11428,11 +11435,37 @@
     },
     "494": {
       "number": 494,
-      "updatedAt": "2026-10-04T04:39:48Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T12:18:11Z",
+      "merged": true,
       "author": {
         "login": "oti",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Princesseuh",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "495": {
+      "number": 495,
+      "updatedAt": "2026-10-05T12:18:33Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
