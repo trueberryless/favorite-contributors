@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T18:03:30.709Z",
+    "lastRunAt": "2026-10-06T02:26:32.300Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0yM1QwMjozNTozMlrOYwFWgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4807,6 +4807,27 @@
     },
     "616": {
       "number": 616,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "617": {
+      "number": 617,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "618": {
+      "number": 618,
+      "user": {
+        "login": "PeterRydberg",
+        "type": "User"
+      }
+    },
+    "619": {
+      "number": 619,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -10341,7 +10362,7 @@
     },
     "355": {
       "number": 355,
-      "updatedAt": "2026-09-27T21:50:43Z",
+      "updatedAt": "2026-10-04T22:07:09Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -14195,6 +14216,60 @@
     "616": {
       "number": 616,
       "updatedAt": "2026-09-28T18:15:03Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "617": {
+      "number": 617,
+      "updatedAt": "2026-10-04T22:04:32Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "618": {
+      "number": 618,
+      "updatedAt": "2026-10-05T14:01:18Z",
+      "merged": false,
+      "author": {
+        "login": "PeterRydberg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "619": {
+      "number": 619,
+      "updatedAt": "2026-10-05T15:49:00Z",
       "merged": true,
       "author": {
         "login": "renovate",

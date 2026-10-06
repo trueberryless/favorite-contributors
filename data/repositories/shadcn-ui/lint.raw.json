@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T21:16:34.357Z",
+    "lastRunAt": "2026-10-06T02:28:03.919Z",
     "prBackfillCursor": null,
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -398,6 +398,9 @@
       "user": {
         "login": "shadcn",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "53": {
@@ -505,6 +508,34 @@
       "number": 67,
       "user": {
         "login": "nkurunziza-saddy",
+        "type": "User"
+      }
+    },
+    "68": {
+      "number": 68,
+      "user": {
+        "login": "shadcn",
+        "type": "User"
+      }
+    },
+    "69": {
+      "number": 69,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "70": {
+      "number": 70,
+      "user": {
+        "login": "pt-hieu",
+        "type": "User"
+      }
+    },
+    "71": {
+      "number": 71,
+      "user": {
+        "login": "viniciusrebel",
         "type": "User"
       }
     }
@@ -916,11 +947,47 @@
     },
     "52": {
       "number": 52,
-      "updatedAt": "2026-09-22T11:31:43Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T07:58:17Z",
+      "merged": true,
       "author": {
         "login": "shadcn",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "68": {
+      "number": 68,
+      "updatedAt": "2026-10-05T07:54:51Z",
+      "merged": true,
+      "author": {
+        "login": "shadcn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "69": {
+      "number": 69,
+      "updatedAt": "2026-10-05T07:58:40Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T18:02:45.413Z",
+    "lastRunAt": "2026-10-06T02:25:43.382Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51257,6 +51257,41 @@
       "number": 8440,
       "user": {
         "login": "Miodec",
+        "type": "User"
+      }
+    },
+    "8441": {
+      "number": 8441,
+      "user": {
+        "login": "VaxOps",
+        "type": "User"
+      }
+    },
+    "8442": {
+      "number": 8442,
+      "user": {
+        "login": "RamChetanRCR",
+        "type": "User"
+      }
+    },
+    "8443": {
+      "number": 8443,
+      "user": {
+        "login": "ShizukoV",
+        "type": "User"
+      }
+    },
+    "8444": {
+      "number": 8444,
+      "user": {
+        "login": "ShizukoV",
+        "type": "User"
+      }
+    },
+    "8445": {
+      "number": 8445,
+      "user": {
+        "login": "ShizukoV",
         "type": "User"
       }
     }
@@ -181533,7 +181568,7 @@
     },
     "8236": {
       "number": 8236,
-      "updatedAt": "2026-09-24T14:19:10Z",
+      "updatedAt": "2026-10-05T18:13:21Z",
       "merged": false,
       "author": {
         "login": "torturado",
@@ -182819,7 +182854,7 @@
     },
     "8324": {
       "number": 8324,
-      "updatedAt": "2026-09-05T12:11:46Z",
+      "updatedAt": "2026-10-05T17:40:59Z",
       "merged": false,
       "author": {
         "login": "ahamSel",
@@ -184474,10 +184509,108 @@
     },
     "8440": {
       "number": 8440,
-      "updatedAt": "2026-10-04T16:20:50Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T20:29:27Z",
+      "merged": true,
       "author": {
         "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8441": {
+      "number": 8441,
+      "updatedAt": "2026-10-04T21:35:29Z",
+      "merged": false,
+      "author": {
+        "login": "VaxOps",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8442": {
+      "number": 8442,
+      "updatedAt": "2026-10-05T19:20:46Z",
+      "merged": false,
+      "author": {
+        "login": "RamChetanRCR",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8443": {
+      "number": 8443,
+      "updatedAt": "2026-10-05T22:13:57Z",
+      "merged": false,
+      "author": {
+        "login": "ShizukoV",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8444": {
+      "number": 8444,
+      "updatedAt": "2026-10-05T22:18:16Z",
+      "merged": false,
+      "author": {
+        "login": "ShizukoV",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8445": {
+      "number": 8445,
+      "updatedAt": "2026-10-05T22:25:43Z",
+      "merged": false,
+      "author": {
+        "login": "ShizukoV",
         "__typename": "User"
       },
       "closingIssuesReferences": {
