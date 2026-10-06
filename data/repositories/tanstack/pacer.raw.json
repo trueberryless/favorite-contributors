@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T21:17:51.356Z",
+    "lastRunAt": "2026-10-06T09:15:28.025Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xMVQxNzoyMDo1M1rOjiypRg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1866,6 +1866,13 @@
       "user": {
         "login": "KevinVandy",
         "type": "User"
+      }
+    },
+    "281": {
+      "number": 281,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -6829,8 +6836,8 @@
     },
     "273": {
       "number": 273,
-      "updatedAt": "2026-10-04T14:20:22Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T13:28:40Z",
+      "merged": true,
       "author": {
         "login": "KevinVandy",
         "__typename": "User"
@@ -6847,6 +6854,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "benjavicente",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LadyBluenotes",
               "__typename": "User"
             }
           }
@@ -6963,11 +6977,29 @@
     },
     "280": {
       "number": 280,
-      "updatedAt": "2026-10-04T19:53:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T12:33:12Z",
+      "merged": true,
       "author": {
         "login": "KevinVandy",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "281": {
+      "number": 281,
+      "updatedAt": "2026-10-05T13:32:14Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

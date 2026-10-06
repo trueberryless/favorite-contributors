@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T00:06:07.692Z",
+    "lastRunAt": "2026-10-06T09:19:12.176Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12096,6 +12096,20 @@
       "user": {
         "login": "yatmo-admin",
         "type": "User"
+      }
+    },
+    "1637": {
+      "number": 1637,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1638": {
+      "number": 1638,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -36573,7 +36587,7 @@
     },
     "1606": {
       "number": 1606,
-      "updatedAt": "2026-09-28T04:13:17Z",
+      "updatedAt": "2026-10-05T13:31:30Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -37052,6 +37066,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1637": {
+      "number": 1637,
+      "updatedAt": "2026-10-05T07:22:07Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1638": {
+      "number": 1638,
+      "updatedAt": "2026-10-05T07:15:38Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

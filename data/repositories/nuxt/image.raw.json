@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T00:06:08.043Z",
+    "lastRunAt": "2026-10-06T09:19:12.784Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0zMFQxMzozMjo0NVrOHYjpvA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17565,6 +17565,20 @@
     },
     "2342": {
       "number": 2342,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2343": {
+      "number": 2343,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2344": {
+      "number": 2344,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -52426,7 +52440,7 @@
     },
     "2295": {
       "number": 2295,
-      "updatedAt": "2026-09-28T07:19:22Z",
+      "updatedAt": "2026-10-05T08:13:21Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -52524,7 +52538,7 @@
     },
     "2301": {
       "number": 2301,
-      "updatedAt": "2026-10-01T13:41:00Z",
+      "updatedAt": "2026-10-05T09:06:19Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -52768,7 +52782,7 @@
     },
     "2312": {
       "number": 2312,
-      "updatedAt": "2026-09-23T02:44:12Z",
+      "updatedAt": "2026-10-06T02:03:21Z",
       "merged": false,
       "author": {
         "login": "blue-rigel",
@@ -53498,6 +53512,65 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2343": {
+      "number": 2343,
+      "updatedAt": "2026-10-05T08:07:10Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2344": {
+      "number": 2344,
+      "updatedAt": "2026-10-05T09:01:57Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
           {
             "state": "APPROVED",
             "author": {

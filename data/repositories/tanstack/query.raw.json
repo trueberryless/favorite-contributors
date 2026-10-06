@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-04T21:17:49.048Z",
+    "lastRunAt": "2026-10-06T09:15:23.831Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNy0xMVQwMToyODo1MlrOGqrGVA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -58348,6 +58348,34 @@
       "number": 11916,
       "user": {
         "login": "wspperrimh",
+        "type": "User"
+      }
+    },
+    "11917": {
+      "number": 11917,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "11918": {
+      "number": 11918,
+      "user": {
+        "login": "VGontier-cmd",
+        "type": "User"
+      }
+    },
+    "11919": {
+      "number": 11919,
+      "user": {
+        "login": "VGontier-cmd",
+        "type": "User"
+      }
+    },
+    "11920": {
+      "number": 11920,
+      "user": {
+        "login": "taekop",
         "type": "User"
       }
     }
@@ -193570,8 +193598,8 @@
     },
     "11758": {
       "number": 11758,
-      "updatedAt": "2026-10-04T19:12:44Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T17:38:30Z",
+      "merged": true,
       "author": {
         "login": "sukvvon",
         "__typename": "User"
@@ -193583,7 +193611,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LadyBluenotes",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "11759": {
@@ -194641,8 +194684,8 @@
     },
     "11817": {
       "number": 11817,
-      "updatedAt": "2026-10-04T19:15:48Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T03:41:31Z",
+      "merged": true,
       "author": {
         "login": "sukvvon",
         "__typename": "User"
@@ -194654,7 +194697,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LadyBluenotes",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "11818": {
@@ -195289,7 +195340,7 @@
     },
     "11849": {
       "number": 11849,
-      "updatedAt": "2026-10-04T19:00:59Z",
+      "updatedAt": "2026-10-05T17:41:01Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -196551,8 +196602,8 @@
     },
     "11913": {
       "number": 11913,
-      "updatedAt": "2026-10-04T19:44:10Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T03:30:10Z",
+      "merged": true,
       "author": {
         "login": "sukvvon",
         "__typename": "User"
@@ -196621,10 +196672,79 @@
     },
     "11916": {
       "number": 11916,
-      "updatedAt": "2026-10-04T21:16:43Z",
+      "updatedAt": "2026-10-04T21:32:26Z",
       "merged": false,
       "author": {
         "login": "wspperrimh",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11917": {
+      "number": 11917,
+      "updatedAt": "2026-10-06T00:39:25Z",
+      "merged": false,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "11919": {
+      "number": 11919,
+      "updatedAt": "2026-10-06T08:09:48Z",
+      "merged": false,
+      "author": {
+        "login": "VGontier-cmd",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "11920": {
+      "number": 11920,
+      "updatedAt": "2026-10-06T09:08:32Z",
+      "merged": false,
+      "author": {
+        "login": "taekop",
         "__typename": "User"
       },
       "closingIssuesReferences": {
