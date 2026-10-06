@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T15:11:12.363Z",
+    "lastRunAt": "2026-10-06T21:12:59.787Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27625,6 +27625,23 @@
     },
     "4246": {
       "number": 4246,
+      "user": {
+        "login": "kaktaknet",
+        "type": "User"
+      }
+    },
+    "4247": {
+      "number": 4247,
+      "user": {
+        "login": "eric-lesslie",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "4249": {
+      "number": 4249,
       "user": {
         "login": "kaktaknet",
         "type": "User"
@@ -128997,7 +129014,7 @@
     },
     "4011": {
       "number": 4011,
-      "updatedAt": "2026-10-01T13:23:15Z",
+      "updatedAt": "2026-10-06T19:28:21Z",
       "merged": false,
       "author": {
         "login": "trueberryless",
@@ -134023,7 +134040,7 @@
     },
     "4218": {
       "number": 4218,
-      "updatedAt": "2026-10-03T13:33:59Z",
+      "updatedAt": "2026-10-06T14:08:33Z",
       "merged": false,
       "author": {
         "login": "delucis",
@@ -134037,6 +134054,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -134527,7 +134551,7 @@
     },
     "4235": {
       "number": 4235,
-      "updatedAt": "2026-10-03T13:31:47Z",
+      "updatedAt": "2026-10-06T14:58:23Z",
       "merged": false,
       "author": {
         "login": "astrobot-houston",
@@ -134718,8 +134742,8 @@
     },
     "4243": {
       "number": 4243,
-      "updatedAt": "2026-10-05T05:00:41Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T14:59:13Z",
+      "merged": true,
       "author": {
         "login": "Shaunclarke04",
         "__typename": "User"
@@ -134731,13 +134755,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4244": {
       "number": 4244,
-      "updatedAt": "2026-10-05T06:27:43Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T14:47:09Z",
+      "merged": true,
       "author": {
         "login": "clong365",
         "__typename": "User"
@@ -134749,13 +134781,28 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4245": {
       "number": 4245,
-      "updatedAt": "2026-10-05T09:12:08Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T14:49:15Z",
+      "merged": true,
       "author": {
         "login": "ewels",
         "__typename": "User"
@@ -134767,12 +134814,46 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4246": {
       "number": 4246,
-      "updatedAt": "2026-10-05T12:57:41Z",
+      "updatedAt": "2026-10-06T14:54:50Z",
+      "merged": true,
+      "author": {
+        "login": "kaktaknet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4249": {
+      "number": 4249,
+      "updatedAt": "2026-10-06T15:25:46Z",
       "merged": false,
       "author": {
         "login": "kaktaknet",
@@ -134785,7 +134866,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

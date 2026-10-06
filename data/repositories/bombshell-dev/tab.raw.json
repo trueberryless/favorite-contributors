@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T06:08:06.494Z",
+    "lastRunAt": "2026-10-06T21:10:47.424Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0wMlQxMDoyMToxNlrOh2213w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1068,6 +1068,13 @@
       "number": 153,
       "user": {
         "login": "kazupon",
+        "type": "User"
+      }
+    },
+    "154": {
+      "number": 154,
+      "user": {
+        "login": "AmirSa12",
         "type": "User"
       }
     }
@@ -3906,6 +3913,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "154": {
+      "number": 154,
+      "updatedAt": "2026-10-06T20:23:36Z",
+      "merged": false,
+      "author": {
+        "login": "AmirSa12",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T06:07:18.470Z",
+    "lastRunAt": "2026-10-06T21:09:58.147Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17560,6 +17560,43 @@
       "user": {
         "login": "woodruffw",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2433": {
+      "number": 2433,
+      "user": {
+        "login": "Winipedia",
+        "type": "User"
+      }
+    },
+    "2434": {
+      "number": 2434,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2435": {
+      "number": 2435,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2436": {
+      "number": 2436,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       },
       "reactions": {
         "total_count": 1
@@ -56166,7 +56203,7 @@
     },
     "2424": {
       "number": 2424,
-      "updatedAt": "2026-10-05T03:24:56Z",
+      "updatedAt": "2026-10-06T11:48:21Z",
       "merged": false,
       "author": {
         "login": "ndabas",
@@ -56184,6 +56221,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ndabas",
               "__typename": "User"
             }
           }
@@ -56338,6 +56382,60 @@
       "author": {
         "login": "woodruffw",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2434": {
+      "number": 2434,
+      "updatedAt": "2026-10-05T13:34:58Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2435": {
+      "number": 2435,
+      "updatedAt": "2026-10-05T13:35:40Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2436": {
+      "number": 2436,
+      "updatedAt": "2026-10-05T13:47:03Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

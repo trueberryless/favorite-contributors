@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T06:06:17.392Z",
+    "lastRunAt": "2026-10-06T21:08:47.001Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18936,7 +18936,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 6
+        "total_count": 7
       }
     },
     "2476": {
@@ -24009,6 +24009,27 @@
       "number": 3149,
       "user": {
         "login": "kwy404",
+        "type": "User"
+      }
+    },
+    "3150": {
+      "number": 3150,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3151": {
+      "number": 3151,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3152": {
+      "number": 3152,
+      "user": {
+        "login": "asciieyes",
         "type": "User"
       }
     }
@@ -76155,6 +76176,68 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3150": {
+      "number": 3150,
+      "updatedAt": "2026-10-05T12:41:47Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3151": {
+      "number": 3151,
+      "updatedAt": "2026-10-05T20:35:20Z",
+      "merged": true,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3152": {
+      "number": 3152,
+      "updatedAt": "2026-10-06T17:45:46Z",
+      "merged": false,
+      "author": {
+        "login": "asciieyes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
