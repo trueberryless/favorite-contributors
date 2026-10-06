@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T06:04:48.513Z",
+    "lastRunAt": "2026-10-06T16:12:25.965Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wMlQxMjo1MjozM1rORCLjPw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9847,7 +9847,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 5
+        "total_count": 7
       }
     },
     "1438": {
@@ -10183,6 +10183,9 @@
       "user": {
         "login": "ArnaudBarre",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "1485": {
@@ -10196,6 +10199,41 @@
       "number": 1486,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1487": {
+      "number": 1487,
+      "user": {
+        "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1488": {
+      "number": 1488,
+      "user": {
+        "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1489": {
+      "number": 1489,
+      "user": {
+        "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1490": {
+      "number": 1490,
+      "user": {
+        "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1491": {
+      "number": 1491,
+      "user": {
+        "login": "vite-release-bot[bot]",
         "type": "Bot"
       }
     }
@@ -26763,7 +26801,7 @@
     },
     "1111": {
       "number": 1111,
-      "updatedAt": "2026-10-02T22:44:21Z",
+      "updatedAt": "2026-10-05T21:38:47Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -32600,7 +32638,7 @@
     },
     "1422": {
       "number": 1422,
-      "updatedAt": "2026-10-01T04:22:57Z",
+      "updatedAt": "2026-10-05T21:38:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -33049,7 +33087,7 @@
     },
     "1447": {
       "number": 1447,
-      "updatedAt": "2026-10-03T21:44:01Z",
+      "updatedAt": "2026-10-06T15:11:31Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -33093,7 +33131,7 @@
     },
     "1450": {
       "number": 1450,
-      "updatedAt": "2026-09-28T08:11:01Z",
+      "updatedAt": "2026-10-05T06:14:59Z",
       "merged": false,
       "author": {
         "login": "cpruijsen",
@@ -33201,7 +33239,7 @@
     },
     "1456": {
       "number": 1456,
-      "updatedAt": "2026-10-01T04:24:11Z",
+      "updatedAt": "2026-10-06T15:18:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -33505,7 +33543,7 @@
     },
     "1479": {
       "number": 1479,
-      "updatedAt": "2026-10-02T09:33:43Z",
+      "updatedAt": "2026-10-05T07:08:07Z",
       "merged": false,
       "author": {
         "login": "charan-rathore",
@@ -33523,8 +33561,8 @@
     },
     "1480": {
       "number": 1480,
-      "updatedAt": "2026-10-03T05:21:58Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T15:05:21Z",
+      "merged": true,
       "author": {
         "login": "james-elicx",
         "__typename": "User"
@@ -33536,7 +33574,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1481": {
@@ -33559,8 +33612,8 @@
     },
     "1483": {
       "number": 1483,
-      "updatedAt": "2026-10-04T16:53:41Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T07:16:42Z",
+      "merged": true,
       "author": {
         "login": "ArnaudBarre",
         "__typename": "User"
@@ -33572,13 +33625,21 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1484": {
       "number": 1484,
-      "updatedAt": "2026-10-04T16:53:09Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T07:28:24Z",
+      "merged": true,
       "author": {
         "login": "ArnaudBarre",
         "__typename": "User"
@@ -33587,16 +33648,24 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1485": {
       "number": 1485,
-      "updatedAt": "2026-10-04T17:24:29Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T10:17:39Z",
+      "merged": true,
       "author": {
         "login": "ArnaudBarre",
         "__typename": "User"
@@ -33608,19 +33677,117 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1486": {
       "number": 1486,
-      "updatedAt": "2026-10-05T05:38:44Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T07:54:06Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1487": {
+      "number": 1487,
+      "updatedAt": "2026-10-05T09:15:15Z",
+      "merged": true,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1488": {
+      "number": 1488,
+      "updatedAt": "2026-10-05T09:05:29Z",
+      "merged": true,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1489": {
+      "number": 1489,
+      "updatedAt": "2026-10-05T09:16:08Z",
+      "merged": true,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1490": {
+      "number": 1490,
+      "updatedAt": "2026-10-05T09:49:36Z",
+      "merged": true,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1491": {
+      "number": 1491,
+      "updatedAt": "2026-10-05T10:02:03Z",
+      "merged": true,
+      "author": {
+        "login": "vite-release-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

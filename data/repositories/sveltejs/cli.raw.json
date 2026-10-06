@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T00:08:03.498Z",
+    "lastRunAt": "2026-10-06T16:11:27.595Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10337,6 +10337,20 @@
       "number": 1411,
       "user": {
         "login": "michalius",
+        "type": "User"
+      }
+    },
+    "1412": {
+      "number": 1412,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1413": {
+      "number": 1413,
+      "user": {
+        "login": "TheBeachMaster",
         "type": "User"
       }
     }
@@ -34868,7 +34882,7 @@
     },
     "1202": {
       "number": 1202,
-      "updatedAt": "2026-10-03T19:45:40Z",
+      "updatedAt": "2026-10-05T17:07:00Z",
       "merged": false,
       "author": {
         "login": "sacrosanctic",
@@ -38227,7 +38241,7 @@
     },
     "1344": {
       "number": 1344,
-      "updatedAt": "2026-10-03T21:47:42Z",
+      "updatedAt": "2026-10-05T17:03:24Z",
       "merged": false,
       "author": {
         "login": "pluxain",
@@ -38259,6 +38273,34 @@
             "state": "COMMENTED",
             "author": {
               "login": "pluxain",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "pluxain",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "pluxain",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
               "__typename": "User"
             }
           }
@@ -39260,8 +39302,8 @@
     },
     "1395": {
       "number": 1395,
-      "updatedAt": "2026-10-04T12:52:54Z",
-      "merged": false,
+      "updatedAt": "2026-10-05T08:57:39Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -39273,7 +39315,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1396": {
@@ -39376,6 +39426,32 @@
             "state": "APPROVED",
             "author": {
               "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1412": {
+      "number": 1412,
+      "updatedAt": "2026-10-06T15:59:06Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
               "__typename": "User"
             }
           }
