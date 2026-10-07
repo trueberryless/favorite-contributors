@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T09:15:24.622Z",
+    "lastRunAt": "2026-10-07T14:19:25.099Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2568,6 +2568,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "378": {
+      "number": 378,
+      "user": {
+        "login": "harry-whorlow",
+        "type": "User"
+      }
+    },
+    "379": {
+      "number": 379,
+      "user": {
+        "login": "harry-whorlow",
+        "type": "User"
       }
     }
   },
@@ -8240,7 +8254,7 @@
     },
     "313": {
       "number": 313,
-      "updatedAt": "2026-08-12T06:58:14Z",
+      "updatedAt": "2026-10-06T13:49:04Z",
       "merged": false,
       "author": {
         "login": "harry-whorlow",
@@ -8307,6 +8321,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "LeCarbonator",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harry-whorlow",
               "__typename": "User"
             }
           },
@@ -9600,6 +9621,72 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "378": {
+      "number": 378,
+      "updatedAt": "2026-10-07T07:24:09Z",
+      "merged": false,
+      "author": {
+        "login": "harry-whorlow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harry-whorlow",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "379": {
+      "number": 379,
+      "updatedAt": "2026-10-06T16:41:09Z",
+      "merged": false,
+      "author": {
+        "login": "harry-whorlow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harry-whorlow",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

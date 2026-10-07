@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T02:28:46.409Z",
+    "lastRunAt": "2026-10-07T14:18:22.573Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -81346,6 +81346,9 @@
       "user": {
         "login": "fregante",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "10134": {
@@ -81600,6 +81603,27 @@
       "number": 10169,
       "user": {
         "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10170": {
+      "number": 10170,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10171": {
+      "number": 10171,
+      "user": {
+        "login": "2u841r",
+        "type": "User"
+      }
+    },
+    "10172": {
+      "number": 10172,
+      "user": {
+        "login": "xremix",
         "type": "User"
       }
     }
@@ -263518,7 +263542,7 @@
     },
     "10047": {
       "number": 10047,
-      "updatedAt": "2026-09-26T11:17:25Z",
+      "updatedAt": "2026-10-06T08:18:06Z",
       "merged": false,
       "author": {
         "login": "patrickelectric",
@@ -264569,7 +264593,7 @@
     },
     "10101": {
       "number": 10101,
-      "updatedAt": "2026-09-26T11:17:48Z",
+      "updatedAt": "2026-10-06T19:46:11Z",
       "merged": false,
       "author": {
         "login": "mmustafasenoglu",
@@ -264587,7 +264611,7 @@
     },
     "10102": {
       "number": 10102,
-      "updatedAt": "2026-09-19T12:56:40Z",
+      "updatedAt": "2026-10-06T19:43:43Z",
       "merged": false,
       "author": {
         "login": "ramgao",
@@ -265153,8 +265177,8 @@
     },
     "10136": {
       "number": 10136,
-      "updatedAt": "2026-10-05T04:59:48Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T08:13:59Z",
+      "merged": true,
       "author": {
         "login": "nanami-0713",
         "__typename": "User"
@@ -265166,7 +265190,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "10137": {
@@ -265723,6 +265755,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10172": {
+      "number": 10172,
+      "updatedAt": "2026-10-06T09:54:32Z",
+      "merged": false,
+      "author": {
+        "login": "xremix",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

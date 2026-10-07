@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T09:15:24.100Z",
+    "lastRunAt": "2026-10-07T14:19:23.848Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7988,6 +7988,20 @@
       "number": 1296,
       "user": {
         "login": "piecyk",
+        "type": "User"
+      }
+    },
+    "1297": {
+      "number": 1297,
+      "user": {
+        "login": "langleyd",
+        "type": "User"
+      }
+    },
+    "1298": {
+      "number": 1298,
+      "user": {
+        "login": "langleyd",
         "type": "User"
       }
     }
@@ -22476,6 +22490,46 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1298": {
+      "number": 1298,
+      "updatedAt": "2026-10-07T12:55:38Z",
+      "merged": false,
+      "author": {
+        "login": "langleyd",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "langleyd",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {

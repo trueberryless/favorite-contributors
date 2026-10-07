@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T09:15:32.166Z",
+    "lastRunAt": "2026-10-07T14:19:31.061Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yOVQwMToyMzowMVrO97ywkQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1204,6 +1204,34 @@
       "number": 169,
       "user": {
         "login": "stybo",
+        "type": "User"
+      }
+    },
+    "170": {
+      "number": 170,
+      "user": {
+        "login": "andersk",
+        "type": "User"
+      }
+    },
+    "171": {
+      "number": 171,
+      "user": {
+        "login": "andersk",
+        "type": "User"
+      }
+    },
+    "172": {
+      "number": 172,
+      "user": {
+        "login": "andersk",
+        "type": "User"
+      }
+    },
+    "173": {
+      "number": 173,
+      "user": {
+        "login": "andersk",
         "type": "User"
       }
     }
@@ -4748,6 +4776,68 @@
       "merged": false,
       "author": {
         "login": "stybo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "171": {
+      "number": 171,
+      "updatedAt": "2026-10-07T05:40:14Z",
+      "merged": false,
+      "author": {
+        "login": "andersk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "172": {
+      "number": 172,
+      "updatedAt": "2026-10-07T05:47:31Z",
+      "merged": false,
+      "author": {
+        "login": "andersk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "173": {
+      "number": 173,
+      "updatedAt": "2026-10-07T06:39:57Z",
+      "merged": false,
+      "author": {
+        "login": "andersk",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T09:15:31.421Z",
+    "lastRunAt": "2026-10-07T14:19:30.658Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yNlQxNjoxNzozNVrO9pQaTg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -185,6 +185,27 @@
       "number": 26,
       "user": {
         "login": "kahwee",
+        "type": "User"
+      }
+    },
+    "27": {
+      "number": 27,
+      "user": {
+        "login": "Sheraff",
+        "type": "User"
+      }
+    },
+    "28": {
+      "number": 28,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "29": {
+      "number": 29,
+      "user": {
+        "login": "Sheraff",
         "type": "User"
       }
     }
@@ -643,7 +664,7 @@
     },
     "26": {
       "number": 26,
-      "updatedAt": "2026-10-06T06:43:05Z",
+      "updatedAt": "2026-10-06T18:06:34Z",
       "merged": false,
       "author": {
         "login": "kahwee",
@@ -663,8 +684,77 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Sheraff",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "27": {
+      "number": 27,
+      "updatedAt": "2026-10-06T20:54:18Z",
+      "merged": true,
+      "author": {
+        "login": "Sheraff",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "28": {
+      "number": 28,
+      "updatedAt": "2026-10-06T20:55:20Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "29": {
+      "number": 29,
+      "updatedAt": "2026-10-06T22:15:37Z",
+      "merged": false,
+      "author": {
+        "login": "Sheraff",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

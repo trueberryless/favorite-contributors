@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T09:15:22.007Z",
+    "lastRunAt": "2026-10-07T14:19:21.525Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15325,6 +15325,20 @@
       "number": 2420,
       "user": {
         "login": "dasjideepak",
+        "type": "User"
+      }
+    },
+    "2421": {
+      "number": 2421,
+      "user": {
+        "login": "kazbekaskarov",
+        "type": "User"
+      }
+    },
+    "2422": {
+      "number": 2422,
+      "user": {
+        "login": "musatoktas",
         "type": "User"
       }
     }
@@ -45683,6 +45697,58 @@
               "__typename": "Bot"
             }
           },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2421": {
+      "number": 2421,
+      "updatedAt": "2026-10-06T20:29:09Z",
+      "merged": false,
+      "author": {
+        "login": "kazbekaskarov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2422": {
+      "number": 2422,
+      "updatedAt": "2026-10-07T14:15:27Z",
+      "merged": false,
+      "author": {
+        "login": "musatoktas",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
           {
             "state": "COMMENTED",
             "author": {
