@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T15:12:00.293Z",
+    "lastRunAt": "2026-10-07T00:56:16.456Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0wMlQyMDo1NDozOVrOpl321A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1968,6 +1968,13 @@
       "number": 332,
       "user": {
         "login": "pjonsson",
+        "type": "User"
+      }
+    },
+    "333": {
+      "number": 333,
+      "user": {
+        "login": "davidroeca",
         "type": "User"
       }
     }
@@ -7156,6 +7163,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "333": {
+      "number": 333,
+      "updatedAt": "2026-10-05T16:48:16Z",
+      "merged": false,
+      "author": {
+        "login": "davidroeca",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

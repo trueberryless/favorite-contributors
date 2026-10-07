@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T22:09:42.555Z",
+    "lastRunAt": "2026-10-07T00:59:05.795Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32307,6 +32307,41 @@
       "user": {
         "login": "dyc3",
         "type": "User"
+      }
+    },
+    "4609": {
+      "number": 4609,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "4610": {
+      "number": 4610,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "4611": {
+      "number": 4611,
+      "user": {
+        "login": "Netail",
+        "type": "User"
+      }
+    },
+    "4612": {
+      "number": 4612,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "4613": {
+      "number": 4613,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -118251,7 +118286,7 @@
     },
     "4378": {
       "number": 4378,
-      "updatedAt": "2026-10-05T18:05:25Z",
+      "updatedAt": "2026-10-06T22:29:35Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -122789,8 +122824,8 @@
     },
     "4573": {
       "number": 4573,
-      "updatedAt": "2026-10-05T18:01:21Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T22:25:20Z",
+      "merged": true,
       "author": {
         "login": "Netail",
         "__typename": "User"
@@ -122829,6 +122864,41 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Netail",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
             }
           }
         ]
@@ -123042,7 +123112,7 @@
     },
     "4585": {
       "number": 4585,
-      "updatedAt": "2026-10-05T13:32:09Z",
+      "updatedAt": "2026-10-06T20:39:16Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -123277,8 +123347,8 @@
     },
     "4596": {
       "number": 4596,
-      "updatedAt": "2026-10-05T18:52:58Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T12:50:42Z",
+      "merged": true,
       "author": {
         "login": "dyc3",
         "__typename": "User"
@@ -123296,6 +123366,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
             }
           }
         ]
@@ -123419,7 +123496,7 @@
     },
     "4603": {
       "number": 4603,
-      "updatedAt": "2026-10-05T13:32:03Z",
+      "updatedAt": "2026-10-07T00:42:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -123506,11 +123583,130 @@
     },
     "4607": {
       "number": 4607,
-      "updatedAt": "2026-10-05T18:57:29Z",
+      "updatedAt": "2026-10-06T22:09:02Z",
       "merged": false,
       "author": {
         "login": "dyc3",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4609": {
+      "number": 4609,
+      "updatedAt": "2026-10-06T05:18:12Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4610": {
+      "number": 4610,
+      "updatedAt": "2026-10-06T22:37:46Z",
+      "merged": false,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4611": {
+      "number": 4611,
+      "updatedAt": "2026-10-06T22:47:11Z",
+      "merged": false,
+      "author": {
+        "login": "Netail",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4612": {
+      "number": 4612,
+      "updatedAt": "2026-10-07T00:45:36Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4613": {
+      "number": 4613,
+      "updatedAt": "2026-10-07T00:46:36Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

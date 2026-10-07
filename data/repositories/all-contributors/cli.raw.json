@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-05T15:12:45.723Z",
+    "lastRunAt": "2026-10-07T00:57:00.415Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wNS0xMVQxODozODoyMlrOBCfYWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4166,6 +4166,48 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "566": {
+      "number": 566,
+      "user": {
+        "login": "fire",
+        "type": "User"
+      }
+    },
+    "567": {
+      "number": 567,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "568": {
+      "number": 568,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "569": {
+      "number": 569,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "570": {
+      "number": 570,
+      "user": {
+        "login": "anupamme",
+        "type": "User"
+      }
+    },
+    "571": {
+      "number": 571,
+      "user": {
+        "login": "JoshuaKGoldberg",
+        "type": "User"
       }
     }
   },
@@ -14035,7 +14077,7 @@
     },
     "483": {
       "number": 483,
-      "updatedAt": "2026-09-30T14:28:06Z",
+      "updatedAt": "2026-10-06T10:40:43Z",
       "merged": false,
       "author": {
         "login": "lwasser",
@@ -15330,7 +15372,7 @@
     },
     "541": {
       "number": 541,
-      "updatedAt": "2026-10-02T02:47:40Z",
+      "updatedAt": "2026-10-06T09:39:28Z",
       "merged": false,
       "author": {
         "login": "JoshuaKGoldberg",
@@ -15364,13 +15406,20 @@
               "login": "JoshuaKGoldberg",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "542": {
       "number": 542,
-      "updatedAt": "2026-09-30T13:07:31Z",
+      "updatedAt": "2026-10-06T11:26:48Z",
       "merged": false,
       "author": {
         "login": "JoshuaKGoldberg",
@@ -15748,8 +15797,8 @@
     },
     "563": {
       "number": 563,
-      "updatedAt": "2026-10-01T17:24:10Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T10:40:13Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -15761,16 +15810,154 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "564": {
       "number": 564,
-      "updatedAt": "2026-10-01T17:24:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T10:11:18Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "565": {
+      "number": 565,
+      "updatedAt": "2026-10-06T09:47:07Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "567": {
+      "number": 567,
+      "updatedAt": "2026-10-06T10:36:00Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "568": {
+      "number": 568,
+      "updatedAt": "2026-10-06T10:30:20Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "569": {
+      "number": 569,
+      "updatedAt": "2026-10-06T10:33:34Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "570": {
+      "number": 570,
+      "updatedAt": "2026-10-06T10:36:25Z",
+      "merged": false,
+      "author": {
+        "login": "anupamme",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
@@ -15782,22 +15969,30 @@
         "nodes": []
       }
     },
-    "565": {
-      "number": 565,
-      "updatedAt": "2026-10-01T17:33:02Z",
+    "571": {
+      "number": 571,
+      "updatedAt": "2026-10-06T12:27:14Z",
       "merged": false,
       "author": {
-        "login": "dependabot",
-        "__typename": "Bot"
+        "login": "JoshuaKGoldberg",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "JoshuaKGoldberg",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
