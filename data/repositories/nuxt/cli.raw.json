@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T09:19:19.462Z",
+    "lastRunAt": "2026-10-07T20:07:19.981Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0xNVQxMzowNDoyOFrOSggPtw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12311,6 +12311,41 @@
     },
     "1599": {
       "number": 1599,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1600": {
+      "number": 1600,
+      "user": {
+        "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "1601": {
+      "number": 1601,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1602": {
+      "number": 1602,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1603": {
+      "number": 1603,
+      "user": {
+        "login": "ElPrudi",
+        "type": "User"
+      }
+    },
+    "1604": {
+      "number": 1604,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -42555,8 +42590,8 @@
     },
     "1597": {
       "number": 1597,
-      "updatedAt": "2026-10-05T16:38:12Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T12:52:22Z",
+      "merged": true,
       "author": {
         "login": "iiio2",
         "__typename": "User"
@@ -42568,12 +42603,27 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1598": {
       "number": 1598,
-      "updatedAt": "2026-10-05T23:38:41Z",
+      "updatedAt": "2026-10-06T12:56:50Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -42591,7 +42641,77 @@
     },
     "1599": {
       "number": 1599,
-      "updatedAt": "2026-10-05T23:39:29Z",
+      "updatedAt": "2026-10-06T13:58:39Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1600": {
+      "number": 1600,
+      "updatedAt": "2026-10-06T12:46:32Z",
+      "merged": true,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1601": {
+      "number": 1601,
+      "updatedAt": "2026-10-07T06:47:54Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1602": {
+      "number": 1602,
+      "updatedAt": "2026-10-07T04:24:15Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -42605,6 +42725,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1604": {
+      "number": 1604,
+      "updatedAt": "2026-10-07T19:02:25Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

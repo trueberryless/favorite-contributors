@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T09:19:10.733Z",
+    "lastRunAt": "2026-10-07T20:07:10.947Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOC0yNlQxNjo0NzoxM1rOEoT8zA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12646,6 +12646,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1840": {
+      "number": 1840,
+      "user": {
+        "login": "yamachi4416",
+        "type": "User"
       }
     }
   },
@@ -40891,7 +40898,7 @@
     },
     "1834": {
       "number": 1834,
-      "updatedAt": "2026-10-05T23:34:52Z",
+      "updatedAt": "2026-10-06T11:40:26Z",
       "merged": false,
       "author": {
         "login": "yamachi4416",
@@ -41048,7 +41055,7 @@
     },
     "1839": {
       "number": 1839,
-      "updatedAt": "2026-10-05T23:26:23Z",
+      "updatedAt": "2026-10-07T19:03:24Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -41062,6 +41069,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1840": {
+      "number": 1840,
+      "updatedAt": "2026-10-07T03:17:49Z",
+      "merged": false,
+      "author": {
+        "login": "yamachi4416",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
