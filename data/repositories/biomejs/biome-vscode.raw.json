@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T00:59:03.655Z",
+    "lastRunAt": "2026-10-08T13:58:58.248Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0wNVQxNzowMjo1NFrOXm0cPA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7803,6 +7803,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1176": {
+      "number": 1176,
+      "user": {
+        "login": "Abion47",
+        "type": "User"
       }
     }
   },
@@ -23529,8 +23536,8 @@
     },
     "1171": {
       "number": 1171,
-      "updatedAt": "2026-09-28T15:20:02Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T19:47:25Z",
+      "merged": true,
       "author": {
         "login": "noritaka1166",
         "__typename": "User"
@@ -23542,7 +23549,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "chansuke",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1172": {

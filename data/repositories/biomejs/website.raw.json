@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T00:59:05.795Z",
+    "lastRunAt": "2026-10-08T13:59:00.990Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -30917,7 +30917,7 @@
     "4408": {
       "number": 4408,
       "user": {
-        "login": "AccessNexaaly",
+        "login": "ghost",
         "type": "User"
       }
     },
@@ -41806,7 +41806,7 @@
     },
     "518": {
       "number": 518,
-      "updatedAt": "2024-06-07T16:43:21Z",
+      "updatedAt": "2026-10-07T07:43:23Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -112274,7 +112274,7 @@
     },
     "4116": {
       "number": 4116,
-      "updatedAt": "2026-04-20T08:55:50Z",
+      "updatedAt": "2026-10-07T07:20:57Z",
       "merged": false,
       "author": {
         "login": "mkosei",
@@ -118286,7 +118286,7 @@
     },
     "4378": {
       "number": 4378,
-      "updatedAt": "2026-10-06T22:29:35Z",
+      "updatedAt": "2026-10-07T07:24:43Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -119013,12 +119013,9 @@
     },
     "4408": {
       "number": 4408,
-      "updatedAt": "2026-08-04T19:54:16Z",
+      "updatedAt": "2026-10-07T14:07:53Z",
       "merged": false,
-      "author": {
-        "login": "AccessNexaaly",
-        "__typename": "User"
-      },
+      "author": null,
       "closingIssuesReferences": {
         "totalCount": 0
       },
@@ -123648,7 +123645,7 @@
     },
     "4610": {
       "number": 4610,
-      "updatedAt": "2026-10-06T22:37:46Z",
+      "updatedAt": "2026-10-08T12:23:14Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -123661,13 +123658,70 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Conaclos",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Netail",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Netail",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Conaclos",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4611": {
       "number": 4611,
-      "updatedAt": "2026-10-06T22:47:11Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T07:20:30Z",
+      "merged": true,
       "author": {
         "login": "Netail",
         "__typename": "User"
@@ -123679,7 +123733,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4612": {

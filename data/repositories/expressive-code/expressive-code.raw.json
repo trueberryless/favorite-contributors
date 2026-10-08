@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T00:58:22.899Z",
+    "lastRunAt": "2026-10-08T13:58:05.268Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOS0yNlQxMDoyNzo1MVrOP5f5ZQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3256,6 +3256,20 @@
       "number": 473,
       "user": {
         "login": "ewels",
+        "type": "User"
+      }
+    },
+    "474": {
+      "number": 474,
+      "user": {
+        "login": "cpruijsen",
+        "type": "User"
+      }
+    },
+    "475": {
+      "number": 475,
+      "user": {
+        "login": "cpruijsen",
         "type": "User"
       }
     }
@@ -8740,8 +8754,8 @@
     },
     "473": {
       "number": 473,
-      "updatedAt": "2026-10-06T23:37:14Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T13:41:54Z",
+      "merged": true,
       "author": {
         "login": "ewels",
         "__typename": "User"
@@ -8767,8 +8781,66 @@
               "login": "ewels",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "474": {
+      "number": 474,
+      "updatedAt": "2026-10-07T15:17:38Z",
+      "merged": true,
+      "author": {
+        "login": "cpruijsen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "475": {
+      "number": 475,
+      "updatedAt": "2026-10-07T17:47:05Z",
+      "merged": false,
+      "author": {
+        "login": "cpruijsen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
