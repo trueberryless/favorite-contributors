@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T16:11:22.508Z",
+    "lastRunAt": "2026-10-08T00:20:49.461Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMy0xNVQyMjowMzo1OFrOFyz7vQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23413,6 +23413,41 @@
       "number": 3133,
       "user": {
         "login": "GBra-4-669",
+        "type": "User"
+      }
+    },
+    "3134": {
+      "number": 3134,
+      "user": {
+        "login": "kwestground",
+        "type": "User"
+      }
+    },
+    "3135": {
+      "number": 3135,
+      "user": {
+        "login": "kwestground",
+        "type": "User"
+      }
+    },
+    "3136": {
+      "number": 3136,
+      "user": {
+        "login": "danielbentes",
+        "type": "User"
+      }
+    },
+    "3137": {
+      "number": 3137,
+      "user": {
+        "login": "GBra-4-669",
+        "type": "User"
+      }
+    },
+    "3138": {
+      "number": 3138,
+      "user": {
+        "login": "akashchamp",
         "type": "User"
       }
     }
@@ -55471,7 +55506,7 @@
     },
     "3107": {
       "number": 3107,
-      "updatedAt": "2026-10-03T07:20:07Z",
+      "updatedAt": "2026-10-07T14:25:16Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -55780,7 +55815,7 @@
     },
     "3126": {
       "number": 3126,
-      "updatedAt": "2026-09-25T02:14:01Z",
+      "updatedAt": "2026-10-07T14:25:46Z",
       "merged": false,
       "author": {
         "login": "jasonlyu123",
@@ -55798,8 +55833,8 @@
     },
     "3128": {
       "number": 3128,
-      "updatedAt": "2026-09-29T07:33:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T13:48:58Z",
+      "merged": true,
       "author": {
         "login": "jamalkamaladdin",
         "__typename": "User"
@@ -55811,13 +55846,28 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3129": {
       "number": 3129,
-      "updatedAt": "2026-10-03T22:00:22Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T13:24:30Z",
+      "merged": true,
       "author": {
         "login": "Nic-Polumeyv",
         "__typename": "User"
@@ -55883,6 +55933,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
               "__typename": "User"
             }
           }
@@ -55935,10 +55992,80 @@
     },
     "3133": {
       "number": 3133,
-      "updatedAt": "2026-10-06T08:43:20Z",
+      "updatedAt": "2026-10-07T14:24:51Z",
+      "merged": true,
+      "author": {
+        "login": "GBra-4-669",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3134": {
+      "number": 3134,
+      "updatedAt": "2026-10-07T10:51:57Z",
+      "merged": false,
+      "author": {
+        "login": "kwestground",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3137": {
+      "number": 3137,
+      "updatedAt": "2026-10-07T19:05:04Z",
       "merged": false,
       "author": {
         "login": "GBra-4-669",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3138": {
+      "number": 3138,
+      "updatedAt": "2026-10-07T19:29:22Z",
+      "merged": false,
+      "author": {
+        "login": "akashchamp",
         "__typename": "User"
       },
       "closingIssuesReferences": {

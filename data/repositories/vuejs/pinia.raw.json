@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T21:08:59.780Z",
+    "lastRunAt": "2026-10-08T00:23:31.525Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13874,6 +13874,13 @@
       "number": 3186,
       "user": {
         "login": "AlexianMasson",
+        "type": "User"
+      }
+    },
+    "3187": {
+      "number": 3187,
+      "user": {
+        "login": "sergioperezcheco",
         "type": "User"
       }
     }
@@ -38760,6 +38767,32 @@
             "state": "COMMENTED",
             "author": {
               "login": "AlexianMasson",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3187": {
+      "number": 3187,
+      "updatedAt": "2026-10-07T12:42:25Z",
+      "merged": true,
+      "author": {
+        "login": "sergioperezcheco",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
               "__typename": "User"
             }
           }

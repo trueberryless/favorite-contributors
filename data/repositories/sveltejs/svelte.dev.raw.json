@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T16:11:27.039Z",
+    "lastRunAt": "2026-10-08T00:20:54.024Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -59600,8 +59600,8 @@
     },
     "2298": {
       "number": 2298,
-      "updatedAt": "2026-10-06T05:04:57Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T20:58:20Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -59613,7 +59613,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2299": {
@@ -59654,8 +59662,8 @@
     },
     "2302": {
       "number": 2302,
-      "updatedAt": "2026-10-06T09:19:45Z",
-      "merged": false,
+      "updatedAt": "2026-10-06T20:57:51Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -59667,7 +59675,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
