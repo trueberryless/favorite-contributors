@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T06:58:46.625Z",
+    "lastRunAt": "2026-10-08T19:45:44.960Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wNFQwOTo0NDozOFrOwWroFA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3054,6 +3054,13 @@
       "user": {
         "login": "leaysgur",
         "type": "User"
+      }
+    },
+    "420": {
+      "number": 420,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -9394,11 +9401,37 @@
     },
     "419": {
       "number": 419,
-      "updatedAt": "2026-10-07T04:57:42Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T16:13:54Z",
+      "merged": true,
       "author": {
         "login": "leaysgur",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Sysix",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "420": {
+      "number": 420,
+      "updatedAt": "2026-10-07T16:15:02Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T06:58:43.497Z",
+    "lastRunAt": "2026-10-08T19:45:40.906Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0xMVQwMzo0MzowOFrOY5SVWg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5709,6 +5709,9 @@
       "user": {
         "login": "fengmk2",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -19638,8 +19641,8 @@
     },
     "795": {
       "number": 795,
-      "updatedAt": "2026-10-07T04:27:21Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T16:26:20Z",
+      "merged": true,
       "author": {
         "login": "fengmk2",
         "__typename": "User"
@@ -19648,10 +19651,18 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Sysix",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

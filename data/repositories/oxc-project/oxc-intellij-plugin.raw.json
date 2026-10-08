@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T06:58:43.535Z",
+    "lastRunAt": "2026-10-08T19:45:41.015Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0yM1QwMjozNTozMlrOYwFWgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4845,6 +4845,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "622": {
+      "number": 622,
+      "user": {
+        "login": "ldt-fweichert",
+        "type": "User"
       }
     }
   },
@@ -14265,14 +14272,14 @@
     },
     "618": {
       "number": 618,
-      "updatedAt": "2026-10-05T14:01:18Z",
+      "updatedAt": "2026-10-07T13:15:55Z",
       "merged": false,
       "author": {
         "login": "PeterRydberg",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 1
+        "totalCount": 2
       },
       "reactions": {
         "totalCount": 0
@@ -14301,7 +14308,7 @@
     },
     "620": {
       "number": 620,
-      "updatedAt": "2026-10-07T05:00:08Z",
+      "updatedAt": "2026-10-08T01:02:53Z",
       "merged": false,
       "author": {
         "login": "leaysgur",
@@ -14314,7 +14321,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "nrayburn-tech",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "621": {
