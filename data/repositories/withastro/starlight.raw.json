@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-06T21:12:59.787Z",
+    "lastRunAt": "2026-10-08T06:32:26.422Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27644,6 +27644,20 @@
       "number": 4249,
       "user": {
         "login": "kaktaknet",
+        "type": "User"
+      }
+    },
+    "4250": {
+      "number": 4250,
+      "user": {
+        "login": "HiDeoo",
+        "type": "User"
+      }
+    },
+    "4251": {
+      "number": 4251,
+      "user": {
+        "login": "manuelgruber",
         "type": "User"
       }
     }
@@ -129014,8 +129028,8 @@
     },
     "4011": {
       "number": 4011,
-      "updatedAt": "2026-10-06T19:28:21Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T10:44:34Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -134040,7 +134054,7 @@
     },
     "4218": {
       "number": 4218,
-      "updatedAt": "2026-10-06T14:08:33Z",
+      "updatedAt": "2026-10-07T20:15:00Z",
       "merged": false,
       "author": {
         "login": "delucis",
@@ -134065,6 +134079,34 @@
             "state": "COMMENTED",
             "author": {
               "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
               "__typename": "User"
             }
           }
@@ -134073,7 +134115,7 @@
     },
     "4219": {
       "number": 4219,
-      "updatedAt": "2026-10-01T14:31:08Z",
+      "updatedAt": "2026-10-07T22:30:38Z",
       "merged": false,
       "author": {
         "login": "delucis",
@@ -134147,6 +134189,41 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
               "__typename": "User"
             }
           }
@@ -134551,7 +134628,7 @@
     },
     "4235": {
       "number": 4235,
-      "updatedAt": "2026-10-06T14:58:23Z",
+      "updatedAt": "2026-10-07T22:36:16Z",
       "merged": false,
       "author": {
         "login": "astrobot-houston",
@@ -134853,8 +134930,8 @@
     },
     "4249": {
       "number": 4249,
-      "updatedAt": "2026-10-06T15:25:46Z",
-      "merged": false,
+      "updatedAt": "2026-10-07T10:56:47Z",
+      "merged": true,
       "author": {
         "login": "kaktaknet",
         "__typename": "User"
@@ -134869,6 +134946,86 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dragomano",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4250": {
+      "number": 4250,
+      "updatedAt": "2026-10-07T19:42:58Z",
+      "merged": false,
+      "author": {
+        "login": "HiDeoo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4251": {
+      "number": 4251,
+      "updatedAt": "2026-10-07T22:32:35Z",
+      "merged": true,
+      "author": {
+        "login": "manuelgruber",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "delucis",
               "__typename": "User"
