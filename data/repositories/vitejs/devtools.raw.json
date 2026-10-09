@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T00:21:46.445Z",
+    "lastRunAt": "2026-10-09T06:35:10.582Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNC0xMFQwODo0Njo1MVrOkg6sAw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4589,6 +4589,16 @@
         "login": "jycouet",
         "type": "User"
       }
+    },
+    "609": {
+      "number": 609,
+      "user": {
+        "login": "webfansplz",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
     }
   },
   "prs": {
@@ -7032,7 +7042,7 @@
     },
     "126": {
       "number": 126,
-      "updatedAt": "2026-09-18T08:21:11Z",
+      "updatedAt": "2026-10-08T03:43:02Z",
       "merged": false,
       "author": {
         "login": "RYGRIT",
@@ -14910,7 +14920,7 @@
     },
     "578": {
       "number": 578,
-      "updatedAt": "2026-09-18T08:21:11Z",
+      "updatedAt": "2026-10-08T08:21:00Z",
       "merged": false,
       "author": {
         "login": "SaKaNa-Y",
@@ -15217,7 +15227,7 @@
     },
     "599": {
       "number": 599,
-      "updatedAt": "2026-10-07T06:22:34Z",
+      "updatedAt": "2026-10-08T08:14:34Z",
       "merged": false,
       "author": {
         "login": "SaKaNa-Y",
@@ -15305,7 +15315,7 @@
     },
     "606": {
       "number": 606,
-      "updatedAt": "2026-10-07T06:22:38Z",
+      "updatedAt": "2026-10-08T08:13:15Z",
       "merged": false,
       "author": {
         "login": "SaKaNa-Y",
@@ -15323,7 +15333,7 @@
     },
     "607": {
       "number": 607,
-      "updatedAt": "2026-10-07T06:22:42Z",
+      "updatedAt": "2026-10-08T08:13:36Z",
       "merged": false,
       "author": {
         "login": "SaKaNa-Y",
@@ -15360,6 +15370,32 @@
             "author": {
               "login": "webfansplz",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "609": {
+      "number": 609,
+      "updatedAt": "2026-10-08T09:16:40Z",
+      "merged": false,
+      "author": {
+        "login": "webfansplz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
             }
           }
         ]

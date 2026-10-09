@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T20:07:19.981Z",
+    "lastRunAt": "2026-10-09T06:31:46.318Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0xNVQxMzowNDoyOFrOSggPtw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12346,6 +12346,54 @@
     },
     "1604": {
       "number": 1604,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1605": {
+      "number": 1605,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "1606": {
+      "number": 1606,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1607": {
+      "number": 1607,
+      "user": {
+        "login": "Anoesj",
+        "type": "User"
+      }
+    },
+    "1608": {
+      "number": 1608,
+      "user": {
+        "login": "larbish",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1609": {
+      "number": 1609,
+      "user": {
+        "login": "Smart-Ace-Designs",
+        "type": "User"
+      }
+    },
+    "1610": {
+      "number": 1610,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -42623,7 +42671,7 @@
     },
     "1598": {
       "number": 1598,
-      "updatedAt": "2026-10-06T12:56:50Z",
+      "updatedAt": "2026-10-08T21:04:58Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -42711,7 +42759,7 @@
     },
     "1602": {
       "number": 1602,
-      "updatedAt": "2026-10-07T04:24:15Z",
+      "updatedAt": "2026-10-08T15:38:22Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -42729,8 +42777,8 @@
     },
     "1604": {
       "number": 1604,
-      "updatedAt": "2026-10-07T19:02:25Z",
-      "merged": false,
+      "updatedAt": "2026-10-08T06:27:03Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -42749,8 +42797,199 @@
               "login": "danielroe",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "1605": {
+      "number": 1605,
+      "updatedAt": "2026-10-08T16:07:35Z",
+      "merged": true,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1606": {
+      "number": 1606,
+      "updatedAt": "2026-10-08T21:03:36Z",
+      "merged": true,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1607": {
+      "number": 1607,
+      "updatedAt": "2026-10-08T14:23:31Z",
+      "merged": false,
+      "author": {
+        "login": "Anoesj",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1608": {
+      "number": 1608,
+      "updatedAt": "2026-10-08T15:56:05Z",
+      "merged": false,
+      "author": {
+        "login": "larbish",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1610": {
+      "number": 1610,
+      "updatedAt": "2026-10-08T20:52:07Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

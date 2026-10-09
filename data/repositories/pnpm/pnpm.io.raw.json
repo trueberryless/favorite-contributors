@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T20:08:19.208Z",
+    "lastRunAt": "2026-10-09T06:32:33.902Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7284,6 +7284,13 @@
       "number": 980,
       "user": {
         "login": "dpatrongomez",
+        "type": "User"
+      }
+    },
+    "981": {
+      "number": 981,
+      "user": {
+        "login": "zkochan",
         "type": "User"
       }
     }
@@ -29950,6 +29957,46 @@
             "state": "COMMENTED",
             "author": {
               "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "981": {
+      "number": 981,
+      "updatedAt": "2026-10-08T11:07:33Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
               "__typename": "Bot"
             }
           }

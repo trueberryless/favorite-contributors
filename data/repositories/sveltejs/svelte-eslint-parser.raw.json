@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T00:20:51.619Z",
+    "lastRunAt": "2026-10-09T06:34:19.351Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNC0yN1QwMToxNTozMFrOJSC2xg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6805,6 +6805,27 @@
     },
     "962": {
       "number": 962,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "963": {
+      "number": 963,
+      "user": {
+        "login": "ota-meshi",
+        "type": "User"
+      }
+    },
+    "964": {
+      "number": 964,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "965": {
+      "number": 965,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -17882,8 +17903,8 @@
     },
     "607": {
       "number": 607,
-      "updatedAt": "2026-10-01T04:10:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T01:58:17Z",
+      "merged": true,
       "author": {
         "login": "baseballyama",
         "__typename": "User"
@@ -17901,6 +17922,20 @@
             "author": {
               "login": "copilot-pull-request-reviewer",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
             }
           }
         ]
@@ -21804,7 +21839,7 @@
     },
     "808": {
       "number": 808,
-      "updatedAt": "2026-10-06T15:10:53Z",
+      "updatedAt": "2026-10-09T02:15:02Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22002,7 +22037,7 @@
     },
     "819": {
       "number": 819,
-      "updatedAt": "2026-10-05T21:05:07Z",
+      "updatedAt": "2026-10-09T02:12:46Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22797,7 +22832,7 @@
     },
     "862": {
       "number": 862,
-      "updatedAt": "2026-10-05T21:05:10Z",
+      "updatedAt": "2026-10-09T02:15:32Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23852,8 +23887,8 @@
     },
     "913": {
       "number": 913,
-      "updatedAt": "2026-10-01T04:07:20Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T01:34:05Z",
+      "merged": true,
       "author": {
         "login": "baseballyama",
         "__typename": "User"
@@ -23877,6 +23912,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "baseballyama",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }
@@ -24029,7 +24071,7 @@
     },
     "925": {
       "number": 925,
-      "updatedAt": "2026-10-06T15:10:57Z",
+      "updatedAt": "2026-10-09T02:12:00Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24441,8 +24483,8 @@
     },
     "949": {
       "number": 949,
-      "updatedAt": "2026-10-01T03:50:42Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T01:00:00Z",
+      "merged": true,
       "author": {
         "login": "baseballyama",
         "__typename": "User"
@@ -24460,6 +24502,13 @@
             "author": {
               "login": "copilot-pull-request-reviewer",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
             }
           }
         ]
@@ -24647,7 +24696,7 @@
     },
     "961": {
       "number": 961,
-      "updatedAt": "2026-10-06T15:10:55Z",
+      "updatedAt": "2026-10-09T02:13:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24665,8 +24714,62 @@
     },
     "962": {
       "number": 962,
-      "updatedAt": "2026-10-07T22:45:01Z",
+      "updatedAt": "2026-10-09T05:35:39Z",
       "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "963": {
+      "number": 963,
+      "updatedAt": "2026-10-09T01:19:13Z",
+      "merged": true,
+      "author": {
+        "login": "ota-meshi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "964": {
+      "number": 964,
+      "updatedAt": "2026-10-09T02:10:18Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "965": {
+      "number": 965,
+      "updatedAt": "2026-10-09T01:22:45Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
