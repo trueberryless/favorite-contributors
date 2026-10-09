@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T14:19:23.983Z",
+    "lastRunAt": "2026-10-09T00:12:06.861Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9783,6 +9783,13 @@
       "number": 1356,
       "user": {
         "login": "jakst",
+        "type": "User"
+      }
+    },
+    "1357": {
+      "number": 1357,
+      "user": {
+        "login": "jhislop-design",
         "type": "User"
       }
     }
@@ -27872,7 +27879,7 @@
     },
     "958": {
       "number": 958,
-      "updatedAt": "2026-06-03T00:19:41Z",
+      "updatedAt": "2026-10-07T20:43:13Z",
       "merged": false,
       "author": {
         "login": "jhislop-design",
@@ -27886,6 +27893,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -36117,6 +36131,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1357": {
+      "number": 1357,
+      "updatedAt": "2026-10-07T20:13:29Z",
+      "merged": false,
+      "author": {
+        "login": "jhislop-design",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T14:19:30.927Z",
+    "lastRunAt": "2026-10-09T00:12:12.194Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yMlQxNDoyOToxMFrO9OqwMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -217,6 +217,13 @@
     },
     "30": {
       "number": 30,
+      "user": {
+        "login": "elwan-l1",
+        "type": "User"
+      }
+    },
+    "31": {
+      "number": 31,
       "user": {
         "login": "elwan-l1",
         "type": "User"
@@ -629,6 +636,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "31": {
+      "number": 31,
+      "updatedAt": "2026-10-07T14:35:43Z",
+      "merged": false,
+      "author": {
+        "login": "elwan-l1",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

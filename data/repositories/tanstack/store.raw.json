@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T14:19:25.099Z",
+    "lastRunAt": "2026-10-09T00:12:07.259Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2581,6 +2581,20 @@
       "number": 379,
       "user": {
         "login": "harry-whorlow",
+        "type": "User"
+      }
+    },
+    "380": {
+      "number": 380,
+      "user": {
+        "login": "grzdev",
+        "type": "User"
+      }
+    },
+    "381": {
+      "number": 381,
+      "user": {
+        "login": "grzdev",
         "type": "User"
       }
     }
@@ -8254,7 +8268,7 @@
     },
     "313": {
       "number": 313,
-      "updatedAt": "2026-10-06T13:49:04Z",
+      "updatedAt": "2026-10-08T21:26:13Z",
       "merged": false,
       "author": {
         "login": "harry-whorlow",
@@ -8335,6 +8349,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "harry-whorlow",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "davidkpiano",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "davidkpiano",
               "__typename": "User"
             }
           }
@@ -9687,6 +9715,42 @@
             }
           }
         ]
+      }
+    },
+    "380": {
+      "number": 380,
+      "updatedAt": "2026-10-08T19:39:37Z",
+      "merged": false,
+      "author": {
+        "login": "grzdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "381": {
+      "number": 381,
+      "updatedAt": "2026-10-08T19:49:40Z",
+      "merged": false,
+      "author": {
+        "login": "grzdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-07T14:19:21.525Z",
+    "lastRunAt": "2026-10-09T00:12:04.224Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15339,6 +15339,13 @@
       "number": 2422,
       "user": {
         "login": "musatoktas",
+        "type": "User"
+      }
+    },
+    "2423": {
+      "number": 2423,
+      "user": {
+        "login": "drewsephski",
         "type": "User"
       }
     }
@@ -38468,7 +38475,7 @@
     },
     "2023": {
       "number": 2023,
-      "updatedAt": "2026-02-05T18:55:48Z",
+      "updatedAt": "2026-10-08T02:22:25Z",
       "merged": false,
       "author": {
         "login": "JaeSeoKim",
@@ -44540,7 +44547,7 @@
     },
     "2368": {
       "number": 2368,
-      "updatedAt": "2026-10-01T07:15:27Z",
+      "updatedAt": "2026-10-08T12:05:24Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -45655,8 +45662,8 @@
     },
     "2419": {
       "number": 2419,
-      "updatedAt": "2026-10-04T13:21:21Z",
-      "merged": false,
+      "updatedAt": "2026-10-08T11:56:39Z",
+      "merged": true,
       "author": {
         "login": "MFA-G",
         "__typename": "User"
@@ -45703,14 +45710,21 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LeCarbonator",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "2421": {
       "number": 2421,
-      "updatedAt": "2026-10-06T20:29:09Z",
-      "merged": false,
+      "updatedAt": "2026-10-08T10:25:03Z",
+      "merged": true,
       "author": {
         "login": "kazbekaskarov",
         "__typename": "User"
@@ -45729,13 +45743,20 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LeCarbonator",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "2422": {
       "number": 2422,
-      "updatedAt": "2026-10-07T14:15:27Z",
+      "updatedAt": "2026-10-07T15:23:00Z",
       "merged": false,
       "author": {
         "login": "musatoktas",
@@ -45757,6 +45778,24 @@
             }
           }
         ]
+      }
+    },
+    "2423": {
+      "number": 2423,
+      "updatedAt": "2026-10-08T05:48:18Z",
+      "merged": false,
+      "author": {
+        "login": "drewsephski",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
