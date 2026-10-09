@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T06:33:09.074Z",
+    "lastRunAt": "2026-10-09T19:39:44.339Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0wMlQyMDo1NDozOVrOpl321A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1975,6 +1975,48 @@
       "number": 333,
       "user": {
         "login": "davidroeca",
+        "type": "User"
+      }
+    },
+    "334": {
+      "number": 334,
+      "user": {
+        "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "335": {
+      "number": 335,
+      "user": {
+        "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "336": {
+      "number": 336,
+      "user": {
+        "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "337": {
+      "number": 337,
+      "user": {
+        "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "338": {
+      "number": 338,
+      "user": {
+        "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "339": {
+      "number": 339,
+      "user": {
+        "login": "goulvenclech",
         "type": "User"
       }
     }
@@ -7039,8 +7081,8 @@
     },
     "328": {
       "number": 328,
-      "updatedAt": "2026-09-05T10:47:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T06:41:02Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -7052,13 +7094,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "329": {
       "number": 329,
-      "updatedAt": "2026-10-03T08:32:27Z",
-      "merged": false,
+      "updatedAt": "2026-10-08T17:52:29Z",
+      "merged": true,
       "author": {
         "login": "pjonsson",
         "__typename": "User"
@@ -7084,13 +7134,20 @@
               "login": "sampo-s-bot",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "330": {
       "number": 330,
-      "updatedAt": "2026-09-17T09:57:26Z",
+      "updatedAt": "2026-10-09T06:40:21Z",
       "merged": false,
       "author": {
         "login": "pjonsson",
@@ -7149,8 +7206,8 @@
     },
     "332": {
       "number": 332,
-      "updatedAt": "2026-10-03T08:40:21Z",
-      "merged": false,
+      "updatedAt": "2026-10-08T17:52:43Z",
+      "merged": true,
       "author": {
         "login": "pjonsson",
         "__typename": "User"
@@ -7162,15 +7219,108 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "333": {
       "number": 333,
-      "updatedAt": "2026-10-05T16:48:16Z",
-      "merged": false,
+      "updatedAt": "2026-10-08T17:37:07Z",
+      "merged": true,
       "author": {
         "login": "davidroeca",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "336": {
+      "number": 336,
+      "updatedAt": "2026-10-08T16:25:48Z",
+      "merged": true,
+      "author": {
+        "login": "goulvenclech",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Princesseuh",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "337": {
+      "number": 337,
+      "updatedAt": "2026-10-08T21:29:17Z",
+      "merged": true,
+      "author": {
+        "login": "goulvenclech",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "338": {
+      "number": 338,
+      "updatedAt": "2026-10-09T10:11:32Z",
+      "merged": true,
+      "author": {
+        "login": "goulvenclech",
         "__typename": "User"
       },
       "closingIssuesReferences": {

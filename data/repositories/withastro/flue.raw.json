@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T06:32:26.949Z",
+    "lastRunAt": "2026-10-09T19:39:02.194Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0xNlQyMjozNzowOFrOxALlzQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4319,6 +4319,13 @@
       "number": 829,
       "user": {
         "login": "dmclain",
+        "type": "User"
+      }
+    },
+    "832": {
+      "number": 832,
+      "user": {
+        "login": "florian-lefebvre",
         "type": "User"
       }
     }
@@ -9540,6 +9547,24 @@
       "merged": false,
       "author": {
         "login": "damassi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "832": {
+      "number": 832,
+      "updatedAt": "2026-10-09T13:28:53Z",
+      "merged": false,
+      "author": {
+        "login": "florian-lefebvre",
         "__typename": "User"
       },
       "closingIssuesReferences": {
