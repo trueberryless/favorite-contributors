@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T00:23:28.978Z",
+    "lastRunAt": "2026-10-09T14:13:17.023Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17764,6 +17764,58 @@
     },
     "2828": {
       "number": 2828,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2829": {
+      "number": 2829,
+      "user": {
+        "login": "Nsttt",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2830": {
+      "number": 2830,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2831": {
+      "number": 2831,
+      "user": {
+        "login": "re-thc",
+        "type": "User"
+      }
+    },
+    "2832": {
+      "number": 2832,
+      "user": {
+        "login": "re-thc",
+        "type": "User"
+      }
+    },
+    "2833": {
+      "number": 2833,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2834": {
+      "number": 2834,
+      "user": {
+        "login": "SatvikMishra08",
+        "type": "User"
+      }
+    },
+    "2835": {
+      "number": 2835,
       "user": {
         "login": "posva",
         "type": "User"
@@ -45011,7 +45063,7 @@
     },
     "2509": {
       "number": 2509,
-      "updatedAt": "2026-09-09T05:46:07Z",
+      "updatedAt": "2026-10-09T08:24:54Z",
       "merged": false,
       "author": {
         "login": "zhiyuanzmj",
@@ -49121,20 +49173,28 @@
     },
     "2819": {
       "number": 2819,
-      "updatedAt": "2026-10-05T13:21:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-08T14:23:40Z",
+      "merged": true,
       "author": {
         "login": "re-thc",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2821": {
@@ -49342,6 +49402,179 @@
       "number": 2828,
       "updatedAt": "2026-10-07T15:19:16Z",
       "merged": true,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2829": {
+      "number": 2829,
+      "updatedAt": "2026-10-08T13:57:43Z",
+      "merged": true,
+      "author": {
+        "login": "Nsttt",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2830": {
+      "number": 2830,
+      "updatedAt": "2026-10-08T14:11:37Z",
+      "merged": true,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2831": {
+      "number": 2831,
+      "updatedAt": "2026-10-09T09:19:53Z",
+      "merged": false,
+      "author": {
+        "login": "re-thc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2832": {
+      "number": 2832,
+      "updatedAt": "2026-10-09T09:30:57Z",
+      "merged": true,
+      "author": {
+        "login": "re-thc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2833": {
+      "number": 2833,
+      "updatedAt": "2026-10-09T12:44:42Z",
+      "merged": false,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2834": {
+      "number": 2834,
+      "updatedAt": "2026-10-09T13:43:14Z",
+      "merged": true,
+      "author": {
+        "login": "SatvikMishra08",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2835": {
+      "number": 2835,
+      "updatedAt": "2026-10-09T14:12:36Z",
+      "merged": false,
       "author": {
         "login": "posva",
         "__typename": "User"

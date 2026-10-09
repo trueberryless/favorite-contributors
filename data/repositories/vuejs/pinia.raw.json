@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T00:23:31.525Z",
+    "lastRunAt": "2026-10-09T14:13:19.953Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13881,6 +13881,20 @@
       "number": 3187,
       "user": {
         "login": "sergioperezcheco",
+        "type": "User"
+      }
+    },
+    "3188": {
+      "number": 3188,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "3189": {
+      "number": 3189,
+      "user": {
+        "login": "SatvikMishra08",
         "type": "User"
       }
     }
@@ -38779,6 +38793,50 @@
       "merged": true,
       "author": {
         "login": "sergioperezcheco",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3188": {
+      "number": 3188,
+      "updatedAt": "2026-10-09T09:47:43Z",
+      "merged": true,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3189": {
+      "number": 3189,
+      "updatedAt": "2026-10-09T13:42:41Z",
+      "merged": true,
+      "author": {
+        "login": "SatvikMishra08",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T00:23:33.187Z",
+    "lastRunAt": "2026-10-09T14:13:22.446Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMi0yNFQxMzoyMjoxMVrOFpKUmw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20441,6 +20441,27 @@
       "user": {
         "login": "ValentinYoushkevich",
         "type": "User"
+      }
+    },
+    "2964": {
+      "number": 2964,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2965": {
+      "number": 2965,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "2966": {
+      "number": 2966,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -69181,7 +69202,7 @@
     },
     "2946": {
       "number": 2946,
-      "updatedAt": "2026-10-07T14:41:22Z",
+      "updatedAt": "2026-10-08T06:00:47Z",
       "merged": false,
       "author": {
         "login": "simonyang08",
@@ -69536,6 +69557,76 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2964": {
+      "number": 2964,
+      "updatedAt": "2026-10-08T06:22:55Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2965": {
+      "number": 2965,
+      "updatedAt": "2026-10-09T01:46:53Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2966": {
+      "number": 2966,
+      "updatedAt": "2026-10-08T13:10:33Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

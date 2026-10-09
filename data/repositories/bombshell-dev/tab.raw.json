@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T06:30:17.420Z",
+    "lastRunAt": "2026-10-09T14:15:14.968Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0wMlQxMDoyMToxNlrOh2213w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3923,7 +3923,7 @@
     },
     "154": {
       "number": 154,
-      "updatedAt": "2026-10-07T22:02:02Z",
+      "updatedAt": "2026-10-08T22:22:06Z",
       "merged": false,
       "author": {
         "login": "AmirSa12",
@@ -3936,7 +3936,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "shadowspawn",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
