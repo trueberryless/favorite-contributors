@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T13:59:00.990Z",
+    "lastRunAt": "2026-10-09T23:52:02.850Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32341,6 +32341,13 @@
       "number": 4613,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4614": {
+      "number": 4614,
+      "user": {
+        "login": "github-actions[bot]",
         "type": "Bot"
       }
     }
@@ -118286,7 +118293,7 @@
     },
     "4378": {
       "number": 4378,
-      "updatedAt": "2026-10-07T07:24:43Z",
+      "updatedAt": "2026-10-08T17:54:31Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -123109,7 +123116,7 @@
     },
     "4585": {
       "number": 4585,
-      "updatedAt": "2026-10-06T20:39:16Z",
+      "updatedAt": "2026-10-09T16:56:14Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -123580,8 +123587,8 @@
     },
     "4607": {
       "number": 4607,
-      "updatedAt": "2026-10-06T22:09:02Z",
-      "merged": false,
+      "updatedAt": "2026-10-08T17:50:28Z",
+      "merged": true,
       "author": {
         "login": "dyc3",
         "__typename": "User"
@@ -123645,7 +123652,7 @@
     },
     "4610": {
       "number": 4610,
-      "updatedAt": "2026-10-08T12:23:14Z",
+      "updatedAt": "2026-10-09T14:38:49Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -123714,6 +123721,13 @@
               "login": "ematipico",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
           }
         ]
       }
@@ -123768,6 +123782,24 @@
       "merged": false,
       "author": {
         "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4614": {
+      "number": 4614,
+      "updatedAt": "2026-10-09T04:59:50Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
