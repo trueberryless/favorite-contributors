@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:35:10.582Z",
+    "lastRunAt": "2026-10-10T16:13:29.552Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNC0xMFQwODo0Njo1MVrOkg6sAw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4598,6 +4598,13 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "610": {
+      "number": 610,
+      "user": {
+        "login": "IWANABETHATGUY",
+        "type": "User"
       }
     }
   },
@@ -15119,7 +15126,7 @@
     },
     "591": {
       "number": 591,
-      "updatedAt": "2026-09-25T13:55:50Z",
+      "updatedAt": "2026-10-10T14:34:20Z",
       "merged": false,
       "author": {
         "login": "hyoban",
@@ -15137,7 +15144,7 @@
     },
     "592": {
       "number": 592,
-      "updatedAt": "2026-09-25T14:08:22Z",
+      "updatedAt": "2026-10-10T14:19:09Z",
       "merged": false,
       "author": {
         "login": "hyoban",
@@ -15155,7 +15162,7 @@
     },
     "593": {
       "number": 593,
-      "updatedAt": "2026-09-25T14:26:08Z",
+      "updatedAt": "2026-10-10T14:18:54Z",
       "merged": false,
       "author": {
         "login": "hyoban",
@@ -15227,8 +15234,8 @@
     },
     "599": {
       "number": 599,
-      "updatedAt": "2026-10-08T08:14:34Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T13:40:01Z",
+      "merged": true,
       "author": {
         "login": "SaKaNa-Y",
         "__typename": "User"
@@ -15240,7 +15247,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "600": {
@@ -15315,8 +15330,8 @@
     },
     "606": {
       "number": 606,
-      "updatedAt": "2026-10-08T08:13:15Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T13:40:25Z",
+      "merged": true,
       "author": {
         "login": "SaKaNa-Y",
         "__typename": "User"
@@ -15328,13 +15343,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "607": {
       "number": 607,
-      "updatedAt": "2026-10-08T08:13:36Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T13:40:43Z",
+      "merged": true,
       "author": {
         "login": "SaKaNa-Y",
         "__typename": "User"
@@ -15346,7 +15369,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "608": {
@@ -15399,6 +15430,24 @@
             }
           }
         ]
+      }
+    },
+    "610": {
+      "number": 610,
+      "updatedAt": "2026-10-10T15:57:49Z",
+      "merged": false,
+      "author": {
+        "login": "IWANABETHATGUY",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

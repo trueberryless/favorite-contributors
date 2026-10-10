@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:34:21.580Z",
+    "lastRunAt": "2026-10-10T16:12:38.014Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10380,6 +10380,13 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "1418": {
+      "number": 1418,
+      "user": {
+        "login": "anastasiia-baboshina",
+        "type": "User"
       }
     }
   },
@@ -38269,7 +38276,7 @@
     },
     "1344": {
       "number": 1344,
-      "updatedAt": "2026-10-09T04:57:10Z",
+      "updatedAt": "2026-10-09T11:24:37Z",
       "merged": false,
       "author": {
         "login": "pluxain",
@@ -39488,8 +39495,8 @@
     },
     "1414": {
       "number": 1414,
-      "updatedAt": "2026-10-09T01:19:12Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T10:24:34Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -39501,7 +39508,36 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1415": {
@@ -39539,11 +39575,29 @@
     },
     "1417": {
       "number": 1417,
-      "updatedAt": "2026-10-08T12:26:03Z",
+      "updatedAt": "2026-10-09T10:25:10Z",
       "merged": false,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1418": {
+      "number": 1418,
+      "updatedAt": "2026-10-09T16:14:59Z",
+      "merged": false,
+      "author": {
+        "login": "anastasiia-baboshina",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

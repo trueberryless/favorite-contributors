@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:34:08.611Z",
+    "lastRunAt": "2026-10-10T16:12:26.549Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -137232,6 +137232,9 @@
       "user": {
         "login": "dummdidumm",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "18881": {
@@ -137764,6 +137767,76 @@
     },
     "18960": {
       "number": 18960,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "18961": {
+      "number": 18961,
+      "user": {
+        "login": "korywka",
+        "type": "User"
+      }
+    },
+    "18962": {
+      "number": 18962,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "18963": {
+      "number": 18963,
+      "user": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "type": "User"
+      }
+    },
+    "18964": {
+      "number": 18964,
+      "user": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "type": "User"
+      }
+    },
+    "18966": {
+      "number": 18966,
+      "user": {
+        "login": "jayybee23",
+        "type": "User"
+      }
+    },
+    "18967": {
+      "number": 18967,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "18968": {
+      "number": 18968,
+      "user": {
+        "login": "QuentinLCS",
+        "type": "User"
+      }
+    },
+    "18969": {
+      "number": 18969,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "18970": {
+      "number": 18970,
+      "user": {
+        "login": "Evertt",
+        "type": "User"
+      }
+    },
+    "18971": {
+      "number": 18971,
       "user": {
         "login": "svelte-triage-bot[bot]",
         "type": "Bot"
@@ -371669,7 +371742,7 @@
     },
     "18758": {
       "number": 18758,
-      "updatedAt": "2026-09-01T10:55:05Z",
+      "updatedAt": "2026-10-09T13:19:58Z",
       "merged": false,
       "author": {
         "login": "keyurbodar",
@@ -373094,7 +373167,7 @@
     },
     "18861": {
       "number": 18861,
-      "updatedAt": "2026-10-08T14:53:39Z",
+      "updatedAt": "2026-10-10T14:39:49Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
@@ -373524,17 +373597,17 @@
     },
     "18880": {
       "number": 18880,
-      "updatedAt": "2026-09-25T21:31:20Z",
+      "updatedAt": "2026-10-10T15:40:54Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 10
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -374690,6 +374763,138 @@
     "18960": {
       "number": 18960,
       "updatedAt": "2026-10-08T13:53:00Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18962": {
+      "number": 18962,
+      "updatedAt": "2026-10-09T14:31:07Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "18963": {
+      "number": 18963,
+      "updatedAt": "2026-10-09T21:14:32Z",
+      "merged": false,
+      "author": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "github-advanced-security",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "18964": {
+      "number": 18964,
+      "updatedAt": "2026-10-09T21:14:34Z",
+      "merged": false,
+      "author": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "github-advanced-security",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "18967": {
+      "number": 18967,
+      "updatedAt": "2026-10-09T23:45:43Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18969": {
+      "number": 18969,
+      "updatedAt": "2026-10-10T06:16:04Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18971": {
+      "number": 18971,
+      "updatedAt": "2026-10-10T12:00:49Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",

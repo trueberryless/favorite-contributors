@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T14:12:04.184Z",
+    "lastRunAt": "2026-10-10T16:14:10.395Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNC0wMlQxOTo0NjoxMVrOMIduEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7192,6 +7192,13 @@
       "number": 973,
       "user": {
         "login": "dyc3",
+        "type": "User"
+      }
+    },
+    "974": {
+      "number": 974,
+      "user": {
+        "login": "cpruijsen",
         "type": "User"
       }
     }
@@ -21057,14 +21064,32 @@
     },
     "973": {
       "number": 973,
-      "updatedAt": "2026-10-07T21:51:16Z",
-      "merged": false,
+      "updatedAt": "2026-10-10T02:04:22Z",
+      "merged": true,
       "author": {
         "login": "dyc3",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "974": {
+      "number": 974,
+      "updatedAt": "2026-10-10T06:51:59Z",
+      "merged": false,
+      "author": {
+        "login": "cpruijsen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

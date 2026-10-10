@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:34:21.537Z",
+    "lastRunAt": "2026-10-10T16:12:37.608Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -57916,7 +57916,7 @@
     },
     "2223": {
       "number": 2223,
-      "updatedAt": "2026-10-05T20:30:30Z",
+      "updatedAt": "2026-10-09T21:15:08Z",
       "merged": false,
       "author": {
         "login": "jycouet",
@@ -57969,6 +57969,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
               "__typename": "User"
             }
           }
@@ -59563,8 +59570,8 @@
     },
     "2296": {
       "number": 2296,
-      "updatedAt": "2026-10-04T02:58:44Z",
-      "merged": false,
+      "updatedAt": "2026-10-10T00:08:40Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -59576,7 +59583,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2297": {
@@ -59633,8 +59648,8 @@
     },
     "2299": {
       "number": 2299,
-      "updatedAt": "2026-10-05T18:46:07Z",
-      "merged": false,
+      "updatedAt": "2026-10-10T00:08:00Z",
+      "merged": true,
       "author": {
         "login": "teemingc",
         "__typename": "User"
@@ -59646,13 +59661,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2301": {
       "number": 2301,
-      "updatedAt": "2026-10-05T18:44:15Z",
-      "merged": false,
+      "updatedAt": "2026-10-10T00:06:08Z",
+      "merged": true,
       "author": {
         "login": "teemingc",
         "__typename": "User"
@@ -59664,7 +59687,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2302": {
@@ -59695,8 +59726,8 @@
     },
     "2303": {
       "number": 2303,
-      "updatedAt": "2026-10-08T22:20:29Z",
-      "merged": false,
+      "updatedAt": "2026-10-10T00:05:27Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -59708,7 +59739,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:34:19.425Z",
+    "lastRunAt": "2026-10-10T16:12:36.348Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNC0zMFQwNjo1Njo0MVrOJU1oVA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -11687,6 +11687,27 @@
       "number": 1603,
       "user": {
         "login": "ota-meshi",
+        "type": "User"
+      }
+    },
+    "1604": {
+      "number": 1604,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1605": {
+      "number": 1605,
+      "user": {
+        "login": "marekdedic",
+        "type": "User"
+      }
+    },
+    "1606": {
+      "number": 1606,
+      "user": {
+        "login": "ozenyunus35",
         "type": "User"
       }
     }
@@ -33417,7 +33438,7 @@
     },
     "1284": {
       "number": 1284,
-      "updatedAt": "2026-10-09T06:31:12Z",
+      "updatedAt": "2026-10-09T07:53:30Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35148,7 +35169,7 @@
     },
     "1380": {
       "number": 1380,
-      "updatedAt": "2026-10-02T15:27:18Z",
+      "updatedAt": "2026-10-09T10:27:50Z",
       "merged": false,
       "author": {
         "login": "baseballyama",
@@ -35181,6 +35202,13 @@
             "author": {
               "login": "copilot-pull-request-reviewer",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "marekdedic",
+              "__typename": "User"
             }
           }
         ]
@@ -35221,7 +35249,7 @@
     },
     "1383": {
       "number": 1383,
-      "updatedAt": "2026-10-02T15:00:09Z",
+      "updatedAt": "2026-10-09T11:46:53Z",
       "merged": false,
       "author": {
         "login": "yanneves",
@@ -36246,7 +36274,7 @@
     },
     "1463": {
       "number": 1463,
-      "updatedAt": "2026-10-09T06:31:30Z",
+      "updatedAt": "2026-10-09T07:53:31Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -36264,7 +36292,7 @@
     },
     "1464": {
       "number": 1464,
-      "updatedAt": "2026-10-09T06:31:53Z",
+      "updatedAt": "2026-10-09T07:53:41Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -36362,7 +36390,7 @@
     },
     "1470": {
       "number": 1470,
-      "updatedAt": "2026-10-09T06:31:41Z",
+      "updatedAt": "2026-10-09T07:53:41Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -36413,7 +36441,7 @@
     },
     "1474": {
       "number": 1474,
-      "updatedAt": "2026-10-09T06:30:11Z",
+      "updatedAt": "2026-10-09T07:52:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -37723,7 +37751,7 @@
     },
     "1547": {
       "number": 1547,
-      "updatedAt": "2026-10-09T06:30:56Z",
+      "updatedAt": "2026-10-10T12:51:17Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -37759,7 +37787,7 @@
     },
     "1553": {
       "number": 1553,
-      "updatedAt": "2026-10-08T21:55:33Z",
+      "updatedAt": "2026-10-09T11:53:43Z",
       "merged": false,
       "author": {
         "login": "marekdedic",
@@ -38426,7 +38454,7 @@
     },
     "1587": {
       "number": 1587,
-      "updatedAt": "2026-10-09T06:30:31Z",
+      "updatedAt": "2026-10-09T07:25:59Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -38744,7 +38772,7 @@
     },
     "1599": {
       "number": 1599,
-      "updatedAt": "2026-10-09T06:27:54Z",
+      "updatedAt": "2026-10-09T09:00:30Z",
       "merged": true,
       "author": {
         "login": "baseballyama",
@@ -38795,7 +38823,7 @@
     },
     "1601": {
       "number": 1601,
-      "updatedAt": "2026-10-09T06:30:43Z",
+      "updatedAt": "2026-10-09T07:52:59Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -38813,10 +38841,64 @@
     },
     "1603": {
       "number": 1603,
-      "updatedAt": "2026-10-09T06:33:24Z",
+      "updatedAt": "2026-10-09T07:51:02Z",
       "merged": true,
       "author": {
         "login": "ota-meshi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1604": {
+      "number": 1604,
+      "updatedAt": "2026-10-09T07:23:45Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1605": {
+      "number": 1605,
+      "updatedAt": "2026-10-09T15:49:55Z",
+      "merged": false,
+      "author": {
+        "login": "marekdedic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 2
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1606": {
+      "number": 1606,
+      "updatedAt": "2026-10-09T20:31:55Z",
+      "merged": false,
+      "author": {
+        "login": "ozenyunus35",
         "__typename": "User"
       },
       "closingIssuesReferences": {
