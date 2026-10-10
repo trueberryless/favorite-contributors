@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:31:41.948Z",
+    "lastRunAt": "2026-10-10T11:02:30.467Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0xNFQyMToxODo0NVrOOVF6Qg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8401,6 +8401,13 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "1121": {
+      "number": 1121,
+      "user": {
+        "login": "antfubot",
+        "type": "User"
       }
     }
   },
@@ -22765,6 +22772,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1121": {
+      "number": 1121,
+      "updatedAt": "2026-10-09T07:47:27Z",
+      "merged": false,
+      "author": {
+        "login": "antfubot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

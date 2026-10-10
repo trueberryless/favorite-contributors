@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:31:46.318Z",
+    "lastRunAt": "2026-10-10T11:02:34.489Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0xNVQxMzowNDoyOFrOSggPtw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12382,7 +12382,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "1609": {
@@ -12394,6 +12394,20 @@
     },
     "1610": {
       "number": 1610,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1611": {
+      "number": 1611,
+      "user": {
+        "login": "atinux",
+        "type": "User"
+      }
+    },
+    "1612": {
+      "number": 1612,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -42458,7 +42472,7 @@
     },
     "1590": {
       "number": 1590,
-      "updatedAt": "2026-10-05T15:06:50Z",
+      "updatedAt": "2026-10-09T07:16:34Z",
       "merged": false,
       "author": {
         "login": "productdevbook",
@@ -42671,8 +42685,8 @@
     },
     "1598": {
       "number": 1598,
-      "updatedAt": "2026-10-08T21:04:58Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T15:33:18Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -42684,7 +42698,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1599": {
@@ -42932,7 +42954,7 @@
     },
     "1607": {
       "number": 1607,
-      "updatedAt": "2026-10-08T14:23:31Z",
+      "updatedAt": "2026-10-09T08:23:17Z",
       "merged": false,
       "author": {
         "login": "Anoesj",
@@ -42950,7 +42972,7 @@
     },
     "1608": {
       "number": 1608,
-      "updatedAt": "2026-10-08T15:56:05Z",
+      "updatedAt": "2026-10-09T17:47:32Z",
       "merged": false,
       "author": {
         "login": "larbish",
@@ -42960,7 +42982,40 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1610": {
+      "number": 1610,
+      "updatedAt": "2026-10-09T07:24:34Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
       },
       "reviews": {
         "nodes": [
@@ -42974,9 +43029,49 @@
         ]
       }
     },
-    "1610": {
-      "number": 1610,
-      "updatedAt": "2026-10-08T20:52:07Z",
+    "1611": {
+      "number": 1611,
+      "updatedAt": "2026-10-09T18:54:54Z",
+      "merged": false,
+      "author": {
+        "login": "atinux",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "github-advanced-security",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1612": {
+      "number": 1612,
+      "updatedAt": "2026-10-10T00:24:27Z",
       "merged": false,
       "author": {
         "login": "renovate",

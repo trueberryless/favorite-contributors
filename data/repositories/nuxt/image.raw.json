@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:31:39.521Z",
+    "lastRunAt": "2026-10-10T11:02:28.635Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0zMFQxMzozMjo0NVrOHYjpvA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17592,6 +17592,13 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "2346": {
+      "number": 2346,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -48737,7 +48744,7 @@
     },
     "2144": {
       "number": 2144,
-      "updatedAt": "2026-04-01T14:05:08Z",
+      "updatedAt": "2026-10-10T10:48:04Z",
       "merged": false,
       "author": {
         "login": "DamianGlowala",
@@ -48784,6 +48791,20 @@
             "author": {
               "login": "danielroe",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           },
           {
@@ -52100,8 +52121,8 @@
     },
     "2281": {
       "number": 2281,
-      "updatedAt": "2026-09-05T07:38:15Z",
-      "merged": false,
+      "updatedAt": "2026-10-10T10:12:28Z",
+      "merged": true,
       "author": {
         "login": "DamianGlowala",
         "__typename": "User"
@@ -52113,7 +52134,22 @@
         "totalCount": 2
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2282": {
@@ -52450,7 +52486,7 @@
     },
     "2295": {
       "number": 2295,
-      "updatedAt": "2026-10-05T08:13:21Z",
+      "updatedAt": "2026-10-10T10:12:44Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -52468,8 +52504,8 @@
     },
     "2296": {
       "number": 2296,
-      "updatedAt": "2026-07-31T09:55:14Z",
-      "merged": false,
+      "updatedAt": "2026-10-10T07:10:45Z",
+      "merged": true,
       "author": {
         "login": "luc122c",
         "__typename": "User"
@@ -52481,7 +52517,15 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2298": {
@@ -52548,7 +52592,7 @@
     },
     "2301": {
       "number": 2301,
-      "updatedAt": "2026-10-05T09:06:19Z",
+      "updatedAt": "2026-10-10T10:15:24Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -53593,7 +53637,7 @@
     },
     "2345": {
       "number": 2345,
-      "updatedAt": "2026-10-09T04:26:32Z",
+      "updatedAt": "2026-10-10T10:13:34Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -53604,6 +53648,24 @@
       },
       "reactions": {
         "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2346": {
+      "number": 2346,
+      "updatedAt": "2026-10-10T10:15:47Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
       },
       "reviews": {
         "nodes": []

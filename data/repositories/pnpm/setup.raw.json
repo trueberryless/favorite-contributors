@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:32:35.984Z",
+    "lastRunAt": "2026-10-10T11:03:23.523Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -292,7 +292,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 13
+        "total_count": 15
       }
     },
     "35": {
@@ -508,7 +508,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "59": {
@@ -631,6 +631,13 @@
       "number": 73,
       "user": {
         "login": "alvarosevilla95",
+        "type": "User"
+      }
+    },
+    "74": {
+      "number": 74,
+      "user": {
+        "login": "yoo-mat",
         "type": "User"
       }
     }
@@ -2689,6 +2696,53 @@
             "state": "APPROVED",
             "author": {
               "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "74": {
+      "number": 74,
+      "updatedAt": "2026-10-09T09:33:58Z",
+      "merged": false,
+      "author": {
+        "login": "yoo-mat",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
               "__typename": "Bot"
             }
           }

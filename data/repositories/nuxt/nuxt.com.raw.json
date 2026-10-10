@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T06:31:44.039Z",
+    "lastRunAt": "2026-10-10T11:02:32.402Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0wMlQxMzo0OToyNlrOMfVTEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17747,6 +17747,13 @@
       "number": 2456,
       "user": {
         "login": "larbish",
+        "type": "User"
+      }
+    },
+    "2457": {
+      "number": 2457,
+      "user": {
+        "login": "PrittSpadeLord",
         "type": "User"
       }
     }
@@ -56503,7 +56510,7 @@
     },
     "2451": {
       "number": 2451,
-      "updatedAt": "2026-10-08T16:13:27Z",
+      "updatedAt": "2026-10-09T17:54:34Z",
       "merged": false,
       "author": {
         "login": "larbish",
@@ -56516,7 +56523,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "2452": {
@@ -56583,8 +56598,8 @@
     },
     "2455": {
       "number": 2455,
-      "updatedAt": "2026-10-08T11:19:22Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T14:29:17Z",
+      "merged": true,
       "author": {
         "login": "HugoRCD",
         "__typename": "User"
@@ -56602,6 +56617,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
             }
           }
         ]
@@ -56638,6 +56660,24 @@
             }
           }
         ]
+      }
+    },
+    "2457": {
+      "number": 2457,
+      "updatedAt": "2026-10-09T14:57:18Z",
+      "merged": false,
+      "author": {
+        "login": "PrittSpadeLord",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
