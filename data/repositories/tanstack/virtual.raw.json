@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-09T00:12:06.767Z",
+    "lastRunAt": "2026-10-10T04:46:58.596Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8002,6 +8002,27 @@
       "number": 1298,
       "user": {
         "login": "langleyd",
+        "type": "User"
+      }
+    },
+    "1299": {
+      "number": 1299,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1300": {
+      "number": 1300,
+      "user": {
+        "login": "piecyk",
+        "type": "User"
+      }
+    },
+    "1301": {
+      "number": 1301,
+      "user": {
+        "login": "piecyk",
         "type": "User"
       }
     }
@@ -20186,7 +20207,7 @@
     },
     "1175": {
       "number": 1175,
-      "updatedAt": "2026-05-25T20:16:42Z",
+      "updatedAt": "2026-10-09T08:35:15Z",
       "merged": false,
       "author": {
         "login": "tannerlinsley",
@@ -20593,7 +20614,7 @@
     },
     "1200": {
       "number": 1200,
-      "updatedAt": "2026-06-15T17:54:21Z",
+      "updatedAt": "2026-10-09T08:04:52Z",
       "merged": false,
       "author": {
         "login": "XananasX7",
@@ -22156,8 +22177,8 @@
     },
     "1276": {
       "number": 1276,
-      "updatedAt": "2026-10-04T02:42:44Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T05:42:40Z",
+      "merged": true,
       "author": {
         "login": "dikshit-n",
         "__typename": "User"
@@ -22188,6 +22209,34 @@
             "state": "COMMENTED",
             "author": {
               "login": "dikshit-n",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "piecyk",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "piecyk",
               "__typename": "User"
             }
           }
@@ -22250,7 +22299,7 @@
     },
     "1280": {
       "number": 1280,
-      "updatedAt": "2026-10-08T09:17:33Z",
+      "updatedAt": "2026-10-09T14:34:06Z",
       "merged": false,
       "author": {
         "login": "piecyk",
@@ -22360,7 +22409,7 @@
     },
     "1288": {
       "number": 1288,
-      "updatedAt": "2026-09-14T06:19:51Z",
+      "updatedAt": "2026-10-09T14:16:25Z",
       "merged": false,
       "author": {
         "login": "piecyk",
@@ -22422,8 +22471,8 @@
     },
     "1293": {
       "number": 1293,
-      "updatedAt": "2026-09-26T13:03:46Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T06:21:22Z",
+      "merged": true,
       "author": {
         "login": "webn00b",
         "__typename": "User"
@@ -22440,8 +22489,8 @@
     },
     "1294": {
       "number": 1294,
-      "updatedAt": "2026-09-29T01:27:54Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T14:38:46Z",
+      "merged": true,
       "author": {
         "login": "minwookshin",
         "__typename": "User"
@@ -22453,12 +22502,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "1295": {
       "number": 1295,
-      "updatedAt": "2026-10-01T07:39:31Z",
+      "updatedAt": "2026-10-09T08:12:33Z",
       "merged": false,
       "author": {
         "login": "okxint",
@@ -22471,12 +22528,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "piecyk",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1296": {
       "number": 1296,
-      "updatedAt": "2026-10-02T06:38:25Z",
+      "updatedAt": "2026-10-09T14:17:34Z",
       "merged": false,
       "author": {
         "login": "piecyk",
@@ -22502,7 +22567,7 @@
     },
     "1298": {
       "number": 1298,
-      "updatedAt": "2026-10-07T12:55:38Z",
+      "updatedAt": "2026-10-09T03:55:05Z",
       "merged": false,
       "author": {
         "login": "langleyd",
@@ -22536,8 +22601,69 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "piecyk",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "1299": {
+      "number": 1299,
+      "updatedAt": "2026-10-09T14:52:02Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1300": {
+      "number": 1300,
+      "updatedAt": "2026-10-09T13:51:25Z",
+      "merged": true,
+      "author": {
+        "login": "piecyk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1301": {
+      "number": 1301,
+      "updatedAt": "2026-10-09T14:08:08Z",
+      "merged": true,
+      "author": {
+        "login": "piecyk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

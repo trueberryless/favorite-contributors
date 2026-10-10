@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-08T19:45:44.960Z",
+    "lastRunAt": "2026-10-10T04:44:02.004Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wNFQwOTo0NDozOFrOwWroFA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3061,6 +3061,23 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "421": {
+      "number": 421,
+      "user": {
+        "login": "peterpoliwoda",
+        "type": "User"
+      }
+    },
+    "422": {
+      "number": 422,
+      "user": {
+        "login": "peterpoliwoda",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -9427,8 +9444,8 @@
     },
     "420": {
       "number": 420,
-      "updatedAt": "2026-10-07T16:15:02Z",
-      "merged": false,
+      "updatedAt": "2026-10-09T14:13:46Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9438,6 +9455,24 @@
       },
       "reactions": {
         "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "422": {
+      "number": 422,
+      "updatedAt": "2026-10-09T14:09:46Z",
+      "merged": false,
+      "author": {
+        "login": "peterpoliwoda",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
