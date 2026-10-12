@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-11T16:39:07.795Z",
+    "lastRunAt": "2026-10-12T15:58:44.887Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0xOVQyMzoyOTo0OFrOZ1J0_g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6915,6 +6915,20 @@
       "number": 942,
       "user": {
         "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "943": {
+      "number": 943,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "944": {
+      "number": 944,
+      "user": {
+        "login": "renovate[bot]",
         "type": "Bot"
       }
     }
@@ -25670,6 +25684,65 @@
       "merged": true,
       "author": {
         "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "943": {
+      "number": 943,
+      "updatedAt": "2026-10-12T15:49:56Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "944": {
+      "number": 944,
+      "updatedAt": "2026-10-12T10:57:33Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {

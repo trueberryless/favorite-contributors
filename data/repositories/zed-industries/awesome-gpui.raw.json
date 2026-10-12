@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-11T11:02:20.078Z",
+    "lastRunAt": "2026-10-12T15:55:58.424Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -868,6 +868,20 @@
       "number": 118,
       "user": {
         "login": "errmayank",
+        "type": "User"
+      }
+    },
+    "119": {
+      "number": 119,
+      "user": {
+        "login": "ppmpreetham",
+        "type": "User"
+      }
+    },
+    "120": {
+      "number": 120,
+      "user": {
+        "login": "your-moon",
         "type": "User"
       }
     }
@@ -2909,6 +2923,42 @@
       "merged": true,
       "author": {
         "login": "errmayank",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "119": {
+      "number": 119,
+      "updatedAt": "2026-10-12T07:35:16Z",
+      "merged": false,
+      "author": {
+        "login": "ppmpreetham",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "120": {
+      "number": 120,
+      "updatedAt": "2026-10-12T11:03:29Z",
+      "merged": false,
+      "author": {
+        "login": "your-moon",
         "__typename": "User"
       },
       "closingIssuesReferences": {

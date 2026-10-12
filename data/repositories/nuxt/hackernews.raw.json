@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-11T16:38:55.139Z",
+    "lastRunAt": "2026-10-12T15:58:28.903Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNi0wNVQxMzowOTozMlrOB2Owow==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3219,6 +3219,20 @@
     },
     "460": {
       "number": 460,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "461": {
+      "number": 461,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "462": {
+      "number": 462,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -12965,7 +12979,7 @@
     },
     "444": {
       "number": 444,
-      "updatedAt": "2026-10-11T08:57:56Z",
+      "updatedAt": "2026-10-12T10:57:53Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -13366,6 +13380,58 @@
     "460": {
       "number": 460,
       "updatedAt": "2026-10-11T08:57:10Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "461": {
+      "number": 461,
+      "updatedAt": "2026-10-12T10:55:48Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "462": {
+      "number": 462,
+      "updatedAt": "2026-10-12T10:49:26Z",
       "merged": true,
       "author": {
         "login": "renovate",
