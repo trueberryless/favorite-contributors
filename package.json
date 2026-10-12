@@ -1,0 +1,37 @@
+{
+  "name": "favorite-contributors",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "vp lint",
+    "format": "vp fmt",
+    "check": "vp check",
+    "preparation": "node --env-file-if-exists=.env scripts/preparation.ts",
+    "aggregation": "node --env-file-if-exists=.env scripts/aggregation.ts",
+    "contributions": "node --env-file-if-exists=.env scripts/contributions.ts",
+    "exclusions": "node --env-file-if-exists=.env scripts/exclusions.ts"
+  },
+  "dependencies": {
+    "@octokit/core": "^7.0.7",
+    "@octokit/plugin-paginate-graphql": "^6.0.0",
+    "@octokit/plugin-paginate-rest": "^15.0.0",
+    "@octokit/plugin-retry": "^8.1.1",
+    "astro": "^7.2.2",
+    "octokit": "^5.0.5",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@voidzero-dev/vite-plus-core": "latest",
+    "typescript": "^7.0.2",
+    "vite-plus": "latest"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}
