@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T15:54:54.211Z",
+    "lastRunAt": "2026-10-13T22:38:36.628Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15381,6 +15381,20 @@
       "number": 2428,
       "user": {
         "login": "cpruijsen",
+        "type": "User"
+      }
+    },
+    "2429": {
+      "number": 2429,
+      "user": {
+        "login": "fenet-as",
+        "type": "User"
+      }
+    },
+    "2430": {
+      "number": 2430,
+      "user": {
+        "login": "okxint",
         "type": "User"
       }
     }
@@ -44640,7 +44654,7 @@
     },
     "2371": {
       "number": 2371,
-      "updatedAt": "2026-09-17T02:38:11Z",
+      "updatedAt": "2026-10-13T15:28:10Z",
       "merged": false,
       "author": {
         "login": "dikshit-n",
@@ -45602,7 +45616,7 @@
     },
     "2413": {
       "number": 2413,
-      "updatedAt": "2026-10-09T23:46:19Z",
+      "updatedAt": "2026-10-13T07:00:15Z",
       "merged": false,
       "author": {
         "login": "crutchcorn",
@@ -45615,7 +45629,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "2414": {
@@ -45926,6 +45948,50 @@
       "merged": false,
       "author": {
         "login": "cpruijsen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2429": {
+      "number": 2429,
+      "updatedAt": "2026-10-12T18:14:46Z",
+      "merged": false,
+      "author": {
+        "login": "fenet-as",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2430": {
+      "number": 2430,
+      "updatedAt": "2026-10-13T05:14:22Z",
+      "merged": false,
+      "author": {
+        "login": "okxint",
         "__typename": "User"
       },
       "closingIssuesReferences": {

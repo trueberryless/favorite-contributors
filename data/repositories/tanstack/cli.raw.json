@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T15:54:58.740Z",
+    "lastRunAt": "2026-10-13T22:38:40.859Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0xOFQwMjoxOTo0MVrOi3_cXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3687,6 +3687,13 @@
       "number": 520,
       "user": {
         "login": "odykyi",
+        "type": "User"
+      }
+    },
+    "521": {
+      "number": 521,
+      "user": {
+        "login": "Sidnioulz",
         "type": "User"
       }
     }
@@ -11084,6 +11091,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "521": {
+      "number": 521,
+      "updatedAt": "2026-10-13T14:20:33Z",
+      "merged": false,
+      "author": {
+        "login": "Sidnioulz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

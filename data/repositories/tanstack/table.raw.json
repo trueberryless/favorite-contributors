@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T15:54:54.210Z",
+    "lastRunAt": "2026-10-13T22:38:36.627Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33510,6 +33510,13 @@
       "number": 6633,
       "user": {
         "login": "KevinVandy",
+        "type": "User"
+      }
+    },
+    "6634": {
+      "number": 6634,
+      "user": {
+        "login": "okxint",
         "type": "User"
       }
     }
@@ -73748,7 +73755,7 @@
     },
     "6591": {
       "number": 6591,
-      "updatedAt": "2026-09-13T02:01:06Z",
+      "updatedAt": "2026-10-12T16:08:05Z",
       "merged": false,
       "author": {
         "login": "Yash121l",
@@ -74608,8 +74615,8 @@
     },
     "6632": {
       "number": 6632,
-      "updatedAt": "2026-10-12T15:38:52Z",
-      "merged": false,
+      "updatedAt": "2026-10-12T16:41:04Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -74640,6 +74647,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "6634": {
+      "number": 6634,
+      "updatedAt": "2026-10-13T05:22:14Z",
+      "merged": false,
+      "author": {
+        "login": "okxint",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

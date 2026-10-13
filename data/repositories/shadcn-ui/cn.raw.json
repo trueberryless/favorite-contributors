@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T09:26:27.926Z",
+    "lastRunAt": "2026-10-13T22:37:14.494Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wMVQxMjowOToxM1rPAAAAAQb2sJE=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -392,6 +392,20 @@
       "number": 161,
       "user": {
         "login": "nonhana",
+        "type": "User"
+      }
+    },
+    "162": {
+      "number": 162,
+      "user": {
+        "login": "nonhana",
+        "type": "User"
+      }
+    },
+    "163": {
+      "number": 163,
+      "user": {
+        "login": "TheAlexLichter",
         "type": "User"
       }
     }
@@ -1149,6 +1163,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "162": {
+      "number": 162,
+      "updatedAt": "2026-10-12T09:36:41Z",
+      "merged": false,
+      "author": {
+        "login": "nonhana",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "163": {
+      "number": 163,
+      "updatedAt": "2026-10-12T11:04:54Z",
+      "merged": false,
+      "author": {
+        "login": "TheAlexLichter",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

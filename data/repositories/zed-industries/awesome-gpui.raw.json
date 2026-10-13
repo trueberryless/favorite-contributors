@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T15:55:58.424Z",
+    "lastRunAt": "2026-10-13T22:39:24.676Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -882,6 +882,13 @@
       "number": 120,
       "user": {
         "login": "your-moon",
+        "type": "User"
+      }
+    },
+    "121": {
+      "number": 121,
+      "user": {
+        "login": "dctanner",
         "type": "User"
       }
     }
@@ -2959,6 +2966,24 @@
       "merged": false,
       "author": {
         "login": "your-moon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "121": {
+      "number": 121,
+      "updatedAt": "2026-10-13T14:18:37Z",
+      "merged": false,
+      "author": {
+        "login": "dctanner",
         "__typename": "User"
       },
       "closingIssuesReferences": {

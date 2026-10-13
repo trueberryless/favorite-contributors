@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T09:27:06.527Z",
+    "lastRunAt": "2026-10-13T22:37:55.218Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -81711,6 +81711,69 @@
       "number": 10184,
       "user": {
         "login": "KaKi87",
+        "type": "User"
+      }
+    },
+    "10185": {
+      "number": 10185,
+      "user": {
+        "login": "thomaseizinger",
+        "type": "User"
+      }
+    },
+    "10186": {
+      "number": 10186,
+      "user": {
+        "login": "bo0tzz",
+        "type": "User"
+      }
+    },
+    "10187": {
+      "number": 10187,
+      "user": {
+        "login": "digvijay-555",
+        "type": "User"
+      }
+    },
+    "10188": {
+      "number": 10188,
+      "user": {
+        "login": "samuelawachie",
+        "type": "User"
+      }
+    },
+    "10189": {
+      "number": 10189,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10190": {
+      "number": 10190,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10191": {
+      "number": 10191,
+      "user": {
+        "login": "dougludlow",
+        "type": "User"
+      }
+    },
+    "10192": {
+      "number": 10192,
+      "user": {
+        "login": "fyko",
+        "type": "User"
+      }
+    },
+    "10193": {
+      "number": 10193,
+      "user": {
+        "login": "sakshamgoyal-01",
         "type": "User"
       }
     }
@@ -265985,8 +266048,8 @@
     },
     "10181": {
       "number": 10181,
-      "updatedAt": "2026-10-10T15:22:48Z",
-      "merged": false,
+      "updatedAt": "2026-10-13T14:51:56Z",
+      "merged": true,
       "author": {
         "login": "digvijay-555",
         "__typename": "User"
@@ -265998,7 +266061,15 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "10182": {
@@ -266017,6 +266088,46 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "10187": {
+      "number": 10187,
+      "updatedAt": "2026-10-13T15:34:05Z",
+      "merged": false,
+      "author": {
+        "login": "digvijay-555",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "digvijay-555",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
