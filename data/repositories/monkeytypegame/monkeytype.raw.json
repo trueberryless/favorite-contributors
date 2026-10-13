@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T09:24:19.504Z",
+    "lastRunAt": "2026-10-13T18:02:00.636Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51369,6 +51369,20 @@
       "number": 8456,
       "user": {
         "login": "Cyronite",
+        "type": "User"
+      }
+    },
+    "8458": {
+      "number": 8458,
+      "user": {
+        "login": "ajwadnxt",
+        "type": "User"
+      }
+    },
+    "8459": {
+      "number": 8459,
+      "user": {
+        "login": "Miodec",
         "type": "User"
       }
     }
@@ -183333,7 +183347,7 @@
     },
     "8358": {
       "number": 8358,
-      "updatedAt": "2026-08-24T12:35:55Z",
+      "updatedAt": "2026-10-13T14:43:03Z",
       "merged": false,
       "author": {
         "login": "AzureNightlock",
@@ -184524,7 +184538,7 @@
     },
     "8436": {
       "number": 8436,
-      "updatedAt": "2026-10-04T14:56:40Z",
+      "updatedAt": "2026-10-12T22:38:38Z",
       "merged": false,
       "author": {
         "login": "ShizukoV",
@@ -184774,7 +184788,7 @@
     },
     "8451": {
       "number": 8451,
-      "updatedAt": "2026-10-09T17:39:28Z",
+      "updatedAt": "2026-10-13T12:02:45Z",
       "merged": false,
       "author": {
         "login": "Miodec",
@@ -184842,6 +184856,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "8458": {
+      "number": 8458,
+      "updatedAt": "2026-10-12T13:34:42Z",
+      "merged": false,
+      "author": {
+        "login": "ajwadnxt",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8459": {
+      "number": 8459,
+      "updatedAt": "2026-10-13T16:25:06Z",
+      "merged": false,
+      "author": {
+        "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T09:25:01.086Z",
+    "lastRunAt": "2026-10-13T18:02:48.636Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0wOFQxMzoyODo1N1rOdI6dEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5888,6 +5888,9 @@
       "user": {
         "login": "Brooooooklyn",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "827": {
@@ -5901,6 +5904,50 @@
       "number": 828,
       "user": {
         "login": "fengmk2",
+        "type": "User"
+      }
+    },
+    "829": {
+      "number": 829,
+      "user": {
+        "login": "Brooooooklyn",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "830": {
+      "number": 830,
+      "user": {
+        "login": "Brooooooklyn",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "831": {
+      "number": 831,
+      "user": {
+        "login": "Brooooooklyn",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "832": {
+      "number": 832,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "833": {
+      "number": 833,
+      "user": {
+        "login": "Brooooooklyn",
         "type": "User"
       }
     }
@@ -20887,8 +20934,8 @@
     },
     "826": {
       "number": 826,
-      "updatedAt": "2026-10-12T06:45:41Z",
-      "merged": false,
+      "updatedAt": "2026-10-12T16:22:30Z",
+      "merged": true,
       "author": {
         "login": "Brooooooklyn",
         "__typename": "User"
@@ -20897,7 +20944,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -20922,6 +20969,125 @@
               "__typename": "User"
             }
           },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "829": {
+      "number": 829,
+      "updatedAt": "2026-10-12T18:34:34Z",
+      "merged": true,
+      "author": {
+        "login": "Brooooooklyn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "830": {
+      "number": 830,
+      "updatedAt": "2026-10-13T06:10:05Z",
+      "merged": true,
+      "author": {
+        "login": "Brooooooklyn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "831": {
+      "number": 831,
+      "updatedAt": "2026-10-13T08:51:37Z",
+      "merged": true,
+      "author": {
+        "login": "Brooooooklyn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "832": {
+      "number": 832,
+      "updatedAt": "2026-10-13T14:13:52Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "833": {
+      "number": 833,
+      "updatedAt": "2026-10-13T15:52:40Z",
+      "merged": false,
+      "author": {
+        "login": "Brooooooklyn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
           {
             "state": "COMMENTED",
             "author": {

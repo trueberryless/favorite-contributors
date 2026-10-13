@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T06:23:01.802Z",
+    "lastRunAt": "2026-10-13T18:00:29.677Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0xMi0wMlQxNTozMzowMlrOtmqIdQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1190,6 +1190,13 @@
       "user": {
         "login": "dreyfus92",
         "type": "User"
+      }
+    },
+    "164": {
+      "number": 164,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -4070,6 +4077,24 @@
       "author": {
         "login": "dreyfus92",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "164": {
+      "number": 164,
+      "updatedAt": "2026-10-12T18:26:16Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

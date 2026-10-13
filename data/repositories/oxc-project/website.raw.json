@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T09:24:58.122Z",
+    "lastRunAt": "2026-10-13T18:02:45.060Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0xNFQxMjoxMjoxN1rOXzkiDg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9719,6 +9719,20 @@
       "number": 1335,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1336": {
+      "number": 1336,
+      "user": {
+        "login": "oxc-guard[bot]",
+        "type": "Bot"
+      }
+    },
+    "1337": {
+      "number": 1337,
+      "user": {
+        "login": "oxc-guard[bot]",
         "type": "Bot"
       }
     }
@@ -35150,8 +35164,8 @@
     },
     "1327": {
       "number": 1327,
-      "updatedAt": "2026-10-12T00:31:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-12T09:42:41Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -35306,6 +35320,42 @@
       "merged": true,
       "author": {
         "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1336": {
+      "number": 1336,
+      "updatedAt": "2026-10-12T09:34:32Z",
+      "merged": false,
+      "author": {
+        "login": "oxc-guard",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1337": {
+      "number": 1337,
+      "updatedAt": "2026-10-13T08:50:42Z",
+      "merged": false,
+      "author": {
+        "login": "oxc-guard",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
