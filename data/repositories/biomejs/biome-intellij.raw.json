@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T06:21:24.160Z",
+    "lastRunAt": "2026-10-13T10:58:44.532Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0xNlQxMDoxNjo1N1rOYiNCaQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1835,6 +1835,13 @@
       "number": 238,
       "user": {
         "login": "andrzej-early",
+        "type": "User"
+      }
+    },
+    "239": {
+      "number": 239,
+      "user": {
+        "login": "ematipico",
         "type": "User"
       }
     }
@@ -4606,6 +4613,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "239": {
+      "number": 239,
+      "updatedAt": "2026-10-13T10:42:40Z",
+      "merged": false,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "siketyan",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

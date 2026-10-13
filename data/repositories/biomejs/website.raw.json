@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T06:21:24.840Z",
+    "lastRunAt": "2026-10-13T10:58:45.158Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32411,6 +32411,20 @@
       "number": 4623,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "4624": {
+      "number": 4624,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "4625": {
+      "number": 4625,
+      "user": {
+        "login": "github-actions[bot]",
         "type": "Bot"
       }
     }
@@ -123715,7 +123729,7 @@
     },
     "4610": {
       "number": 4610,
-      "updatedAt": "2026-10-10T12:29:57Z",
+      "updatedAt": "2026-10-13T08:36:16Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -123790,6 +123804,13 @@
             "author": {
               "login": "ematipico",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
@@ -123987,8 +124008,8 @@
     },
     "4620": {
       "number": 4620,
-      "updatedAt": "2026-10-12T00:28:28Z",
-      "merged": false,
+      "updatedAt": "2026-10-12T08:49:00Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -124045,6 +124066,50 @@
       "merged": false,
       "author": {
         "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4624": {
+      "number": 4624,
+      "updatedAt": "2026-10-12T14:13:42Z",
+      "merged": false,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "4625": {
+      "number": 4625,
+      "updatedAt": "2026-10-13T05:51:07Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {

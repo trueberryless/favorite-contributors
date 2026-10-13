@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T06:21:22.427Z",
+    "lastRunAt": "2026-10-13T10:58:42.672Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0wNVQxNzowMjo1NFrOXm0cPA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7838,6 +7838,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1181": {
+      "number": 1181,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
       }
     }
   },
@@ -23662,8 +23669,8 @@
     },
     "1177": {
       "number": 1177,
-      "updatedAt": "2026-10-12T00:24:31Z",
-      "merged": false,
+      "updatedAt": "2026-10-13T03:46:39Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -23680,8 +23687,8 @@
     },
     "1178": {
       "number": 1178,
-      "updatedAt": "2026-10-12T00:24:37Z",
-      "merged": false,
+      "updatedAt": "2026-10-12T08:49:13Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -23698,8 +23705,8 @@
     },
     "1179": {
       "number": 1179,
-      "updatedAt": "2026-10-12T04:48:34Z",
-      "merged": false,
+      "updatedAt": "2026-10-13T03:46:55Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -23724,8 +23731,8 @@
     },
     "1180": {
       "number": 1180,
-      "updatedAt": "2026-10-12T04:48:51Z",
-      "merged": false,
+      "updatedAt": "2026-10-13T03:47:42Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -23742,6 +23749,32 @@
             "state": "APPROVED",
             "author": {
               "login": "fireairforce",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1181": {
+      "number": 1181,
+      "updatedAt": "2026-10-13T09:04:15Z",
+      "merged": true,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "nhedger",
               "__typename": "User"
             }
           }
