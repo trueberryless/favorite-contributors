@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T00:17:57.314Z",
+    "lastRunAt": "2026-10-13T03:28:30.320Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0xMFQxODoyODoxMFrOMLT_KA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20273,6 +20273,48 @@
     },
     "2766": {
       "number": 2766,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2767": {
+      "number": 2767,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2768": {
+      "number": 2768,
+      "user": {
+        "login": "matthewp",
+        "type": "User"
+      }
+    },
+    "2769": {
+      "number": 2769,
+      "user": {
+        "login": "astrobot-houston",
+        "type": "User"
+      }
+    },
+    "2770": {
+      "number": 2770,
+      "user": {
+        "login": "astrobot-houston",
+        "type": "User"
+      }
+    },
+    "2771": {
+      "number": 2771,
+      "user": {
+        "login": "astrobot-houston",
+        "type": "User"
+      }
+    },
+    "2772": {
+      "number": 2772,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -85671,7 +85713,7 @@
     },
     "2683": {
       "number": 2683,
-      "updatedAt": "2026-10-11T20:22:01Z",
+      "updatedAt": "2026-10-13T00:21:58Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -87835,7 +87877,7 @@
     },
     "2762": {
       "number": 2762,
-      "updatedAt": "2026-10-11T20:33:12Z",
+      "updatedAt": "2026-10-12T17:54:20Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -87848,13 +87890,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2764": {
       "number": 2764,
-      "updatedAt": "2026-10-11T20:34:13Z",
-      "merged": false,
+      "updatedAt": "2026-10-12T14:21:36Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -87866,13 +87916,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2765": {
       "number": 2765,
-      "updatedAt": "2026-10-11T00:28:33Z",
-      "merged": false,
+      "updatedAt": "2026-10-12T14:23:06Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -87884,12 +87942,159 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2766": {
       "number": 2766,
-      "updatedAt": "2026-10-11T04:27:28Z",
+      "updatedAt": "2026-10-12T17:50:23Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2767": {
+      "number": 2767,
+      "updatedAt": "2026-10-12T16:03:15Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2768": {
+      "number": 2768,
+      "updatedAt": "2026-10-12T15:23:45Z",
+      "merged": false,
+      "author": {
+        "login": "matthewp",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2769": {
+      "number": 2769,
+      "updatedAt": "2026-10-12T21:08:06Z",
+      "merged": true,
+      "author": {
+        "login": "astrobot-houston",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2770": {
+      "number": 2770,
+      "updatedAt": "2026-10-12T21:21:10Z",
+      "merged": false,
+      "author": {
+        "login": "astrobot-houston",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2771": {
+      "number": 2771,
+      "updatedAt": "2026-10-12T21:15:19Z",
+      "merged": false,
+      "author": {
+        "login": "astrobot-houston",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2772": {
+      "number": 2772,
+      "updatedAt": "2026-10-12T21:23:22Z",
       "merged": false,
       "author": {
         "login": "renovate",

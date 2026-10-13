@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-11T20:52:00.194Z",
+    "lastRunAt": "2026-10-13T03:24:38.221Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMi0yNFQxMzoyMjoxMVrOFpKUmw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20469,6 +20469,20 @@
       "user": {
         "login": "giaBaoJS",
         "type": "User"
+      }
+    },
+    "2968": {
+      "number": 2968,
+      "user": {
+        "login": "cexbrayat",
+        "type": "User"
+      }
+    },
+    "2969": {
+      "number": 2969,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -69626,7 +69640,7 @@
     },
     "2966": {
       "number": 2966,
-      "updatedAt": "2026-10-10T06:36:51Z",
+      "updatedAt": "2026-10-12T16:07:15Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -69644,8 +69658,8 @@
     },
     "2967": {
       "number": 2967,
-      "updatedAt": "2026-10-10T08:04:01Z",
-      "merged": false,
+      "updatedAt": "2026-10-12T08:58:37Z",
+      "merged": true,
       "author": {
         "login": "giaBaoJS",
         "__typename": "User"
@@ -69657,7 +69671,59 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2968": {
+      "number": 2968,
+      "updatedAt": "2026-10-12T16:06:05Z",
+      "merged": true,
+      "author": {
+        "login": "cexbrayat",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "2969": {
+      "number": 2969,
+      "updatedAt": "2026-10-12T19:48:23Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
