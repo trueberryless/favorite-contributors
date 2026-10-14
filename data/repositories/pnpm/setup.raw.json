@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T22:46:11.728Z",
+    "lastRunAt": "2026-10-14T01:41:53.958Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -109,7 +109,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 16
+        "total_count": 22
       }
     },
     "14": {
@@ -659,6 +659,16 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "77": {
+      "number": 77,
+      "user": {
+        "login": "poulet42",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -2895,6 +2905,46 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "77": {
+      "number": 77,
+      "updatedAt": "2026-10-13T15:51:04Z",
+      "merged": false,
+      "author": {
+        "login": "poulet42",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "EhabY",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

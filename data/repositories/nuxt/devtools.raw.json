@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T15:58:38.358Z",
+    "lastRunAt": "2026-10-14T01:41:03.992Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0xNFQyMToxODo0NVrOOVF6Qg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8407,6 +8407,20 @@
       "number": 1121,
       "user": {
         "login": "antfubot",
+        "type": "User"
+      }
+    },
+    "1122": {
+      "number": 1122,
+      "user": {
+        "login": "antfubot",
+        "type": "User"
+      }
+    },
+    "1123": {
+      "number": 1123,
+      "user": {
+        "login": "danielroe",
         "type": "User"
       }
     }
@@ -22704,8 +22718,8 @@
     },
     "1119": {
       "number": 1119,
-      "updatedAt": "2026-10-06T21:02:15Z",
-      "merged": false,
+      "updatedAt": "2026-10-13T06:59:19Z",
+      "merged": true,
       "author": {
         "login": "TooTallNate",
         "__typename": "User"
@@ -22776,10 +22790,54 @@
     },
     "1121": {
       "number": 1121,
-      "updatedAt": "2026-10-09T07:47:27Z",
-      "merged": false,
+      "updatedAt": "2026-10-13T06:18:04Z",
+      "merged": true,
       "author": {
         "login": "antfubot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1122": {
+      "number": 1122,
+      "updatedAt": "2026-10-13T06:54:39Z",
+      "merged": true,
+      "author": {
+        "login": "antfubot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1123": {
+      "number": 1123,
+      "updatedAt": "2026-10-13T23:04:35Z",
+      "merged": false,
+      "author": {
+        "login": "danielroe",
         "__typename": "User"
       },
       "closingIssuesReferences": {

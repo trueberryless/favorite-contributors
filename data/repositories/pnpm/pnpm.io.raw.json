@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T22:46:09.212Z",
+    "lastRunAt": "2026-10-14T01:41:51.568Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7298,6 +7298,13 @@
       "number": 982,
       "user": {
         "login": "tats-u",
+        "type": "User"
+      }
+    },
+    "983": {
+      "number": 983,
+      "user": {
+        "login": "Fryrvo",
         "type": "User"
       }
     }
@@ -28798,7 +28805,7 @@
     },
     "959": {
       "number": 959,
-      "updatedAt": "2026-09-29T15:24:04Z",
+      "updatedAt": "2026-10-13T02:17:59Z",
       "merged": false,
       "author": {
         "login": "neonsid",
@@ -30004,6 +30011,53 @@
             "state": "COMMENTED",
             "author": {
               "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "983": {
+      "number": 983,
+      "updatedAt": "2026-10-14T00:35:33Z",
+      "merged": false,
+      "author": {
+        "login": "Fryrvo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
               "__typename": "Bot"
             }
           }
