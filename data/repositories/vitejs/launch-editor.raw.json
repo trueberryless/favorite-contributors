@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-12T22:48:07.290Z",
+    "lastRunAt": "2026-10-14T07:13:43.105Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMS0wNlQyMTozMjowNlrOCaArYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1165,6 +1165,20 @@
       "user": {
         "login": "mehmetozguldev",
         "type": "User"
+      }
+    },
+    "159": {
+      "number": 159,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "160": {
+      "number": 160,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -3417,7 +3431,7 @@
     },
     "150": {
       "number": 150,
-      "updatedAt": "2026-10-05T21:40:21Z",
+      "updatedAt": "2026-10-13T14:12:56Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -3566,6 +3580,42 @@
       "author": {
         "login": "mehmetozguldev",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "159": {
+      "number": 159,
+      "updatedAt": "2026-10-14T03:22:16Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "160": {
+      "number": 160,
+      "updatedAt": "2026-10-14T03:23:43Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

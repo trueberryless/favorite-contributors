@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-13T03:24:34.561Z",
+    "lastRunAt": "2026-10-14T07:15:27.276Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17860,6 +17860,20 @@
       "number": 2841,
       "user": {
         "login": "posva",
+        "type": "User"
+      }
+    },
+    "2842": {
+      "number": 2842,
+      "user": {
+        "login": "KazariEX",
+        "type": "User"
+      }
+    },
+    "2843": {
+      "number": 2843,
+      "user": {
+        "login": "parsajiravand",
         "type": "User"
       }
     }
@@ -49384,7 +49398,7 @@
     },
     "2826": {
       "number": 2826,
-      "updatedAt": "2026-10-07T06:49:58Z",
+      "updatedAt": "2026-10-14T05:49:12Z",
       "merged": false,
       "author": {
         "login": "giaBaoJS",
@@ -49397,7 +49411,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "parsajiravand",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2827": {
@@ -49729,7 +49751,7 @@
     },
     "2840": {
       "number": 2840,
-      "updatedAt": "2026-10-09T14:49:36Z",
+      "updatedAt": "2026-10-13T09:21:17Z",
       "merged": false,
       "author": {
         "login": "posva",
@@ -49751,6 +49773,50 @@
       "merged": false,
       "author": {
         "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2842": {
+      "number": 2842,
+      "updatedAt": "2026-10-14T05:15:45Z",
+      "merged": false,
+      "author": {
+        "login": "KazariEX",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2843": {
+      "number": 2843,
+      "updatedAt": "2026-10-13T18:36:26Z",
+      "merged": false,
+      "author": {
+        "login": "parsajiravand",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-13T03:24:37.082Z",
+    "lastRunAt": "2026-10-14T07:15:29.877Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13923,6 +13923,13 @@
       "number": 3194,
       "user": {
         "login": "Anoesj",
+        "type": "User"
+      }
+    },
+    "3195": {
+      "number": 3195,
+      "user": {
+        "login": "danyadev",
         "type": "User"
       }
     }
@@ -38974,7 +38981,7 @@
     },
     "3193": {
       "number": 3193,
-      "updatedAt": "2026-10-12T17:49:36Z",
+      "updatedAt": "2026-10-13T08:54:38Z",
       "merged": false,
       "author": {
         "login": "Anoesj",
@@ -38987,7 +38994,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3194": {
@@ -39014,6 +39029,24 @@
             }
           }
         ]
+      }
+    },
+    "3195": {
+      "number": 3195,
+      "updatedAt": "2026-10-13T22:50:46Z",
+      "merged": false,
+      "author": {
+        "login": "danyadev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
