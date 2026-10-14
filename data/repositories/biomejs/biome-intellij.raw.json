@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-13T10:58:44.532Z",
+    "lastRunAt": "2026-10-14T17:58:38.499Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0xNlQxMDoxNjo1N1rOYiNCaQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1840,6 +1840,27 @@
     },
     "239": {
       "number": 239,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "240": {
+      "number": 240,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "241": {
+      "number": 241,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "242": {
+      "number": 242,
       "user": {
         "login": "ematipico",
         "type": "User"
@@ -3972,7 +3993,7 @@
     },
     "174": {
       "number": 174,
-      "updatedAt": "2025-11-06T23:16:40Z",
+      "updatedAt": "2026-10-14T07:14:38Z",
       "merged": false,
       "author": {
         "login": "denbezrukov",
@@ -4617,8 +4638,8 @@
     },
     "239": {
       "number": 239,
-      "updatedAt": "2026-10-13T10:42:40Z",
-      "merged": false,
+      "updatedAt": "2026-10-13T12:02:50Z",
+      "merged": true,
       "author": {
         "login": "ematipico",
         "__typename": "User"
@@ -4639,6 +4660,76 @@
             }
           }
         ]
+      }
+    },
+    "240": {
+      "number": 240,
+      "updatedAt": "2026-10-14T07:13:36Z",
+      "merged": true,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "siketyan",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "241": {
+      "number": 241,
+      "updatedAt": "2026-10-14T07:24:34Z",
+      "merged": true,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "siketyan",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "242": {
+      "number": 242,
+      "updatedAt": "2026-10-14T07:24:04Z",
+      "merged": true,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
