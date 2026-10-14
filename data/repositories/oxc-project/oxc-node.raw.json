@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-13T18:02:48.636Z",
+    "lastRunAt": "2026-10-14T21:26:44.811Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0wOFQxMzoyODo1N1rOdI6dEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5949,6 +5949,16 @@
       "user": {
         "login": "Brooooooklyn",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "834": {
+      "number": 834,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -21074,8 +21084,8 @@
     },
     "833": {
       "number": 833,
-      "updatedAt": "2026-10-13T15:52:40Z",
-      "merged": false,
+      "updatedAt": "2026-10-14T03:21:09Z",
+      "merged": true,
       "author": {
         "login": "Brooooooklyn",
         "__typename": "User"
@@ -21084,7 +21094,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -21094,8 +21104,40 @@
               "login": "chatgpt-codex-connector",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "834": {
+      "number": 834,
+      "updatedAt": "2026-10-14T13:29:44Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-13T18:02:00.636Z",
+    "lastRunAt": "2026-10-14T21:26:02.056Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51383,6 +51383,13 @@
       "number": 8459,
       "user": {
         "login": "Miodec",
+        "type": "User"
+      }
+    },
+    "8462": {
+      "number": 8462,
+      "user": {
+        "login": "luisorofino",
         "type": "User"
       }
     }
@@ -184878,7 +184885,7 @@
     },
     "8459": {
       "number": 8459,
-      "updatedAt": "2026-10-13T16:25:06Z",
+      "updatedAt": "2026-10-14T21:20:27Z",
       "merged": false,
       "author": {
         "login": "Miodec",
@@ -184900,6 +184907,24 @@
             }
           }
         ]
+      }
+    },
+    "8462": {
+      "number": 8462,
+      "updatedAt": "2026-10-14T21:25:50Z",
+      "merged": false,
+      "author": {
+        "login": "luisorofino",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
