@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-14T21:28:11.803Z",
+    "lastRunAt": "2026-10-15T22:00:59.622Z",
     "prBackfillCursor": null,
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -833,6 +833,27 @@
         "login": "ChernyshovA",
         "type": "User"
       }
+    },
+    "112": {
+      "number": 112,
+      "user": {
+        "login": "shadcn",
+        "type": "User"
+      }
+    },
+    "113": {
+      "number": 113,
+      "user": {
+        "login": "ChernyshovA",
+        "type": "User"
+      }
+    },
+    "114": {
+      "number": 114,
+      "user": {
+        "login": "ChernyshovA",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -1530,7 +1551,7 @@
     },
     "89": {
       "number": 89,
-      "updatedAt": "2026-10-10T18:16:33Z",
+      "updatedAt": "2026-10-15T12:49:06Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -1714,6 +1735,60 @@
       "merged": false,
       "author": {
         "login": "shadcn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "112": {
+      "number": 112,
+      "updatedAt": "2026-10-15T12:48:42Z",
+      "merged": true,
+      "author": {
+        "login": "shadcn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "113": {
+      "number": 113,
+      "updatedAt": "2026-10-15T16:06:46Z",
+      "merged": false,
+      "author": {
+        "login": "ChernyshovA",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "114": {
+      "number": 114,
+      "updatedAt": "2026-10-15T16:18:06Z",
+      "merged": false,
+      "author": {
+        "login": "ChernyshovA",
         "__typename": "User"
       },
       "closingIssuesReferences": {

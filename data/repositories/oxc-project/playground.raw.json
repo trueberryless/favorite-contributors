@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-14T21:26:44.389Z",
+    "lastRunAt": "2026-10-15T21:59:30.002Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0xNlQxNjowNDowMVrOb6xwWw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3346,6 +3346,20 @@
       "number": 463,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "464": {
+      "number": 464,
+      "user": {
+        "login": "baevm",
+        "type": "User"
+      }
+    },
+    "465": {
+      "number": 465,
+      "user": {
+        "login": "oxc-guard[bot]",
         "type": "Bot"
       }
     }
@@ -11678,10 +11692,61 @@
     },
     "463": {
       "number": 463,
-      "updatedAt": "2026-10-14T13:19:51Z",
-      "merged": false,
+      "updatedAt": "2026-10-15T19:27:54Z",
+      "merged": true,
       "author": {
         "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "464": {
+      "number": 464,
+      "updatedAt": "2026-10-15T10:43:35Z",
+      "merged": false,
+      "author": {
+        "login": "baevm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "baevm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "465": {
+      "number": 465,
+      "updatedAt": "2026-10-15T19:18:10Z",
+      "merged": true,
+      "author": {
+        "login": "oxc-guard",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
