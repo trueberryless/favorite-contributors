@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-14T07:15:31.061Z",
+    "lastRunAt": "2026-10-15T09:48:58.127Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMi0yNFQxMzoyMjoxMVrOFpKUmw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20490,6 +20490,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "2971": {
+      "number": 2971,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
       }
     }
   },
@@ -69577,8 +69584,8 @@
     },
     "2963": {
       "number": 2963,
-      "updatedAt": "2026-10-07T16:37:01Z",
-      "merged": false,
+      "updatedAt": "2026-10-15T00:29:06Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -69590,7 +69597,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2964": {
@@ -69735,8 +69750,8 @@
     },
     "2970": {
       "number": 2970,
-      "updatedAt": "2026-10-14T04:23:10Z",
-      "merged": false,
+      "updatedAt": "2026-10-14T08:21:02Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -69748,7 +69763,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2971": {
+      "number": 2971,
+      "updatedAt": "2026-10-15T00:24:14Z",
+      "merged": true,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
