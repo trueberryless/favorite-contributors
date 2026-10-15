@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-13T22:38:41.090Z",
+    "lastRunAt": "2026-10-15T00:02:54.095Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xMVQxNzoyMDo1M1rOjiypRg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1978,6 +1978,13 @@
       "user": {
         "login": "sukvvon",
         "type": "User"
+      }
+    },
+    "297": {
+      "number": 297,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -7144,8 +7151,8 @@
     },
     "283": {
       "number": 283,
-      "updatedAt": "2026-10-12T19:22:55Z",
-      "merged": false,
+      "updatedAt": "2026-10-14T23:14:05Z",
+      "merged": true,
       "author": {
         "login": "benjavicente",
         "__typename": "User"
@@ -7157,7 +7164,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "284": {
@@ -7278,7 +7293,7 @@
     },
     "291": {
       "number": 291,
-      "updatedAt": "2026-10-12T14:36:17Z",
+      "updatedAt": "2026-10-14T23:27:56Z",
       "merged": false,
       "author": {
         "login": "KevinVandy",
@@ -7398,6 +7413,24 @@
             }
           }
         ]
+      }
+    },
+    "297": {
+      "number": 297,
+      "updatedAt": "2026-10-14T23:45:12Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
