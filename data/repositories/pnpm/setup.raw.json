@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-14T01:41:53.958Z",
+    "lastRunAt": "2026-10-15T05:02:00.435Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -302,7 +302,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "36": {
@@ -669,6 +669,20 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "78": {
+      "number": 78,
+      "user": {
+        "login": "shahmir-oscilar",
+        "type": "User"
+      }
+    },
+    "79": {
+      "number": 79,
+      "user": {
+        "login": "shahmir-oscilar",
+        "type": "User"
       }
     }
   },
@@ -2909,7 +2923,7 @@
     },
     "77": {
       "number": 77,
-      "updatedAt": "2026-10-13T15:51:04Z",
+      "updatedAt": "2026-10-14T14:46:22Z",
       "merged": false,
       "author": {
         "login": "poulet42",
@@ -2942,6 +2956,102 @@
             "author": {
               "login": "EhabY",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "poulet42",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "poulet42",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "EhabY",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "EhabY",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "EhabY",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "79": {
+      "number": 79,
+      "updatedAt": "2026-10-14T19:39:53Z",
+      "merged": false,
+      "author": {
+        "login": "shahmir-oscilar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
