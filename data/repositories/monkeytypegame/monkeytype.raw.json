@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-14T21:26:02.056Z",
+    "lastRunAt": "2026-10-15T18:57:58.417Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51390,6 +51390,48 @@
       "number": 8462,
       "user": {
         "login": "luisorofino",
+        "type": "User"
+      }
+    },
+    "8463": {
+      "number": 8463,
+      "user": {
+        "login": "luisorofino",
+        "type": "User"
+      }
+    },
+    "8464": {
+      "number": 8464,
+      "user": {
+        "login": "colin-pylon",
+        "type": "User"
+      }
+    },
+    "8465": {
+      "number": 8465,
+      "user": {
+        "login": "Azy-dev",
+        "type": "User"
+      }
+    },
+    "8466": {
+      "number": 8466,
+      "user": {
+        "login": "BeingShashwat",
+        "type": "User"
+      }
+    },
+    "8467": {
+      "number": 8467,
+      "user": {
+        "login": "Miodec",
+        "type": "User"
+      }
+    },
+    "8469": {
+      "number": 8469,
+      "user": {
+        "login": "aditya36900",
         "type": "User"
       }
     }
@@ -184885,7 +184927,7 @@
     },
     "8459": {
       "number": 8459,
-      "updatedAt": "2026-10-14T21:20:27Z",
+      "updatedAt": "2026-10-15T18:56:01Z",
       "merged": false,
       "author": {
         "login": "Miodec",
@@ -184915,6 +184957,112 @@
       "merged": false,
       "author": {
         "login": "luisorofino",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8463": {
+      "number": 8463,
+      "updatedAt": "2026-10-14T21:46:40Z",
+      "merged": false,
+      "author": {
+        "login": "luisorofino",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8465": {
+      "number": 8465,
+      "updatedAt": "2026-10-15T04:49:10Z",
+      "merged": false,
+      "author": {
+        "login": "Azy-dev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8466": {
+      "number": 8466,
+      "updatedAt": "2026-10-15T12:23:41Z",
+      "merged": false,
+      "author": {
+        "login": "BeingShashwat",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8467": {
+      "number": 8467,
+      "updatedAt": "2026-10-15T18:55:42Z",
+      "merged": false,
+      "author": {
+        "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8469": {
+      "number": 8469,
+      "updatedAt": "2026-10-15T17:52:25Z",
+      "merged": false,
+      "author": {
+        "login": "aditya36900",
         "__typename": "User"
       },
       "closingIssuesReferences": {
