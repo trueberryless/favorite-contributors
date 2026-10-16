@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T00:05:15.668Z",
+    "lastRunAt": "2026-10-16T00:17:21.826Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0zMFQxNjo0OToyNlrOwG8izg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1179,6 +1179,20 @@
       "user": {
         "login": "hyoban",
         "type": "User"
+      }
+    },
+    "159": {
+      "number": 159,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "160": {
+      "number": 160,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -4873,6 +4887,42 @@
             }
           }
         ]
+      }
+    },
+    "159": {
+      "number": 159,
+      "updatedAt": "2026-10-15T04:14:26Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "160": {
+      "number": 160,
+      "updatedAt": "2026-10-15T04:14:27Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T05:01:06.547Z",
+    "lastRunAt": "2026-10-16T00:18:06.284Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27260,6 +27260,20 @@
       "number": 3882,
       "user": {
         "login": "Lumethys",
+        "type": "User"
+      }
+    },
+    "3883": {
+      "number": 3883,
+      "user": {
+        "login": "mspirek",
+        "type": "User"
+      }
+    },
+    "3884": {
+      "number": 3884,
+      "user": {
+        "login": "mspirek",
         "type": "User"
       }
     }
@@ -71740,8 +71754,8 @@
     },
     "3848": {
       "number": 3848,
-      "updatedAt": "2026-10-01T14:58:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-15T10:30:00Z",
+      "merged": true,
       "author": {
         "login": "onmax",
         "__typename": "User"
@@ -71766,6 +71780,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
             }
           }
         ]
@@ -71961,7 +71982,7 @@
     },
     "3863": {
       "number": 3863,
-      "updatedAt": "2026-10-15T04:31:34Z",
+      "updatedAt": "2026-10-15T18:16:53Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -71979,7 +72000,7 @@
     },
     "3864": {
       "number": 3864,
-      "updatedAt": "2026-10-13T14:13:35Z",
+      "updatedAt": "2026-10-15T13:02:54Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72338,6 +72359,32 @@
               "__typename": "Bot"
             }
           },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3884": {
+      "number": 3884,
+      "updatedAt": "2026-10-15T19:24:55Z",
+      "merged": false,
+      "author": {
+        "login": "mspirek",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
           {
             "state": "COMMENTED",
             "author": {
