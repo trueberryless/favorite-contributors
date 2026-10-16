@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T14:45:47.696Z",
+    "lastRunAt": "2026-10-16T14:37:26.254Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16279,6 +16279,13 @@
       "number": 2334,
       "user": {
         "login": "jbgomez",
+        "type": "User"
+      }
+    },
+    "2335": {
+      "number": 2335,
+      "user": {
+        "login": "jorenbroekema",
         "type": "User"
       }
     }
@@ -59537,6 +59544,24 @@
       "merged": false,
       "author": {
         "login": "jbgomez",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2335": {
+      "number": 2335,
+      "updatedAt": "2026-10-16T12:42:22Z",
+      "merged": false,
+      "author": {
+        "login": "jorenbroekema",
         "__typename": "User"
       },
       "closingIssuesReferences": {

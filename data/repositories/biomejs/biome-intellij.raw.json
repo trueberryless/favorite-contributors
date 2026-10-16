@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T18:55:04.920Z",
+    "lastRunAt": "2026-10-16T14:38:46.956Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0xNlQxMDoxNjo1N1rOYiNCaQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1961,6 +1961,55 @@
       "number": 258,
       "user": {
         "login": "siketyan",
+        "type": "User"
+      }
+    },
+    "259": {
+      "number": 259,
+      "user": {
+        "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "260": {
+      "number": 260,
+      "user": {
+        "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "261": {
+      "number": 261,
+      "user": {
+        "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "262": {
+      "number": 262,
+      "user": {
+        "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "263": {
+      "number": 263,
+      "user": {
+        "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "264": {
+      "number": 264,
+      "user": {
+        "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "265": {
+      "number": 265,
+      "user": {
+        "login": "denbezrukov",
         "type": "User"
       }
     }
@@ -4920,8 +4969,8 @@
     },
     "248": {
       "number": 248,
-      "updatedAt": "2026-10-15T16:05:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T08:20:44Z",
+      "merged": true,
       "author": {
         "login": "denbezrukov",
         "__typename": "User"
@@ -4947,14 +4996,21 @@
               "login": "denbezrukov",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "249": {
       "number": 249,
-      "updatedAt": "2026-10-15T14:55:26Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T08:20:45Z",
+      "merged": true,
       "author": {
         "login": "denbezrukov",
         "__typename": "User"
@@ -4966,13 +5022,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "251": {
       "number": 251,
-      "updatedAt": "2026-10-15T15:07:02Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T08:20:46Z",
+      "merged": true,
       "author": {
         "login": "denbezrukov",
         "__typename": "User"
@@ -4984,7 +5048,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "252": {
@@ -5091,6 +5163,163 @@
       "merged": true,
       "author": {
         "login": "siketyan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "259": {
+      "number": 259,
+      "updatedAt": "2026-10-16T12:03:53Z",
+      "merged": false,
+      "author": {
+        "login": "denbezrukov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "denbezrukov",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "260": {
+      "number": 260,
+      "updatedAt": "2026-10-16T12:13:24Z",
+      "merged": true,
+      "author": {
+        "login": "denbezrukov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "261": {
+      "number": 261,
+      "updatedAt": "2026-10-16T12:13:35Z",
+      "merged": true,
+      "author": {
+        "login": "denbezrukov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "262": {
+      "number": 262,
+      "updatedAt": "2026-10-16T12:30:24Z",
+      "merged": true,
+      "author": {
+        "login": "denbezrukov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "263": {
+      "number": 263,
+      "updatedAt": "2026-10-16T13:10:41Z",
+      "merged": false,
+      "author": {
+        "login": "denbezrukov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "264": {
+      "number": 264,
+      "updatedAt": "2026-10-16T13:38:36Z",
+      "merged": false,
+      "author": {
+        "login": "denbezrukov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "265": {
+      "number": 265,
+      "updatedAt": "2026-10-16T14:38:39Z",
+      "merged": false,
+      "author": {
+        "login": "denbezrukov",
         "__typename": "User"
       },
       "closingIssuesReferences": {
