@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T22:02:17.465Z",
+    "lastRunAt": "2026-10-16T21:58:33.477Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMC0xN1QwMjowODo0MVrOLTum1g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -53905,6 +53905,9 @@
       "user": {
         "login": "Marve10s",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     },
     "8491": {
@@ -54293,7 +54296,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "8548": {
@@ -55425,6 +55428,9 @@
       "user": {
         "login": "harry-whorlow",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     },
     "8713": {
@@ -55535,6 +55541,76 @@
       "number": 8727,
       "user": {
         "login": "havalex",
+        "type": "User"
+      }
+    },
+    "8728": {
+      "number": 8728,
+      "user": {
+        "login": "westhouseit",
+        "type": "User"
+      }
+    },
+    "8729": {
+      "number": 8729,
+      "user": {
+        "login": "harisonw",
+        "type": "User"
+      }
+    },
+    "8730": {
+      "number": 8730,
+      "user": {
+        "login": "bhaveshdesale",
+        "type": "User"
+      }
+    },
+    "8731": {
+      "number": 8731,
+      "user": {
+        "login": "lynnntropy",
+        "type": "User"
+      }
+    },
+    "8732": {
+      "number": 8732,
+      "user": {
+        "login": "maricastroc",
+        "type": "User"
+      }
+    },
+    "8733": {
+      "number": 8733,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "8734": {
+      "number": 8734,
+      "user": {
+        "login": "maricastroc",
+        "type": "User"
+      }
+    },
+    "8735": {
+      "number": 8735,
+      "user": {
+        "login": "callie-openai",
+        "type": "User"
+      }
+    },
+    "8736": {
+      "number": 8736,
+      "user": {
+        "login": "rbalicki2",
+        "type": "User"
+      }
+    },
+    "8737": {
+      "number": 8737,
+      "user": {
+        "login": "Sheraff",
         "type": "User"
       }
     }
@@ -153469,7 +153545,7 @@
     },
     "7254": {
       "number": 7254,
-      "updatedAt": "2026-10-13T22:54:30Z",
+      "updatedAt": "2026-10-15T22:41:51Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -160162,7 +160238,7 @@
     },
     "7571": {
       "number": 7571,
-      "updatedAt": "2026-10-01T18:54:35Z",
+      "updatedAt": "2026-10-16T16:36:53Z",
       "merged": false,
       "author": {
         "login": "EduardF1",
@@ -173100,14 +173176,14 @@
     },
     "8212": {
       "number": 8212,
-      "updatedAt": "2026-10-03T17:19:12Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T13:35:34Z",
+      "merged": true,
       "author": {
         "login": "maxktz",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
@@ -180078,7 +180154,7 @@
     },
     "8488": {
       "number": 8488,
-      "updatedAt": "2026-10-06T22:51:46Z",
+      "updatedAt": "2026-10-16T11:46:41Z",
       "merged": false,
       "author": {
         "login": "Marve10s",
@@ -180088,10 +180164,18 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 2
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "8492": {
@@ -180542,7 +180626,7 @@
     },
     "8509": {
       "number": 8509,
-      "updatedAt": "2026-10-15T09:02:52Z",
+      "updatedAt": "2026-10-16T21:57:43Z",
       "merged": false,
       "author": {
         "login": "schiller-manuel",
@@ -184374,7 +184458,7 @@
     },
     "8712": {
       "number": 8712,
-      "updatedAt": "2026-10-15T20:01:08Z",
+      "updatedAt": "2026-10-16T21:46:39Z",
       "merged": false,
       "author": {
         "login": "harry-whorlow",
@@ -184384,7 +184468,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 2
       },
       "reviews": {
         "nodes": [
@@ -184455,6 +184539,27 @@
             "state": "COMMENTED",
             "author": {
               "login": "harry-whorlow",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "harry-whorlow",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "schiller-manuel",
               "__typename": "User"
             }
           }
@@ -184670,8 +184775,8 @@
     },
     "8723": {
       "number": 8723,
-      "updatedAt": "2026-10-15T21:52:46Z",
-      "merged": false,
+      "updatedAt": "2026-10-15T22:41:34Z",
+      "merged": true,
       "author": {
         "login": "schiller-manuel",
         "__typename": "User"
@@ -184704,6 +184809,13 @@
               "login": "schiller-manuel",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Sheraff",
+              "__typename": "User"
+            }
           }
         ]
       }
@@ -184724,6 +184836,152 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "8728": {
+      "number": 8728,
+      "updatedAt": "2026-10-15T23:39:56Z",
+      "merged": false,
+      "author": {
+        "login": "westhouseit",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8730": {
+      "number": 8730,
+      "updatedAt": "2026-10-16T19:42:30Z",
+      "merged": false,
+      "author": {
+        "login": "bhaveshdesale",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8732": {
+      "number": 8732,
+      "updatedAt": "2026-10-16T14:26:04Z",
+      "merged": false,
+      "author": {
+        "login": "maricastroc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "maricastroc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8733": {
+      "number": 8733,
+      "updatedAt": "2026-10-16T21:05:32Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8734": {
+      "number": 8734,
+      "updatedAt": "2026-10-16T15:13:22Z",
+      "merged": false,
+      "author": {
+        "login": "maricastroc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8737": {
+      "number": 8737,
+      "updatedAt": "2026-10-16T21:48:00Z",
+      "merged": false,
+      "author": {
+        "login": "Sheraff",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

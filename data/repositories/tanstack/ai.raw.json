@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T22:02:23.051Z",
+    "lastRunAt": "2026-10-16T21:58:40.131Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0xMC0xN1QxNToxNTowMlrOrlQ5pQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12221,6 +12221,83 @@
     },
     "1798": {
       "number": 1798,
+      "user": {
+        "login": "jherr",
+        "type": "User"
+      }
+    },
+    "1799": {
+      "number": 1799,
+      "user": {
+        "login": "tombeckenham",
+        "type": "User"
+      }
+    },
+    "1800": {
+      "number": 1800,
+      "user": {
+        "login": "ozolcar",
+        "type": "User"
+      }
+    },
+    "1801": {
+      "number": 1801,
+      "user": {
+        "login": "ozolcar",
+        "type": "User"
+      }
+    },
+    "1802": {
+      "number": 1802,
+      "user": {
+        "login": "ozolcar",
+        "type": "User"
+      }
+    },
+    "1803": {
+      "number": 1803,
+      "user": {
+        "login": "ozolcar",
+        "type": "User"
+      }
+    },
+    "1804": {
+      "number": 1804,
+      "user": {
+        "login": "ozolcar",
+        "type": "User"
+      }
+    },
+    "1805": {
+      "number": 1805,
+      "user": {
+        "login": "ozolcar",
+        "type": "User"
+      }
+    },
+    "1806": {
+      "number": 1806,
+      "user": {
+        "login": "PatrM",
+        "type": "User"
+      }
+    },
+    "1807": {
+      "number": 1807,
+      "user": {
+        "login": "AlemTuzlak",
+        "type": "User"
+      }
+    },
+    "1809": {
+      "number": 1809,
+      "user": {
+        "login": "AlemTuzlak",
+        "type": "User"
+      }
+    },
+    "1810": {
+      "number": 1810,
       "user": {
         "login": "jherr",
         "type": "User"
@@ -48376,7 +48453,7 @@
     },
     "1323": {
       "number": 1323,
-      "updatedAt": "2026-10-06T09:35:27Z",
+      "updatedAt": "2026-10-16T07:21:01Z",
       "merged": true,
       "author": {
         "login": "harshlocham",
@@ -59675,7 +59752,7 @@
     },
     "1755": {
       "number": 1755,
-      "updatedAt": "2026-10-15T21:25:36Z",
+      "updatedAt": "2026-10-16T11:27:39Z",
       "merged": false,
       "author": {
         "login": "AlemTuzlak",
@@ -59750,6 +59827,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "tombeckenham",
+              "__typename": "User"
             }
           }
         ]
@@ -59925,8 +60009,8 @@
     },
     "1764": {
       "number": 1764,
-      "updatedAt": "2026-10-15T21:25:40Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T09:53:32Z",
+      "merged": true,
       "author": {
         "login": "AlemTuzlak",
         "__typename": "User"
@@ -59969,7 +60053,7 @@
     },
     "1766": {
       "number": 1766,
-      "updatedAt": "2026-10-15T17:04:27Z",
+      "updatedAt": "2026-10-16T09:55:04Z",
       "merged": false,
       "author": {
         "login": "AlemTuzlak",
@@ -59987,8 +60071,8 @@
     },
     "1767": {
       "number": 1767,
-      "updatedAt": "2026-10-15T21:25:43Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T10:33:39Z",
+      "merged": true,
       "author": {
         "login": "AlemTuzlak",
         "__typename": "User"
@@ -60580,7 +60664,148 @@
     },
     "1798": {
       "number": 1798,
-      "updatedAt": "2026-10-15T21:25:50Z",
+      "updatedAt": "2026-10-16T09:07:05Z",
+      "merged": true,
+      "author": {
+        "login": "jherr",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1805": {
+      "number": 1805,
+      "updatedAt": "2026-10-16T11:27:48Z",
+      "merged": false,
+      "author": {
+        "login": "ozolcar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1806": {
+      "number": 1806,
+      "updatedAt": "2026-10-16T11:27:57Z",
+      "merged": false,
+      "author": {
+        "login": "PatrM",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "PatrM",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "PatrM",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "PatrM",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1807": {
+      "number": 1807,
+      "updatedAt": "2026-10-16T16:42:08Z",
+      "merged": false,
+      "author": {
+        "login": "AlemTuzlak",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1809": {
+      "number": 1809,
+      "updatedAt": "2026-10-16T21:12:45Z",
+      "merged": false,
+      "author": {
+        "login": "AlemTuzlak",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1810": {
+      "number": 1810,
+      "updatedAt": "2026-10-16T21:50:49Z",
       "merged": false,
       "author": {
         "login": "jherr",

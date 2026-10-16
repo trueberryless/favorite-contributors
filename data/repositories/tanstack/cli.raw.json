@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T22:02:22.167Z",
+    "lastRunAt": "2026-10-16T21:58:37.855Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0xOFQwMjoxOTo0MVrOi3_cXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10780,8 +10780,8 @@
     },
     "505": {
       "number": 505,
-      "updatedAt": "2026-09-09T11:51:05Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T21:55:37Z",
+      "merged": true,
       "author": {
         "login": "SyMind",
         "__typename": "User"
@@ -10833,6 +10833,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "chenjiahan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "schiller-manuel",
               "__typename": "User"
             }
           }
