@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T21:59:29.575Z",
+    "lastRunAt": "2026-10-16T18:42:20.074Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0xMVQwMzo0MzowOFrOY5SVWg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5754,6 +5754,26 @@
       "user": {
         "login": "maiolica",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "802": {
+      "number": 802,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "803": {
+      "number": 803,
+      "user": {
+        "login": "Claude",
+        "type": "Bot"
       }
     }
   },
@@ -19807,20 +19827,27 @@
     },
     "799": {
       "number": 799,
-      "updatedAt": "2026-10-12T18:00:58Z",
+      "updatedAt": "2026-10-16T14:11:33Z",
       "merged": false,
       "author": {
         "login": "Sysix",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -19848,6 +19875,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "802": {
+      "number": 802,
+      "updatedAt": "2026-10-16T03:03:06Z",
+      "merged": true,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "803": {
+      "number": 803,
+      "updatedAt": "2026-10-16T14:16:30Z",
+      "merged": false,
+      "author": {
+        "login": "anthropic-code-agent",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

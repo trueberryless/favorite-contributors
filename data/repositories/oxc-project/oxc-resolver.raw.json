@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T21:59:29.464Z",
+    "lastRunAt": "2026-10-16T18:42:19.001Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0wNlQwNTo0MzozM1rOYUIW6g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10259,6 +10259,27 @@
     },
     "1414": {
       "number": 1414,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1415": {
+      "number": 1415,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
+      }
+    },
+    "1416": {
+      "number": 1416,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1417": {
+      "number": 1417,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -34492,7 +34513,7 @@
     },
     "1376": {
       "number": 1376,
-      "updatedAt": "2026-10-14T13:36:47Z",
+      "updatedAt": "2026-10-16T08:38:11Z",
       "merged": false,
       "author": {
         "login": "oxc-guard",
@@ -34862,7 +34883,7 @@
     },
     "1395": {
       "number": 1395,
-      "updatedAt": "2026-10-14T13:37:09Z",
+      "updatedAt": "2026-10-16T08:37:14Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35204,6 +35225,68 @@
       "number": 1414,
       "updatedAt": "2026-10-14T13:31:13Z",
       "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1415": {
+      "number": 1415,
+      "updatedAt": "2026-10-16T03:35:20Z",
+      "merged": true,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1416": {
+      "number": 1416,
+      "updatedAt": "2026-10-16T08:31:45Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1417": {
+      "number": 1417,
+      "updatedAt": "2026-10-16T08:34:54Z",
+      "merged": false,
       "author": {
         "login": "renovate",
         "__typename": "Bot"

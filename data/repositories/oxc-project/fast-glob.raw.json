@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T21:59:31.649Z",
+    "lastRunAt": "2026-10-16T18:42:21.978Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xM1QwOTo1MDo0OVrOeDV_Kw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1397,6 +1397,13 @@
     },
     "187": {
       "number": 187,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "188": {
+      "number": 188,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -4683,6 +4690,24 @@
     "187": {
       "number": 187,
       "updatedAt": "2026-10-11T20:26:21Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "188": {
+      "number": 188,
+      "updatedAt": "2026-10-16T08:24:56Z",
       "merged": true,
       "author": {
         "login": "renovate",

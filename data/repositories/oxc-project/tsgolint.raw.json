@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T21:59:32.422Z",
+    "lastRunAt": "2026-10-16T18:42:23.338Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNy0xNFQwOTowNzo1NVrOnsK0_Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9576,6 +9576,27 @@
       "number": 1292,
       "user": {
         "login": "jmescuderowritefull",
+        "type": "User"
+      }
+    },
+    "1294": {
+      "number": 1294,
+      "user": {
+        "login": "HelloAlexPan",
+        "type": "User"
+      }
+    },
+    "1295": {
+      "number": 1295,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
+      }
+    },
+    "1296": {
+      "number": 1296,
+      "user": {
+        "login": "YevheniiKotyrlo",
         "type": "User"
       }
     }
@@ -35116,6 +35137,50 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1295": {
+      "number": 1295,
+      "updatedAt": "2026-10-16T03:09:14Z",
+      "merged": true,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1296": {
+      "number": 1296,
+      "updatedAt": "2026-10-16T07:29:45Z",
+      "merged": false,
+      "author": {
+        "login": "YevheniiKotyrlo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
