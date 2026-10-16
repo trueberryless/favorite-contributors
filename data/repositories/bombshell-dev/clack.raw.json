@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T09:50:34.700Z",
+    "lastRunAt": "2026-10-16T09:33:22.695Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4831,6 +4831,27 @@
       "number": 616,
       "user": {
         "login": "btea",
+        "type": "User"
+      }
+    },
+    "617": {
+      "number": 617,
+      "user": {
+        "login": "StringerBell69",
+        "type": "User"
+      }
+    },
+    "618": {
+      "number": 618,
+      "user": {
+        "login": "btea",
+        "type": "User"
+      }
+    },
+    "619": {
+      "number": 619,
+      "user": {
+        "login": "menukaDad",
         "type": "User"
       }
     }
@@ -16824,7 +16845,7 @@
     },
     "616": {
       "number": 616,
-      "updatedAt": "2026-10-15T09:15:05Z",
+      "updatedAt": "2026-10-15T11:05:37Z",
       "merged": true,
       "author": {
         "login": "btea",
@@ -16842,6 +16863,57 @@
             "state": "APPROVED",
             "author": {
               "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "617": {
+      "number": 617,
+      "updatedAt": "2026-10-15T16:52:24Z",
+      "merged": false,
+      "author": {
+        "login": "StringerBell69",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "618": {
+      "number": 618,
+      "updatedAt": "2026-10-16T00:27:50Z",
+      "merged": false,
+      "author": {
+        "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dreyfus92",
               "__typename": "User"
             }
           }

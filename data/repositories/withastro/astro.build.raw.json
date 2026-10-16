@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T14:43:35.663Z",
+    "lastRunAt": "2026-10-16T09:35:25.075Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0xMFQxODoyODoxMFrOMLT_KA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20377,6 +20377,13 @@
       "user": {
         "login": "SaintSin",
         "type": "User"
+      }
+    },
+    "2781": {
+      "number": 2781,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -85772,7 +85779,7 @@
     },
     "2683": {
       "number": 2683,
-      "updatedAt": "2026-10-15T08:22:56Z",
+      "updatedAt": "2026-10-15T21:03:17Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -88066,8 +88073,8 @@
     },
     "2768": {
       "number": 2768,
-      "updatedAt": "2026-10-14T22:14:21Z",
-      "merged": false,
+      "updatedAt": "2026-10-15T16:19:55Z",
+      "merged": true,
       "author": {
         "login": "matthewp",
         "__typename": "User"
@@ -88084,6 +88091,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
               "__typename": "User"
             }
           }
@@ -88356,6 +88370,24 @@
       "author": {
         "login": "SaintSin",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2781": {
+      "number": 2781,
+      "updatedAt": "2026-10-15T16:41:44Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

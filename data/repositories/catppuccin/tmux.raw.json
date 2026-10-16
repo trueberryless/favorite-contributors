@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T09:51:20.358Z",
+    "lastRunAt": "2026-10-16T09:34:10.520Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0xMFQwNDoyNjo0NVrOL6K_zg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10720,7 +10720,7 @@
     },
     "589": {
       "number": 589,
-      "updatedAt": "2026-10-13T14:08:37Z",
+      "updatedAt": "2026-10-15T12:58:36Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10836,7 +10836,7 @@
     },
     "599": {
       "number": 599,
-      "updatedAt": "2026-10-13T14:08:33Z",
+      "updatedAt": "2026-10-15T12:58:25Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10898,7 +10898,7 @@
     },
     "604": {
       "number": 604,
-      "updatedAt": "2026-09-24T23:02:06Z",
+      "updatedAt": "2026-10-15T12:58:30Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10968,8 +10968,8 @@
     },
     "607": {
       "number": 607,
-      "updatedAt": "2026-10-14T14:42:06Z",
-      "merged": false,
+      "updatedAt": "2026-10-15T12:58:13Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -10981,7 +10981,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "rogeruiz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
