@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-15T09:49:03.604Z",
+    "lastRunAt": "2026-10-16T04:54:16.020Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0yMVQwNzoyNzozMVrOWmaDxQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8430,6 +8430,20 @@
       "number": 1165,
       "user": {
         "login": "webfansplz",
+        "type": "User"
+      }
+    },
+    "1166": {
+      "number": 1166,
+      "user": {
+        "login": "webfansplz",
+        "type": "User"
+      }
+    },
+    "1167": {
+      "number": 1167,
+      "user": {
+        "login": "shuaiyafei",
         "type": "User"
       }
     }
@@ -23021,8 +23035,8 @@
     },
     "1162": {
       "number": 1162,
-      "updatedAt": "2026-10-15T08:20:33Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T01:43:52Z",
+      "merged": true,
       "author": {
         "login": "webfansplz",
         "__typename": "User"
@@ -23121,6 +23135,50 @@
             }
           }
         ]
+      }
+    },
+    "1166": {
+      "number": 1166,
+      "updatedAt": "2026-10-16T01:56:40Z",
+      "merged": false,
+      "author": {
+        "login": "webfansplz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1167": {
+      "number": 1167,
+      "updatedAt": "2026-10-16T03:20:12Z",
+      "merged": false,
+      "author": {
+        "login": "shuaiyafei",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
