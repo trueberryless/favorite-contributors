@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-17T00:14:50.113Z",
+    "lastRunAt": "2026-10-17T19:07:10.512Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0xNVQxMzowNDoyOFrOSggPtw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -43392,7 +43392,7 @@
     },
     "1623": {
       "number": 1623,
-      "updatedAt": "2026-10-16T19:15:51Z",
+      "updatedAt": "2026-10-17T12:26:41Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -43406,6 +43406,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
           {
             "state": "APPROVED",
             "author": {

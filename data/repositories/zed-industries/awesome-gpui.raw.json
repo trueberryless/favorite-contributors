@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T21:59:21.243Z",
+    "lastRunAt": "2026-10-17T19:04:55.409Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -913,6 +913,13 @@
       "number": 124,
       "user": {
         "login": "crizant",
+        "type": "User"
+      }
+    },
+    "125": {
+      "number": 125,
+      "user": {
+        "login": "anzal1",
         "type": "User"
       }
     }
@@ -3040,7 +3047,7 @@
     },
     "123": {
       "number": 123,
-      "updatedAt": "2026-10-16T21:09:38Z",
+      "updatedAt": "2026-10-17T04:46:52Z",
       "merged": true,
       "author": {
         "login": "tebriz91",
@@ -3058,10 +3065,28 @@
     },
     "124": {
       "number": 124,
-      "updatedAt": "2026-10-16T21:09:44Z",
+      "updatedAt": "2026-10-17T00:03:06Z",
       "merged": true,
       "author": {
         "login": "crizant",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "125": {
+      "number": 125,
+      "updatedAt": "2026-10-17T06:16:57Z",
+      "merged": false,
+      "author": {
+        "login": "anzal1",
         "__typename": "User"
       },
       "closingIssuesReferences": {

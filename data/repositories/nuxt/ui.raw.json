@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-17T00:14:46.657Z",
+    "lastRunAt": "2026-10-17T19:07:06.923Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xOFQxMzoxNTo0NlrOLraJ-A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -55043,6 +55043,13 @@
       "number": 7221,
       "user": {
         "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "7222": {
+      "number": 7222,
+      "user": {
+        "login": "cristianchiriac",
         "type": "User"
       }
     }
@@ -144149,6 +144156,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "7222": {
+      "number": 7222,
+      "updatedAt": "2026-10-17T08:39:00Z",
+      "merged": false,
+      "author": {
+        "login": "cristianchiriac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
