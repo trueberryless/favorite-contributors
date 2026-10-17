@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T04:54:14.714Z",
+    "lastRunAt": "2026-10-17T04:53:08.144Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xN1QwNjo1ODoyNVrOLizwBQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8371,6 +8371,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1163": {
+      "number": 1163,
+      "user": {
+        "login": "btea",
+        "type": "User"
       }
     }
   },
@@ -29079,7 +29086,7 @@
     },
     "1076": {
       "number": 1076,
-      "updatedAt": "2026-10-15T15:46:37Z",
+      "updatedAt": "2026-10-16T07:36:32Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -29423,8 +29430,8 @@
     },
     "1090": {
       "number": 1090,
-      "updatedAt": "2026-10-14T05:26:57Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T08:11:09Z",
+      "merged": true,
       "author": {
         "login": "btea",
         "__typename": "User"
@@ -29436,7 +29443,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1091": {
@@ -30876,8 +30891,8 @@
     },
     "1152": {
       "number": 1152,
-      "updatedAt": "2026-10-15T16:48:50Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T07:35:36Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -30889,7 +30904,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1156": {
@@ -31057,11 +31080,29 @@
     },
     "1162": {
       "number": 1162,
-      "updatedAt": "2026-10-15T08:50:43Z",
+      "updatedAt": "2026-10-16T07:36:24Z",
       "merged": false,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1163": {
+      "number": 1163,
+      "updatedAt": "2026-10-16T14:35:32Z",
+      "merged": false,
+      "author": {
+        "login": "btea",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

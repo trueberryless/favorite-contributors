@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T04:53:13.723Z",
+    "lastRunAt": "2026-10-17T04:52:03.875Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNC0xOVQwNDo0Mjo0NVrONl6pkw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5930,6 +5930,13 @@
       "number": 834,
       "user": {
         "login": "Terrence721",
+        "type": "User"
+      }
+    },
+    "835": {
+      "number": 835,
+      "user": {
+        "login": "mbonaci",
         "type": "User"
       }
     }
@@ -12800,6 +12807,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "835": {
+      "number": 835,
+      "updatedAt": "2026-10-17T00:12:06Z",
+      "merged": false,
+      "author": {
+        "login": "mbonaci",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "sheremet-va",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

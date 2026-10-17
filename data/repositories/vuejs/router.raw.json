@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T04:54:08.044Z",
+    "lastRunAt": "2026-10-17T04:53:01.451Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -14032,7 +14032,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 3
       }
     },
     "2107": {
@@ -17937,6 +17937,13 @@
       "number": 2852,
       "user": {
         "login": "darkbasic",
+        "type": "User"
+      }
+    },
+    "2853": {
+      "number": 2853,
+      "user": {
+        "login": "posva",
         "type": "User"
       }
     }
@@ -42076,7 +42083,7 @@
     },
     "2106": {
       "number": 2106,
-      "updatedAt": "2026-08-27T11:51:20Z",
+      "updatedAt": "2026-10-16T16:25:56Z",
       "merged": false,
       "author": {
         "login": "posva",
@@ -42086,7 +42093,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 3
       },
       "reviews": {
         "nodes": []
@@ -49938,8 +49945,8 @@
     },
     "2846": {
       "number": 2846,
-      "updatedAt": "2026-10-15T15:43:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T12:55:58Z",
+      "merged": true,
       "author": {
         "login": "posva",
         "__typename": "User"
@@ -49951,7 +49958,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "2848": {
@@ -50040,6 +50055,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2853": {
+      "number": 2853,
+      "updatedAt": "2026-10-16T19:17:05Z",
+      "merged": false,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
