@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T00:18:06.284Z",
+    "lastRunAt": "2026-10-17T00:14:42.557Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -71982,7 +71982,7 @@
     },
     "3863": {
       "number": 3863,
-      "updatedAt": "2026-10-15T18:16:53Z",
+      "updatedAt": "2026-10-16T16:39:31Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72230,7 +72230,7 @@
     },
     "3876": {
       "number": 3876,
-      "updatedAt": "2026-10-13T14:16:35Z",
+      "updatedAt": "2026-10-16T17:12:14Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72243,7 +72243,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3877": {
@@ -72371,8 +72379,8 @@
     },
     "3884": {
       "number": 3884,
-      "updatedAt": "2026-10-15T19:24:55Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T16:34:37Z",
+      "merged": true,
       "author": {
         "login": "mspirek",
         "__typename": "User"
@@ -72390,6 +72398,20 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
             }
           }
         ]

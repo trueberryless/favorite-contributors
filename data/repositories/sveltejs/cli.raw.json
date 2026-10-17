@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T04:51:57.333Z",
+    "lastRunAt": "2026-10-17T00:17:00.690Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10414,6 +10414,34 @@
       "number": 1422,
       "user": {
         "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1423": {
+      "number": 1423,
+      "user": {
+        "login": "SomSamantray",
+        "type": "User"
+      }
+    },
+    "1424": {
+      "number": 1424,
+      "user": {
+        "login": "jycouet",
+        "type": "User"
+      }
+    },
+    "1425": {
+      "number": 1425,
+      "user": {
+        "login": "bnn1",
+        "type": "User"
+      }
+    },
+    "1426": {
+      "number": 1426,
+      "user": {
+        "login": "jycouet",
         "type": "User"
       }
     }
@@ -34945,7 +34973,7 @@
     },
     "1202": {
       "number": 1202,
-      "updatedAt": "2026-10-05T17:07:00Z",
+      "updatedAt": "2026-10-16T17:42:35Z",
       "merged": false,
       "author": {
         "login": "sacrosanctic",
@@ -38304,8 +38332,8 @@
     },
     "1344": {
       "number": 1344,
-      "updatedAt": "2026-10-15T17:35:26Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T17:37:54Z",
+      "merged": true,
       "author": {
         "login": "pluxain",
         "__typename": "User"
@@ -38362,6 +38390,20 @@
           },
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "sacrosanctic",
               "__typename": "User"
@@ -39453,8 +39495,8 @@
     },
     "1406": {
       "number": 1406,
-      "updatedAt": "2026-10-03T22:18:52Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T20:01:05Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -39466,7 +39508,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1407": {
@@ -39603,7 +39653,7 @@
     },
     "1417": {
       "number": 1417,
-      "updatedAt": "2026-10-09T10:25:10Z",
+      "updatedAt": "2026-10-16T20:01:41Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -39639,7 +39689,7 @@
     },
     "1419": {
       "number": 1419,
-      "updatedAt": "2026-10-10T23:00:32Z",
+      "updatedAt": "2026-10-16T07:35:34Z",
       "merged": false,
       "author": {
         "login": "LudoLoops",
@@ -39657,8 +39707,8 @@
     },
     "1421": {
       "number": 1421,
-      "updatedAt": "2026-10-13T03:26:04Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T15:49:39Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -39670,19 +39720,104 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1422": {
       "number": 1422,
-      "updatedAt": "2026-10-13T03:24:14Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T17:13:04Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1423": {
+      "number": 1423,
+      "updatedAt": "2026-10-16T04:53:25Z",
+      "merged": false,
+      "author": {
+        "login": "SomSamantray",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1424": {
+      "number": 1424,
+      "updatedAt": "2026-10-16T20:02:29Z",
+      "merged": false,
+      "author": {
+        "login": "jycouet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1426": {
+      "number": 1426,
+      "updatedAt": "2026-10-16T10:19:35Z",
+      "merged": false,
+      "author": {
+        "login": "jycouet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

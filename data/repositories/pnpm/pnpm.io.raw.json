@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T00:18:53.804Z",
+    "lastRunAt": "2026-10-17T00:15:29.334Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7305,6 +7305,13 @@
       "number": 983,
       "user": {
         "login": "Fryrvo",
+        "type": "User"
+      }
+    },
+    "984": {
+      "number": 984,
+      "user": {
+        "login": "tunglambk",
         "type": "User"
       }
     }
@@ -30047,6 +30054,39 @@
               "__typename": "Bot"
             }
           },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "984": {
+      "number": 984,
+      "updatedAt": "2026-10-16T02:16:22Z",
+      "merged": false,
+      "author": {
+        "login": "tunglambk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
           {
             "state": "COMMENTED",
             "author": {

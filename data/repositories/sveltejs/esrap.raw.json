@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T04:51:56.345Z",
+    "lastRunAt": "2026-10-17T00:16:59.783Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0xN1QwMjozMDozNVrOWoCLRQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1804,6 +1804,13 @@
       "number": 250,
       "user": {
         "login": "GBra-4-669",
+        "type": "User"
+      }
+    },
+    "251": {
+      "number": 251,
+      "user": {
+        "login": "jycouet",
         "type": "User"
       }
     }
@@ -6842,6 +6849,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "251": {
+      "number": 251,
+      "updatedAt": "2026-10-16T23:33:05Z",
+      "merged": false,
+      "author": {
+        "login": "jycouet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T00:17:21.826Z",
+    "lastRunAt": "2026-10-17T00:14:00.215Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0yMlQxODowNzoxMFrOvrttxw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -25988,6 +25988,13 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "3333": {
+      "number": 3333,
+      "user": {
+        "login": "Sidnioulz",
+        "type": "User"
       }
     }
   },
@@ -119872,7 +119879,7 @@
     },
     "3202": {
       "number": 3202,
-      "updatedAt": "2026-10-15T21:30:46Z",
+      "updatedAt": "2026-10-16T16:58:12Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -121397,7 +121404,7 @@
     },
     "3265": {
       "number": 3265,
-      "updatedAt": "2026-10-15T18:13:04Z",
+      "updatedAt": "2026-10-16T08:26:00Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -122165,7 +122172,7 @@
     },
     "3293": {
       "number": 3293,
-      "updatedAt": "2026-10-12T12:49:08Z",
+      "updatedAt": "2026-10-16T10:05:22Z",
       "merged": false,
       "author": {
         "login": "btea",
@@ -122279,7 +122286,7 @@
     },
     "3300": {
       "number": 3300,
-      "updatedAt": "2026-10-12T12:49:08Z",
+      "updatedAt": "2026-10-16T10:06:24Z",
       "merged": false,
       "author": {
         "login": "huang-julien",
@@ -122292,7 +122299,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3301": {
@@ -122655,7 +122670,7 @@
     },
     "3312": {
       "number": 3312,
-      "updatedAt": "2026-10-12T12:49:08Z",
+      "updatedAt": "2026-10-16T10:05:24Z",
       "merged": false,
       "author": {
         "login": "IestynGage",
@@ -122845,7 +122860,7 @@
     },
     "3318": {
       "number": 3318,
-      "updatedAt": "2026-10-15T00:40:42Z",
+      "updatedAt": "2026-10-16T10:04:10Z",
       "merged": false,
       "author": {
         "login": "serhalp",
@@ -123115,7 +123130,7 @@
     },
     "3325": {
       "number": 3325,
-      "updatedAt": "2026-10-14T23:35:36Z",
+      "updatedAt": "2026-10-16T10:05:57Z",
       "merged": false,
       "author": {
         "login": "serhalp",
@@ -123227,7 +123242,7 @@
     },
     "3328": {
       "number": 3328,
-      "updatedAt": "2026-10-12T16:51:47Z",
+      "updatedAt": "2026-10-16T10:05:26Z",
       "merged": false,
       "author": {
         "login": "iiio2",
@@ -123245,7 +123260,7 @@
     },
     "3329": {
       "number": 3329,
-      "updatedAt": "2026-10-14T14:50:58Z",
+      "updatedAt": "2026-10-16T18:20:39Z",
       "merged": false,
       "author": {
         "login": "maxdzin",
@@ -123278,7 +123293,7 @@
     },
     "3330": {
       "number": 3330,
-      "updatedAt": "2026-10-13T13:27:15Z",
+      "updatedAt": "2026-10-16T10:05:27Z",
       "merged": false,
       "author": {
         "login": "dragomano",
@@ -123296,8 +123311,8 @@
     },
     "3331": {
       "number": 3331,
-      "updatedAt": "2026-10-14T23:39:51Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T11:36:35Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -123309,7 +123324,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "patak-cat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3332": {

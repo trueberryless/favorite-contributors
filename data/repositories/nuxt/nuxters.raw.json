@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T00:18:13.948Z",
+    "lastRunAt": "2026-10-17T00:14:51.052Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNi0wN1QwMzowMjozMVrOUkhWCQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3310,6 +3310,13 @@
       "number": 454,
       "user": {
         "login": "Jorgagu",
+        "type": "User"
+      }
+    },
+    "455": {
+      "number": 455,
+      "user": {
+        "login": "atinux",
         "type": "User"
       }
     }
@@ -13542,7 +13549,7 @@
     },
     "452": {
       "number": 452,
-      "updatedAt": "2026-10-15T21:08:28Z",
+      "updatedAt": "2026-10-16T16:56:53Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -13582,6 +13589,24 @@
       "merged": false,
       "author": {
         "login": "Jorgagu",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "455": {
+      "number": 455,
+      "updatedAt": "2026-10-16T12:20:28Z",
+      "merged": true,
+      "author": {
+        "login": "atinux",
         "__typename": "User"
       },
       "closingIssuesReferences": {

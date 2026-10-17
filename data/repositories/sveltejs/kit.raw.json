@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T04:51:53.264Z",
+    "lastRunAt": "2026-10-17T00:16:56.975Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0xNlQwMTowOToxNVrOHhHIBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -119623,6 +119623,51 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "17479": {
+      "number": 17479,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "17480": {
+      "number": 17480,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "17481": {
+      "number": 17481,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "17482": {
+      "number": 17482,
+      "user": {
+        "login": "NinjaInShade",
+        "type": "User"
+      }
+    },
+    "17483": {
+      "number": 17483,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "17484": {
+      "number": 17484,
+      "user": {
+        "login": "yakovmanshin",
+        "type": "User"
       }
     }
   },
@@ -398997,8 +399042,8 @@
     },
     "17432": {
       "number": 17432,
-      "updatedAt": "2026-10-14T13:44:23Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T11:10:32Z",
+      "merged": true,
       "author": {
         "login": "61465",
         "__typename": "User"
@@ -399055,6 +399100,27 @@
           },
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "teemingc",
               "__typename": "User"
@@ -399243,7 +399309,7 @@
     },
     "17453": {
       "number": 17453,
-      "updatedAt": "2026-10-15T18:45:17Z",
+      "updatedAt": "2026-10-16T12:37:38Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -399296,6 +399362,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
               "__typename": "User"
             }
           }
@@ -399394,8 +399467,8 @@
     },
     "17463": {
       "number": 17463,
-      "updatedAt": "2026-10-16T03:58:56Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T08:23:29Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -399407,7 +399480,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17468": {
@@ -399430,7 +399511,7 @@
     },
     "17469": {
       "number": 17469,
-      "updatedAt": "2026-10-15T19:33:28Z",
+      "updatedAt": "2026-10-16T08:22:28Z",
       "merged": false,
       "author": {
         "login": "ump45nose",
@@ -399484,7 +399565,7 @@
     },
     "17472": {
       "number": 17472,
-      "updatedAt": "2026-10-15T23:23:56Z",
+      "updatedAt": "2026-10-16T08:23:04Z",
       "merged": false,
       "author": {
         "login": "ump45nose",
@@ -399571,7 +399652,7 @@
     },
     "17478": {
       "number": 17478,
-      "updatedAt": "2026-10-16T03:58:09Z",
+      "updatedAt": "2026-10-16T12:13:28Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -399579,6 +399660,199 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "17479": {
+      "number": 17479,
+      "updatedAt": "2026-10-16T12:13:59Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17480": {
+      "number": 17480,
+      "updatedAt": "2026-10-16T19:04:19Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ottomated",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "17481": {
+      "number": 17481,
+      "updatedAt": "2026-10-16T13:04:00Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17483": {
+      "number": 17483,
+      "updatedAt": "2026-10-16T14:05:46Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

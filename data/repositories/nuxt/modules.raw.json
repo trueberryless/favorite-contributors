@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T00:18:06.945Z",
+    "lastRunAt": "2026-10-17T00:14:42.875Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27518,7 +27518,7 @@
     },
     "916": {
       "number": 916,
-      "updatedAt": "2026-10-13T07:46:53Z",
+      "updatedAt": "2026-10-16T03:53:48Z",
       "merged": false,
       "author": {
         "login": "arashsheyda",
@@ -37132,8 +37132,8 @@
     },
     "1617": {
       "number": 1617,
-      "updatedAt": "2026-10-15T15:56:54Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T14:31:31Z",
+      "merged": true,
       "author": {
         "login": "Hinriks",
         "__typename": "User"
@@ -37145,7 +37145,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1618": {
@@ -38231,7 +38239,7 @@
     },
     "1665": {
       "number": 1665,
-      "updatedAt": "2026-10-14T07:58:31Z",
+      "updatedAt": "2026-10-16T01:07:53Z",
       "merged": false,
       "author": {
         "login": "eralpozcan",
