@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T09:35:25.075Z",
+    "lastRunAt": "2026-10-17T09:04:37.747Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0xMFQxODoyODoxMFrOMLT_KA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20381,6 +20381,27 @@
     },
     "2781": {
       "number": 2781,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2782": {
+      "number": 2782,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "2783": {
+      "number": 2783,
+      "user": {
+        "login": "wSoltani",
+        "type": "User"
+      }
+    },
+    "2784": {
+      "number": 2784,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -85779,7 +85800,7 @@
     },
     "2683": {
       "number": 2683,
-      "updatedAt": "2026-10-15T21:03:17Z",
+      "updatedAt": "2026-10-17T08:22:56Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -88269,8 +88290,8 @@
     },
     "2776": {
       "number": 2776,
-      "updatedAt": "2026-10-13T15:53:31Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T19:19:49Z",
+      "merged": true,
       "author": {
         "login": "sarah11918",
         "__typename": "User"
@@ -88295,7 +88316,7 @@
     },
     "2777": {
       "number": 2777,
-      "updatedAt": "2026-10-13T16:57:48Z",
+      "updatedAt": "2026-10-16T19:40:01Z",
       "merged": false,
       "author": {
         "login": "sarah11918",
@@ -88309,6 +88330,20 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sarah11918",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -88384,6 +88419,60 @@
     "2781": {
       "number": 2781,
       "updatedAt": "2026-10-15T16:41:44Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2782": {
+      "number": 2782,
+      "updatedAt": "2026-10-17T08:28:51Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2783": {
+      "number": 2783,
+      "updatedAt": "2026-10-16T15:24:58Z",
+      "merged": false,
+      "author": {
+        "login": "wSoltani",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2784": {
+      "number": 2784,
+      "updatedAt": "2026-10-17T04:27:18Z",
       "merged": false,
       "author": {
         "login": "renovate",

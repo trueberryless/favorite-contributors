@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T14:37:26.254Z",
+    "lastRunAt": "2026-10-17T09:06:37.359Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -59558,8 +59558,8 @@
     },
     "2335": {
       "number": 2335,
-      "updatedAt": "2026-10-16T12:42:22Z",
-      "merged": false,
+      "updatedAt": "2026-10-16T21:33:01Z",
+      "merged": true,
       "author": {
         "login": "jorenbroekema",
         "__typename": "User"
@@ -59571,7 +59571,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Andarist",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

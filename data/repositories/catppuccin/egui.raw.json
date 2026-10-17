@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T09:34:33.762Z",
+    "lastRunAt": "2026-10-17T09:03:50.392Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0xMFQwMjozNDowOVrOSavAAA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -781,6 +781,13 @@
       "number": 106,
       "user": {
         "login": "scarcekoi",
+        "type": "User"
+      }
+    },
+    "107": {
+      "number": 107,
+      "user": {
+        "login": "stfufane",
         "type": "User"
       }
     }
@@ -2491,6 +2498,24 @@
       "merged": false,
       "author": {
         "login": "scarcekoi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "107": {
+      "number": 107,
+      "updatedAt": "2026-10-16T18:58:59Z",
+      "merged": false,
+      "author": {
+        "login": "stfufane",
         "__typename": "User"
       },
       "closingIssuesReferences": {

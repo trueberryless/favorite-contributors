@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T09:35:27.073Z",
+    "lastRunAt": "2026-10-17T09:04:39.706Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0xNlQyMjozNzowOFrOxALlzQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4385,6 +4385,20 @@
       "user": {
         "login": "pandysp",
         "type": "User"
+      }
+    },
+    "866": {
+      "number": 866,
+      "user": {
+        "login": "devin-ai-integration[bot]",
+        "type": "Bot"
+      }
+    },
+    "867": {
+      "number": 867,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -9624,6 +9638,24 @@
       "author": {
         "login": "florian-lefebvre",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "867": {
+      "number": 867,
+      "updatedAt": "2026-10-16T21:23:43Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
