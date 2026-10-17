@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-16T14:38:47.277Z",
+    "lastRunAt": "2026-10-17T13:07:25.988Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32562,6 +32562,20 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "4645": {
+      "number": 4645,
+      "user": {
+        "login": "charmingjae",
+        "type": "User"
+      }
+    },
+    "4646": {
+      "number": 4646,
+      "user": {
+        "login": "charmingjae",
+        "type": "User"
       }
     }
   },
@@ -124768,6 +124782,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "4645": {
+      "number": 4645,
+      "updatedAt": "2026-10-16T19:57:44Z",
+      "merged": true,
+      "author": {
+        "login": "charmingjae",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "siketyan",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4646": {
+      "number": 4646,
+      "updatedAt": "2026-10-16T19:57:01Z",
+      "merged": true,
+      "author": {
+        "login": "charmingjae",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "siketyan",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
