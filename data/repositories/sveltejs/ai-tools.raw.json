@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-18T18:49:06.656Z",
+    "lastRunAt": "2026-10-19T16:53:20.108Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2114,6 +2114,41 @@
       "user": {
         "login": "RaphaelFakhri",
         "type": "User"
+      }
+    },
+    "294": {
+      "number": 294,
+      "user": {
+        "login": "nerymurillohnd",
+        "type": "User"
+      }
+    },
+    "295": {
+      "number": 295,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "296": {
+      "number": 296,
+      "user": {
+        "login": "Kiwow",
+        "type": "User"
+      }
+    },
+    "297": {
+      "number": 297,
+      "user": {
+        "login": "Kiwow",
+        "type": "User"
+      }
+    },
+    "298": {
+      "number": 298,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -8841,8 +8876,8 @@
     },
     "271": {
       "number": 271,
-      "updatedAt": "2026-10-18T08:05:25Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T15:35:25Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -8857,6 +8892,13 @@
         "nodes": [
           {
             "state": "DISMISSED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "paoloricciuti",
               "__typename": "User"
@@ -9206,7 +9248,7 @@
     },
     "290": {
       "number": 290,
-      "updatedAt": "2026-10-14T15:42:28Z",
+      "updatedAt": "2026-10-19T08:25:12Z",
       "merged": false,
       "author": {
         "login": "cainux",
@@ -9224,7 +9266,7 @@
     },
     "291": {
       "number": 291,
-      "updatedAt": "2026-10-15T20:40:29Z",
+      "updatedAt": "2026-10-19T12:02:30Z",
       "merged": false,
       "author": {
         "login": "abafdez",
@@ -9250,6 +9292,117 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "295": {
+      "number": 295,
+      "updatedAt": "2026-10-19T11:02:18Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "296": {
+      "number": 296,
+      "updatedAt": "2026-10-19T14:15:27Z",
+      "merged": true,
+      "author": {
+        "login": "Kiwow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "297": {
+      "number": 297,
+      "updatedAt": "2026-10-19T14:16:59Z",
+      "merged": true,
+      "author": {
+        "login": "Kiwow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "298": {
+      "number": 298,
+      "updatedAt": "2026-10-19T14:03:52Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

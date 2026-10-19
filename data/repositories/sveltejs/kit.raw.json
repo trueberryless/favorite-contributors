@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-18T18:49:02.665Z",
+    "lastRunAt": "2026-10-19T16:53:15.518Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0xNlQwMTowOToxNVrOHhHIBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -109980,7 +109980,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 3
+        "total_count": 8
       }
     },
     "16083": {
@@ -119738,6 +119738,37 @@
       "user": {
         "login": "svelte-triage-bot[bot]",
         "type": "Bot"
+      }
+    },
+    "17495": {
+      "number": 17495,
+      "user": {
+        "login": "Aman13sh",
+        "type": "User"
+      }
+    },
+    "17496": {
+      "number": 17496,
+      "user": {
+        "login": "pooledge",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "17497": {
+      "number": 17497,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "17498": {
+      "number": 17498,
+      "user": {
+        "login": "A-Raphie",
+        "type": "User"
       }
     }
   },
@@ -399379,7 +399410,7 @@
     },
     "17453": {
       "number": 17453,
-      "updatedAt": "2026-10-16T12:37:38Z",
+      "updatedAt": "2026-10-19T00:34:57Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -399439,6 +399470,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
               "__typename": "User"
             }
           }
@@ -399722,7 +399760,7 @@
     },
     "17478": {
       "number": 17478,
-      "updatedAt": "2026-10-16T12:13:28Z",
+      "updatedAt": "2026-10-19T12:52:32Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -400010,6 +400048,68 @@
       "author": {
         "login": "svelte-triage-bot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17495": {
+      "number": 17495,
+      "updatedAt": "2026-10-18T18:50:20Z",
+      "merged": false,
+      "author": {
+        "login": "Aman13sh",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17497": {
+      "number": 17497,
+      "updatedAt": "2026-10-19T12:50:18Z",
+      "merged": true,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "17498": {
+      "number": 17498,
+      "updatedAt": "2026-10-19T15:10:18Z",
+      "merged": false,
+      "author": {
+        "login": "A-Raphie",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
