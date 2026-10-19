@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-18T21:18:35.923Z",
+    "lastRunAt": "2026-10-19T21:25:22.264Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4869,6 +4869,27 @@
       "number": 621,
       "user": {
         "login": "ybai08",
+        "type": "User"
+      }
+    },
+    "622": {
+      "number": 622,
+      "user": {
+        "login": "btea",
+        "type": "User"
+      }
+    },
+    "623": {
+      "number": 623,
+      "user": {
+        "login": "MFA-G",
+        "type": "User"
+      }
+    },
+    "624": {
+      "number": 624,
+      "user": {
+        "login": "paoValle",
         "type": "User"
       }
     }
@@ -16939,7 +16960,7 @@
     },
     "620": {
       "number": 620,
-      "updatedAt": "2026-10-18T16:59:36Z",
+      "updatedAt": "2026-10-19T09:32:07Z",
       "merged": false,
       "author": {
         "login": "btea",
@@ -16959,6 +16980,13 @@
               "login": "dreyfus92",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
           }
         ]
       }
@@ -16969,6 +16997,76 @@
       "merged": false,
       "author": {
         "login": "ybai08",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "622": {
+      "number": 622,
+      "updatedAt": "2026-10-19T09:28:09Z",
+      "merged": false,
+      "author": {
+        "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "623": {
+      "number": 623,
+      "updatedAt": "2026-10-19T08:15:17Z",
+      "merged": false,
+      "author": {
+        "login": "MFA-G",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "624": {
+      "number": 624,
+      "updatedAt": "2026-10-19T10:17:57Z",
+      "merged": false,
+      "author": {
+        "login": "paoValle",
         "__typename": "User"
       },
       "closingIssuesReferences": {
