@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T21:25:22.264Z",
+    "lastRunAt": "2026-10-20T22:59:09.949Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4890,6 +4890,20 @@
       "number": 624,
       "user": {
         "login": "paoValle",
+        "type": "User"
+      }
+    },
+    "625": {
+      "number": 625,
+      "user": {
+        "login": "valentinpalkovic",
+        "type": "User"
+      }
+    },
+    "626": {
+      "number": 626,
+      "user": {
+        "login": "firxworx",
         "type": "User"
       }
     }
@@ -16839,7 +16853,7 @@
     },
     "611": {
       "number": 611,
-      "updatedAt": "2026-10-15T09:16:15Z",
+      "updatedAt": "2026-10-20T08:13:01Z",
       "merged": false,
       "author": {
         "login": "bombshell-bot",
@@ -16960,7 +16974,7 @@
     },
     "620": {
       "number": 620,
-      "updatedAt": "2026-10-19T09:32:07Z",
+      "updatedAt": "2026-10-20T08:49:10Z",
       "merged": false,
       "author": {
         "login": "btea",
@@ -17011,8 +17025,8 @@
     },
     "622": {
       "number": 622,
-      "updatedAt": "2026-10-19T09:28:09Z",
-      "merged": false,
+      "updatedAt": "2026-10-20T08:49:18Z",
+      "merged": true,
       "author": {
         "login": "btea",
         "__typename": "User"
@@ -17027,6 +17041,13 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "43081j",
               "__typename": "User"

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T00:32:19.769Z",
+    "lastRunAt": "2026-10-20T23:01:12.212Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -103517,6 +103517,13 @@
       "number": 14757,
       "user": {
         "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "14758": {
+      "number": 14758,
+      "user": {
+        "login": "Waishnav",
         "type": "User"
       }
     }
@@ -560808,7 +560815,7 @@
     },
     "14640": {
       "number": 14640,
-      "updatedAt": "2026-09-29T20:29:55Z",
+      "updatedAt": "2026-10-20T13:43:29Z",
       "merged": false,
       "author": {
         "login": "ArmandPhilippot",
@@ -563687,8 +563694,8 @@
     },
     "14739": {
       "number": 14739,
-      "updatedAt": "2026-10-19T19:39:24Z",
-      "merged": false,
+      "updatedAt": "2026-10-20T14:56:46Z",
+      "merged": true,
       "author": {
         "login": "nmakarevich-prog",
         "__typename": "User"
@@ -563703,6 +563710,55 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nmakarevich-prog",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nmakarevich-prog",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nmakarevich-prog",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nmakarevich-prog",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "ArmandPhilippot",
               "__typename": "User"
@@ -564017,7 +564073,7 @@
     },
     "14752": {
       "number": 14752,
-      "updatedAt": "2026-10-19T15:42:35Z",
+      "updatedAt": "2026-10-20T11:03:32Z",
       "merged": true,
       "author": {
         "login": "jsparkdev",
@@ -564043,7 +564099,7 @@
     },
     "14753": {
       "number": 14753,
-      "updatedAt": "2026-10-19T16:18:34Z",
+      "updatedAt": "2026-10-20T11:03:37Z",
       "merged": true,
       "author": {
         "login": "jsparkdev",
@@ -564163,6 +564219,32 @@
         "nodes": [
           {
             "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14758": {
+      "number": 14758,
+      "updatedAt": "2026-10-20T17:45:45Z",
+      "merged": false,
+      "author": {
+        "login": "Waishnav",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
             "author": {
               "login": "ArmandPhilippot",
               "__typename": "User"
