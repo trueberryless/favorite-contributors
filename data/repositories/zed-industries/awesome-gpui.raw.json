@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T09:42:14.668Z",
+    "lastRunAt": "2026-10-20T15:46:08.456Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -941,6 +941,20 @@
       "number": 128,
       "user": {
         "login": "dux-web",
+        "type": "User"
+      }
+    },
+    "129": {
+      "number": 129,
+      "user": {
+        "login": "freethinkel",
+        "type": "User"
+      }
+    },
+    "130": {
+      "number": 130,
+      "user": {
+        "login": "venator",
         "type": "User"
       }
     }
@@ -3140,7 +3154,7 @@
     },
     "127": {
       "number": 127,
-      "updatedAt": "2026-10-18T16:22:29Z",
+      "updatedAt": "2026-10-19T14:53:08Z",
       "merged": false,
       "author": {
         "login": "mah3uz",
@@ -3162,6 +3176,42 @@
       "merged": false,
       "author": {
         "login": "dux-web",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "129": {
+      "number": 129,
+      "updatedAt": "2026-10-19T17:03:05Z",
+      "merged": false,
+      "author": {
+        "login": "freethinkel",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "130": {
+      "number": 130,
+      "updatedAt": "2026-10-20T14:48:30Z",
+      "merged": false,
+      "author": {
+        "login": "venator",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T16:50:49.390Z",
+    "lastRunAt": "2026-10-20T15:48:50.521Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0xNFQyMToxODo0NVrOOVF6Qg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8449,6 +8449,27 @@
       "number": 1127,
       "user": {
         "login": "wrufeger",
+        "type": "User"
+      }
+    },
+    "1128": {
+      "number": 1128,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1129": {
+      "number": 1129,
+      "user": {
+        "login": "antfubot",
+        "type": "User"
+      }
+    },
+    "1130": {
+      "number": 1130,
+      "user": {
+        "login": "antfubot",
         "type": "User"
       }
     }
@@ -22932,8 +22953,8 @@
     },
     "1126": {
       "number": 1126,
-      "updatedAt": "2026-10-14T08:12:08Z",
-      "merged": false,
+      "updatedAt": "2026-10-20T04:10:59Z",
+      "merged": true,
       "author": {
         "login": "antfubot",
         "__typename": "User"
@@ -22959,8 +22980,84 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
           }
         ]
+      }
+    },
+    "1128": {
+      "number": 1128,
+      "updatedAt": "2026-10-19T22:47:10Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1129": {
+      "number": 1129,
+      "updatedAt": "2026-10-20T05:01:39Z",
+      "merged": true,
+      "author": {
+        "login": "antfubot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1130": {
+      "number": 1130,
+      "updatedAt": "2026-10-20T06:07:37Z",
+      "merged": true,
+      "author": {
+        "login": "antfubot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

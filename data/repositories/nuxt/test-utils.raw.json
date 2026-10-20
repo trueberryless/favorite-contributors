@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T16:50:43.618Z",
+    "lastRunAt": "2026-10-20T15:48:45.293Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOC0yNlQxNjo0NzoxM1rOEoT8zA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12869,6 +12869,13 @@
       "user": {
         "login": "yamachi4416",
         "type": "User"
+      }
+    },
+    "1868": {
+      "number": 1868,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -42025,8 +42032,8 @@
     },
     "1863": {
       "number": 1863,
-      "updatedAt": "2026-10-19T10:20:27Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T17:32:39Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -42039,6 +42046,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
           {
             "state": "APPROVED",
             "author": {
@@ -42091,7 +42105,7 @@
     },
     "1865": {
       "number": 1865,
-      "updatedAt": "2026-10-19T10:20:08Z",
+      "updatedAt": "2026-10-20T12:50:30Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -42135,7 +42149,7 @@
     },
     "1867": {
       "number": 1867,
-      "updatedAt": "2026-10-19T11:06:10Z",
+      "updatedAt": "2026-10-20T11:07:32Z",
       "merged": false,
       "author": {
         "login": "yamachi4416",
@@ -42162,8 +42176,33 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "1868": {
+      "number": 1868,
+      "updatedAt": "2026-10-20T12:49:31Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

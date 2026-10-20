@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T16:50:36.883Z",
+    "lastRunAt": "2026-10-20T15:48:39.081Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMy0yNFQyMjo1MzozMVrOBrS7ew==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -61307,8 +61307,8 @@
     },
     "2282": {
       "number": 2282,
-      "updatedAt": "2026-10-19T14:53:08Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T20:05:06Z",
+      "merged": true,
       "author": {
         "login": "larbish",
         "__typename": "User"
@@ -61326,6 +61326,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
             }
           }
         ]

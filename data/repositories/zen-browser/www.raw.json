@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T09:42:58.435Z",
+    "lastRunAt": "2026-10-20T15:46:57.478Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0xNFQxNTowMTo0N1rOdVEJrQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7803,6 +7803,13 @@
     },
     "1084": {
       "number": 1084,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1085": {
+      "number": 1085,
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
@@ -24301,7 +24308,7 @@
     },
     "1081": {
       "number": 1081,
-      "updatedAt": "2026-10-19T08:06:25Z",
+      "updatedAt": "2026-10-19T22:20:45Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -24319,7 +24326,7 @@
     },
     "1082": {
       "number": 1082,
-      "updatedAt": "2026-10-19T08:07:00Z",
+      "updatedAt": "2026-10-19T22:20:43Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -24337,7 +24344,7 @@
     },
     "1083": {
       "number": 1083,
-      "updatedAt": "2026-10-19T08:09:16Z",
+      "updatedAt": "2026-10-19T22:25:10Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -24355,7 +24362,33 @@
     },
     "1084": {
       "number": 1084,
-      "updatedAt": "2026-10-19T08:10:23Z",
+      "updatedAt": "2026-10-19T22:17:14Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "taroj1205",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1085": {
+      "number": 1085,
+      "updatedAt": "2026-10-19T22:25:48Z",
       "merged": false,
       "author": {
         "login": "dependabot",
