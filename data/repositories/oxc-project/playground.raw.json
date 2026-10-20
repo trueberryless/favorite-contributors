@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T03:38:15.992Z",
+    "lastRunAt": "2026-10-20T11:02:49.066Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0xNlQxNjowNDowMVrOb6xwWw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3375,6 +3375,27 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "468": {
+      "number": 468,
+      "user": {
+        "login": "leaysgur",
+        "type": "User"
+      }
+    },
+    "469": {
+      "number": 469,
+      "user": {
+        "login": "leaysgur",
+        "type": "User"
+      }
+    },
+    "470": {
+      "number": 470,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
       }
     }
   },
@@ -11724,7 +11745,7 @@
     },
     "464": {
       "number": 464,
-      "updatedAt": "2026-10-15T10:43:35Z",
+      "updatedAt": "2026-10-20T01:16:22Z",
       "merged": false,
       "author": {
         "login": "baevm",
@@ -11807,6 +11828,68 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "468": {
+      "number": 468,
+      "updatedAt": "2026-10-20T01:15:17Z",
+      "merged": true,
+      "author": {
+        "login": "leaysgur",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "469": {
+      "number": 469,
+      "updatedAt": "2026-10-20T01:25:07Z",
+      "merged": true,
+      "author": {
+        "login": "leaysgur",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "470": {
+      "number": 470,
+      "updatedAt": "2026-10-20T08:29:39Z",
+      "merged": true,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

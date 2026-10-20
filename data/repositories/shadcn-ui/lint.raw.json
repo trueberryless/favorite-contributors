@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T03:39:38.519Z",
+    "lastRunAt": "2026-10-20T11:04:41.998Z",
     "prBackfillCursor": null,
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -947,6 +947,27 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "128": {
+      "number": 128,
+      "user": {
+        "login": "shadcn",
+        "type": "User"
+      }
+    },
+    "129": {
+      "number": 129,
+      "user": {
+        "login": "ludwig-f",
+        "type": "User"
+      }
+    },
+    "130": {
+      "number": 130,
+      "user": {
+        "login": "birbprophet",
+        "type": "User"
       }
     }
   },
@@ -2077,11 +2098,29 @@
     },
     "127": {
       "number": 127,
-      "updatedAt": "2026-10-16T14:48:17Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T05:33:00Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "128": {
+      "number": 128,
+      "updatedAt": "2026-10-19T06:06:38Z",
+      "merged": true,
+      "author": {
+        "login": "shadcn",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
