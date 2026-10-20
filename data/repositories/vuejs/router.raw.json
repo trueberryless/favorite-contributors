@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T21:23:38.108Z",
+    "lastRunAt": "2026-10-20T19:56:29.996Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17968,6 +17968,27 @@
       "number": 2856,
       "user": {
         "login": "posva",
+        "type": "User"
+      }
+    },
+    "2857": {
+      "number": 2857,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2858": {
+      "number": 2858,
+      "user": {
+        "login": "mkantautas",
+        "type": "User"
+      }
+    },
+    "2859": {
+      "number": 2859,
+      "user": {
+        "login": "mkantautas",
         "type": "User"
       }
     }
@@ -46395,7 +46416,7 @@
     },
     "2634": {
       "number": 2634,
-      "updatedAt": "2026-10-19T08:43:02Z",
+      "updatedAt": "2026-10-20T04:26:26Z",
       "merged": false,
       "author": {
         "login": "YevheniiKotyrlo",
@@ -50168,6 +50189,68 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2857": {
+      "number": 2857,
+      "updatedAt": "2026-10-20T08:39:58Z",
+      "merged": false,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2858": {
+      "number": 2858,
+      "updatedAt": "2026-10-20T15:28:12Z",
+      "merged": false,
+      "author": {
+        "login": "mkantautas",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2859": {
+      "number": 2859,
+      "updatedAt": "2026-10-20T15:32:24Z",
+      "merged": false,
+      "author": {
+        "login": "mkantautas",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
