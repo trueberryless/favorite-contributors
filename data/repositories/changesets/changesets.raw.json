@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-18T23:32:25.190Z",
+    "lastRunAt": "2026-10-20T00:34:25.551Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16349,6 +16349,13 @@
       "number": 2344,
       "user": {
         "login": "julienTeam",
+        "type": "User"
+      }
+    },
+    "2345": {
+      "number": 2345,
+      "user": {
+        "login": "mixelburg",
         "type": "User"
       }
     }
@@ -48836,7 +48843,7 @@
     },
     "1979": {
       "number": 1979,
-      "updatedAt": "2026-07-29T10:23:06Z",
+      "updatedAt": "2026-10-19T23:18:16Z",
       "merged": true,
       "author": {
         "login": "bluwy",
@@ -48854,13 +48861,6 @@
             "state": "COMMENTED",
             "author": {
               "login": "beeequeue",
-              "__typename": "User"
-            }
-          },
-          {
-            "state": "APPROVED",
-            "author": {
-              "login": "Edgarruiz8585",
               "__typename": "User"
             }
           },
@@ -59727,6 +59727,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2345": {
+      "number": 2345,
+      "updatedAt": "2026-10-19T22:50:30Z",
+      "merged": false,
+      "author": {
+        "login": "mixelburg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

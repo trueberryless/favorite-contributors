@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-18T21:20:33.739Z",
+    "lastRunAt": "2026-10-20T00:32:19.769Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -103496,6 +103496,27 @@
       "number": 14754,
       "user": {
         "login": "astrobot-houston",
+        "type": "User"
+      }
+    },
+    "14755": {
+      "number": 14755,
+      "user": {
+        "login": "Yusaku01",
+        "type": "User"
+      }
+    },
+    "14756": {
+      "number": 14756,
+      "user": {
+        "login": "Yusaku01",
+        "type": "User"
+      }
+    },
+    "14757": {
+      "number": 14757,
+      "user": {
+        "login": "ematipico",
         "type": "User"
       }
     }
@@ -561145,7 +561166,7 @@
     },
     "14651": {
       "number": 14651,
-      "updatedAt": "2026-10-02T10:37:07Z",
+      "updatedAt": "2026-10-19T15:04:36Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -563083,8 +563104,8 @@
     },
     "14719": {
       "number": 14719,
-      "updatedAt": "2026-10-17T07:13:45Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T15:16:52Z",
+      "merged": true,
       "author": {
         "login": "awwa",
         "__typename": "User"
@@ -563101,6 +563122,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "Yusaku01",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
               "__typename": "User"
             }
           }
@@ -563659,7 +563687,7 @@
     },
     "14739": {
       "number": 14739,
-      "updatedAt": "2026-10-16T11:09:58Z",
+      "updatedAt": "2026-10-19T19:39:24Z",
       "merged": false,
       "author": {
         "login": "nmakarevich-prog",
@@ -563672,7 +563700,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14740": {
@@ -563911,7 +563947,7 @@
     },
     "14749": {
       "number": 14749,
-      "updatedAt": "2026-10-16T23:47:56Z",
+      "updatedAt": "2026-10-19T12:02:11Z",
       "merged": false,
       "author": {
         "login": "ehnruiz",
@@ -563929,8 +563965,8 @@
     },
     "14750": {
       "number": 14750,
-      "updatedAt": "2026-10-16T20:06:15Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T12:01:34Z",
+      "merged": true,
       "author": {
         "login": "ehnruiz",
         "__typename": "User"
@@ -563942,12 +563978,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14751": {
       "number": 14751,
-      "updatedAt": "2026-10-16T20:08:16Z",
+      "updatedAt": "2026-10-19T10:36:52Z",
       "merged": false,
       "author": {
         "login": "matthewp",
@@ -563960,13 +564004,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14752": {
       "number": 14752,
-      "updatedAt": "2026-10-17T00:24:01Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T15:42:35Z",
+      "merged": true,
       "author": {
         "login": "jsparkdev",
         "__typename": "User"
@@ -563978,13 +564030,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14753": {
       "number": 14753,
-      "updatedAt": "2026-10-17T00:24:05Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T16:18:34Z",
+      "merged": true,
       "author": {
         "login": "jsparkdev",
         "__typename": "User"
@@ -563996,13 +564056,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14754": {
       "number": 14754,
-      "updatedAt": "2026-10-18T08:02:25Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T10:36:02Z",
+      "merged": true,
       "author": {
         "login": "astrobot-houston",
         "__typename": "User"
@@ -564014,7 +564082,93 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14755": {
+      "number": 14755,
+      "updatedAt": "2026-10-19T15:00:33Z",
+      "merged": true,
+      "author": {
+        "login": "Yusaku01",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14756": {
+      "number": 14756,
+      "updatedAt": "2026-10-19T14:42:26Z",
+      "merged": true,
+      "author": {
+        "login": "Yusaku01",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14757": {
+      "number": 14757,
+      "updatedAt": "2026-10-19T14:57:08Z",
+      "merged": true,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
