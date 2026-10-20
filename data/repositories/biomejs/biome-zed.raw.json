@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-18T23:33:45.800Z",
+    "lastRunAt": "2026-10-20T05:43:27.280Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOVQxOTo0OTo0NVrObCvkvw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1603,6 +1603,13 @@
       "user": {
         "login": "ematipico",
         "type": "User"
+      }
+    },
+    "221": {
+      "number": 221,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -3567,6 +3574,24 @@
             }
           }
         ]
+      }
+    },
+    "221": {
+      "number": 221,
+      "updatedAt": "2026-10-19T03:06:17Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

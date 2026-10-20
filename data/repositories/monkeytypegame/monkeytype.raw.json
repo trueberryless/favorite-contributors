@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-19T03:37:38.792Z",
+    "lastRunAt": "2026-10-20T05:46:06.602Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -50154,7 +50154,7 @@
     "8257": {
       "number": 8257,
       "user": {
-        "login": "Zoroo2626",
+        "login": "Fv7eh",
         "type": "User"
       }
     },
@@ -51467,6 +51467,34 @@
       "number": 8476,
       "user": {
         "login": "spaceKite769",
+        "type": "User"
+      }
+    },
+    "8477": {
+      "number": 8477,
+      "user": {
+        "login": "ameliemcm",
+        "type": "User"
+      }
+    },
+    "8478": {
+      "number": 8478,
+      "user": {
+        "login": "fehmer",
+        "type": "User"
+      }
+    },
+    "8479": {
+      "number": 8479,
+      "user": {
+        "login": "spaceKite769",
+        "type": "User"
+      }
+    },
+    "8480": {
+      "number": 8480,
+      "user": {
+        "login": "fehmer",
         "type": "User"
       }
     }
@@ -179954,7 +179982,7 @@
     },
     "8137": {
       "number": 8137,
-      "updatedAt": "2026-07-17T18:21:24Z",
+      "updatedAt": "2026-10-19T10:45:51Z",
       "merged": false,
       "author": {
         "login": "brentspine",
@@ -180966,7 +180994,7 @@
     },
     "8190": {
       "number": 8190,
-      "updatedAt": "2026-07-17T18:20:38Z",
+      "updatedAt": "2026-10-19T10:46:37Z",
       "merged": false,
       "author": {
         "login": "brentspine",
@@ -182150,8 +182178,8 @@
     },
     "8263": {
       "number": 8263,
-      "updatedAt": "2026-07-28T18:11:52Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T22:03:36Z",
+      "merged": true,
       "author": {
         "login": "fehmer",
         "__typename": "User"
@@ -182163,7 +182191,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Miodec",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "8264": {
@@ -184235,7 +184271,7 @@
     },
     "8413": {
       "number": 8413,
-      "updatedAt": "2026-10-16T11:45:28Z",
+      "updatedAt": "2026-10-19T22:05:19Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -184454,7 +184490,7 @@
     },
     "8428": {
       "number": 8428,
-      "updatedAt": "2026-09-28T18:20:45Z",
+      "updatedAt": "2026-10-19T17:53:58Z",
       "merged": false,
       "author": {
         "login": "BhushanDhavale99",
@@ -184854,7 +184890,7 @@
     },
     "8450": {
       "number": 8450,
-      "updatedAt": "2026-10-16T11:55:50Z",
+      "updatedAt": "2026-10-19T22:07:52Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -184962,8 +184998,8 @@
     },
     "8459": {
       "number": 8459,
-      "updatedAt": "2026-10-18T12:18:46Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T22:04:13Z",
+      "merged": true,
       "author": {
         "login": "Miodec",
         "__typename": "User"
@@ -185166,8 +185202,8 @@
     },
     "8475": {
       "number": 8475,
-      "updatedAt": "2026-10-18T17:54:09Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T22:15:27Z",
+      "merged": true,
       "author": {
         "login": "Miodec",
         "__typename": "User"
@@ -185186,6 +185222,20 @@
               "login": "github-actions",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
           }
         ]
       }
@@ -185196,6 +185246,78 @@
       "merged": false,
       "author": {
         "login": "spaceKite769",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8477": {
+      "number": 8477,
+      "updatedAt": "2026-10-19T05:27:23Z",
+      "merged": false,
+      "author": {
+        "login": "ameliemcm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8478": {
+      "number": 8478,
+      "updatedAt": "2026-10-19T11:11:11Z",
+      "merged": false,
+      "author": {
+        "login": "fehmer",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8479": {
+      "number": 8479,
+      "updatedAt": "2026-10-19T12:01:09Z",
+      "merged": false,
+      "author": {
+        "login": "spaceKite769",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8480": {
+      "number": 8480,
+      "updatedAt": "2026-10-19T14:15:46Z",
+      "merged": false,
+      "author": {
+        "login": "fehmer",
         "__typename": "User"
       },
       "closingIssuesReferences": {

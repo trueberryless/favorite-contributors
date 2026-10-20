@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-18T23:35:08.282Z",
+    "lastRunAt": "2026-10-20T05:44:50.570Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -28558,8 +28558,8 @@
     },
     "1147": {
       "number": 1147,
-      "updatedAt": "2026-10-17T17:23:43Z",
-      "merged": false,
+      "updatedAt": "2026-10-19T12:42:53Z",
+      "merged": true,
       "author": {
         "login": "RizgarOzan",
         "__typename": "User"
@@ -28571,7 +28571,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
