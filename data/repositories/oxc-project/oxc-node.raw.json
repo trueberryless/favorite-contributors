@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T11:02:49.647Z",
+    "lastRunAt": "2026-10-21T06:27:56.211Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0wOFQxMzoyODo1N1rOdI6dEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6245,6 +6245,13 @@
       "number": 871,
       "user": {
         "login": "fengmk2",
+        "type": "User"
+      }
+    },
+    "872": {
+      "number": 872,
+      "user": {
+        "login": "Brooooooklyn",
         "type": "User"
       }
     }
@@ -22439,8 +22446,8 @@
     },
     "870": {
       "number": 870,
-      "updatedAt": "2026-10-20T10:13:09Z",
-      "merged": false,
+      "updatedAt": "2026-10-20T14:27:05Z",
+      "merged": true,
       "author": {
         "login": "Brooooooklyn",
         "__typename": "User"
@@ -22621,6 +22628,67 @@
               "__typename": "User"
             }
           },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "872": {
+      "number": 872,
+      "updatedAt": "2026-10-21T03:44:07Z",
+      "merged": true,
+      "author": {
+        "login": "Brooooooklyn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
           {
             "state": "COMMENTED",
             "author": {
