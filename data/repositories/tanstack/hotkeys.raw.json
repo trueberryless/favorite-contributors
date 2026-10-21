@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T11:06:09.150Z",
+    "lastRunAt": "2026-10-21T12:14:51.341Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wMVQxNjoyMzowNlrOvu2KcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1243,6 +1243,13 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "197": {
+      "number": 197,
+      "user": {
+        "login": "benjavicente",
+        "type": "User"
       }
     }
   },
@@ -4375,6 +4382,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "197": {
+      "number": 197,
+      "updatedAt": "2026-10-21T12:13:50Z",
+      "merged": false,
+      "author": {
+        "login": "benjavicente",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

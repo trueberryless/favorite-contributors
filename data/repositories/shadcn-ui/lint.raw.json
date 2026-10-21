@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T11:04:41.998Z",
+    "lastRunAt": "2026-10-21T12:13:06.770Z",
     "prBackfillCursor": null,
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -967,6 +967,13 @@
       "number": 130,
       "user": {
         "login": "birbprophet",
+        "type": "User"
+      }
+    },
+    "131": {
+      "number": 131,
+      "user": {
+        "login": "Val020213",
         "type": "User"
       }
     }
@@ -2120,6 +2127,24 @@
       "merged": true,
       "author": {
         "login": "shadcn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "131": {
+      "number": 131,
+      "updatedAt": "2026-10-20T18:54:41Z",
+      "merged": false,
+      "author": {
+        "login": "Val020213",
         "__typename": "User"
       },
       "closingIssuesReferences": {

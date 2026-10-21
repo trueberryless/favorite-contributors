@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T11:06:04.644Z",
+    "lastRunAt": "2026-10-21T12:14:46.865Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8258,6 +8258,20 @@
       "user": {
         "login": "itisrmk",
         "type": "User"
+      }
+    },
+    "1335": {
+      "number": 1335,
+      "user": {
+        "login": "prayaggaikwad96",
+        "type": "User"
+      }
+    },
+    "1336": {
+      "number": 1336,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -23388,7 +23402,7 @@
     },
     "1321": {
       "number": 1321,
-      "updatedAt": "2026-10-20T10:47:59Z",
+      "updatedAt": "2026-10-20T18:45:49Z",
       "merged": false,
       "author": {
         "login": "prayaggaikwad96",
@@ -23829,6 +23843,50 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1335": {
+      "number": 1335,
+      "updatedAt": "2026-10-20T18:42:36Z",
+      "merged": true,
+      "author": {
+        "login": "prayaggaikwad96",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1336": {
+      "number": 1336,
+      "updatedAt": "2026-10-20T18:48:59Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
