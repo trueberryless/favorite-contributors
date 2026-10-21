@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T15:48:45.293Z",
+    "lastRunAt": "2026-10-21T17:34:44.434Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOC0yNlQxNjo0NzoxM1rOEoT8zA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -42014,7 +42014,7 @@
     },
     "1862": {
       "number": 1862,
-      "updatedAt": "2026-10-19T10:15:34Z",
+      "updatedAt": "2026-10-21T12:21:29Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -42105,8 +42105,8 @@
     },
     "1865": {
       "number": 1865,
-      "updatedAt": "2026-10-20T12:50:30Z",
-      "merged": false,
+      "updatedAt": "2026-10-21T12:21:10Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -42118,7 +42118,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1866": {
@@ -42149,8 +42157,8 @@
     },
     "1867": {
       "number": 1867,
-      "updatedAt": "2026-10-20T11:07:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-21T12:38:11Z",
+      "merged": true,
       "author": {
         "login": "yamachi4416",
         "__typename": "User"
@@ -42189,7 +42197,7 @@
     },
     "1868": {
       "number": 1868,
-      "updatedAt": "2026-10-20T12:49:31Z",
+      "updatedAt": "2026-10-21T12:23:09Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -42202,7 +42210,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

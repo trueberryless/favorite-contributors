@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T19:53:38.086Z",
+    "lastRunAt": "2026-10-21T17:38:40.143Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -131479,7 +131479,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 201
+        "total_count": 204
       }
     },
     "18043": {
@@ -138405,6 +138405,48 @@
       "user": {
         "login": "lprnmns",
         "type": "User"
+      }
+    },
+    "19051": {
+      "number": 19051,
+      "user": {
+        "login": "dummdidumm",
+        "type": "User"
+      }
+    },
+    "19052": {
+      "number": 19052,
+      "user": {
+        "login": "Nic-Polumeyv",
+        "type": "User"
+      }
+    },
+    "19053": {
+      "number": 19053,
+      "user": {
+        "login": "leracherry",
+        "type": "User"
+      }
+    },
+    "19054": {
+      "number": 19054,
+      "user": {
+        "login": "sankalpsthakur",
+        "type": "User"
+      }
+    },
+    "19055": {
+      "number": 19055,
+      "user": {
+        "login": "quanghle",
+        "type": "User"
+      }
+    },
+    "19056": {
+      "number": 19056,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -342402,7 +342444,7 @@
     },
     "16954": {
       "number": 16954,
-      "updatedAt": "2025-10-18T02:59:52Z",
+      "updatedAt": "2026-10-21T02:06:01Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -358158,7 +358200,7 @@
     },
     "17935": {
       "number": 17935,
-      "updatedAt": "2026-03-14T21:44:26Z",
+      "updatedAt": "2026-10-21T01:57:54Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -360006,7 +360048,7 @@
     },
     "18042": {
       "number": 18042,
-      "updatedAt": "2026-10-20T14:38:27Z",
+      "updatedAt": "2026-10-21T16:26:50Z",
       "merged": false,
       "author": {
         "login": "paoloricciuti",
@@ -360016,7 +360058,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 201
+        "totalCount": 204
       },
       "reviews": {
         "nodes": [
@@ -375415,7 +375457,7 @@
     },
     "18947": {
       "number": 18947,
-      "updatedAt": "2026-10-20T15:55:33Z",
+      "updatedAt": "2026-10-21T13:42:01Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -376756,7 +376798,7 @@
     },
     "19030": {
       "number": 19030,
-      "updatedAt": "2026-10-20T19:30:27Z",
+      "updatedAt": "2026-10-21T15:49:50Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
@@ -376972,13 +377014,20 @@
               "login": "dummdidumm",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "19031": {
       "number": 19031,
-      "updatedAt": "2026-10-17T05:37:26Z",
+      "updatedAt": "2026-10-21T05:00:52Z",
       "merged": false,
       "author": {
         "login": "quanghle",
@@ -377148,8 +377197,8 @@
     },
     "19045": {
       "number": 19045,
-      "updatedAt": "2026-10-19T07:38:10Z",
-      "merged": false,
+      "updatedAt": "2026-10-21T13:39:12Z",
+      "merged": true,
       "author": {
         "login": "RaphaelFakhri",
         "__typename": "User"
@@ -377161,12 +377210,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "19046": {
       "number": 19046,
-      "updatedAt": "2026-10-20T04:37:53Z",
+      "updatedAt": "2026-10-21T03:49:24Z",
       "merged": false,
       "author": {
         "login": "Nic-Polumeyv",
@@ -377185,6 +377242,27 @@
             "author": {
               "login": "vercel",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
             }
           }
         ]
@@ -377218,6 +377296,96 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19051": {
+      "number": 19051,
+      "updatedAt": "2026-10-20T20:06:14Z",
+      "merged": true,
+      "author": {
+        "login": "dummdidumm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19052": {
+      "number": 19052,
+      "updatedAt": "2026-10-20T22:36:32Z",
+      "merged": false,
+      "author": {
+        "login": "Nic-Polumeyv",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19053": {
+      "number": 19053,
+      "updatedAt": "2026-10-20T23:28:27Z",
+      "merged": false,
+      "author": {
+        "login": "leracherry",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19054": {
+      "number": 19054,
+      "updatedAt": "2026-10-21T03:45:53Z",
+      "merged": false,
+      "author": {
+        "login": "sankalpsthakur",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 2
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19056": {
+      "number": 19056,
+      "updatedAt": "2026-10-21T05:17:57Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

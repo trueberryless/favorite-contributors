@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T15:48:39.081Z",
+    "lastRunAt": "2026-10-21T17:34:38.035Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMS0xOFQxNToyNjowMFrORpTwtg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -191432,6 +191432,9 @@
       "user": {
         "login": "cernymatej",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     },
     "33042": {
@@ -217837,6 +217840,44 @@
       "number": 36652,
       "user": {
         "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "36653": {
+      "number": 36653,
+      "user": {
+        "login": "agracia-foticos",
+        "type": "User"
+      }
+    },
+    "36654": {
+      "number": 36654,
+      "user": {
+        "login": "HugoRCD",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "36655": {
+      "number": 36655,
+      "user": {
+        "login": "ChronicStone",
+        "type": "User"
+      }
+    },
+    "36656": {
+      "number": 36656,
+      "user": {
+        "login": "ilyaDegtyarenko",
+        "type": "User"
+      }
+    },
+    "36657": {
+      "number": 36657,
+      "user": {
+        "login": "khawarizmus",
         "type": "User"
       }
     }
@@ -522727,7 +522768,7 @@
     },
     "36168": {
       "number": 36168,
-      "updatedAt": "2026-10-19T20:29:35Z",
+      "updatedAt": "2026-10-21T14:20:43Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -523696,7 +523737,7 @@
     },
     "36217": {
       "number": 36217,
-      "updatedAt": "2026-10-19T22:07:00Z",
+      "updatedAt": "2026-10-21T15:42:44Z",
       "merged": false,
       "author": {
         "login": "huang-julien",
@@ -531161,7 +531202,7 @@
     },
     "36581": {
       "number": 36581,
-      "updatedAt": "2026-10-20T14:03:43Z",
+      "updatedAt": "2026-10-21T01:44:20Z",
       "merged": false,
       "author": {
         "login": "antfu",
@@ -531333,7 +531374,7 @@
     },
     "36593": {
       "number": 36593,
-      "updatedAt": "2026-10-14T13:29:34Z",
+      "updatedAt": "2026-10-21T11:12:20Z",
       "merged": true,
       "author": {
         "login": "HugoRCD",
@@ -532093,7 +532134,7 @@
     },
     "36635": {
       "number": 36635,
-      "updatedAt": "2026-10-19T02:53:38Z",
+      "updatedAt": "2026-10-20T22:15:21Z",
       "merged": false,
       "author": {
         "login": "KazariEX",
@@ -532293,8 +532334,8 @@
     },
     "36645": {
       "number": 36645,
-      "updatedAt": "2026-10-20T09:30:45Z",
-      "merged": false,
+      "updatedAt": "2026-10-21T07:53:07Z",
+      "merged": true,
       "author": {
         "login": "posva",
         "__typename": "User"
@@ -532306,7 +532347,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "36649": {
@@ -532329,7 +532378,7 @@
     },
     "36650": {
       "number": 36650,
-      "updatedAt": "2026-10-20T11:29:01Z",
+      "updatedAt": "2026-10-21T05:43:55Z",
       "merged": false,
       "author": {
         "login": "volkanakyel",
@@ -532347,7 +532396,7 @@
     },
     "36651": {
       "number": 36651,
-      "updatedAt": "2026-10-20T12:44:44Z",
+      "updatedAt": "2026-10-21T12:23:23Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -532365,8 +532414,8 @@
     },
     "36652": {
       "number": 36652,
-      "updatedAt": "2026-10-20T15:31:31Z",
-      "merged": false,
+      "updatedAt": "2026-10-20T17:28:30Z",
+      "merged": true,
       "author": {
         "login": "benjamincanac",
         "__typename": "User"
@@ -532378,7 +532427,55 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "36654": {
+      "number": 36654,
+      "updatedAt": "2026-10-21T14:18:29Z",
+      "merged": true,
+      "author": {
+        "login": "HugoRCD",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Akryum",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
