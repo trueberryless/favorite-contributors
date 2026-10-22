@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T17:38:54.577Z",
+    "lastRunAt": "2026-10-22T19:49:55.179Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10494,6 +10494,20 @@
       "number": 1433,
       "user": {
         "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1434": {
+      "number": 1434,
+      "user": {
+        "login": "pluxain",
+        "type": "User"
+      }
+    },
+    "1435": {
+      "number": 1435,
+      "user": {
+        "login": "ptus04",
         "type": "User"
       }
     }
@@ -39946,6 +39960,42 @@
       "merged": false,
       "author": {
         "login": "RaphaelFakhri",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1434": {
+      "number": 1434,
+      "updatedAt": "2026-10-21T20:35:43Z",
+      "merged": false,
+      "author": {
+        "login": "pluxain",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1435": {
+      "number": 1435,
+      "updatedAt": "2026-10-22T04:25:27Z",
+      "merged": false,
+      "author": {
+        "login": "ptus04",
         "__typename": "User"
       },
       "closingIssuesReferences": {
