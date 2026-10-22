@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T06:27:55.797Z",
+    "lastRunAt": "2026-10-22T10:29:03.820Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0yM1QwMjozNTozMlrOYwFWgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4917,6 +4917,13 @@
       "number": 631,
       "user": {
         "login": "nrayburn-tech",
+        "type": "User"
+      }
+    },
+    "632": {
+      "number": 632,
+      "user": {
+        "login": "leaysgur",
         "type": "User"
       }
     }
@@ -14556,6 +14563,24 @@
       "merged": false,
       "author": {
         "login": "nrayburn-tech",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "632": {
+      "number": 632,
+      "updatedAt": "2026-10-22T05:06:28Z",
+      "merged": true,
+      "author": {
+        "login": "leaysgur",
         "__typename": "User"
       },
       "closingIssuesReferences": {

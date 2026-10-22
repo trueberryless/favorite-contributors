@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T06:28:39.022Z",
+    "lastRunAt": "2026-10-22T10:30:01.721Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNS0xMVQxNDoyODoyOFrOJi-bJw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -228,6 +228,13 @@
       "number": 30,
       "user": {
         "login": "vale981",
+        "type": "User"
+      }
+    },
+    "31": {
+      "number": 31,
+      "user": {
+        "login": "n0op3",
         "type": "User"
       }
     }
@@ -630,6 +637,24 @@
       "merged": true,
       "author": {
         "login": "whyevery",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "31": {
+      "number": 31,
+      "updatedAt": "2026-10-21T18:56:57Z",
+      "merged": false,
+      "author": {
+        "login": "n0op3",
         "__typename": "User"
       },
       "closingIssuesReferences": {
