@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T01:28:00.835Z",
+    "lastRunAt": "2026-10-22T00:11:24.287Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16356,6 +16356,13 @@
       "number": 2345,
       "user": {
         "login": "mixelburg",
+        "type": "User"
+      }
+    },
+    "2346": {
+      "number": 2346,
+      "user": {
+        "login": "Netail",
         "type": "User"
       }
     }
@@ -59751,6 +59758,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2346": {
+      "number": 2346,
+      "updatedAt": "2026-10-21T20:13:26Z",
+      "merged": false,
+      "author": {
+        "login": "Netail",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "bluwy",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Netail",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

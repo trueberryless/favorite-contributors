@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-20T23:01:12.212Z",
+    "lastRunAt": "2026-10-22T00:09:14.482Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -103524,6 +103524,55 @@
       "number": 14758,
       "user": {
         "login": "Waishnav",
+        "type": "User"
+      }
+    },
+    "14759": {
+      "number": 14759,
+      "user": {
+        "login": "Fuan200",
+        "type": "User"
+      }
+    },
+    "14760": {
+      "number": 14760,
+      "user": {
+        "login": "ArmandPhilippot",
+        "type": "User"
+      }
+    },
+    "14761": {
+      "number": 14761,
+      "user": {
+        "login": "ematipico",
+        "type": "User"
+      }
+    },
+    "14762": {
+      "number": 14762,
+      "user": {
+        "login": "ArmandPhilippot",
+        "type": "User"
+      }
+    },
+    "14763": {
+      "number": 14763,
+      "user": {
+        "login": "ArmandPhilippot",
+        "type": "User"
+      }
+    },
+    "14764": {
+      "number": 14764,
+      "user": {
+        "login": "angelmarfil",
+        "type": "User"
+      }
+    },
+    "14765": {
+      "number": 14765,
+      "user": {
+        "login": "ArmandPhilippot",
         "type": "User"
       }
     }
@@ -563144,7 +563193,7 @@
     },
     "14720": {
       "number": 14720,
-      "updatedAt": "2026-10-16T18:59:46Z",
+      "updatedAt": "2026-10-21T20:07:10Z",
       "merged": false,
       "author": {
         "login": "ArmandPhilippot",
@@ -563176,6 +563225,13 @@
             "state": "APPROVED",
             "author": {
               "login": "matthewp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
               "__typename": "User"
             }
           }
@@ -564229,8 +564285,8 @@
     },
     "14758": {
       "number": 14758,
-      "updatedAt": "2026-10-20T17:45:45Z",
-      "merged": false,
+      "updatedAt": "2026-10-21T10:01:12Z",
+      "merged": true,
       "author": {
         "login": "Waishnav",
         "__typename": "User"
@@ -564249,8 +564305,200 @@
               "login": "ArmandPhilippot",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Waishnav",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Waishnav",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "14759": {
+      "number": 14759,
+      "updatedAt": "2026-10-21T17:57:39Z",
+      "merged": false,
+      "author": {
+        "login": "Fuan200",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "angelmarfil",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "angelmarfil",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "angelmarfil",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14760": {
+      "number": 14760,
+      "updatedAt": "2026-10-21T14:11:25Z",
+      "merged": true,
+      "author": {
+        "login": "ArmandPhilippot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14761": {
+      "number": 14761,
+      "updatedAt": "2026-10-21T13:16:35Z",
+      "merged": false,
+      "author": {
+        "login": "ematipico",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14762": {
+      "number": 14762,
+      "updatedAt": "2026-10-21T14:50:01Z",
+      "merged": true,
+      "author": {
+        "login": "ArmandPhilippot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14763": {
+      "number": 14763,
+      "updatedAt": "2026-10-21T22:28:59Z",
+      "merged": false,
+      "author": {
+        "login": "ArmandPhilippot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14764": {
+      "number": 14764,
+      "updatedAt": "2026-10-21T18:13:25Z",
+      "merged": false,
+      "author": {
+        "login": "angelmarfil",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14765": {
+      "number": 14765,
+      "updatedAt": "2026-10-21T19:46:03Z",
+      "merged": false,
+      "author": {
+        "login": "ArmandPhilippot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
