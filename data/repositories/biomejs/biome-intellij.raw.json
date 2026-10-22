@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T01:29:23.265Z",
+    "lastRunAt": "2026-10-22T05:13:52.280Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0xNlQxMDoxNjo1N1rOYiNCaQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2218,6 +2218,13 @@
     },
     "302": {
       "number": 302,
+      "user": {
+        "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "304": {
+      "number": 304,
       "user": {
         "login": "denbezrukov",
         "type": "User"
@@ -6181,7 +6188,7 @@
     },
     "301": {
       "number": 301,
-      "updatedAt": "2026-10-19T03:06:43Z",
+      "updatedAt": "2026-10-22T03:56:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -6213,6 +6220,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "304": {
+      "number": 304,
+      "updatedAt": "2026-10-21T16:40:00Z",
+      "merged": true,
+      "author": {
+        "login": "denbezrukov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "siketyan",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
