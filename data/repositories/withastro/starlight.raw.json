@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T00:09:17.686Z",
+    "lastRunAt": "2026-10-22T23:04:39.537Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27903,6 +27903,27 @@
       "number": 4288,
       "user": {
         "login": "Luyii",
+        "type": "User"
+      }
+    },
+    "4289": {
+      "number": 4289,
+      "user": {
+        "login": "RaphaelFakhri",
+        "type": "User"
+      }
+    },
+    "4290": {
+      "number": 4290,
+      "user": {
+        "login": "RaphaelFakhri",
+        "type": "User"
+      }
+    },
+    "4291": {
+      "number": 4291,
+      "user": {
+        "login": "trueberryless",
         "type": "User"
       }
     }
@@ -135856,7 +135877,7 @@
     },
     "4274": {
       "number": 4274,
-      "updatedAt": "2026-10-15T14:09:49Z",
+      "updatedAt": "2026-10-22T08:34:39Z",
       "merged": false,
       "author": {
         "login": "astrobot-houston",
@@ -135947,8 +135968,8 @@
     },
     "4277": {
       "number": 4277,
-      "updatedAt": "2026-10-16T09:54:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-22T10:45:53Z",
+      "merged": true,
       "author": {
         "login": "ehnruiz",
         "__typename": "User"
@@ -135960,7 +135981,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4278": {
@@ -136073,7 +136102,7 @@
     },
     "4284": {
       "number": 4284,
-      "updatedAt": "2026-10-18T14:51:15Z",
+      "updatedAt": "2026-10-22T08:40:14Z",
       "merged": false,
       "author": {
         "login": "Yusaku01",
@@ -136131,6 +136160,42 @@
       "merged": false,
       "author": {
         "login": "Luyii",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4290": {
+      "number": 4290,
+      "updatedAt": "2026-10-22T13:15:29Z",
+      "merged": false,
+      "author": {
+        "login": "RaphaelFakhri",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4291": {
+      "number": 4291,
+      "updatedAt": "2026-10-22T13:51:54Z",
+      "merged": false,
+      "author": {
+        "login": "trueberryless",
         "__typename": "User"
       },
       "closingIssuesReferences": {

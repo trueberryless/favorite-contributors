@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T00:08:28.498Z",
+    "lastRunAt": "2026-10-22T23:03:44.526Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0xOFQyMzozNjowN1rOTGCltw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16451,6 +16451,9 @@
       "user": {
         "login": "palhatlem",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "2329": {
@@ -82860,7 +82863,7 @@
     },
     "2328": {
       "number": 2328,
-      "updatedAt": "2026-10-21T14:42:04Z",
+      "updatedAt": "2026-10-22T23:02:29Z",
       "merged": false,
       "author": {
         "login": "palhatlem",
@@ -82870,7 +82873,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -82904,6 +82907,13 @@
           },
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "uncenter",
               "__typename": "User"

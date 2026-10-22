@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T00:09:14.482Z",
+    "lastRunAt": "2026-10-22T23:04:36.136Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -103573,6 +103573,13 @@
       "number": 14765,
       "user": {
         "login": "ArmandPhilippot",
+        "type": "User"
+      }
+    },
+    "14766": {
+      "number": 14766,
+      "user": {
+        "login": "Fuan200",
         "type": "User"
       }
     }
@@ -564332,8 +564339,8 @@
     },
     "14759": {
       "number": 14759,
-      "updatedAt": "2026-10-21T17:57:39Z",
-      "merged": false,
+      "updatedAt": "2026-10-22T13:53:55Z",
+      "merged": true,
       "author": {
         "login": "Fuan200",
         "__typename": "User"
@@ -564364,6 +564371,13 @@
             "state": "APPROVED",
             "author": {
               "login": "angelmarfil",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
               "__typename": "User"
             }
           }
@@ -564449,7 +564463,7 @@
     },
     "14763": {
       "number": 14763,
-      "updatedAt": "2026-10-21T22:28:59Z",
+      "updatedAt": "2026-10-22T21:18:38Z",
       "merged": false,
       "author": {
         "login": "ArmandPhilippot",
@@ -564485,8 +564499,8 @@
     },
     "14765": {
       "number": 14765,
-      "updatedAt": "2026-10-21T19:46:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-22T14:08:46Z",
+      "merged": true,
       "author": {
         "login": "ArmandPhilippot",
         "__typename": "User"
@@ -564498,7 +564512,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14766": {
+      "number": 14766,
+      "updatedAt": "2026-10-22T15:36:20Z",
+      "merged": false,
+      "author": {
+        "login": "Fuan200",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "angelmarfil",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
