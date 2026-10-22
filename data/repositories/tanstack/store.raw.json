@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T12:14:47.694Z",
+    "lastRunAt": "2026-10-22T15:31:53.275Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10135,7 +10135,7 @@
     },
     "392": {
       "number": 392,
-      "updatedAt": "2026-10-10T12:49:51Z",
+      "updatedAt": "2026-10-21T14:21:34Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -10243,8 +10243,8 @@
     },
     "398": {
       "number": 398,
-      "updatedAt": "2026-10-20T21:35:16Z",
-      "merged": false,
+      "updatedAt": "2026-10-21T14:20:20Z",
+      "merged": true,
       "author": {
         "login": "benjavicente",
         "__typename": "User"
@@ -10256,7 +10256,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T12:14:44.878Z",
+    "lastRunAt": "2026-10-22T15:31:49.648Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -74723,8 +74723,8 @@
     },
     "6637": {
       "number": 6637,
-      "updatedAt": "2026-10-21T12:12:52Z",
-      "merged": false,
+      "updatedAt": "2026-10-21T14:02:34Z",
+      "merged": true,
       "author": {
         "login": "benjavicente",
         "__typename": "User"
@@ -74736,7 +74736,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "6639": {

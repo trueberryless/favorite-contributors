@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T12:14:53.143Z",
+    "lastRunAt": "2026-10-22T15:31:59.907Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yOVQwMToyMzowMVrO97ywkQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1690,6 +1690,34 @@
       "number": 238,
       "user": {
         "login": "raphox",
+        "type": "User"
+      }
+    },
+    "239": {
+      "number": 239,
+      "user": {
+        "login": "piotrkulpinski",
+        "type": "User"
+      }
+    },
+    "240": {
+      "number": 240,
+      "user": {
+        "login": "piotrkulpinski",
+        "type": "User"
+      }
+    },
+    "241": {
+      "number": 241,
+      "user": {
+        "login": "Julien76",
+        "type": "User"
+      }
+    },
+    "242": {
+      "number": 242,
+      "user": {
+        "login": "tannerlinsley",
         "type": "User"
       }
     }
@@ -5457,7 +5485,7 @@
     },
     "220": {
       "number": 220,
-      "updatedAt": "2026-10-18T11:52:01Z",
+      "updatedAt": "2026-10-22T08:21:26Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -5865,7 +5893,7 @@
     },
     "238": {
       "number": 238,
-      "updatedAt": "2026-10-21T12:03:53Z",
+      "updatedAt": "2026-10-21T16:46:13Z",
       "merged": false,
       "author": {
         "login": "raphox",
@@ -5873,6 +5901,64 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "240": {
+      "number": 240,
+      "updatedAt": "2026-10-21T20:49:07Z",
+      "merged": false,
+      "author": {
+        "login": "piotrkulpinski",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "242": {
+      "number": 242,
+      "updatedAt": "2026-10-22T08:19:59Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

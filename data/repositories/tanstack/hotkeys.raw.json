@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T12:14:51.341Z",
+    "lastRunAt": "2026-10-22T15:31:56.657Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wMVQxNjoyMzowNlrOvu2KcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1249,6 +1249,13 @@
       "number": 197,
       "user": {
         "login": "benjavicente",
+        "type": "User"
+      }
+    },
+    "198": {
+      "number": 198,
+      "user": {
+        "login": "KevinVandy",
         "type": "User"
       }
     }
@@ -4262,7 +4269,7 @@
     },
     "191": {
       "number": 191,
-      "updatedAt": "2026-10-19T03:28:26Z",
+      "updatedAt": "2026-10-21T14:10:56Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -4280,7 +4287,7 @@
     },
     "192": {
       "number": 192,
-      "updatedAt": "2026-10-19T18:28:07Z",
+      "updatedAt": "2026-10-21T14:10:48Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -4386,8 +4393,8 @@
     },
     "197": {
       "number": 197,
-      "updatedAt": "2026-10-21T12:13:50Z",
-      "merged": false,
+      "updatedAt": "2026-10-21T14:03:45Z",
+      "merged": true,
       "author": {
         "login": "benjavicente",
         "__typename": "User"
@@ -4405,6 +4412,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
             }
           }
         ]

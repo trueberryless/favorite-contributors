@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-21T17:34:54.949Z",
+    "lastRunAt": "2026-10-22T15:35:37.102Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNi0wN1QwMzowMjozMVrOUkhWCQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13753,8 +13753,8 @@
     },
     "460": {
       "number": 460,
-      "updatedAt": "2026-10-21T10:59:38Z",
-      "merged": false,
+      "updatedAt": "2026-10-22T14:29:12Z",
+      "merged": true,
       "author": {
         "login": "onmax",
         "__typename": "User"
@@ -13793,6 +13793,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
             }
           }
         ]
