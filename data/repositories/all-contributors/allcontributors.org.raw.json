@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T01:26:31.115Z",
+    "lastRunAt": "2026-10-23T23:24:17.317Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0yOFQxNTo0NDo1NlrOA6KG0Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7589,6 +7589,27 @@
       "number": 1194,
       "user": {
         "login": "0xsarawut",
+        "type": "User"
+      }
+    },
+    "1195": {
+      "number": 1195,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1196": {
+      "number": 1196,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1197": {
+      "number": 1197,
+      "user": {
+        "login": "dajiaohuang",
         "type": "User"
       }
     }
@@ -26965,11 +26986,73 @@
     },
     "1193": {
       "number": 1193,
-      "updatedAt": "2026-10-22T05:33:40Z",
+      "updatedAt": "2026-10-23T09:26:31Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1195": {
+      "number": 1195,
+      "updatedAt": "2026-10-23T16:29:03Z",
       "merged": false,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1196": {
+      "number": 1196,
+      "updatedAt": "2026-10-23T16:28:47Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1197": {
+      "number": 1197,
+      "updatedAt": "2026-10-23T19:50:11Z",
+      "merged": false,
+      "author": {
+        "login": "dajiaohuang",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T23:04:36.139Z",
+    "lastRunAt": "2026-10-23T23:22:52.351Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wOS0wOFQxODozOTowOFrOK4EsGw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3696,6 +3696,27 @@
       "user": {
         "login": "Princesseuh",
         "type": "User"
+      }
+    },
+    "500": {
+      "number": 500,
+      "user": {
+        "login": "Igloczek",
+        "type": "User"
+      }
+    },
+    "501": {
+      "number": 501,
+      "user": {
+        "login": "delucis",
+        "type": "User"
+      }
+    },
+    "502": {
+      "number": 502,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -11547,6 +11568,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "501": {
+      "number": 501,
+      "updatedAt": "2026-10-23T15:52:44Z",
+      "merged": true,
+      "author": {
+        "login": "delucis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Princesseuh",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "502": {
+      "number": 502,
+      "updatedAt": "2026-10-23T15:55:30Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
