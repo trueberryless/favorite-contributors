@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T05:13:52.433Z",
+    "lastRunAt": "2026-10-23T01:28:36.734Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32723,6 +32723,13 @@
       "user": {
         "login": "ematipico",
         "type": "User"
+      }
+    },
+    "4668": {
+      "number": 4668,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -123400,7 +123407,7 @@
     },
     "4580": {
       "number": 4580,
-      "updatedAt": "2026-10-20T14:24:57Z",
+      "updatedAt": "2026-10-22T16:45:25Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -125458,6 +125465,24 @@
       "author": {
         "login": "ematipico",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4668": {
+      "number": 4668,
+      "updatedAt": "2026-10-23T00:39:36Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
