@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T15:31:49.648Z",
+    "lastRunAt": "2026-10-23T12:00:03.234Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15459,6 +15459,27 @@
       "user": {
         "login": "AlexRixten",
         "type": "User"
+      }
+    },
+    "2441": {
+      "number": 2441,
+      "user": {
+        "login": "LeCarbonator",
+        "type": "User"
+      }
+    },
+    "2442": {
+      "number": 2442,
+      "user": {
+        "login": "LeCarbonator",
+        "type": "User"
+      }
+    },
+    "2443": {
+      "number": 2443,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -44659,8 +44680,8 @@
     },
     "2368": {
       "number": 2368,
-      "updatedAt": "2026-10-21T08:57:58Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T07:27:22Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -46157,8 +46178,8 @@
     },
     "2436": {
       "number": 2436,
-      "updatedAt": "2026-10-21T14:05:12Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T06:35:54Z",
+      "merged": true,
       "author": {
         "login": "LeCarbonator",
         "__typename": "User"
@@ -46257,6 +46278,83 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2441": {
+      "number": 2441,
+      "updatedAt": "2026-10-23T07:07:04Z",
+      "merged": true,
+      "author": {
+        "login": "LeCarbonator",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2442": {
+      "number": 2442,
+      "updatedAt": "2026-10-23T10:25:38Z",
+      "merged": true,
+      "author": {
+        "login": "LeCarbonator",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2443": {
+      "number": 2443,
+      "updatedAt": "2026-10-23T10:28:31Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
