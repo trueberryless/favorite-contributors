@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T15:35:35.859Z",
+    "lastRunAt": "2026-10-23T16:49:59.578Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOS0wNlQxMDo1MToxMFrOPmaFBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4216,6 +4216,9 @@
       "user": {
         "login": "KazariAI",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     },
     "543": {
@@ -4237,6 +4240,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "546": {
+      "number": 546,
+      "user": {
+        "login": "atinux",
+        "type": "User"
       }
     }
   },
@@ -9286,8 +9296,8 @@
     },
     "525": {
       "number": 525,
-      "updatedAt": "2026-10-20T23:24:20Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T16:05:46Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9304,8 +9314,8 @@
     },
     "526": {
       "number": 526,
-      "updatedAt": "2026-10-21T21:35:59Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T16:11:52Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9317,7 +9327,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "527": {
@@ -9369,8 +9387,8 @@
     },
     "528": {
       "number": 528,
-      "updatedAt": "2026-10-20T16:03:13Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T16:26:57Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9387,8 +9405,8 @@
     },
     "530": {
       "number": 530,
-      "updatedAt": "2026-09-13T09:57:58Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T15:23:32Z",
+      "merged": true,
       "author": {
         "login": "giaBaoJS",
         "__typename": "User"
@@ -9406,6 +9424,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
             }
           }
         ]
@@ -9457,8 +9482,8 @@
     },
     "533": {
       "number": 533,
-      "updatedAt": "2026-09-04T14:20:09Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T15:48:12Z",
+      "merged": true,
       "author": {
         "login": "giaBaoJS",
         "__typename": "User"
@@ -9477,14 +9502,35 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "535": {
       "number": 535,
-      "updatedAt": "2026-10-13T06:35:16Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T11:19:49Z",
+      "merged": true,
       "author": {
         "login": "onmax",
         "__typename": "User"
@@ -9496,13 +9542,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "536": {
       "number": 536,
-      "updatedAt": "2026-09-06T07:11:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T16:05:01Z",
+      "merged": true,
       "author": {
         "login": "giaBaoJS",
         "__typename": "User"
@@ -9514,13 +9568,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "537": {
       "number": 537,
-      "updatedAt": "2026-10-20T16:00:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T16:19:02Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9532,13 +9594,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "538": {
       "number": 538,
-      "updatedAt": "2026-10-21T12:37:24Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T10:57:30Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9550,13 +9620,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "541": {
       "number": 541,
-      "updatedAt": "2026-09-28T08:42:51Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T16:36:44Z",
+      "merged": true,
       "author": {
         "login": "pont1s",
         "__typename": "User"
@@ -9603,14 +9681,21 @@
               "login": "pont1s",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "542": {
       "number": 542,
-      "updatedAt": "2026-10-11T05:34:02Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T12:56:45Z",
+      "merged": true,
       "author": {
         "login": "KazariAI",
         "__typename": "User"
@@ -9619,16 +9704,24 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 2
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "544": {
       "number": 544,
-      "updatedAt": "2026-10-22T00:41:35Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T12:49:02Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9645,8 +9738,8 @@
     },
     "545": {
       "number": 545,
-      "updatedAt": "2026-10-21T03:42:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T08:20:37Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -9658,7 +9751,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "546": {
+      "number": 546,
+      "updatedAt": "2026-10-23T08:20:04Z",
+      "merged": true,
+      "author": {
+        "login": "atinux",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
