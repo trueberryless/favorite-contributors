@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T19:49:52.777Z",
+    "lastRunAt": "2026-10-23T20:14:50.456Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNC0yN1QwMToxNTozMFrOJSC2xg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4649,7 +4649,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 6
+        "total_count": 7
       }
     },
     "658": {
@@ -6943,6 +6943,13 @@
       "number": 982,
       "user": {
         "login": "stickerdaniel",
+        "type": "User"
+      }
+    },
+    "983": {
+      "number": 983,
+      "user": {
+        "login": "baseballyama",
         "type": "User"
       }
     }
@@ -21954,7 +21961,7 @@
     },
     "808": {
       "number": 808,
-      "updatedAt": "2026-10-22T10:07:13Z",
+      "updatedAt": "2026-10-23T04:52:34Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22152,7 +22159,7 @@
     },
     "819": {
       "number": 819,
-      "updatedAt": "2026-10-22T10:06:55Z",
+      "updatedAt": "2026-10-23T04:51:25Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22206,7 +22213,7 @@
     },
     "822": {
       "number": 822,
-      "updatedAt": "2026-10-22T10:08:03Z",
+      "updatedAt": "2026-10-22T20:53:47Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22947,7 +22954,7 @@
     },
     "862": {
       "number": 862,
-      "updatedAt": "2026-10-22T10:07:05Z",
+      "updatedAt": "2026-10-23T04:52:32Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24186,7 +24193,7 @@
     },
     "925": {
       "number": 925,
-      "updatedAt": "2026-10-22T10:07:42Z",
+      "updatedAt": "2026-10-23T04:49:19Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24811,7 +24818,7 @@
     },
     "961": {
       "number": 961,
-      "updatedAt": "2026-10-22T10:07:21Z",
+      "updatedAt": "2026-10-23T04:53:04Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24829,7 +24836,7 @@
     },
     "962": {
       "number": 962,
-      "updatedAt": "2026-10-22T10:08:02Z",
+      "updatedAt": "2026-10-23T16:12:06Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24953,8 +24960,8 @@
     },
     "968": {
       "number": 968,
-      "updatedAt": "2026-10-21T23:19:06Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T04:45:53Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -25105,8 +25112,8 @@
     },
     "977": {
       "number": 977,
-      "updatedAt": "2026-10-14T15:04:41Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T04:41:13Z",
+      "merged": true,
       "author": {
         "login": "anastasiia-baboshina",
         "__typename": "User"
@@ -25118,13 +25125,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "baseballyama",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "978": {
       "number": 978,
-      "updatedAt": "2026-10-19T19:20:22Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T09:52:35Z",
+      "merged": true,
       "author": {
         "login": "ecelustka",
         "__typename": "User"
@@ -25136,7 +25151,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "baseballyama",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "979": {
@@ -25159,8 +25182,8 @@
     },
     "981": {
       "number": 981,
-      "updatedAt": "2026-10-22T18:13:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T01:53:35Z",
+      "merged": true,
       "author": {
         "login": "baseballyama",
         "__typename": "User"
@@ -25172,13 +25195,21 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "982": {
       "number": 982,
-      "updatedAt": "2026-10-22T17:38:34Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T01:49:20Z",
+      "merged": true,
       "author": {
         "login": "stickerdaniel",
         "__typename": "User"
@@ -25190,7 +25221,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "baseballyama",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "983": {
+      "number": 983,
+      "updatedAt": "2026-10-23T03:41:19Z",
+      "merged": true,
+      "author": {
+        "login": "baseballyama",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

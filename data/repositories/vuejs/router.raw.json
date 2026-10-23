@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T23:01:09.155Z",
+    "lastRunAt": "2026-10-23T20:17:29.398Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17989,6 +17989,13 @@
       "number": 2859,
       "user": {
         "login": "mkantautas",
+        "type": "User"
+      }
+    },
+    "2860": {
+      "number": 2860,
+      "user": {
+        "login": "NgoQuocViet2001",
         "type": "User"
       }
     }
@@ -41668,7 +41675,7 @@
     },
     "2082": {
       "number": 2082,
-      "updatedAt": "2026-10-21T22:17:23Z",
+      "updatedAt": "2026-10-23T00:08:05Z",
       "merged": false,
       "author": {
         "login": "posva",
@@ -50257,6 +50264,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2860": {
+      "number": 2860,
+      "updatedAt": "2026-10-23T13:29:20Z",
+      "merged": false,
+      "author": {
+        "login": "NgoQuocViet2001",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

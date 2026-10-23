@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T19:49:41.714Z",
+    "lastRunAt": "2026-10-23T20:14:39.296Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -138610,6 +138610,55 @@
       "number": 19079,
       "user": {
         "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "19080": {
+      "number": 19080,
+      "user": {
+        "login": "xyrolle",
+        "type": "User"
+      }
+    },
+    "19081": {
+      "number": 19081,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "19082": {
+      "number": 19082,
+      "user": {
+        "login": "kaptnkoala",
+        "type": "User"
+      }
+    },
+    "19083": {
+      "number": 19083,
+      "user": {
+        "login": "kaptnkoala",
+        "type": "User"
+      }
+    },
+    "19084": {
+      "number": 19084,
+      "user": {
+        "login": "filiabel",
+        "type": "User"
+      }
+    },
+    "19085": {
+      "number": 19085,
+      "user": {
+        "login": "anastasiia-baboshina",
+        "type": "User"
+      }
+    },
+    "19086": {
+      "number": 19086,
+      "user": {
+        "login": "anastasiia-baboshina",
         "type": "User"
       }
     }
@@ -375523,7 +375572,7 @@
     },
     "18939": {
       "number": 18939,
-      "updatedAt": "2026-10-14T10:46:11Z",
+      "updatedAt": "2026-10-22T22:09:40Z",
       "merged": false,
       "author": {
         "login": "xyrolle",
@@ -375621,7 +375670,7 @@
     },
     "18947": {
       "number": 18947,
-      "updatedAt": "2026-10-22T19:49:28Z",
+      "updatedAt": "2026-10-23T19:22:32Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -375717,7 +375766,7 @@
     },
     "18953": {
       "number": 18953,
-      "updatedAt": "2026-10-14T10:04:20Z",
+      "updatedAt": "2026-10-22T22:22:56Z",
       "merged": false,
       "author": {
         "login": "xyrolle",
@@ -375735,7 +375784,7 @@
     },
     "18954": {
       "number": 18954,
-      "updatedAt": "2026-10-14T10:04:13Z",
+      "updatedAt": "2026-10-22T22:14:31Z",
       "merged": false,
       "author": {
         "login": "xyrolle",
@@ -375912,7 +375961,7 @@
     },
     "18964": {
       "number": 18964,
-      "updatedAt": "2026-10-13T22:40:52Z",
+      "updatedAt": "2026-10-23T18:59:54Z",
       "merged": false,
       "author": {
         "login": "elliott-with-the-longest-name-on-github",
@@ -375926,6 +375975,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "github-advanced-security",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -376223,14 +376279,14 @@
     },
     "18984": {
       "number": 18984,
-      "updatedAt": "2026-10-22T19:48:15Z",
+      "updatedAt": "2026-10-22T19:53:01Z",
       "merged": false,
       "author": {
         "login": "Nic-Polumeyv",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 24
       },
       "reactions": {
         "totalCount": 1
@@ -376962,7 +377018,7 @@
     },
     "19030": {
       "number": 19030,
-      "updatedAt": "2026-10-22T18:57:53Z",
+      "updatedAt": "2026-10-23T19:20:08Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
@@ -377495,7 +377551,7 @@
     },
     "19052": {
       "number": 19052,
-      "updatedAt": "2026-10-21T19:30:48Z",
+      "updatedAt": "2026-10-23T10:51:39Z",
       "merged": false,
       "author": {
         "login": "Nic-Polumeyv",
@@ -377923,8 +377979,8 @@
     },
     "19076": {
       "number": 19076,
-      "updatedAt": "2026-10-22T18:54:47Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T19:20:02Z",
+      "merged": true,
       "author": {
         "login": "Rich-Harris",
         "__typename": "User"
@@ -377967,7 +378023,7 @@
     },
     "19078": {
       "number": 19078,
-      "updatedAt": "2026-10-22T19:19:28Z",
+      "updatedAt": "2026-10-23T18:34:59Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -377987,13 +378043,64 @@
               "login": "vercel",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "19079": {
       "number": 19079,
-      "updatedAt": "2026-10-22T19:46:32Z",
+      "updatedAt": "2026-10-22T19:53:47Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "19080": {
+      "number": 19080,
+      "updatedAt": "2026-10-22T20:46:33Z",
+      "merged": false,
+      "author": {
+        "login": "xyrolle",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19081": {
+      "number": 19081,
+      "updatedAt": "2026-10-23T18:36:14Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -378001,6 +378108,78 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19083": {
+      "number": 19083,
+      "updatedAt": "2026-10-23T04:04:41Z",
+      "merged": false,
+      "author": {
+        "login": "kaptnkoala",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19084": {
+      "number": 19084,
+      "updatedAt": "2026-10-23T10:31:55Z",
+      "merged": false,
+      "author": {
+        "login": "filiabel",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19085": {
+      "number": 19085,
+      "updatedAt": "2026-10-23T14:03:22Z",
+      "merged": false,
+      "author": {
+        "login": "anastasiia-baboshina",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19086": {
+      "number": 19086,
+      "updatedAt": "2026-10-23T14:59:35Z",
+      "merged": false,
+      "author": {
+        "login": "anastasiia-baboshina",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
