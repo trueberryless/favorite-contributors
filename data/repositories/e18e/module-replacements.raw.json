@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-22T05:15:22.773Z",
+    "lastRunAt": "2026-10-23T06:21:49.810Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8848,6 +8848,13 @@
     },
     "1149": {
       "number": 1149,
+      "user": {
+        "login": "dreyfus92",
+        "type": "User"
+      }
+    },
+    "1150": {
+      "number": 1150,
       "user": {
         "login": "dreyfus92",
         "type": "User"
@@ -28601,7 +28608,33 @@
     },
     "1149": {
       "number": 1149,
-      "updatedAt": "2026-10-22T02:11:41Z",
+      "updatedAt": "2026-10-22T09:05:33Z",
+      "merged": true,
+      "author": {
+        "login": "dreyfus92",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1150": {
+      "number": 1150,
+      "updatedAt": "2026-10-22T19:42:12Z",
       "merged": false,
       "author": {
         "login": "dreyfus92",
@@ -28614,7 +28647,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ghostdevv",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "gameroman",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
