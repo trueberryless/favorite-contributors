@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T01:28:34.223Z",
+    "lastRunAt": "2026-10-24T01:51:59.539Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0wNVQxNzowMjo1NFrOXm0cPA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23922,7 +23922,7 @@
     },
     "1188": {
       "number": 1188,
-      "updatedAt": "2026-10-22T12:33:46Z",
+      "updatedAt": "2026-10-23T14:47:42Z",
       "merged": false,
       "author": {
         "login": "RaphaelFakhri",
@@ -23935,7 +23935,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "chansuke",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

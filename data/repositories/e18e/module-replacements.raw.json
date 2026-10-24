@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T06:21:49.810Z",
+    "lastRunAt": "2026-10-24T01:53:19.052Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8857,6 +8857,30 @@
       "number": 1150,
       "user": {
         "login": "dreyfus92",
+        "type": "User"
+      }
+    },
+    "1151": {
+      "number": 1151,
+      "user": {
+        "login": "RizgarOzan",
+        "type": "User"
+      }
+    },
+    "1152": {
+      "number": 1152,
+      "user": {
+        "login": "dreyfus92",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1153": {
+      "number": 1153,
+      "user": {
+        "login": "RizgarOzan",
         "type": "User"
       }
     }
@@ -28634,8 +28658,8 @@
     },
     "1150": {
       "number": 1150,
-      "updatedAt": "2026-10-22T19:42:12Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T07:36:12Z",
+      "merged": true,
       "author": {
         "login": "dreyfus92",
         "__typename": "User"
@@ -28661,8 +28685,59 @@
               "login": "gameroman",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "1151": {
+      "number": 1151,
+      "updatedAt": "2026-10-23T07:24:14Z",
+      "merged": true,
+      "author": {
+        "login": "RizgarOzan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1153": {
+      "number": 1153,
+      "updatedAt": "2026-10-23T20:40:38Z",
+      "merged": false,
+      "author": {
+        "login": "RizgarOzan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
