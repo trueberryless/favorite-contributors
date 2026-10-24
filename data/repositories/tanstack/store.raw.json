@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T12:00:05.969Z",
+    "lastRunAt": "2026-10-24T11:55:11.033Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2726,6 +2726,20 @@
       "number": 398,
       "user": {
         "login": "benjavicente",
+        "type": "User"
+      }
+    },
+    "399": {
+      "number": 399,
+      "user": {
+        "login": "Gourav224",
+        "type": "User"
+      }
+    },
+    "400": {
+      "number": 400,
+      "user": {
+        "login": "Gourav224",
         "type": "User"
       }
     }
@@ -10207,7 +10221,7 @@
     },
     "396": {
       "number": 396,
-      "updatedAt": "2026-10-19T02:29:51Z",
+      "updatedAt": "2026-10-24T09:21:38Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10262,6 +10276,60 @@
             "author": {
               "login": "KevinVandy",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "400": {
+      "number": 400,
+      "updatedAt": "2026-10-24T10:43:51Z",
+      "merged": false,
+      "author": {
+        "login": "Gourav224",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Gourav224",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]

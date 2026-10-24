@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T12:00:10.586Z",
+    "lastRunAt": "2026-10-24T11:55:15.082Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNC0yMVQwMDo1NDoxOFrO1CVDJQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -305,6 +305,41 @@
       "user": {
         "login": "tannerlinsley",
         "type": "User"
+      }
+    },
+    "45": {
+      "number": 45,
+      "user": {
+        "login": "benjavicente",
+        "type": "User"
+      }
+    },
+    "46": {
+      "number": 46,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "47": {
+      "number": 47,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "48": {
+      "number": 48,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "49": {
+      "number": 49,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -1128,6 +1163,104 @@
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "45": {
+      "number": 45,
+      "updatedAt": "2026-10-23T21:50:53Z",
+      "merged": false,
+      "author": {
+        "login": "benjavicente",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "46": {
+      "number": 46,
+      "updatedAt": "2026-10-23T21:59:19Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "47": {
+      "number": 47,
+      "updatedAt": "2026-10-23T22:04:58Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "48": {
+      "number": 48,
+      "updatedAt": "2026-10-24T07:42:23Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "49": {
+      "number": 49,
+      "updatedAt": "2026-10-24T07:48:00Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

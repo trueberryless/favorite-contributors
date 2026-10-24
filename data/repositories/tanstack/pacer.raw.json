@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T12:00:08.170Z",
+    "lastRunAt": "2026-10-24T11:55:12.632Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xMVQxNzoyMDo1M1rOjiypRg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1991,6 +1991,20 @@
       "number": 298,
       "user": {
         "login": "benjavicente",
+        "type": "User"
+      }
+    },
+    "299": {
+      "number": 299,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "300": {
+      "number": 300,
+      "user": {
+        "login": "sukvvon",
         "type": "User"
       }
     }
@@ -7464,6 +7478,50 @@
             }
           }
         ]
+      }
+    },
+    "299": {
+      "number": 299,
+      "updatedAt": "2026-10-23T16:27:48Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "300": {
+      "number": 300,
+      "updatedAt": "2026-10-23T16:50:41Z",
+      "merged": false,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
