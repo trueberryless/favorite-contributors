@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T06:23:49.698Z",
+    "lastRunAt": "2026-10-24T06:58:26.826Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0xMVQwMzo0MzowOFrOY5SVWg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20069,8 +20069,8 @@
     },
     "808": {
       "number": 808,
-      "updatedAt": "2026-10-18T16:46:36Z",
-      "merged": false,
+      "updatedAt": "2026-10-23T15:13:16Z",
+      "merged": true,
       "author": {
         "login": "Sysix",
         "__typename": "User"
@@ -20082,7 +20082,29 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "809": {
