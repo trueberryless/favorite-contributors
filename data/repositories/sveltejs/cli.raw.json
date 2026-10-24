@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T20:14:52.861Z",
+    "lastRunAt": "2026-10-24T15:34:00.041Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -39733,7 +39733,7 @@
     },
     "1417": {
       "number": 1417,
-      "updatedAt": "2026-10-17T05:46:27Z",
+      "updatedAt": "2026-10-24T12:42:16Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -39857,7 +39857,7 @@
     },
     "1424": {
       "number": 1424,
-      "updatedAt": "2026-10-23T07:28:09Z",
+      "updatedAt": "2026-10-24T12:43:19Z",
       "merged": false,
       "author": {
         "login": "jycouet",
@@ -39882,6 +39882,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
               "__typename": "User"
             }
           }
@@ -39916,7 +39923,7 @@
     },
     "1428": {
       "number": 1428,
-      "updatedAt": "2026-10-17T17:01:59Z",
+      "updatedAt": "2026-10-24T12:37:32Z",
       "merged": false,
       "author": {
         "login": "jycouet",
@@ -39929,7 +39936,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1429": {
@@ -40006,7 +40021,7 @@
     },
     "1435": {
       "number": 1435,
-      "updatedAt": "2026-10-23T07:25:58Z",
+      "updatedAt": "2026-10-24T12:45:07Z",
       "merged": false,
       "author": {
         "login": "ptus04",
@@ -40032,8 +40047,8 @@
     },
     "1436": {
       "number": 1436,
-      "updatedAt": "2026-10-23T06:39:16Z",
-      "merged": false,
+      "updatedAt": "2026-10-24T12:41:38Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -40045,7 +40060,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1437": {

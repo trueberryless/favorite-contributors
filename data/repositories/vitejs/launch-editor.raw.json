@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T20:15:35.263Z",
+    "lastRunAt": "2026-10-24T15:34:44.896Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMS0wNlQyMTozMjowNlrOCaArYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1192,6 +1192,13 @@
       "number": 162,
       "user": {
         "login": "PerryLink",
+        "type": "User"
+      }
+    },
+    "163": {
+      "number": 163,
+      "user": {
+        "login": "mkantautas",
         "type": "User"
       }
     }
@@ -3647,6 +3654,24 @@
       "merged": false,
       "author": {
         "login": "PerryLink",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "163": {
+      "number": 163,
+      "updatedAt": "2026-10-24T14:24:59Z",
+      "merged": false,
+      "author": {
+        "login": "mkantautas",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T20:14:48.326Z",
+    "lastRunAt": "2026-10-24T15:33:56.376Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0xNlQwMTowOToxNVrOHhHIBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -120015,6 +120015,62 @@
       "number": 17533,
       "user": {
         "login": "fru1tworld",
+        "type": "User"
+      }
+    },
+    "17534": {
+      "number": 17534,
+      "user": {
+        "login": "NatoBoram",
+        "type": "User"
+      }
+    },
+    "17535": {
+      "number": 17535,
+      "user": {
+        "login": "jasontd92",
+        "type": "User"
+      }
+    },
+    "17536": {
+      "number": 17536,
+      "user": {
+        "login": "kingtirano",
+        "type": "User"
+      }
+    },
+    "17537": {
+      "number": 17537,
+      "user": {
+        "login": "xyrolle",
+        "type": "User"
+      }
+    },
+    "17538": {
+      "number": 17538,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "17539": {
+      "number": 17539,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "17540": {
+      "number": 17540,
+      "user": {
+        "login": "derkbell",
+        "type": "User"
+      }
+    },
+    "17541": {
+      "number": 17541,
+      "user": {
+        "login": "derkbell",
         "type": "User"
       }
     }
@@ -401007,7 +401063,7 @@
     },
     "17533": {
       "number": 17533,
-      "updatedAt": "2026-10-23T13:48:23Z",
+      "updatedAt": "2026-10-24T12:56:04Z",
       "merged": false,
       "author": {
         "login": "fru1tworld",
@@ -401020,7 +401076,95 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "17535": {
+      "number": 17535,
+      "updatedAt": "2026-10-24T10:25:58Z",
+      "merged": false,
+      "author": {
+        "login": "jasontd92",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "17538": {
+      "number": 17538,
+      "updatedAt": "2026-10-24T12:27:10Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17539": {
+      "number": 17539,
+      "updatedAt": "2026-10-24T12:35:45Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17541": {
+      "number": 17541,
+      "updatedAt": "2026-10-24T15:16:55Z",
+      "merged": false,
+      "author": {
+        "login": "derkbell",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

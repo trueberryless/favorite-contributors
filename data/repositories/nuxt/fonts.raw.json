@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T16:50:02.075Z",
+    "lastRunAt": "2026-10-24T15:31:52.158Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0xOVQyMzoyOTo0OFrOZ1J0_g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6974,6 +6974,20 @@
       "number": 950,
       "user": {
         "login": "onmax",
+        "type": "User"
+      }
+    },
+    "951": {
+      "number": 951,
+      "user": {
+        "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "952": {
+      "number": 952,
+      "user": {
+        "login": "danielroe",
         "type": "User"
       }
     }
@@ -25097,7 +25111,7 @@
     },
     "914": {
       "number": 914,
-      "updatedAt": "2026-09-22T21:20:44Z",
+      "updatedAt": "2026-10-24T15:22:07Z",
       "merged": true,
       "author": {
         "login": "danielroe",
@@ -25958,6 +25972,50 @@
             "author": {
               "login": "danielroe",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "951": {
+      "number": 951,
+      "updatedAt": "2026-10-24T14:58:52Z",
+      "merged": false,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "952": {
+      "number": 952,
+      "updatedAt": "2026-10-24T15:28:40Z",
+      "merged": false,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]

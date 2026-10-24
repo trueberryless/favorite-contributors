@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T16:49:52.857Z",
+    "lastRunAt": "2026-10-24T15:31:44.656Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0zMFQxMzozMjo0NVrOHYjpvA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17319,7 +17319,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 4
+        "total_count": 9
       }
     },
     "2308": {
@@ -53540,8 +53540,8 @@
     },
     "2336": {
       "number": 2336,
-      "updatedAt": "2026-10-20T12:15:27Z",
-      "merged": false,
+      "updatedAt": "2026-10-24T14:38:34Z",
+      "merged": true,
       "author": {
         "login": "chairulakmal",
         "__typename": "User"
@@ -53553,7 +53553,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "2337": {
@@ -54097,7 +54112,7 @@
     },
     "2357": {
       "number": 2357,
-      "updatedAt": "2026-10-19T17:51:55Z",
+      "updatedAt": "2026-10-24T14:38:48Z",
       "merged": false,
       "author": {
         "login": "github-actions",
