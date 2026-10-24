@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T23:20:57.091Z",
+    "lastRunAt": "2026-10-24T18:40:04.436Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wNFQyMTowMDowNFrOSUTqhg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -111,6 +111,13 @@
       "number": 15,
       "user": {
         "login": "nvie",
+        "type": "User"
+      }
+    },
+    "16": {
+      "number": 16,
+      "user": {
+        "login": "jonahsnider",
         "type": "User"
       }
     }
@@ -369,6 +376,24 @@
       "merged": false,
       "author": {
         "login": "nvie",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "16": {
+      "number": 16,
+      "updatedAt": "2026-10-24T12:07:15Z",
+      "merged": false,
+      "author": {
+        "login": "jonahsnider",
         "__typename": "User"
       },
       "closingIssuesReferences": {

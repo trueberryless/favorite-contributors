@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-23T23:22:01.738Z",
+    "lastRunAt": "2026-10-24T18:41:11.980Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0xOFQyMzozNjowN1rOTGCltw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16492,6 +16492,9 @@
       "user": {
         "login": "daivik007",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     },
     "2334": {
@@ -16543,6 +16546,13 @@
       "number": 2340,
       "user": {
         "login": "uncenter",
+        "type": "User"
+      }
+    },
+    "2341": {
+      "number": 2341,
+      "user": {
+        "login": "phucisstupid",
         "type": "User"
       }
     }
@@ -81778,7 +81788,7 @@
     },
     "2282": {
       "number": 2282,
-      "updatedAt": "2026-10-13T14:06:45Z",
+      "updatedAt": "2026-10-24T10:37:54Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -82967,7 +82977,7 @@
     },
     "2333": {
       "number": 2333,
-      "updatedAt": "2026-10-17T22:54:33Z",
+      "updatedAt": "2026-10-24T00:05:38Z",
       "merged": false,
       "author": {
         "login": "daivik007",
@@ -82977,7 +82987,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 2
       },
       "reviews": {
         "nodes": [
@@ -82992,6 +83002,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "daivik007",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "omansh12",
               "__typename": "User"
             }
           }
@@ -83150,6 +83167,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2341": {
+      "number": 2341,
+      "updatedAt": "2026-10-24T18:11:13Z",
+      "merged": false,
+      "author": {
+        "login": "phucisstupid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 2
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
