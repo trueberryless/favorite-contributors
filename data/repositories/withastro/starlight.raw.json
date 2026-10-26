@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-25T17:30:13.098Z",
+    "lastRunAt": "2026-10-26T18:51:39.826Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27973,6 +27973,34 @@
       "number": 4298,
       "user": {
         "login": "astrobot-houston",
+        "type": "User"
+      }
+    },
+    "4299": {
+      "number": 4299,
+      "user": {
+        "login": "clean99",
+        "type": "User"
+      }
+    },
+    "4300": {
+      "number": 4300,
+      "user": {
+        "login": "clean99",
+        "type": "User"
+      }
+    },
+    "4301": {
+      "number": 4301,
+      "user": {
+        "login": "delucis",
+        "type": "User"
+      }
+    },
+    "4302": {
+      "number": 4302,
+      "user": {
+        "login": "Skytuhua",
         "type": "User"
       }
     }
@@ -123938,7 +123966,7 @@
     },
     "3788": {
       "number": 3788,
-      "updatedAt": "2026-08-18T22:25:08Z",
+      "updatedAt": "2026-10-26T14:49:50Z",
       "merged": false,
       "author": {
         "login": "gxxxr-111",
@@ -136437,8 +136465,8 @@
     },
     "4293": {
       "number": 4293,
-      "updatedAt": "2026-10-23T16:28:33Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T12:48:39Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -136450,13 +136478,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4294": {
       "number": 4294,
-      "updatedAt": "2026-10-23T19:24:08Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T12:48:06Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -136468,7 +136504,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4295": {
@@ -136499,8 +136543,8 @@
     },
     "4296": {
       "number": 4296,
-      "updatedAt": "2026-10-23T23:45:35Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T11:07:20Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
         "__typename": "User"
@@ -136512,15 +136556,49 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4297": {
       "number": 4297,
-      "updatedAt": "2026-10-23T23:48:17Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T11:27:13Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4298": {
+      "number": 4298,
+      "updatedAt": "2026-10-26T11:34:06Z",
+      "merged": false,
+      "author": {
+        "login": "astrobot-houston",
         "__typename": "User"
       },
       "closingIssuesReferences": {
@@ -136533,12 +136611,56 @@
         "nodes": []
       }
     },
-    "4298": {
-      "number": 4298,
-      "updatedAt": "2026-10-24T08:42:46Z",
+    "4299": {
+      "number": 4299,
+      "updatedAt": "2026-10-26T17:15:58Z",
       "merged": false,
       "author": {
-        "login": "astrobot-houston",
+        "login": "clean99",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4301": {
+      "number": 4301,
+      "updatedAt": "2026-10-26T00:27:38Z",
+      "merged": false,
+      "author": {
+        "login": "delucis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4302": {
+      "number": 4302,
+      "updatedAt": "2026-10-26T06:54:40Z",
+      "merged": false,
+      "author": {
+        "login": "Skytuhua",
         "__typename": "User"
       },
       "closingIssuesReferences": {

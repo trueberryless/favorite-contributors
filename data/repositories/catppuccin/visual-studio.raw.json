@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-25T17:29:18.610Z",
+    "lastRunAt": "2026-10-26T18:50:27.804Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNC0yM1QxMzoxMjo1NFrOTu-DvA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -717,7 +717,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     }
   },
@@ -1602,7 +1602,7 @@
     },
     "99": {
       "number": 99,
-      "updatedAt": "2026-10-21T14:25:28Z",
+      "updatedAt": "2026-10-26T13:13:08Z",
       "merged": false,
       "author": {
         "login": "stillgbx",
@@ -1612,10 +1612,18 @@
         "totalCount": 6
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 2
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "shiva-kar",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

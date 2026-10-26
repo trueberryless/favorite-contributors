@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-25T19:54:56.735Z",
+    "lastRunAt": "2026-10-26T18:54:29.573Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16405,6 +16405,20 @@
       "number": 2352,
       "user": {
         "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "2353": {
+      "number": 2353,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "2354": {
+      "number": 2354,
+      "user": {
+        "login": "changesets-org-version-bot[bot]",
         "type": "Bot"
       }
     }
@@ -57933,7 +57947,7 @@
     },
     "2246": {
       "number": 2246,
-      "updatedAt": "2026-09-26T23:08:46Z",
+      "updatedAt": "2026-10-26T10:03:54Z",
       "merged": false,
       "author": {
         "login": "Boulea7",
@@ -58901,7 +58915,7 @@
     },
     "2288": {
       "number": 2288,
-      "updatedAt": "2026-10-22T23:11:51Z",
+      "updatedAt": "2026-10-26T07:21:49Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -59240,7 +59254,7 @@
     },
     "2303": {
       "number": 2303,
-      "updatedAt": "2026-10-22T22:54:59Z",
+      "updatedAt": "2026-10-26T07:21:50Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -59398,7 +59412,7 @@
     },
     "2313": {
       "number": 2313,
-      "updatedAt": "2026-10-22T22:50:32Z",
+      "updatedAt": "2026-10-26T07:21:51Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -59579,7 +59593,7 @@
     },
     "2326": {
       "number": 2326,
-      "updatedAt": "2026-10-02T17:45:16Z",
+      "updatedAt": "2026-10-26T09:56:21Z",
       "merged": false,
       "author": {
         "login": "Boulea7",
@@ -59818,8 +59832,8 @@
     },
     "2346": {
       "number": 2346,
-      "updatedAt": "2026-10-23T23:35:58Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T07:51:18Z",
+      "merged": true,
       "author": {
         "login": "Netail",
         "__typename": "User"
@@ -59885,6 +59899,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "Andarist",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "bluwy",
               "__typename": "User"
             }
           }
@@ -59987,6 +60008,42 @@
       "merged": false,
       "author": {
         "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2353": {
+      "number": 2353,
+      "updatedAt": "2026-10-26T07:23:06Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2354": {
+      "number": 2354,
+      "updatedAt": "2026-10-26T07:24:43Z",
+      "merged": false,
+      "author": {
+        "login": "changesets-org-version-bot",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {

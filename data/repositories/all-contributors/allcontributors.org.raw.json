@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-25T19:54:20.136Z",
+    "lastRunAt": "2026-10-26T18:53:26.201Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0yOFQxNTo0NDo1NlrOA6KG0Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7611,6 +7611,13 @@
       "user": {
         "login": "dajiaohuang",
         "type": "User"
+      }
+    },
+    "1198": {
+      "number": 1198,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -26968,7 +26975,7 @@
     },
     "1192": {
       "number": 1192,
-      "updatedAt": "2026-10-22T05:34:57Z",
+      "updatedAt": "2026-10-26T09:20:01Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -27012,8 +27019,8 @@
     },
     "1195": {
       "number": 1195,
-      "updatedAt": "2026-10-23T16:29:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T09:16:03Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -27025,12 +27032,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1196": {
       "number": 1196,
-      "updatedAt": "2026-10-23T16:28:47Z",
+      "updatedAt": "2026-10-26T09:27:02Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -27062,6 +27077,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1198": {
+      "number": 1198,
+      "updatedAt": "2026-10-26T09:25:00Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

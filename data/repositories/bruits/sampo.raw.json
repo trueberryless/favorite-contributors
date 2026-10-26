@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-25T17:30:50.512Z",
+    "lastRunAt": "2026-10-26T18:52:33.827Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0wMlQyMDo1NDozOVrOpl321A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2199,6 +2199,48 @@
       "number": 365,
       "user": {
         "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "366": {
+      "number": 366,
+      "user": {
+        "login": "arthurfiorette",
+        "type": "User"
+      }
+    },
+    "367": {
+      "number": 367,
+      "user": {
+        "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "368": {
+      "number": 368,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "369": {
+      "number": 369,
+      "user": {
+        "login": "arthurfiorette",
+        "type": "User"
+      }
+    },
+    "370": {
+      "number": 370,
+      "user": {
+        "login": "arthurfiorette",
+        "type": "User"
+      }
+    },
+    "371": {
+      "number": 371,
+      "user": {
+        "login": "arthurfiorette",
         "type": "User"
       }
     }
@@ -7877,6 +7919,128 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "367": {
+      "number": 367,
+      "updatedAt": "2026-10-26T06:50:35Z",
+      "merged": true,
+      "author": {
+        "login": "goulvenclech",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "368": {
+      "number": 368,
+      "updatedAt": "2026-10-26T08:02:40Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "369": {
+      "number": 369,
+      "updatedAt": "2026-10-26T14:03:16Z",
+      "merged": false,
+      "author": {
+        "login": "arthurfiorette",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "370": {
+      "number": 370,
+      "updatedAt": "2026-10-26T14:03:20Z",
+      "merged": false,
+      "author": {
+        "login": "arthurfiorette",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "371": {
+      "number": 371,
+      "updatedAt": "2026-10-26T14:03:24Z",
+      "merged": false,
+      "author": {
+        "login": "arthurfiorette",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
