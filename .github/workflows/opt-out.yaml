@@ -1,0 +1,59 @@
+name: Opt-out
+
+on:
+  issues:
+    types: [opened, labeled]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.issue.number }}
+
+permissions: {}
+
+jobs:
+  exclude:
+    if: contains(github.event.issue.labels.*.name, 'opt-out') && github.event.issue.state == 'open'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+
+      - name: Add username hash to exclusion list
+        env:
+          USERNAME: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          hash=$(printf '%s' "${USERNAME,,}" | sha256sum | cut -d ' ' -f 1)
+
+          for attempt in 1 2 3 4 5; do
+            git fetch --depth 1 origin main
+            git reset --hard FETCH_HEAD
+
+            if jq -e --arg hash "$hash" 'index($hash)' data/excluded-users.json > /dev/null; then
+              exit 0
+            fi
+
+            jq --arg hash "$hash" '. + [$hash] | unique' data/excluded-users.json > excluded-users.tmp
+            mv excluded-users.tmp data/excluded-users.json
+            git commit -m "chore(data): update exclusion list" -- data/excluded-users.json
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 10))
+          done
+
+          exit 1
+
+      - name: Close request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue close "$ISSUE_NUMBER" --reason completed \
+            --comment "Your account has been added to the exclusion list. The next data sync removes all of your data and your account will never be collected again. Feel free to ask for this issue to be deleted."
+          gh issue lock "$ISSUE_NUMBER" --reason resolved
