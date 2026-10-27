@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T05:51:43.101Z",
+    "lastRunAt": "2026-10-27T19:52:48.543Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -790,6 +790,13 @@
       "number": 94,
       "user": {
         "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "95": {
+      "number": 95,
+      "user": {
+        "login": "AFCMS",
         "type": "User"
       }
     }
@@ -3034,7 +3041,7 @@
     },
     "76": {
       "number": 76,
-      "updatedAt": "2026-10-19T09:55:58Z",
+      "updatedAt": "2026-10-26T09:56:56Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -3862,6 +3869,39 @@
       "merged": true,
       "author": {
         "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "95": {
+      "number": 95,
+      "updatedAt": "2026-10-27T19:40:19Z",
+      "merged": false,
+      "author": {
+        "login": "AFCMS",
         "__typename": "User"
       },
       "closingIssuesReferences": {

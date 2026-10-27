@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T05:53:21.786Z",
+    "lastRunAt": "2026-10-27T19:54:20.435Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0xNlQwMTowOToxNVrOHhHIBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -120044,6 +120044,9 @@
       "user": {
         "login": "xyrolle",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "17538": {
@@ -120086,6 +120089,86 @@
       "user": {
         "login": "svelte-triage-bot[bot]",
         "type": "Bot"
+      }
+    },
+    "17544": {
+      "number": 17544,
+      "user": {
+        "login": "Skytuhua",
+        "type": "User"
+      }
+    },
+    "17545": {
+      "number": 17545,
+      "user": {
+        "login": "glovek08",
+        "type": "User"
+      }
+    },
+    "17546": {
+      "number": 17546,
+      "user": {
+        "login": "cegredev",
+        "type": "User"
+      }
+    },
+    "17547": {
+      "number": 17547,
+      "user": {
+        "login": "ottomated",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 5
+      }
+    },
+    "17548": {
+      "number": 17548,
+      "user": {
+        "login": "sachinkr7368",
+        "type": "User"
+      }
+    },
+    "17549": {
+      "number": 17549,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "17550": {
+      "number": 17550,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "17551": {
+      "number": 17551,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "17552": {
+      "number": 17552,
+      "user": {
+        "login": "brooke-ec",
+        "type": "User"
+      }
+    },
+    "17553": {
+      "number": 17553,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "17554": {
+      "number": 17554,
+      "user": {
+        "login": "jose-manuel-silva",
+        "type": "User"
       }
     }
   },
@@ -363441,7 +363524,7 @@
     },
     "16034": {
       "number": 16034,
-      "updatedAt": "2026-06-15T20:14:43Z",
+      "updatedAt": "2026-10-26T11:11:04Z",
       "merged": true,
       "author": {
         "login": "agafonovim",
@@ -400417,7 +400500,7 @@
     },
     "17495": {
       "number": 17495,
-      "updatedAt": "2026-10-20T08:25:33Z",
+      "updatedAt": "2026-10-27T05:41:21Z",
       "merged": false,
       "author": {
         "login": "Aman13sh",
@@ -400861,25 +400944,54 @@
     },
     "17520": {
       "number": 17520,
-      "updatedAt": "2026-10-23T04:16:42Z",
+      "updatedAt": "2026-10-27T14:39:35Z",
       "merged": false,
       "author": {
         "login": "teemingc",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 2
       },
       "reactions": {
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "17521": {
       "number": 17521,
-      "updatedAt": "2026-10-22T08:02:31Z",
+      "updatedAt": "2026-10-27T14:57:31Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -400892,7 +401004,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17522": {
@@ -401023,7 +401143,7 @@
     },
     "17530": {
       "number": 17530,
-      "updatedAt": "2026-10-23T06:55:09Z",
+      "updatedAt": "2026-10-27T12:44:50Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",
@@ -401041,7 +401161,7 @@
     },
     "17531": {
       "number": 17531,
-      "updatedAt": "2026-10-23T13:41:51Z",
+      "updatedAt": "2026-10-26T08:58:56Z",
       "merged": false,
       "author": {
         "login": "fru1tworld",
@@ -401184,6 +401304,129 @@
     "17543": {
       "number": 17543,
       "updatedAt": "2026-10-24T16:45:01Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17544": {
+      "number": 17544,
+      "updatedAt": "2026-10-26T21:16:40Z",
+      "merged": false,
+      "author": {
+        "login": "Skytuhua",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17547": {
+      "number": 17547,
+      "updatedAt": "2026-10-27T12:22:24Z",
+      "merged": false,
+      "author": {
+        "login": "ottomated",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 5
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "17548": {
+      "number": 17548,
+      "updatedAt": "2026-10-27T09:21:21Z",
+      "merged": false,
+      "author": {
+        "login": "sachinkr7368",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17550": {
+      "number": 17550,
+      "updatedAt": "2026-10-27T14:33:44Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17551": {
+      "number": 17551,
+      "updatedAt": "2026-10-27T14:05:38Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17553": {
+      "number": 17553,
+      "updatedAt": "2026-10-27T15:25:08Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",

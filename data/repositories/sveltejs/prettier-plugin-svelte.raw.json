@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T05:53:18.422Z",
+    "lastRunAt": "2026-10-27T19:54:16.741Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wNVQxMTowNjo1MFrOEFZa7A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4241,6 +4241,13 @@
       "number": 553,
       "user": {
         "login": "stickerdaniel",
+        "type": "User"
+      }
+    },
+    "554": {
+      "number": 554,
+      "user": {
+        "login": "Stadly",
         "type": "User"
       }
     }
@@ -9658,10 +9665,28 @@
     },
     "553": {
       "number": 553,
-      "updatedAt": "2026-10-25T03:33:22Z",
+      "updatedAt": "2026-10-27T08:24:57Z",
       "merged": false,
       "author": {
         "login": "stickerdaniel",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "554": {
+      "number": 554,
+      "updatedAt": "2026-10-26T21:31:30Z",
+      "merged": false,
+      "author": {
+        "login": "Stadly",
         "__typename": "User"
       },
       "closingIssuesReferences": {
