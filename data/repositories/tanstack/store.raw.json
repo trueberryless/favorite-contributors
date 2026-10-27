@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T00:37:02.057Z",
+    "lastRunAt": "2026-10-27T14:50:07.464Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2741,6 +2741,23 @@
       "user": {
         "login": "Gourav224",
         "type": "User"
+      }
+    },
+    "402": {
+      "number": 402,
+      "user": {
+        "login": "mbret",
+        "type": "User"
+      }
+    },
+    "403": {
+      "number": 403,
+      "user": {
+        "login": "mbret",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -10333,6 +10350,64 @@
             }
           }
         ]
+      }
+    },
+    "402": {
+      "number": 402,
+      "updatedAt": "2026-10-27T13:03:10Z",
+      "merged": false,
+      "author": {
+        "login": "mbret",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "mbret",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "403": {
+      "number": 403,
+      "updatedAt": "2026-10-27T13:13:24Z",
+      "merged": false,
+      "author": {
+        "login": "mbret",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

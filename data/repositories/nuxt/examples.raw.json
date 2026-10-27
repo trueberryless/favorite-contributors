@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T05:50:52.208Z",
+    "lastRunAt": "2026-10-27T14:53:20.085Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMC0yMFQxNjowMToxMVrOQIZpcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1925,6 +1925,13 @@
       "number": 269,
       "user": {
         "login": "larbish",
+        "type": "User"
+      }
+    },
+    "270": {
+      "number": 270,
+      "user": {
+        "login": "chadhietala",
         "type": "User"
       }
     }
@@ -7244,7 +7251,7 @@
     },
     "253": {
       "number": 253,
-      "updatedAt": "2026-10-22T17:13:42Z",
+      "updatedAt": "2026-10-26T20:11:31Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -7609,7 +7616,7 @@
     },
     "268": {
       "number": 268,
-      "updatedAt": "2026-10-22T17:15:37Z",
+      "updatedAt": "2026-10-26T20:11:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -7646,6 +7653,32 @@
             "author": {
               "login": "danielroe",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "270": {
+      "number": 270,
+      "updatedAt": "2026-10-27T02:14:25Z",
+      "merged": false,
+      "author": {
+        "login": "chadhietala",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T05:49:53.272Z",
+    "lastRunAt": "2026-10-27T14:52:19.039Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0yMlQxODowNzoxMFrOvrttxw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -26193,6 +26193,13 @@
     },
     "3360": {
       "number": 3360,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "3361": {
+      "number": 3361,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -120094,7 +120101,7 @@
     },
     "3202": {
       "number": 3202,
-      "updatedAt": "2026-10-26T02:04:14Z",
+      "updatedAt": "2026-10-27T12:28:44Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -120547,7 +120554,7 @@
     },
     "3219": {
       "number": 3219,
-      "updatedAt": "2026-10-26T02:05:38Z",
+      "updatedAt": "2026-10-27T12:29:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -121641,7 +121648,7 @@
     },
     "3265": {
       "number": 3265,
-      "updatedAt": "2026-10-22T16:43:55Z",
+      "updatedAt": "2026-10-27T12:28:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -121854,7 +121861,7 @@
     },
     "3274": {
       "number": 3274,
-      "updatedAt": "2026-10-22T16:51:06Z",
+      "updatedAt": "2026-10-26T18:24:18Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -122420,7 +122427,7 @@
     },
     "3292": {
       "number": 3292,
-      "updatedAt": "2026-10-22T16:49:41Z",
+      "updatedAt": "2026-10-26T18:20:46Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -122881,7 +122888,7 @@
     },
     "3308": {
       "number": 3308,
-      "updatedAt": "2026-10-23T09:46:38Z",
+      "updatedAt": "2026-10-26T18:23:09Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -123852,7 +123859,7 @@
     },
     "3340": {
       "number": 3340,
-      "updatedAt": "2026-10-22T16:55:24Z",
+      "updatedAt": "2026-10-26T18:22:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -124183,7 +124190,7 @@
     },
     "3353": {
       "number": 3353,
-      "updatedAt": "2026-10-24T15:55:14Z",
+      "updatedAt": "2026-10-26T18:23:11Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -124289,7 +124296,7 @@
     },
     "3359": {
       "number": 3359,
-      "updatedAt": "2026-10-26T02:05:48Z",
+      "updatedAt": "2026-10-26T18:18:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -124307,7 +124314,7 @@
     },
     "3360": {
       "number": 3360,
-      "updatedAt": "2026-10-26T02:06:23Z",
+      "updatedAt": "2026-10-26T18:19:18Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -124321,6 +124328,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "3361": {
+      "number": 3361,
+      "updatedAt": "2026-10-26T18:20:45Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

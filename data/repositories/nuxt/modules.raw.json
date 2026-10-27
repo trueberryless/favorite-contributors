@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T05:50:45.625Z",
+    "lastRunAt": "2026-10-27T14:53:12.820Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12494,6 +12494,41 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "1698": {
+      "number": 1698,
+      "user": {
+        "login": "onmax",
+        "type": "User"
+      }
+    },
+    "1699": {
+      "number": 1699,
+      "user": {
+        "login": "navidjaberi",
+        "type": "User"
+      }
+    },
+    "1700": {
+      "number": 1700,
+      "user": {
+        "login": "sajadjanat",
+        "type": "User"
+      }
+    },
+    "1701": {
+      "number": 1701,
+      "user": {
+        "login": "kukson777",
+        "type": "User"
+      }
+    },
+    "1702": {
+      "number": 1702,
+      "user": {
+        "login": "davidabou",
+        "type": "User"
       }
     }
   },
@@ -38770,7 +38805,7 @@
     },
     "1678": {
       "number": 1678,
-      "updatedAt": "2026-10-23T02:29:01Z",
+      "updatedAt": "2026-10-27T11:51:06Z",
       "merged": false,
       "author": {
         "login": "davidtheheroes",
@@ -39221,8 +39256,8 @@
     },
     "1695": {
       "number": 1695,
-      "updatedAt": "2026-10-26T02:55:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T18:12:29Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -39234,13 +39269,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1696": {
       "number": 1696,
-      "updatedAt": "2026-10-26T02:55:48Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T17:55:26Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -39252,7 +39295,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1697": {
@@ -39262,6 +39313,104 @@
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1698": {
+      "number": 1698,
+      "updatedAt": "2026-10-26T09:24:39Z",
+      "merged": false,
+      "author": {
+        "login": "onmax",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1699": {
+      "number": 1699,
+      "updatedAt": "2026-10-26T11:34:44Z",
+      "merged": false,
+      "author": {
+        "login": "navidjaberi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1700": {
+      "number": 1700,
+      "updatedAt": "2026-10-27T08:12:41Z",
+      "merged": true,
+      "author": {
+        "login": "sajadjanat",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1701": {
+      "number": 1701,
+      "updatedAt": "2026-10-26T23:24:17Z",
+      "merged": false,
+      "author": {
+        "login": "kukson777",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1702": {
+      "number": 1702,
+      "updatedAt": "2026-10-27T09:47:00Z",
+      "merged": false,
+      "author": {
+        "login": "davidabou",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

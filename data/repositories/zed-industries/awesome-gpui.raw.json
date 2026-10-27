@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T00:37:48.890Z",
+    "lastRunAt": "2026-10-27T14:50:54.484Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1063,6 +1063,27 @@
       "number": 145,
       "user": {
         "login": "phpn00b",
+        "type": "User"
+      }
+    },
+    "146": {
+      "number": 146,
+      "user": {
+        "login": "JosephTLyons",
+        "type": "User"
+      }
+    },
+    "147": {
+      "number": 147,
+      "user": {
+        "login": "craftowen",
+        "type": "User"
+      }
+    },
+    "148": {
+      "number": 148,
+      "user": {
+        "login": "forzen-dev",
         "type": "User"
       }
     }
@@ -3550,8 +3571,8 @@
     },
     "143": {
       "number": 143,
-      "updatedAt": "2026-10-24T08:41:26Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T10:12:57Z",
+      "merged": true,
       "author": {
         "login": "gregor-tokarev",
         "__typename": "User"
@@ -3568,8 +3589,8 @@
     },
     "144": {
       "number": 144,
-      "updatedAt": "2026-10-24T15:21:28Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T10:13:04Z",
+      "merged": true,
       "author": {
         "login": "ragtux",
         "__typename": "User"
@@ -3586,10 +3607,64 @@
     },
     "145": {
       "number": 145,
-      "updatedAt": "2026-10-25T17:12:49Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T10:13:10Z",
+      "merged": true,
       "author": {
         "login": "phpn00b",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "146": {
+      "number": 146,
+      "updatedAt": "2026-10-26T10:13:19Z",
+      "merged": true,
+      "author": {
+        "login": "JosephTLyons",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "147": {
+      "number": 147,
+      "updatedAt": "2026-10-26T23:11:25Z",
+      "merged": false,
+      "author": {
+        "login": "craftowen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "148": {
+      "number": 148,
+      "updatedAt": "2026-10-27T05:41:49Z",
+      "merged": false,
+      "author": {
+        "login": "forzen-dev",
         "__typename": "User"
       },
       "closingIssuesReferences": {
