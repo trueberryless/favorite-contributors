@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T18:51:35.568Z",
+    "lastRunAt": "2026-10-27T23:39:06.527Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -103665,6 +103665,9 @@
       "user": {
         "login": "Yusaku01",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "14779": {
@@ -103716,6 +103719,89 @@
       "user": {
         "login": "delucis",
         "type": "User"
+      }
+    },
+    "14785": {
+      "number": 14785,
+      "user": {
+        "login": "deining",
+        "type": "User"
+      }
+    },
+    "14786": {
+      "number": 14786,
+      "user": {
+        "login": "delucis",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "14787": {
+      "number": 14787,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14788": {
+      "number": 14788,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14789": {
+      "number": 14789,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14790": {
+      "number": 14790,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14791": {
+      "number": 14791,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14792": {
+      "number": 14792,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14793": {
+      "number": 14793,
+      "user": {
+        "login": "Outlaw2082",
+        "type": "User"
+      }
+    },
+    "14794": {
+      "number": 14794,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14795": {
+      "number": 14795,
+      "user": {
+        "login": "morinokami",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -564598,7 +564684,7 @@
     },
     "14763": {
       "number": 14763,
-      "updatedAt": "2026-10-26T15:27:52Z",
+      "updatedAt": "2026-10-27T00:18:46Z",
       "merged": false,
       "author": {
         "login": "ArmandPhilippot",
@@ -564726,7 +564812,7 @@
     },
     "14768": {
       "number": 14768,
-      "updatedAt": "2026-10-26T15:09:14Z",
+      "updatedAt": "2026-10-27T10:55:04Z",
       "merged": true,
       "author": {
         "login": "jsparkdev",
@@ -564752,7 +564838,7 @@
     },
     "14769": {
       "number": 14769,
-      "updatedAt": "2026-10-26T16:12:09Z",
+      "updatedAt": "2026-10-27T10:55:09Z",
       "merged": true,
       "author": {
         "login": "jsparkdev",
@@ -564990,8 +565076,8 @@
     },
     "14778": {
       "number": 14778,
-      "updatedAt": "2026-10-25T15:43:53Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T12:47:08Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
         "__typename": "User"
@@ -565000,15 +565086,30 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14779": {
       "number": 14779,
-      "updatedAt": "2026-10-25T14:24:52Z",
+      "updatedAt": "2026-10-27T14:07:08Z",
       "merged": false,
       "author": {
         "login": "awwa",
@@ -565047,6 +565148,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "awwa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "awwa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Yusaku01",
               "__typename": "User"
             }
           },
@@ -565147,7 +565262,7 @@
     },
     "14783": {
       "number": 14783,
-      "updatedAt": "2026-10-26T06:54:41Z",
+      "updatedAt": "2026-10-26T20:43:18Z",
       "merged": false,
       "author": {
         "login": "Skytuhua",
@@ -565160,13 +565275,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14784": {
       "number": 14784,
-      "updatedAt": "2026-10-26T18:50:38Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T21:42:28Z",
+      "merged": true,
       "author": {
         "login": "delucis",
         "__typename": "User"
@@ -565178,7 +565301,251 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14785": {
+      "number": 14785,
+      "updatedAt": "2026-10-26T20:40:47Z",
+      "merged": true,
+      "author": {
+        "login": "deining",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14786": {
+      "number": 14786,
+      "updatedAt": "2026-10-26T21:50:31Z",
+      "merged": true,
+      "author": {
+        "login": "delucis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14787": {
+      "number": 14787,
+      "updatedAt": "2026-10-27T09:24:05Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "14788": {
+      "number": 14788,
+      "updatedAt": "2026-10-27T09:31:07Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14789": {
+      "number": 14789,
+      "updatedAt": "2026-10-27T09:35:24Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14790": {
+      "number": 14790,
+      "updatedAt": "2026-10-27T09:38:52Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14791": {
+      "number": 14791,
+      "updatedAt": "2026-10-27T09:46:15Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14792": {
+      "number": 14792,
+      "updatedAt": "2026-10-27T09:57:24Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14793": {
+      "number": 14793,
+      "updatedAt": "2026-10-27T10:07:32Z",
+      "merged": false,
+      "author": {
+        "login": "Outlaw2082",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14794": {
+      "number": 14794,
+      "updatedAt": "2026-10-27T10:19:33Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14795": {
+      "number": 14795,
+      "updatedAt": "2026-10-27T13:14:50Z",
+      "merged": true,
+      "author": {
+        "login": "morinokami",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

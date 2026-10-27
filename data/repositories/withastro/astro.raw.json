@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T18:51:35.567Z",
+    "lastRunAt": "2026-10-27T23:39:06.526Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wMy0xNlQxODowODo1NlrOI2m33A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -134617,6 +134617,9 @@
       "user": {
         "login": "wrostomMM",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "18483": {
@@ -134882,6 +134885,76 @@
       "number": 18520,
       "user": {
         "login": "matthewp",
+        "type": "User"
+      }
+    },
+    "18521": {
+      "number": 18521,
+      "user": {
+        "login": "b84330808",
+        "type": "User"
+      }
+    },
+    "18522": {
+      "number": 18522,
+      "user": {
+        "login": "astro-factory[bot]",
+        "type": "Bot"
+      }
+    },
+    "18523": {
+      "number": 18523,
+      "user": {
+        "login": "ump45nose",
+        "type": "User"
+      }
+    },
+    "18524": {
+      "number": 18524,
+      "user": {
+        "login": "astro-factory[bot]",
+        "type": "Bot"
+      }
+    },
+    "18525": {
+      "number": 18525,
+      "user": {
+        "login": "astro-factory[bot]",
+        "type": "Bot"
+      }
+    },
+    "18526": {
+      "number": 18526,
+      "user": {
+        "login": "astro-factory[bot]",
+        "type": "Bot"
+      }
+    },
+    "18527": {
+      "number": 18527,
+      "user": {
+        "login": "sujlcodes",
+        "type": "User"
+      }
+    },
+    "18528": {
+      "number": 18528,
+      "user": {
+        "login": "sujlcodes",
+        "type": "User"
+      }
+    },
+    "18529": {
+      "number": 18529,
+      "user": {
+        "login": "sujlcodes",
+        "type": "User"
+      }
+    },
+    "18530": {
+      "number": 18530,
+      "user": {
+        "login": "sujlcodes",
         "type": "User"
       }
     }
@@ -519044,7 +519117,7 @@
     },
     "17891": {
       "number": 17891,
-      "updatedAt": "2026-09-02T18:45:35Z",
+      "updatedAt": "2026-10-27T18:56:59Z",
       "merged": false,
       "author": {
         "login": "ryansolid",
@@ -522860,8 +522933,8 @@
     },
     "18085": {
       "number": 18085,
-      "updatedAt": "2026-10-25T04:11:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T14:46:01Z",
+      "merged": true,
       "author": {
         "login": "nikolas-sapa",
         "__typename": "User"
@@ -522928,6 +523001,13 @@
             "author": {
               "login": "astro-factory",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
             }
           }
         ]
@@ -528797,7 +528877,7 @@
     },
     "18344": {
       "number": 18344,
-      "updatedAt": "2026-10-20T15:08:12Z",
+      "updatedAt": "2026-10-27T15:30:18Z",
       "merged": false,
       "author": {
         "login": "edmundhung",
@@ -528810,7 +528890,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "edmundhung",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18345": {
@@ -529150,7 +529245,7 @@
     },
     "18359": {
       "number": 18359,
-      "updatedAt": "2026-10-23T13:26:18Z",
+      "updatedAt": "2026-10-27T15:45:59Z",
       "merged": false,
       "author": {
         "login": "ematipico",
@@ -531468,7 +531563,7 @@
     },
     "18478": {
       "number": 18478,
-      "updatedAt": "2026-10-26T15:41:45Z",
+      "updatedAt": "2026-10-27T21:25:53Z",
       "merged": false,
       "author": {
         "login": "astrobot-houston",
@@ -531552,8 +531647,8 @@
     },
     "18482": {
       "number": 18482,
-      "updatedAt": "2026-10-23T18:54:10Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T21:09:08Z",
+      "merged": true,
       "author": {
         "login": "wrostomMM",
         "__typename": "User"
@@ -531562,10 +531657,32 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18484": {
@@ -531676,8 +531793,8 @@
     },
     "18493": {
       "number": 18493,
-      "updatedAt": "2026-10-26T18:49:38Z",
-      "merged": false,
+      "updatedAt": "2026-10-26T20:21:57Z",
+      "merged": true,
       "author": {
         "login": "astro-factory",
         "__typename": "Bot"
@@ -531742,8 +531859,8 @@
     },
     "18497": {
       "number": 18497,
-      "updatedAt": "2026-10-23T14:32:20Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T14:58:41Z",
+      "merged": true,
       "author": {
         "login": "astro-factory",
         "__typename": "Bot"
@@ -531761,6 +531878,13 @@
             "author": {
               "login": "astro-factory",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
             }
           }
         ]
@@ -531801,7 +531925,7 @@
     },
     "18502": {
       "number": 18502,
-      "updatedAt": "2026-10-24T10:22:28Z",
+      "updatedAt": "2026-10-27T18:30:05Z",
       "merged": false,
       "author": {
         "login": "SwastikTripathi",
@@ -531837,8 +531961,8 @@
     },
     "18504": {
       "number": 18504,
-      "updatedAt": "2026-10-25T20:03:45Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T15:01:20Z",
+      "merged": true,
       "author": {
         "login": "astro-factory",
         "__typename": "Bot"
@@ -531856,6 +531980,13 @@
             "author": {
               "login": "astro-factory",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
             }
           }
         ]
@@ -531940,8 +532071,8 @@
     },
     "18512": {
       "number": 18512,
-      "updatedAt": "2026-10-26T01:52:30Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T14:57:52Z",
+      "merged": true,
       "author": {
         "login": "jp-knj",
         "__typename": "User"
@@ -531953,13 +532084,28 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "18513": {
       "number": 18513,
-      "updatedAt": "2026-10-26T18:43:56Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T13:48:12Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -531971,12 +532117,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "18514": {
       "number": 18514,
-      "updatedAt": "2026-10-26T15:40:49Z",
+      "updatedAt": "2026-10-27T17:33:11Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -532079,7 +532233,7 @@
     },
     "18519": {
       "number": 18519,
-      "updatedAt": "2026-10-26T15:37:17Z",
+      "updatedAt": "2026-10-27T21:15:00Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -532097,7 +532251,7 @@
     },
     "18520": {
       "number": 18520,
-      "updatedAt": "2026-10-26T18:32:56Z",
+      "updatedAt": "2026-10-26T19:55:23Z",
       "merged": false,
       "author": {
         "login": "matthewp",
@@ -532111,6 +532265,188 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "18521": {
+      "number": 18521,
+      "updatedAt": "2026-10-27T12:47:56Z",
+      "merged": false,
+      "author": {
+        "login": "b84330808",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18522": {
+      "number": 18522,
+      "updatedAt": "2026-10-27T13:05:52Z",
+      "merged": false,
+      "author": {
+        "login": "astro-factory",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "18523": {
+      "number": 18523,
+      "updatedAt": "2026-10-27T13:49:27Z",
+      "merged": false,
+      "author": {
+        "login": "ump45nose",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "18524": {
+      "number": 18524,
+      "updatedAt": "2026-10-27T17:33:23Z",
+      "merged": true,
+      "author": {
+        "login": "astro-factory",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "18525": {
+      "number": 18525,
+      "updatedAt": "2026-10-27T18:29:51Z",
+      "merged": true,
+      "author": {
+        "login": "astro-factory",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "18526": {
+      "number": 18526,
+      "updatedAt": "2026-10-27T17:30:51Z",
+      "merged": true,
+      "author": {
+        "login": "astro-factory",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "astro-factory",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "matthewp",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

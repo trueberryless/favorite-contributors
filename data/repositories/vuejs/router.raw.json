@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T12:27:03.905Z",
+    "lastRunAt": "2026-10-27T23:35:11.145Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18003,6 +18003,20 @@
       "number": 2861,
       "user": {
         "login": "onmax",
+        "type": "User"
+      }
+    },
+    "2862": {
+      "number": 2862,
+      "user": {
+        "login": "Mini-ghost",
+        "type": "User"
+      }
+    },
+    "2863": {
+      "number": 2863,
+      "user": {
+        "login": "Seybel",
         "type": "User"
       }
     }
@@ -50336,6 +50350,78 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2862": {
+      "number": 2862,
+      "updatedAt": "2026-10-26T17:41:56Z",
+      "merged": false,
+      "author": {
+        "login": "Mini-ghost",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2863": {
+      "number": 2863,
+      "updatedAt": "2026-10-27T16:42:15Z",
+      "merged": false,
+      "author": {
+        "login": "Seybel",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Seybel",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Seybel",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

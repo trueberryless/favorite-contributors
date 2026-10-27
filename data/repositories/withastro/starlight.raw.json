@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T18:51:39.826Z",
+    "lastRunAt": "2026-10-27T23:39:09.983Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -28001,6 +28001,20 @@
       "number": 4302,
       "user": {
         "login": "Skytuhua",
+        "type": "User"
+      }
+    },
+    "4303": {
+      "number": 4303,
+      "user": {
+        "login": "deining",
+        "type": "User"
+      }
+    },
+    "4304": {
+      "number": 4304,
+      "user": {
+        "login": "trueberryless",
         "type": "User"
       }
     }
@@ -136020,7 +136034,7 @@
     },
     "4276": {
       "number": 4276,
-      "updatedAt": "2026-10-23T13:23:43Z",
+      "updatedAt": "2026-10-26T22:13:54Z",
       "merged": false,
       "author": {
         "login": "HiDeoo",
@@ -136066,6 +136080,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
               "__typename": "User"
             }
           }
@@ -136380,7 +136408,7 @@
     },
     "4290": {
       "number": 4290,
-      "updatedAt": "2026-10-25T01:40:47Z",
+      "updatedAt": "2026-10-27T10:25:02Z",
       "merged": false,
       "author": {
         "login": "RaphaelFakhri",
@@ -136405,6 +136433,13 @@
             "state": "APPROVED",
             "author": {
               "login": "Fryuni",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "delucis",
               "__typename": "User"
             }
           }
@@ -136595,7 +136630,7 @@
     },
     "4298": {
       "number": 4298,
-      "updatedAt": "2026-10-26T11:34:06Z",
+      "updatedAt": "2026-10-27T10:17:22Z",
       "merged": false,
       "author": {
         "login": "astrobot-houston",
@@ -136613,8 +136648,8 @@
     },
     "4299": {
       "number": 4299,
-      "updatedAt": "2026-10-26T17:15:58Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T10:11:39Z",
+      "merged": true,
       "author": {
         "login": "clean99",
         "__typename": "User"
@@ -136629,6 +136664,13 @@
         "nodes": [
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "delucis",
               "__typename": "User"
@@ -136671,6 +136713,86 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "4303": {
+      "number": 4303,
+      "updatedAt": "2026-10-27T18:33:53Z",
+      "merged": true,
+      "author": {
+        "login": "deining",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4304": {
+      "number": 4304,
+      "updatedAt": "2026-10-26T21:48:51Z",
+      "merged": true,
+      "author": {
+        "login": "trueberryless",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

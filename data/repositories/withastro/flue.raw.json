@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T18:51:40.568Z",
+    "lastRunAt": "2026-10-27T23:39:10.684Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0xNlQyMjozNzowOFrOxALlzQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4468,6 +4468,13 @@
       "number": 887,
       "user": {
         "login": "DmitriyAlergant",
+        "type": "User"
+      }
+    },
+    "889": {
+      "number": 889,
+      "user": {
+        "login": "glemaitre",
         "type": "User"
       }
     }
@@ -9726,6 +9733,24 @@
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "889": {
+      "number": 889,
+      "updatedAt": "2026-10-27T15:36:07Z",
+      "merged": false,
+      "author": {
+        "login": "glemaitre",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

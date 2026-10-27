@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-26T12:28:47.249Z",
+    "lastRunAt": "2026-10-27T23:36:54.355Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4918,6 +4918,13 @@
       "number": 628,
       "user": {
         "login": "imharjot",
+        "type": "User"
+      }
+    },
+    "629": {
+      "number": 629,
+      "user": {
+        "login": "moltar",
         "type": "User"
       }
     }
@@ -16867,7 +16874,7 @@
     },
     "611": {
       "number": 611,
-      "updatedAt": "2026-10-20T08:13:01Z",
+      "updatedAt": "2026-10-27T17:50:19Z",
       "merged": false,
       "author": {
         "login": "bombshell-bot",
@@ -16955,8 +16962,8 @@
     },
     "618": {
       "number": 618,
-      "updatedAt": "2026-10-16T00:27:50Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T17:49:04Z",
+      "merged": true,
       "author": {
         "login": "btea",
         "__typename": "User"
@@ -16980,6 +16987,13 @@
             "state": "APPROVED",
             "author": {
               "login": "dreyfus92",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
               "__typename": "User"
             }
           }
@@ -17116,7 +17130,7 @@
     },
     "627": {
       "number": 627,
-      "updatedAt": "2026-10-25T07:07:30Z",
+      "updatedAt": "2026-10-27T17:48:07Z",
       "merged": false,
       "author": {
         "login": "b84330808",
@@ -17129,13 +17143,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "628": {
       "number": 628,
-      "updatedAt": "2026-10-23T19:58:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T17:42:37Z",
+      "merged": true,
       "author": {
         "login": "imharjot",
         "__typename": "User"
@@ -17147,7 +17169,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
