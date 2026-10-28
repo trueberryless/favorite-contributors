@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T14:53:19.410Z",
+    "lastRunAt": "2026-10-28T21:52:49.235Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xNFQxMzo0NToyN1rON_gp8A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7773,6 +7773,13 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "974": {
+      "number": 974,
+      "user": {
+        "login": "ja-andrews",
+        "type": "User"
       }
     }
   },
@@ -22992,7 +22999,7 @@
     },
     "951": {
       "number": 951,
-      "updatedAt": "2026-10-26T20:16:18Z",
+      "updatedAt": "2026-10-28T04:12:23Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23010,7 +23017,7 @@
     },
     "952": {
       "number": 952,
-      "updatedAt": "2026-10-27T12:27:02Z",
+      "updatedAt": "2026-10-28T21:42:33Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23373,7 +23380,7 @@
     },
     "968": {
       "number": 968,
-      "updatedAt": "2026-10-26T03:04:59Z",
+      "updatedAt": "2026-10-27T20:46:15Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23441,6 +23448,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "974": {
+      "number": 974,
+      "updatedAt": "2026-10-28T07:59:39Z",
+      "merged": false,
+      "author": {
+        "login": "ja-andrews",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

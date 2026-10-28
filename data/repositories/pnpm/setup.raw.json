@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T19:52:48.543Z",
+    "lastRunAt": "2026-10-28T21:53:39.046Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -795,6 +795,13 @@
     },
     "95": {
       "number": 95,
+      "user": {
+        "login": "AFCMS",
+        "type": "User"
+      }
+    },
+    "96": {
+      "number": 96,
       "user": {
         "login": "AFCMS",
         "type": "User"
@@ -3899,6 +3906,39 @@
     "95": {
       "number": 95,
       "updatedAt": "2026-10-27T19:40:19Z",
+      "merged": false,
+      "author": {
+        "login": "AFCMS",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "96": {
+      "number": 96,
+      "updatedAt": "2026-10-27T21:54:21Z",
       "merged": false,
       "author": {
         "login": "AFCMS",

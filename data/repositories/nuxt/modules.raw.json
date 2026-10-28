@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T14:53:12.820Z",
+    "lastRunAt": "2026-10-28T21:52:43.409Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12528,6 +12528,13 @@
       "number": 1702,
       "user": {
         "login": "davidabou",
+        "type": "User"
+      }
+    },
+    "1703": {
+      "number": 1703,
+      "user": {
+        "login": "dadashi44",
         "type": "User"
       }
     }
@@ -34532,7 +34539,7 @@
     },
     "1436": {
       "number": 1436,
-      "updatedAt": "2026-10-25T11:07:51Z",
+      "updatedAt": "2026-10-28T02:01:56Z",
       "merged": false,
       "author": {
         "login": "billymaulana",
@@ -38183,7 +38190,7 @@
     },
     "1652": {
       "number": 1652,
-      "updatedAt": "2026-10-23T00:55:59Z",
+      "updatedAt": "2026-10-28T14:30:11Z",
       "merged": false,
       "author": {
         "login": "Michael-Nussbaumer",
@@ -38805,7 +38812,7 @@
     },
     "1678": {
       "number": 1678,
-      "updatedAt": "2026-10-27T11:51:06Z",
+      "updatedAt": "2026-10-28T16:15:22Z",
       "merged": false,
       "author": {
         "login": "davidtheheroes",
@@ -39308,8 +39315,8 @@
     },
     "1697": {
       "number": 1697,
-      "updatedAt": "2026-10-26T04:13:08Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T15:14:39Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -39321,7 +39328,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1698": {
@@ -39410,6 +39425,24 @@
       "merged": false,
       "author": {
         "login": "davidabou",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1703": {
+      "number": 1703,
+      "updatedAt": "2026-10-28T14:05:57Z",
+      "merged": false,
+      "author": {
+        "login": "dadashi44",
         "__typename": "User"
       },
       "closingIssuesReferences": {

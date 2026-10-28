@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T14:52:19.039Z",
+    "lastRunAt": "2026-10-28T21:51:49.926Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0zMFQxNjo0OToyNlrOwG8izg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20,7 +20,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "3": {
@@ -1200,6 +1200,20 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "162": {
+      "number": 162,
+      "user": {
+        "login": "9romise",
+        "type": "User"
+      }
+    },
+    "163": {
+      "number": 163,
+      "user": {
+        "login": "9romise",
+        "type": "User"
       }
     }
   },
@@ -4554,8 +4568,8 @@
     },
     "142": {
       "number": 142,
-      "updatedAt": "2026-07-23T02:16:02Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T16:12:35Z",
+      "merged": true,
       "author": {
         "login": "9romise",
         "__typename": "User"
@@ -4872,8 +4886,8 @@
     },
     "158": {
       "number": 158,
-      "updatedAt": "2026-09-30T02:25:43Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T16:11:19Z",
+      "merged": true,
       "author": {
         "login": "hyoban",
         "__typename": "User"
@@ -4898,8 +4912,8 @@
     },
     "159": {
       "number": 159,
-      "updatedAt": "2026-10-21T02:12:31Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T16:11:21Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -4924,8 +4938,8 @@
     },
     "160": {
       "number": 160,
-      "updatedAt": "2026-10-21T02:12:38Z",
-      "merged": false,
+      "updatedAt": "2026-10-27T16:11:21Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -4950,11 +4964,55 @@
     },
     "161": {
       "number": 161,
-      "updatedAt": "2026-10-21T11:12:26Z",
+      "updatedAt": "2026-10-27T16:48:29Z",
       "merged": false,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "162": {
+      "number": 162,
+      "updatedAt": "2026-10-27T16:46:11Z",
+      "merged": true,
+      "author": {
+        "login": "9romise",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "163": {
+      "number": 163,
+      "updatedAt": "2026-10-27T16:51:58Z",
+      "merged": true,
+      "author": {
+        "login": "9romise",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
