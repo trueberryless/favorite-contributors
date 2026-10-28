@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T02:20:25.621Z",
+    "lastRunAt": "2026-10-28T04:30:25.633Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0xNlQxMDoxNjo1N1rOYiNCaQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2225,6 +2225,13 @@
     },
     "304": {
       "number": 304,
+      "user": {
+        "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "305": {
+      "number": 305,
       "user": {
         "login": "denbezrukov",
         "type": "User"
@@ -6170,7 +6177,7 @@
     },
     "300": {
       "number": 300,
-      "updatedAt": "2026-10-19T03:06:37Z",
+      "updatedAt": "2026-10-27T09:26:23Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -6188,7 +6195,7 @@
     },
     "301": {
       "number": 301,
-      "updatedAt": "2026-10-22T07:31:57Z",
+      "updatedAt": "2026-10-27T09:26:28Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -6246,6 +6253,24 @@
             }
           }
         ]
+      }
+    },
+    "305": {
+      "number": 305,
+      "updatedAt": "2026-10-27T09:32:24Z",
+      "merged": true,
+      "author": {
+        "login": "denbezrukov",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
