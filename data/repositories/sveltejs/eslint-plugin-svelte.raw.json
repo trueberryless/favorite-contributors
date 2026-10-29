@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T19:54:22.981Z",
+    "lastRunAt": "2026-10-29T01:37:14.442Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNC0zMFQwNjo1Njo0MVrOJU1oVA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33396,7 +33396,7 @@
     },
     "1273": {
       "number": 1273,
-      "updatedAt": "2026-10-17T21:05:59Z",
+      "updatedAt": "2026-10-28T06:11:01Z",
       "merged": false,
       "author": {
         "login": "baseballyama",
@@ -33415,6 +33415,13 @@
             "author": {
               "login": "copilot-pull-request-reviewer",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
             }
           }
         ]
@@ -33476,7 +33483,7 @@
     },
     "1284": {
       "number": 1284,
-      "updatedAt": "2026-10-27T02:53:44Z",
+      "updatedAt": "2026-10-29T01:29:58Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -36319,7 +36326,7 @@
     },
     "1463": {
       "number": 1463,
-      "updatedAt": "2026-10-27T02:53:46Z",
+      "updatedAt": "2026-10-29T01:30:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -36337,7 +36344,7 @@
     },
     "1464": {
       "number": 1464,
-      "updatedAt": "2026-10-27T02:53:51Z",
+      "updatedAt": "2026-10-29T01:31:23Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -36435,7 +36442,7 @@
     },
     "1470": {
       "number": 1470,
-      "updatedAt": "2026-10-27T02:53:49Z",
+      "updatedAt": "2026-10-29T01:31:06Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -36486,7 +36493,7 @@
     },
     "1474": {
       "number": 1474,
-      "updatedAt": "2026-10-27T02:53:30Z",
+      "updatedAt": "2026-10-29T01:26:04Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -37796,7 +37803,7 @@
     },
     "1547": {
       "number": 1547,
-      "updatedAt": "2026-10-27T11:05:54Z",
+      "updatedAt": "2026-10-29T01:29:40Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -38128,8 +38135,8 @@
     },
     "1566": {
       "number": 1566,
-      "updatedAt": "2026-10-20T04:03:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T01:20:34Z",
+      "merged": true,
       "author": {
         "login": "arpitjain099",
         "__typename": "User"
@@ -38158,6 +38165,20 @@
           },
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "baseballyama",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "baseballyama",
               "__typename": "User"
@@ -38513,7 +38534,7 @@
     },
     "1587": {
       "number": 1587,
-      "updatedAt": "2026-10-27T02:53:35Z",
+      "updatedAt": "2026-10-29T01:22:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -38882,7 +38903,7 @@
     },
     "1601": {
       "number": 1601,
-      "updatedAt": "2026-10-27T02:53:39Z",
+      "updatedAt": "2026-10-29T01:29:29Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -38962,8 +38983,8 @@
     },
     "1606": {
       "number": 1606,
-      "updatedAt": "2026-10-19T09:45:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T10:33:06Z",
+      "merged": true,
       "author": {
         "login": "ozenyunus35",
         "__typename": "User"
@@ -38975,12 +38996,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1610": {
       "number": 1610,
-      "updatedAt": "2026-10-19T14:03:07Z",
+      "updatedAt": "2026-10-28T15:57:42Z",
       "merged": false,
       "author": {
         "login": "marekdedic",
@@ -39000,13 +39029,27 @@
               "login": "Shubham-afk-del",
               "__typename": "User"
             }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "marekdedic",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "1611": {
       "number": 1611,
-      "updatedAt": "2026-10-26T05:06:53Z",
+      "updatedAt": "2026-10-29T01:21:24Z",
       "merged": false,
       "author": {
         "login": "github-actions",

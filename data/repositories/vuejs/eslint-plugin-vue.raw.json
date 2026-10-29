@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T23:35:03.383Z",
+    "lastRunAt": "2026-10-29T01:39:32.800Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -24515,6 +24515,69 @@
       "number": 3220,
       "user": {
         "login": "shrpne",
+        "type": "User"
+      }
+    },
+    "3221": {
+      "number": 3221,
+      "user": {
+        "login": "Singmin",
+        "type": "User"
+      }
+    },
+    "3222": {
+      "number": 3222,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3223": {
+      "number": 3223,
+      "user": {
+        "login": "dgesteves",
+        "type": "User"
+      }
+    },
+    "3224": {
+      "number": 3224,
+      "user": {
+        "login": "FloEdelmann",
+        "type": "User"
+      }
+    },
+    "3225": {
+      "number": 3225,
+      "user": {
+        "login": "FloEdelmann",
+        "type": "User"
+      }
+    },
+    "3226": {
+      "number": 3226,
+      "user": {
+        "login": "FloEdelmann",
+        "type": "User"
+      }
+    },
+    "3227": {
+      "number": 3227,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3228": {
+      "number": 3228,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3229": {
+      "number": 3229,
+      "user": {
+        "login": "ValentinYoushkevich",
         "type": "User"
       }
     }
@@ -77165,7 +77228,7 @@
     },
     "3159": {
       "number": 3159,
-      "updatedAt": "2026-10-27T06:25:14Z",
+      "updatedAt": "2026-10-28T17:01:52Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -77204,6 +77267,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "ValentinYoushkevich",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
               "__typename": "User"
             }
           }
@@ -78018,7 +78088,7 @@
     },
     "3192": {
       "number": 3192,
-      "updatedAt": "2026-10-26T18:32:01Z",
+      "updatedAt": "2026-10-29T00:02:07Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -78036,6 +78106,13 @@
             "state": "APPROVED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }
@@ -78482,7 +78559,7 @@
     },
     "3208": {
       "number": 3208,
-      "updatedAt": "2026-10-26T17:16:36Z",
+      "updatedAt": "2026-10-28T22:14:32Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -78780,6 +78857,206 @@
       "merged": false,
       "author": {
         "login": "shrpne",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3221": {
+      "number": 3221,
+      "updatedAt": "2026-10-28T03:38:02Z",
+      "merged": false,
+      "author": {
+        "login": "Singmin",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3222": {
+      "number": 3222,
+      "updatedAt": "2026-10-28T10:46:36Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 2
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3223": {
+      "number": 3223,
+      "updatedAt": "2026-10-28T23:25:14Z",
+      "merged": false,
+      "author": {
+        "login": "dgesteves",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 2
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dgesteves",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dgesteves",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3224": {
+      "number": 3224,
+      "updatedAt": "2026-10-28T16:33:36Z",
+      "merged": true,
+      "author": {
+        "login": "FloEdelmann",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3225": {
+      "number": 3225,
+      "updatedAt": "2026-10-28T16:45:32Z",
+      "merged": true,
+      "author": {
+        "login": "FloEdelmann",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3226": {
+      "number": 3226,
+      "updatedAt": "2026-10-28T17:37:11Z",
+      "merged": false,
+      "author": {
+        "login": "FloEdelmann",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3227": {
+      "number": 3227,
+      "updatedAt": "2026-10-28T17:41:02Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3228": {
+      "number": 3228,
+      "updatedAt": "2026-10-28T22:29:32Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3229": {
+      "number": 3229,
+      "updatedAt": "2026-10-28T22:20:48Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
         "__typename": "User"
       },
       "closingIssuesReferences": {

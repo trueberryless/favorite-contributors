@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T19:54:10.785Z",
+    "lastRunAt": "2026-10-29T01:37:03.882Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMS0zMFQyMToyMDoxOFrOBbhugA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -138813,6 +138813,55 @@
       "number": 19109,
       "user": {
         "login": "hanszoons",
+        "type": "User"
+      }
+    },
+    "19110": {
+      "number": 19110,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "19111": {
+      "number": 19111,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "19112": {
+      "number": 19112,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "19113": {
+      "number": 19113,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "19114": {
+      "number": 19114,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "19115": {
+      "number": 19115,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "19116": {
+      "number": 19116,
+      "user": {
+        "login": "Rich-Harris",
         "type": "User"
       }
     }
@@ -377201,14 +377250,14 @@
     },
     "19030": {
       "number": 19030,
-      "updatedAt": "2026-10-23T20:38:11Z",
+      "updatedAt": "2026-10-29T01:06:37Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
@@ -377734,7 +377783,7 @@
     },
     "19052": {
       "number": 19052,
-      "updatedAt": "2026-10-23T10:51:39Z",
+      "updatedAt": "2026-10-28T21:01:18Z",
       "merged": false,
       "author": {
         "login": "Nic-Polumeyv",
@@ -377912,7 +377961,7 @@
     },
     "19063": {
       "number": 19063,
-      "updatedAt": "2026-10-21T19:48:39Z",
+      "updatedAt": "2026-10-28T21:01:07Z",
       "merged": false,
       "author": {
         "login": "Nic-Polumeyv",
@@ -378144,7 +378193,7 @@
     },
     "19075": {
       "number": 19075,
-      "updatedAt": "2026-10-22T18:17:28Z",
+      "updatedAt": "2026-10-28T20:52:42Z",
       "merged": false,
       "author": {
         "login": "Rich-Harris",
@@ -378188,8 +378237,8 @@
     },
     "19077": {
       "number": 19077,
-      "updatedAt": "2026-10-22T19:08:26Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T20:55:49Z",
+      "merged": true,
       "author": {
         "login": "Rich-Harris",
         "__typename": "User"
@@ -378373,7 +378422,7 @@
     },
     "19087": {
       "number": 19087,
-      "updatedAt": "2026-10-26T20:16:34Z",
+      "updatedAt": "2026-10-28T23:23:50Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
@@ -378413,6 +378462,13 @@
             "author": {
               "login": "vercel",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
             }
           }
         ]
@@ -378554,8 +378610,8 @@
     },
     "19101": {
       "number": 19101,
-      "updatedAt": "2026-10-27T19:53:04Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T17:02:19Z",
+      "merged": true,
       "author": {
         "login": "Rich-Harris",
         "__typename": "User"
@@ -378609,6 +378665,13 @@
               "login": "vercel",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
           }
         ]
       }
@@ -378641,8 +378704,8 @@
     },
     "19103": {
       "number": 19103,
-      "updatedAt": "2026-10-27T09:12:38Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T21:28:00Z",
+      "merged": true,
       "author": {
         "login": "filiabel",
         "__typename": "User"
@@ -378654,12 +378717,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Nic-Polumeyv",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "19105": {
       "number": 19105,
-      "updatedAt": "2026-10-27T11:57:50Z",
+      "updatedAt": "2026-10-28T02:25:21Z",
       "merged": true,
       "author": {
         "login": "CNSeniorious000",
@@ -378685,7 +378756,7 @@
     },
     "19106": {
       "number": 19106,
-      "updatedAt": "2026-10-27T16:45:56Z",
+      "updatedAt": "2026-10-28T21:29:47Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -378711,6 +378782,177 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19110": {
+      "number": 19110,
+      "updatedAt": "2026-10-28T16:16:02Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "19111": {
+      "number": 19111,
+      "updatedAt": "2026-10-28T20:29:21Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19112": {
+      "number": 19112,
+      "updatedAt": "2026-10-28T20:13:13Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "19113": {
+      "number": 19113,
+      "updatedAt": "2026-10-28T17:10:14Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19114": {
+      "number": 19114,
+      "updatedAt": "2026-10-28T19:50:02Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "19115": {
+      "number": 19115,
+      "updatedAt": "2026-10-28T21:28:20Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "19116": {
+      "number": 19116,
+      "updatedAt": "2026-10-29T01:14:51Z",
+      "merged": false,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

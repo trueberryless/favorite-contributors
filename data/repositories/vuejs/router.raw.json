@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T23:35:11.145Z",
+    "lastRunAt": "2026-10-29T01:39:40.936Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18017,6 +18017,20 @@
       "number": 2863,
       "user": {
         "login": "Seybel",
+        "type": "User"
+      }
+    },
+    "2864": {
+      "number": 2864,
+      "user": {
+        "login": "MFA-G",
+        "type": "User"
+      }
+    },
+    "2865": {
+      "number": 2865,
+      "user": {
+        "login": "salemalem",
         "type": "User"
       }
     }
@@ -50414,6 +50428,72 @@
               "__typename": "Bot"
             }
           },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2864": {
+      "number": 2864,
+      "updatedAt": "2026-10-28T13:18:37Z",
+      "merged": false,
+      "author": {
+        "login": "MFA-G",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "MFA-G",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2865": {
+      "number": 2865,
+      "updatedAt": "2026-10-28T13:28:34Z",
+      "merged": false,
+      "author": {
+        "login": "salemalem",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
           {
             "state": "COMMENTED",
             "author": {

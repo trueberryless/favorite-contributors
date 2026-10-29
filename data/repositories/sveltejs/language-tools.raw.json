@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T19:54:20.172Z",
+    "lastRunAt": "2026-10-29T01:37:12.494Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMy0xNVQyMjowMzo1OFrOFyz7vQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23259,7 +23259,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 29
+        "total_count": 34
       }
     },
     "3112": {
@@ -23678,6 +23678,13 @@
       "number": 3170,
       "user": {
         "login": "DannyvanHolten",
+        "type": "User"
+      }
+    },
+    "3171": {
+      "number": 3171,
+      "user": {
+        "login": "bfanger",
         "type": "User"
       }
     }
@@ -55772,7 +55779,7 @@
     },
     "3111": {
       "number": 3111,
-      "updatedAt": "2026-10-24T16:22:11Z",
+      "updatedAt": "2026-10-28T22:09:23Z",
       "merged": false,
       "author": {
         "login": "jasonlyu123",
@@ -55782,7 +55789,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 29
+        "totalCount": 34
       },
       "reviews": {
         "nodes": [
@@ -56658,7 +56665,7 @@
     },
     "3168": {
       "number": 3168,
-      "updatedAt": "2026-10-27T14:50:29Z",
+      "updatedAt": "2026-10-29T01:13:30Z",
       "merged": false,
       "author": {
         "login": "jasonlyu123",
@@ -56678,16 +56685,41 @@
               "login": "jasonlyu123",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "3169": {
       "number": 3169,
-      "updatedAt": "2026-10-26T12:02:30Z",
+      "updatedAt": "2026-10-28T12:03:43Z",
       "merged": false,
       "author": {
         "login": "GBra-4-669",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3171": {
+      "number": 3171,
+      "updatedAt": "2026-10-28T13:34:37Z",
+      "merged": false,
+      "author": {
+        "login": "bfanger",
         "__typename": "User"
       },
       "closingIssuesReferences": {
