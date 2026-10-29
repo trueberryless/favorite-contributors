@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-28T10:49:12.846Z",
+    "lastRunAt": "2026-10-29T20:30:39.542Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0xNFQxMjoxMjoxN1rOXzkiDg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9842,6 +9842,16 @@
       "user": {
         "login": "oxc-guard[bot]",
         "type": "Bot"
+      }
+    },
+    "1353": {
+      "number": 1353,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -35640,8 +35650,8 @@
     },
     "1349": {
       "number": 1349,
-      "updatedAt": "2026-10-27T02:49:21Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T15:59:12Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -35694,8 +35704,8 @@
     },
     "1352": {
       "number": 1352,
-      "updatedAt": "2026-10-27T02:57:54Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T15:20:46Z",
+      "merged": true,
       "author": {
         "login": "oxc-guard",
         "__typename": "Bot"
@@ -35707,7 +35717,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1353": {
+      "number": 1353,
+      "updatedAt": "2026-10-28T15:50:58Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
