@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T23:39:06.527Z",
+    "lastRunAt": "2026-10-29T08:10:32.448Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -103802,6 +103802,69 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "14796": {
+      "number": 14796,
+      "user": {
+        "login": "jsparkdev",
+        "type": "User"
+      }
+    },
+    "14797": {
+      "number": 14797,
+      "user": {
+        "login": "A-G0D",
+        "type": "User"
+      }
+    },
+    "14798": {
+      "number": 14798,
+      "user": {
+        "login": "ABB65",
+        "type": "User"
+      }
+    },
+    "14799": {
+      "number": 14799,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14800": {
+      "number": 14800,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14801": {
+      "number": 14801,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14802": {
+      "number": 14802,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14803": {
+      "number": 14803,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14804": {
+      "number": 14804,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
       }
     }
   },
@@ -565076,7 +565139,7 @@
     },
     "14778": {
       "number": 14778,
-      "updatedAt": "2026-10-27T12:47:08Z",
+      "updatedAt": "2026-10-28T03:55:46Z",
       "merged": true,
       "author": {
         "login": "Yusaku01",
@@ -565262,8 +565325,8 @@
     },
     "14783": {
       "number": 14783,
-      "updatedAt": "2026-10-26T20:43:18Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T13:21:32Z",
+      "merged": true,
       "author": {
         "login": "Skytuhua",
         "__typename": "User"
@@ -565278,6 +565341,13 @@
         "nodes": [
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "ArmandPhilippot",
               "__typename": "User"
@@ -565434,7 +565504,7 @@
     },
     "14790": {
       "number": 14790,
-      "updatedAt": "2026-10-27T09:38:52Z",
+      "updatedAt": "2026-10-28T17:03:59Z",
       "merged": false,
       "author": {
         "login": "wigsdev",
@@ -565447,12 +565517,27 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "mixto",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "wigsdev",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14791": {
       "number": 14791,
-      "updatedAt": "2026-10-27T09:46:15Z",
+      "updatedAt": "2026-10-28T15:13:34Z",
       "merged": false,
       "author": {
         "login": "wigsdev",
@@ -565465,12 +565550,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mixto",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14792": {
       "number": 14792,
-      "updatedAt": "2026-10-27T09:57:24Z",
+      "updatedAt": "2026-10-28T15:10:00Z",
       "merged": false,
       "author": {
         "login": "wigsdev",
@@ -565483,7 +565576,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mixto",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14793": {
@@ -565506,7 +565607,7 @@
     },
     "14794": {
       "number": 14794,
-      "updatedAt": "2026-10-27T10:19:33Z",
+      "updatedAt": "2026-10-28T15:04:42Z",
       "merged": false,
       "author": {
         "login": "wigsdev",
@@ -565519,7 +565620,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mixto",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14795": {
@@ -565546,6 +565655,184 @@
             }
           }
         ]
+      }
+    },
+    "14796": {
+      "number": 14796,
+      "updatedAt": "2026-10-28T13:28:01Z",
+      "merged": true,
+      "author": {
+        "login": "jsparkdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14797": {
+      "number": 14797,
+      "updatedAt": "2026-10-28T13:38:22Z",
+      "merged": true,
+      "author": {
+        "login": "A-G0D",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14798": {
+      "number": 14798,
+      "updatedAt": "2026-10-28T16:51:07Z",
+      "merged": false,
+      "author": {
+        "login": "ABB65",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14799": {
+      "number": 14799,
+      "updatedAt": "2026-10-28T23:01:44Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14800": {
+      "number": 14800,
+      "updatedAt": "2026-10-28T23:06:23Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14801": {
+      "number": 14801,
+      "updatedAt": "2026-10-28T23:13:38Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14802": {
+      "number": 14802,
+      "updatedAt": "2026-10-28T23:32:21Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14803": {
+      "number": 14803,
+      "updatedAt": "2026-10-28T23:39:09Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14804": {
+      "number": 14804,
+      "updatedAt": "2026-10-29T00:02:50Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

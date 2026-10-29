@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-27T23:36:54.355Z",
+    "lastRunAt": "2026-10-29T08:08:37.855Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4925,6 +4925,13 @@
       "number": 629,
       "user": {
         "login": "moltar",
+        "type": "User"
+      }
+    },
+    "630": {
+      "number": 630,
+      "user": {
+        "login": "imharjot",
         "type": "User"
       }
     }
@@ -11414,7 +11421,7 @@
     },
     "353": {
       "number": 353,
-      "updatedAt": "2025-07-13T12:58:02Z",
+      "updatedAt": "2026-10-28T16:14:29Z",
       "merged": false,
       "author": {
         "login": "43081j",
@@ -16874,7 +16881,7 @@
     },
     "611": {
       "number": 611,
-      "updatedAt": "2026-10-27T17:50:19Z",
+      "updatedAt": "2026-10-28T09:45:38Z",
       "merged": false,
       "author": {
         "login": "bombshell-bot",
@@ -16962,7 +16969,7 @@
     },
     "618": {
       "number": 618,
-      "updatedAt": "2026-10-27T17:49:04Z",
+      "updatedAt": "2026-10-28T00:53:36Z",
       "merged": true,
       "author": {
         "login": "btea",
@@ -17130,8 +17137,8 @@
     },
     "627": {
       "number": 627,
-      "updatedAt": "2026-10-27T17:48:07Z",
-      "merged": false,
+      "updatedAt": "2026-10-28T09:44:24Z",
+      "merged": true,
       "author": {
         "login": "b84330808",
         "__typename": "User"
@@ -17146,6 +17153,20 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "b84330808",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "43081j",
               "__typename": "User"
@@ -17178,6 +17199,24 @@
             }
           }
         ]
+      }
+    },
+    "630": {
+      "number": 630,
+      "updatedAt": "2026-10-28T11:47:09Z",
+      "merged": false,
+      "author": {
+        "login": "imharjot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
