@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-28T10:46:36.104Z",
+    "lastRunAt": "2026-10-29T15:29:53.340Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8882,6 +8882,26 @@
       "user": {
         "login": "RizgarOzan",
         "type": "User"
+      }
+    },
+    "1154": {
+      "number": 1154,
+      "user": {
+        "login": "josch87",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1155": {
+      "number": 1155,
+      "user": {
+        "login": "josch87",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -28345,8 +28365,8 @@
     },
     "1124": {
       "number": 1124,
-      "updatedAt": "2026-09-15T18:10:51Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T11:32:14Z",
+      "merged": true,
       "author": {
         "login": "eranhirsch",
         "__typename": "User"
@@ -28358,7 +28378,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "gameroman",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1129": {
