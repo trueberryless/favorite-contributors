@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T08:10:34.297Z",
+    "lastRunAt": "2026-10-30T18:45:39.070Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wMVQyMTo0ODoxMFrOLykBIw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9790,7 +9790,7 @@
     },
     "1456": {
       "number": 1456,
-      "updatedAt": "2026-10-28T17:06:58Z",
+      "updatedAt": "2026-10-29T16:23:39Z",
       "merged": false,
       "author": {
         "login": "matthewp",
@@ -9803,7 +9803,15 @@
         "totalCount": 3
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

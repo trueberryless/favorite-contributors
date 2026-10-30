@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T08:10:36.613Z",
+    "lastRunAt": "2026-10-30T18:45:40.817Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27974,6 +27974,9 @@
       "user": {
         "login": "astrobot-houston",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
       }
     },
     "4299": {
@@ -28037,6 +28040,9 @@
       "user": {
         "login": "HiDeoo",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "4308": {
@@ -28050,6 +28056,27 @@
       "number": 4309,
       "user": {
         "login": "athulsreekumar",
+        "type": "User"
+      }
+    },
+    "4310": {
+      "number": 4310,
+      "user": {
+        "login": "HiDeoo",
+        "type": "User"
+      }
+    },
+    "4311": {
+      "number": 4311,
+      "user": {
+        "login": "Yusaku01",
+        "type": "User"
+      }
+    },
+    "4312": {
+      "number": 4312,
+      "user": {
+        "login": "Yusaku01",
         "type": "User"
       }
     }
@@ -136478,8 +136505,8 @@
     },
     "4290": {
       "number": 4290,
-      "updatedAt": "2026-10-28T15:32:44Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T08:49:51Z",
+      "merged": true,
       "author": {
         "login": "RaphaelFakhri",
         "__typename": "User"
@@ -136493,7 +136520,7 @@
       "reviews": {
         "nodes": [
           {
-            "state": "CHANGES_REQUESTED",
+            "state": "DISMISSED",
             "author": {
               "login": "HiDeoo",
               "__typename": "User"
@@ -136517,6 +136544,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "RaphaelFakhri",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
               "__typename": "User"
             }
           }
@@ -136707,8 +136741,8 @@
     },
     "4298": {
       "number": 4298,
-      "updatedAt": "2026-10-28T17:16:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T08:27:14Z",
+      "merged": true,
       "author": {
         "login": "astrobot-houston",
         "__typename": "User"
@@ -136717,10 +136751,18 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 2
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4299": {
@@ -136900,8 +136942,48 @@
     },
     "4307": {
       "number": 4307,
-      "updatedAt": "2026-10-28T16:09:57Z",
+      "updatedAt": "2026-10-29T13:38:50Z",
       "merged": false,
+      "author": {
+        "login": "HiDeoo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4308": {
+      "number": 4308,
+      "updatedAt": "2026-10-29T08:44:58Z",
+      "merged": true,
       "author": {
         "login": "HiDeoo",
         "__typename": "User"
@@ -136915,19 +136997,59 @@
       "reviews": {
         "nodes": [
           {
-            "state": "COMMENTED",
+            "state": "APPROVED",
             "author": {
-              "login": "HiDeoo",
+              "login": "delucis",
               "__typename": "User"
             }
           }
         ]
       }
     },
-    "4308": {
-      "number": 4308,
-      "updatedAt": "2026-10-28T17:40:29Z",
-      "merged": false,
+    "4309": {
+      "number": 4309,
+      "updatedAt": "2026-10-29T10:03:33Z",
+      "merged": true,
+      "author": {
+        "login": "athulsreekumar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "athulsreekumar",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4310": {
+      "number": 4310,
+      "updatedAt": "2026-10-30T08:20:27Z",
+      "merged": true,
       "author": {
         "login": "HiDeoo",
         "__typename": "User"
@@ -136939,19 +137061,53 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
-    "4309": {
-      "number": 4309,
-      "updatedAt": "2026-10-28T19:51:40Z",
-      "merged": false,
+    "4311": {
+      "number": 4311,
+      "updatedAt": "2026-10-29T20:07:46Z",
+      "merged": true,
       "author": {
-        "login": "athulsreekumar",
+        "login": "Yusaku01",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 1
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4312": {
+      "number": 4312,
+      "updatedAt": "2026-10-29T15:17:03Z",
+      "merged": false,
+      "author": {
+        "login": "Yusaku01",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
