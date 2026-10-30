@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T08:08:37.855Z",
+    "lastRunAt": "2026-10-30T13:24:35.891Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wNFQyMTowMDowNFrOSUTqhg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -118,6 +118,13 @@
       "number": 16,
       "user": {
         "login": "jonahsnider",
+        "type": "User"
+      }
+    },
+    "17": {
+      "number": 17,
+      "user": {
+        "login": "webywz",
         "type": "User"
       }
     }
@@ -398,6 +405,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17": {
+      "number": 17,
+      "updatedAt": "2026-10-30T04:14:21Z",
+      "merged": false,
+      "author": {
+        "login": "webywz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

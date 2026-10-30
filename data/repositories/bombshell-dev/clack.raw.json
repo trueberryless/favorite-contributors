@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T08:08:37.855Z",
+    "lastRunAt": "2026-10-30T13:24:35.892Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4932,6 +4932,20 @@
       "number": 630,
       "user": {
         "login": "imharjot",
+        "type": "User"
+      }
+    },
+    "631": {
+      "number": 631,
+      "user": {
+        "login": "43081j",
+        "type": "User"
+      }
+    },
+    "632": {
+      "number": 632,
+      "user": {
+        "login": "webywz",
         "type": "User"
       }
     }
@@ -16881,7 +16895,7 @@
     },
     "611": {
       "number": 611,
-      "updatedAt": "2026-10-28T09:45:38Z",
+      "updatedAt": "2026-10-30T09:41:51Z",
       "merged": false,
       "author": {
         "login": "bombshell-bot",
@@ -17119,7 +17133,7 @@
     },
     "624": {
       "number": 624,
-      "updatedAt": "2026-10-19T10:17:57Z",
+      "updatedAt": "2026-10-30T08:03:03Z",
       "merged": false,
       "author": {
         "login": "paoValle",
@@ -17203,14 +17217,66 @@
     },
     "630": {
       "number": 630,
-      "updatedAt": "2026-10-28T11:47:09Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T09:30:31Z",
+      "merged": true,
       "author": {
         "login": "imharjot",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "631": {
+      "number": 631,
+      "updatedAt": "2026-10-30T09:40:57Z",
+      "merged": true,
+      "author": {
+        "login": "43081j",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "632": {
+      "number": 632,
+      "updatedAt": "2026-10-30T06:22:12Z",
+      "merged": false,
+      "author": {
+        "login": "webywz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

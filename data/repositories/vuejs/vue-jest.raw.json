@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T01:39:36.343Z",
+    "lastRunAt": "2026-10-30T13:22:53.925Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wOS0wNFQwNDozNjoxNlrOCEn2rw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4552,6 +4552,13 @@
       "number": 578,
       "user": {
         "login": "jansalwowski",
+        "type": "User"
+      }
+    },
+    "579": {
+      "number": 579,
+      "user": {
+        "login": "createthis",
         "type": "User"
       }
     }
@@ -11036,6 +11043,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "579": {
+      "number": 579,
+      "updatedAt": "2026-10-29T21:14:17Z",
+      "merged": false,
+      "author": {
+        "login": "createthis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
