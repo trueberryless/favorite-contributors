@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-28T21:52:51.574Z",
+    "lastRunAt": "2026-10-30T06:15:49.607Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0yMVQyMzowNjo1NlrOj1hOsg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3082,6 +3082,20 @@
     },
     "403": {
       "number": 403,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "404": {
+      "number": 404,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "405": {
+      "number": 405,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -10093,7 +10107,7 @@
     },
     "383": {
       "number": 383,
-      "updatedAt": "2026-10-28T21:35:54Z",
+      "updatedAt": "2026-10-30T00:01:15Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10335,7 +10349,7 @@
     },
     "397": {
       "number": 397,
-      "updatedAt": "2026-10-28T21:38:25Z",
+      "updatedAt": "2026-10-30T00:01:52Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10353,7 +10367,7 @@
     },
     "398": {
       "number": 398,
-      "updatedAt": "2026-10-22T00:40:53Z",
+      "updatedAt": "2026-10-29T15:07:52Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10426,6 +10440,42 @@
     "403": {
       "number": 403,
       "updatedAt": "2026-10-27T20:40:41Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "404": {
+      "number": 404,
+      "updatedAt": "2026-10-29T15:07:03Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "405": {
+      "number": 405,
+      "updatedAt": "2026-10-29T15:08:32Z",
       "merged": false,
       "author": {
         "login": "renovate",

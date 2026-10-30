@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-28T21:52:42.660Z",
+    "lastRunAt": "2026-10-30T06:15:40.808Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27373,6 +27373,34 @@
       "user": {
         "login": "benjamincanac",
         "type": "User"
+      }
+    },
+    "3899": {
+      "number": 3899,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "3900": {
+      "number": 3900,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "3901": {
+      "number": 3901,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "3902": {
+      "number": 3902,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -72080,7 +72108,7 @@
     },
     "3863": {
       "number": 3863,
-      "updatedAt": "2026-10-28T21:40:16Z",
+      "updatedAt": "2026-10-30T03:42:38Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72274,7 +72302,7 @@
     },
     "3873": {
       "number": 3873,
-      "updatedAt": "2026-10-26T20:30:50Z",
+      "updatedAt": "2026-10-30T03:43:20Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72292,7 +72320,7 @@
     },
     "3874": {
       "number": 3874,
-      "updatedAt": "2026-10-26T20:26:43Z",
+      "updatedAt": "2026-10-30T03:44:09Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72310,7 +72338,7 @@
     },
     "3875": {
       "number": 3875,
-      "updatedAt": "2026-10-26T20:29:04Z",
+      "updatedAt": "2026-10-30T03:44:50Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72602,7 +72630,7 @@
     },
     "3888": {
       "number": 3888,
-      "updatedAt": "2026-10-26T20:17:40Z",
+      "updatedAt": "2026-10-30T03:43:17Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72823,7 +72851,7 @@
     },
     "3896": {
       "number": 3896,
-      "updatedAt": "2026-10-26T20:46:34Z",
+      "updatedAt": "2026-10-30T03:47:07Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72841,8 +72869,8 @@
     },
     "3897": {
       "number": 3897,
-      "updatedAt": "2026-10-28T04:07:24Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T03:37:28Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -72854,7 +72882,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3898": {
@@ -72923,6 +72959,78 @@
             }
           }
         ]
+      }
+    },
+    "3899": {
+      "number": 3899,
+      "updatedAt": "2026-10-30T03:43:07Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3900": {
+      "number": 3900,
+      "updatedAt": "2026-10-30T03:42:24Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3901": {
+      "number": 3901,
+      "updatedAt": "2026-10-30T03:42:41Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3902": {
+      "number": 3902,
+      "updatedAt": "2026-10-30T03:42:49Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-28T21:52:47.446Z",
+    "lastRunAt": "2026-10-30T06:15:45.774Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0wMlQxMzo0OToyNlrOMfVTEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18547,6 +18547,34 @@
     },
     "2571": {
       "number": 2571,
+      "user": {
+        "login": "atinux",
+        "type": "User"
+      }
+    },
+    "2572": {
+      "number": 2572,
+      "user": {
+        "login": "onmax",
+        "type": "User"
+      }
+    },
+    "2573": {
+      "number": 2573,
+      "user": {
+        "login": "atinux",
+        "type": "User"
+      }
+    },
+    "2574": {
+      "number": 2574,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "2575": {
+      "number": 2575,
       "user": {
         "login": "atinux",
         "type": "User"
@@ -60690,10 +60718,43 @@
     },
     "2570": {
       "number": 2570,
-      "updatedAt": "2026-10-28T21:30:59Z",
+      "updatedAt": "2026-10-29T14:50:05Z",
       "merged": false,
       "author": {
         "login": "mukundshah",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2571": {
+      "number": 2571,
+      "updatedAt": "2026-10-28T21:33:09Z",
+      "merged": true,
+      "author": {
+        "login": "atinux",
         "__typename": "User"
       },
       "closingIssuesReferences": {
@@ -60714,9 +60775,101 @@
         ]
       }
     },
-    "2571": {
-      "number": 2571,
-      "updatedAt": "2026-10-28T21:33:09Z",
+    "2572": {
+      "number": 2572,
+      "updatedAt": "2026-10-29T11:33:45Z",
+      "merged": false,
+      "author": {
+        "login": "onmax",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2573": {
+      "number": 2573,
+      "updatedAt": "2026-10-29T21:56:06Z",
+      "merged": true,
+      "author": {
+        "login": "atinux",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2574": {
+      "number": 2574,
+      "updatedAt": "2026-10-29T14:48:43Z",
+      "merged": true,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2575": {
+      "number": 2575,
+      "updatedAt": "2026-10-29T22:59:30Z",
       "merged": true,
       "author": {
         "login": "atinux",

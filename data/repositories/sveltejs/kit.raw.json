@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T01:37:13.189Z",
+    "lastRunAt": "2026-10-30T06:18:11.371Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0xNlQwMTowOToxNVrOHhHIBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -120269,6 +120269,79 @@
       "number": 17568,
       "user": {
         "login": "CNSeniorious000",
+        "type": "User"
+      }
+    },
+    "17570": {
+      "number": 17570,
+      "user": {
+        "login": "ali-vercel",
+        "type": "User"
+      }
+    },
+    "17571": {
+      "number": 17571,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "17572": {
+      "number": 17572,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "17573": {
+      "number": 17573,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "17574": {
+      "number": 17574,
+      "user": {
+        "login": "sacrosanctic",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "17575": {
+      "number": 17575,
+      "user": {
+        "login": "kylekellogg",
+        "type": "User"
+      }
+    },
+    "17576": {
+      "number": 17576,
+      "user": {
+        "login": "radhe721",
+        "type": "User"
+      }
+    },
+    "17577": {
+      "number": 17577,
+      "user": {
+        "login": "charan-rathore",
+        "type": "User"
+      }
+    },
+    "17578": {
+      "number": 17578,
+      "user": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "type": "User"
+      }
+    },
+    "17579": {
+      "number": 17579,
+      "user": {
+        "login": "praveen-kumary",
         "type": "User"
       }
     }
@@ -400277,8 +400350,8 @@
     },
     "17478": {
       "number": 17478,
-      "updatedAt": "2026-10-28T22:46:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T23:46:34Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -400299,9 +400372,16 @@
             }
           },
           {
-            "state": "CHANGES_REQUESTED",
+            "state": "DISMISSED",
             "author": {
               "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
               "__typename": "User"
             }
           }
@@ -400310,7 +400390,7 @@
     },
     "17479": {
       "number": 17479,
-      "updatedAt": "2026-10-28T20:01:41Z",
+      "updatedAt": "2026-10-29T15:58:30Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -400329,6 +400409,13 @@
             "author": {
               "login": "ottomated",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
             }
           }
         ]
@@ -401087,14 +401174,14 @@
     },
     "17520": {
       "number": 17520,
-      "updatedAt": "2026-10-28T20:19:22Z",
+      "updatedAt": "2026-10-29T22:04:24Z",
       "merged": false,
       "author": {
         "login": "teemingc",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 3
+        "totalCount": 4
       },
       "reactions": {
         "totalCount": 0
@@ -401177,13 +401264,20 @@
               "login": "teemingc",
               "__typename": "User"
             }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ottomated",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "17521": {
       "number": 17521,
-      "updatedAt": "2026-10-28T12:32:05Z",
+      "updatedAt": "2026-10-29T22:15:54Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -401208,6 +401302,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ottomated",
               "__typename": "User"
             }
           }
@@ -401270,7 +401378,7 @@
     },
     "17526": {
       "number": 17526,
-      "updatedAt": "2026-10-28T19:19:47Z",
+      "updatedAt": "2026-10-30T05:36:58Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -401283,7 +401391,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "benmccann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17527": {
@@ -401360,7 +401476,7 @@
     },
     "17531": {
       "number": 17531,
-      "updatedAt": "2026-10-26T08:58:56Z",
+      "updatedAt": "2026-10-29T17:29:00Z",
       "merged": false,
       "author": {
         "login": "fru1tworld",
@@ -401373,13 +401489,28 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17532": {
       "number": 17532,
-      "updatedAt": "2026-10-23T13:41:53Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T17:27:48Z",
+      "merged": true,
       "author": {
         "login": "fru1tworld",
         "__typename": "User"
@@ -401391,7 +401522,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17533": {
@@ -401510,7 +401649,7 @@
     },
     "17543": {
       "number": 17543,
-      "updatedAt": "2026-10-24T16:45:01Z",
+      "updatedAt": "2026-10-29T17:15:49Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",
@@ -401528,7 +401667,7 @@
     },
     "17544": {
       "number": 17544,
-      "updatedAt": "2026-10-26T21:16:40Z",
+      "updatedAt": "2026-10-29T13:12:06Z",
       "merged": false,
       "author": {
         "login": "Skytuhua",
@@ -401546,7 +401685,7 @@
     },
     "17547": {
       "number": 17547,
-      "updatedAt": "2026-10-27T12:22:24Z",
+      "updatedAt": "2026-10-30T01:43:57Z",
       "merged": false,
       "author": {
         "login": "ottomated",
@@ -401573,14 +401712,28 @@
               "login": "vercel",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
           }
         ]
       }
     },
     "17548": {
       "number": 17548,
-      "updatedAt": "2026-10-27T09:21:21Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T17:15:28Z",
+      "merged": true,
       "author": {
         "login": "sachinkr7368",
         "__typename": "User"
@@ -401592,7 +401745,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17550": {
@@ -401633,7 +401794,7 @@
     },
     "17553": {
       "number": 17553,
-      "updatedAt": "2026-10-27T15:25:08Z",
+      "updatedAt": "2026-10-29T17:17:16Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",
@@ -401762,7 +401923,7 @@
     },
     "17559": {
       "number": 17559,
-      "updatedAt": "2026-10-28T21:56:04Z",
+      "updatedAt": "2026-10-29T22:10:00Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -401817,13 +401978,20 @@
               "login": "vercel",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ottomated",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "17563": {
       "number": 17563,
-      "updatedAt": "2026-10-28T17:44:24Z",
+      "updatedAt": "2026-10-29T16:53:36Z",
       "merged": false,
       "author": {
         "login": "svelte-triage-bot",
@@ -401841,8 +402009,8 @@
     },
     "17564": {
       "number": 17564,
-      "updatedAt": "2026-10-28T19:32:13Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T20:09:18Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -401854,13 +402022,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "benmccann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17565": {
       "number": 17565,
-      "updatedAt": "2026-10-28T18:38:22Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T20:09:02Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -401872,13 +402048,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "benmccann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17566": {
       "number": 17566,
-      "updatedAt": "2026-10-28T22:40:26Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T16:51:37Z",
+      "merged": true,
       "author": {
         "login": "CNSeniorious000",
         "__typename": "User"
@@ -401893,6 +402077,13 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "elliott-with-the-longest-name-on-github",
               "__typename": "User"
@@ -401921,6 +402112,186 @@
             "state": "APPROVED",
             "author": {
               "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "17570": {
+      "number": 17570,
+      "updatedAt": "2026-10-29T23:18:11Z",
+      "merged": true,
+      "author": {
+        "login": "ali-vercel",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "17572": {
+      "number": 17572,
+      "updatedAt": "2026-10-29T17:06:10Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17573": {
+      "number": 17573,
+      "updatedAt": "2026-10-29T17:09:53Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17577": {
+      "number": 17577,
+      "updatedAt": "2026-10-29T19:31:58Z",
+      "merged": false,
+      "author": {
+        "login": "charan-rathore",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17578": {
+      "number": 17578,
+      "updatedAt": "2026-10-29T23:27:48Z",
+      "merged": true,
+      "author": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17579": {
+      "number": 17579,
+      "updatedAt": "2026-10-30T04:52:19Z",
+      "merged": false,
+      "author": {
+        "login": "praveen-kumary",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dxnnystyles",
               "__typename": "User"
             }
           }

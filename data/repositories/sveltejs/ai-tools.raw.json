@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T01:37:17.316Z",
+    "lastRunAt": "2026-10-30T06:18:15.940Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2198,6 +2198,27 @@
       "user": {
         "login": "ooopus",
         "type": "User"
+      }
+    },
+    "306": {
+      "number": 306,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "307": {
+      "number": 307,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "308": {
+      "number": 308,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -5931,7 +5952,7 @@
     },
     "150": {
       "number": 150,
-      "updatedAt": "2026-10-28T10:46:49Z",
+      "updatedAt": "2026-10-30T01:11:30Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -9567,6 +9588,76 @@
       "author": {
         "login": "paoloricciuti",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "306": {
+      "number": 306,
+      "updatedAt": "2026-10-29T16:29:30Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "307": {
+      "number": 307,
+      "updatedAt": "2026-10-29T16:44:38Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "308": {
+      "number": 308,
+      "updatedAt": "2026-10-29T16:46:11Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

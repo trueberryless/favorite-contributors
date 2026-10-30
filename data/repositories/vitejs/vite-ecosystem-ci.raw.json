@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T01:37:57.240Z",
+    "lastRunAt": "2026-10-30T06:18:59.596Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0wNlQxOToyNDoxNFrOMJ66AQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3922,6 +3922,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "538": {
+      "number": 538,
+      "user": {
+        "login": "shulaoda",
+        "type": "User"
       }
     }
   },
@@ -16263,7 +16270,7 @@
     },
     "492": {
       "number": 492,
-      "updatedAt": "2026-10-22T23:24:47Z",
+      "updatedAt": "2026-10-29T08:45:29Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -17145,8 +17152,8 @@
     },
     "537": {
       "number": 537,
-      "updatedAt": "2026-10-28T22:48:48Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T08:44:32Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -17159,6 +17166,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "538": {
+      "number": 538,
+      "updatedAt": "2026-10-29T09:25:34Z",
+      "merged": true,
+      "author": {
+        "login": "shulaoda",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
