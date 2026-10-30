@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-28T21:51:05.124Z",
+    "lastRunAt": "2026-10-30T00:14:15.150Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0xNFQxNTowMTo0N1rOdVEJrQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7871,6 +7871,27 @@
       "number": 1093,
       "user": {
         "login": "Oxyluss",
+        "type": "User"
+      }
+    },
+    "1094": {
+      "number": 1094,
+      "user": {
+        "login": "JosueGalRe",
+        "type": "User"
+      }
+    },
+    "1095": {
+      "number": 1095,
+      "user": {
+        "login": "JosueGalRe",
+        "type": "User"
+      }
+    },
+    "1096": {
+      "number": 1096,
+      "user": {
+        "login": "mr-cheffy",
         "type": "User"
       }
     }
@@ -24576,6 +24597,68 @@
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1094": {
+      "number": 1094,
+      "updatedAt": "2026-10-29T20:22:46Z",
+      "merged": false,
+      "author": {
+        "login": "JosueGalRe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1095": {
+      "number": 1095,
+      "updatedAt": "2026-10-29T21:24:05Z",
+      "merged": true,
+      "author": {
+        "login": "JosueGalRe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mr-cheffy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1096": {
+      "number": 1096,
+      "updatedAt": "2026-10-29T23:30:55Z",
+      "merged": true,
+      "author": {
+        "login": "mr-cheffy",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

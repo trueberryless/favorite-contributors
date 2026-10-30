@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-28T17:04:31.796Z",
+    "lastRunAt": "2026-10-30T00:12:54.610Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yNlQxNjoxNzozNVrO9pQaTg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -252,6 +252,13 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "40": {
+      "number": 40,
+      "user": {
+        "login": "jeremy-code",
+        "type": "User"
       }
     }
   },
@@ -927,6 +934,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "40": {
+      "number": 40,
+      "updatedAt": "2026-10-29T06:32:15Z",
+      "merged": false,
+      "author": {
+        "login": "jeremy-code",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

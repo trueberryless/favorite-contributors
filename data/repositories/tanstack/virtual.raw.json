@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-28T17:04:25.738Z",
+    "lastRunAt": "2026-10-30T00:12:49.423Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8320,6 +8320,41 @@
       "number": 1345,
       "user": {
         "login": "passel123",
+        "type": "User"
+      }
+    },
+    "1346": {
+      "number": 1346,
+      "user": {
+        "login": "Kebechet",
+        "type": "User"
+      }
+    },
+    "1347": {
+      "number": 1347,
+      "user": {
+        "login": "Kebechet",
+        "type": "User"
+      }
+    },
+    "1348": {
+      "number": 1348,
+      "user": {
+        "login": "minwookshin",
+        "type": "User"
+      }
+    },
+    "1349": {
+      "number": 1349,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1350": {
+      "number": 1350,
+      "user": {
+        "login": "ryansolid",
         "type": "User"
       }
     }
@@ -23451,7 +23486,7 @@
     },
     "1321": {
       "number": 1321,
-      "updatedAt": "2026-10-26T13:40:13Z",
+      "updatedAt": "2026-10-29T17:24:57Z",
       "merged": false,
       "author": {
         "login": "prayaggaikwad96",
@@ -24064,14 +24099,110 @@
     },
     "1344": {
       "number": 1344,
-      "updatedAt": "2026-10-28T05:35:14Z",
-      "merged": false,
+      "updatedAt": "2026-10-29T09:07:32Z",
+      "merged": true,
       "author": {
         "login": "clean99",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "piecyk",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1347": {
+      "number": 1347,
+      "updatedAt": "2026-10-29T08:51:22Z",
+      "merged": true,
+      "author": {
+        "login": "Kebechet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1348": {
+      "number": 1348,
+      "updatedAt": "2026-10-29T08:12:13Z",
+      "merged": true,
+      "author": {
+        "login": "minwookshin",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1349": {
+      "number": 1349,
+      "updatedAt": "2026-10-29T10:48:52Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1350": {
+      "number": 1350,
+      "updatedAt": "2026-10-29T19:05:49Z",
+      "merged": false,
+      "author": {
+        "login": "ryansolid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
