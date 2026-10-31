@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T13:22:49.882Z",
+    "lastRunAt": "2026-10-31T15:11:28.363Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -24624,6 +24624,13 @@
     },
     "3235": {
       "number": 3235,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3236": {
+      "number": 3236,
       "user": {
         "login": "ValentinYoushkevich",
         "type": "User"
@@ -72335,7 +72342,7 @@
     },
     "3007": {
       "number": 3007,
-      "updatedAt": "2026-03-03T11:22:06Z",
+      "updatedAt": "2026-10-30T16:03:33Z",
       "merged": false,
       "author": {
         "login": "9romise",
@@ -74113,7 +74120,7 @@
     },
     "3055": {
       "number": 3055,
-      "updatedAt": "2026-03-10T09:07:19Z",
+      "updatedAt": "2026-10-31T11:26:00Z",
       "merged": false,
       "author": {
         "login": "9romise",
@@ -77290,8 +77297,8 @@
     },
     "3159": {
       "number": 3159,
-      "updatedAt": "2026-10-28T17:01:52Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T13:32:37Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -77336,6 +77343,13 @@
             "state": "APPROVED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "waynzh",
               "__typename": "User"
             }
           }
@@ -78244,7 +78258,7 @@
     },
     "3194": {
       "number": 3194,
-      "updatedAt": "2026-10-29T14:25:58Z",
+      "updatedAt": "2026-10-30T22:35:47Z",
       "merged": false,
       "author": {
         "login": "mkantautas",
@@ -78262,6 +78276,13 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "mkantautas",
               "__typename": "User"
             }
           }
@@ -78692,8 +78713,8 @@
     },
     "3208": {
       "number": 3208,
-      "updatedAt": "2026-10-29T14:42:38Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T16:02:11Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -78705,7 +78726,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3209": {
@@ -78866,7 +78895,7 @@
     },
     "3215": {
       "number": 3215,
-      "updatedAt": "2026-10-27T06:50:52Z",
+      "updatedAt": "2026-10-30T16:59:53Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -78936,7 +78965,7 @@
     },
     "3218": {
       "number": 3218,
-      "updatedAt": "2026-10-27T09:06:46Z",
+      "updatedAt": "2026-10-30T16:59:23Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -79072,7 +79101,7 @@
     },
     "3222": {
       "number": 3222,
-      "updatedAt": "2026-10-28T10:46:36Z",
+      "updatedAt": "2026-10-30T16:59:20Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -79206,8 +79235,8 @@
     },
     "3227": {
       "number": 3227,
-      "updatedAt": "2026-10-29T14:18:27Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T13:46:30Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -79226,13 +79255,20 @@
               "login": "FloEdelmann",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "waynzh",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "3228": {
       "number": 3228,
-      "updatedAt": "2026-10-29T14:19:03Z",
+      "updatedAt": "2026-10-30T13:47:01Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -79293,7 +79329,7 @@
     },
     "3229": {
       "number": 3229,
-      "updatedAt": "2026-10-29T04:30:20Z",
+      "updatedAt": "2026-10-30T16:59:54Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -79311,7 +79347,7 @@
     },
     "3230": {
       "number": 3230,
-      "updatedAt": "2026-10-30T02:28:12Z",
+      "updatedAt": "2026-10-31T11:26:53Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -79425,7 +79461,7 @@
     },
     "3235": {
       "number": 3235,
-      "updatedAt": "2026-10-30T05:00:27Z",
+      "updatedAt": "2026-10-30T16:59:50Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -79439,6 +79475,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "3236": {
+      "number": 3236,
+      "updatedAt": "2026-10-31T11:25:06Z",
+      "merged": true,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T06:18:15.837Z",
+    "lastRunAt": "2026-10-31T15:09:16.919Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10536,6 +10536,30 @@
       "number": 1439,
       "user": {
         "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1440": {
+      "number": 1440,
+      "user": {
+        "login": "sacrosanctic",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1441": {
+      "number": 1441,
+      "user": {
+        "login": "jycouet",
+        "type": "User"
+      }
+    },
+    "1442": {
+      "number": 1442,
+      "user": {
+        "login": "hyunbinseo",
         "type": "User"
       }
     }
@@ -39747,8 +39771,8 @@
     },
     "1417": {
       "number": 1417,
-      "updatedAt": "2026-10-24T20:04:03Z",
-      "merged": false,
+      "updatedAt": "2026-10-31T09:58:56Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -39760,7 +39784,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1418": {
@@ -39871,8 +39903,8 @@
     },
     "1424": {
       "number": 1424,
-      "updatedAt": "2026-10-24T12:43:19Z",
-      "merged": false,
+      "updatedAt": "2026-10-31T09:01:02Z",
+      "merged": true,
       "author": {
         "login": "jycouet",
         "__typename": "User"
@@ -39937,8 +39969,8 @@
     },
     "1428": {
       "number": 1428,
-      "updatedAt": "2026-10-24T12:37:32Z",
-      "merged": false,
+      "updatedAt": "2026-10-31T09:09:09Z",
+      "merged": true,
       "author": {
         "login": "jycouet",
         "__typename": "User"
@@ -39981,8 +40013,8 @@
     },
     "1430": {
       "number": 1430,
-      "updatedAt": "2026-10-19T07:51:53Z",
-      "merged": false,
+      "updatedAt": "2026-10-31T09:31:09Z",
+      "merged": true,
       "author": {
         "login": "jycouet",
         "__typename": "User"
@@ -39994,13 +40026,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1431": {
       "number": 1431,
-      "updatedAt": "2026-10-19T07:39:36Z",
-      "merged": false,
+      "updatedAt": "2026-10-31T09:31:22Z",
+      "merged": true,
       "author": {
         "login": "RaphaelFakhri",
         "__typename": "User"
@@ -40012,7 +40052,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1434": {
@@ -40068,7 +40116,7 @@
     },
     "1436": {
       "number": 1436,
-      "updatedAt": "2026-10-24T12:41:38Z",
+      "updatedAt": "2026-10-30T22:37:01Z",
       "merged": true,
       "author": {
         "login": "sacrosanctic",
@@ -40094,7 +40142,7 @@
     },
     "1437": {
       "number": 1437,
-      "updatedAt": "2026-10-23T07:45:48Z",
+      "updatedAt": "2026-10-31T11:24:03Z",
       "merged": false,
       "author": {
         "login": "sacrosanctic",
@@ -40107,19 +40155,53 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1438": {
       "number": 1438,
-      "updatedAt": "2026-10-28T06:57:59Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T18:04:44Z",
+      "merged": true,
       "author": {
         "login": "erenbati",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1441": {
+      "number": 1441,
+      "updatedAt": "2026-10-31T11:37:29Z",
+      "merged": false,
+      "author": {
+        "login": "jycouet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

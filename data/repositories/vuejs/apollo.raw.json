@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T13:22:50.320Z",
+    "lastRunAt": "2026-10-31T15:11:28.784Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMi0yM1QwODo0NzozNFrOBmOJIA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -11321,6 +11321,20 @@
       "reactions": {
         "total_count": 1
       }
+    },
+    "1623": {
+      "number": 1623,
+      "user": {
+        "login": "dominikklein",
+        "type": "User"
+      }
+    },
+    "1624": {
+      "number": 1624,
+      "user": {
+        "login": "dominikklein",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -20804,6 +20818,32 @@
       },
       "reactions": {
         "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "nickmessing",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1623": {
+      "number": 1623,
+      "updatedAt": "2026-10-30T20:56:07Z",
+      "merged": false,
+      "author": {
+        "login": "dominikklein",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
       },
       "reviews": {
         "nodes": [

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T13:22:57.540Z",
+    "lastRunAt": "2026-10-31T15:11:34.705Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOS0wM1QxODo0MjozN1rOErLYSw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -99250,6 +99250,13 @@
       "number": 16073,
       "user": {
         "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "16074": {
+      "number": 16074,
+      "user": {
+        "login": "clean99",
         "type": "User"
       }
     }
@@ -222794,7 +222801,7 @@
     },
     "13113": {
       "number": 13113,
-      "updatedAt": "2026-09-17T14:41:24Z",
+      "updatedAt": "2026-10-30T14:59:50Z",
       "merged": false,
       "author": {
         "login": "chirokas",
@@ -222813,6 +222820,13 @@
             "author": {
               "login": "connorshea",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           },
           {
@@ -251982,7 +251996,7 @@
     },
     "15077": {
       "number": 15077,
-      "updatedAt": "2026-10-30T06:48:13Z",
+      "updatedAt": "2026-10-31T14:47:39Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -261405,7 +261419,7 @@
     },
     "15684": {
       "number": 15684,
-      "updatedAt": "2026-10-30T11:57:12Z",
+      "updatedAt": "2026-10-31T14:47:08Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -265375,7 +265389,7 @@
     },
     "15917": {
       "number": 15917,
-      "updatedAt": "2026-10-30T00:00:51Z",
+      "updatedAt": "2026-10-31T00:14:32Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -265429,7 +265443,7 @@
     },
     "15920": {
       "number": 15920,
-      "updatedAt": "2026-10-28T00:05:25Z",
+      "updatedAt": "2026-10-30T19:53:25Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -265447,7 +265461,7 @@
     },
     "15921": {
       "number": 15921,
-      "updatedAt": "2026-10-27T20:42:15Z",
+      "updatedAt": "2026-10-31T14:48:34Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -268039,8 +268053,8 @@
     },
     "16071": {
       "number": 16071,
-      "updatedAt": "2026-10-30T10:18:26Z",
-      "merged": false,
+      "updatedAt": "2026-10-31T00:29:28Z",
+      "merged": true,
       "author": {
         "login": "dhrupo",
         "__typename": "User"
@@ -268057,7 +268071,7 @@
     },
     "16072": {
       "number": 16072,
-      "updatedAt": "2026-10-30T10:32:17Z",
+      "updatedAt": "2026-10-31T11:21:29Z",
       "merged": false,
       "author": {
         "login": "cheezone",
@@ -268083,8 +268097,8 @@
     },
     "16073": {
       "number": 16073,
-      "updatedAt": "2026-10-30T11:49:27Z",
-      "merged": false,
+      "updatedAt": "2026-10-31T00:13:54Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -268097,6 +268111,46 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "16074": {
+      "number": 16074,
+      "updatedAt": "2026-10-31T11:27:55Z",
+      "merged": false,
+      "author": {
+        "login": "clean99",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "clean99",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

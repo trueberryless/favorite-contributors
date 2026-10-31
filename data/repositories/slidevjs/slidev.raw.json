@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T06:17:18.273Z",
+    "lastRunAt": "2026-10-31T15:08:24.780Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNS0wNVQwODoxODozM1rOJZLi4w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -19137,6 +19137,13 @@
       "number": 2805,
       "user": {
         "login": "CurlyPeter",
+        "type": "User"
+      }
+    },
+    "2806": {
+      "number": 2806,
+      "user": {
+        "login": "oller",
         "type": "User"
       }
     }
@@ -44039,6 +44046,24 @@
       "merged": false,
       "author": {
         "login": "CurlyPeter",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2806": {
+      "number": 2806,
+      "updatedAt": "2026-10-31T00:34:19Z",
+      "merged": false,
+      "author": {
+        "login": "oller",
         "__typename": "User"
       },
       "closingIssuesReferences": {

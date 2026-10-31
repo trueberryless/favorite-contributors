@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T13:23:03.591Z",
+    "lastRunAt": "2026-10-31T15:11:39.677Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMi0yNFQxMzoyMjoxMVrOFpKUmw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20669,6 +20669,20 @@
     },
     "2996": {
       "number": 2996,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "2997": {
+      "number": 2997,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "2998": {
+      "number": 2998,
       "user": {
         "login": "ValentinYoushkevich",
         "type": "User"
@@ -58084,7 +58098,7 @@
     },
     "2264": {
       "number": 2264,
-      "updatedAt": "2026-07-13T07:19:07Z",
+      "updatedAt": "2026-10-31T05:37:47Z",
       "merged": false,
       "author": {
         "login": "Sandbagger",
@@ -61210,7 +61224,7 @@
     },
     "2469": {
       "number": 2469,
-      "updatedAt": "2026-07-13T07:19:06Z",
+      "updatedAt": "2026-10-31T06:17:54Z",
       "merged": false,
       "author": {
         "login": "tharvik",
@@ -64324,7 +64338,7 @@
     },
     "2671": {
       "number": 2671,
-      "updatedAt": "2026-09-04T07:38:56Z",
+      "updatedAt": "2026-10-31T05:57:51Z",
       "merged": false,
       "author": {
         "login": "Tardigrada777",
@@ -69576,7 +69590,7 @@
     },
     "2954": {
       "number": 2954,
-      "updatedAt": "2026-10-07T14:02:53Z",
+      "updatedAt": "2026-10-31T05:47:49Z",
       "merged": false,
       "author": {
         "login": "Revan0809",
@@ -69653,7 +69667,7 @@
     },
     "2958": {
       "number": 2958,
-      "updatedAt": "2026-10-07T14:48:27Z",
+      "updatedAt": "2026-10-31T06:07:52Z",
       "merged": false,
       "author": {
         "login": "niukanen1",
@@ -70227,8 +70241,8 @@
     },
     "2983": {
       "number": 2983,
-      "updatedAt": "2026-10-24T18:28:15Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T23:22:54Z",
+      "merged": true,
       "author": {
         "login": "NgoQuocViet2001",
         "__typename": "User"
@@ -70240,7 +70254,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2985": {
@@ -70379,8 +70401,8 @@
     },
     "2993": {
       "number": 2993,
-      "updatedAt": "2026-10-28T17:37:45Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T23:06:16Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -70392,13 +70414,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2994": {
       "number": 2994,
-      "updatedAt": "2026-10-30T09:46:46Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T16:19:04Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -70434,6 +70464,42 @@
     "2996": {
       "number": 2996,
       "updatedAt": "2026-10-30T08:42:30Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2997": {
+      "number": 2997,
+      "updatedAt": "2026-10-31T05:16:55Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2998": {
+      "number": 2998,
+      "updatedAt": "2026-10-31T06:49:20Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
