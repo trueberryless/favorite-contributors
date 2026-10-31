@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T06:15:40.808Z",
+    "lastRunAt": "2026-10-31T08:44:20.541Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27400,6 +27400,20 @@
       "number": 3902,
       "user": {
         "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "3903": {
+      "number": 3903,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "3904": {
+      "number": 3904,
+      "user": {
+        "login": "renovate[bot]",
         "type": "Bot"
       }
     }
@@ -72108,7 +72122,7 @@
     },
     "3863": {
       "number": 3863,
-      "updatedAt": "2026-10-30T03:42:38Z",
+      "updatedAt": "2026-10-31T02:49:18Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72630,7 +72644,7 @@
     },
     "3888": {
       "number": 3888,
-      "updatedAt": "2026-10-30T03:43:17Z",
+      "updatedAt": "2026-10-30T07:54:16Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72999,7 +73013,7 @@
     },
     "3901": {
       "number": 3901,
-      "updatedAt": "2026-10-30T03:42:41Z",
+      "updatedAt": "2026-10-30T07:57:33Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -73017,10 +73031,54 @@
     },
     "3902": {
       "number": 3902,
-      "updatedAt": "2026-10-30T03:42:49Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T07:51:10Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3903": {
+      "number": 3903,
+      "updatedAt": "2026-10-30T06:54:31Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3904": {
+      "number": 3904,
+      "updatedAt": "2026-10-30T06:55:01Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {

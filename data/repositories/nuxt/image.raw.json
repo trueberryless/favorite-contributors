@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T06:15:42.294Z",
+    "lastRunAt": "2026-10-31T08:44:21.477Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0zMFQxMzozMjo0NVrOHYjpvA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -14405,7 +14405,7 @@
     "1909": {
       "number": 1909,
       "user": {
-        "login": "danekslama",
+        "login": "dan-slama",
         "type": "User"
       }
     },
@@ -17765,6 +17765,41 @@
       "number": 2369,
       "user": {
         "login": "sabira-khan",
+        "type": "User"
+      }
+    },
+    "2370": {
+      "number": 2370,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2371": {
+      "number": 2371,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2372": {
+      "number": 2372,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2373": {
+      "number": 2373,
+      "user": {
+        "login": "luc122c",
+        "type": "User"
+      }
+    },
+    "2374": {
+      "number": 2374,
+      "user": {
+        "login": "atinux",
         "type": "User"
       }
     }
@@ -45391,7 +45426,7 @@
     },
     "1984": {
       "number": 1984,
-      "updatedAt": "2026-04-04T08:38:25Z",
+      "updatedAt": "2026-10-30T20:54:49Z",
       "merged": false,
       "author": {
         "login": "amrelbialy",
@@ -53930,7 +53965,7 @@
     },
     "2349": {
       "number": 2349,
-      "updatedAt": "2026-10-28T14:52:54Z",
+      "updatedAt": "2026-10-30T16:50:32Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -54018,7 +54053,7 @@
     },
     "2353": {
       "number": 2353,
-      "updatedAt": "2026-10-22T08:14:27Z",
+      "updatedAt": "2026-10-30T22:16:19Z",
       "merged": false,
       "author": {
         "login": "luc122c",
@@ -54185,8 +54220,8 @@
     },
     "2357": {
       "number": 2357,
-      "updatedAt": "2026-10-28T14:52:28Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T16:52:28Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -54198,7 +54233,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2359": {
@@ -54436,6 +54479,112 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2370": {
+      "number": 2370,
+      "updatedAt": "2026-10-30T16:51:21Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2371": {
+      "number": 2371,
+      "updatedAt": "2026-10-30T17:02:12Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2372": {
+      "number": 2372,
+      "updatedAt": "2026-10-30T17:46:34Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2373": {
+      "number": 2373,
+      "updatedAt": "2026-10-30T20:28:30Z",
+      "merged": false,
+      "author": {
+        "login": "luc122c",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2374": {
+      "number": 2374,
+      "updatedAt": "2026-10-31T07:49:39Z",
+      "merged": false,
+      "author": {
+        "login": "atinux",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

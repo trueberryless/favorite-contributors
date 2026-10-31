@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T00:13:32.495Z",
+    "lastRunAt": "2026-10-31T08:42:13.798Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1126,6 +1126,13 @@
       "number": 154,
       "user": {
         "login": "JosephTLyons",
+        "type": "User"
+      }
+    },
+    "155": {
+      "number": 155,
+      "user": {
+        "login": "countradooku",
         "type": "User"
       }
     }
@@ -3815,6 +3822,24 @@
       "merged": true,
       "author": {
         "login": "JosephTLyons",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "155": {
+      "number": 155,
+      "updatedAt": "2026-10-30T11:42:12Z",
+      "merged": false,
+      "author": {
+        "login": "countradooku",
         "__typename": "User"
       },
       "closingIssuesReferences": {
