@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T00:12:08.011Z",
+    "lastRunAt": "2026-10-31T02:07:21.635Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -82900,6 +82900,20 @@
       "number": 10347,
       "user": {
         "login": "MulverineX",
+        "type": "User"
+      }
+    },
+    "10348": {
+      "number": 10348,
+      "user": {
+        "login": "kidonng",
+        "type": "User"
+      }
+    },
+    "10349": {
+      "number": 10349,
+      "user": {
+        "login": "fregante",
         "type": "User"
       }
     }
@@ -269492,7 +269506,7 @@
     },
     "10345": {
       "number": 10345,
-      "updatedAt": "2026-10-29T17:38:27Z",
+      "updatedAt": "2026-10-30T03:23:05Z",
       "merged": false,
       "author": {
         "login": "kidonng",
@@ -269524,6 +269538,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
               "__typename": "User"
             }
           }
@@ -269532,7 +269560,7 @@
     },
     "10346": {
       "number": 10346,
-      "updatedAt": "2026-10-29T17:37:15Z",
+      "updatedAt": "2026-10-30T03:09:16Z",
       "merged": false,
       "author": {
         "login": "kidonng",
@@ -269552,8 +269580,59 @@
               "login": "fregante",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "10348": {
+      "number": 10348,
+      "updatedAt": "2026-10-30T08:16:50Z",
+      "merged": false,
+      "author": {
+        "login": "kidonng",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10349": {
+      "number": 10349,
+      "updatedAt": "2026-10-30T04:55:10Z",
+      "merged": false,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

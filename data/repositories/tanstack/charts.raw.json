@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T00:12:55.559Z",
+    "lastRunAt": "2026-10-31T02:08:10.542Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yOVQwMToyMzowMVrO97ywkQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1737,6 +1737,13 @@
     },
     "245": {
       "number": 245,
+      "user": {
+        "login": "ryansolid",
+        "type": "User"
+      }
+    },
+    "246": {
+      "number": 246,
       "user": {
         "login": "ryansolid",
         "type": "User"
@@ -6022,6 +6029,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "246": {
+      "number": 246,
+      "updatedAt": "2026-10-30T22:26:31Z",
+      "merged": false,
+      "author": {
+        "login": "ryansolid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

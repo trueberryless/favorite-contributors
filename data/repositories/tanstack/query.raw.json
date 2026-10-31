@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T00:12:49.332Z",
+    "lastRunAt": "2026-10-31T02:08:04.681Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNy0xMVQwMToyODo1MlrOGqrGVA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -62135,6 +62135,48 @@
       "number": 12459,
       "user": {
         "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12460": {
+      "number": 12460,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12461": {
+      "number": 12461,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12462": {
+      "number": 12462,
+      "user": {
+        "login": "praveen-kumary",
+        "type": "User"
+      }
+    },
+    "12463": {
+      "number": 12463,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12464": {
+      "number": 12464,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12465": {
+      "number": 12465,
+      "user": {
+        "login": "spaansba",
         "type": "User"
       }
     }
@@ -189598,8 +189640,8 @@
     },
     "11373": {
       "number": 11373,
-      "updatedAt": "2026-10-29T20:19:45Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T01:11:21Z",
+      "merged": true,
       "author": {
         "login": "sukvvon",
         "__typename": "User"
@@ -194250,8 +194292,8 @@
     },
     "11595": {
       "number": 11595,
-      "updatedAt": "2026-10-29T20:17:23Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T00:58:24Z",
+      "merged": true,
       "author": {
         "login": "sukvvon",
         "__typename": "User"
@@ -209755,7 +209797,7 @@
     },
     "12391": {
       "number": 12391,
-      "updatedAt": "2026-10-29T16:53:58Z",
+      "updatedAt": "2026-10-30T07:43:39Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -211090,7 +211132,7 @@
     },
     "12459": {
       "number": 12459,
-      "updatedAt": "2026-10-29T18:03:35Z",
+      "updatedAt": "2026-10-30T01:42:09Z",
       "merged": false,
       "author": {
         "login": "sukvvon",
@@ -211098,6 +211140,153 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "12460": {
+      "number": 12460,
+      "updatedAt": "2026-10-30T07:41:28Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "12461": {
+      "number": 12461,
+      "updatedAt": "2026-10-30T01:38:47Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "12462": {
+      "number": 12462,
+      "updatedAt": "2026-10-30T03:59:11Z",
+      "merged": false,
+      "author": {
+        "login": "praveen-kumary",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "12463": {
+      "number": 12463,
+      "updatedAt": "2026-10-30T08:31:03Z",
+      "merged": false,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "12464": {
+      "number": 12464,
+      "updatedAt": "2026-10-30T08:52:03Z",
+      "merged": false,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "12465": {
+      "number": 12465,
+      "updatedAt": "2026-10-30T21:02:06Z",
+      "merged": false,
+      "author": {
+        "login": "spaansba",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

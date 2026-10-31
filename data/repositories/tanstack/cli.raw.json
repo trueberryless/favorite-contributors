@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T00:12:51.321Z",
+    "lastRunAt": "2026-10-31T02:08:06.742Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0xOFQwMjoxOTo0MVrOi3_cXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3725,6 +3725,13 @@
       "number": 525,
       "user": {
         "login": "jherr",
+        "type": "User"
+      }
+    },
+    "526": {
+      "number": 526,
+      "user": {
+        "login": "EduKegler",
         "type": "User"
       }
     }
@@ -11217,6 +11224,67 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "526": {
+      "number": 526,
+      "updatedAt": "2026-10-30T23:41:34Z",
+      "merged": false,
+      "author": {
+        "login": "EduKegler",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "EduKegler",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "EduKegler",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

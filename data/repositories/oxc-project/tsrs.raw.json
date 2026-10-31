@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T20:30:45.796Z",
+    "lastRunAt": "2026-10-31T02:05:08.982Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0xMC0wMVQxODowMDoyNVrPAAAAARh6x0s=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6434,6 +6434,9 @@
       "user": {
         "login": "Boshen",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 7
       }
     },
     "835": {
@@ -6581,6 +6584,48 @@
       "number": 853,
       "user": {
         "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "854": {
+      "number": 854,
+      "user": {
+        "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "855": {
+      "number": 855,
+      "user": {
+        "login": "grmkris",
+        "type": "User"
+      }
+    },
+    "856": {
+      "number": 856,
+      "user": {
+        "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "857": {
+      "number": 857,
+      "user": {
+        "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "858": {
+      "number": 858,
+      "user": {
+        "login": "raphamorim",
+        "type": "User"
+      }
+    },
+    "859": {
+      "number": 859,
+      "user": {
+        "login": "Andarist",
         "type": "User"
       }
     }
@@ -21334,7 +21379,7 @@
     },
     "777": {
       "number": 777,
-      "updatedAt": "2026-10-28T15:15:27Z",
+      "updatedAt": "2026-10-30T08:23:54Z",
       "merged": false,
       "author": {
         "login": "maschwenk",
@@ -22516,8 +22561,8 @@
     },
     "848": {
       "number": 848,
-      "updatedAt": "2026-10-29T20:16:29Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T03:31:28Z",
+      "merged": true,
       "author": {
         "login": "maschwenk",
         "__typename": "User"
@@ -22534,7 +22579,7 @@
     },
     "849": {
       "number": 849,
-      "updatedAt": "2026-10-29T20:29:05Z",
+      "updatedAt": "2026-10-29T21:25:26Z",
       "merged": false,
       "author": {
         "login": "maschwenk",
@@ -22552,7 +22597,7 @@
     },
     "850": {
       "number": 850,
-      "updatedAt": "2026-10-29T20:18:51Z",
+      "updatedAt": "2026-10-29T21:12:53Z",
       "merged": false,
       "author": {
         "login": "maschwenk",
@@ -22588,7 +22633,7 @@
     },
     "852": {
       "number": 852,
-      "updatedAt": "2026-10-29T20:18:52Z",
+      "updatedAt": "2026-10-29T21:38:51Z",
       "merged": false,
       "author": {
         "login": "maschwenk",
@@ -22606,10 +22651,90 @@
     },
     "853": {
       "number": 853,
-      "updatedAt": "2026-10-29T20:14:52Z",
+      "updatedAt": "2026-10-29T21:14:31Z",
+      "merged": true,
+      "author": {
+        "login": "maschwenk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "854": {
+      "number": 854,
+      "updatedAt": "2026-10-29T21:06:11Z",
       "merged": false,
       "author": {
         "login": "maschwenk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "856": {
+      "number": 856,
+      "updatedAt": "2026-10-30T08:23:18Z",
+      "merged": false,
+      "author": {
+        "login": "maschwenk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "Boshen",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "857": {
+      "number": 857,
+      "updatedAt": "2026-10-30T05:42:10Z",
+      "merged": false,
+      "author": {
+        "login": "maschwenk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "859": {
+      "number": 859,
+      "updatedAt": "2026-10-30T23:59:57Z",
+      "merged": false,
+      "author": {
+        "login": "Andarist",
         "__typename": "User"
       },
       "closingIssuesReferences": {

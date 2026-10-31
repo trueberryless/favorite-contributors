@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-29T20:32:20.929Z",
+    "lastRunAt": "2026-10-31T02:06:42.843Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wMVQxMjowOToxM1rPAAAAAQb2sJE=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -441,6 +441,27 @@
       "user": {
         "login": "RaphaelFakhri",
         "type": "User"
+      }
+    },
+    "168": {
+      "number": 168,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "169": {
+      "number": 169,
+      "user": {
+        "login": "shadcn",
+        "type": "User"
+      }
+    },
+    "170": {
+      "number": 170,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -1189,8 +1210,8 @@
     },
     "160": {
       "number": 160,
-      "updatedAt": "2026-10-08T08:19:38Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T06:39:42Z",
+      "merged": true,
       "author": {
         "login": "mehimanshupatil",
         "__typename": "User"
@@ -1207,8 +1228,8 @@
     },
     "162": {
       "number": 162,
-      "updatedAt": "2026-10-12T09:36:41Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T06:39:50Z",
+      "merged": true,
       "author": {
         "login": "nonhana",
         "__typename": "User"
@@ -1220,12 +1241,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "shadcn",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "163": {
       "number": 163,
-      "updatedAt": "2026-10-12T11:04:54Z",
+      "updatedAt": "2026-10-30T05:39:56Z",
       "merged": false,
       "author": {
         "login": "TheAlexLichter",
@@ -1238,7 +1267,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "shadcn",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "164": {
@@ -1261,8 +1298,8 @@
     },
     "165": {
       "number": 165,
-      "updatedAt": "2026-10-19T06:40:56Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T05:38:14Z",
+      "merged": true,
       "author": {
         "login": "shadcn",
         "__typename": "User"
@@ -1279,11 +1316,73 @@
     },
     "167": {
       "number": 167,
-      "updatedAt": "2026-10-19T06:46:05Z",
+      "updatedAt": "2026-10-30T15:22:32Z",
       "merged": false,
       "author": {
         "login": "RaphaelFakhri",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "shadcn",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "168": {
+      "number": 168,
+      "updatedAt": "2026-10-30T05:46:15Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "169": {
+      "number": 169,
+      "updatedAt": "2026-10-30T05:45:59Z",
+      "merged": true,
+      "author": {
+        "login": "shadcn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "170": {
+      "number": 170,
+      "updatedAt": "2026-10-30T06:40:33Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
