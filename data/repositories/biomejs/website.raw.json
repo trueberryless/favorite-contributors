@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T22:50:20.917Z",
+    "lastRunAt": "2026-10-31T22:47:06.276Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -32964,6 +32964,20 @@
     },
     "4701": {
       "number": 4701,
+      "user": {
+        "login": "nhedger",
+        "type": "User"
+      }
+    },
+    "4702": {
+      "number": 4702,
+      "user": {
+        "login": "nhedger",
+        "type": "User"
+      }
+    },
+    "4703": {
+      "number": 4703,
       "user": {
         "login": "nhedger",
         "type": "User"
@@ -126413,8 +126427,8 @@
     },
     "4701": {
       "number": 4701,
-      "updatedAt": "2026-10-30T21:51:55Z",
-      "merged": false,
+      "updatedAt": "2026-10-31T07:51:00Z",
+      "merged": true,
       "author": {
         "login": "nhedger",
         "__typename": "User"
@@ -126433,8 +126447,66 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "4702": {
+      "number": 4702,
+      "updatedAt": "2026-10-31T17:14:37Z",
+      "merged": true,
+      "author": {
+        "login": "nhedger",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4703": {
+      "number": 4703,
+      "updatedAt": "2026-10-31T17:20:24Z",
+      "merged": false,
+      "author": {
+        "login": "nhedger",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
