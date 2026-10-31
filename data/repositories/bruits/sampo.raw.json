@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T18:46:23.052Z",
+    "lastRunAt": "2026-10-31T19:31:58.359Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0wMlQyMDo1NDozOVrOpl321A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2248,6 +2248,27 @@
       "number": 372,
       "user": {
         "login": "barucAlmaguer",
+        "type": "User"
+      }
+    },
+    "373": {
+      "number": 373,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "374": {
+      "number": 374,
+      "user": {
+        "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "375": {
+      "number": 375,
+      "user": {
+        "login": "goulvenclech",
         "type": "User"
       }
     }
@@ -7974,7 +7995,7 @@
     },
     "369": {
       "number": 369,
-      "updatedAt": "2026-10-26T14:03:16Z",
+      "updatedAt": "2026-10-31T04:14:02Z",
       "merged": false,
       "author": {
         "login": "arthurfiorette",
@@ -7993,6 +8014,13 @@
             "author": {
               "login": "sampo-s-bot",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
             }
           }
         ]
@@ -8000,7 +8028,7 @@
     },
     "370": {
       "number": 370,
-      "updatedAt": "2026-10-26T14:03:20Z",
+      "updatedAt": "2026-10-30T20:26:55Z",
       "merged": false,
       "author": {
         "login": "arthurfiorette",
@@ -8019,6 +8047,13 @@
             "author": {
               "login": "sampo-s-bot",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
             }
           }
         ]
@@ -8026,8 +8061,8 @@
     },
     "371": {
       "number": 371,
-      "updatedAt": "2026-10-27T17:30:40Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T20:20:51Z",
+      "merged": true,
       "author": {
         "login": "arthurfiorette",
         "__typename": "User"
@@ -8046,20 +8081,104 @@
               "login": "sampo-s-bot",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "372": {
       "number": 372,
-      "updatedAt": "2026-10-30T14:19:23Z",
-      "merged": false,
+      "updatedAt": "2026-10-30T21:50:31Z",
+      "merged": true,
       "author": {
         "login": "barucAlmaguer",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "373": {
+      "number": 373,
+      "updatedAt": "2026-10-30T22:15:40Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "374": {
+      "number": 374,
+      "updatedAt": "2026-10-30T22:07:40Z",
+      "merged": true,
+      "author": {
+        "login": "goulvenclech",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "375": {
+      "number": 375,
+      "updatedAt": "2026-10-30T22:04:25Z",
+      "merged": true,
+      "author": {
+        "login": "goulvenclech",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-30T13:23:52.106Z",
+    "lastRunAt": "2026-10-31T19:28:39.594Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16317,7 +16317,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "2287": {
@@ -18144,6 +18144,54 @@
     },
     "2502": {
       "number": 2502,
+      "user": {
+        "login": "kpab",
+        "type": "User"
+      }
+    },
+    "2503": {
+      "number": 2503,
+      "user": {
+        "login": "moe-ad",
+        "type": "User"
+      }
+    },
+    "2504": {
+      "number": 2504,
+      "user": {
+        "login": "kpab",
+        "type": "User"
+      }
+    },
+    "2505": {
+      "number": 2505,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2506": {
+      "number": 2506,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2507": {
+      "number": 2507,
+      "user": {
+        "login": "hashcatHitman",
+        "type": "User"
+      }
+    },
+    "2508": {
+      "number": 2508,
       "user": {
         "login": "kpab",
         "type": "User"
@@ -57817,6 +57865,86 @@
       "number": 2501,
       "updatedAt": "2026-10-30T07:36:25Z",
       "merged": true,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2503": {
+      "number": 2503,
+      "updatedAt": "2026-10-30T17:30:20Z",
+      "merged": false,
+      "author": {
+        "login": "moe-ad",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2504": {
+      "number": 2504,
+      "updatedAt": "2026-10-31T03:55:59Z",
+      "merged": true,
+      "author": {
+        "login": "kpab",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2505": {
+      "number": 2505,
+      "updatedAt": "2026-10-31T03:47:36Z",
+      "merged": true,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2506": {
+      "number": 2506,
+      "updatedAt": "2026-10-31T04:52:08Z",
+      "merged": false,
       "author": {
         "login": "woodruffw",
         "__typename": "User"
