@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T22:45:53.789Z",
+    "lastRunAt": "2026-11-01T23:50:40.254Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMC0wNFQxMTowNTowMFrOE1kPBQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5464,6 +5464,13 @@
       "user": {
         "login": "dgesteves",
         "type": "User"
+      }
+    },
+    "746": {
+      "number": 746,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -18572,6 +18579,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "746": {
+      "number": 746,
+      "updatedAt": "2026-11-01T05:54:06Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

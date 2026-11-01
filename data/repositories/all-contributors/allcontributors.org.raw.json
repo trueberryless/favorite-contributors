@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T22:45:18.078Z",
+    "lastRunAt": "2026-11-01T23:49:59.271Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0yOFQxNTo0NDo1NlrOA6KG0Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7650,6 +7650,13 @@
     },
     "1203": {
       "number": 1203,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1204": {
+      "number": 1204,
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
@@ -27250,6 +27257,24 @@
     "1203": {
       "number": 1203,
       "updatedAt": "2026-10-29T05:34:27Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1204": {
+      "number": 1204,
+      "updatedAt": "2026-11-01T05:34:52Z",
       "merged": false,
       "author": {
         "login": "dependabot",

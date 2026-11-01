@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T19:31:14.593Z",
+    "lastRunAt": "2026-11-01T23:48:39.063Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -103677,7 +103677,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "14780": {
@@ -103920,6 +103920,34 @@
       "number": 14813,
       "user": {
         "login": "Fuan200",
+        "type": "User"
+      }
+    },
+    "14814": {
+      "number": 14814,
+      "user": {
+        "login": "Yusaku01",
+        "type": "User"
+      }
+    },
+    "14815": {
+      "number": 14815,
+      "user": {
+        "login": "astrobot-houston",
+        "type": "User"
+      }
+    },
+    "14816": {
+      "number": 14816,
+      "user": {
+        "login": "Yusaku01",
+        "type": "User"
+      }
+    },
+    "14817": {
+      "number": 14817,
+      "user": {
+        "login": "Yusaku01",
         "type": "User"
       }
     }
@@ -565174,8 +565202,8 @@
     },
     "14776": {
       "number": 14776,
-      "updatedAt": "2026-10-29T14:57:33Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T11:43:33Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
         "__typename": "User"
@@ -565187,13 +565215,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14777": {
       "number": 14777,
-      "updatedAt": "2026-10-29T14:59:46Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T13:27:48Z",
+      "merged": true,
       "author": {
         "login": "Yusaku01",
         "__typename": "User"
@@ -565205,7 +565241,36 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Yusaku01",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Yusaku01",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14778": {
@@ -565243,8 +565308,8 @@
     },
     "14779": {
       "number": 14779,
-      "updatedAt": "2026-10-27T14:07:08Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T13:32:49Z",
+      "merged": true,
       "author": {
         "login": "awwa",
         "__typename": "User"
@@ -565253,7 +565318,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 2
       },
       "reviews": {
         "nodes": [
@@ -565310,6 +565375,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "Yusaku01",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
               "__typename": "User"
             }
           }
@@ -566112,7 +566184,7 @@
     },
     "14810": {
       "number": 14810,
-      "updatedAt": "2026-10-30T17:10:39Z",
+      "updatedAt": "2026-11-01T20:26:52Z",
       "merged": false,
       "author": {
         "login": "wigsdev",
@@ -566125,7 +566197,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mixto",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14812": {
@@ -566162,6 +566242,102 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "14814": {
+      "number": 14814,
+      "updatedAt": "2026-11-01T13:44:21Z",
+      "merged": true,
+      "author": {
+        "login": "Yusaku01",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14815": {
+      "number": 14815,
+      "updatedAt": "2026-11-01T10:23:56Z",
+      "merged": false,
+      "author": {
+        "login": "astrobot-houston",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14816": {
+      "number": 14816,
+      "updatedAt": "2026-11-01T13:52:46Z",
+      "merged": true,
+      "author": {
+        "login": "Yusaku01",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14817": {
+      "number": 14817,
+      "updatedAt": "2026-11-01T13:59:12Z",
+      "merged": true,
+      "author": {
+        "login": "Yusaku01",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morinokami",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
