@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T15:11:35.770Z",
+    "lastRunAt": "2026-11-01T20:19:03.879Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18032,6 +18032,20 @@
       "user": {
         "login": "salemalem",
         "type": "User"
+      }
+    },
+    "2866": {
+      "number": 2866,
+      "user": {
+        "login": "bfrontend",
+        "type": "User"
+      }
+    },
+    "2867": {
+      "number": 2867,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -50502,6 +50516,50 @@
             }
           }
         ]
+      }
+    },
+    "2866": {
+      "number": 2866,
+      "updatedAt": "2026-11-01T16:09:34Z",
+      "merged": false,
+      "author": {
+        "login": "bfrontend",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2867": {
+      "number": 2867,
+      "updatedAt": "2026-11-01T17:36:53Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

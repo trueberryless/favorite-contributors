@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T15:09:58.305Z",
+    "lastRunAt": "2026-11-01T20:17:24.101Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wMi0wNVQyMzozNzoxNlrOIeFqJw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12326,6 +12326,13 @@
       "number": 1766,
       "user": {
         "login": "dogledogle",
+        "type": "User"
+      }
+    },
+    "1767": {
+      "number": 1767,
+      "user": {
+        "login": "docschina-bot",
         "type": "User"
       }
     }
@@ -46786,6 +46793,24 @@
       "merged": true,
       "author": {
         "login": "dogledogle",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1767": {
+      "number": 1767,
+      "updatedAt": "2026-11-01T01:55:38Z",
+      "merged": false,
+      "author": {
+        "login": "docschina-bot",
         "__typename": "User"
       },
       "closingIssuesReferences": {
