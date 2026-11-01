@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T02:06:02.430Z",
+    "lastRunAt": "2026-11-01T01:59:08.300Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNy0wMlQxODo1ODo1NlrOVHLb1Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -399,6 +399,13 @@
         "login": "zulaica",
         "type": "User"
       }
+    },
+    "53": {
+      "number": 53,
+      "user": {
+        "login": "ArtemisFromTheBog",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -704,6 +711,24 @@
       "merged": true,
       "author": {
         "login": "mvllow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "53": {
+      "number": 53,
+      "updatedAt": "2026-10-31T14:32:33Z",
+      "merged": false,
+      "author": {
+        "login": "ArtemisFromTheBog",
         "__typename": "User"
       },
       "closingIssuesReferences": {
