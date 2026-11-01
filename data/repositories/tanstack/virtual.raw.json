@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T02:08:04.725Z",
+    "lastRunAt": "2026-11-01T08:53:01.048Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8376,6 +8376,34 @@
       "number": 1353,
       "user": {
         "login": "clean99",
+        "type": "User"
+      }
+    },
+    "1354": {
+      "number": 1354,
+      "user": {
+        "login": "clean99",
+        "type": "User"
+      }
+    },
+    "1355": {
+      "number": 1355,
+      "user": {
+        "login": "clean99",
+        "type": "User"
+      }
+    },
+    "1356": {
+      "number": 1356,
+      "user": {
+        "login": "clean99",
+        "type": "User"
+      }
+    },
+    "1357": {
+      "number": 1357,
+      "user": {
+        "login": "itisrmk",
         "type": "User"
       }
     }
@@ -24260,10 +24288,68 @@
     },
     "1353": {
       "number": 1353,
-      "updatedAt": "2026-10-30T19:21:06Z",
+      "updatedAt": "2026-10-31T11:27:57Z",
       "merged": false,
       "author": {
         "login": "clean99",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "clean99",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1356": {
+      "number": 1356,
+      "updatedAt": "2026-10-31T11:25:42Z",
+      "merged": false,
+      "author": {
+        "login": "clean99",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1357": {
+      "number": 1357,
+      "updatedAt": "2026-10-31T20:35:21Z",
+      "merged": false,
+      "author": {
+        "login": "itisrmk",
         "__typename": "User"
       },
       "closingIssuesReferences": {

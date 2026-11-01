@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T02:08:02.892Z",
+    "lastRunAt": "2026-11-01T08:52:58.959Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15263,6 +15263,9 @@
       "user": {
         "login": "TiagoGranelli",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "2411": {
@@ -15570,6 +15573,20 @@
       "number": 2458,
       "user": {
         "login": "harry-whorlow",
+        "type": "User"
+      }
+    },
+    "2459": {
+      "number": 2459,
+      "user": {
+        "login": "clean99",
+        "type": "User"
+      }
+    },
+    "2460": {
+      "number": 2460,
+      "user": {
+        "login": "awdr74100",
         "type": "User"
       }
     }
@@ -45755,7 +45772,7 @@
     },
     "2410": {
       "number": 2410,
-      "updatedAt": "2026-09-27T21:07:25Z",
+      "updatedAt": "2026-10-31T10:09:31Z",
       "merged": false,
       "author": {
         "login": "TiagoGranelli",
@@ -45765,7 +45782,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -46568,7 +46585,7 @@
     },
     "2448": {
       "number": 2448,
-      "updatedAt": "2026-10-29T15:26:10Z",
+      "updatedAt": "2026-10-31T09:18:10Z",
       "merged": false,
       "author": {
         "login": "LeCarbonator",
@@ -46835,6 +46852,32 @@
             "author": {
               "login": "LeCarbonator",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2460": {
+      "number": 2460,
+      "updatedAt": "2026-10-31T09:46:53Z",
+      "merged": false,
+      "author": {
+        "login": "awdr74100",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
