@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T15:09:08.186Z",
+    "lastRunAt": "2026-11-01T15:54:18.709Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMy0xMFQyMzo0NjoyN1rOCmH-jw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1709,6 +1709,13 @@
       "number": 230,
       "user": {
         "login": "gyzerok",
+        "type": "User"
+      }
+    },
+    "231": {
+      "number": 231,
+      "user": {
+        "login": "danielroe",
         "type": "User"
       }
     }
@@ -5682,6 +5689,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "231": {
+      "number": 231,
+      "updatedAt": "2026-11-01T13:54:47Z",
+      "merged": false,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

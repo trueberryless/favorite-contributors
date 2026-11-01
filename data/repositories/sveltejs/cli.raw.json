@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T15:09:16.919Z",
+    "lastRunAt": "2026-11-01T15:54:28.348Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10373,6 +10373,9 @@
       "user": {
         "login": "sacrosanctic",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "1417": {
@@ -10560,6 +10563,20 @@
       "number": 1442,
       "user": {
         "login": "hyunbinseo",
+        "type": "User"
+      }
+    },
+    "1443": {
+      "number": 1443,
+      "user": {
+        "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1444": {
+      "number": 1444,
+      "user": {
+        "login": "sacrosanctic",
         "type": "User"
       }
     }
@@ -40142,7 +40159,7 @@
     },
     "1437": {
       "number": 1437,
-      "updatedAt": "2026-10-31T11:24:03Z",
+      "updatedAt": "2026-11-01T12:44:28Z",
       "merged": false,
       "author": {
         "login": "sacrosanctic",
@@ -40198,6 +40215,50 @@
       "merged": false,
       "author": {
         "login": "jycouet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1443": {
+      "number": 1443,
+      "updatedAt": "2026-10-31T21:38:19Z",
+      "merged": false,
+      "author": {
+        "login": "sacrosanctic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1444": {
+      "number": 1444,
+      "updatedAt": "2026-11-01T12:44:36Z",
+      "merged": false,
+      "author": {
+        "login": "sacrosanctic",
         "__typename": "User"
       },
       "closingIssuesReferences": {

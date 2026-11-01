@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T15:09:13.312Z",
+    "lastRunAt": "2026-11-01T15:54:24.581Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0xNlQwMTowOToxNVrOHhHIBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -120423,6 +120423,48 @@
       "user": {
         "login": "clean99",
         "type": "User"
+      }
+    },
+    "17591": {
+      "number": 17591,
+      "user": {
+        "login": "praveen-kumary",
+        "type": "User"
+      }
+    },
+    "17592": {
+      "number": 17592,
+      "user": {
+        "login": "praveen-kumary",
+        "type": "User"
+      }
+    },
+    "17593": {
+      "number": 17593,
+      "user": {
+        "login": "praveen-kumary",
+        "type": "User"
+      }
+    },
+    "17594": {
+      "number": 17594,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "17595": {
+      "number": 17595,
+      "user": {
+        "login": "backstromjoel",
+        "type": "User"
+      }
+    },
+    "17596": {
+      "number": 17596,
+      "user": {
+        "login": "svelte-triage-bot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -400227,20 +400269,28 @@
     },
     "17462": {
       "number": 17462,
-      "updatedAt": "2026-10-31T08:19:02Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T15:23:14Z",
+      "merged": true,
       "author": {
         "login": "svelte-triage-bot",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
-        "totalCount": 1
+        "totalCount": 2
       },
       "reactions": {
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "17463": {
@@ -401542,8 +401592,8 @@
     },
     "17526": {
       "number": 17526,
-      "updatedAt": "2026-10-31T14:02:27Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T15:53:24Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -401647,8 +401697,8 @@
     },
     "17531": {
       "number": 17531,
-      "updatedAt": "2026-10-29T17:29:00Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T14:15:15Z",
+      "merged": true,
       "author": {
         "login": "fru1tworld",
         "__typename": "User"
@@ -401669,9 +401719,16 @@
             }
           },
           {
-            "state": "CHANGES_REQUESTED",
+            "state": "DISMISSED",
             "author": {
               "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
               "__typename": "User"
             }
           }
@@ -402593,7 +402650,7 @@
     },
     "17583": {
       "number": 17583,
-      "updatedAt": "2026-10-30T22:18:07Z",
+      "updatedAt": "2026-11-01T15:54:01Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -402611,7 +402668,7 @@
     },
     "17584": {
       "number": 17584,
-      "updatedAt": "2026-10-30T21:45:57Z",
+      "updatedAt": "2026-11-01T15:54:02Z",
       "merged": false,
       "author": {
         "login": "ali-vercel",
@@ -402629,7 +402686,7 @@
     },
     "17585": {
       "number": 17585,
-      "updatedAt": "2026-10-30T21:47:28Z",
+      "updatedAt": "2026-11-01T15:54:15Z",
       "merged": false,
       "author": {
         "login": "ali-vercel",
@@ -402683,11 +402740,107 @@
     },
     "17590": {
       "number": 17590,
-      "updatedAt": "2026-10-31T07:34:39Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T15:24:43Z",
+      "merged": true,
       "author": {
         "login": "clean99",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "17591": {
+      "number": 17591,
+      "updatedAt": "2026-11-01T04:35:10Z",
+      "merged": false,
+      "author": {
+        "login": "praveen-kumary",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 2
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "17592": {
+      "number": 17592,
+      "updatedAt": "2026-11-01T15:46:50Z",
+      "merged": false,
+      "author": {
+        "login": "praveen-kumary",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "17593": {
+      "number": 17593,
+      "updatedAt": "2026-11-01T05:35:48Z",
+      "merged": false,
+      "author": {
+        "login": "praveen-kumary",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "vercel",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "17596": {
+      "number": 17596,
+      "updatedAt": "2026-11-01T15:18:21Z",
+      "merged": false,
+      "author": {
+        "login": "svelte-triage-bot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 1

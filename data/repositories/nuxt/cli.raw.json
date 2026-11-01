@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T08:44:27.655Z",
+    "lastRunAt": "2026-11-01T15:52:02.575Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0xNVQxMzowNDoyOFrOSggPtw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12678,6 +12678,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1649": {
+      "number": 1649,
+      "user": {
+        "login": "paoValle",
+        "type": "User"
+      }
+    },
+    "1650": {
+      "number": 1650,
+      "user": {
+        "login": "onmax",
+        "type": "User"
       }
     }
   },
@@ -44231,11 +44245,47 @@
     },
     "1648": {
       "number": 1648,
-      "updatedAt": "2026-10-31T02:51:58Z",
+      "updatedAt": "2026-11-01T02:38:51Z",
       "merged": false,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1649": {
+      "number": 1649,
+      "updatedAt": "2026-10-31T14:16:03Z",
+      "merged": false,
+      "author": {
+        "login": "paoValle",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1650": {
+      "number": 1650,
+      "updatedAt": "2026-11-01T11:21:58Z",
+      "merged": false,
+      "author": {
+        "login": "onmax",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
