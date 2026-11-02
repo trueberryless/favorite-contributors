@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T22:47:06.024Z",
+    "lastRunAt": "2026-11-02T04:50:54.860Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0wOVQxNjoxOTozMFrOaSX4Ew==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5461,6 +5461,20 @@
     },
     "715": {
       "number": 715,
+      "user": {
+        "login": "dyc3",
+        "type": "User"
+      }
+    },
+    "716": {
+      "number": 716,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "717": {
+      "number": 717,
       "user": {
         "login": "dyc3",
         "type": "User"
@@ -21163,7 +21177,7 @@
     },
     "712": {
       "number": 712,
-      "updatedAt": "2026-10-16T15:40:41Z",
+      "updatedAt": "2026-11-01T19:23:36Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -21217,8 +21231,8 @@
     },
     "715": {
       "number": 715,
-      "updatedAt": "2026-10-31T21:10:13Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T04:41:31Z",
+      "merged": true,
       "author": {
         "login": "dyc3",
         "__typename": "User"
@@ -21230,7 +21244,59 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "716": {
+      "number": 716,
+      "updatedAt": "2026-10-31T22:54:09Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "717": {
+      "number": 717,
+      "updatedAt": "2026-11-01T19:13:40Z",
+      "merged": true,
+      "author": {
+        "login": "dyc3",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-10-31T22:47:04.460Z",
+    "lastRunAt": "2026-11-02T04:50:53.218Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMC0wMVQxNTo1MjozNFrOW5yFFQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3517,6 +3517,20 @@
     },
     "500": {
       "number": 500,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "501": {
+      "number": 501,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "502": {
+      "number": 502,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -12385,6 +12399,42 @@
       "number": 500,
       "updatedAt": "2026-10-31T04:47:27Z",
       "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "501": {
+      "number": 501,
+      "updatedAt": "2026-11-01T03:25:01Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "502": {
+      "number": 502,
+      "updatedAt": "2026-11-02T02:59:35Z",
+      "merged": false,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
