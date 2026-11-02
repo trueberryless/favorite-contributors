@@ -1,0 +1,20 @@
+name: Opt out
+description: Remove your GitHub account from all data in this repository.
+title: "Opt-out request"
+labels: ["opt-out"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submitting this issue removes **the GitHub account that opens it** from all data in this repository and on the website. Requests can only be made for your own account.
+
+        A workflow adds a SHA-256 hash of your lowercased username to [`data/excluded-users.json`](../blob/main/data/excluded-users.json). Your username itself is never written to that list. The next data sync removes your profile and stats, your username will never be collected again, and the git history is squashed within a week.
+
+        You can ask for this issue to be deleted after it has been processed.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I want my GitHub account to be removed from this project's data.
+          required: true

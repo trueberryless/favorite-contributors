@@ -1,0 +1,124 @@
+---
+export interface Props {
+  aggregatedStats: {
+    score: number;
+    mergedPrs: number;
+    reviews: number;
+    reviewsReceived: number;
+    issuesLinked: number;
+    reactions: number;
+  };
+}
+
+const { aggregatedStats } = Astro.props;
+---
+
+<section class="stats-section fade-in" style="animation-delay: 100ms;">
+  <div class="section-heading">All-Time Global Stats</div>
+  <div class="stats-grid">
+    <div class="stat-box primary">
+      <span class="stat-label">Total Score</span>
+      <span class="stat-value">{aggregatedStats.score.toLocaleString()}</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-label">Merged PRs</span>
+      <span class="stat-value">{aggregatedStats.mergedPrs.toLocaleString()}</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-label">Reviews</span>
+      <span class="stat-value">{aggregatedStats.reviews.toLocaleString()}</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-label">Issues</span>
+      <span class="stat-value">{aggregatedStats.issuesLinked.toLocaleString()}</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-label">Reactions</span>
+      <span class="stat-value">{aggregatedStats.reactions.toLocaleString()}</span>
+    </div>
+  </div>
+</section>
+
+<style>
+  .stats-section {
+    margin-bottom: 4rem;
+  }
+  .section-heading {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section-heading::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: var(--card-border);
+    opacity: 0.5;
+  }
+  .stats-grid {
+    display: grid;
+    /* Increased min-width so the boxes wrap instead of squeezing the content */
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  .stat-box {
+    background: var(--card-bg);
+    padding: 1.25rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 4px var(--shadow-color);
+    overflow: hidden;
+  }
+  .stat-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow-color);
+  }
+  .stat-box.primary {
+    background: var(--primary-gradient);
+    border: none;
+  }
+  .stat-box.primary .stat-label {
+    color: var(--accent-text);
+    opacity: 0.8;
+  }
+  .stat-box.primary .stat-value {
+    color: var(--accent-text);
+  }
+  .stat-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .stat-value {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-weight: 500;
+    line-height: 1;
+    color: var(--text-color);
+    font-family: var(--font-mono);
+    letter-spacing: -0.02em;
+    white-space: nowrap; /* Prevents the number from wrapping */
+  }
+
+  @media (min-width: 640px) {
+    .stats-grid {
+      gap: 1.25rem;
+    }
+    .stat-box {
+      padding: 1.75rem 1.5rem;
+    }
+  }
+</style>

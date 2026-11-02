@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import Leaderboard from "../components/Leaderboard.astro";
+import type { Contributor } from "../schema";
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const contributors: { data: Contributor }[] = await getCollection("contributors");
+
+  const ranked = contributors
+    .map((c) => ({
+      username: c.data.username,
+      stats: c.data.aggregatedStats,
+    }))
+    .sort((a, b) => b.stats.score - a.stats.score);
+
+  return paginate(ranked, { pageSize: 50 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+
+<Layout title="Global Leaderboard">
+  <div class="container fade-in">
+    <Leaderboard page={page} />
+  </div>
+</Layout>
+
+<style>
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+  }
+</style>

@@ -1,0 +1,57 @@
+---
+import { execSync } from 'child_process';
+
+const year = new Date().getFullYear();
+let fullCommitHash = '';
+let shortCommitHash = '';
+let repoUrl = 'https://github.com/trueberryless/favorite-contributors';
+
+if (import.meta.env.DEV) {
+  shortCommitHash = 'dev';
+} else {
+  try {
+    fullCommitHash = (process.env.COMMIT_REF || execSync('git rev-parse HEAD').toString()).trim();
+    shortCommitHash = fullCommitHash.substring(0, 7);
+    repoUrl = `https://github.com/trueberryless/favorite-contributors/commit/${fullCommitHash}`;
+  } catch (e) {
+    shortCommitHash = 'unknown';
+  }
+}
+---
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>This site is powered by <a href="https://astro.build" target="_blank" rel="noopener noreferrer">Astro</a> and <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a></p>
+    <p>&copy; {year} Felix Schneider (<a href={repoUrl} target="_blank" rel="noopener noreferrer">{shortCommitHash}</a>)</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--card-bg);
+    border-top: 1px solid var(--card-border);
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    color: var(--text-muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    transition: color 0.15s ease;
+  }
+  a:hover {
+    color: var(--text-color);
+  }
+</style>
