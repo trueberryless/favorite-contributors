@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T15:51:59.931Z",
+    "lastRunAt": "2026-11-02T22:29:17.537Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QxMDo0MjowMlrOL1qvRA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5851,6 +5851,13 @@
     },
     "807": {
       "number": 807,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "808": {
+      "number": 808,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -21106,7 +21113,7 @@
     },
     "794": {
       "number": 794,
-      "updatedAt": "2026-11-01T14:41:59Z",
+      "updatedAt": "2026-11-02T13:41:13Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21228,7 +21235,7 @@
     },
     "799": {
       "number": 799,
-      "updatedAt": "2026-10-26T20:20:26Z",
+      "updatedAt": "2026-11-02T13:41:29Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21298,7 +21305,7 @@
     },
     "803": {
       "number": 803,
-      "updatedAt": "2026-11-01T14:41:24Z",
+      "updatedAt": "2026-11-02T13:40:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21316,7 +21323,7 @@
     },
     "804": {
       "number": 804,
-      "updatedAt": "2026-10-26T20:29:41Z",
+      "updatedAt": "2026-11-02T13:42:39Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21370,7 +21377,7 @@
     },
     "807": {
       "number": 807,
-      "updatedAt": "2026-11-01T14:40:44Z",
+      "updatedAt": "2026-11-02T13:40:10Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21384,6 +21391,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "808": {
+      "number": 808,
+      "updatedAt": "2026-11-02T13:38:28Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

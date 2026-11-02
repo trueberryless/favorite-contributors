@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T15:52:04.997Z",
+    "lastRunAt": "2026-11-02T22:29:23.034Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0xOVQyMzoyOTo0OFrOZ1J0_g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7052,6 +7052,20 @@
       "user": {
         "login": "stambolievv",
         "type": "User"
+      }
+    },
+    "963": {
+      "number": 963,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "964": {
+      "number": 964,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -26112,7 +26126,7 @@
     },
     "955": {
       "number": 955,
-      "updatedAt": "2026-11-01T14:37:15Z",
+      "updatedAt": "2026-11-02T13:48:28Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26130,7 +26144,7 @@
     },
     "956": {
       "number": 956,
-      "updatedAt": "2026-10-29T23:04:11Z",
+      "updatedAt": "2026-11-02T13:48:33Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26207,7 +26221,7 @@
     },
     "960": {
       "number": 960,
-      "updatedAt": "2026-10-30T11:26:56Z",
+      "updatedAt": "2026-11-02T13:45:27Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -26239,6 +26253,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "963": {
+      "number": 963,
+      "updatedAt": "2026-11-02T13:48:15Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "964": {
+      "number": 964,
+      "updatedAt": "2026-11-02T13:44:59Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

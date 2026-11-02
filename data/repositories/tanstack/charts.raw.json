@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T08:53:05.846Z",
+    "lastRunAt": "2026-11-02T22:26:29.480Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yOVQwMToyMzowMVrO97ywkQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1761,6 +1761,13 @@
       "user": {
         "login": "Dgwun",
         "type": "User"
+      }
+    },
+    "249": {
+      "number": 249,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -5210,8 +5217,8 @@
     },
     "163": {
       "number": 163,
-      "updatedAt": "2026-10-16T11:33:29Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T04:05:21Z",
+      "merged": true,
       "author": {
         "login": "greglum",
         "__typename": "User"
@@ -5246,7 +5253,7 @@
     },
     "165": {
       "number": 165,
-      "updatedAt": "2026-10-14T09:55:19Z",
+      "updatedAt": "2026-11-02T22:03:28Z",
       "merged": false,
       "author": {
         "login": "greglum",
@@ -5527,8 +5534,8 @@
     },
     "220": {
       "number": 220,
-      "updatedAt": "2026-10-23T05:16:38Z",
-      "merged": false,
+      "updatedAt": "2026-11-01T22:25:06Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -6029,8 +6036,8 @@
     },
     "245": {
       "number": 245,
-      "updatedAt": "2026-10-28T18:44:45Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T22:21:32Z",
+      "merged": true,
       "author": {
         "login": "ryansolid",
         "__typename": "User"
@@ -6042,7 +6049,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nx-cloud",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "246": {
@@ -6069,6 +6084,24 @@
             }
           }
         ]
+      }
+    },
+    "249": {
+      "number": 249,
+      "updatedAt": "2026-11-02T22:01:14Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

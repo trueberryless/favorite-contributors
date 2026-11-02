@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T08:53:03.361Z",
+    "lastRunAt": "2026-11-02T22:26:25.967Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNy0yNlQxNToxNTozMVrOoLJpDw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3770,6 +3770,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "560": {
+      "number": 560,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "561": {
+      "number": 561,
+      "user": {
+        "login": "dbritto-dev",
+        "type": "User"
       }
     }
   },
@@ -8717,7 +8731,7 @@
     },
     "290": {
       "number": 290,
-      "updatedAt": "2026-10-31T06:03:39Z",
+      "updatedAt": "2026-11-02T19:41:09Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -13001,7 +13015,7 @@
     },
     "520": {
       "number": 520,
-      "updatedAt": "2026-10-26T16:16:37Z",
+      "updatedAt": "2026-11-02T19:36:59Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -13806,6 +13820,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "560": {
+      "number": 560,
+      "updatedAt": "2026-11-02T19:51:58Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "561": {
+      "number": 561,
+      "updatedAt": "2026-11-02T15:13:28Z",
+      "merged": false,
+      "author": {
+        "login": "dbritto-dev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

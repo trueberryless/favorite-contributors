@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T15:52:04.205Z",
+    "lastRunAt": "2026-11-02T22:29:21.903Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0xOFQxMDo1MDoxNVrOWonZIw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2571,6 +2571,20 @@
     },
     "360": {
       "number": 360,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "361": {
+      "number": 361,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "362": {
+      "number": 362,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -11062,7 +11076,7 @@
     },
     "357": {
       "number": 357,
-      "updatedAt": "2026-11-01T14:36:07Z",
+      "updatedAt": "2026-11-02T13:54:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -11132,7 +11146,51 @@
     },
     "360": {
       "number": 360,
-      "updatedAt": "2026-10-30T23:37:41Z",
+      "updatedAt": "2026-11-02T13:41:24Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "361": {
+      "number": 361,
+      "updatedAt": "2026-11-02T13:57:50Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "362": {
+      "number": 362,
+      "updatedAt": "2026-11-02T13:48:44Z",
       "merged": false,
       "author": {
         "login": "renovate",

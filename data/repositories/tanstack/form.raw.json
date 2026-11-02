@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T08:52:58.959Z",
+    "lastRunAt": "2026-11-02T22:26:20.591Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15587,6 +15587,27 @@
       "number": 2460,
       "user": {
         "login": "awdr74100",
+        "type": "User"
+      }
+    },
+    "2461": {
+      "number": 2461,
+      "user": {
+        "login": "roux-lon",
+        "type": "User"
+      }
+    },
+    "2462": {
+      "number": 2462,
+      "user": {
+        "login": "vincent-capicotto-payfit",
+        "type": "User"
+      }
+    },
+    "2463": {
+      "number": 2463,
+      "user": {
+        "login": "lachlancollins",
         "type": "User"
       }
     }
@@ -39015,7 +39036,7 @@
     },
     "2047": {
       "number": 2047,
-      "updatedAt": "2026-02-18T15:55:04Z",
+      "updatedAt": "2026-11-02T14:40:00Z",
       "merged": false,
       "author": {
         "login": "AdrianLea",
@@ -46268,7 +46289,7 @@
     },
     "2435": {
       "number": 2435,
-      "updatedAt": "2026-10-29T12:50:19Z",
+      "updatedAt": "2026-11-02T13:15:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -46798,8 +46819,8 @@
     },
     "2458": {
       "number": 2458,
-      "updatedAt": "2026-10-30T17:31:31Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T13:06:50Z",
+      "merged": true,
       "author": {
         "login": "harry-whorlow",
         "__typename": "User"
@@ -46881,6 +46902,71 @@
             }
           }
         ]
+      }
+    },
+    "2461": {
+      "number": 2461,
+      "updatedAt": "2026-11-02T07:48:46Z",
+      "merged": false,
+      "author": {
+        "login": "roux-lon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "roux-lon",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2463": {
+      "number": 2463,
+      "updatedAt": "2026-11-02T22:15:45Z",
+      "merged": false,
+      "author": {
+        "login": "lachlancollins",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

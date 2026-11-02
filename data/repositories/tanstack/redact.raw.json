@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T08:53:04.583Z",
+    "lastRunAt": "2026-11-02T22:26:28.035Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNC0yMVQwMDo1NDoxOFrO1CVDJQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -123,6 +123,9 @@
       "user": {
         "login": "doeixd",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "18": {
@@ -307,6 +310,13 @@
       "number": 43,
       "user": {
         "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "44": {
+      "number": 44,
+      "user": {
+        "login": "benjavicente",
         "type": "User"
       }
     },
@@ -559,6 +569,9 @@
       "user": {
         "login": "yanissrairi",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "80": {
@@ -884,6 +897,90 @@
       "user": {
         "login": "azizbecha",
         "type": "User"
+      }
+    },
+    "123": {
+      "number": 123,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "124": {
+      "number": 124,
+      "user": {
+        "login": "yslpn",
+        "type": "User"
+      }
+    },
+    "125": {
+      "number": 125,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "126": {
+      "number": 126,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "127": {
+      "number": 127,
+      "user": {
+        "login": "Michael-1",
+        "type": "User"
+      }
+    },
+    "128": {
+      "number": 128,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "129": {
+      "number": 129,
+      "user": {
+        "login": "yanissrairi",
+        "type": "User"
+      }
+    },
+    "130": {
+      "number": 130,
+      "user": {
+        "login": "yanissrairi",
+        "type": "User"
+      }
+    },
+    "131": {
+      "number": 131,
+      "user": {
+        "login": "wiesson",
+        "type": "User"
+      }
+    },
+    "132": {
+      "number": 132,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "133": {
+      "number": 133,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "134": {
+      "number": 134,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -1720,7 +1817,7 @@
     },
     "45": {
       "number": 45,
-      "updatedAt": "2026-10-23T21:50:53Z",
+      "updatedAt": "2026-11-02T12:55:06Z",
       "merged": false,
       "author": {
         "login": "benjavicente",
@@ -2587,8 +2684,8 @@
     },
     "109": {
       "number": 109,
-      "updatedAt": "2026-10-28T19:35:48Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T20:55:46Z",
+      "merged": true,
       "author": {
         "login": "BleedingDev",
         "__typename": "User"
@@ -2600,7 +2697,15 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "110": {
@@ -2790,7 +2895,7 @@
     },
     "122": {
       "number": 122,
-      "updatedAt": "2026-10-31T21:35:42Z",
+      "updatedAt": "2026-11-01T14:52:02Z",
       "merged": false,
       "author": {
         "login": "azizbecha",
@@ -2798,6 +2903,214 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "123": {
+      "number": 123,
+      "updatedAt": "2026-11-01T21:14:12Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "tannerlinsley",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "tannerlinsley",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "125": {
+      "number": 125,
+      "updatedAt": "2026-11-01T22:12:52Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "126": {
+      "number": 126,
+      "updatedAt": "2026-11-02T09:55:44Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "128": {
+      "number": 128,
+      "updatedAt": "2026-11-02T08:44:04Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "132": {
+      "number": 132,
+      "updatedAt": "2026-11-02T22:20:49Z",
+      "merged": false,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "tannerlinsley",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "133": {
+      "number": 133,
+      "updatedAt": "2026-11-02T19:35:03Z",
+      "merged": false,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 5
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "134": {
+      "number": 134,
+      "updatedAt": "2026-11-02T21:35:56Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

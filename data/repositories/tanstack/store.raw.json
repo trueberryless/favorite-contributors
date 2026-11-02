@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T08:53:01.206Z",
+    "lastRunAt": "2026-11-02T22:26:23.353Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2764,6 +2764,13 @@
       "number": 404,
       "user": {
         "login": "ryansolid",
+        "type": "User"
+      }
+    },
+    "405": {
+      "number": 405,
+      "user": {
+        "login": "tannerlinsley",
         "type": "User"
       }
     }
@@ -10441,6 +10448,24 @@
             }
           }
         ]
+      }
+    },
+    "405": {
+      "number": 405,
+      "updatedAt": "2026-11-02T22:15:51Z",
+      "merged": false,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
