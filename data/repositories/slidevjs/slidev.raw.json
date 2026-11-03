@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T15:53:32.108Z",
+    "lastRunAt": "2026-11-03T03:39:06.086Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNS0wNVQwODoxODozM1rOJZLi4w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -19165,6 +19165,48 @@
       "number": 2809,
       "user": {
         "login": "erikzaadi",
+        "type": "User"
+      }
+    },
+    "2810": {
+      "number": 2810,
+      "user": {
+        "login": "erikzaadi",
+        "type": "User"
+      }
+    },
+    "2811": {
+      "number": 2811,
+      "user": {
+        "login": "oller",
+        "type": "User"
+      }
+    },
+    "2812": {
+      "number": 2812,
+      "user": {
+        "login": "vafl",
+        "type": "User"
+      }
+    },
+    "2813": {
+      "number": 2813,
+      "user": {
+        "login": "Anushka1205",
+        "type": "User"
+      }
+    },
+    "2814": {
+      "number": 2814,
+      "user": {
+        "login": "lukeed",
+        "type": "User"
+      }
+    },
+    "2815": {
+      "number": 2815,
+      "user": {
+        "login": "RTRowe",
         "type": "User"
       }
     }
@@ -38736,7 +38778,7 @@
     },
     "2379": {
       "number": 2379,
-      "updatedAt": "2026-04-28T02:34:23Z",
+      "updatedAt": "2026-11-02T06:15:23Z",
       "merged": false,
       "author": {
         "login": "elecmonkey",
@@ -44117,10 +44159,134 @@
     },
     "2809": {
       "number": 2809,
-      "updatedAt": "2026-11-01T10:46:34Z",
+      "updatedAt": "2026-11-01T20:02:34Z",
       "merged": false,
       "author": {
         "login": "erikzaadi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2810": {
+      "number": 2810,
+      "updatedAt": "2026-11-01T20:02:32Z",
+      "merged": false,
+      "author": {
+        "login": "erikzaadi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2811": {
+      "number": 2811,
+      "updatedAt": "2026-11-02T20:39:36Z",
+      "merged": false,
+      "author": {
+        "login": "oller",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "oller",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2812": {
+      "number": 2812,
+      "updatedAt": "2026-11-02T10:56:25Z",
+      "merged": false,
+      "author": {
+        "login": "vafl",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "c-harding",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2813": {
+      "number": 2813,
+      "updatedAt": "2026-11-02T12:35:35Z",
+      "merged": false,
+      "author": {
+        "login": "Anushka1205",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2814": {
+      "number": 2814,
+      "updatedAt": "2026-11-02T20:25:16Z",
+      "merged": false,
+      "author": {
+        "login": "lukeed",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2815": {
+      "number": 2815,
+      "updatedAt": "2026-11-03T01:34:04Z",
+      "merged": false,
+      "author": {
+        "login": "RTRowe",
         "__typename": "User"
       },
       "closingIssuesReferences": {

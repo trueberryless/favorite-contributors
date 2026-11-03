@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T20:17:24.101Z",
+    "lastRunAt": "2026-11-03T03:40:34.122Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wMi0wNVQyMzozNzoxNlrOIeFqJw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12333,6 +12333,13 @@
       "number": 1767,
       "user": {
         "login": "docschina-bot",
+        "type": "User"
+      }
+    },
+    "1768": {
+      "number": 1768,
+      "user": {
+        "login": "dogledogle",
         "type": "User"
       }
     }
@@ -46483,7 +46490,7 @@
     },
     "1749": {
       "number": 1749,
-      "updatedAt": "2026-08-26T04:20:04Z",
+      "updatedAt": "2026-11-03T03:12:02Z",
       "merged": false,
       "author": {
         "login": "zhouzhiouhub",
@@ -46735,7 +46742,7 @@
     },
     "1763": {
       "number": 1763,
-      "updatedAt": "2026-10-01T06:53:07Z",
+      "updatedAt": "2026-11-03T03:11:03Z",
       "merged": false,
       "author": {
         "login": "mdong1909",
@@ -46807,10 +46814,36 @@
     },
     "1767": {
       "number": 1767,
-      "updatedAt": "2026-11-01T01:55:38Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T03:09:09Z",
+      "merged": true,
       "author": {
         "login": "docschina-bot",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dogledogle",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1768": {
+      "number": 1768,
+      "updatedAt": "2026-11-03T03:14:09Z",
+      "merged": true,
+      "author": {
+        "login": "dogledogle",
         "__typename": "User"
       },
       "closingIssuesReferences": {

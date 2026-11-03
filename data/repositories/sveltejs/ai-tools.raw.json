@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T15:54:28.862Z",
+    "lastRunAt": "2026-11-03T03:39:55.688Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2225,6 +2225,34 @@
       "number": 309,
       "user": {
         "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "310": {
+      "number": 310,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "311": {
+      "number": 311,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "312": {
+      "number": 312,
+      "user": {
+        "login": "zFl4wless",
+        "type": "User"
+      }
+    },
+    "313": {
+      "number": 313,
+      "user": {
+        "login": "magicjaqk",
         "type": "User"
       }
     }
@@ -5959,7 +5987,7 @@
     },
     "150": {
       "number": 150,
-      "updatedAt": "2026-10-31T21:45:52Z",
+      "updatedAt": "2026-11-02T18:57:33Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -9668,7 +9696,7 @@
     },
     "308": {
       "number": 308,
-      "updatedAt": "2026-10-29T16:46:11Z",
+      "updatedAt": "2026-11-02T19:36:13Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -9676,6 +9704,76 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "310": {
+      "number": 310,
+      "updatedAt": "2026-11-02T09:22:27Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "311": {
+      "number": 311,
+      "updatedAt": "2026-11-02T19:34:21Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "elliott-with-the-longest-name-on-github",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "312": {
+      "number": 312,
+      "updatedAt": "2026-11-02T21:54:37Z",
+      "merged": false,
+      "author": {
+        "login": "zFl4wless",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
