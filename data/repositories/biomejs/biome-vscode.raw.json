@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-02T04:50:53.220Z",
+    "lastRunAt": "2026-11-03T19:15:30.077Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0wNVQxNzowMjo1NFrOXm0cPA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7971,6 +7971,9 @@
       "user": {
         "login": "nhedger",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "1200": {
@@ -7985,6 +7988,27 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1202": {
+      "number": 1202,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1203": {
+      "number": 1203,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1204": {
+      "number": 1204,
+      "user": {
+        "login": "honzachalupa",
+        "type": "User"
       }
     }
   },
@@ -24215,8 +24239,8 @@
     },
     "1198": {
       "number": 1198,
-      "updatedAt": "2026-10-26T20:15:03Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T09:18:52Z",
+      "merged": true,
       "author": {
         "login": "nhedger",
         "__typename": "User"
@@ -24241,17 +24265,17 @@
     },
     "1199": {
       "number": 1199,
-      "updatedAt": "2026-10-28T07:30:30Z",
+      "updatedAt": "2026-11-03T14:52:40Z",
       "merged": false,
       "author": {
         "login": "nhedger",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -24259,8 +24283,8 @@
     },
     "1200": {
       "number": 1200,
-      "updatedAt": "2026-11-02T02:59:49Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T08:49:04Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -24277,8 +24301,44 @@
     },
     "1201": {
       "number": 1201,
-      "updatedAt": "2026-11-02T02:59:56Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T08:49:40Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1202": {
+      "number": 1202,
+      "updatedAt": "2026-11-02T08:49:16Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1203": {
+      "number": 1203,
+      "updatedAt": "2026-11-02T08:49:29Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"

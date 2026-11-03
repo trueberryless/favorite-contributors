@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T23:49:21.621Z",
+    "lastRunAt": "2026-11-03T19:12:08.433Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0wMlQyMDo1NDozOVrOpl321A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2291,6 +2291,20 @@
       "user": {
         "login": "goulvenclech",
         "type": "User"
+      }
+    },
+    "379": {
+      "number": 379,
+      "user": {
+        "login": "goulvenclech",
+        "type": "User"
+      }
+    },
+    "380": {
+      "number": 380,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -8300,6 +8314,50 @@
             }
           }
         ]
+      }
+    },
+    "379": {
+      "number": 379,
+      "updatedAt": "2026-11-02T11:48:07Z",
+      "merged": true,
+      "author": {
+        "login": "goulvenclech",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "380": {
+      "number": 380,
+      "updatedAt": "2026-11-02T10:07:13Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
