@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T20:19:06.017Z",
+    "lastRunAt": "2026-11-03T11:41:40.061Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13979,6 +13979,13 @@
       "number": 3203,
       "user": {
         "login": "NgoQuocViet2001",
+        "type": "User"
+      }
+    },
+    "3205": {
+      "number": 3205,
+      "user": {
+        "login": "boyfeiyu",
         "type": "User"
       }
     }
@@ -39270,8 +39277,8 @@
     },
     "3203": {
       "number": 3203,
-      "updatedAt": "2026-10-24T14:06:31Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T00:15:47Z",
+      "merged": true,
       "author": {
         "login": "NgoQuocViet2001",
         "__typename": "User"
@@ -39283,7 +39290,69 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3205": {
+      "number": 3205,
+      "updatedAt": "2026-11-03T00:48:17Z",
+      "merged": false,
+      "author": {
+        "login": "boyfeiyu",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

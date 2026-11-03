@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-01T20:19:03.879Z",
+    "lastRunAt": "2026-11-03T11:41:37.376Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18046,6 +18046,27 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "2869": {
+      "number": 2869,
+      "user": {
+        "login": "dieterstemmet",
+        "type": "User"
+      }
+    },
+    "2870": {
+      "number": 2870,
+      "user": {
+        "login": "onmax",
+        "type": "User"
+      }
+    },
+    "2871": {
+      "number": 2871,
+      "user": {
+        "login": "onmax",
+        "type": "User"
       }
     }
   },
@@ -47593,7 +47614,7 @@
     },
     "2717": {
       "number": 2717,
-      "updatedAt": "2026-07-16T09:41:36Z",
+      "updatedAt": "2026-11-02T23:51:20Z",
       "merged": false,
       "author": {
         "login": "gluebi",
@@ -47626,6 +47647,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
             }
           }
         ]
@@ -47783,7 +47811,7 @@
     },
     "2726": {
       "number": 2726,
-      "updatedAt": "2026-07-16T09:41:36Z",
+      "updatedAt": "2026-11-02T23:47:21Z",
       "merged": false,
       "author": {
         "login": "spokodev",
@@ -50299,7 +50327,7 @@
     },
     "2859": {
       "number": 2859,
-      "updatedAt": "2026-10-20T15:32:24Z",
+      "updatedAt": "2026-11-03T00:17:47Z",
       "merged": false,
       "author": {
         "login": "mkantautas",
@@ -50382,7 +50410,7 @@
     },
     "2862": {
       "number": 2862,
-      "updatedAt": "2026-10-26T17:41:56Z",
+      "updatedAt": "2026-11-03T00:20:40Z",
       "merged": false,
       "author": {
         "login": "Mini-ghost",
@@ -50395,13 +50423,28 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "2863": {
       "number": 2863,
-      "updatedAt": "2026-10-27T16:42:15Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T23:54:46Z",
+      "merged": true,
       "author": {
         "login": "Seybel",
         "__typename": "User"
@@ -50448,13 +50491,20 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "2864": {
       "number": 2864,
-      "updatedAt": "2026-10-28T13:18:37Z",
+      "updatedAt": "2026-11-02T23:47:25Z",
       "merged": false,
       "author": {
         "login": "MFA-G",
@@ -50520,8 +50570,8 @@
     },
     "2866": {
       "number": 2866,
-      "updatedAt": "2026-11-01T16:09:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T23:31:46Z",
+      "merged": true,
       "author": {
         "login": "bfrontend",
         "__typename": "User"
@@ -50540,14 +50590,21 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "2867": {
       "number": 2867,
-      "updatedAt": "2026-11-01T17:36:53Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T23:28:04Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -50560,6 +50617,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2869": {
+      "number": 2869,
+      "updatedAt": "2026-11-02T23:42:37Z",
+      "merged": false,
+      "author": {
+        "login": "dieterstemmet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
