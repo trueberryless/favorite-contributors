@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-02T22:26:28.983Z",
+    "lastRunAt": "2026-11-04T06:55:59.700Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNy0yNlQxNjoxNzozNVrO9pQaTg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -413,6 +413,41 @@
       "user": {
         "login": "tannerlinsley",
         "type": "User"
+      }
+    },
+    "63": {
+      "number": 63,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "64": {
+      "number": 64,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "65": {
+      "number": 65,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "66": {
+      "number": 66,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "67": {
+      "number": 67,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -834,8 +869,8 @@
     },
     "24": {
       "number": 24,
-      "updatedAt": "2026-10-01T14:34:01Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T18:14:06Z",
+      "merged": true,
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
@@ -852,8 +887,8 @@
     },
     "25": {
       "number": 25,
-      "updatedAt": "2026-11-02T19:33:45Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T19:09:45Z",
+      "merged": true,
       "author": {
         "login": "M-Hassan-Raza",
         "__typename": "User"
@@ -972,8 +1007,8 @@
     },
     "33": {
       "number": 33,
-      "updatedAt": "2026-11-02T19:33:47Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T18:09:21Z",
+      "merged": true,
       "author": {
         "login": "kahwee",
         "__typename": "User"
@@ -990,7 +1025,7 @@
     },
     "36": {
       "number": 36,
-      "updatedAt": "2026-10-21T14:22:26Z",
+      "updatedAt": "2026-11-03T18:16:19Z",
       "merged": false,
       "author": {
         "login": "DreierF",
@@ -1015,6 +1050,27 @@
             "state": "COMMENTED",
             "author": {
               "login": "DreierF",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "tannerlinsley",
               "__typename": "User"
             }
           },
@@ -1092,8 +1148,8 @@
     },
     "40": {
       "number": 40,
-      "updatedAt": "2026-11-02T19:33:49Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T18:23:20Z",
+      "merged": true,
       "author": {
         "login": "jeremy-code",
         "__typename": "User"
@@ -1106,6 +1162,20 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "tannerlinsley",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -1502,8 +1572,8 @@
     },
     "61": {
       "number": 61,
-      "updatedAt": "2026-11-02T19:42:38Z",
-      "merged": false,
+      "updatedAt": "2026-11-02T23:52:51Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -1542,6 +1612,112 @@
             }
           }
         ]
+      }
+    },
+    "63": {
+      "number": 63,
+      "updatedAt": "2026-11-02T23:43:02Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "64": {
+      "number": 64,
+      "updatedAt": "2026-11-03T01:14:33Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "65": {
+      "number": 65,
+      "updatedAt": "2026-11-03T01:21:16Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "66": {
+      "number": 66,
+      "updatedAt": "2026-11-03T06:11:39Z",
+      "merged": false,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "67": {
+      "number": 67,
+      "updatedAt": "2026-11-03T19:16:33Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

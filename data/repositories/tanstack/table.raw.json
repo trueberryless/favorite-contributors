@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-02T22:26:20.591Z",
+    "lastRunAt": "2026-11-04T06:55:52.510Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33573,6 +33573,13 @@
       "number": 6645,
       "user": {
         "login": "lachlancollins",
+        "type": "User"
+      }
+    },
+    "6648": {
+      "number": 6648,
+      "user": {
+        "login": "ryansolid",
         "type": "User"
       }
     }
@@ -74967,6 +74974,32 @@
             "state": "COMMENTED",
             "author": {
               "login": "nx-cloud",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "6648": {
+      "number": 6648,
+      "updatedAt": "2026-11-03T17:50:13Z",
+      "merged": false,
+      "author": {
+        "login": "ryansolid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
               "__typename": "Bot"
             }
           }
