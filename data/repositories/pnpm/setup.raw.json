@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-03T03:38:29.527Z",
+    "lastRunAt": "2026-11-04T15:15:09.393Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -811,6 +811,20 @@
       "number": 97,
       "user": {
         "login": "joelschou",
+        "type": "User"
+      }
+    },
+    "98": {
+      "number": 98,
+      "user": {
+        "login": "ryoppippi",
+        "type": "User"
+      }
+    },
+    "99": {
+      "number": 99,
+      "user": {
+        "login": "o-l-a-v",
         "type": "User"
       }
     }
@@ -3055,8 +3069,8 @@
     },
     "76": {
       "number": 76,
-      "updatedAt": "2026-11-02T12:10:21Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T10:37:26Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -3068,7 +3082,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "77": {
@@ -3882,7 +3904,7 @@
     },
     "93": {
       "number": 93,
-      "updatedAt": "2026-10-25T01:27:58Z",
+      "updatedAt": "2026-11-03T10:39:43Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -3970,6 +3992,39 @@
       "merged": false,
       "author": {
         "login": "AFCMS",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "98": {
+      "number": 98,
+      "updatedAt": "2026-11-03T04:40:00Z",
+      "merged": false,
+      "author": {
+        "login": "ryoppippi",
         "__typename": "User"
       },
       "closingIssuesReferences": {

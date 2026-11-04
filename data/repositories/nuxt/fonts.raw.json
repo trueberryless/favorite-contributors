@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-02T22:29:23.034Z",
+    "lastRunAt": "2026-11-04T15:14:18.264Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0xOVQyMzoyOTo0OFrOZ1J0_g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -429,7 +429,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 8
+        "total_count": 9
       }
     },
     "58": {
@@ -7066,6 +7066,27 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "965": {
+      "number": 965,
+      "user": {
+        "login": "atinux",
+        "type": "User"
+      }
+    },
+    "966": {
+      "number": 966,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "967": {
+      "number": 967,
+      "user": {
+        "login": "a5768549",
+        "type": "User"
       }
     }
   },
@@ -26126,7 +26147,7 @@
     },
     "955": {
       "number": 955,
-      "updatedAt": "2026-11-02T13:48:28Z",
+      "updatedAt": "2026-11-04T00:06:40Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26221,7 +26242,7 @@
     },
     "960": {
       "number": 960,
-      "updatedAt": "2026-11-02T13:45:27Z",
+      "updatedAt": "2026-11-03T13:45:33Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -26257,7 +26278,7 @@
     },
     "963": {
       "number": 963,
-      "updatedAt": "2026-11-02T13:48:15Z",
+      "updatedAt": "2026-11-03T07:04:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26297,6 +26318,68 @@
             }
           }
         ]
+      }
+    },
+    "965": {
+      "number": 965,
+      "updatedAt": "2026-11-03T13:45:39Z",
+      "merged": true,
+      "author": {
+        "login": "atinux",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "966": {
+      "number": 966,
+      "updatedAt": "2026-11-04T00:11:29Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "967": {
+      "number": 967,
+      "updatedAt": "2026-11-04T05:59:19Z",
+      "merged": false,
+      "author": {
+        "login": "a5768549",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-02T22:29:19.502Z",
+    "lastRunAt": "2026-11-04T15:14:14.151Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xNFQxMzo0NToyN1rON_gp8A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7800,6 +7800,13 @@
       "number": 977,
       "user": {
         "login": "OrbisK",
+        "type": "User"
+      }
+    },
+    "978": {
+      "number": 978,
+      "user": {
+        "login": "harlan-zw",
         "type": "User"
       }
     }
@@ -23020,7 +23027,7 @@
     },
     "951": {
       "number": 951,
-      "updatedAt": "2026-10-28T04:12:23Z",
+      "updatedAt": "2026-11-04T00:10:06Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23038,7 +23045,7 @@
     },
     "952": {
       "number": 952,
-      "updatedAt": "2026-11-02T13:00:40Z",
+      "updatedAt": "2026-11-04T11:41:38Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23437,7 +23444,7 @@
     },
     "971": {
       "number": 971,
-      "updatedAt": "2026-10-27T03:31:49Z",
+      "updatedAt": "2026-11-04T01:37:54Z",
       "merged": false,
       "author": {
         "login": "harlan-zw",
@@ -23499,7 +23506,7 @@
     },
     "975": {
       "number": 975,
-      "updatedAt": "2026-11-02T03:15:38Z",
+      "updatedAt": "2026-11-03T13:09:44Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23517,7 +23524,7 @@
     },
     "976": {
       "number": 976,
-      "updatedAt": "2026-11-02T06:53:40Z",
+      "updatedAt": "2026-11-03T07:05:21Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23531,6 +23538,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "978": {
+      "number": 978,
+      "updatedAt": "2026-11-03T15:24:43Z",
+      "merged": true,
+      "author": {
+        "login": "harlan-zw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
