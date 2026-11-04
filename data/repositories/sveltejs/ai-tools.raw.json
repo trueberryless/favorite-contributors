@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-03T03:39:55.688Z",
+    "lastRunAt": "2026-11-04T21:27:17.873Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2254,6 +2254,27 @@
       "user": {
         "login": "magicjaqk",
         "type": "User"
+      }
+    },
+    "314": {
+      "number": 314,
+      "user": {
+        "login": "RaphaelFakhri",
+        "type": "User"
+      }
+    },
+    "315": {
+      "number": 315,
+      "user": {
+        "login": "RaphaelFakhri",
+        "type": "User"
+      }
+    },
+    "316": {
+      "number": 316,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -5987,7 +6008,7 @@
     },
     "150": {
       "number": 150,
-      "updatedAt": "2026-11-02T18:57:33Z",
+      "updatedAt": "2026-11-03T19:43:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -6237,7 +6258,7 @@
     },
     "159": {
       "number": 159,
-      "updatedAt": "2026-10-30T17:01:09Z",
+      "updatedAt": "2026-11-03T13:28:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -6909,7 +6930,7 @@
     },
     "180": {
       "number": 180,
-      "updatedAt": "2026-10-26T16:26:49Z",
+      "updatedAt": "2026-11-03T13:28:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -7236,7 +7257,7 @@
     },
     "193": {
       "number": 193,
-      "updatedAt": "2026-10-27T21:07:12Z",
+      "updatedAt": "2026-11-03T19:45:22Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -7784,7 +7805,7 @@
     },
     "221": {
       "number": 221,
-      "updatedAt": "2026-10-27T21:06:19Z",
+      "updatedAt": "2026-11-03T13:27:12Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -7871,7 +7892,7 @@
     },
     "227": {
       "number": 227,
-      "updatedAt": "2026-10-27T21:06:13Z",
+      "updatedAt": "2026-11-03T13:27:36Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -8000,7 +8021,7 @@
     },
     "232": {
       "number": 232,
-      "updatedAt": "2026-10-27T21:06:59Z",
+      "updatedAt": "2026-11-03T13:27:44Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -9349,8 +9370,8 @@
     },
     "286": {
       "number": 286,
-      "updatedAt": "2026-10-31T12:43:06Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T13:25:05Z",
+      "merged": true,
       "author": {
         "login": "paoloricciuti",
         "__typename": "User"
@@ -9365,6 +9386,27 @@
         "nodes": [
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "Rich-Harris",
               "__typename": "User"
@@ -9696,8 +9738,8 @@
     },
     "308": {
       "number": 308,
-      "updatedAt": "2026-11-02T19:36:13Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T13:36:01Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -9709,7 +9751,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "310": {
@@ -9766,8 +9816,8 @@
     },
     "312": {
       "number": 312,
-      "updatedAt": "2026-11-02T21:54:37Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T19:44:33Z",
+      "merged": true,
       "author": {
         "login": "zFl4wless",
         "__typename": "User"
@@ -9779,7 +9829,67 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "315": {
+      "number": 315,
+      "updatedAt": "2026-11-03T19:35:29Z",
+      "merged": true,
+      "author": {
+        "login": "RaphaelFakhri",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "316": {
+      "number": 316,
+      "updatedAt": "2026-11-04T15:05:11Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

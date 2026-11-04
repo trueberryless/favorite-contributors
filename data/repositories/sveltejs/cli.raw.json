@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-03T03:39:55.571Z",
+    "lastRunAt": "2026-11-04T21:27:17.768Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10375,7 +10375,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "1417": {
@@ -10584,6 +10584,61 @@
       "number": 1445,
       "user": {
         "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1446": {
+      "number": 1446,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "1447": {
+      "number": 1447,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1448": {
+      "number": 1448,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      }
+    },
+    "1449": {
+      "number": 1449,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1450": {
+      "number": 1450,
+      "user": {
+        "login": "baldazi",
+        "type": "User"
+      }
+    },
+    "1451": {
+      "number": 1451,
+      "user": {
+        "login": "jycouet",
+        "type": "User"
+      }
+    },
+    "1452": {
+      "number": 1452,
+      "user": {
+        "login": "jycouet",
         "type": "User"
       }
     }
@@ -40089,7 +40144,7 @@
     },
     "1434": {
       "number": 1434,
-      "updatedAt": "2026-11-02T13:46:38Z",
+      "updatedAt": "2026-11-04T10:22:14Z",
       "merged": false,
       "author": {
         "login": "pluxain",
@@ -40102,7 +40157,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "pluxain",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1435": {
@@ -40166,8 +40229,8 @@
     },
     "1437": {
       "number": 1437,
-      "updatedAt": "2026-11-01T12:44:28Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T16:51:04Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -40182,6 +40245,13 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "jycouet",
               "__typename": "User"
@@ -40218,8 +40288,8 @@
     },
     "1441": {
       "number": 1441,
-      "updatedAt": "2026-10-31T11:37:29Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T20:36:16Z",
+      "merged": true,
       "author": {
         "login": "jycouet",
         "__typename": "User"
@@ -40231,13 +40301,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1443": {
       "number": 1443,
-      "updatedAt": "2026-10-31T21:38:19Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T18:09:15Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -40262,8 +40340,8 @@
     },
     "1444": {
       "number": 1444,
-      "updatedAt": "2026-11-01T12:44:36Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T18:09:16Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -40275,12 +40353,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1445": {
       "number": 1445,
-      "updatedAt": "2026-11-03T02:45:08Z",
+      "updatedAt": "2026-11-04T20:59:15Z",
       "merged": false,
       "author": {
         "login": "sacrosanctic",
@@ -40312,6 +40398,224 @@
             "state": "COMMENTED",
             "author": {
               "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1446": {
+      "number": 1446,
+      "updatedAt": "2026-11-04T10:44:37Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1447": {
+      "number": 1447,
+      "updatedAt": "2026-11-04T10:44:52Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1448": {
+      "number": 1448,
+      "updatedAt": "2026-11-04T19:09:34Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1449": {
+      "number": 1449,
+      "updatedAt": "2026-11-04T20:57:15Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1451": {
+      "number": 1451,
+      "updatedAt": "2026-11-04T19:51:53Z",
+      "merged": true,
+      "author": {
+        "login": "jycouet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1452": {
+      "number": 1452,
+      "updatedAt": "2026-11-04T20:56:40Z",
+      "merged": true,
+      "author": {
+        "login": "jycouet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
               "__typename": "User"
             }
           }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-03T11:41:24.227Z",
+    "lastRunAt": "2026-11-04T21:29:52.170Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNS0xMC0yMFQwMDo1OToxMVrOAt6fpw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -31054,6 +31054,34 @@
       "number": 4600,
       "user": {
         "login": "dadashi44",
+        "type": "User"
+      }
+    },
+    "4601": {
+      "number": 4601,
+      "user": {
+        "login": "mohamadgarmabi",
+        "type": "User"
+      }
+    },
+    "4602": {
+      "number": 4602,
+      "user": {
+        "login": "hrynko",
+        "type": "User"
+      }
+    },
+    "4603": {
+      "number": 4603,
+      "user": {
+        "login": "cipriantitire",
+        "type": "User"
+      }
+    },
+    "4604": {
+      "number": 4604,
+      "user": {
+        "login": "madebyzan",
         "type": "User"
       }
     }
@@ -132857,7 +132885,7 @@
     },
     "4565": {
       "number": 4565,
-      "updatedAt": "2026-11-02T20:57:29Z",
+      "updatedAt": "2026-11-03T13:31:40Z",
       "merged": true,
       "author": {
         "login": "hankhoffmeier",
@@ -133001,7 +133029,7 @@
     },
     "4573": {
       "number": 4573,
-      "updatedAt": "2026-11-02T21:19:13Z",
+      "updatedAt": "2026-11-03T14:00:41Z",
       "merged": false,
       "author": {
         "login": "navidjaberi",
@@ -133163,7 +133191,7 @@
     },
     "4582": {
       "number": 4582,
-      "updatedAt": "2026-11-02T21:28:36Z",
+      "updatedAt": "2026-11-03T14:29:04Z",
       "merged": false,
       "author": {
         "login": "cristiangrxs",
@@ -133199,7 +133227,7 @@
     },
     "4584": {
       "number": 4584,
-      "updatedAt": "2026-10-20T10:51:59Z",
+      "updatedAt": "2026-11-03T16:02:34Z",
       "merged": false,
       "author": {
         "login": "EugeneBalabai",
@@ -133217,8 +133245,8 @@
     },
     "4585": {
       "number": 4585,
-      "updatedAt": "2026-11-01T15:08:42Z",
-      "merged": false,
+      "updatedAt": "2026-11-03T16:02:10Z",
+      "merged": true,
       "author": {
         "login": "ignsm",
         "__typename": "User"
@@ -133473,6 +133501,86 @@
       "merged": false,
       "author": {
         "login": "dadashi44",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4601": {
+      "number": 4601,
+      "updatedAt": "2026-11-03T13:47:07Z",
+      "merged": false,
+      "author": {
+        "login": "mohamadgarmabi",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4602": {
+      "number": 4602,
+      "updatedAt": "2026-11-04T07:41:15Z",
+      "merged": false,
+      "author": {
+        "login": "hrynko",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4603": {
+      "number": 4603,
+      "updatedAt": "2026-11-04T13:01:35Z",
+      "merged": false,
+      "author": {
+        "login": "cipriantitire",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "4604": {
+      "number": 4604,
+      "updatedAt": "2026-11-04T17:07:01Z",
+      "merged": false,
+      "author": {
+        "login": "madebyzan",
         "__typename": "User"
       },
       "closingIssuesReferences": {

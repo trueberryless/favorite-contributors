@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-03T11:41:44.234Z",
+    "lastRunAt": "2026-11-04T21:30:15.060Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xN1QwNjo1ODoyNVrOLizwBQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8472,6 +8472,13 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1177": {
+      "number": 1177,
+      "user": {
+        "login": "segevfiner",
+        "type": "User"
       }
     }
   },
@@ -31174,8 +31181,8 @@
     },
     "1162": {
       "number": 1162,
-      "updatedAt": "2026-10-29T05:59:53Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T06:55:16Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -31187,7 +31194,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1163": {
@@ -31495,7 +31510,7 @@
     },
     "1176": {
       "number": 1176,
-      "updatedAt": "2026-11-02T12:48:21Z",
+      "updatedAt": "2026-11-04T00:04:02Z",
       "merged": false,
       "author": {
         "login": "renovate",

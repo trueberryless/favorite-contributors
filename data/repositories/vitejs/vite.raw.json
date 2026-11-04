@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-03T03:40:32.916Z",
+    "lastRunAt": "2026-11-04T21:28:07.800Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNC0yM1QxMzo1MDo1MFrOGEXiQQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -139636,6 +139636,83 @@
       "number": 23981,
       "user": {
         "login": "lumatic2",
+        "type": "User"
+      }
+    },
+    "23982": {
+      "number": 23982,
+      "user": {
+        "login": "lumatic2",
+        "type": "User"
+      }
+    },
+    "23984": {
+      "number": 23984,
+      "user": {
+        "login": "Siiiege",
+        "type": "User"
+      }
+    },
+    "23985": {
+      "number": 23985,
+      "user": {
+        "login": "trleo",
+        "type": "User"
+      }
+    },
+    "23986": {
+      "number": 23986,
+      "user": {
+        "login": "sep2",
+        "type": "User"
+      }
+    },
+    "23987": {
+      "number": 23987,
+      "user": {
+        "login": "jasleenkaur-qed42",
+        "type": "User"
+      }
+    },
+    "23988": {
+      "number": 23988,
+      "user": {
+        "login": "jasleenkaur-qed42",
+        "type": "User"
+      }
+    },
+    "23989": {
+      "number": 23989,
+      "user": {
+        "login": "sep2",
+        "type": "User"
+      }
+    },
+    "23990": {
+      "number": 23990,
+      "user": {
+        "login": "mudasirpandith",
+        "type": "User"
+      }
+    },
+    "23991": {
+      "number": 23991,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "23992": {
+      "number": 23992,
+      "user": {
+        "login": "btea",
+        "type": "User"
+      }
+    },
+    "23993": {
+      "number": 23993,
+      "user": {
+        "login": "dhrupo",
         "type": "User"
       }
     }
@@ -416073,20 +416150,28 @@
     },
     "21483": {
       "number": 21483,
-      "updatedAt": "2026-10-28T10:36:52Z",
+      "updatedAt": "2026-11-04T06:35:17Z",
       "merged": false,
       "author": {
         "login": "hybrist",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "21485": {
@@ -444293,7 +444378,7 @@
     },
     "23167": {
       "number": 23167,
-      "updatedAt": "2026-11-02T05:09:22Z",
+      "updatedAt": "2026-11-03T08:18:01Z",
       "merged": false,
       "author": {
         "login": "sapphi-red",
@@ -444313,13 +444398,20 @@
               "login": "bluwy",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "btea",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "23168": {
       "number": 23168,
-      "updatedAt": "2026-11-02T06:23:38Z",
+      "updatedAt": "2026-11-03T08:31:55Z",
       "merged": false,
       "author": {
         "login": "sapphi-red",
@@ -444332,7 +444424,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "btea",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "23169": {
@@ -452817,8 +452917,8 @@
     },
     "23634": {
       "number": 23634,
-      "updatedAt": "2026-11-03T00:55:40Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T04:35:46Z",
+      "merged": true,
       "author": {
         "login": "lifeiscontent",
         "__typename": "User"
@@ -454354,7 +454454,7 @@
     },
     "23716": {
       "number": 23716,
-      "updatedAt": "2026-10-22T11:52:46Z",
+      "updatedAt": "2026-11-04T05:51:27Z",
       "merged": false,
       "author": {
         "login": "btea",
@@ -456006,7 +456106,7 @@
     },
     "23811": {
       "number": 23811,
-      "updatedAt": "2026-10-17T19:35:31Z",
+      "updatedAt": "2026-11-04T07:56:53Z",
       "merged": false,
       "author": {
         "login": "shkumbinhasani",
@@ -456019,7 +456119,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dhrupo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "23812": {
@@ -458364,8 +458472,8 @@
     },
     "23959": {
       "number": 23959,
-      "updatedAt": "2026-10-31T14:58:28Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T08:05:16Z",
+      "merged": true,
       "author": {
         "login": "btea",
         "__typename": "User"
@@ -458377,7 +458485,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "23960": {
@@ -458648,8 +458764,8 @@
     },
     "23976": {
       "number": 23976,
-      "updatedAt": "2026-11-02T15:21:35Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T08:41:20Z",
+      "merged": true,
       "author": {
         "login": "mandyheg",
         "__typename": "User"
@@ -458661,7 +458777,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "agammann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "23977": {
@@ -458684,7 +458815,7 @@
     },
     "23978": {
       "number": 23978,
-      "updatedAt": "2026-11-02T15:17:40Z",
+      "updatedAt": "2026-11-04T17:58:09Z",
       "merged": false,
       "author": {
         "login": "jamesopstad",
@@ -458697,7 +458828,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "thebanjomatic",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "23980": {
@@ -458706,6 +458845,166 @@
       "merged": false,
       "author": {
         "login": "saiyam-jain-dev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23982": {
+      "number": 23982,
+      "updatedAt": "2026-11-03T07:10:43Z",
+      "merged": false,
+      "author": {
+        "login": "lumatic2",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23985": {
+      "number": 23985,
+      "updatedAt": "2026-11-03T08:03:35Z",
+      "merged": false,
+      "author": {
+        "login": "trleo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23987": {
+      "number": 23987,
+      "updatedAt": "2026-11-04T06:42:11Z",
+      "merged": false,
+      "author": {
+        "login": "jasleenkaur-qed42",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23988": {
+      "number": 23988,
+      "updatedAt": "2026-11-04T06:41:59Z",
+      "merged": false,
+      "author": {
+        "login": "jasleenkaur-qed42",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23989": {
+      "number": 23989,
+      "updatedAt": "2026-11-04T06:48:09Z",
+      "merged": false,
+      "author": {
+        "login": "sep2",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "23991": {
+      "number": 23991,
+      "updatedAt": "2026-11-04T12:32:12Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "btea",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "23992": {
+      "number": 23992,
+      "updatedAt": "2026-11-04T14:00:54Z",
+      "merged": true,
+      "author": {
+        "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "23993": {
+      "number": 23993,
+      "updatedAt": "2026-11-04T09:17:55Z",
+      "merged": false,
+      "author": {
+        "login": "dhrupo",
         "__typename": "User"
       },
       "closingIssuesReferences": {
