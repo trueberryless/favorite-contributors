@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T00:10:24.045Z",
+    "lastRunAt": "2026-11-05T17:35:54.124Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0xNlQxNjowNDowMVrOb6xwWw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12001,8 +12001,8 @@
     },
     "475": {
       "number": 475,
-      "updatedAt": "2026-11-03T18:11:27Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T13:36:50Z",
+      "merged": true,
       "author": {
         "login": "oxc-guard",
         "__typename": "Bot"
@@ -12014,7 +12014,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
