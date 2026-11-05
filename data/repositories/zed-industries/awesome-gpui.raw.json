@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T06:56:38.889Z",
+    "lastRunAt": "2026-11-05T23:23:45.706Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1141,6 +1141,9 @@
       "user": {
         "login": "RafaelGoulartB",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "157": {
@@ -1182,6 +1185,27 @@
       "number": 162,
       "user": {
         "login": "4t145",
+        "type": "User"
+      }
+    },
+    "163": {
+      "number": 163,
+      "user": {
+        "login": "ragtux",
+        "type": "User"
+      }
+    },
+    "164": {
+      "number": 164,
+      "user": {
+        "login": "Vidhan31",
+        "type": "User"
+      }
+    },
+    "165": {
+      "number": 165,
+      "user": {
+        "login": "1bye",
         "type": "User"
       }
     }
@@ -3885,8 +3909,8 @@
     },
     "155": {
       "number": 155,
-      "updatedAt": "2026-10-30T11:42:12Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T13:46:09Z",
+      "merged": true,
       "author": {
         "login": "countradooku",
         "__typename": "User"
@@ -3903,8 +3927,8 @@
     },
     "156": {
       "number": 156,
-      "updatedAt": "2026-10-31T23:44:52Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T13:46:16Z",
+      "merged": true,
       "author": {
         "login": "RafaelGoulartB",
         "__typename": "User"
@@ -3913,7 +3937,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -3921,8 +3945,8 @@
     },
     "157": {
       "number": 157,
-      "updatedAt": "2026-11-01T17:04:18Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T13:46:21Z",
+      "merged": true,
       "author": {
         "login": "ahonn",
         "__typename": "User"
@@ -3939,8 +3963,8 @@
     },
     "158": {
       "number": 158,
-      "updatedAt": "2026-11-03T02:54:59Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T13:46:57Z",
+      "merged": true,
       "author": {
         "login": "bryaneaton13",
         "__typename": "User"
@@ -3957,8 +3981,8 @@
     },
     "159": {
       "number": 159,
-      "updatedAt": "2026-11-03T06:34:59Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T13:47:08Z",
+      "merged": true,
       "author": {
         "login": "richerfu",
         "__typename": "User"
@@ -3975,8 +3999,8 @@
     },
     "160": {
       "number": 160,
-      "updatedAt": "2026-11-03T08:34:08Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T13:47:13Z",
+      "merged": true,
       "author": {
         "login": "vinhnx",
         "__typename": "User"
@@ -3993,8 +4017,8 @@
     },
     "161": {
       "number": 161,
-      "updatedAt": "2026-11-04T04:52:16Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T13:47:19Z",
+      "merged": true,
       "author": {
         "login": "shinycake",
         "__typename": "User"
@@ -4011,10 +4035,72 @@
     },
     "162": {
       "number": 162,
-      "updatedAt": "2026-11-04T06:30:40Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T13:47:24Z",
+      "merged": true,
       "author": {
         "login": "4t145",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "163": {
+      "number": 163,
+      "updatedAt": "2026-11-05T03:29:07Z",
+      "merged": false,
+      "author": {
+        "login": "ragtux",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "amr3k",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "164": {
+      "number": 164,
+      "updatedAt": "2026-11-05T07:55:50Z",
+      "merged": false,
+      "author": {
+        "login": "Vidhan31",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "165": {
+      "number": 165,
+      "updatedAt": "2026-11-05T10:57:32Z",
+      "merged": false,
+      "author": {
+        "login": "1bye",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T06:55:54.669Z",
+    "lastRunAt": "2026-11-05T23:22:57.272Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10720,6 +10720,27 @@
       "user": {
         "login": "tannerlinsley",
         "type": "User"
+      }
+    },
+    "1489": {
+      "number": 1489,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "1490": {
+      "number": 1490,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "1491": {
+      "number": 1491,
+      "user": {
+        "login": "sentry[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -29890,8 +29911,8 @@
     },
     "1010": {
       "number": 1010,
-      "updatedAt": "2026-11-01T07:00:38Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T17:22:14Z",
+      "merged": true,
       "author": {
         "login": "Manishkumarbingi",
         "__typename": "User"
@@ -29903,7 +29924,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "1011": {
@@ -34372,8 +34401,8 @@
     },
     "1222": {
       "number": 1222,
-      "updatedAt": "2026-09-05T10:16:53Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T17:34:55Z",
+      "merged": true,
       "author": {
         "login": "KamranKhan11",
         "__typename": "User"
@@ -34385,7 +34414,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "1223": {
@@ -36221,8 +36258,8 @@
     },
     "1305": {
       "number": 1305,
-      "updatedAt": "2026-10-15T04:25:43Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T17:00:30Z",
+      "merged": true,
       "author": {
         "login": "6TELOIV",
         "__typename": "User"
@@ -36419,8 +36456,8 @@
     },
     "1313": {
       "number": 1313,
-      "updatedAt": "2026-11-01T06:03:36Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T17:00:43Z",
+      "merged": true,
       "author": {
         "login": "DogPawHat",
         "__typename": "User"
@@ -37334,8 +37371,8 @@
     },
     "1365": {
       "number": 1365,
-      "updatedAt": "2026-10-20T08:33:28Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T17:01:09Z",
+      "merged": true,
       "author": {
         "login": "Brightbong92",
         "__typename": "User"
@@ -37749,8 +37786,8 @@
     },
     "1384": {
       "number": 1384,
-      "updatedAt": "2026-10-16T00:10:51Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T21:09:42Z",
+      "merged": true,
       "author": {
         "login": "sentry",
         "__typename": "Bot"
@@ -38155,7 +38192,7 @@
     },
     "1402": {
       "number": 1402,
-      "updatedAt": "2026-10-20T08:10:47Z",
+      "updatedAt": "2026-11-05T20:47:12Z",
       "merged": false,
       "author": {
         "login": "tannerlinsley",
@@ -38897,7 +38934,7 @@
     },
     "1437": {
       "number": 1437,
-      "updatedAt": "2026-10-26T22:05:17Z",
+      "updatedAt": "2026-11-05T21:30:13Z",
       "merged": false,
       "author": {
         "login": "tannerlinsley",
@@ -38931,14 +38968,28 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
           }
         ]
       }
     },
     "1438": {
       "number": 1438,
-      "updatedAt": "2026-10-28T15:46:06Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T17:00:55Z",
+      "merged": true,
       "author": {
         "login": "MaximSokolov18",
         "__typename": "User"
@@ -39432,7 +39483,7 @@
     },
     "1457": {
       "number": 1457,
-      "updatedAt": "2026-10-31T07:35:06Z",
+      "updatedAt": "2026-11-05T12:06:39Z",
       "merged": false,
       "author": {
         "login": "benjavicente",
@@ -39969,7 +40020,7 @@
     },
     "1483": {
       "number": 1483,
-      "updatedAt": "2026-11-02T10:11:36Z",
+      "updatedAt": "2026-11-04T17:35:55Z",
       "merged": false,
       "author": {
         "login": "KamranKhan11",
@@ -40080,6 +40131,60 @@
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1489": {
+      "number": 1489,
+      "updatedAt": "2026-11-04T17:37:24Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1490": {
+      "number": 1490,
+      "updatedAt": "2026-11-05T07:50:31Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1491": {
+      "number": 1491,
+      "updatedAt": "2026-11-05T11:35:55Z",
+      "merged": true,
+      "author": {
+        "login": "sentry",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

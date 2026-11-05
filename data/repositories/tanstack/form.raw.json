@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T06:55:52.510Z",
+    "lastRunAt": "2026-11-05T23:22:55.272Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15615,6 +15615,27 @@
       "number": 2464,
       "user": {
         "login": "ryansolid",
+        "type": "User"
+      }
+    },
+    "2465": {
+      "number": 2465,
+      "user": {
+        "login": "pedro757",
+        "type": "User"
+      }
+    },
+    "2466": {
+      "number": 2466,
+      "user": {
+        "login": "Priyeshshrivastav",
+        "type": "User"
+      }
+    },
+    "2467": {
+      "number": 2467,
+      "user": {
+        "login": "tobiasz",
         "type": "User"
       }
     }
@@ -46646,7 +46667,7 @@
     },
     "2449": {
       "number": 2449,
-      "updatedAt": "2026-10-27T05:07:48Z",
+      "updatedAt": "2026-11-04T17:01:27Z",
       "merged": false,
       "author": {
         "login": "okxint",
@@ -46660,6 +46681,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -47000,6 +47028,24 @@
             }
           }
         ]
+      }
+    },
+    "2466": {
+      "number": 2466,
+      "updatedAt": "2026-11-05T06:57:59Z",
+      "merged": false,
+      "author": {
+        "login": "Priyeshshrivastav",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

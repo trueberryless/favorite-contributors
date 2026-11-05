@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T06:55:11.442Z",
+    "lastRunAt": "2026-11-05T23:22:14.184Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -83018,6 +83018,58 @@
       "number": 10363,
       "user": {
         "login": "LeaVerou",
+        "type": "User"
+      }
+    },
+    "10364": {
+      "number": 10364,
+      "user": {
+        "login": "madsnedergaard",
+        "type": "User"
+      }
+    },
+    "10365": {
+      "number": 10365,
+      "user": {
+        "login": "hempun10",
+        "type": "User"
+      }
+    },
+    "10366": {
+      "number": 10366,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10367": {
+      "number": 10367,
+      "user": {
+        "login": "parasite6",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 9
+      }
+    },
+    "10368": {
+      "number": 10368,
+      "user": {
+        "login": "parasite6",
+        "type": "User"
+      }
+    },
+    "10369": {
+      "number": 10369,
+      "user": {
+        "login": "Jarrioja",
+        "type": "User"
+      }
+    },
+    "10370": {
+      "number": 10370,
+      "user": {
+        "login": "Jarrioja",
         "type": "User"
       }
     }
@@ -269550,7 +269602,7 @@
     },
     "10335": {
       "number": 10335,
-      "updatedAt": "2026-11-01T10:12:08Z",
+      "updatedAt": "2026-11-04T21:22:59Z",
       "merged": false,
       "author": {
         "login": "dnicolson",
@@ -269694,7 +269746,7 @@
     },
     "10346": {
       "number": 10346,
-      "updatedAt": "2026-11-02T07:14:02Z",
+      "updatedAt": "2026-11-05T16:08:21Z",
       "merged": true,
       "author": {
         "login": "kidonng",
@@ -269887,14 +269939,76 @@
     },
     "10362": {
       "number": 10362,
-      "updatedAt": "2026-11-03T13:09:19Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T08:17:16Z",
+      "merged": true,
       "author": {
         "login": "fregante",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10366": {
+      "number": 10366,
+      "updatedAt": "2026-11-05T08:13:49Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10368": {
+      "number": 10368,
+      "updatedAt": "2026-11-05T19:19:06Z",
+      "merged": false,
+      "author": {
+        "login": "parasite6",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10370": {
+      "number": 10370,
+      "updatedAt": "2026-11-05T23:17:12Z",
+      "merged": false,
+      "author": {
+        "login": "Jarrioja",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

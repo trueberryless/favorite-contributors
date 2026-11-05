@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T06:55:54.522Z",
+    "lastRunAt": "2026-11-05T23:22:57.122Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNy0xMVQwMToyODo1MlrOGqrGVA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -62548,6 +62548,69 @@
       "number": 12520,
       "user": {
         "login": "mohamadgarmabi",
+        "type": "User"
+      }
+    },
+    "12521": {
+      "number": 12521,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12522": {
+      "number": 12522,
+      "user": {
+        "login": "TkDodo",
+        "type": "User"
+      }
+    },
+    "12523": {
+      "number": 12523,
+      "user": {
+        "login": "Don-Erfan",
+        "type": "User"
+      }
+    },
+    "12524": {
+      "number": 12524,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12525": {
+      "number": 12525,
+      "user": {
+        "login": "TkDodo",
+        "type": "User"
+      }
+    },
+    "12526": {
+      "number": 12526,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "12527": {
+      "number": 12527,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12528": {
+      "number": 12528,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "12529": {
+      "number": 12529,
+      "user": {
+        "login": "KATT",
         "type": "User"
       }
     }
@@ -178134,7 +178197,7 @@
     },
     "10791": {
       "number": 10791,
-      "updatedAt": "2026-08-27T20:47:46Z",
+      "updatedAt": "2026-11-04T12:37:24Z",
       "merged": false,
       "author": {
         "login": "EskiMojo14",
@@ -195738,7 +195801,7 @@
     },
     "11644": {
       "number": 11644,
-      "updatedAt": "2026-11-03T19:53:01Z",
+      "updatedAt": "2026-11-04T21:26:34Z",
       "merged": false,
       "author": {
         "login": "maximilian-hammerl",
@@ -207228,8 +207291,8 @@
     },
     "12226": {
       "number": 12226,
-      "updatedAt": "2026-11-01T13:30:15Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T08:56:01Z",
+      "merged": true,
       "author": {
         "login": "sukvvon",
         "__typename": "User"
@@ -207247,6 +207310,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "TkDodo",
+              "__typename": "User"
             }
           }
         ]
@@ -212469,8 +212539,8 @@
     },
     "12501": {
       "number": 12501,
-      "updatedAt": "2026-11-04T05:59:10Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T20:07:39Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -212663,25 +212733,47 @@
     },
     "12511": {
       "number": 12511,
-      "updatedAt": "2026-11-03T15:37:37Z",
+      "updatedAt": "2026-11-05T15:26:51Z",
       "merged": false,
       "author": {
         "login": "KATT",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KATT",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "12512": {
       "number": 12512,
-      "updatedAt": "2026-11-03T21:50:17Z",
+      "updatedAt": "2026-11-05T15:32:32Z",
       "merged": false,
       "author": {
         "login": "KATT",
@@ -212694,7 +212786,50 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DogPawHat",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KATT",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KATT",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KATT",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DogPawHat",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DogPawHat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "12513": {
@@ -212789,8 +212924,8 @@
     },
     "12519": {
       "number": 12519,
-      "updatedAt": "2026-11-04T06:42:04Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T07:05:19Z",
+      "merged": true,
       "author": {
         "login": "sukvvon",
         "__typename": "User"
@@ -212821,6 +212956,217 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "12521": {
+      "number": 12521,
+      "updatedAt": "2026-11-04T08:33:53Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "12522": {
+      "number": 12522,
+      "updatedAt": "2026-11-04T13:50:34Z",
+      "merged": true,
+      "author": {
+        "login": "TkDodo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "12523": {
+      "number": 12523,
+      "updatedAt": "2026-11-04T09:21:27Z",
+      "merged": false,
+      "author": {
+        "login": "Don-Erfan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "12524": {
+      "number": 12524,
+      "updatedAt": "2026-11-05T01:26:12Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "12525": {
+      "number": 12525,
+      "updatedAt": "2026-11-04T19:38:19Z",
+      "merged": true,
+      "author": {
+        "login": "TkDodo",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "DogPawHat",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "12526": {
+      "number": 12526,
+      "updatedAt": "2026-11-05T08:04:49Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "12527": {
+      "number": 12527,
+      "updatedAt": "2026-11-05T01:53:10Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "12528": {
+      "number": 12528,
+      "updatedAt": "2026-11-05T06:23:34Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

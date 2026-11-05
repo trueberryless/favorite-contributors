@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T15:13:07.090Z",
+    "lastRunAt": "2026-11-05T23:25:15.209Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0yMlQxODowNzoxMFrOvrttxw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -26530,6 +26530,13 @@
       "number": 3404,
       "user": {
         "login": "cylewaitforit",
+        "type": "User"
+      }
+    },
+    "3405": {
+      "number": 3405,
+      "user": {
+        "login": "fatfingers23",
         "type": "User"
       }
     }
@@ -118737,7 +118744,7 @@
     },
     "3142": {
       "number": 3142,
-      "updatedAt": "2026-10-29T03:00:07Z",
+      "updatedAt": "2026-11-05T17:49:01Z",
       "merged": false,
       "author": {
         "login": "anilloutombam",
@@ -120702,7 +120709,7 @@
     },
     "3202": {
       "number": 3202,
-      "updatedAt": "2026-11-04T11:45:14Z",
+      "updatedAt": "2026-11-05T14:05:45Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -121190,7 +121197,7 @@
     },
     "3219": {
       "number": 3219,
-      "updatedAt": "2026-11-04T11:46:19Z",
+      "updatedAt": "2026-11-05T14:11:12Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -124610,8 +124617,8 @@
     },
     "3332": {
       "number": 3332,
-      "updatedAt": "2026-11-04T01:42:27Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T14:03:23Z",
+      "merged": true,
       "author": {
         "login": "serhalp",
         "__typename": "User"
@@ -124796,6 +124803,27 @@
             "state": "COMMENTED",
             "author": {
               "login": "serhalp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "trueberryless",
               "__typename": "User"
             }
           }
@@ -126170,7 +126198,7 @@
     },
     "3372": {
       "number": 3372,
-      "updatedAt": "2026-11-03T02:56:20Z",
+      "updatedAt": "2026-11-05T14:45:40Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -126183,7 +126211,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3373": {
@@ -126874,7 +126910,7 @@
     },
     "3396": {
       "number": 3396,
-      "updatedAt": "2026-11-02T14:06:23Z",
+      "updatedAt": "2026-11-04T16:06:37Z",
       "merged": false,
       "author": {
         "login": "bytaesu",
@@ -127032,7 +127068,7 @@
     },
     "3404": {
       "number": 3404,
-      "updatedAt": "2026-11-03T04:04:07Z",
+      "updatedAt": "2026-11-05T12:06:53Z",
       "merged": false,
       "author": {
         "login": "cylewaitforit",
@@ -127046,6 +127082,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "3405": {
+      "number": 3405,
+      "updatedAt": "2026-11-04T20:12:04Z",
+      "merged": false,
+      "author": {
+        "login": "fatfingers23",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
