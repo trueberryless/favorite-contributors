@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-03T11:43:02.127Z",
+    "lastRunAt": "2026-11-05T01:43:04.151Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0wMlQxMDoyMToxNlrOh2213w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1090,6 +1090,9 @@
       "user": {
         "login": "shadowspawn",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -3963,7 +3966,7 @@
     },
     "155": {
       "number": 155,
-      "updatedAt": "2026-10-31T02:29:05Z",
+      "updatedAt": "2026-11-04T08:22:18Z",
       "merged": false,
       "author": {
         "login": "AmirSa12",
@@ -3990,14 +3993,21 @@
               "login": "shadowspawn",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "AmirSa12",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "156": {
       "number": 156,
-      "updatedAt": "2026-10-21T01:40:48Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T08:22:37Z",
+      "merged": true,
       "author": {
         "login": "shadowspawn",
         "__typename": "User"
@@ -4006,7 +4016,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
