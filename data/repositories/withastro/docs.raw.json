@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T01:45:04.216Z",
+    "lastRunAt": "2026-11-06T18:59:32.056Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNi0xN1QyMDozMjoyN1rOKBwlfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -103879,6 +103879,9 @@
       "user": {
         "login": "ArmandPhilippot",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "14807": {
@@ -104072,6 +104075,27 @@
     },
     "14838": {
       "number": 14838,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14840": {
+      "number": 14840,
+      "user": {
+        "login": "florian-lefebvre",
+        "type": "User"
+      }
+    },
+    "14841": {
+      "number": 14841,
+      "user": {
+        "login": "wigsdev",
+        "type": "User"
+      }
+    },
+    "14842": {
+      "number": 14842,
       "user": {
         "login": "wigsdev",
         "type": "User"
@@ -566351,7 +566375,7 @@
     },
     "14806": {
       "number": 14806,
-      "updatedAt": "2026-11-02T14:20:23Z",
+      "updatedAt": "2026-11-06T15:04:01Z",
       "merged": false,
       "author": {
         "login": "ArmandPhilippot",
@@ -566361,7 +566385,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -566907,7 +566931,7 @@
     },
     "14831": {
       "number": 14831,
-      "updatedAt": "2026-11-04T22:13:01Z",
+      "updatedAt": "2026-11-05T18:50:52Z",
       "merged": false,
       "author": {
         "login": "matthewp",
@@ -566920,7 +566944,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "yanthomasdev",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14832": {
@@ -566979,7 +567018,7 @@
     },
     "14835": {
       "number": 14835,
-      "updatedAt": "2026-11-04T17:19:19Z",
+      "updatedAt": "2026-11-06T14:40:22Z",
       "merged": false,
       "author": {
         "login": "ankur-arch",
@@ -566992,7 +567031,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "14836": {
@@ -567034,6 +567081,89 @@
     "14838": {
       "number": 14838,
       "updatedAt": "2026-11-05T01:05:18Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14840": {
+      "number": 14840,
+      "updatedAt": "2026-11-06T11:21:28Z",
+      "merged": false,
+      "author": {
+        "login": "florian-lefebvre",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ArmandPhilippot",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "14841": {
+      "number": 14841,
+      "updatedAt": "2026-11-06T01:09:48Z",
+      "merged": false,
+      "author": {
+        "login": "wigsdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "14842": {
+      "number": 14842,
+      "updatedAt": "2026-11-06T03:05:00Z",
       "merged": false,
       "author": {
         "login": "wigsdev",

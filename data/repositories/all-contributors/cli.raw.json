@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T01:46:31.557Z",
+    "lastRunAt": "2026-11-06T19:01:04.394Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wNS0xMVQxODozODoyMlrOBCfYWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4404,6 +4404,41 @@
       "number": 597,
       "user": {
         "login": "trueberryless",
+        "type": "User"
+      }
+    },
+    "598": {
+      "number": 598,
+      "user": {
+        "login": "nhktmdzhg",
+        "type": "User"
+      }
+    },
+    "599": {
+      "number": 599,
+      "user": {
+        "login": "nhktmdzhg",
+        "type": "User"
+      }
+    },
+    "600": {
+      "number": 600,
+      "user": {
+        "login": "michaelfaith",
+        "type": "User"
+      }
+    },
+    "601": {
+      "number": 601,
+      "user": {
+        "login": "michaelfaith",
+        "type": "User"
+      }
+    },
+    "602": {
+      "number": 602,
+      "user": {
+        "login": "lwasser",
         "type": "User"
       }
     }
@@ -16554,7 +16589,7 @@
     },
     "585": {
       "number": 585,
-      "updatedAt": "2026-11-04T22:42:18Z",
+      "updatedAt": "2026-11-05T05:59:02Z",
       "merged": false,
       "author": {
         "login": "lwasser",
@@ -16670,8 +16705,8 @@
     },
     "593": {
       "number": 593,
-      "updatedAt": "2026-11-05T01:29:58Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T05:58:36Z",
+      "merged": true,
       "author": {
         "login": "jdalrymple",
         "__typename": "User"
@@ -16696,8 +16731,8 @@
     },
     "595": {
       "number": 595,
-      "updatedAt": "2026-11-05T01:28:23Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T02:38:05Z",
+      "merged": true,
       "author": {
         "login": "michaelfaith",
         "__typename": "User"
@@ -16737,13 +16772,62 @@
               "login": "lwasser",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "michaelfaith",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "michaelfaith",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "michaelfaith",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "michaelfaith",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lwasser",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lwasser",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lwasser",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "596": {
       "number": 596,
-      "updatedAt": "2026-11-04T22:16:41Z",
+      "updatedAt": "2026-11-06T00:59:23Z",
       "merged": true,
       "author": {
         "login": "michaelfaith",
@@ -16785,6 +16869,68 @@
         "nodes": [
           {
             "state": "APPROVED",
+            "author": {
+              "login": "michaelfaith",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "598": {
+      "number": 598,
+      "updatedAt": "2026-11-05T03:12:41Z",
+      "merged": false,
+      "author": {
+        "login": "nhktmdzhg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "599": {
+      "number": 599,
+      "updatedAt": "2026-11-05T08:53:15Z",
+      "merged": false,
+      "author": {
+        "login": "nhktmdzhg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "601": {
+      "number": 601,
+      "updatedAt": "2026-11-05T22:02:44Z",
+      "merged": false,
+      "author": {
+        "login": "michaelfaith",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
             "author": {
               "login": "michaelfaith",
               "__typename": "User"
