@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T15:14:07.565Z",
+    "lastRunAt": "2026-11-06T03:34:21.671Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12647,6 +12647,55 @@
       "number": 1719,
       "user": {
         "login": "bsbodden",
+        "type": "User"
+      }
+    },
+    "1720": {
+      "number": 1720,
+      "user": {
+        "login": "attilakosztindev",
+        "type": "User"
+      }
+    },
+    "1721": {
+      "number": 1721,
+      "user": {
+        "login": "cwdx",
+        "type": "User"
+      }
+    },
+    "1722": {
+      "number": 1722,
+      "user": {
+        "login": "DanielQolami",
+        "type": "User"
+      }
+    },
+    "1723": {
+      "number": 1723,
+      "user": {
+        "login": "dennisadriaans",
+        "type": "User"
+      }
+    },
+    "1724": {
+      "number": 1724,
+      "user": {
+        "login": "dennisadriaans",
+        "type": "User"
+      }
+    },
+    "1725": {
+      "number": 1725,
+      "user": {
+        "login": "dennisadriaans",
+        "type": "User"
+      }
+    },
+    "1726": {
+      "number": 1726,
+      "user": {
+        "login": "iamsomraj",
         "type": "User"
       }
     }
@@ -39686,7 +39735,7 @@
     },
     "1708": {
       "number": 1708,
-      "updatedAt": "2026-10-29T23:01:15Z",
+      "updatedAt": "2026-11-05T19:40:05Z",
       "merged": false,
       "author": {
         "login": "vis97c",
@@ -39922,6 +39971,169 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1720": {
+      "number": 1720,
+      "updatedAt": "2026-11-04T15:47:17Z",
+      "merged": false,
+      "author": {
+        "login": "attilakosztindev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1721": {
+      "number": 1721,
+      "updatedAt": "2026-11-05T11:59:55Z",
+      "merged": false,
+      "author": {
+        "login": "cwdx",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1722": {
+      "number": 1722,
+      "updatedAt": "2026-11-05T07:32:12Z",
+      "merged": false,
+      "author": {
+        "login": "DanielQolami",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1723": {
+      "number": 1723,
+      "updatedAt": "2026-11-05T11:29:59Z",
+      "merged": false,
+      "author": {
+        "login": "dennisadriaans",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1724": {
+      "number": 1724,
+      "updatedAt": "2026-11-05T11:59:48Z",
+      "merged": false,
+      "author": {
+        "login": "dennisadriaans",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1725": {
+      "number": 1725,
+      "updatedAt": "2026-11-05T13:55:52Z",
+      "merged": false,
+      "author": {
+        "login": "dennisadriaans",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1726": {
+      "number": 1726,
+      "updatedAt": "2026-11-05T14:53:16Z",
+      "merged": false,
+      "author": {
+        "login": "iamsomraj",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "iamsomraj",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

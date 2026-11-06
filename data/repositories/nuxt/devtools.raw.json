@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T15:14:10.871Z",
+    "lastRunAt": "2026-11-06T03:34:24.337Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0xNFQyMToxODo0NVrOOVF6Qg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8706,6 +8706,13 @@
       "number": 1160,
       "user": {
         "login": "antfubot",
+        "type": "User"
+      }
+    },
+    "1161": {
+      "number": 1161,
+      "user": {
+        "login": "rynx-cc",
         "type": "User"
       }
     }
@@ -24024,6 +24031,32 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1161": {
+      "number": 1161,
+      "updatedAt": "2026-11-05T00:36:26Z",
+      "merged": false,
+      "author": {
+        "login": "rynx-cc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

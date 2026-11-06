@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T15:14:13.095Z",
+    "lastRunAt": "2026-11-06T03:34:25.895Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMC0xN1QxMjozMzoxNlrOQOMngQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -800,6 +800,13 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "115": {
+      "number": 115,
+      "user": {
+        "login": "atinux",
+        "type": "User"
       }
     }
   },
@@ -2231,8 +2238,8 @@
     },
     "111": {
       "number": 111,
-      "updatedAt": "2026-09-09T08:04:30Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T17:35:49Z",
+      "merged": true,
       "author": {
         "login": "atinux",
         "__typename": "User"
@@ -2264,6 +2271,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
             }
           }
         ]
@@ -2323,11 +2337,29 @@
     },
     "114": {
       "number": 114,
-      "updatedAt": "2026-10-29T20:30:46Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T19:09:58Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "115": {
+      "number": 115,
+      "updatedAt": "2026-11-05T09:52:42Z",
+      "merged": true,
+      "author": {
+        "login": "atinux",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

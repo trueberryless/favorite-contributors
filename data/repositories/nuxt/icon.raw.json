@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T15:14:15.185Z",
+    "lastRunAt": "2026-11-06T03:34:27.774Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOS0wNlQxMDo1MToxMFrOPmaFBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4424,6 +4424,23 @@
       "number": 572,
       "user": {
         "login": "onmax",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "573": {
+      "number": 573,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "574": {
+      "number": 574,
+      "user": {
+        "login": "lafllamme",
         "type": "User"
       }
     }
@@ -10604,7 +10621,7 @@
     },
     "567": {
       "number": 567,
-      "updatedAt": "2026-11-04T13:57:42Z",
+      "updatedAt": "2026-11-05T21:53:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10648,7 +10665,7 @@
     },
     "569": {
       "number": 569,
-      "updatedAt": "2026-11-04T00:11:46Z",
+      "updatedAt": "2026-11-05T21:50:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10666,10 +10683,62 @@
     },
     "570": {
       "number": 570,
-      "updatedAt": "2026-11-03T07:08:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T11:13:50Z",
+      "merged": true,
       "author": {
         "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "572": {
+      "number": 572,
+      "updatedAt": "2026-11-05T11:13:21Z",
+      "merged": true,
+      "author": {
+        "login": "onmax",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "573": {
+      "number": 573,
+      "updatedAt": "2026-11-05T11:14:04Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {
@@ -10682,16 +10751,16 @@
         "nodes": []
       }
     },
-    "572": {
-      "number": 572,
-      "updatedAt": "2026-11-04T13:59:58Z",
+    "574": {
+      "number": 574,
+      "updatedAt": "2026-11-05T11:36:37Z",
       "merged": false,
       "author": {
-        "login": "onmax",
+        "login": "lafllamme",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

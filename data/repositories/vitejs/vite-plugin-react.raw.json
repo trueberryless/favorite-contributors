@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T21:28:12.575Z",
+    "lastRunAt": "2026-11-06T03:37:35.973Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wMlQxMjo1MjozM1rORCLjPw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10636,6 +10636,27 @@
       "number": 1550,
       "user": {
         "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1551": {
+      "number": 1551,
+      "user": {
+        "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1552": {
+      "number": 1552,
+      "user": {
+        "login": "vite-release-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1553": {
+      "number": 1553,
+      "user": {
+        "login": "dtno-tomas-sarnhammar",
         "type": "User"
       }
     }
@@ -33489,7 +33510,7 @@
     },
     "1447": {
       "number": 1447,
-      "updatedAt": "2026-11-03T13:30:01Z",
+      "updatedAt": "2026-11-06T03:32:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -34623,7 +34644,7 @@
     },
     "1514": {
       "number": 1514,
-      "updatedAt": "2026-11-04T16:02:47Z",
+      "updatedAt": "2026-11-05T16:25:54Z",
       "merged": false,
       "author": {
         "login": "nbozidarevic",
@@ -34765,7 +34786,7 @@
     },
     "1521": {
       "number": 1521,
-      "updatedAt": "2026-11-02T10:51:34Z",
+      "updatedAt": "2026-11-05T13:27:55Z",
       "merged": false,
       "author": {
         "login": "james-elicx",
@@ -34819,7 +34840,7 @@
     },
     "1525": {
       "number": 1525,
-      "updatedAt": "2026-11-04T16:03:42Z",
+      "updatedAt": "2026-11-05T16:26:16Z",
       "merged": false,
       "author": {
         "login": "nbozidarevic",
@@ -34953,7 +34974,7 @@
     },
     "1537": {
       "number": 1537,
-      "updatedAt": "2026-11-02T06:38:06Z",
+      "updatedAt": "2026-11-05T17:57:16Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35105,14 +35126,68 @@
     },
     "1550": {
       "number": 1550,
-      "updatedAt": "2026-11-04T10:22:33Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T04:10:55Z",
+      "merged": true,
       "author": {
         "login": "hi-ogawa",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1551": {
+      "number": 1551,
+      "updatedAt": "2026-11-05T04:21:51Z",
+      "merged": true,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1552": {
+      "number": 1552,
+      "updatedAt": "2026-11-05T05:44:53Z",
+      "merged": true,
+      "author": {
+        "login": "vite-release-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1553": {
+      "number": 1553,
+      "updatedAt": "2026-11-05T07:05:48Z",
+      "merged": false,
+      "author": {
+        "login": "dtno-tomas-sarnhammar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

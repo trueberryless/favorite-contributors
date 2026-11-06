@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T15:14:05.417Z",
+    "lastRunAt": "2026-11-06T03:34:20.348Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOC0yNlQxNjo0NzoxM1rOEoT8zA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -42155,7 +42155,7 @@
     },
     "1862": {
       "number": 1862,
-      "updatedAt": "2026-11-02T13:46:52Z",
+      "updatedAt": "2026-11-04T15:44:01Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -42522,7 +42522,7 @@
     },
     "1874": {
       "number": 1874,
-      "updatedAt": "2026-11-02T13:56:24Z",
+      "updatedAt": "2026-11-06T01:50:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -42566,7 +42566,7 @@
     },
     "1876": {
       "number": 1876,
-      "updatedAt": "2026-11-04T15:01:26Z",
+      "updatedAt": "2026-11-05T11:18:04Z",
       "merged": false,
       "author": {
         "login": "yamachi4416",
@@ -42818,7 +42818,7 @@
     },
     "1884": {
       "number": 1884,
-      "updatedAt": "2026-11-04T15:02:15Z",
+      "updatedAt": "2026-11-05T23:06:02Z",
       "merged": false,
       "author": {
         "login": "yamachi4416",
@@ -42831,12 +42831,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "1885": {
       "number": 1885,
-      "updatedAt": "2026-11-04T03:39:32Z",
+      "updatedAt": "2026-11-06T01:50:21Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -42854,8 +42862,8 @@
     },
     "1886": {
       "number": 1886,
-      "updatedAt": "2026-11-04T15:09:49Z",
-      "merged": false,
+      "updatedAt": "2026-11-04T15:43:42Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -42867,7 +42875,15 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "yamachi4416",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
