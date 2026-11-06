@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T21:30:11.822Z",
+    "lastRunAt": "2026-11-06T11:54:23.430Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMi0yNFQxMzoyMjoxMVrOFpKUmw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -20504,6 +20504,9 @@
       "user": {
         "login": "ebiryu",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "2973": {
@@ -20714,6 +20717,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "3003": {
+      "number": 3003,
+      "user": {
+        "login": "mvanhorn",
+        "type": "User"
+      }
+    },
+    "3004": {
+      "number": 3004,
+      "user": {
+        "login": "cexbrayat",
+        "type": "User"
       }
     }
   },
@@ -57848,7 +57865,7 @@
     },
     "2242": {
       "number": 2242,
-      "updatedAt": "2026-07-13T07:19:07Z",
+      "updatedAt": "2026-11-06T06:20:01Z",
       "merged": false,
       "author": {
         "login": "pikax",
@@ -70019,8 +70036,8 @@
     },
     "2973": {
       "number": 2973,
-      "updatedAt": "2026-10-18T08:17:36Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T07:08:26Z",
+      "merged": true,
       "author": {
         "login": "ondrhn",
         "__typename": "User"
@@ -70032,7 +70049,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2974": {
@@ -70321,8 +70346,8 @@
     },
     "2987": {
       "number": 2987,
-      "updatedAt": "2026-11-04T12:49:39Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T00:06:39Z",
+      "merged": true,
       "author": {
         "login": "ondrhn",
         "__typename": "User"
@@ -70499,8 +70524,8 @@
     },
     "2996": {
       "number": 2996,
-      "updatedAt": "2026-10-30T08:42:30Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T07:15:33Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -70512,13 +70537,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2997": {
       "number": 2997,
-      "updatedAt": "2026-10-31T05:16:55Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T06:55:05Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -70530,13 +70563,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2998": {
       "number": 2998,
-      "updatedAt": "2026-10-31T06:49:20Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T06:08:31Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -70548,7 +70589,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2999": {
@@ -70620,6 +70669,64 @@
       "author": {
         "login": "renovate",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3003": {
+      "number": 3003,
+      "updatedAt": "2026-11-06T10:39:55Z",
+      "merged": false,
+      "author": {
+        "login": "mvanhorn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3004": {
+      "number": 3004,
+      "updatedAt": "2026-11-06T05:25:13Z",
+      "merged": true,
+      "author": {
+        "login": "cexbrayat",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T01:44:21.875Z",
+    "lastRunAt": "2026-11-06T11:57:07.380Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0yMlQxNTozMTo0NVrOaSoElQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -904,7 +904,7 @@
     },
     "45": {
       "number": 45,
-      "updatedAt": "2026-11-04T22:02:30Z",
+      "updatedAt": "2026-11-05T18:09:45Z",
       "merged": false,
       "author": {
         "login": "xfzv",
@@ -917,7 +917,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "uncenter",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

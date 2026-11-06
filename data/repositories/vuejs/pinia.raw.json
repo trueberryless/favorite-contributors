@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T21:30:10.487Z",
+    "lastRunAt": "2026-11-06T11:54:21.869Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13993,6 +13993,20 @@
       "number": 3206,
       "user": {
         "login": "simpleqt",
+        "type": "User"
+      }
+    },
+    "3207": {
+      "number": 3207,
+      "user": {
+        "login": "shuvroroy",
+        "type": "User"
+      }
+    },
+    "3208": {
+      "number": 3208,
+      "user": {
+        "login": "shuvroroy",
         "type": "User"
       }
     }
@@ -39397,6 +39411,65 @@
             "author": {
               "login": "posva",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3207": {
+      "number": 3207,
+      "updatedAt": "2026-11-06T05:20:50Z",
+      "merged": false,
+      "author": {
+        "login": "shuvroroy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3208": {
+      "number": 3208,
+      "updatedAt": "2026-11-06T07:16:43Z",
+      "merged": false,
+      "author": {
+        "login": "shuvroroy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]

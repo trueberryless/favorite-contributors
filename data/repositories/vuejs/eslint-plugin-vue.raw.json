@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T21:29:57.789Z",
+    "lastRunAt": "2026-11-06T11:54:10.178Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -76999,7 +76999,7 @@
     },
     "3148": {
       "number": 3148,
-      "updatedAt": "2026-10-30T02:28:44Z",
+      "updatedAt": "2026-11-05T13:18:04Z",
       "merged": false,
       "author": {
         "login": "giaBaoJS",
@@ -77054,13 +77054,20 @@
               "login": "waynzh",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "3149": {
       "number": 3149,
-      "updatedAt": "2026-10-27T18:07:42Z",
+      "updatedAt": "2026-11-06T07:03:49Z",
       "merged": false,
       "author": {
         "login": "kwy404",
@@ -77073,7 +77080,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3150": {
@@ -77740,7 +77755,7 @@
     },
     "3175": {
       "number": 3175,
-      "updatedAt": "2026-10-29T09:46:42Z",
+      "updatedAt": "2026-11-06T09:42:05Z",
       "merged": false,
       "author": {
         "login": "ybai08",
@@ -77772,6 +77787,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "ybai08",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }
@@ -77949,7 +77971,7 @@
     },
     "3182": {
       "number": 3182,
-      "updatedAt": "2026-10-27T15:40:22Z",
+      "updatedAt": "2026-11-06T01:57:54Z",
       "merged": false,
       "author": {
         "login": "Donimikk",
@@ -77974,6 +77996,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "Donimikk",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }
@@ -78977,8 +79006,8 @@
     },
     "3217": {
       "number": 3217,
-      "updatedAt": "2026-10-29T14:36:32Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T11:43:21Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -78995,6 +79024,13 @@
             "state": "APPROVED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }
@@ -79157,8 +79193,8 @@
     },
     "3223": {
       "number": 3223,
-      "updatedAt": "2026-10-29T14:18:51Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T10:27:13Z",
+      "merged": true,
       "author": {
         "login": "dgesteves",
         "__typename": "User"
@@ -79196,6 +79232,13 @@
             "state": "APPROVED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }
@@ -79240,7 +79283,7 @@
     },
     "3226": {
       "number": 3226,
-      "updatedAt": "2026-10-29T14:15:50Z",
+      "updatedAt": "2026-11-05T10:45:41Z",
       "merged": false,
       "author": {
         "login": "FloEdelmann",
@@ -79265,6 +79308,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }
@@ -79306,7 +79356,7 @@
     },
     "3228": {
       "number": 3228,
-      "updatedAt": "2026-10-30T13:47:01Z",
+      "updatedAt": "2026-11-06T05:40:34Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -79359,6 +79409,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ValentinYoushkevich",
               "__typename": "User"
             }
           }
@@ -79385,7 +79449,7 @@
     },
     "3230": {
       "number": 3230,
-      "updatedAt": "2026-10-31T11:26:53Z",
+      "updatedAt": "2026-11-05T23:43:48Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -79403,7 +79467,7 @@
     },
     "3231": {
       "number": 3231,
-      "updatedAt": "2026-10-30T07:57:28Z",
+      "updatedAt": "2026-11-06T00:02:38Z",
       "merged": false,
       "author": {
         "login": "NgoQuocViet2001",
@@ -79423,14 +79487,21 @@
               "login": "FloEdelmann",
               "__typename": "User"
             }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "3232": {
       "number": 3232,
-      "updatedAt": "2026-10-30T07:51:02Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T23:41:54Z",
+      "merged": true,
       "author": {
         "login": "HawkForge",
         "__typename": "User"
@@ -79447,6 +79518,13 @@
             "state": "APPROVED",
             "author": {
               "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ota-meshi",
               "__typename": "User"
             }
           }

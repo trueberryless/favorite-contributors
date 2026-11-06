@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T21:30:16.387Z",
+    "lastRunAt": "2026-11-06T11:54:27.875Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0yMVQwNzoyNzozMVrOWmaDxQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8568,6 +8568,13 @@
     },
     "1186": {
       "number": 1186,
+      "user": {
+        "login": "webfansplz",
+        "type": "User"
+      }
+    },
+    "1187": {
+      "number": 1187,
       "user": {
         "login": "webfansplz",
         "type": "User"
@@ -22805,7 +22812,7 @@
     },
     "1138": {
       "number": 1138,
-      "updatedAt": "2026-10-20T09:14:01Z",
+      "updatedAt": "2026-11-06T06:20:21Z",
       "merged": false,
       "author": {
         "login": "pindatm",
@@ -23361,8 +23368,8 @@
     },
     "1170": {
       "number": 1170,
-      "updatedAt": "2026-10-20T09:14:01Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T07:50:58Z",
+      "merged": true,
       "author": {
         "login": "Singmin",
         "__typename": "User"
@@ -23374,13 +23381,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1171": {
       "number": 1171,
-      "updatedAt": "2026-10-20T09:14:01Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T07:51:20Z",
+      "merged": true,
       "author": {
         "login": "Singmin",
         "__typename": "User"
@@ -23392,7 +23407,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1172": {
@@ -23423,8 +23446,8 @@
     },
     "1173": {
       "number": 1173,
-      "updatedAt": "2026-10-20T09:14:01Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T07:52:00Z",
+      "merged": true,
       "author": {
         "login": "ninadsutrave",
         "__typename": "User"
@@ -23436,7 +23459,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1174": {
@@ -23493,8 +23524,8 @@
     },
     "1176": {
       "number": 1176,
-      "updatedAt": "2026-10-21T09:41:17Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T08:59:00Z",
+      "merged": true,
       "author": {
         "login": "Luyii",
         "__typename": "User"
@@ -23506,7 +23537,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "webfansplz",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1178": {
@@ -23667,7 +23706,33 @@
     },
     "1186": {
       "number": 1186,
-      "updatedAt": "2026-11-03T03:09:50Z",
+      "updatedAt": "2026-11-05T05:58:05Z",
+      "merged": true,
+      "author": {
+        "login": "webfansplz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1187": {
+      "number": 1187,
+      "updatedAt": "2026-11-05T06:25:41Z",
       "merged": false,
       "author": {
         "login": "webfansplz",

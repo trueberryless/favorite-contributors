@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-04T21:30:07.201Z",
+    "lastRunAt": "2026-11-06T11:54:18.952Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18066,6 +18066,13 @@
       "number": 2871,
       "user": {
         "login": "onmax",
+        "type": "User"
+      }
+    },
+    "2872": {
+      "number": 2872,
+      "user": {
+        "login": "Karanvir1729",
         "type": "User"
       }
     }
@@ -42205,7 +42212,7 @@
     },
     "2106": {
       "number": 2106,
-      "updatedAt": "2026-10-20T21:15:16Z",
+      "updatedAt": "2026-11-05T15:07:04Z",
       "merged": false,
       "author": {
         "login": "posva",
@@ -46310,7 +46317,7 @@
     },
     "2620": {
       "number": 2620,
-      "updatedAt": "2026-10-24T12:58:20Z",
+      "updatedAt": "2026-11-05T14:20:25Z",
       "merged": false,
       "author": {
         "login": "KazariEX",
@@ -47837,7 +47844,7 @@
     },
     "2727": {
       "number": 2727,
-      "updatedAt": "2026-08-07T14:46:36Z",
+      "updatedAt": "2026-11-05T20:23:22Z",
       "merged": false,
       "author": {
         "login": "posva",
@@ -50640,6 +50647,32 @@
             "author": {
               "login": "posva",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2872": {
+      "number": 2872,
+      "updatedAt": "2026-11-05T16:43:51Z",
+      "merged": false,
+      "author": {
+        "login": "Karanvir1729",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
