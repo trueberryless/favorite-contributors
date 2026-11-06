@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T09:06:42.870Z",
+    "lastRunAt": "2026-11-06T23:42:57.213Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0xNlQxMDoxNjo1N1rOYiNCaQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2248,6 +2248,13 @@
       "number": 307,
       "user": {
         "login": "denbezrukov",
+        "type": "User"
+      }
+    },
+    "308": {
+      "number": 308,
+      "user": {
+        "login": "Netail",
         "type": "User"
       }
     }
@@ -6191,7 +6198,7 @@
     },
     "300": {
       "number": 300,
-      "updatedAt": "2026-10-27T09:26:23Z",
+      "updatedAt": "2026-11-06T18:25:14Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -6341,6 +6348,53 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "308": {
+      "number": 308,
+      "updatedAt": "2026-11-06T08:32:25Z",
+      "merged": true,
+      "author": {
+        "login": "Netail",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Netail",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "siketyan",
+              "__typename": "User"
             }
           }
         ]

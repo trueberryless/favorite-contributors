@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T17:35:08.080Z",
+    "lastRunAt": "2026-11-06T23:45:39.266Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -51985,6 +51985,13 @@
       "number": 8554,
       "user": {
         "login": "fehmer",
+        "type": "User"
+      }
+    },
+    "8555": {
+      "number": 8555,
+      "user": {
+        "login": "ManolisTsongas",
         "type": "User"
       }
     }
@@ -185780,7 +185787,7 @@
     },
     "8477": {
       "number": 8477,
-      "updatedAt": "2026-10-29T00:58:50Z",
+      "updatedAt": "2026-11-06T03:34:56Z",
       "merged": false,
       "author": {
         "login": "ameliemcm",
@@ -186805,8 +186812,8 @@
     },
     "8526": {
       "number": 8526,
-      "updatedAt": "2026-11-05T12:11:43Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T19:38:36Z",
+      "merged": true,
       "author": {
         "login": "Miodec",
         "__typename": "User"
@@ -186908,8 +186915,8 @@
     },
     "8531": {
       "number": 8531,
-      "updatedAt": "2026-11-05T08:25:36Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T19:38:15Z",
+      "merged": true,
       "author": {
         "login": "Miodec",
         "__typename": "User"
@@ -187036,7 +187043,7 @@
     },
     "8536": {
       "number": 8536,
-      "updatedAt": "2026-11-05T06:42:22Z",
+      "updatedAt": "2026-11-06T10:24:12Z",
       "merged": false,
       "author": {
         "login": "JannisMCMXCV",
@@ -187326,7 +187333,7 @@
     },
     "8552": {
       "number": 8552,
-      "updatedAt": "2026-11-05T10:25:01Z",
+      "updatedAt": "2026-11-05T22:31:39Z",
       "merged": false,
       "author": {
         "login": "FJOnori",
@@ -187344,8 +187351,8 @@
     },
     "8553": {
       "number": 8553,
-      "updatedAt": "2026-11-05T13:39:57Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T19:38:03Z",
+      "merged": true,
       "author": {
         "login": "fehmer",
         "__typename": "User"
@@ -187357,7 +187364,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Miodec",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "8554": {
@@ -187380,6 +187395,32 @@
             "state": "APPROVED",
             "author": {
               "login": "Miodec",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "8555": {
+      "number": 8555,
+      "updatedAt": "2026-11-06T08:22:43Z",
+      "merged": false,
+      "author": {
+        "login": "ManolisTsongas",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jaccovdalfsen",
               "__typename": "User"
             }
           }

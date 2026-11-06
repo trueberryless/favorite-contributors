@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T09:08:12.184Z",
+    "lastRunAt": "2026-11-06T23:44:19.430Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4013,7 +4013,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "519": {
@@ -8956,6 +8956,72 @@
       "number": 1162,
       "user": {
         "login": "outslept",
+        "type": "User"
+      }
+    },
+    "1163": {
+      "number": 1163,
+      "user": {
+        "login": "Greenheart",
+        "type": "User"
+      }
+    },
+    "1164": {
+      "number": 1164,
+      "user": {
+        "login": "outslept",
+        "type": "User"
+      }
+    },
+    "1165": {
+      "number": 1165,
+      "user": {
+        "login": "maksimgm",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1166": {
+      "number": 1166,
+      "user": {
+        "login": "maksimgm",
+        "type": "User"
+      }
+    },
+    "1167": {
+      "number": 1167,
+      "user": {
+        "login": "maksimgm",
+        "type": "User"
+      }
+    },
+    "1168": {
+      "number": 1168,
+      "user": {
+        "login": "jeremy-code",
+        "type": "User"
+      }
+    },
+    "1169": {
+      "number": 1169,
+      "user": {
+        "login": "maksimgm",
+        "type": "User"
+      }
+    },
+    "1170": {
+      "number": 1170,
+      "user": {
+        "login": "maksimgm",
+        "type": "User"
+      }
+    },
+    "1171": {
+      "number": 1171,
+      "user": {
+        "login": "maksimgm",
         "type": "User"
       }
     }
@@ -23387,7 +23453,7 @@
     },
     "780": {
       "number": 780,
-      "updatedAt": "2026-11-01T17:07:36Z",
+      "updatedAt": "2026-11-05T12:36:30Z",
       "merged": false,
       "author": {
         "login": "PuruVJ",
@@ -23405,6 +23471,34 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "gameroman",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "PuruVJ",
               "__typename": "User"
             }
           }
@@ -28866,6 +28960,145 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1164": {
+      "number": 1164,
+      "updatedAt": "2026-11-05T16:12:01Z",
+      "merged": true,
+      "author": {
+        "login": "outslept",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1165": {
+      "number": 1165,
+      "updatedAt": "2026-11-06T12:12:10Z",
+      "merged": true,
+      "author": {
+        "login": "maksimgm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1166": {
+      "number": 1166,
+      "updatedAt": "2026-11-06T09:47:36Z",
+      "merged": true,
+      "author": {
+        "login": "maksimgm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mbtools",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1167": {
+      "number": 1167,
+      "updatedAt": "2026-11-05T22:05:37Z",
+      "merged": false,
+      "author": {
+        "login": "maksimgm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1169": {
+      "number": 1169,
+      "updatedAt": "2026-11-06T18:05:03Z",
+      "merged": false,
+      "author": {
+        "login": "maksimgm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1171": {
+      "number": 1171,
+      "updatedAt": "2026-11-06T23:14:21Z",
+      "merged": false,
+      "author": {
+        "login": "maksimgm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
