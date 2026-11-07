@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T23:23:45.706Z",
+    "lastRunAt": "2026-11-07T11:37:34.347Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0wMVQyMDoyNjo0N1rOZb_Whg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1206,6 +1206,13 @@
       "number": 165,
       "user": {
         "login": "1bye",
+        "type": "User"
+      }
+    },
+    "166": {
+      "number": 166,
+      "user": {
+        "login": "joordih",
         "type": "User"
       }
     }
@@ -4079,7 +4086,7 @@
     },
     "164": {
       "number": 164,
-      "updatedAt": "2026-11-05T07:55:50Z",
+      "updatedAt": "2026-11-06T15:42:06Z",
       "merged": false,
       "author": {
         "login": "Vidhan31",
@@ -4097,10 +4104,36 @@
     },
     "165": {
       "number": 165,
-      "updatedAt": "2026-11-05T10:57:32Z",
+      "updatedAt": "2026-11-06T06:46:33Z",
       "merged": false,
       "author": {
         "login": "1bye",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "amr3k",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "166": {
+      "number": 166,
+      "updatedAt": "2026-11-06T18:38:12Z",
+      "merged": false,
+      "author": {
+        "login": "joordih",
         "__typename": "User"
       },
       "closingIssuesReferences": {

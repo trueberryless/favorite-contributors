@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-06T03:34:21.671Z",
+    "lastRunAt": "2026-11-07T11:39:31.579Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12696,6 +12696,20 @@
       "number": 1726,
       "user": {
         "login": "iamsomraj",
+        "type": "User"
+      }
+    },
+    "1727": {
+      "number": 1727,
+      "user": {
+        "login": "gunsnprices-admin",
+        "type": "User"
+      }
+    },
+    "1728": {
+      "number": 1728,
+      "user": {
+        "login": "kendrick-k",
         "type": "User"
       }
     }
@@ -38398,7 +38412,7 @@
     },
     "1653": {
       "number": 1653,
-      "updatedAt": "2026-10-21T09:48:22Z",
+      "updatedAt": "2026-11-06T08:02:34Z",
       "merged": false,
       "author": {
         "login": "Ray0907",
@@ -39611,7 +39625,7 @@
     },
     "1702": {
       "number": 1702,
-      "updatedAt": "2026-10-27T09:47:00Z",
+      "updatedAt": "2026-11-07T10:25:47Z",
       "merged": false,
       "author": {
         "login": "davidabou",
@@ -40134,6 +40148,50 @@
             }
           }
         ]
+      }
+    },
+    "1727": {
+      "number": 1727,
+      "updatedAt": "2026-11-06T19:35:21Z",
+      "merged": false,
+      "author": {
+        "login": "gunsnprices-admin",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1728": {
+      "number": 1728,
+      "updatedAt": "2026-11-07T11:36:10Z",
+      "merged": false,
+      "author": {
+        "login": "kendrick-k",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

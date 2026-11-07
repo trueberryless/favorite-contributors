@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T23:25:15.209Z",
+    "lastRunAt": "2026-11-07T11:38:52.093Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0yMlQxODowNzoxMFrOvrttxw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -26538,6 +26538,68 @@
       "user": {
         "login": "fatfingers23",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "3406": {
+      "number": 3406,
+      "user": {
+        "login": "DefinitelyMaybe",
+        "type": "User"
+      }
+    },
+    "3407": {
+      "number": 3407,
+      "user": {
+        "login": "BANOnotIT",
+        "type": "User"
+      }
+    },
+    "3408": {
+      "number": 3408,
+      "user": {
+        "login": "AriPerkkio",
+        "type": "User"
+      }
+    },
+    "3409": {
+      "number": 3409,
+      "user": {
+        "login": "btea",
+        "type": "User"
+      }
+    },
+    "3410": {
+      "number": 3410,
+      "user": {
+        "login": "btea",
+        "type": "User"
+      }
+    },
+    "3411": {
+      "number": 3411,
+      "user": {
+        "login": "tommy-mitchell",
+        "type": "User"
+      }
+    },
+    "3412": {
+      "number": 3412,
+      "user": {
+        "login": "btea",
+        "type": "User"
+      }
+    },
+    "3413": {
+      "number": 3413,
+      "user": {
+        "login": "serhalp",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -120709,7 +120771,7 @@
     },
     "3202": {
       "number": 3202,
-      "updatedAt": "2026-11-05T14:05:45Z",
+      "updatedAt": "2026-11-07T11:16:11Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -121197,7 +121259,7 @@
     },
     "3219": {
       "number": 3219,
-      "updatedAt": "2026-11-05T14:11:12Z",
+      "updatedAt": "2026-11-07T11:16:47Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -123800,7 +123862,7 @@
     },
     "3308": {
       "number": 3308,
-      "updatedAt": "2026-11-01T01:46:11Z",
+      "updatedAt": "2026-11-06T02:01:44Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -124982,7 +125044,7 @@
     },
     "3340": {
       "number": 3340,
-      "updatedAt": "2026-10-26T18:22:27Z",
+      "updatedAt": "2026-11-06T01:59:06Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -126198,7 +126260,7 @@
     },
     "3372": {
       "number": 3372,
-      "updatedAt": "2026-11-05T14:45:40Z",
+      "updatedAt": "2026-11-07T03:18:32Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -126213,9 +126275,16 @@
       "reviews": {
         "nodes": [
           {
-            "state": "APPROVED",
+            "state": "DISMISSED",
             "author": {
               "login": "trueberryless",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "serhalp",
               "__typename": "User"
             }
           }
@@ -126416,8 +126485,8 @@
     },
     "3379": {
       "number": 3379,
-      "updatedAt": "2026-11-01T19:51:47Z",
-      "merged": false,
+      "updatedAt": "2026-11-07T02:26:18Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -126874,8 +126943,8 @@
     },
     "3394": {
       "number": 3394,
-      "updatedAt": "2026-11-02T19:22:17Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T13:08:45Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -126887,12 +126956,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3395": {
       "number": 3395,
-      "updatedAt": "2026-11-02T02:59:59Z",
+      "updatedAt": "2026-11-06T13:15:35Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -126962,8 +127039,8 @@
     },
     "3399": {
       "number": 3399,
-      "updatedAt": "2026-11-02T22:23:19Z",
-      "merged": false,
+      "updatedAt": "2026-11-07T02:34:51Z",
+      "merged": true,
       "author": {
         "login": "VentyCZ",
         "__typename": "User"
@@ -127010,6 +127087,27 @@
               "login": "VentyCZ",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
           }
         ]
       }
@@ -127042,8 +127140,8 @@
     },
     "3403": {
       "number": 3403,
-      "updatedAt": "2026-11-03T03:29:44Z",
-      "merged": false,
+      "updatedAt": "2026-11-07T02:31:19Z",
+      "merged": true,
       "author": {
         "login": "cylewaitforit",
         "__typename": "User"
@@ -127061,6 +127159,27 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
             }
           }
         ]
@@ -127086,10 +127205,130 @@
     },
     "3405": {
       "number": 3405,
-      "updatedAt": "2026-11-04T20:12:04Z",
+      "updatedAt": "2026-11-07T02:18:56Z",
       "merged": false,
       "author": {
         "login": "fatfingers23",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3409": {
+      "number": 3409,
+      "updatedAt": "2026-11-06T16:37:19Z",
+      "merged": false,
+      "author": {
+        "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "btea",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "btea",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3410": {
+      "number": 3410,
+      "updatedAt": "2026-11-07T07:43:46Z",
+      "merged": false,
+      "author": {
+        "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "graphieros",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3411": {
+      "number": 3411,
+      "updatedAt": "2026-11-07T00:14:15Z",
+      "merged": false,
+      "author": {
+        "login": "tommy-mitchell",
         "__typename": "User"
       },
       "closingIssuesReferences": {
@@ -127108,6 +127347,50 @@
             }
           }
         ]
+      }
+    },
+    "3412": {
+      "number": 3412,
+      "updatedAt": "2026-11-07T02:21:49Z",
+      "merged": false,
+      "author": {
+        "login": "btea",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3413": {
+      "number": 3413,
+      "updatedAt": "2026-11-07T03:14:46Z",
+      "merged": false,
+      "author": {
+        "login": "serhalp",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

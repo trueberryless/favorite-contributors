@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-06T03:34:25.113Z",
+    "lastRunAt": "2026-11-07T11:39:35.008Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xOFQxMzoxNTo0NlrOLraJ-A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -56067,6 +56067,34 @@
       "number": 7369,
       "user": {
         "login": "antoineboquet",
+        "type": "User"
+      }
+    },
+    "7370": {
+      "number": 7370,
+      "user": {
+        "login": "helloigig",
+        "type": "User"
+      }
+    },
+    "7371": {
+      "number": 7371,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "7372": {
+      "number": 7372,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "7373": {
+      "number": 7373,
+      "user": {
+        "login": "Lumethys",
         "type": "User"
       }
     }
@@ -133578,7 +133606,7 @@
     },
     "6691": {
       "number": 6691,
-      "updatedAt": "2026-11-05T16:58:01Z",
+      "updatedAt": "2026-11-06T16:01:46Z",
       "merged": false,
       "author": {
         "login": "gabrielstuff",
@@ -133591,7 +133619,15 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "6693": {
@@ -139172,7 +139208,7 @@
     },
     "6994": {
       "number": 6994,
-      "updatedAt": "2026-11-04T09:03:09Z",
+      "updatedAt": "2026-11-06T03:58:55Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -152431,7 +152467,7 @@
     },
     "7364": {
       "number": 7364,
-      "updatedAt": "2026-11-05T16:46:10Z",
+      "updatedAt": "2026-11-06T15:39:47Z",
       "merged": false,
       "author": {
         "login": "benjamincanac",
@@ -152524,6 +152560,90 @@
           },
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
@@ -152704,6 +152824,75 @@
             }
           }
         ]
+      }
+    },
+    "7370": {
+      "number": 7370,
+      "updatedAt": "2026-11-06T11:54:23Z",
+      "merged": false,
+      "author": {
+        "login": "helloigig",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "7371": {
+      "number": 7371,
+      "updatedAt": "2026-11-06T11:42:04Z",
+      "merged": false,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "7372": {
+      "number": 7372,
+      "updatedAt": "2026-11-06T15:57:54Z",
+      "merged": false,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
