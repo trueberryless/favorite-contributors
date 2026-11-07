@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T17:35:53.536Z",
+    "lastRunAt": "2026-11-07T04:58:07.706Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMS0xMVQwMzo0MzowOFrOY5SVWg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5857,6 +5857,13 @@
       "number": 815,
       "user": {
         "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "816": {
+      "number": 816,
+      "user": {
+        "login": "oxc-guard[bot]",
         "type": "Bot"
       }
     }
@@ -20264,6 +20271,24 @@
       "merged": true,
       "author": {
         "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "816": {
+      "number": 816,
+      "updatedAt": "2026-11-06T14:19:41Z",
+      "merged": true,
+      "author": {
+        "login": "oxc-guard",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {

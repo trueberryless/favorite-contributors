@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T23:22:57.165Z",
+    "lastRunAt": "2026-11-07T05:00:43.243Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8498,6 +8498,27 @@
       "number": 1371,
       "user": {
         "login": "thorn0",
+        "type": "User"
+      }
+    },
+    "1372": {
+      "number": 1372,
+      "user": {
+        "login": "oyobbeb",
+        "type": "User"
+      }
+    },
+    "1373": {
+      "number": 1373,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1374": {
+      "number": 1374,
+      "user": {
+        "login": "itisrmk",
         "type": "User"
       }
     }
@@ -20456,7 +20477,7 @@
     },
     "1167": {
       "number": 1167,
-      "updatedAt": "2026-11-03T00:38:52Z",
+      "updatedAt": "2026-11-06T01:48:41Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24725,6 +24746,97 @@
       "merged": false,
       "author": {
         "login": "duongynhi000001-crypto",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1372": {
+      "number": 1372,
+      "updatedAt": "2026-11-06T17:55:27Z",
+      "merged": true,
+      "author": {
+        "login": "oyobbeb",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "piecyk",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1373": {
+      "number": 1373,
+      "updatedAt": "2026-11-06T18:00:32Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1374": {
+      "number": 1374,
+      "updatedAt": "2026-11-06T21:18:10Z",
+      "merged": false,
+      "author": {
+        "login": "itisrmk",
         "__typename": "User"
       },
       "closingIssuesReferences": {

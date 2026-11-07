@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T17:35:51.799Z",
+    "lastRunAt": "2026-11-07T04:58:06.119Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0xNFQxMjoxMjoxN1rOXzkiDg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9925,6 +9925,20 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "1364": {
+      "number": 1364,
+      "user": {
+        "login": "oxc-guard[bot]",
+        "type": "Bot"
+      }
+    },
+    "1365": {
+      "number": 1365,
+      "user": {
+        "login": "MisterWoody",
+        "type": "User"
       }
     }
   },
@@ -36033,6 +36047,32 @@
             "author": {
               "login": "copilot-pull-request-reviewer",
               "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1364": {
+      "number": 1364,
+      "updatedAt": "2026-11-06T11:48:25Z",
+      "merged": true,
+      "author": {
+        "login": "oxc-guard",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
             }
           }
         ]

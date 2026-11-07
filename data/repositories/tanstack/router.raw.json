@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T23:22:55.272Z",
+    "lastRunAt": "2026-11-07T05:00:41.347Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMC0xN1QwMjowODo0MVrOLTum1g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -56617,6 +56617,20 @@
       "number": 8882,
       "user": {
         "login": "tombeckenham",
+        "type": "User"
+      }
+    },
+    "8883": {
+      "number": 8883,
+      "user": {
+        "login": "EnesKartal",
+        "type": "User"
+      }
+    },
+    "8885": {
+      "number": 8885,
+      "user": {
+        "login": "brenelz",
         "type": "User"
       }
     }
@@ -174114,7 +174128,7 @@
     },
     "8208": {
       "number": 8208,
-      "updatedAt": "2026-11-05T23:15:56Z",
+      "updatedAt": "2026-11-06T01:56:59Z",
       "merged": false,
       "author": {
         "login": "NathanWalker",
@@ -174172,14 +174186,14 @@
     },
     "8210": {
       "number": 8210,
-      "updatedAt": "2026-09-01T11:22:05Z",
+      "updatedAt": "2026-11-07T02:37:27Z",
       "merged": false,
       "author": {
         "login": "lx3133584",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
@@ -178645,8 +178659,8 @@
     },
     "8387": {
       "number": 8387,
-      "updatedAt": "2026-09-12T00:26:11Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T04:26:06Z",
+      "merged": true,
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
@@ -178663,8 +178677,8 @@
     },
     "8388": {
       "number": 8388,
-      "updatedAt": "2026-09-12T00:23:25Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T04:25:33Z",
+      "merged": true,
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
@@ -178841,8 +178855,8 @@
     },
     "8394": {
       "number": 8394,
-      "updatedAt": "2026-09-12T04:28:18Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T04:26:26Z",
+      "merged": true,
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
@@ -178877,8 +178891,8 @@
     },
     "8396": {
       "number": 8396,
-      "updatedAt": "2026-09-12T04:35:53Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T04:26:16Z",
+      "merged": true,
       "author": {
         "login": "tannerlinsley",
         "__typename": "User"
@@ -187291,7 +187305,7 @@
     },
     "8802": {
       "number": 8802,
-      "updatedAt": "2026-10-23T15:39:07Z",
+      "updatedAt": "2026-11-06T08:16:13Z",
       "merged": false,
       "author": {
         "login": "unjica",
@@ -188181,7 +188195,7 @@
     },
     "8854": {
       "number": 8854,
-      "updatedAt": "2026-11-04T19:33:28Z",
+      "updatedAt": "2026-11-06T04:32:40Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -189181,6 +189195,50 @@
             }
           }
         ]
+      }
+    },
+    "8883": {
+      "number": 8883,
+      "updatedAt": "2026-11-06T19:21:13Z",
+      "merged": false,
+      "author": {
+        "login": "EnesKartal",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8885": {
+      "number": 8885,
+      "updatedAt": "2026-11-07T04:20:15Z",
+      "merged": false,
+      "author": {
+        "login": "brenelz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

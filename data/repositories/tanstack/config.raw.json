@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T23:22:58.649Z",
+    "lastRunAt": "2026-11-07T05:00:44.969Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0zMVQxMDowMDozNVrOYvrnQg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3004,6 +3004,13 @@
       "number": 430,
       "user": {
         "login": "lachlancollins",
+        "type": "User"
+      }
+    },
+    "431": {
+      "number": 431,
+      "user": {
+        "login": "KyleAMathews",
         "type": "User"
       }
     }
@@ -10917,7 +10924,7 @@
     },
     "424": {
       "number": 424,
-      "updatedAt": "2026-11-05T15:00:38Z",
+      "updatedAt": "2026-11-06T23:47:17Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10971,7 +10978,7 @@
     },
     "427": {
       "number": 427,
-      "updatedAt": "2026-11-02T23:02:27Z",
+      "updatedAt": "2026-11-06T01:49:29Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -11062,6 +11069,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "431": {
+      "number": 431,
+      "updatedAt": "2026-11-06T20:33:54Z",
+      "merged": false,
+      "author": {
+        "login": "KyleAMathews",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

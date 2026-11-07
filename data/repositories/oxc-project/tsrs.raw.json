@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-05T17:35:57.699Z",
+    "lastRunAt": "2026-11-07T04:58:10.605Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0xMC0wMVQxODowMDoyNVrPAAAAARh6x0s=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7120,9 +7120,6 @@
       "user": {
         "login": "camc314",
         "type": "User"
-      },
-      "reactions": {
-        "total_count": 1
       }
     },
     "925": {
@@ -7149,6 +7146,75 @@
       "number": 927,
       "user": {
         "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "928": {
+      "number": 928,
+      "user": {
+        "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "930": {
+      "number": 930,
+      "user": {
+        "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "931": {
+      "number": 931,
+      "user": {
+        "login": "mgholam",
+        "type": "User"
+      }
+    },
+    "932": {
+      "number": 932,
+      "user": {
+        "login": "christianvuerings",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "933": {
+      "number": 933,
+      "user": {
+        "login": "CoffeeChaton",
+        "type": "User"
+      }
+    },
+    "934": {
+      "number": 934,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "935": {
+      "number": 935,
+      "user": {
+        "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "936": {
+      "number": 936,
+      "user": {
+        "login": "maschwenk",
+        "type": "User"
+      }
+    },
+    "937": {
+      "number": 937,
+      "user": {
+        "login": "jasonkuhrt",
         "type": "User"
       }
     }
@@ -23598,7 +23664,7 @@
     },
     "891": {
       "number": 891,
-      "updatedAt": "2026-11-04T22:16:24Z",
+      "updatedAt": "2026-11-06T01:18:59Z",
       "merged": false,
       "author": {
         "login": "maschwenk",
@@ -23847,7 +23913,7 @@
     },
     "906": {
       "number": 906,
-      "updatedAt": "2026-11-05T16:00:51Z",
+      "updatedAt": "2026-11-06T17:40:24Z",
       "merged": false,
       "author": {
         "login": "camc314",
@@ -23872,6 +23938,20 @@
             "state": "COMMENTED",
             "author": {
               "login": "camc314",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "maschwenk",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "maschwenk",
               "__typename": "User"
             }
           }
@@ -24166,8 +24246,8 @@
     },
     "919": {
       "number": 919,
-      "updatedAt": "2026-11-05T17:22:22Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T17:37:14Z",
+      "merged": true,
       "author": {
         "login": "camc314",
         "__typename": "User"
@@ -24199,8 +24279,8 @@
     },
     "923": {
       "number": 923,
-      "updatedAt": "2026-11-05T17:22:24Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T18:08:16Z",
+      "merged": true,
       "author": {
         "login": "camc314",
         "__typename": "User"
@@ -24232,8 +24312,8 @@
     },
     "924": {
       "number": 924,
-      "updatedAt": "2026-11-05T17:23:31Z",
-      "merged": false,
+      "updatedAt": "2026-11-05T18:48:37Z",
+      "merged": true,
       "author": {
         "login": "camc314",
         "__typename": "User"
@@ -24242,7 +24322,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 0
       },
       "reviews": {
         "nodes": [
@@ -24252,14 +24332,21 @@
               "login": "copilot-pull-request-reviewer",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
           }
         ]
       }
     },
     "925": {
       "number": 925,
-      "updatedAt": "2026-11-05T17:25:29Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T11:38:50Z",
+      "merged": true,
       "author": {
         "login": "camc314",
         "__typename": "User"
@@ -24284,8 +24371,8 @@
     },
     "926": {
       "number": 926,
-      "updatedAt": "2026-11-05T17:28:32Z",
-      "merged": false,
+      "updatedAt": "2026-11-06T11:58:42Z",
+      "merged": true,
       "author": {
         "login": "camc314",
         "__typename": "User"
@@ -24310,7 +24397,7 @@
     },
     "927": {
       "number": 927,
-      "updatedAt": "2026-11-05T17:30:09Z",
+      "updatedAt": "2026-11-06T20:15:33Z",
       "merged": false,
       "author": {
         "login": "maschwenk",
@@ -24318,6 +24405,112 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "928": {
+      "number": 928,
+      "updatedAt": "2026-11-06T20:15:32Z",
+      "merged": false,
+      "author": {
+        "login": "maschwenk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "930": {
+      "number": 930,
+      "updatedAt": "2026-11-06T18:36:32Z",
+      "merged": true,
+      "author": {
+        "login": "maschwenk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "934": {
+      "number": 934,
+      "updatedAt": "2026-11-06T17:32:32Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "935": {
+      "number": 935,
+      "updatedAt": "2026-11-06T23:21:36Z",
+      "merged": true,
+      "author": {
+        "login": "maschwenk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "936": {
+      "number": 936,
+      "updatedAt": "2026-11-06T20:43:54Z",
+      "merged": true,
+      "author": {
+        "login": "maschwenk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
