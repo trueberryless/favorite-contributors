@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T14:51:20.325Z",
+    "lastRunAt": "2026-11-10T03:44:18.821Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33622,6 +33622,13 @@
       "number": 6655,
       "user": {
         "login": "EnesKartal",
+        "type": "User"
+      }
+    },
+    "6656": {
+      "number": 6656,
+      "user": {
+        "login": "oyobbeb",
         "type": "User"
       }
     }
@@ -75123,7 +75130,7 @@
     },
     "6653": {
       "number": 6653,
-      "updatedAt": "2026-11-07T02:39:15Z",
+      "updatedAt": "2026-11-09T07:58:02Z",
       "merged": false,
       "author": {
         "login": "lx3133584",
@@ -75137,6 +75144,20 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lx3133584",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -75157,6 +75178,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6656": {
+      "number": 6656,
+      "updatedAt": "2026-11-09T06:59:57Z",
+      "merged": false,
+      "author": {
+        "login": "oyobbeb",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

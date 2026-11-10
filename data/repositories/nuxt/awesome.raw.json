@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T19:23:31.878Z",
+    "lastRunAt": "2026-11-10T03:47:39.791Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNi0yMVQwNjoxNTowMlrOB40Q9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4255,6 +4255,13 @@
       "number": 593,
       "user": {
         "login": "devCrossNet",
+        "type": "User"
+      }
+    },
+    "594": {
+      "number": 594,
+      "user": {
+        "login": "czepter",
         "type": "User"
       }
     }
@@ -15421,6 +15428,24 @@
       "merged": false,
       "author": {
         "login": "devCrossNet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "594": {
+      "number": 594,
+      "updatedAt": "2026-11-09T21:20:30Z",
+      "merged": false,
+      "author": {
+        "login": "czepter",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T14:51:20.325Z",
+    "lastRunAt": "2026-11-10T03:44:18.822Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15664,6 +15664,34 @@
       "number": 2471,
       "user": {
         "login": "EnesKartal",
+        "type": "User"
+      }
+    },
+    "2472": {
+      "number": 2472,
+      "user": {
+        "login": "patricklafrance",
+        "type": "User"
+      }
+    },
+    "2473": {
+      "number": 2473,
+      "user": {
+        "login": "harry-whorlow",
+        "type": "User"
+      }
+    },
+    "2474": {
+      "number": 2474,
+      "user": {
+        "login": "RaxRai",
+        "type": "User"
+      }
+    },
+    "2475": {
+      "number": 2475,
+      "user": {
+        "login": "HagenMorano",
         "type": "User"
       }
     }
@@ -47136,6 +47164,50 @@
             }
           }
         ]
+      }
+    },
+    "2473": {
+      "number": 2473,
+      "updatedAt": "2026-11-08T21:10:40Z",
+      "merged": false,
+      "author": {
+        "login": "harry-whorlow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2474": {
+      "number": 2474,
+      "updatedAt": "2026-11-09T15:29:36Z",
+      "merged": false,
+      "author": {
+        "login": "RaxRai",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
