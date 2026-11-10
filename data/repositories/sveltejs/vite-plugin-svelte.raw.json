@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T19:25:56.229Z",
+    "lastRunAt": "2026-11-10T12:15:12.524Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wMy0xOVQyMzoyNjowM1rOI5EfKQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10257,6 +10257,13 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "1433": {
+      "number": 1433,
+      "user": {
+        "login": "0gust1",
+        "type": "User"
       }
     }
   },
@@ -38655,7 +38662,7 @@
     },
     "1375": {
       "number": 1375,
-      "updatedAt": "2026-10-26T13:31:40Z",
+      "updatedAt": "2026-11-10T05:07:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -39367,7 +39374,7 @@
     },
     "1403": {
       "number": 1403,
-      "updatedAt": "2026-11-08T17:55:09Z",
+      "updatedAt": "2026-11-10T10:55:38Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -39597,7 +39604,7 @@
     },
     "1416": {
       "number": 1416,
-      "updatedAt": "2026-11-06T02:46:48Z",
+      "updatedAt": "2026-11-10T05:06:52Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -39693,8 +39700,8 @@
     },
     "1420": {
       "number": 1420,
-      "updatedAt": "2026-11-08T01:55:35Z",
-      "merged": false,
+      "updatedAt": "2026-11-10T05:05:28Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -39706,12 +39713,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1421": {
       "number": 1421,
-      "updatedAt": "2026-11-05T17:15:52Z",
+      "updatedAt": "2026-11-10T11:59:33Z",
       "merged": false,
       "author": {
         "login": "anastasiia-baboshina",
@@ -39729,6 +39744,13 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "dunhamjared",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "anastasiia-baboshina",
               "__typename": "User"
             }
           }
@@ -39773,7 +39795,7 @@
     },
     "1425": {
       "number": 1425,
-      "updatedAt": "2026-10-26T13:28:38Z",
+      "updatedAt": "2026-11-10T05:06:03Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -39827,7 +39849,7 @@
     },
     "1429": {
       "number": 1429,
-      "updatedAt": "2026-11-02T00:50:01Z",
+      "updatedAt": "2026-11-10T05:08:20Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -39849,6 +39871,24 @@
       "merged": false,
       "author": {
         "login": "firatciftci",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1433": {
+      "number": 1433,
+      "updatedAt": "2026-11-09T10:48:21Z",
+      "merged": false,
+      "author": {
+        "login": "0gust1",
         "__typename": "User"
       },
       "closingIssuesReferences": {

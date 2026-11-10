@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T23:01:15.152Z",
+    "lastRunAt": "2026-11-10T12:16:07.987Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wMlQxMjo1MjozM1rORCLjPw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10664,6 +10664,55 @@
       "number": 1554,
       "user": {
         "login": "rhyek",
+        "type": "User"
+      }
+    },
+    "1555": {
+      "number": 1555,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1556": {
+      "number": 1556,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1557": {
+      "number": 1557,
+      "user": {
+        "login": "vite-release-bot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1558": {
+      "number": 1558,
+      "user": {
+        "login": "james-elicx",
+        "type": "User"
+      }
+    },
+    "1559": {
+      "number": 1559,
+      "user": {
+        "login": "schiller-manuel",
+        "type": "User"
+      }
+    },
+    "1560": {
+      "number": 1560,
+      "user": {
+        "login": "schiller-manuel",
+        "type": "User"
+      }
+    },
+    "1561": {
+      "number": 1561,
+      "user": {
+        "login": "Stono",
         "type": "User"
       }
     }
@@ -34651,7 +34700,7 @@
     },
     "1514": {
       "number": 1514,
-      "updatedAt": "2026-11-05T16:25:54Z",
+      "updatedAt": "2026-11-09T16:19:33Z",
       "merged": false,
       "author": {
         "login": "nbozidarevic",
@@ -34847,7 +34896,7 @@
     },
     "1525": {
       "number": 1525,
-      "updatedAt": "2026-11-05T16:26:16Z",
+      "updatedAt": "2026-11-09T16:18:59Z",
       "merged": false,
       "author": {
         "login": "nbozidarevic",
@@ -35115,8 +35164,8 @@
     },
     "1549": {
       "number": 1549,
-      "updatedAt": "2026-11-04T08:17:07Z",
-      "merged": false,
+      "updatedAt": "2026-11-09T05:58:23Z",
+      "merged": true,
       "author": {
         "login": "unjica",
         "__typename": "User"
@@ -35128,7 +35177,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1550": {
@@ -35191,6 +35248,96 @@
       "merged": false,
       "author": {
         "login": "dtno-tomas-sarnhammar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1555": {
+      "number": 1555,
+      "updatedAt": "2026-11-09T00:57:52Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1556": {
+      "number": 1556,
+      "updatedAt": "2026-11-10T09:43:46Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1557": {
+      "number": 1557,
+      "updatedAt": "2026-11-09T06:05:10Z",
+      "merged": true,
+      "author": {
+        "login": "vite-release-bot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1558": {
+      "number": 1558,
+      "updatedAt": "2026-11-09T13:31:42Z",
+      "merged": false,
+      "author": {
+        "login": "james-elicx",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1560": {
+      "number": 1560,
+      "updatedAt": "2026-11-09T12:19:50Z",
+      "merged": false,
+      "author": {
+        "login": "schiller-manuel",
         "__typename": "User"
       },
       "closingIssuesReferences": {

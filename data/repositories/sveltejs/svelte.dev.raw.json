@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T19:25:58.613Z",
+    "lastRunAt": "2026-11-10T12:15:16.205Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6054,7 +6054,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 2
+        "total_count": 3
       }
     },
     "847": {
@@ -16746,7 +16746,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "2343": {
@@ -16788,6 +16788,13 @@
       "number": 2348,
       "user": {
         "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2349": {
+      "number": 2349,
+      "user": {
+        "login": "devxsubh",
         "type": "User"
       }
     }
@@ -59272,8 +59279,8 @@
     },
     "2267": {
       "number": 2267,
-      "updatedAt": "2026-11-08T09:45:09Z",
-      "merged": false,
+      "updatedAt": "2026-11-09T21:17:45Z",
+      "merged": true,
       "author": {
         "login": "teemingc",
         "__typename": "User"
@@ -59297,6 +59304,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
               "__typename": "User"
             }
           }
@@ -60807,7 +60821,7 @@
     },
     "2336": {
       "number": 2336,
-      "updatedAt": "2026-11-06T17:13:53Z",
+      "updatedAt": "2026-11-10T04:36:27Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -60923,7 +60937,7 @@
     },
     "2342": {
       "number": 2342,
-      "updatedAt": "2026-11-08T17:29:49Z",
+      "updatedAt": "2026-11-10T11:11:19Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -60933,7 +60947,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 2
       },
       "reviews": {
         "nodes": []
@@ -60985,7 +60999,7 @@
     },
     "2347": {
       "number": 2347,
-      "updatedAt": "2026-11-08T08:52:49Z",
+      "updatedAt": "2026-11-09T21:17:44Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -60999,6 +61013,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2349": {
+      "number": 2349,
+      "updatedAt": "2026-11-09T12:08:19Z",
+      "merged": false,
+      "author": {
+        "login": "devxsubh",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

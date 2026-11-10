@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T19:24:22.489Z",
+    "lastRunAt": "2026-11-10T12:13:48.988Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNy0wNlQyMDo0MjowOFrOB7QF9A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7348,6 +7348,26 @@
       "user": {
         "login": "Mister-Hope",
         "type": "User"
+      }
+    },
+    "990": {
+      "number": 990,
+      "user": {
+        "login": "abdul-karim-mia",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "991": {
+      "number": 991,
+      "user": {
+        "login": "abdul-karim-mia",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -30192,6 +30212,100 @@
             "state": "COMMENTED",
             "author": {
               "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "990": {
+      "number": 990,
+      "updatedAt": "2026-11-08T23:51:36Z",
+      "merged": false,
+      "author": {
+        "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "991": {
+      "number": 991,
+      "updatedAt": "2026-11-10T02:15:25Z",
+      "merged": false,
+      "author": {
+        "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
               "__typename": "Bot"
             }
           }
