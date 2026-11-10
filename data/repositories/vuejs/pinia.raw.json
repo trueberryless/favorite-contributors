@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T23:02:52.465Z",
+    "lastRunAt": "2026-11-10T19:56:42.023Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -14021,6 +14021,55 @@
       "number": 3210,
       "user": {
         "login": "yachen4ever",
+        "type": "User"
+      }
+    },
+    "3211": {
+      "number": 3211,
+      "user": {
+        "login": "akasakariko",
+        "type": "User"
+      }
+    },
+    "3212": {
+      "number": 3212,
+      "user": {
+        "login": "niceplugin",
+        "type": "User"
+      }
+    },
+    "3213": {
+      "number": 3213,
+      "user": {
+        "login": "abdul-karim-mia",
+        "type": "User"
+      }
+    },
+    "3214": {
+      "number": 3214,
+      "user": {
+        "login": "abdul-karim-mia",
+        "type": "User"
+      }
+    },
+    "3215": {
+      "number": 3215,
+      "user": {
+        "login": "abdul-karim-mia",
+        "type": "User"
+      }
+    },
+    "3216": {
+      "number": 3216,
+      "user": {
+        "login": "abdul-karim-mia",
+        "type": "User"
+      }
+    },
+    "3217": {
+      "number": 3217,
+      "user": {
+        "login": "posva",
         "type": "User"
       }
     }
@@ -39503,6 +39552,179 @@
       "merged": false,
       "author": {
         "login": "shuvroroy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3211": {
+      "number": 3211,
+      "updatedAt": "2026-11-09T07:36:49Z",
+      "merged": false,
+      "author": {
+        "login": "akasakariko",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3212": {
+      "number": 3212,
+      "updatedAt": "2026-11-09T07:39:34Z",
+      "merged": true,
+      "author": {
+        "login": "niceplugin",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3213": {
+      "number": 3213,
+      "updatedAt": "2026-11-10T14:21:28Z",
+      "merged": true,
+      "author": {
+        "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3214": {
+      "number": 3214,
+      "updatedAt": "2026-11-10T14:21:31Z",
+      "merged": true,
+      "author": {
+        "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3215": {
+      "number": 3215,
+      "updatedAt": "2026-11-10T19:15:07Z",
+      "merged": true,
+      "author": {
+        "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3216": {
+      "number": 3216,
+      "updatedAt": "2026-11-10T19:24:11Z",
+      "merged": true,
+      "author": {
+        "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3217": {
+      "number": 3217,
+      "updatedAt": "2026-11-10T19:34:30Z",
+      "merged": true,
+      "author": {
+        "login": "posva",
         "__typename": "User"
       },
       "closingIssuesReferences": {

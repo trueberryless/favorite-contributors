@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-09T02:55:30.798Z",
+    "lastRunAt": "2026-11-10T20:00:40.925Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0xOVQxNToxMzoxOFrOxOeMjg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1530,7 +1530,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "215": {
@@ -1568,7 +1568,7 @@
         "type": "Bot"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 3
       }
     }
   },
@@ -4608,7 +4608,7 @@
     },
     "174": {
       "number": 174,
-      "updatedAt": "2026-11-08T18:44:58Z",
+      "updatedAt": "2026-11-10T07:45:55Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -4890,7 +4890,7 @@
     },
     "188": {
       "number": 188,
-      "updatedAt": "2026-11-08T14:47:09Z",
+      "updatedAt": "2026-11-10T14:15:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -5056,7 +5056,7 @@
     },
     "196": {
       "number": 196,
-      "updatedAt": "2026-11-08T18:44:52Z",
+      "updatedAt": "2026-11-09T23:38:39Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -5364,8 +5364,8 @@
     },
     "212": {
       "number": 212,
-      "updatedAt": "2026-10-22T13:52:46Z",
-      "merged": false,
+      "updatedAt": "2026-11-09T13:33:29Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -5377,12 +5377,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "213": {
       "number": 213,
-      "updatedAt": "2026-10-29T13:40:31Z",
+      "updatedAt": "2026-11-09T12:51:10Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -5400,8 +5408,8 @@
     },
     "219": {
       "number": 219,
-      "updatedAt": "2026-11-06T23:32:47Z",
-      "merged": false,
+      "updatedAt": "2026-11-09T12:49:00Z",
+      "merged": true,
       "author": {
         "login": "astro-factory",
         "__typename": "Bot"
@@ -5410,7 +5418,7 @@
         "totalCount": 1
       },
       "reactions": {
-        "totalCount": 1
+        "totalCount": 3
       },
       "reviews": {
         "nodes": [
@@ -5419,6 +5427,13 @@
             "author": {
               "login": "astro-factory",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
             }
           }
         ]

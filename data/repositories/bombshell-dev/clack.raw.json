@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T23:04:13.594Z",
+    "lastRunAt": "2026-11-10T19:58:24.261Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4946,6 +4946,27 @@
       "number": 632,
       "user": {
         "login": "webywz",
+        "type": "User"
+      }
+    },
+    "633": {
+      "number": 633,
+      "user": {
+        "login": "chenxin-yan",
+        "type": "User"
+      }
+    },
+    "634": {
+      "number": 634,
+      "user": {
+        "login": "chenxin-yan",
+        "type": "User"
+      }
+    },
+    "635": {
+      "number": 635,
+      "user": {
+        "login": "kyungseopk1m",
         "type": "User"
       }
     }
@@ -16916,8 +16937,8 @@
     },
     "611": {
       "number": 611,
-      "updatedAt": "2026-11-04T11:32:38Z",
-      "merged": false,
+      "updatedAt": "2026-11-09T13:06:25Z",
+      "merged": true,
       "author": {
         "login": "bombshell-bot",
         "__typename": "Bot"
@@ -17306,6 +17327,50 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "634": {
+      "number": 634,
+      "updatedAt": "2026-11-10T12:34:50Z",
+      "merged": false,
+      "author": {
+        "login": "chenxin-yan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "635": {
+      "number": 635,
+      "updatedAt": "2026-11-10T14:09:50Z",
+      "merged": false,
+      "author": {
+        "login": "kyungseopk1m",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

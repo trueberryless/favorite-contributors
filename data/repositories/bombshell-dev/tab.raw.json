@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T23:04:13.594Z",
+    "lastRunAt": "2026-11-10T19:58:24.261Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0wMlQxMDoyMToxNlrOh2213w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1099,6 +1099,20 @@
       "number": 157,
       "user": {
         "login": "trueberryless",
+        "type": "User"
+      }
+    },
+    "158": {
+      "number": 158,
+      "user": {
+        "login": "MgmClientGuy0",
+        "type": "User"
+      }
+    },
+    "159": {
+      "number": 159,
+      "user": {
+        "login": "MgmClientGuy0",
         "type": "User"
       }
     }
@@ -3973,7 +3987,7 @@
     },
     "155": {
       "number": 155,
-      "updatedAt": "2026-11-04T08:22:18Z",
+      "updatedAt": "2026-11-09T22:11:56Z",
       "merged": false,
       "author": {
         "login": "AmirSa12",
@@ -4007,6 +4021,13 @@
               "login": "AmirSa12",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "shadowspawn",
+              "__typename": "User"
+            }
           }
         ]
       }
@@ -4031,8 +4052,8 @@
     },
     "157": {
       "number": 157,
-      "updatedAt": "2026-11-06T22:06:48Z",
-      "merged": false,
+      "updatedAt": "2026-11-10T18:18:19Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -4053,6 +4074,42 @@
             }
           }
         ]
+      }
+    },
+    "158": {
+      "number": 158,
+      "updatedAt": "2026-11-10T09:31:36Z",
+      "merged": false,
+      "author": {
+        "login": "MgmClientGuy0",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "159": {
+      "number": 159,
+      "updatedAt": "2026-11-10T10:55:41Z",
+      "merged": false,
+      "author": {
+        "login": "MgmClientGuy0",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

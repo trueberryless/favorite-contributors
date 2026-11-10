@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-08T23:02:52.504Z",
+    "lastRunAt": "2026-11-10T19:56:42.093Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMS0zMVQwNDo0OTo1N1rOFfl_PQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -24195,6 +24195,27 @@
       "number": 3490,
       "user": {
         "login": "Doomguy-BFG9000",
+        "type": "User"
+      }
+    },
+    "3491": {
+      "number": 3491,
+      "user": {
+        "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3492": {
+      "number": 3492,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "3493": {
+      "number": 3493,
+      "user": {
+        "login": "kacperkapusciak",
         "type": "User"
       }
     }
@@ -86519,7 +86540,7 @@
     },
     "3481": {
       "number": 3481,
-      "updatedAt": "2026-10-16T19:23:19Z",
+      "updatedAt": "2026-11-09T19:23:08Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -86685,6 +86706,60 @@
       "merged": false,
       "author": {
         "login": "Doomguy-BFG9000",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3491": {
+      "number": 3491,
+      "updatedAt": "2026-11-09T11:02:55Z",
+      "merged": false,
+      "author": {
+        "login": "ValentinYoushkevich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3492": {
+      "number": 3492,
+      "updatedAt": "2026-11-09T19:23:28Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3493": {
+      "number": 3493,
+      "updatedAt": "2026-11-10T13:51:32Z",
+      "merged": false,
+      "author": {
+        "login": "kacperkapusciak",
         "__typename": "User"
       },
       "closingIssuesReferences": {
