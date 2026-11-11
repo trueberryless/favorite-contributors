@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T03:47:52.244Z",
+    "lastRunAt": "2026-11-11T22:10:29.554Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOS0wNlQxMDo1MToxMFrOPmaFBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4456,6 +4456,27 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "577": {
+      "number": 577,
+      "user": {
+        "login": "brunobelloni",
+        "type": "User"
+      }
+    },
+    "578": {
+      "number": 578,
+      "user": {
+        "login": "brunobelloni",
+        "type": "User"
+      }
+    },
+    "579": {
+      "number": 579,
+      "user": {
+        "login": "cirolosapio",
+        "type": "User"
       }
     }
   },
@@ -10635,7 +10656,7 @@
     },
     "567": {
       "number": 567,
-      "updatedAt": "2026-11-09T23:35:35Z",
+      "updatedAt": "2026-11-11T16:51:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10679,7 +10700,7 @@
     },
     "569": {
       "number": 569,
-      "updatedAt": "2026-11-09T23:35:15Z",
+      "updatedAt": "2026-11-11T16:50:51Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10785,7 +10806,7 @@
     },
     "575": {
       "number": 575,
-      "updatedAt": "2026-11-09T03:52:47Z",
+      "updatedAt": "2026-11-11T16:56:25Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10803,7 +10824,7 @@
     },
     "576": {
       "number": 576,
-      "updatedAt": "2026-11-09T03:51:29Z",
+      "updatedAt": "2026-11-11T16:51:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10817,6 +10838,91 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "577": {
+      "number": 577,
+      "updatedAt": "2026-11-10T17:17:47Z",
+      "merged": false,
+      "author": {
+        "login": "brunobelloni",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "578": {
+      "number": 578,
+      "updatedAt": "2026-11-10T19:24:02Z",
+      "merged": false,
+      "author": {
+        "login": "brunobelloni",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "579": {
+      "number": 579,
+      "updatedAt": "2026-11-11T18:57:22Z",
+      "merged": false,
+      "author": {
+        "login": "cirolosapio",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

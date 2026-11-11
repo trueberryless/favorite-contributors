@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T03:47:51.687Z",
+    "lastRunAt": "2026-11-11T22:10:29.455Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xNFQxMzo0NToyN1rON_gp8A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7823,6 +7823,20 @@
         "login": "harlan-zw",
         "type": "User"
       }
+    },
+    "981": {
+      "number": 981,
+      "user": {
+        "login": "cirolosapio",
+        "type": "User"
+      }
+    },
+    "982": {
+      "number": 982,
+      "user": {
+        "login": "cirolosapio",
+        "type": "User"
+      }
     }
   },
   "prs": {
@@ -13258,7 +13272,7 @@
     },
     "450": {
       "number": 450,
-      "updatedAt": "2026-11-06T02:08:52Z",
+      "updatedAt": "2026-11-11T17:29:53Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23041,7 +23055,7 @@
     },
     "951": {
       "number": 951,
-      "updatedAt": "2026-11-06T01:56:16Z",
+      "updatedAt": "2026-11-11T17:23:51Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23059,7 +23073,7 @@
     },
     "952": {
       "number": 952,
-      "updatedAt": "2026-11-09T23:43:48Z",
+      "updatedAt": "2026-11-11T17:09:03Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23077,7 +23091,7 @@
     },
     "953": {
       "number": 953,
-      "updatedAt": "2026-11-06T02:02:14Z",
+      "updatedAt": "2026-11-11T17:28:14Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23368,7 +23382,7 @@
     },
     "965": {
       "number": 965,
-      "updatedAt": "2026-11-06T02:05:46Z",
+      "updatedAt": "2026-11-11T17:30:04Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23386,7 +23400,7 @@
     },
     "966": {
       "number": 966,
-      "updatedAt": "2026-11-06T02:06:23Z",
+      "updatedAt": "2026-11-11T17:29:39Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23422,7 +23436,7 @@
     },
     "968": {
       "number": 968,
-      "updatedAt": "2026-11-06T01:58:54Z",
+      "updatedAt": "2026-11-11T17:26:53Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23440,7 +23454,7 @@
     },
     "969": {
       "number": 969,
-      "updatedAt": "2026-11-06T02:01:46Z",
+      "updatedAt": "2026-11-11T17:29:34Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23520,7 +23534,7 @@
     },
     "975": {
       "number": 975,
-      "updatedAt": "2026-11-06T01:59:20Z",
+      "updatedAt": "2026-11-11T17:23:58Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23538,7 +23552,7 @@
     },
     "976": {
       "number": 976,
-      "updatedAt": "2026-11-06T02:02:16Z",
+      "updatedAt": "2026-11-11T17:29:30Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23622,6 +23636,60 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "982": {
+      "number": 982,
+      "updatedAt": "2026-11-11T22:03:15Z",
+      "merged": false,
+      "author": {
+        "login": "cirolosapio",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "cirolosapio",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "cirolosapio",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {

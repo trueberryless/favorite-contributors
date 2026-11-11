@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T12:13:51.987Z",
+    "lastRunAt": "2026-11-11T22:11:14.951Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -693,6 +693,9 @@
       "user": {
         "login": "np-13",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "81": {
@@ -805,6 +808,9 @@
       "user": {
         "login": "AFCMS",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "97": {
@@ -819,6 +825,9 @@
       "user": {
         "login": "ryoppippi",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "99": {
@@ -832,6 +841,44 @@
       "number": 100,
       "user": {
         "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "101": {
+      "number": 101,
+      "user": {
+        "login": "kirillgroshkov",
+        "type": "User"
+      }
+    },
+    "102": {
+      "number": 102,
+      "user": {
+        "login": "kirillgroshkov",
+        "type": "User"
+      }
+    },
+    "103": {
+      "number": 103,
+      "user": {
+        "login": "kirillgroshkov",
+        "type": "User"
+      }
+    },
+    "104": {
+      "number": 104,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "105": {
+      "number": 105,
+      "user": {
+        "login": "dependabot[bot]",
         "type": "Bot"
       }
     }
@@ -3371,7 +3418,7 @@
     },
     "80": {
       "number": 80,
-      "updatedAt": "2026-11-02T16:03:20Z",
+      "updatedAt": "2026-11-11T10:28:51Z",
       "merged": false,
       "author": {
         "login": "np-13",
@@ -3381,7 +3428,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -3452,6 +3499,34 @@
             "state": "COMMENTED",
             "author": {
               "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "np-13",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
               "__typename": "Bot"
             }
           },
@@ -3962,8 +4037,8 @@
     },
     "95": {
       "number": 95,
-      "updatedAt": "2026-10-27T19:40:19Z",
-      "merged": false,
+      "updatedAt": "2026-11-11T10:37:17Z",
+      "merged": true,
       "author": {
         "login": "AFCMS",
         "__typename": "User"
@@ -3989,13 +4064,20 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "96": {
       "number": 96,
-      "updatedAt": "2026-10-27T21:54:21Z",
+      "updatedAt": "2026-11-11T11:28:55Z",
       "merged": false,
       "author": {
         "login": "AFCMS",
@@ -4005,7 +4087,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -4013,6 +4095,62 @@
             "state": "COMMENTED",
             "author": {
               "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
               "__typename": "Bot"
             }
           },
@@ -4028,7 +4166,7 @@
     },
     "98": {
       "number": 98,
-      "updatedAt": "2026-11-03T04:40:00Z",
+      "updatedAt": "2026-11-11T19:26:12Z",
       "merged": false,
       "author": {
         "login": "ryoppippi",
@@ -4038,7 +4176,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
@@ -4046,6 +4184,27 @@
             "state": "COMMENTED",
             "author": {
               "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
               "__typename": "Bot"
             }
           },
@@ -4065,6 +4224,155 @@
       "merged": false,
       "author": {
         "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "104": {
+      "number": 104,
+      "updatedAt": "2026-11-11T10:28:02Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "greptile-apps",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "105": {
+      "number": 105,
+      "updatedAt": "2026-11-11T10:53:05Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {

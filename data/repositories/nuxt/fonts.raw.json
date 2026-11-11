@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T03:47:55.039Z",
+    "lastRunAt": "2026-11-11T22:10:32.480Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0xOVQyMzoyOTo0OFrOZ1J0_g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7101,6 +7101,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "970": {
+      "number": 970,
+      "user": {
+        "login": "cirolosapio",
+        "type": "User"
+      }
+    },
+    "971": {
+      "number": 971,
+      "user": {
+        "login": "cirolosapio",
+        "type": "User"
       }
     }
   },
@@ -26161,7 +26175,7 @@
     },
     "955": {
       "number": 955,
-      "updatedAt": "2026-11-09T23:34:54Z",
+      "updatedAt": "2026-11-11T17:07:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26179,7 +26193,7 @@
     },
     "956": {
       "number": 956,
-      "updatedAt": "2026-11-06T01:57:47Z",
+      "updatedAt": "2026-11-11T17:19:32Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26292,7 +26306,7 @@
     },
     "963": {
       "number": 963,
-      "updatedAt": "2026-11-06T01:57:00Z",
+      "updatedAt": "2026-11-11T17:22:40Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26362,7 +26376,7 @@
     },
     "966": {
       "number": 966,
-      "updatedAt": "2026-11-06T01:56:32Z",
+      "updatedAt": "2026-11-11T17:15:30Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26398,7 +26412,7 @@
     },
     "969": {
       "number": 969,
-      "updatedAt": "2026-11-09T03:52:23Z",
+      "updatedAt": "2026-11-11T17:10:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26412,6 +26426,46 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "971": {
+      "number": 971,
+      "updatedAt": "2026-11-11T21:58:22Z",
+      "merged": false,
+      "author": {
+        "login": "cirolosapio",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "cirolosapio",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

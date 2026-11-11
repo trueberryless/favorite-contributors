@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T12:13:48.988Z",
+    "lastRunAt": "2026-11-11T22:11:12.291Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0wOVQxNzoxNzoyOVrOBc1bwA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -594,6 +594,13 @@
     },
     "80": {
       "number": 80,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "81": {
+      "number": 81,
       "user": {
         "login": "zkochan",
         "type": "User"
@@ -2104,8 +2111,8 @@
     },
     "80": {
       "number": 80,
-      "updatedAt": "2026-11-10T11:34:24Z",
-      "merged": false,
+      "updatedAt": "2026-11-10T12:27:15Z",
+      "merged": true,
       "author": {
         "login": "zkochan",
         "__typename": "User"
@@ -2120,6 +2127,81 @@
         "nodes": [
           {
             "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "81": {
+      "number": 81,
+      "updatedAt": "2026-11-10T15:08:14Z",
+      "merged": false,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
