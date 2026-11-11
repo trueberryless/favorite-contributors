@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-09T02:56:55.216Z",
+    "lastRunAt": "2026-11-11T00:28:13.777Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wMS0xMVQwNzo1NDowOFrODoon1w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4538,6 +4538,13 @@
       "user": {
         "login": "michaelfaith",
         "type": "User"
+      }
+    },
+    "655": {
+      "number": 655,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -14864,7 +14871,7 @@
     },
     "642": {
       "number": 642,
-      "updatedAt": "2026-11-09T02:11:33Z",
+      "updatedAt": "2026-11-09T18:39:31Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -14882,7 +14889,7 @@
     },
     "646": {
       "number": 646,
-      "updatedAt": "2026-11-09T02:11:30Z",
+      "updatedAt": "2026-11-09T18:39:35Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -14977,14 +14984,47 @@
     },
     "654": {
       "number": 654,
-      "updatedAt": "2026-11-09T02:24:43Z",
-      "merged": false,
+      "updatedAt": "2026-11-09T18:36:48Z",
+      "merged": true,
       "author": {
         "login": "michaelfaith",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lwasser",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "lwasser",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "655": {
+      "number": 655,
+      "updatedAt": "2026-11-09T18:40:54Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
