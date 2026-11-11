@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-09T21:26:58.114Z",
+    "lastRunAt": "2026-11-11T15:04:16.498Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wMVQxMjowOToxM1rPAAAAAQb2sJE=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -475,6 +475,13 @@
       "number": 172,
       "user": {
         "login": "ValiuchenkoVladyslav",
+        "type": "User"
+      }
+    },
+    "173": {
+      "number": 173,
+      "user": {
+        "login": "cixiangtao",
         "type": "User"
       }
     }
@@ -1432,6 +1439,24 @@
       "merged": false,
       "author": {
         "login": "ValiuchenkoVladyslav",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "173": {
+      "number": 173,
+      "updatedAt": "2026-11-11T03:13:41Z",
+      "merged": false,
+      "author": {
+        "login": "cixiangtao",
         "__typename": "User"
       },
       "closingIssuesReferences": {

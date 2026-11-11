@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T03:44:18.822Z",
+    "lastRunAt": "2026-11-11T15:05:41.624Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -14571,6 +14571,9 @@
       "user": {
         "login": "LeCarbonator",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "2307": {
@@ -15692,6 +15695,20 @@
       "number": 2475,
       "user": {
         "login": "HagenMorano",
+        "type": "User"
+      }
+    },
+    "2476": {
+      "number": 2476,
+      "user": {
+        "login": "0xpierre-dev",
+        "type": "User"
+      }
+    },
+    "2477": {
+      "number": 2477,
+      "user": {
+        "login": "roux-lon",
         "type": "User"
       }
     }
@@ -46560,7 +46577,7 @@
     },
     "2443": {
       "number": 2443,
-      "updatedAt": "2026-10-29T12:50:29Z",
+      "updatedAt": "2026-11-11T09:57:09Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -47088,8 +47105,8 @@
     },
     "2466": {
       "number": 2466,
-      "updatedAt": "2026-11-07T03:39:26Z",
-      "merged": false,
+      "updatedAt": "2026-11-11T09:49:57Z",
+      "merged": true,
       "author": {
         "login": "Priyeshshrivastav",
         "__typename": "User"
@@ -47101,7 +47118,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LeCarbonator",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "2469": {
@@ -47208,6 +47240,71 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2476": {
+      "number": 2476,
+      "updatedAt": "2026-11-11T01:50:32Z",
+      "merged": false,
+      "author": {
+        "login": "0xpierre-dev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2477": {
+      "number": 2477,
+      "updatedAt": "2026-11-11T12:23:54Z",
+      "merged": false,
+      "author": {
+        "login": "roux-lon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "LeCarbonator",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "roux-lon",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "LeCarbonator",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

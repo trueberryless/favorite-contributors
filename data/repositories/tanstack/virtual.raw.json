@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T03:44:20.813Z",
+    "lastRunAt": "2026-11-11T15:05:44.006Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4168,7 +4168,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 8
+        "total_count": 9
       }
     },
     "683": {
@@ -8561,6 +8561,20 @@
       "number": 1380,
       "user": {
         "login": "peterolkhov",
+        "type": "User"
+      }
+    },
+    "1381": {
+      "number": 1381,
+      "user": {
+        "login": "Kebechet",
+        "type": "User"
+      }
+    },
+    "1382": {
+      "number": 1382,
+      "user": {
+        "login": "wonowbae",
         "type": "User"
       }
     }
@@ -25077,7 +25091,7 @@
     },
     "1380": {
       "number": 1380,
-      "updatedAt": "2026-11-09T22:15:53Z",
+      "updatedAt": "2026-11-11T06:57:58Z",
       "merged": false,
       "author": {
         "login": "peterolkhov",
@@ -25090,7 +25104,95 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "agammann",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1381": {
+      "number": 1381,
+      "updatedAt": "2026-11-11T12:49:35Z",
+      "merged": false,
+      "author": {
+        "login": "Kebechet",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Kebechet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Kebechet",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1382": {
+      "number": 1382,
+      "updatedAt": "2026-11-11T14:07:32Z",
+      "merged": false,
+      "author": {
+        "login": "wonowbae",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
