@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T00:28:52.617Z",
+    "lastRunAt": "2026-11-12T19:39:09.759Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16577,6 +16577,27 @@
       "user": {
         "login": "mixelburg",
         "type": "User"
+      }
+    },
+    "2377": {
+      "number": 2377,
+      "user": {
+        "login": "officialasishkumar",
+        "type": "User"
+      }
+    },
+    "2378": {
+      "number": 2378,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "2379": {
+      "number": 2379,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -43264,7 +43285,7 @@
     },
     "1714": {
       "number": 1714,
-      "updatedAt": "2026-05-08T11:55:48Z",
+      "updatedAt": "2026-11-11T11:43:19Z",
       "merged": false,
       "author": {
         "login": "cyril-sf",
@@ -60197,7 +60218,7 @@
     },
     "2354": {
       "number": 2354,
-      "updatedAt": "2026-11-04T18:00:06Z",
+      "updatedAt": "2026-11-12T15:52:51Z",
       "merged": false,
       "author": {
         "login": "changesets-org-version-bot",
@@ -60359,7 +60380,7 @@
     },
     "2365": {
       "number": 2365,
-      "updatedAt": "2026-11-04T11:33:34Z",
+      "updatedAt": "2026-11-12T14:49:00Z",
       "merged": false,
       "author": {
         "login": "beeequeue",
@@ -60463,14 +60484,35 @@
               "login": "beeequeue",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "2366": {
       "number": 2366,
-      "updatedAt": "2026-11-04T22:18:07Z",
-      "merged": false,
+      "updatedAt": "2026-11-12T15:25:10Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -60485,6 +60527,13 @@
         "nodes": [
           {
             "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "beeequeue",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "beeequeue",
               "__typename": "User"
@@ -60575,7 +60624,7 @@
     },
     "2371": {
       "number": 2371,
-      "updatedAt": "2026-11-08T15:54:08Z",
+      "updatedAt": "2026-11-12T15:53:34Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -60593,7 +60642,7 @@
     },
     "2372": {
       "number": 2372,
-      "updatedAt": "2026-11-08T15:54:52Z",
+      "updatedAt": "2026-11-12T15:13:58Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -60655,6 +60704,68 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2377": {
+      "number": 2377,
+      "updatedAt": "2026-11-12T13:23:13Z",
+      "merged": false,
+      "author": {
+        "login": "officialasishkumar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2378": {
+      "number": 2378,
+      "updatedAt": "2026-11-12T15:48:48Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "beeequeue",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2379": {
+      "number": 2379,
+      "updatedAt": "2026-11-12T15:54:37Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
