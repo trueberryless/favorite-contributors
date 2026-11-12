@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T19:58:24.261Z",
+    "lastRunAt": "2026-11-12T11:41:34.020Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4968,6 +4968,34 @@
       "user": {
         "login": "kyungseopk1m",
         "type": "User"
+      }
+    },
+    "636": {
+      "number": 636,
+      "user": {
+        "login": "dreyfus92",
+        "type": "User"
+      }
+    },
+    "637": {
+      "number": 637,
+      "user": {
+        "login": "kuldeepsinh19",
+        "type": "User"
+      }
+    },
+    "638": {
+      "number": 638,
+      "user": {
+        "login": "kuldeepsinh19",
+        "type": "User"
+      }
+    },
+    "639": {
+      "number": 639,
+      "user": {
+        "login": "bombshell-bot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -17363,11 +17391,80 @@
     },
     "635": {
       "number": 635,
-      "updatedAt": "2026-11-10T14:09:50Z",
-      "merged": false,
+      "updatedAt": "2026-11-11T10:05:45Z",
+      "merged": true,
       "author": {
         "login": "kyungseopk1m",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "636": {
+      "number": 636,
+      "updatedAt": "2026-11-11T04:09:21Z",
+      "merged": false,
+      "author": {
+        "login": "dreyfus92",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "638": {
+      "number": 638,
+      "updatedAt": "2026-11-11T10:17:28Z",
+      "merged": true,
+      "author": {
+        "login": "kuldeepsinh19",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "639": {
+      "number": 639,
+      "updatedAt": "2026-11-11T10:18:31Z",
+      "merged": false,
+      "author": {
+        "login": "bombshell-bot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T00:27:32.258Z",
+    "lastRunAt": "2026-11-12T11:44:15.809Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0wMlQyMDo1NDozOVrOpl321A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -717,6 +717,9 @@
       "user": {
         "login": "goulvenclech",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "112": {
@@ -8351,8 +8354,8 @@
     },
     "380": {
       "number": 380,
-      "updatedAt": "2026-11-10T08:37:10Z",
-      "merged": false,
+      "updatedAt": "2026-11-11T08:03:15Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -8364,7 +8367,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "goulvenclech",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "381": {

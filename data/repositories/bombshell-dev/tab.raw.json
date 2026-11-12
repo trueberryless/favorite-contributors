@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T19:58:24.261Z",
+    "lastRunAt": "2026-11-12T11:41:34.020Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0wMlQxMDoyMToxNlrOh2213w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1114,6 +1114,13 @@
       "user": {
         "login": "MgmClientGuy0",
         "type": "User"
+      }
+    },
+    "160": {
+      "number": 160,
+      "user": {
+        "login": "bombshell-bot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -3987,8 +3994,8 @@
     },
     "155": {
       "number": 155,
-      "updatedAt": "2026-11-09T22:11:56Z",
-      "merged": false,
+      "updatedAt": "2026-11-12T06:57:09Z",
+      "merged": true,
       "author": {
         "login": "AmirSa12",
         "__typename": "User"
@@ -4101,6 +4108,24 @@
       "author": {
         "login": "MgmClientGuy0",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "160": {
+      "number": 160,
+      "updatedAt": "2026-11-12T06:58:19Z",
+      "merged": false,
+      "author": {
+        "login": "bombshell-bot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
