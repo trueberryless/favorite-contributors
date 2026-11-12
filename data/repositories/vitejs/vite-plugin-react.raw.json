@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T12:16:07.987Z",
+    "lastRunAt": "2026-11-12T03:16:30.449Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wMlQxMjo1MjozM1rORCLjPw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10713,6 +10713,27 @@
       "number": 1561,
       "user": {
         "login": "Stono",
+        "type": "User"
+      }
+    },
+    "1562": {
+      "number": 1562,
+      "user": {
+        "login": "rossipedia",
+        "type": "User"
+      }
+    },
+    "1563": {
+      "number": 1563,
+      "user": {
+        "login": "sapphi-red",
+        "type": "User"
+      }
+    },
+    "1564": {
+      "number": 1564,
+      "user": {
+        "login": "sapphi-red",
         "type": "User"
       }
     }
@@ -33566,7 +33587,7 @@
     },
     "1447": {
       "number": 1447,
-      "updatedAt": "2026-11-06T16:52:31Z",
+      "updatedAt": "2026-11-12T01:25:39Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -34700,7 +34721,7 @@
     },
     "1514": {
       "number": 1514,
-      "updatedAt": "2026-11-09T16:19:33Z",
+      "updatedAt": "2026-11-11T16:10:11Z",
       "merged": false,
       "author": {
         "login": "nbozidarevic",
@@ -34896,7 +34917,7 @@
     },
     "1525": {
       "number": 1525,
-      "updatedAt": "2026-11-09T16:18:59Z",
+      "updatedAt": "2026-11-11T16:10:10Z",
       "merged": false,
       "author": {
         "login": "nbozidarevic",
@@ -35030,7 +35051,7 @@
     },
     "1537": {
       "number": 1537,
-      "updatedAt": "2026-11-05T17:57:16Z",
+      "updatedAt": "2026-11-11T09:31:29Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35262,7 +35283,7 @@
     },
     "1555": {
       "number": 1555,
-      "updatedAt": "2026-11-09T00:57:52Z",
+      "updatedAt": "2026-11-11T02:48:33Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35280,7 +35301,7 @@
     },
     "1556": {
       "number": 1556,
-      "updatedAt": "2026-11-10T09:43:46Z",
+      "updatedAt": "2026-11-12T01:25:36Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35316,8 +35337,8 @@
     },
     "1558": {
       "number": 1558,
-      "updatedAt": "2026-11-09T13:31:42Z",
-      "merged": false,
+      "updatedAt": "2026-11-11T10:21:55Z",
+      "merged": true,
       "author": {
         "login": "james-elicx",
         "__typename": "User"
@@ -35329,7 +35350,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1560": {
@@ -35342,6 +35371,42 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1563": {
+      "number": 1563,
+      "updatedAt": "2026-11-11T02:37:54Z",
+      "merged": true,
+      "author": {
+        "login": "sapphi-red",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1564": {
+      "number": 1564,
+      "updatedAt": "2026-11-11T02:46:38Z",
+      "merged": true,
+      "author": {
+        "login": "sapphi-red",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T12:15:05.004Z",
+    "lastRunAt": "2026-11-12T03:15:35.382Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMy0xMFQyMzo0NjoyN1rOCmH-jw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1723,6 +1723,27 @@
       "number": 232,
       "user": {
         "login": "RClaudiuM",
+        "type": "User"
+      }
+    },
+    "233": {
+      "number": 233,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "234": {
+      "number": 234,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "235": {
+      "number": 235,
+      "user": {
+        "login": "teemingc",
         "type": "User"
       }
     }
@@ -5732,6 +5753,50 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "233": {
+      "number": 233,
+      "updatedAt": "2026-11-10T19:12:02Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "235": {
+      "number": 235,
+      "updatedAt": "2026-11-10T17:43:06Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

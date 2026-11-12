@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T12:15:11.345Z",
+    "lastRunAt": "2026-11-12T03:15:41.006Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMy0xNVQyMjowMzo1OFrOFyz7vQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -23860,6 +23860,13 @@
     },
     "3195": {
       "number": 3195,
+      "user": {
+        "login": "dummdidumm",
+        "type": "User"
+      }
+    },
+    "3196": {
+      "number": 3196,
       "user": {
         "login": "dummdidumm",
         "type": "User"
@@ -57020,7 +57027,7 @@
     },
     "3180": {
       "number": 3180,
-      "updatedAt": "2026-11-07T12:35:37Z",
+      "updatedAt": "2026-11-10T20:16:58Z",
       "merged": false,
       "author": {
         "login": "mauriciabad",
@@ -57056,7 +57063,7 @@
     },
     "3182": {
       "number": 3182,
-      "updatedAt": "2026-11-09T20:56:38Z",
+      "updatedAt": "2026-11-11T23:15:32Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
@@ -57172,7 +57179,7 @@
     },
     "3193": {
       "number": 3193,
-      "updatedAt": "2026-11-09T20:57:21Z",
+      "updatedAt": "2026-11-11T07:16:34Z",
       "merged": false,
       "author": {
         "login": "dummdidumm",
@@ -57185,7 +57192,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jasonlyu123",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3194": {
@@ -57210,6 +57225,24 @@
       "number": 3195,
       "updatedAt": "2026-11-09T14:17:00Z",
       "merged": true,
+      "author": {
+        "login": "dummdidumm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3196": {
+      "number": 3196,
+      "updatedAt": "2026-11-10T21:22:50Z",
+      "merged": false,
       "author": {
         "login": "dummdidumm",
         "__typename": "User"

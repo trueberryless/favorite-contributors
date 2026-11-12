@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-10T19:56:46.380Z",
+    "lastRunAt": "2026-11-12T03:18:21.041Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xN1QwNjo1ODoyNVrOLizwBQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8511,6 +8511,27 @@
     },
     "1182": {
       "number": 1182,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1183": {
+      "number": 1183,
+      "user": {
+        "login": "haoqunjiang",
+        "type": "User"
+      }
+    },
+    "1184": {
+      "number": 1184,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1185": {
+      "number": 1185,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -29222,7 +29243,7 @@
     },
     "1076": {
       "number": 1076,
-      "updatedAt": "2026-11-10T12:20:25Z",
+      "updatedAt": "2026-11-11T12:34:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -31509,8 +31530,8 @@
     },
     "1174": {
       "number": 1174,
-      "updatedAt": "2026-11-10T12:20:42Z",
-      "merged": false,
+      "updatedAt": "2026-11-11T05:29:04Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -31522,7 +31543,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1175": {
@@ -31545,8 +31574,8 @@
     },
     "1176": {
       "number": 1176,
-      "updatedAt": "2026-11-10T12:20:11Z",
-      "merged": false,
+      "updatedAt": "2026-11-11T05:09:55Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -31558,13 +31587,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1178": {
       "number": 1178,
-      "updatedAt": "2026-11-09T03:48:05Z",
-      "merged": false,
+      "updatedAt": "2026-11-11T02:06:34Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -31576,7 +31613,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1179": {
@@ -31681,6 +31726,68 @@
             }
           }
         ]
+      }
+    },
+    "1183": {
+      "number": 1183,
+      "updatedAt": "2026-11-11T10:27:32Z",
+      "merged": false,
+      "author": {
+        "login": "haoqunjiang",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1184": {
+      "number": 1184,
+      "updatedAt": "2026-11-11T12:34:08Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1185": {
+      "number": 1185,
+      "updatedAt": "2026-11-11T12:35:11Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
