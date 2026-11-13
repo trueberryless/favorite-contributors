@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-12T11:42:36.026Z",
+    "lastRunAt": "2026-11-13T21:55:44.736Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMC0zMVQwMDozODowOVrOQdgQRQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -555,6 +555,9 @@
       "user": {
         "login": "janTatesa",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "78": {
@@ -589,6 +592,27 @@
       "number": 82,
       "user": {
         "login": "TimeTravelPenguin",
+        "type": "User"
+      }
+    },
+    "83": {
+      "number": 83,
+      "user": {
+        "login": "backwardspy",
+        "type": "User"
+      }
+    },
+    "84": {
+      "number": 84,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "85": {
+      "number": 85,
+      "user": {
+        "login": "backwardspy",
         "type": "User"
       }
     }
@@ -1711,7 +1735,7 @@
     },
     "66": {
       "number": 66,
-      "updatedAt": "2026-02-03T19:27:02Z",
+      "updatedAt": "2026-11-13T21:02:40Z",
       "merged": false,
       "author": {
         "login": "ninetailedtori",
@@ -1819,7 +1843,7 @@
     },
     "73": {
       "number": 73,
-      "updatedAt": "2026-10-13T14:00:35Z",
+      "updatedAt": "2026-11-13T20:37:58Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -1837,7 +1861,7 @@
     },
     "74": {
       "number": 74,
-      "updatedAt": "2026-10-13T14:00:40Z",
+      "updatedAt": "2026-11-13T20:45:46Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -1855,7 +1879,7 @@
     },
     "75": {
       "number": 75,
-      "updatedAt": "2026-10-29T03:49:36Z",
+      "updatedAt": "2026-11-13T20:37:55Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -1873,7 +1897,7 @@
     },
     "78": {
       "number": 78,
-      "updatedAt": "2026-07-19T00:42:48Z",
+      "updatedAt": "2026-11-13T20:38:00Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -1891,7 +1915,7 @@
     },
     "79": {
       "number": 79,
-      "updatedAt": "2026-11-09T07:11:31Z",
+      "updatedAt": "2026-11-13T20:38:03Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -1909,7 +1933,7 @@
     },
     "80": {
       "number": 80,
-      "updatedAt": "2026-07-27T01:38:13Z",
+      "updatedAt": "2026-11-13T20:38:29Z",
       "merged": false,
       "author": {
         "login": "JosephDemarest",
@@ -1927,7 +1951,7 @@
     },
     "81": {
       "number": 81,
-      "updatedAt": "2026-09-18T20:56:51Z",
+      "updatedAt": "2026-11-13T20:45:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -1945,14 +1969,50 @@
     },
     "82": {
       "number": 82,
-      "updatedAt": "2026-09-20T05:46:10Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T20:37:55Z",
+      "merged": true,
       "author": {
         "login": "TimeTravelPenguin",
         "__typename": "User"
       },
       "closingIssuesReferences": {
+        "totalCount": 2
+      },
+      "reactions": {
         "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "84": {
+      "number": 84,
+      "updatedAt": "2026-11-13T21:09:39Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "85": {
+      "number": 85,
+      "updatedAt": "2026-11-13T21:51:21Z",
+      "merged": false,
+      "author": {
+        "login": "backwardspy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

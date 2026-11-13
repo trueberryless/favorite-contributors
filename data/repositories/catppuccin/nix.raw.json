@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-12T11:42:41.399Z",
+    "lastRunAt": "2026-11-13T21:55:50.640Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNC0xNFQxMzo1MzoyOFrOTklJ_w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7736,6 +7736,34 @@
       "number": 1065,
       "user": {
         "login": "TimaFrolov",
+        "type": "User"
+      }
+    },
+    "1066": {
+      "number": 1066,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1067": {
+      "number": 1067,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1068": {
+      "number": 1068,
+      "user": {
+        "login": "phucisstupid",
+        "type": "User"
+      }
+    },
+    "1069": {
+      "number": 1069,
+      "user": {
+        "login": "fredclausen",
         "type": "User"
       }
     }
@@ -25871,7 +25899,7 @@
     },
     "982": {
       "number": 982,
-      "updatedAt": "2026-11-12T07:54:05Z",
+      "updatedAt": "2026-11-12T18:02:21Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26664,7 +26692,7 @@
     },
     "1038": {
       "number": 1038,
-      "updatedAt": "2026-11-11T17:01:52Z",
+      "updatedAt": "2026-11-13T21:00:44Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26682,7 +26710,7 @@
     },
     "1039": {
       "number": 1039,
-      "updatedAt": "2026-11-12T01:34:56Z",
+      "updatedAt": "2026-11-13T21:00:47Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -27120,6 +27148,94 @@
             "author": {
               "login": "isabelroses",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1066": {
+      "number": 1066,
+      "updatedAt": "2026-11-13T12:35:56Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1067": {
+      "number": 1067,
+      "updatedAt": "2026-11-13T12:36:34Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1068": {
+      "number": 1068,
+      "updatedAt": "2026-11-13T13:11:05Z",
+      "merged": false,
+      "author": {
+        "login": "phucisstupid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1069": {
+      "number": 1069,
+      "updatedAt": "2026-11-13T20:59:53Z",
+      "merged": true,
+      "author": {
+        "login": "fredclausen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
             }
           }
         ]

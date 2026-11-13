@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-12T03:18:14.647Z",
+    "lastRunAt": "2026-11-13T21:53:04.780Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNy0xN1QwOTo1OToyNVrOEckWMQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18095,6 +18095,9 @@
       "user": {
         "login": "danielroe",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "2876": {
@@ -18241,6 +18244,48 @@
       "number": 2896,
       "user": {
         "login": "shivanshtalwar0",
+        "type": "User"
+      }
+    },
+    "2897": {
+      "number": 2897,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2898": {
+      "number": 2898,
+      "user": {
+        "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "2899": {
+      "number": 2899,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2900": {
+      "number": 2900,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2901": {
+      "number": 2901,
+      "user": {
+        "login": "posva",
+        "type": "User"
+      }
+    },
+    "2902": {
+      "number": 2902,
+      "user": {
+        "login": "posva",
         "type": "User"
       }
     }
@@ -41920,7 +41965,7 @@
     },
     "2082": {
       "number": 2082,
-      "updatedAt": "2026-11-11T06:47:49Z",
+      "updatedAt": "2026-11-12T13:32:00Z",
       "merged": false,
       "author": {
         "login": "posva",
@@ -50943,7 +50988,7 @@
     },
     "2875": {
       "number": 2875,
-      "updatedAt": "2026-11-08T09:48:25Z",
+      "updatedAt": "2026-11-13T16:08:24Z",
       "merged": false,
       "author": {
         "login": "danielroe",
@@ -50953,10 +50998,17 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -51038,8 +51090,8 @@
     },
     "2879": {
       "number": 2879,
-      "updatedAt": "2026-11-10T15:17:01Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T15:28:38Z",
+      "merged": true,
       "author": {
         "login": "posva",
         "__typename": "User"
@@ -51052,6 +51104,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -51243,7 +51302,7 @@
     },
     "2887": {
       "number": 2887,
-      "updatedAt": "2026-11-11T13:27:14Z",
+      "updatedAt": "2026-11-12T05:41:28Z",
       "merged": false,
       "author": {
         "login": "abdul-karim-mia",
@@ -51461,8 +51520,8 @@
     },
     "2893": {
       "number": 2893,
-      "updatedAt": "2026-11-11T17:30:15Z",
-      "merged": false,
+      "updatedAt": "2026-11-12T08:54:38Z",
+      "merged": true,
       "author": {
         "login": "posva",
         "__typename": "User"
@@ -51564,6 +51623,145 @@
       "merged": false,
       "author": {
         "login": "shivanshtalwar0",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2897": {
+      "number": 2897,
+      "updatedAt": "2026-11-13T10:41:18Z",
+      "merged": true,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2898": {
+      "number": 2898,
+      "updatedAt": "2026-11-13T14:00:24Z",
+      "merged": true,
+      "author": {
+        "login": "danielroe",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2899": {
+      "number": 2899,
+      "updatedAt": "2026-11-13T16:15:57Z",
+      "merged": false,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2900": {
+      "number": 2900,
+      "updatedAt": "2026-11-13T16:01:58Z",
+      "merged": false,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2901": {
+      "number": 2901,
+      "updatedAt": "2026-11-13T16:26:06Z",
+      "merged": true,
+      "author": {
+        "login": "posva",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2902": {
+      "number": 2902,
+      "updatedAt": "2026-11-13T16:48:16Z",
+      "merged": true,
+      "author": {
+        "login": "posva",
         "__typename": "User"
       },
       "closingIssuesReferences": {
