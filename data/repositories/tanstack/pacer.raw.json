@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T15:05:46.862Z",
+    "lastRunAt": "2026-11-13T07:40:18.661Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xMVQxNzoyMDo1M1rOjiypRg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2054,6 +2054,13 @@
       "number": 307,
       "user": {
         "login": "ryansolid",
+        "type": "User"
+      }
+    },
+    "308": {
+      "number": 308,
+      "user": {
+        "login": "schiller-manuel",
         "type": "User"
       }
     }
@@ -7721,6 +7728,24 @@
             }
           }
         ]
+      }
+    },
+    "308": {
+      "number": 308,
+      "updatedAt": "2026-11-12T13:43:25Z",
+      "merged": false,
+      "author": {
+        "login": "schiller-manuel",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

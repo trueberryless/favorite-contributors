@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T15:05:44.282Z",
+    "lastRunAt": "2026-11-13T07:40:16.136Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10825,6 +10825,20 @@
     },
     "1503": {
       "number": 1503,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "1504": {
+      "number": 1504,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "1505": {
+      "number": 1505,
       "user": {
         "login": "sukvvon",
         "type": "User"
@@ -40522,7 +40536,7 @@
     },
     "1498": {
       "number": 1498,
-      "updatedAt": "2026-11-11T08:17:44Z",
+      "updatedAt": "2026-11-12T09:21:17Z",
       "merged": false,
       "author": {
         "login": "sukvvon",
@@ -40651,6 +40665,50 @@
     "1503": {
       "number": 1503,
       "updatedAt": "2026-11-11T06:44:25Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1504": {
+      "number": 1504,
+      "updatedAt": "2026-11-12T09:12:39Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1505": {
+      "number": 1505,
+      "updatedAt": "2026-11-12T09:44:47Z",
       "merged": true,
       "author": {
         "login": "sukvvon",

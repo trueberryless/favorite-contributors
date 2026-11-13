@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T15:05:02.844Z",
+    "lastRunAt": "2026-11-13T07:39:36.406Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -83223,6 +83223,13 @@
       "number": 10391,
       "user": {
         "login": "NvanWeeghel",
+        "type": "User"
+      }
+    },
+    "10392": {
+      "number": 10392,
+      "user": {
+        "login": "Alexnagel",
         "type": "User"
       }
     }
@@ -270324,7 +270331,7 @@
     },
     "10382": {
       "number": 10382,
-      "updatedAt": "2026-11-10T12:17:53Z",
+      "updatedAt": "2026-11-12T13:25:35Z",
       "merged": false,
       "author": {
         "login": "Mushir-Ali",
@@ -270400,7 +270407,7 @@
     },
     "10391": {
       "number": 10391,
-      "updatedAt": "2026-11-11T10:02:35Z",
+      "updatedAt": "2026-11-12T12:27:38Z",
       "merged": false,
       "author": {
         "login": "NvanWeeghel",
@@ -270408,6 +270415,32 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "10392": {
+      "number": 10392,
+      "updatedAt": "2026-11-12T15:46:01Z",
+      "merged": false,
+      "author": {
+        "login": "Alexnagel",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

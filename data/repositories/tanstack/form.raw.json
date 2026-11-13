@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T15:05:41.624Z",
+    "lastRunAt": "2026-11-13T07:40:13.828Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15709,6 +15709,20 @@
       "number": 2477,
       "user": {
         "login": "roux-lon",
+        "type": "User"
+      }
+    },
+    "2478": {
+      "number": 2478,
+      "user": {
+        "login": "harry-whorlow",
+        "type": "User"
+      }
+    },
+    "2479": {
+      "number": 2479,
+      "user": {
+        "login": "KooYS",
         "type": "User"
       }
     }
@@ -40252,7 +40266,7 @@
     },
     "2122": {
       "number": 2122,
-      "updatedAt": "2026-06-27T01:11:28Z",
+      "updatedAt": "2026-11-12T13:22:13Z",
       "merged": false,
       "author": {
         "login": "brenelz",
@@ -47200,7 +47214,7 @@
     },
     "2473": {
       "number": 2473,
-      "updatedAt": "2026-11-08T21:10:40Z",
+      "updatedAt": "2026-11-12T13:19:40Z",
       "merged": false,
       "author": {
         "login": "harry-whorlow",
@@ -47214,6 +47228,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -47302,6 +47323,58 @@
             "author": {
               "login": "LeCarbonator",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2478": {
+      "number": 2478,
+      "updatedAt": "2026-11-12T13:32:30Z",
+      "merged": false,
+      "author": {
+        "login": "harry-whorlow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2479": {
+      "number": 2479,
+      "updatedAt": "2026-11-13T04:37:47Z",
+      "merged": false,
+      "author": {
+        "login": "KooYS",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
