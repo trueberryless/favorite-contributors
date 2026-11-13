@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T22:11:14.951Z",
+    "lastRunAt": "2026-11-13T15:59:08.161Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wNS0xMVQxNjo0NTozOVrO2k91Kg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4077,8 +4077,8 @@
     },
     "96": {
       "number": 96,
-      "updatedAt": "2026-11-11T11:28:55Z",
-      "merged": false,
+      "updatedAt": "2026-11-12T22:27:01Z",
+      "merged": true,
       "author": {
         "login": "AFCMS",
         "__typename": "User"
@@ -4141,7 +4141,7 @@
             }
           },
           {
-            "state": "APPROVED",
+            "state": "DISMISSED",
             "author": {
               "login": "greptile-apps",
               "__typename": "Bot"
@@ -4160,14 +4160,21 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "98": {
       "number": 98,
-      "updatedAt": "2026-11-11T19:26:12Z",
-      "merged": false,
+      "updatedAt": "2026-11-12T00:48:48Z",
+      "merged": true,
       "author": {
         "login": "ryoppippi",
         "__typename": "User"
@@ -4214,14 +4221,21 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "100": {
       "number": 100,
-      "updatedAt": "2026-11-09T12:41:25Z",
-      "merged": false,
+      "updatedAt": "2026-11-12T00:55:08Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -4369,7 +4383,7 @@
     },
     "105": {
       "number": 105,
-      "updatedAt": "2026-11-11T10:53:05Z",
+      "updatedAt": "2026-11-12T00:57:06Z",
       "merged": false,
       "author": {
         "login": "dependabot",

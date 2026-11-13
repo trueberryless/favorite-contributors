@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T22:10:31.721Z",
+    "lastRunAt": "2026-11-13T15:58:20.476Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0yMVQyMzowNjo1NlrOj1hOsg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3133,6 +3133,20 @@
       "number": 410,
       "user": {
         "login": "emanuelenardi",
+        "type": "User"
+      }
+    },
+    "411": {
+      "number": 411,
+      "user": {
+        "login": "lafllamme",
+        "type": "User"
+      }
+    },
+    "412": {
+      "number": 412,
+      "user": {
+        "login": "lafllamme",
         "type": "User"
       }
     }
@@ -10578,6 +10592,78 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "411": {
+      "number": 411,
+      "updatedAt": "2026-11-12T09:40:25Z",
+      "merged": false,
+      "author": {
+        "login": "lafllamme",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "412": {
+      "number": 412,
+      "updatedAt": "2026-11-12T15:27:56Z",
+      "merged": false,
+      "author": {
+        "login": "lafllamme",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lafllamme",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lafllamme",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

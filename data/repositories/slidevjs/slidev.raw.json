@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-11T22:12:03.007Z",
+    "lastRunAt": "2026-11-13T15:59:56.569Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNS0wNVQwODoxODozM1rOJZLi4w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -19284,6 +19284,9 @@
       "user": {
         "login": "MurzNN",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "2826": {
@@ -19370,6 +19373,44 @@
       "number": 2838,
       "user": {
         "login": "bstellato",
+        "type": "User"
+      }
+    },
+    "2839": {
+      "number": 2839,
+      "user": {
+        "login": "lazerg",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2840": {
+      "number": 2840,
+      "user": {
+        "login": "0froq",
+        "type": "User"
+      }
+    },
+    "2841": {
+      "number": 2841,
+      "user": {
+        "login": "MurzNN",
+        "type": "User"
+      }
+    },
+    "2842": {
+      "number": 2842,
+      "user": {
+        "login": "MurzNN",
+        "type": "User"
+      }
+    },
+    "2843": {
+      "number": 2843,
+      "user": {
+        "login": "anupam-orbis",
         "type": "User"
       }
     }
@@ -44652,6 +44693,76 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2839": {
+      "number": 2839,
+      "updatedAt": "2026-11-13T12:42:19Z",
+      "merged": false,
+      "author": {
+        "login": "lazerg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "MurzNN",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2840": {
+      "number": 2840,
+      "updatedAt": "2026-11-13T05:39:48Z",
+      "merged": false,
+      "author": {
+        "login": "0froq",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "MurzNN",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2843": {
+      "number": 2843,
+      "updatedAt": "2026-11-13T15:07:21Z",
+      "merged": false,
+      "author": {
+        "login": "anupam-orbis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
