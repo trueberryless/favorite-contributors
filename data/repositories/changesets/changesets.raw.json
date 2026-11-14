@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-12T19:39:09.759Z",
+    "lastRunAt": "2026-11-14T02:02:27.982Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16598,6 +16598,13 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "2380": {
+      "number": 2380,
+      "user": {
+        "login": "Andarist",
+        "type": "User"
       }
     }
   },
@@ -56378,7 +56385,7 @@
     },
     "2183": {
       "number": 2183,
-      "updatedAt": "2026-11-09T17:58:43Z",
+      "updatedAt": "2026-11-13T21:14:56Z",
       "merged": false,
       "author": {
         "login": "Andarist",
@@ -59992,8 +59999,8 @@
     },
     "2345": {
       "number": 2345,
-      "updatedAt": "2026-11-09T00:07:31Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T01:41:43Z",
+      "merged": true,
       "author": {
         "login": "mixelburg",
         "__typename": "User"
@@ -60005,7 +60012,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "beeequeue",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2346": {
@@ -60218,7 +60233,7 @@
     },
     "2354": {
       "number": 2354,
-      "updatedAt": "2026-11-12T15:52:51Z",
+      "updatedAt": "2026-11-13T01:44:53Z",
       "merged": false,
       "author": {
         "login": "changesets-org-version-bot",
@@ -60290,7 +60305,7 @@
     },
     "2358": {
       "number": 2358,
-      "updatedAt": "2026-10-30T10:10:17Z",
+      "updatedAt": "2026-11-13T03:40:00Z",
       "merged": false,
       "author": {
         "login": "leochiu-a",
@@ -60380,7 +60395,7 @@
     },
     "2365": {
       "number": 2365,
-      "updatedAt": "2026-11-12T14:49:00Z",
+      "updatedAt": "2026-11-13T11:42:40Z",
       "merged": false,
       "author": {
         "login": "beeequeue",
@@ -60503,6 +60518,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "Andarist",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
               "__typename": "User"
             }
           }
@@ -60763,6 +60785,24 @@
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2380": {
+      "number": 2380,
+      "updatedAt": "2026-11-13T21:15:06Z",
+      "merged": false,
+      "author": {
+        "login": "Andarist",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

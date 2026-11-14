@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-12T11:43:30.967Z",
+    "lastRunAt": "2026-11-14T02:00:24.938Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wMVQyMTo0ODoxMFrOLykBIw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1580,7 +1580,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 3
+        "total_count": 5
       }
     }
   },
@@ -9763,7 +9763,7 @@
     },
     "1438": {
       "number": 1438,
-      "updatedAt": "2026-11-12T09:27:21Z",
+      "updatedAt": "2026-11-13T12:27:15Z",
       "merged": false,
       "author": {
         "login": "florian-lefebvre",
@@ -9776,7 +9776,15 @@
         "totalCount": 2
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "1444": {
@@ -9980,7 +9988,7 @@
     },
     "1459": {
       "number": 1459,
-      "updatedAt": "2026-11-12T11:33:34Z",
+      "updatedAt": "2026-11-13T12:14:08Z",
       "merged": false,
       "author": {
         "login": "ematipico",
