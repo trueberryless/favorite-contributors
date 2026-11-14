@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T15:59:05.572Z",
+    "lastRunAt": "2026-11-14T20:32:11.124Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0wOVQxNzoxNzoyOVrOBc1bwA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -608,6 +608,34 @@
     },
     "82": {
       "number": 82,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "83": {
+      "number": 83,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "84": {
+      "number": 84,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "85": {
+      "number": 85,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "86": {
+      "number": 86,
       "user": {
         "login": "zkochan",
         "type": "User"
@@ -2144,8 +2172,8 @@
     },
     "81": {
       "number": 81,
-      "updatedAt": "2026-11-10T15:08:14Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T21:21:12Z",
+      "merged": true,
       "author": {
         "login": "zkochan",
         "__typename": "User"
@@ -2219,8 +2247,104 @@
     },
     "82": {
       "number": 82,
-      "updatedAt": "2026-11-12T20:49:05Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T21:21:25Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "83": {
+      "number": 83,
+      "updatedAt": "2026-11-13T21:41:30Z",
+      "merged": true,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "84": {
+      "number": 84,
+      "updatedAt": "2026-11-13T21:41:04Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "85": {
+      "number": 85,
+      "updatedAt": "2026-11-13T21:49:00Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "86": {
+      "number": 86,
+      "updatedAt": "2026-11-14T11:59:41Z",
+      "merged": true,
       "author": {
         "login": "zkochan",
         "__typename": "User"

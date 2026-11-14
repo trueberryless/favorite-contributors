@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T07:42:26.196Z",
+    "lastRunAt": "2026-11-14T20:30:41.585Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0zMFQxNjo0OToyNlrOwG8izg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1228,6 +1228,27 @@
       "user": {
         "login": "dantman",
         "type": "User"
+      }
+    },
+    "166": {
+      "number": 166,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "167": {
+      "number": 167,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "168": {
+      "number": 168,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -5040,11 +5061,73 @@
     },
     "164": {
       "number": 164,
-      "updatedAt": "2026-11-09T20:41:10Z",
-      "merged": false,
+      "updatedAt": "2026-11-14T04:39:56Z",
+      "merged": true,
       "author": {
         "login": "dantman",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "9romise",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "166": {
+      "number": 166,
+      "updatedAt": "2026-11-14T04:41:23Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "167": {
+      "number": 167,
+      "updatedAt": "2026-11-14T04:43:34Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "168": {
+      "number": 168,
+      "updatedAt": "2026-11-14T04:43:40Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

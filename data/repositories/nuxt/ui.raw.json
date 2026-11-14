@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T15:58:15.264Z",
+    "lastRunAt": "2026-11-14T20:31:27.258Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xOFQxMzoxNTo0NlrOLraJ-A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -56345,6 +56345,34 @@
       "number": 7407,
       "user": {
         "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "7408": {
+      "number": 7408,
+      "user": {
+        "login": "0froq",
+        "type": "User"
+      }
+    },
+    "7409": {
+      "number": 7409,
+      "user": {
+        "login": "0froq",
+        "type": "User"
+      }
+    },
+    "7411": {
+      "number": 7411,
+      "user": {
+        "login": "IlyaSemenov",
+        "type": "User"
+      }
+    },
+    "7412": {
+      "number": 7412,
+      "user": {
+        "login": "lazerg",
         "type": "User"
       }
     }
@@ -153343,8 +153371,8 @@
     },
     "7371": {
       "number": 7371,
-      "updatedAt": "2026-11-13T15:50:32Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T16:46:41Z",
+      "merged": true,
       "author": {
         "login": "benjamincanac",
         "__typename": "User"
@@ -154135,7 +154163,7 @@
     },
     "7388": {
       "number": 7388,
-      "updatedAt": "2026-11-12T17:03:47Z",
+      "updatedAt": "2026-11-13T22:20:37Z",
       "merged": false,
       "author": {
         "login": "terryong32",
@@ -154203,8 +154231,8 @@
     },
     "7390": {
       "number": 7390,
-      "updatedAt": "2026-11-12T10:44:06Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T16:48:55Z",
+      "merged": true,
       "author": {
         "login": "ethannschwartz",
         "__typename": "User"
@@ -154222,6 +154250,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
             }
           }
         ]
@@ -154454,7 +154489,7 @@
     },
     "7395": {
       "number": 7395,
-      "updatedAt": "2026-11-12T16:10:53Z",
+      "updatedAt": "2026-11-13T17:03:26Z",
       "merged": false,
       "author": {
         "login": "benjamincanac",
@@ -154826,8 +154861,8 @@
     },
     "7403": {
       "number": 7403,
-      "updatedAt": "2026-11-13T15:47:50Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T16:09:56Z",
+      "merged": true,
       "author": {
         "login": "benjamincanac",
         "__typename": "User"
@@ -154967,7 +155002,7 @@
     },
     "7406": {
       "number": 7406,
-      "updatedAt": "2026-11-13T15:13:24Z",
+      "updatedAt": "2026-11-13T17:25:14Z",
       "merged": false,
       "author": {
         "login": "benjamincanac",
@@ -155015,13 +155050,62 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "benjamincanac",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
           }
         ]
       }
     },
     "7407": {
       "number": 7407,
-      "updatedAt": "2026-11-13T15:57:06Z",
+      "updatedAt": "2026-11-13T16:16:25Z",
       "merged": false,
       "author": {
         "login": "benjamincanac",
@@ -155035,6 +155119,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "7409": {
+      "number": 7409,
+      "updatedAt": "2026-11-13T20:07:02Z",
+      "merged": false,
+      "author": {
+        "login": "0froq",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "7412": {
+      "number": 7412,
+      "updatedAt": "2026-11-14T09:32:26Z",
+      "merged": false,
+      "author": {
+        "login": "lazerg",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

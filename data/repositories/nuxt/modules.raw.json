@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T15:58:11.549Z",
+    "lastRunAt": "2026-11-14T20:31:24.023Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12818,6 +12818,13 @@
       "number": 1743,
       "user": {
         "login": "johannschopplich",
+        "type": "User"
+      }
+    },
+    "1744": {
+      "number": 1744,
+      "user": {
+        "login": "DhruvilChauahan0210",
         "type": "User"
       }
     }
@@ -30116,7 +30123,7 @@
     },
     "1073": {
       "number": 1073,
-      "updatedAt": "2026-10-21T09:51:18Z",
+      "updatedAt": "2026-11-14T10:31:34Z",
       "merged": false,
       "author": {
         "login": "dnldsht",
@@ -30129,7 +30136,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "1074": {
@@ -40454,8 +40469,8 @@
     },
     "1736": {
       "number": 1736,
-      "updatedAt": "2026-11-13T14:04:19Z",
-      "merged": false,
+      "updatedAt": "2026-11-14T20:16:18Z",
+      "merged": true,
       "author": {
         "login": "favorodera",
         "__typename": "User"
@@ -40473,6 +40488,13 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
             }
           }
         ]
@@ -40578,10 +40600,28 @@
     },
     "1743": {
       "number": 1743,
-      "updatedAt": "2026-11-13T15:23:09Z",
+      "updatedAt": "2026-11-14T11:04:31Z",
       "merged": false,
       "author": {
         "login": "johannschopplich",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1744": {
+      "number": 1744,
+      "updatedAt": "2026-11-14T10:04:50Z",
+      "merged": false,
+      "author": {
+        "login": "DhruvilChauahan0210",
         "__typename": "User"
       },
       "closingIssuesReferences": {

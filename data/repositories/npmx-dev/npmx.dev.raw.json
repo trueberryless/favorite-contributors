@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T07:42:26.196Z",
+    "lastRunAt": "2026-11-14T20:30:41.585Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0yMlQxODowNzoxMFrOvrttxw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -26816,6 +26816,13 @@
       "number": 3445,
       "user": {
         "login": "officialasishkumar",
+        "type": "User"
+      }
+    },
+    "3446": {
+      "number": 3446,
+      "user": {
+        "login": "graphieros",
         "type": "User"
       }
     }
@@ -113553,7 +113560,7 @@
     },
     "2982": {
       "number": 2982,
-      "updatedAt": "2026-10-12T12:49:09Z",
+      "updatedAt": "2026-11-14T10:37:56Z",
       "merged": false,
       "author": {
         "login": "tomayac",
@@ -114276,7 +114283,7 @@
     },
     "2997": {
       "number": 2997,
-      "updatedAt": "2026-11-01T19:18:56Z",
+      "updatedAt": "2026-11-14T10:40:30Z",
       "merged": false,
       "author": {
         "login": "tomayac",
@@ -114351,7 +114358,7 @@
     },
     "2998": {
       "number": 2998,
-      "updatedAt": "2026-11-01T18:39:06Z",
+      "updatedAt": "2026-11-14T11:37:37Z",
       "merged": false,
       "author": {
         "login": "tomayac",
@@ -120988,7 +120995,7 @@
     },
     "3202": {
       "number": 3202,
-      "updatedAt": "2026-11-13T02:09:41Z",
+      "updatedAt": "2026-11-14T17:08:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -121476,7 +121483,7 @@
     },
     "3219": {
       "number": 3219,
-      "updatedAt": "2026-11-13T02:10:54Z",
+      "updatedAt": "2026-11-14T17:10:02Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -127935,8 +127942,8 @@
     },
     "3429": {
       "number": 3429,
-      "updatedAt": "2026-11-12T18:26:15Z",
-      "merged": false,
+      "updatedAt": "2026-11-14T13:51:41Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -127948,7 +127955,29 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "alexdln",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "serhalp",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3430": {
@@ -128118,8 +128147,8 @@
     },
     "3439": {
       "number": 3439,
-      "updatedAt": "2026-11-13T07:40:39Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T07:46:15Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -128151,8 +128180,8 @@
     },
     "3440": {
       "number": 3440,
-      "updatedAt": "2026-11-13T07:41:11Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T07:47:49Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -128177,8 +128206,8 @@
     },
     "3441": {
       "number": 3441,
-      "updatedAt": "2026-11-13T07:41:33Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T07:46:40Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -128203,8 +128232,8 @@
     },
     "3442": {
       "number": 3442,
-      "updatedAt": "2026-11-13T07:42:12Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T07:50:26Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -128229,8 +128258,8 @@
     },
     "3443": {
       "number": 3443,
-      "updatedAt": "2026-11-13T00:19:18Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T07:50:25Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -128255,8 +128284,8 @@
     },
     "3444": {
       "number": 3444,
-      "updatedAt": "2026-11-13T00:16:14Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T07:51:43Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -128268,12 +128297,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "graphieros",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3445": {
       "number": 3445,
-      "updatedAt": "2026-11-13T07:39:03Z",
+      "updatedAt": "2026-11-13T08:57:41Z",
       "merged": false,
       "author": {
         "login": "officialasishkumar",
@@ -128287,6 +128324,81 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3446": {
+      "number": 3446,
+      "updatedAt": "2026-11-14T17:40:31Z",
+      "merged": false,
+      "author": {
+        "login": "graphieros",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "graphieros",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "graphieros",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "graphieros",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
