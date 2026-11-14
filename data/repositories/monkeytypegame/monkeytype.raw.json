@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T00:56:46.475Z",
+    "lastRunAt": "2026-11-14T08:56:09.014Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -52076,6 +52076,69 @@
       "number": 8569,
       "user": {
         "login": "fehmer",
+        "type": "User"
+      }
+    },
+    "8570": {
+      "number": 8570,
+      "user": {
+        "login": "RedPandaGuy1234",
+        "type": "User"
+      }
+    },
+    "8571": {
+      "number": 8571,
+      "user": {
+        "login": "Miodec",
+        "type": "User"
+      }
+    },
+    "8572": {
+      "number": 8572,
+      "user": {
+        "login": "soubhagyajit",
+        "type": "User"
+      }
+    },
+    "8573": {
+      "number": 8573,
+      "user": {
+        "login": "Miodec",
+        "type": "User"
+      }
+    },
+    "8575": {
+      "number": 8575,
+      "user": {
+        "login": "RaviP9973",
+        "type": "User"
+      }
+    },
+    "8577": {
+      "number": 8577,
+      "user": {
+        "login": "fehmer",
+        "type": "User"
+      }
+    },
+    "8578": {
+      "number": 8578,
+      "user": {
+        "login": "Miodec",
+        "type": "User"
+      }
+    },
+    "8579": {
+      "number": 8579,
+      "user": {
+        "login": "Thien0912",
+        "type": "User"
+      }
+    },
+    "8580": {
+      "number": 8580,
+      "user": {
+        "login": "LiKTOi1029",
         "type": "User"
       }
     }
@@ -184528,7 +184591,7 @@
     },
     "8391": {
       "number": 8391,
-      "updatedAt": "2026-10-27T00:52:58Z",
+      "updatedAt": "2026-11-13T01:42:27Z",
       "merged": false,
       "author": {
         "login": "RedPandaGuy1234",
@@ -187807,10 +187870,269 @@
     },
     "8569": {
       "number": 8569,
-      "updatedAt": "2026-11-12T21:36:28Z",
+      "updatedAt": "2026-11-13T16:04:08Z",
       "merged": false,
       "author": {
         "login": "fehmer",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Miodec",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "8570": {
+      "number": 8570,
+      "updatedAt": "2026-11-13T02:22:45Z",
+      "merged": false,
+      "author": {
+        "login": "RedPandaGuy1234",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "charlitomecarez",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "8571": {
+      "number": 8571,
+      "updatedAt": "2026-11-13T21:57:28Z",
+      "merged": true,
+      "author": {
+        "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8573": {
+      "number": 8573,
+      "updatedAt": "2026-11-13T21:27:55Z",
+      "merged": true,
+      "author": {
+        "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "8575": {
+      "number": 8575,
+      "updatedAt": "2026-11-13T20:31:34Z",
+      "merged": false,
+      "author": {
+        "login": "RaviP9973",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "8577": {
+      "number": 8577,
+      "updatedAt": "2026-11-13T21:58:51Z",
+      "merged": true,
+      "author": {
+        "login": "fehmer",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Miodec",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "8578": {
+      "number": 8578,
+      "updatedAt": "2026-11-13T23:19:20Z",
+      "merged": true,
+      "author": {
+        "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8580": {
+      "number": 8580,
+      "updatedAt": "2026-11-14T06:37:32Z",
+      "merged": false,
+      "author": {
+        "login": "LiKTOi1029",
         "__typename": "User"
       },
       "closingIssuesReferences": {

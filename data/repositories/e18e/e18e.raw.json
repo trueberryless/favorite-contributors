@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-12T19:41:57.600Z",
+    "lastRunAt": "2026-11-14T08:54:50.166Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0wNFQxNzoyMDo0NVrObow3Ig==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1896,6 +1896,13 @@
       "number": 262,
       "user": {
         "login": "AlexanderKaran",
+        "type": "User"
+      }
+    },
+    "263": {
+      "number": 263,
+      "user": {
+        "login": "siddiksawani",
         "type": "User"
       }
     }
@@ -10736,6 +10743,32 @@
             "author": {
               "login": "43081j",
               "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "263": {
+      "number": 263,
+      "updatedAt": "2026-11-13T09:29:12Z",
+      "merged": false,
+      "author": {
+        "login": "siddiksawani",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
             }
           }
         ]

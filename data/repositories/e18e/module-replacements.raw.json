@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-12T19:41:57.600Z",
+    "lastRunAt": "2026-11-14T08:54:50.166Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xMFQxNDozMDoxMVrOaSua6w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9520,6 +9520,13 @@
     },
     "1242": {
       "number": 1242,
+      "user": {
+        "login": "maksimgm",
+        "type": "User"
+      }
+    },
+    "1243": {
+      "number": 1243,
       "user": {
         "login": "maksimgm",
         "type": "User"
@@ -30328,7 +30335,7 @@
     },
     "1242": {
       "number": 1242,
-      "updatedAt": "2026-11-12T09:51:46Z",
+      "updatedAt": "2026-11-12T20:41:30Z",
       "merged": true,
       "author": {
         "login": "maksimgm",
@@ -30350,6 +30357,24 @@
             }
           }
         ]
+      }
+    },
+    "1243": {
+      "number": 1243,
+      "updatedAt": "2026-11-12T20:39:51Z",
+      "merged": false,
+      "author": {
+        "login": "maksimgm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
