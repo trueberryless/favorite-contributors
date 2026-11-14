@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T00:57:24.941Z",
+    "lastRunAt": "2026-11-14T15:38:05.321Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0wOFQxMzoyODo1N1rOdI6dEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6620,6 +6620,13 @@
     },
     "922": {
       "number": 922,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "923": {
+      "number": 923,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -24104,7 +24111,7 @@
     },
     "919": {
       "number": 919,
-      "updatedAt": "2026-11-12T06:23:25Z",
+      "updatedAt": "2026-11-13T22:04:37Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24158,8 +24165,34 @@
     },
     "922": {
       "number": 922,
-      "updatedAt": "2026-11-12T17:56:32Z",
+      "updatedAt": "2026-11-13T03:09:07Z",
       "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Brooooooklyn",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "923": {
+      "number": 923,
+      "updatedAt": "2026-11-13T14:00:35Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"

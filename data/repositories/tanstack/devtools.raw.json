@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T07:40:18.752Z",
+    "lastRunAt": "2026-11-14T15:41:02.988Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNy0yNlQxNToxNTozMVrOoLJpDw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3790,6 +3790,13 @@
       "number": 562,
       "user": {
         "login": "hckhanh",
+        "type": "User"
+      }
+    },
+    "563": {
+      "number": 563,
+      "user": {
+        "login": "ryansolid",
         "type": "User"
       }
     }
@@ -8738,7 +8745,7 @@
     },
     "290": {
       "number": 290,
-      "updatedAt": "2026-11-12T17:47:10Z",
+      "updatedAt": "2026-11-13T22:21:09Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -13867,6 +13874,32 @@
             "state": "COMMENTED",
             "author": {
               "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "563": {
+      "number": 563,
+      "updatedAt": "2026-11-13T21:27:27Z",
+      "merged": false,
+      "author": {
+        "login": "ryansolid",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
               "__typename": "Bot"
             }
           }

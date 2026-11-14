@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T07:40:19.774Z",
+    "lastRunAt": "2026-11-14T15:41:04.459Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wMVQxNjoyMzowNlrOvu2KcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1779,6 +1779,27 @@
     },
     "274": {
       "number": 274,
+      "user": {
+        "login": "KevinVandy",
+        "type": "User"
+      }
+    },
+    "276": {
+      "number": 276,
+      "user": {
+        "login": "KevinVandy",
+        "type": "User"
+      }
+    },
+    "277": {
+      "number": 277,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "278": {
+      "number": 278,
       "user": {
         "login": "KevinVandy",
         "type": "User"
@@ -7748,6 +7769,89 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "276": {
+      "number": 276,
+      "updatedAt": "2026-11-13T22:08:18Z",
+      "merged": true,
+      "author": {
+        "login": "KevinVandy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "277": {
+      "number": 277,
+      "updatedAt": "2026-11-13T22:15:18Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "278": {
+      "number": 278,
+      "updatedAt": "2026-11-14T15:34:10Z",
+      "merged": false,
+      "author": {
+        "login": "KevinVandy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
             }
           },
           {

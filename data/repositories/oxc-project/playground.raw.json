@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T00:57:24.363Z",
+    "lastRunAt": "2026-11-14T15:38:04.257Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0xNlQxNjowNDowMVrOb6xwWw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3463,6 +3463,23 @@
     },
     "480": {
       "number": 480,
+      "user": {
+        "login": "Dunqing",
+        "type": "User"
+      }
+    },
+    "481": {
+      "number": 481,
+      "user": {
+        "login": "Boshen",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "482": {
+      "number": 482,
       "user": {
         "login": "Dunqing",
         "type": "User"
@@ -12142,8 +12159,44 @@
     },
     "480": {
       "number": 480,
-      "updatedAt": "2026-11-13T00:42:14Z",
-      "merged": false,
+      "updatedAt": "2026-11-13T02:29:54Z",
+      "merged": true,
+      "author": {
+        "login": "Dunqing",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "481": {
+      "number": 481,
+      "updatedAt": "2026-11-13T03:29:11Z",
+      "merged": true,
+      "author": {
+        "login": "Boshen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "482": {
+      "number": 482,
+      "updatedAt": "2026-11-13T17:02:58Z",
+      "merged": true,
       "author": {
         "login": "Dunqing",
         "__typename": "User"

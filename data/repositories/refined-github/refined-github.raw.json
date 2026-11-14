@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T07:39:36.406Z",
+    "lastRunAt": "2026-11-14T15:40:19.602Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -83151,6 +83151,9 @@
       "user": {
         "login": "fregante",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 4
       }
     },
     "10382": {
@@ -83230,6 +83233,27 @@
       "number": 10392,
       "user": {
         "login": "Alexnagel",
+        "type": "User"
+      }
+    },
+    "10393": {
+      "number": 10393,
+      "user": {
+        "login": "SuperPauly",
+        "type": "User"
+      }
+    },
+    "10394": {
+      "number": 10394,
+      "user": {
+        "login": "kidonng",
+        "type": "User"
+      }
+    },
+    "10395": {
+      "number": 10395,
+      "user": {
+        "login": "Michael21107",
         "type": "User"
       }
     }
@@ -270447,6 +270471,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "10394": {
+      "number": 10394,
+      "updatedAt": "2026-11-13T19:25:59Z",
+      "merged": false,
+      "author": {
+        "login": "kidonng",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

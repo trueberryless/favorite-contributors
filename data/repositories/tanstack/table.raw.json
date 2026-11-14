@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-13T07:40:13.827Z",
+    "lastRunAt": "2026-11-14T15:40:58.227Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33636,6 +33636,13 @@
       "number": 6659,
       "user": {
         "login": "abd1rahmane",
+        "type": "User"
+      }
+    },
+    "6660": {
+      "number": 6660,
+      "user": {
+        "login": "okxint",
         "type": "User"
       }
     }
@@ -75137,7 +75144,7 @@
     },
     "6653": {
       "number": 6653,
-      "updatedAt": "2026-11-11T06:56:48Z",
+      "updatedAt": "2026-11-13T14:02:38Z",
       "merged": false,
       "author": {
         "login": "lx3133584",
@@ -75177,6 +75184,13 @@
             "author": {
               "login": "agammann",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]
@@ -75234,6 +75248,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "6660": {
+      "number": 6660,
+      "updatedAt": "2026-11-13T15:34:24Z",
+      "merged": false,
+      "author": {
+        "login": "okxint",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
