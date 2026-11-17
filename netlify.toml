@@ -1,0 +1,5 @@
+[build]
+  base = "/"
+  command = "pnpm run build"
+  publish = "dist"
+  ignore = "if [ \"$CONTEXT\" = \"branch-deploy\" ] && [ \"$BRANCH\" = \"main\" ]; then exit 0; else exit 1; fi"

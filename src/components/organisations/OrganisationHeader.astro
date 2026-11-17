@@ -1,0 +1,89 @@
+---
+export interface Props {
+  organisationName: string;
+  lastUpdated: string | null;
+  totalContributors: number;
+}
+
+const { organisationName, lastUpdated, totalContributors } = Astro.props;
+---
+
+<header class="organisation-header fade-in">
+  <div class="organisation-identity">
+    <img src={`https://github.com/${organisationName}.png?size=240`} alt={organisationName} />
+    <div class="organisation-titles">
+      <h1>{organisationName}</h1>
+      <div class="badges">
+        <span class="badge stats-badge">{totalContributors} Contributors</span>
+        {lastUpdated && (
+          <span class="badge date-badge">Updated: {new Date(lastUpdated).toLocaleDateString()}</span>
+        )}
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+  .organisation-header {
+    max-width: 1000px;
+    margin: 0 auto 3rem auto;
+  }
+
+  .organisation-identity {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .organisation-identity img {
+    width: 120px;
+    height: 120px;
+    border-radius: 1rem;
+    object-fit: cover;
+    border: 3px solid var(--card-border);
+    background: var(--card-bg);
+  }
+
+  .organisation-titles h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.75rem 0;
+    color: var(--text-color);
+    letter-spacing: -0.02em;
+  }
+
+  .badges {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    background: var(--tag-bg);
+    color: var(--accent-color);
+    padding: 0.35rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .badge.date-badge {
+    color: var(--text-muted);
+    background: transparent;
+    border: 1px solid var(--card-border);
+  }
+
+  @media (max-width: 768px) {
+    .organisation-identity {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+    }
+
+    .badges {
+      justify-content: center;
+    }
+  }
+</style>
