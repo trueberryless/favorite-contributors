@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T00:13:24.948Z",
+    "lastRunAt": "2026-11-17T18:29:12.680Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -83259,6 +83259,20 @@
     },
     "10396": {
       "number": 10396,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10397": {
+      "number": 10397,
+      "user": {
+        "login": "Androz2091",
+        "type": "User"
+      }
+    },
+    "10398": {
+      "number": 10398,
       "user": {
         "login": "fregante",
         "type": "User"
@@ -270438,8 +270452,8 @@
     },
     "10391": {
       "number": 10391,
-      "updatedAt": "2026-11-12T12:27:38Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T08:42:27Z",
+      "merged": true,
       "author": {
         "login": "NvanWeeghel",
         "__typename": "User"
@@ -270454,6 +270468,13 @@
         "nodes": [
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "kidonng",
               "__typename": "User"
@@ -270508,7 +270529,7 @@
     },
     "10396": {
       "number": 10396,
-      "updatedAt": "2026-11-15T07:29:19Z",
+      "updatedAt": "2026-11-17T14:07:44Z",
       "merged": false,
       "author": {
         "login": "fregante",
@@ -270521,7 +270542,50 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "kidonng",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-swe-agent",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

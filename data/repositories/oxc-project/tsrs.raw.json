@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-15T20:14:39.017Z",
+    "lastRunAt": "2026-11-17T18:27:11.159Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0xMC0wMVQxODowMDoyNVrPAAAAARh6x0s=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7275,6 +7275,9 @@
       "user": {
         "login": "ipanasenko",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "946": {
@@ -7639,6 +7642,139 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "998": {
+      "number": 998,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "999": {
+      "number": 999,
+      "user": {
+        "login": "magurotuna",
+        "type": "User"
+      }
+    },
+    "1000": {
+      "number": 1000,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1001": {
+      "number": 1001,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1003": {
+      "number": 1003,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1004": {
+      "number": 1004,
+      "user": {
+        "login": "kurtextrem",
+        "type": "User"
+      }
+    },
+    "1005": {
+      "number": 1005,
+      "user": {
+        "login": "ubugeeei",
+        "type": "User"
+      }
+    },
+    "1006": {
+      "number": 1006,
+      "user": {
+        "login": "magurotuna",
+        "type": "User"
+      }
+    },
+    "1007": {
+      "number": 1007,
+      "user": {
+        "login": "magurotuna",
+        "type": "User"
+      }
+    },
+    "1008": {
+      "number": 1008,
+      "user": {
+        "login": "magurotuna",
+        "type": "User"
+      }
+    },
+    "1009": {
+      "number": 1009,
+      "user": {
+        "login": "magurotuna",
+        "type": "User"
+      }
+    },
+    "1010": {
+      "number": 1010,
+      "user": {
+        "login": "kjmin-dev",
+        "type": "User"
+      }
+    },
+    "1011": {
+      "number": 1011,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1012": {
+      "number": 1012,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1013": {
+      "number": 1013,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      }
+    },
+    "1014": {
+      "number": 1014,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -25711,8 +25847,8 @@
     },
     "990": {
       "number": 990,
-      "updatedAt": "2026-11-13T12:21:23Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T10:04:42Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -25724,7 +25860,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "997": {
@@ -25743,6 +25887,334 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "998": {
+      "number": 998,
+      "updatedAt": "2026-11-16T09:04:17Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "999": {
+      "number": 999,
+      "updatedAt": "2026-11-16T08:31:50Z",
+      "merged": true,
+      "author": {
+        "login": "magurotuna",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1000": {
+      "number": 1000,
+      "updatedAt": "2026-11-16T09:29:44Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1001": {
+      "number": 1001,
+      "updatedAt": "2026-11-16T10:12:55Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1003": {
+      "number": 1003,
+      "updatedAt": "2026-11-16T10:43:57Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1006": {
+      "number": 1006,
+      "updatedAt": "2026-11-17T08:47:18Z",
+      "merged": true,
+      "author": {
+        "login": "magurotuna",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1007": {
+      "number": 1007,
+      "updatedAt": "2026-11-17T08:46:13Z",
+      "merged": false,
+      "author": {
+        "login": "magurotuna",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1008": {
+      "number": 1008,
+      "updatedAt": "2026-11-17T09:15:58Z",
+      "merged": false,
+      "author": {
+        "login": "magurotuna",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1009": {
+      "number": 1009,
+      "updatedAt": "2026-11-17T09:14:22Z",
+      "merged": false,
+      "author": {
+        "login": "magurotuna",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1011": {
+      "number": 1011,
+      "updatedAt": "2026-11-17T12:36:10Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1012": {
+      "number": 1012,
+      "updatedAt": "2026-11-17T12:38:33Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1013": {
+      "number": 1013,
+      "updatedAt": "2026-11-17T12:39:21Z",
+      "merged": false,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "chatgpt-codex-connector",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1014": {
+      "number": 1014,
+      "updatedAt": "2026-11-17T13:22:27Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

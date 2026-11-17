@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T00:12:34.645Z",
+    "lastRunAt": "2026-11-17T18:28:31.656Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOS0wMVQxMjowOToxM1rPAAAAAQb2sJE=",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -482,6 +482,13 @@
       "number": 173,
       "user": {
         "login": "cixiangtao",
+        "type": "User"
+      }
+    },
+    "174": {
+      "number": 174,
+      "user": {
+        "login": "dirgaydtm",
         "type": "User"
       }
     }
@@ -1461,6 +1468,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "174": {
+      "number": 174,
+      "updatedAt": "2026-11-17T14:32:31Z",
+      "merged": false,
+      "author": {
+        "login": "dirgaydtm",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
