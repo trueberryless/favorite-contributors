@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-15T14:42:23.778Z",
+    "lastRunAt": "2026-11-17T09:01:35.387Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0wOVQxNjoxOTozMFrOaSX4Ew==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5485,6 +5485,13 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "719": {
+      "number": 719,
+      "user": {
+        "login": "Sanjays2402",
+        "type": "User"
       }
     }
   },
@@ -20767,7 +20774,7 @@
     },
     "686": {
       "number": 686,
-      "updatedAt": "2026-11-11T16:46:45Z",
+      "updatedAt": "2026-11-16T21:03:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -20890,7 +20897,7 @@
     },
     "696": {
       "number": 696,
-      "updatedAt": "2026-11-06T01:57:40Z",
+      "updatedAt": "2026-11-16T21:01:29Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -20926,7 +20933,7 @@
     },
     "698": {
       "number": 698,
-      "updatedAt": "2026-11-06T01:59:07Z",
+      "updatedAt": "2026-11-16T21:02:25Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -20944,7 +20951,7 @@
     },
     "699": {
       "number": 699,
-      "updatedAt": "2026-11-06T01:59:19Z",
+      "updatedAt": "2026-11-16T21:02:37Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21264,7 +21271,7 @@
     },
     "716": {
       "number": 716,
-      "updatedAt": "2026-11-06T01:58:53Z",
+      "updatedAt": "2026-11-17T06:13:01Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21322,6 +21329,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "719": {
+      "number": 719,
+      "updatedAt": "2026-11-16T05:30:22Z",
+      "merged": true,
+      "author": {
+        "login": "Sanjays2402",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "morgante",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

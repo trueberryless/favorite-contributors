@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-15T14:42:21.938Z",
+    "lastRunAt": "2026-11-17T09:01:33.349Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0zMVQwNjowNzoyN1rOYsqxwg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -995,6 +995,13 @@
       "user": {
         "login": "glass-ships",
         "type": "User"
+      }
+    },
+    "141": {
+      "number": 141,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -3300,6 +3307,24 @@
     "139": {
       "number": 139,
       "updatedAt": "2026-11-12T10:23:26Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "141": {
+      "number": 141,
+      "updatedAt": "2026-11-17T00:36:05Z",
       "merged": true,
       "author": {
         "login": "github-actions",

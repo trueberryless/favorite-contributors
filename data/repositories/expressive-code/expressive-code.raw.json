@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-15T14:41:44.054Z",
+    "lastRunAt": "2026-11-17T09:00:45.374Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOS0yNlQxMDoyNzo1MVrOP5f5ZQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -9050,7 +9050,7 @@
     },
     "486": {
       "number": 486,
-      "updatedAt": "2026-11-14T13:38:32Z",
+      "updatedAt": "2026-11-16T16:22:47Z",
       "merged": false,
       "author": {
         "login": "yudai-nkt",
@@ -9063,7 +9063,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
