@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T07:05:53.858Z",
+    "lastRunAt": "2026-11-18T01:13:09.561Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMS0yMlQxODowNzoxMFrOvrttxw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -26858,6 +26858,9 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "3451": {
@@ -26865,6 +26868,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "3452": {
+      "number": 3452,
+      "user": {
+        "login": "Seyamalam",
+        "type": "User"
+      }
+    },
+    "3453": {
+      "number": 3453,
+      "user": {
+        "login": "posva",
+        "type": "User"
       }
     }
   },
@@ -121036,7 +121053,7 @@
     },
     "3202": {
       "number": 3202,
-      "updatedAt": "2026-11-16T04:57:16Z",
+      "updatedAt": "2026-11-17T06:12:19Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -121524,7 +121541,7 @@
     },
     "3219": {
       "number": 3219,
-      "updatedAt": "2026-11-16T04:58:49Z",
+      "updatedAt": "2026-11-17T06:13:09Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -124127,7 +124144,7 @@
     },
     "3308": {
       "number": 3308,
-      "updatedAt": "2026-11-11T17:14:55Z",
+      "updatedAt": "2026-11-16T21:22:06Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -125309,7 +125326,7 @@
     },
     "3340": {
       "number": 3340,
-      "updatedAt": "2026-11-11T17:01:37Z",
+      "updatedAt": "2026-11-16T21:20:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -127248,7 +127265,7 @@
     },
     "3395": {
       "number": 3395,
-      "updatedAt": "2026-11-12T07:54:44Z",
+      "updatedAt": "2026-11-16T21:20:03Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -127837,8 +127854,8 @@
     },
     "3418": {
       "number": 3418,
-      "updatedAt": "2026-11-12T13:28:45Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T22:30:15Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -127850,12 +127867,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3419": {
       "number": 3419,
-      "updatedAt": "2026-11-12T07:54:48Z",
+      "updatedAt": "2026-11-16T21:15:08Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -128014,7 +128039,7 @@
     },
     "3428": {
       "number": 3428,
-      "updatedAt": "2026-11-11T17:02:52Z",
+      "updatedAt": "2026-11-16T21:21:52Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -128635,7 +128660,7 @@
     },
     "3450": {
       "number": 3450,
-      "updatedAt": "2026-11-15T22:17:05Z",
+      "updatedAt": "2026-11-16T22:32:32Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -128645,7 +128670,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -128667,6 +128692,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "3452": {
+      "number": 3452,
+      "updatedAt": "2026-11-16T11:14:32Z",
+      "merged": false,
+      "author": {
+        "login": "Seyamalam",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T07:06:36.918Z",
+    "lastRunAt": "2026-11-18T01:13:46.924Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNi0wNVQxMzowOTozMlrOB2Owow==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -13782,8 +13782,8 @@
     },
     "472": {
       "number": 472,
-      "updatedAt": "2026-11-05T09:58:48Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T14:22:47Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -13795,7 +13795,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "473": {

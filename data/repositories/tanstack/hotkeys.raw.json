@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T00:14:13.388Z",
+    "lastRunAt": "2026-11-18T01:11:17.623Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wMVQxNjoyMzowNlrOvu2KcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1835,6 +1835,20 @@
     },
     "283": {
       "number": 283,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "284": {
+      "number": 284,
+      "user": {
+        "login": "KevinVandy",
+        "type": "User"
+      }
+    },
+    "285": {
+      "number": 285,
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
@@ -5327,7 +5341,7 @@
     },
     "213": {
       "number": 213,
-      "updatedAt": "2026-11-03T13:31:51Z",
+      "updatedAt": "2026-11-17T18:09:21Z",
       "merged": false,
       "author": {
         "login": "ryansolid",
@@ -5341,6 +5355,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -8029,7 +8050,7 @@
     },
     "281": {
       "number": 281,
-      "updatedAt": "2026-11-15T23:42:23Z",
+      "updatedAt": "2026-11-16T11:57:57Z",
       "merged": true,
       "author": {
         "login": "KevinVandy",
@@ -8069,7 +8090,7 @@
     },
     "282": {
       "number": 282,
-      "updatedAt": "2026-11-15T23:58:38Z",
+      "updatedAt": "2026-11-16T11:57:58Z",
       "merged": true,
       "author": {
         "login": "KevinVandy",
@@ -8087,7 +8108,43 @@
     },
     "283": {
       "number": 283,
-      "updatedAt": "2026-11-16T00:07:11Z",
+      "updatedAt": "2026-11-16T11:46:33Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "284": {
+      "number": 284,
+      "updatedAt": "2026-11-17T22:28:00Z",
+      "merged": true,
+      "author": {
+        "login": "KevinVandy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "285": {
+      "number": 285,
+      "updatedAt": "2026-11-17T22:37:26Z",
       "merged": false,
       "author": {
         "login": "github-actions",

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T07:06:51.637Z",
+    "lastRunAt": "2026-11-18T01:14:00.628Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMi0xOVQyMzoyOTo0OFrOZ1J0_g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7142,6 +7142,13 @@
       "number": 975,
       "user": {
         "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "976": {
+      "number": 976,
+      "user": {
+        "login": "renovate[bot]",
         "type": "Bot"
       }
     }
@@ -26203,7 +26210,7 @@
     },
     "955": {
       "number": 955,
-      "updatedAt": "2026-11-15T21:05:51Z",
+      "updatedAt": "2026-11-17T06:36:30Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26221,7 +26228,7 @@
     },
     "956": {
       "number": 956,
-      "updatedAt": "2026-11-15T21:06:05Z",
+      "updatedAt": "2026-11-17T06:36:16Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26298,7 +26305,7 @@
     },
     "960": {
       "number": 960,
-      "updatedAt": "2026-11-15T18:22:47Z",
+      "updatedAt": "2026-11-16T14:33:19Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -26334,7 +26341,7 @@
     },
     "963": {
       "number": 963,
-      "updatedAt": "2026-11-15T21:05:49Z",
+      "updatedAt": "2026-11-17T06:39:31Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -26550,8 +26557,8 @@
     },
     "975": {
       "number": 975,
-      "updatedAt": "2026-11-15T21:07:21Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T14:28:11Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -26563,7 +26570,41 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "976": {
+      "number": 976,
+      "updatedAt": "2026-11-17T06:31:23Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T00:14:09.500Z",
+    "lastRunAt": "2026-11-18T01:11:13.756Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10849,6 +10849,20 @@
       "user": {
         "login": "manudeli",
         "type": "User"
+      }
+    },
+    "1507": {
+      "number": 1507,
+      "user": {
+        "login": "Abeuty",
+        "type": "User"
+      }
+    },
+    "1508": {
+      "number": 1508,
+      "user": {
+        "login": "sentry[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -37461,7 +37475,7 @@
     },
     "1364": {
       "number": 1364,
-      "updatedAt": "2026-11-14T13:37:35Z",
+      "updatedAt": "2026-11-17T16:55:34Z",
       "merged": false,
       "author": {
         "login": "KayleeWilliams",
@@ -40753,6 +40767,50 @@
       "author": {
         "login": "manudeli",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1507": {
+      "number": 1507,
+      "updatedAt": "2026-11-17T22:21:58Z",
+      "merged": false,
+      "author": {
+        "login": "Abeuty",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1508": {
+      "number": 1508,
+      "updatedAt": "2026-11-18T00:54:35Z",
+      "merged": false,
+      "author": {
+        "login": "sentry",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

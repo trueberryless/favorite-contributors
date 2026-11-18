@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T00:14:11.363Z",
+    "lastRunAt": "2026-11-18T01:11:15.606Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0xOFQwMjoxOTo0MVrOi3_cXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4105,6 +4105,20 @@
       "number": 578,
       "user": {
         "login": "SyMind",
+        "type": "User"
+      }
+    },
+    "579": {
+      "number": 579,
+      "user": {
+        "login": "aymericzip",
+        "type": "User"
+      }
+    },
+    "580": {
+      "number": 580,
+      "user": {
+        "login": "andrelandgraf",
         "type": "User"
       }
     }
@@ -13095,7 +13109,7 @@
     },
     "572": {
       "number": 572,
-      "updatedAt": "2026-11-09T17:20:28Z",
+      "updatedAt": "2026-11-17T14:32:12Z",
       "merged": false,
       "author": {
         "login": "akanyane",
@@ -13149,6 +13163,48 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "akanyane",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "akanyane",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "akanyane",
+              "__typename": "User"
             }
           }
         ]
@@ -13273,7 +13329,7 @@
     },
     "578": {
       "number": 578,
-      "updatedAt": "2026-11-13T08:03:33Z",
+      "updatedAt": "2026-11-16T04:47:36Z",
       "merged": false,
       "author": {
         "login": "SyMind",
@@ -13313,6 +13369,53 @@
             "author": {
               "login": "schiller-manuel",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "SyMind",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "579": {
+      "number": 579,
+      "updatedAt": "2026-11-17T21:58:07Z",
+      "merged": false,
+      "author": {
+        "login": "aymericzip",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           }
         ]

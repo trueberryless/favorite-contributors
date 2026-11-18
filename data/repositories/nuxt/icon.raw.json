@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T07:06:48.845Z",
+    "lastRunAt": "2026-11-18T01:13:57.767Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOS0wNlQxMDo1MToxMFrOPmaFBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4481,6 +4481,34 @@
     },
     "580": {
       "number": 580,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "581": {
+      "number": 581,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "582": {
+      "number": 582,
+      "user": {
+        "login": "iiAku",
+        "type": "User"
+      }
+    },
+    "583": {
+      "number": 583,
+      "user": {
+        "login": "lafllamme",
+        "type": "User"
+      }
+    },
+    "584": {
+      "number": 584,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -10663,8 +10691,8 @@
     },
     "567": {
       "number": 567,
-      "updatedAt": "2026-11-16T04:55:39Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T10:32:24Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -10707,8 +10735,8 @@
     },
     "569": {
       "number": 569,
-      "updatedAt": "2026-11-16T04:55:13Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T10:52:10Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -10777,8 +10805,8 @@
     },
     "573": {
       "number": 573,
-      "updatedAt": "2026-11-05T11:14:04Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T11:23:31Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -10795,8 +10823,8 @@
     },
     "574": {
       "number": 574,
-      "updatedAt": "2026-11-05T11:36:37Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T16:38:14Z",
+      "merged": true,
       "author": {
         "login": "lafllamme",
         "__typename": "User"
@@ -10808,13 +10836,28 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "575": {
       "number": 575,
-      "updatedAt": "2026-11-11T16:56:25Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T16:38:43Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -10831,8 +10874,8 @@
     },
     "576": {
       "number": 576,
-      "updatedAt": "2026-11-11T16:51:27Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T10:13:01Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -10849,8 +10892,8 @@
     },
     "577": {
       "number": 577,
-      "updatedAt": "2026-11-10T17:17:47Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T16:10:58Z",
+      "merged": true,
       "author": {
         "login": "brunobelloni",
         "__typename": "User"
@@ -10869,13 +10912,20 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "578": {
       "number": 578,
-      "updatedAt": "2026-11-10T19:24:02Z",
+      "updatedAt": "2026-11-16T16:25:17Z",
       "merged": false,
       "author": {
         "login": "brunobelloni",
@@ -10902,14 +10952,21 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "579": {
       "number": 579,
-      "updatedAt": "2026-11-11T18:57:22Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T15:55:44Z",
+      "merged": true,
       "author": {
         "login": "cirolosapio",
         "__typename": "User"
@@ -10928,13 +10985,74 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "580": {
       "number": 580,
-      "updatedAt": "2026-11-14T05:30:22Z",
+      "updatedAt": "2026-11-16T16:37:12Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "581": {
+      "number": 581,
+      "updatedAt": "2026-11-16T16:35:08Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "583": {
+      "number": 583,
+      "updatedAt": "2026-11-17T22:10:39Z",
+      "merged": false,
+      "author": {
+        "login": "lafllamme",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "584": {
+      "number": 584,
+      "updatedAt": "2026-11-17T23:09:31Z",
       "merged": false,
       "author": {
         "login": "renovate",
