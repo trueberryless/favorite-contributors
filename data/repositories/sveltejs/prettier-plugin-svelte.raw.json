@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T07:09:04.139Z",
+    "lastRunAt": "2026-11-18T08:57:26.615Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wNVQxMTowNjo1MFrOEFZa7A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4284,6 +4284,20 @@
       "user": {
         "login": "baseballyama",
         "type": "User"
+      }
+    },
+    "560": {
+      "number": 560,
+      "user": {
+        "login": "eknathdj",
+        "type": "User"
+      }
+    },
+    "561": {
+      "number": 561,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -9574,8 +9588,8 @@
     },
     "541": {
       "number": 541,
-      "updatedAt": "2026-06-16T08:55:06Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T19:59:06Z",
+      "merged": true,
       "author": {
         "login": "ryanatkn",
         "__typename": "User"
@@ -9587,13 +9601,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "543": {
       "number": 543,
-      "updatedAt": "2026-06-28T01:11:46Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T18:22:05Z",
+      "merged": true,
       "author": {
         "login": "ryanatkn",
         "__typename": "User"
@@ -9605,13 +9627,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "546": {
       "number": 546,
-      "updatedAt": "2026-07-21T16:44:17Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T19:57:27Z",
+      "merged": true,
       "author": {
         "login": "jycouet",
         "__typename": "User"
@@ -9623,7 +9653,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "548": {
@@ -9682,8 +9720,8 @@
     },
     "551": {
       "number": 551,
-      "updatedAt": "2026-10-21T13:23:00Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T21:02:10Z",
+      "merged": true,
       "author": {
         "login": "MFA-G",
         "__typename": "User"
@@ -9695,13 +9733,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "553": {
       "number": 553,
-      "updatedAt": "2026-10-27T08:24:57Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T18:20:37Z",
+      "merged": true,
       "author": {
         "login": "stickerdaniel",
         "__typename": "User"
@@ -9713,19 +9759,79 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "554": {
       "number": 554,
-      "updatedAt": "2026-10-26T21:31:30Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T20:02:41Z",
+      "merged": true,
       "author": {
         "login": "Stadly",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "560": {
+      "number": 560,
+      "updatedAt": "2026-11-17T21:06:03Z",
+      "merged": true,
+      "author": {
+        "login": "eknathdj",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "561": {
+      "number": 561,
+      "updatedAt": "2026-11-17T21:16:14Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

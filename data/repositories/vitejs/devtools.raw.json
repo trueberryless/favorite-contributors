@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T17:19:53.564Z",
+    "lastRunAt": "2026-11-18T08:58:18.355Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNC0xMFQwODo0Njo1MVrOkg6sAw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4831,6 +4831,13 @@
       "number": 642,
       "user": {
         "login": "sapphi-red",
+        "type": "User"
+      }
+    },
+    "643": {
+      "number": 643,
+      "user": {
+        "login": "webfansplz",
         "type": "User"
       }
     }
@@ -16288,7 +16295,7 @@
     },
     "639": {
       "number": 639,
-      "updatedAt": "2026-11-13T14:39:48Z",
+      "updatedAt": "2026-11-17T12:29:04Z",
       "merged": false,
       "author": {
         "login": "SaKaNa-Y",
@@ -16338,6 +16345,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "643": {
+      "number": 643,
+      "updatedAt": "2026-11-18T08:16:14Z",
+      "merged": false,
+      "author": {
+        "login": "webfansplz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

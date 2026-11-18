@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T07:09:08.880Z",
+    "lastRunAt": "2026-11-18T08:57:32.047Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0wNC0yN1QwMToxNTozMFrOJSC2xg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7304,6 +7304,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "1034": {
+      "number": 1034,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1035": {
+      "number": 1035,
+      "user": {
+        "login": "jrasm91",
+        "type": "User"
       }
     }
   },
@@ -21949,7 +21963,7 @@
     },
     "787": {
       "number": 787,
-      "updatedAt": "2026-11-05T19:00:15Z",
+      "updatedAt": "2026-11-16T17:14:21Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21967,7 +21981,7 @@
     },
     "788": {
       "number": 788,
-      "updatedAt": "2026-11-05T19:02:44Z",
+      "updatedAt": "2026-11-16T17:16:13Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -21985,7 +21999,7 @@
     },
     "789": {
       "number": 789,
-      "updatedAt": "2026-11-05T19:02:31Z",
+      "updatedAt": "2026-11-17T18:40:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22314,7 +22328,7 @@
     },
     "808": {
       "number": 808,
-      "updatedAt": "2026-11-14T08:17:43Z",
+      "updatedAt": "2026-11-17T04:28:51Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22512,7 +22526,7 @@
     },
     "819": {
       "number": 819,
-      "updatedAt": "2026-11-14T08:17:02Z",
+      "updatedAt": "2026-11-17T04:27:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -22566,7 +22580,7 @@
     },
     "822": {
       "number": 822,
-      "updatedAt": "2026-11-15T18:01:13Z",
+      "updatedAt": "2026-11-17T18:39:22Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23307,7 +23321,7 @@
     },
     "862": {
       "number": 862,
-      "updatedAt": "2026-11-14T08:17:15Z",
+      "updatedAt": "2026-11-17T04:28:29Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24546,7 +24560,7 @@
     },
     "925": {
       "number": 925,
-      "updatedAt": "2026-11-14T08:16:43Z",
+      "updatedAt": "2026-11-17T04:28:02Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -25171,7 +25185,7 @@
     },
     "961": {
       "number": 961,
-      "updatedAt": "2026-11-14T08:17:54Z",
+      "updatedAt": "2026-11-17T04:29:53Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -25189,7 +25203,7 @@
     },
     "962": {
       "number": 962,
-      "updatedAt": "2026-11-15T02:22:00Z",
+      "updatedAt": "2026-11-17T18:39:20Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -25787,7 +25801,7 @@
     },
     "994": {
       "number": 994,
-      "updatedAt": "2026-11-07T12:08:18Z",
+      "updatedAt": "2026-11-17T03:10:37Z",
       "merged": false,
       "author": {
         "login": "baseballyama",
@@ -25807,13 +25821,20 @@
               "login": "copilot-pull-request-reviewer",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "995": {
       "number": 995,
-      "updatedAt": "2026-11-12T03:45:19Z",
+      "updatedAt": "2026-11-17T03:51:56Z",
       "merged": false,
       "author": {
         "login": "baseballyama",
@@ -25832,6 +25853,13 @@
             "author": {
               "login": "copilot-pull-request-reviewer",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "ota-meshi",
+              "__typename": "User"
             }
           }
         ]
@@ -25875,7 +25903,7 @@
     },
     "998": {
       "number": 998,
-      "updatedAt": "2026-11-11T03:13:23Z",
+      "updatedAt": "2026-11-16T16:31:28Z",
       "merged": false,
       "author": {
         "login": "that-richan",
@@ -25893,6 +25921,62 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "baseballyama",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "that-richan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "that-richan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "that-richan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "that-richan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "that-richan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "that-richan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "that-richan",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "that-richan",
               "__typename": "User"
             }
           }
@@ -26338,6 +26422,24 @@
     "1033": {
       "number": 1033,
       "updatedAt": "2026-11-14T08:14:56Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1034": {
+      "number": 1034,
+      "updatedAt": "2026-11-17T04:25:48Z",
       "merged": true,
       "author": {
         "login": "renovate",
