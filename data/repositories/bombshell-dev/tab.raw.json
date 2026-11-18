@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T17:23:47.012Z",
+    "lastRunAt": "2026-11-18T17:53:48.486Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0wMlQxMDoyMToxNlrOh2213w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4128,8 +4128,8 @@
     },
     "160": {
       "number": 160,
-      "updatedAt": "2026-11-12T06:58:19Z",
-      "merged": false,
+      "updatedAt": "2026-11-16T18:24:49Z",
+      "merged": true,
       "author": {
         "login": "bombshell-bot",
         "__typename": "Bot"
@@ -4141,7 +4141,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AmirSa12",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

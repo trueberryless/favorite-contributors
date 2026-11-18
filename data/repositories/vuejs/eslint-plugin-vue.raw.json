@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-16T17:21:27.789Z",
+    "lastRunAt": "2026-11-18T17:51:54.218Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0xOFQxMzo1OTo0NVrOBhOrtA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -24845,6 +24845,20 @@
       "number": 3265,
       "user": {
         "login": "ValentinYoushkevich",
+        "type": "User"
+      }
+    },
+    "3266": {
+      "number": 3266,
+      "user": {
+        "login": "adamsol",
+        "type": "User"
+      }
+    },
+    "3267": {
+      "number": 3267,
+      "user": {
+        "login": "zzoraemon043",
         "type": "User"
       }
     }
@@ -76433,7 +76447,7 @@
     },
     "3120": {
       "number": 3120,
-      "updatedAt": "2026-11-16T16:47:16Z",
+      "updatedAt": "2026-11-16T17:25:54Z",
       "merged": false,
       "author": {
         "login": "ValentinYoushkevich",
@@ -77396,7 +77410,7 @@
     },
     "3152": {
       "number": 3152,
-      "updatedAt": "2026-11-14T15:03:12Z",
+      "updatedAt": "2026-11-17T22:32:32Z",
       "merged": false,
       "author": {
         "login": "asciieyes",
@@ -80812,6 +80826,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "3267": {
+      "number": 3267,
+      "updatedAt": "2026-11-17T06:17:51Z",
+      "merged": false,
+      "author": {
+        "login": "zzoraemon043",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "FloEdelmann",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
