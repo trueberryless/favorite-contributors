@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T01:11:17.623Z",
+    "lastRunAt": "2026-11-19T16:32:42.273Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wMVQxNjoyMzowNlrOvu2KcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1852,6 +1852,20 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "287": {
+      "number": 287,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "288": {
+      "number": 288,
+      "user": {
+        "login": "kirazy",
+        "type": "User"
       }
     }
   },
@@ -5341,7 +5355,7 @@
     },
     "213": {
       "number": 213,
-      "updatedAt": "2026-11-17T18:09:21Z",
+      "updatedAt": "2026-11-19T06:33:38Z",
       "merged": false,
       "author": {
         "login": "ryansolid",
@@ -5355,6 +5369,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -8126,7 +8147,7 @@
     },
     "284": {
       "number": 284,
-      "updatedAt": "2026-11-17T22:28:00Z",
+      "updatedAt": "2026-11-18T14:14:03Z",
       "merged": true,
       "author": {
         "login": "KevinVandy",
@@ -8144,8 +8165,8 @@
     },
     "285": {
       "number": 285,
-      "updatedAt": "2026-11-17T22:37:26Z",
-      "merged": false,
+      "updatedAt": "2026-11-18T14:04:31Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -8158,6 +8179,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "287": {
+      "number": 287,
+      "updatedAt": "2026-11-18T14:40:21Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

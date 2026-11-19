@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T01:11:15.957Z",
+    "lastRunAt": "2026-11-19T16:32:40.496Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xMVQxNzoyMDo1M1rOjiypRg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2076,6 +2076,13 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "311": {
+      "number": 311,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
       }
     }
   },
@@ -6748,7 +6755,7 @@
     },
     "258": {
       "number": 258,
-      "updatedAt": "2026-09-03T20:16:08Z",
+      "updatedAt": "2026-11-19T14:57:56Z",
       "merged": false,
       "author": {
         "login": "grant-progress",
@@ -7720,7 +7727,7 @@
     },
     "307": {
       "number": 307,
-      "updatedAt": "2026-11-17T18:35:48Z",
+      "updatedAt": "2026-11-19T06:29:53Z",
       "merged": false,
       "author": {
         "login": "ryansolid",
@@ -7734,6 +7741,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -7804,11 +7818,29 @@
     },
     "310": {
       "number": 310,
-      "updatedAt": "2026-11-14T18:56:04Z",
+      "updatedAt": "2026-11-19T02:22:15Z",
       "merged": false,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "311": {
+      "number": 311,
+      "updatedAt": "2026-11-19T02:22:00Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0

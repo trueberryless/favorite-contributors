@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T01:11:14.095Z",
+    "lastRunAt": "2026-11-19T16:32:38.551Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOC0zMVQyMTozNzo0OFrOWUfnYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2816,6 +2816,13 @@
       "number": 412,
       "user": {
         "login": "trackoor",
+        "type": "User"
+      }
+    },
+    "413": {
+      "number": 413,
+      "user": {
+        "login": "tannerlinsley",
         "type": "User"
       }
     }
@@ -10297,7 +10304,7 @@
     },
     "396": {
       "number": 396,
-      "updatedAt": "2026-11-11T17:04:07Z",
+      "updatedAt": "2026-11-19T08:36:22Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10471,7 +10478,7 @@
     },
     "404": {
       "number": 404,
-      "updatedAt": "2026-11-17T17:53:55Z",
+      "updatedAt": "2026-11-19T05:44:21Z",
       "merged": false,
       "author": {
         "login": "ryansolid",
@@ -10485,6 +10492,27 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "davidkpiano",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -10567,7 +10595,7 @@
     },
     "409": {
       "number": 409,
-      "updatedAt": "2026-11-10T04:22:22Z",
+      "updatedAt": "2026-11-18T20:35:16Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -10611,6 +10639,32 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "413": {
+      "number": 413,
+      "updatedAt": "2026-11-18T20:34:44Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
             }
           }
         ]

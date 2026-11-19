@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T01:11:13.635Z",
+    "lastRunAt": "2026-11-19T16:32:37.971Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8582,6 +8582,13 @@
       "number": 1383,
       "user": {
         "login": "Ishkirat-Singh",
+        "type": "User"
+      }
+    },
+    "1385": {
+      "number": 1385,
+      "user": {
+        "login": "tannerlinsley",
         "type": "User"
       }
     }
@@ -20540,7 +20547,7 @@
     },
     "1167": {
       "number": 1167,
-      "updatedAt": "2026-11-08T06:33:18Z",
+      "updatedAt": "2026-11-19T08:37:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24458,7 +24465,7 @@
     },
     "1350": {
       "number": 1350,
-      "updatedAt": "2026-11-17T17:56:51Z",
+      "updatedAt": "2026-11-19T06:37:43Z",
       "merged": false,
       "author": {
         "login": "ryansolid",
@@ -24472,6 +24479,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -25276,6 +25290,24 @@
             }
           }
         ]
+      }
+    },
+    "1385": {
+      "number": 1385,
+      "updatedAt": "2026-11-19T02:22:07Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-17T18:29:12.680Z",
+    "lastRunAt": "2026-11-19T16:31:54.712Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -83275,6 +83275,34 @@
       "number": 10398,
       "user": {
         "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10399": {
+      "number": 10399,
+      "user": {
+        "login": "waifucon",
+        "type": "User"
+      }
+    },
+    "10400": {
+      "number": 10400,
+      "user": {
+        "login": "j4ckwinter",
+        "type": "User"
+      }
+    },
+    "10401": {
+      "number": 10401,
+      "user": {
+        "login": "fregante",
+        "type": "User"
+      }
+    },
+    "10402": {
+      "number": 10402,
+      "user": {
+        "login": "rluvaton",
         "type": "User"
       }
     }
@@ -269239,7 +269267,7 @@
     },
     "10294": {
       "number": 10294,
-      "updatedAt": "2026-10-20T08:21:11Z",
+      "updatedAt": "2026-11-19T16:17:56Z",
       "merged": false,
       "author": {
         "login": "fregante",
@@ -270322,8 +270350,8 @@
     },
     "10378": {
       "number": 10378,
-      "updatedAt": "2026-11-08T20:35:35Z",
-      "merged": false,
+      "updatedAt": "2026-11-19T09:04:26Z",
+      "merged": true,
       "author": {
         "login": "fregante",
         "__typename": "User"
@@ -270335,12 +270363,27 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "10379": {
       "number": 10379,
-      "updatedAt": "2026-11-06T11:47:53Z",
+      "updatedAt": "2026-11-19T16:18:08Z",
       "merged": false,
       "author": {
         "login": "fregante",
@@ -270376,7 +270419,7 @@
     },
     "10382": {
       "number": 10382,
-      "updatedAt": "2026-11-12T13:25:35Z",
+      "updatedAt": "2026-11-19T16:24:14Z",
       "merged": false,
       "author": {
         "login": "Mushir-Ali",
@@ -270485,7 +270528,7 @@
     },
     "10392": {
       "number": 10392,
-      "updatedAt": "2026-11-12T15:46:01Z",
+      "updatedAt": "2026-11-19T16:26:16Z",
       "merged": false,
       "author": {
         "login": "Alexnagel",
@@ -270529,8 +270572,8 @@
     },
     "10396": {
       "number": 10396,
-      "updatedAt": "2026-11-17T14:07:44Z",
-      "merged": false,
+      "updatedAt": "2026-11-19T16:17:47Z",
+      "merged": true,
       "author": {
         "login": "fregante",
         "__typename": "User"
@@ -270583,6 +270626,32 @@
             "author": {
               "login": "copilot-swe-agent",
               "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "10401": {
+      "number": 10401,
+      "updatedAt": "2026-11-19T08:48:14Z",
+      "merged": true,
+      "author": {
+        "login": "fregante",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "fregante",
+              "__typename": "User"
             }
           }
         ]
