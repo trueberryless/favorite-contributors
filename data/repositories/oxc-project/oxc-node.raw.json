@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-17T18:27:07.928Z",
+    "lastRunAt": "2026-11-19T07:02:32.729Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0wOFQxMzoyODo1N1rOdI6dEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6658,6 +6658,23 @@
       "user": {
         "login": "rhyek",
         "type": "User"
+      }
+    },
+    "928": {
+      "number": 928,
+      "user": {
+        "login": "Brooooooklyn",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "929": {
+      "number": 929,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -24139,7 +24156,7 @@
     },
     "919": {
       "number": 919,
-      "updatedAt": "2026-11-17T06:12:38Z",
+      "updatedAt": "2026-11-18T19:57:49Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -24273,8 +24290,44 @@
     },
     "926": {
       "number": 926,
-      "updatedAt": "2026-11-16T21:10:59Z",
-      "merged": false,
+      "updatedAt": "2026-11-18T11:00:59Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "928": {
+      "number": 928,
+      "updatedAt": "2026-11-18T10:43:06Z",
+      "merged": true,
+      "author": {
+        "login": "Brooooooklyn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "929": {
+      "number": 929,
+      "updatedAt": "2026-11-18T20:16:22Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"

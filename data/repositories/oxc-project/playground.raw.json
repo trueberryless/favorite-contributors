@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-17T18:27:06.684Z",
+    "lastRunAt": "2026-11-19T07:02:32.298Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNS0xNlQxNjowNDowMVrOb6xwWw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3627,6 +3627,13 @@
     },
     "503": {
       "number": 503,
+      "user": {
+        "login": "Dunqing",
+        "type": "User"
+      }
+    },
+    "504": {
+      "number": 504,
       "user": {
         "login": "Dunqing",
         "type": "User"
@@ -12721,6 +12728,24 @@
     "503": {
       "number": 503,
       "updatedAt": "2026-11-17T06:58:25Z",
+      "merged": true,
+      "author": {
+        "login": "Dunqing",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "504": {
+      "number": 504,
+      "updatedAt": "2026-11-19T03:22:34Z",
       "merged": true,
       "author": {
         "login": "Dunqing",
