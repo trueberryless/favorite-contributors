@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-17T09:01:35.583Z",
+    "lastRunAt": "2026-11-19T00:01:07.138Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33485,6 +33485,20 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "4777": {
+      "number": 4777,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "4778": {
+      "number": 4778,
+      "user": {
+        "login": "nhedger",
+        "type": "User"
       }
     }
   },
@@ -127004,8 +127018,8 @@
     },
     "4703": {
       "number": 4703,
-      "updatedAt": "2026-11-01T16:23:29Z",
-      "merged": false,
+      "updatedAt": "2026-11-17T09:52:15Z",
+      "merged": true,
       "author": {
         "login": "nhedger",
         "__typename": "User"
@@ -127017,7 +127031,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4704": {
@@ -127366,7 +127388,7 @@
     },
     "4719": {
       "number": 4719,
-      "updatedAt": "2026-11-05T07:45:03Z",
+      "updatedAt": "2026-11-17T17:08:01Z",
       "merged": false,
       "author": {
         "login": "nhedger",
@@ -128502,6 +128524,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "4777": {
+      "number": 4777,
+      "updatedAt": "2026-11-18T00:37:02Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4778": {
+      "number": 4778,
+      "updatedAt": "2026-11-18T19:27:34Z",
+      "merged": false,
+      "author": {
+        "login": "nhedger",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ematipico",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
