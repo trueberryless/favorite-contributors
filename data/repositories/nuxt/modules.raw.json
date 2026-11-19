@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T01:13:51.229Z",
+    "lastRunAt": "2026-11-19T23:13:29.003Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yNlQxNDo1OToxNVrOHEAoWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12839,6 +12839,20 @@
       "number": 1746,
       "user": {
         "login": "jantursky",
+        "type": "User"
+      }
+    },
+    "1747": {
+      "number": 1747,
+      "user": {
+        "login": "benjamincanac",
+        "type": "User"
+      }
+    },
+    "1748": {
+      "number": 1748,
+      "user": {
+        "login": "onmax",
         "type": "User"
       }
     }
@@ -37132,7 +37146,7 @@
     },
     "1585": {
       "number": 1585,
-      "updatedAt": "2026-10-21T09:52:09Z",
+      "updatedAt": "2026-11-18T07:32:38Z",
       "merged": false,
       "author": {
         "login": "yoshinoriishii",
@@ -37150,6 +37164,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "yoshinoriishii",
               "__typename": "User"
             }
           }
@@ -39816,7 +39837,7 @@
     },
     "1705": {
       "number": 1705,
-      "updatedAt": "2026-10-29T13:56:27Z",
+      "updatedAt": "2026-11-19T13:04:49Z",
       "merged": false,
       "author": {
         "login": "onmax",
@@ -39830,6 +39851,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -40697,6 +40725,50 @@
             }
           }
         ]
+      }
+    },
+    "1747": {
+      "number": 1747,
+      "updatedAt": "2026-11-18T15:57:46Z",
+      "merged": true,
+      "author": {
+        "login": "benjamincanac",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1748": {
+      "number": 1748,
+      "updatedAt": "2026-11-19T12:59:06Z",
+      "merged": false,
+      "author": {
+        "login": "onmax",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

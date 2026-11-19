@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T01:13:58.592Z",
+    "lastRunAt": "2026-11-19T23:13:36.326Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0xNVQxMzowNDoyOFrOSggPtw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12939,6 +12939,37 @@
     },
     "1684": {
       "number": 1684,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1685": {
+      "number": 1685,
+      "user": {
+        "login": "KarmaBlackshaw",
+        "type": "User"
+      }
+    },
+    "1686": {
+      "number": 1686,
+      "user": {
+        "login": "rbenzazon",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1687": {
+      "number": 1687,
+      "user": {
+        "login": "atinux",
+        "type": "User"
+      }
+    },
+    "1688": {
+      "number": 1688,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -44397,7 +44428,7 @@
     },
     "1643": {
       "number": 1643,
-      "updatedAt": "2026-11-17T06:37:06Z",
+      "updatedAt": "2026-11-18T23:18:19Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -45524,7 +45555,129 @@
     },
     "1684": {
       "number": 1684,
-      "updatedAt": "2026-11-17T18:37:34Z",
+      "updatedAt": "2026-11-18T23:08:43Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1687": {
+      "number": 1687,
+      "updatedAt": "2026-11-19T14:56:45Z",
+      "merged": false,
+      "author": {
+        "login": "atinux",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1688": {
+      "number": 1688,
+      "updatedAt": "2026-11-19T08:37:28Z",
       "merged": false,
       "author": {
         "login": "renovate",

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T01:13:50.974Z",
+    "lastRunAt": "2026-11-19T23:13:28.564Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27544,6 +27544,41 @@
       "user": {
         "login": "dependabot[bot]",
         "type": "Bot"
+      }
+    },
+    "3923": {
+      "number": 3923,
+      "user": {
+        "login": "victpork",
+        "type": "User"
+      }
+    },
+    "3924": {
+      "number": 3924,
+      "user": {
+        "login": "rizen",
+        "type": "User"
+      }
+    },
+    "3925": {
+      "number": 3925,
+      "user": {
+        "login": "rizen",
+        "type": "User"
+      }
+    },
+    "3926": {
+      "number": 3926,
+      "user": {
+        "login": "noook",
+        "type": "User"
+      }
+    },
+    "3927": {
+      "number": 3927,
+      "user": {
+        "login": "noook",
+        "type": "User"
       }
     }
   },
@@ -67540,7 +67575,7 @@
     },
     "3596": {
       "number": 3596,
-      "updatedAt": "2025-11-06T09:39:21Z",
+      "updatedAt": "2026-11-18T14:31:40Z",
       "merged": false,
       "author": {
         "login": "danielroe",
@@ -72251,7 +72286,7 @@
     },
     "3863": {
       "number": 3863,
-      "updatedAt": "2026-11-17T13:30:45Z",
+      "updatedAt": "2026-11-19T08:38:52Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -73673,6 +73708,79 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "3925": {
+      "number": 3925,
+      "updatedAt": "2026-11-18T14:56:09Z",
+      "merged": false,
+      "author": {
+        "login": "rizen",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3927": {
+      "number": 3927,
+      "updatedAt": "2026-11-18T18:57:12Z",
+      "merged": false,
+      "author": {
+        "login": "noook",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "noook",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

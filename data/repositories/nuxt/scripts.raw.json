@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T01:13:57.606Z",
+    "lastRunAt": "2026-11-19T23:13:35.606Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0xNFQxMzo0NToyN1rON_gp8A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7846,6 +7846,16 @@
       "user": {
         "login": "harlan-zw",
         "type": "User"
+      }
+    },
+    "984": {
+      "number": 984,
+      "user": {
+        "login": "brunobelloni",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -23083,7 +23093,7 @@
     },
     "952": {
       "number": 952,
-      "updatedAt": "2026-11-17T19:45:10Z",
+      "updatedAt": "2026-11-19T19:42:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -23294,7 +23304,7 @@
     },
     "962": {
       "number": 962,
-      "updatedAt": "2026-11-17T03:39:17Z",
+      "updatedAt": "2026-11-19T05:53:00Z",
       "merged": false,
       "author": {
         "login": "developeron29",
@@ -23428,7 +23438,7 @@
     },
     "967": {
       "number": 967,
-      "updatedAt": "2026-11-17T21:01:40Z",
+      "updatedAt": "2026-11-19T05:39:01Z",
       "merged": false,
       "author": {
         "login": "AndrewCathcart",
@@ -23482,7 +23492,7 @@
     },
     "971": {
       "number": 971,
-      "updatedAt": "2026-11-15T03:44:30Z",
+      "updatedAt": "2026-11-19T05:39:07Z",
       "merged": false,
       "author": {
         "login": "harlan-zw",
@@ -23712,8 +23722,8 @@
     },
     "983": {
       "number": 983,
-      "updatedAt": "2026-11-17T20:43:30Z",
-      "merged": false,
+      "updatedAt": "2026-11-19T05:52:40Z",
+      "merged": true,
       "author": {
         "login": "harlan-zw",
         "__typename": "User"
@@ -23740,6 +23750,32 @@
               "__typename": "User"
             }
           },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "984": {
+      "number": 984,
+      "updatedAt": "2026-11-19T05:53:09Z",
+      "merged": true,
+      "author": {
+        "login": "brunobelloni",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
           {
             "state": "COMMENTED",
             "author": {
