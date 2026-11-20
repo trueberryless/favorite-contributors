@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T17:55:49.865Z",
+    "lastRunAt": "2026-11-20T13:29:34.301Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0yOVQwOToyNjo0N1rOTSTdTA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -28807,6 +28807,20 @@
       "number": 4418,
       "user": {
         "login": "xsagul",
+        "type": "User"
+      }
+    },
+    "4423": {
+      "number": 4423,
+      "user": {
+        "login": "Fuan200",
+        "type": "User"
+      }
+    },
+    "4425": {
+      "number": 4425,
+      "user": {
+        "login": "Fuan200",
         "type": "User"
       }
     }
@@ -135406,7 +135420,7 @@
     },
     "4219": {
       "number": 4219,
-      "updatedAt": "2026-11-13T17:05:09Z",
+      "updatedAt": "2026-11-19T16:08:20Z",
       "merged": true,
       "author": {
         "login": "delucis",
@@ -140532,7 +140546,7 @@
     },
     "4412": {
       "number": 4412,
-      "updatedAt": "2026-11-18T06:17:42Z",
+      "updatedAt": "2026-11-18T18:37:39Z",
       "merged": false,
       "author": {
         "login": "trueberryless",
@@ -140631,8 +140645,8 @@
     },
     "4415": {
       "number": 4415,
-      "updatedAt": "2026-11-16T05:32:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T10:01:27Z",
+      "merged": true,
       "author": {
         "login": "ragib-mrb",
         "__typename": "User"
@@ -140644,13 +140658,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "4416": {
       "number": 4416,
-      "updatedAt": "2026-11-17T22:47:11Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T08:30:54Z",
+      "merged": true,
       "author": {
         "login": "wigsdev",
         "__typename": "User"
@@ -140676,14 +140698,21 @@
               "login": "Fuan200",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "4417": {
       "number": 4417,
-      "updatedAt": "2026-11-18T16:27:28Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T08:44:53Z",
+      "merged": true,
       "author": {
         "login": "wigsdev",
         "__typename": "User"
@@ -140700,6 +140729,34 @@
             "state": "COMMENTED",
             "author": {
               "login": "Fuan200",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "wigsdev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Fuan200",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Fuan200",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "HiDeoo",
               "__typename": "User"
             }
           }
@@ -140722,6 +140779,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "4423": {
+      "number": 4423,
+      "updatedAt": "2026-11-20T09:01:58Z",
+      "merged": false,
+      "author": {
+        "login": "Fuan200",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "4425": {
+      "number": 4425,
+      "updatedAt": "2026-11-20T09:17:55Z",
+      "merged": false,
+      "author": {
+        "login": "Fuan200",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "HiDeoo",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

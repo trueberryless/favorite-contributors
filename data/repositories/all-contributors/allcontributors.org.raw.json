@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T23:59:04.685Z",
+    "lastRunAt": "2026-11-20T13:30:59.676Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0yOFQxNTo0NDo1NlrOA6KG0Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8054,6 +8054,27 @@
       "user": {
         "login": "trueberryless",
         "type": "User"
+      }
+    },
+    "1268": {
+      "number": 1268,
+      "user": {
+        "login": "JimMadge",
+        "type": "User"
+      }
+    },
+    "1269": {
+      "number": 1269,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1270": {
+      "number": 1270,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -28468,8 +28489,8 @@
     },
     "1238": {
       "number": 1238,
-      "updatedAt": "2026-11-18T19:14:05Z",
-      "merged": false,
+      "updatedAt": "2026-11-19T14:21:51Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -28544,14 +28565,21 @@
               "login": "trueberryless",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "1239": {
       "number": 1239,
-      "updatedAt": "2026-11-18T19:15:32Z",
-      "merged": false,
+      "updatedAt": "2026-11-19T14:29:47Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -28577,13 +28605,34 @@
               "login": "michaelfaith",
               "__typename": "User"
             }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "trueberryless",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "1240": {
       "number": 1240,
-      "updatedAt": "2026-11-18T19:18:31Z",
+      "updatedAt": "2026-11-19T14:30:27Z",
       "merged": false,
       "author": {
         "login": "trueberryless",
@@ -28609,7 +28658,7 @@
     },
     "1241": {
       "number": 1241,
-      "updatedAt": "2026-11-18T19:21:03Z",
+      "updatedAt": "2026-11-19T14:30:27Z",
       "merged": false,
       "author": {
         "login": "trueberryless",
@@ -28649,7 +28698,7 @@
     },
     "1242": {
       "number": 1242,
-      "updatedAt": "2026-11-18T19:24:06Z",
+      "updatedAt": "2026-11-19T14:29:51Z",
       "merged": false,
       "author": {
         "login": "trueberryless",
@@ -29011,11 +29060,81 @@
     },
     "1267": {
       "number": 1267,
-      "updatedAt": "2026-11-18T19:34:09Z",
-      "merged": false,
+      "updatedAt": "2026-11-19T09:45:33Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "JimMadge",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1268": {
+      "number": 1268,
+      "updatedAt": "2026-11-19T22:17:21Z",
+      "merged": true,
+      "author": {
+        "login": "JimMadge",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "michaelfaith",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1269": {
+      "number": 1269,
+      "updatedAt": "2026-11-19T18:04:43Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1270": {
+      "number": 1270,
+      "updatedAt": "2026-11-19T18:04:53Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

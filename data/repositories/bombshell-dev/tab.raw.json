@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T17:53:48.486Z",
+    "lastRunAt": "2026-11-20T13:27:35.720Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMi0wMlQxMDoyMToxNlrOh2213w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1127,6 +1127,20 @@
       "number": 161,
       "user": {
         "login": "trackoor",
+        "type": "User"
+      }
+    },
+    "162": {
+      "number": 162,
+      "user": {
+        "login": "trueberryless",
+        "type": "User"
+      }
+    },
+    "163": {
+      "number": 163,
+      "user": {
+        "login": "lulzhipsters",
         "type": "User"
       }
     }
@@ -4133,6 +4147,32 @@
       "author": {
         "login": "bombshell-bot",
         "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AmirSa12",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "162": {
+      "number": 162,
+      "updatedAt": "2026-11-19T19:40:55Z",
+      "merged": true,
+      "author": {
+        "login": "trueberryless",
+        "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 0
