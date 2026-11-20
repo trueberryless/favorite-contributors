@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T08:58:12.491Z",
+    "lastRunAt": "2026-11-20T04:12:03.555Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMS0wNlQyMTozMjowNlrOCaArYQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1262,6 +1262,13 @@
       "number": 173,
       "user": {
         "login": "sapphi-red",
+        "type": "User"
+      }
+    },
+    "175": {
+      "number": 175,
+      "user": {
+        "login": "0froq",
         "type": "User"
       }
     }
@@ -3901,6 +3908,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "175": {
+      "number": 175,
+      "updatedAt": "2026-11-18T14:09:36Z",
+      "merged": false,
+      "author": {
+        "login": "0froq",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

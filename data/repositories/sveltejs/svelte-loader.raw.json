@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T08:57:21.695Z",
+    "lastRunAt": "2026-11-20T04:11:17.301Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0wN1QxODoyMDowOFrOBce_gg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1977,6 +1977,13 @@
       "number": 262,
       "user": {
         "login": "Omission-create",
+        "type": "User"
+      }
+    },
+    "263": {
+      "number": 263,
+      "user": {
+        "login": "petschki",
         "type": "User"
       }
     }
@@ -5278,6 +5285,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "263": {
+      "number": 263,
+      "updatedAt": "2026-11-19T08:41:05Z",
+      "merged": false,
+      "author": {
+        "login": "petschki",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0

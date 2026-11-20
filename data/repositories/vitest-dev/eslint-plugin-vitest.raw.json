@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T08:58:58.076Z",
+    "lastRunAt": "2026-11-20T04:12:55.669Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNC0wMlQxOTo0NjoxMVrOMIduEg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7367,6 +7367,23 @@
       "user": {
         "login": "jasonkuhrt",
         "type": "User"
+      }
+    },
+    "998": {
+      "number": 998,
+      "user": {
+        "login": "PhoenixMputu",
+        "type": "User"
+      }
+    },
+    "999": {
+      "number": 999,
+      "user": {
+        "login": "PhoenixMputu",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     }
   },
@@ -21523,6 +21540,85 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "998": {
+      "number": 998,
+      "updatedAt": "2026-11-19T03:38:19Z",
+      "merged": false,
+      "author": {
+        "login": "PhoenixMputu",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "999": {
+      "number": 999,
+      "updatedAt": "2026-11-19T18:32:05Z",
+      "merged": false,
+      "author": {
+        "login": "PhoenixMputu",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "ST-DDT",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "PhoenixMputu",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "PhoenixMputu",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "PhoenixMputu",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "PhoenixMputu",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "ST-DDT",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T17:52:11.394Z",
+    "lastRunAt": "2026-11-20T04:14:05.772Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xN1QwNjo1ODoyNVrOLizwBQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8546,6 +8546,20 @@
     },
     "1187": {
       "number": 1187,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1188": {
+      "number": 1188,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1189": {
+      "number": 1189,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -29257,7 +29271,7 @@
     },
     "1076": {
       "number": 1076,
-      "updatedAt": "2026-11-16T21:08:17Z",
+      "updatedAt": "2026-11-19T08:43:52Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -31891,7 +31905,59 @@
     },
     "1187": {
       "number": 1187,
-      "updatedAt": "2026-11-16T07:23:10Z",
+      "updatedAt": "2026-11-19T08:25:01Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1188": {
+      "number": 1188,
+      "updatedAt": "2026-11-19T08:43:58Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1189": {
+      "number": 1189,
+      "updatedAt": "2026-11-19T15:11:38Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -31904,7 +31970,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "quriosapien",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
