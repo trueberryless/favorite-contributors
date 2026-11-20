@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-19T00:01:07.138Z",
+    "lastRunAt": "2026-11-20T21:28:57.512Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNC0wOFQxOTozOToyMlrObAzomw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33499,6 +33499,20 @@
       "user": {
         "login": "nhedger",
         "type": "User"
+      }
+    },
+    "4779": {
+      "number": 4779,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "4780": {
+      "number": 4780,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -128546,8 +128560,8 @@
     },
     "4778": {
       "number": 4778,
-      "updatedAt": "2026-11-18T19:27:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-19T10:30:26Z",
+      "merged": true,
       "author": {
         "login": "nhedger",
         "__typename": "User"
@@ -128568,6 +128582,42 @@
             }
           }
         ]
+      }
+    },
+    "4779": {
+      "number": 4779,
+      "updatedAt": "2026-11-20T00:35:05Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "4780": {
+      "number": 4780,
+      "updatedAt": "2026-11-20T06:04:34Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

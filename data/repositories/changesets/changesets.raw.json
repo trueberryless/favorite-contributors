@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-18T23:59:45.135Z",
+    "lastRunAt": "2026-11-20T21:27:37.053Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16639,6 +16639,13 @@
       "number": 2387,
       "user": {
         "login": "mixelburg",
+        "type": "User"
+      }
+    },
+    "2388": {
+      "number": 2388,
+      "user": {
+        "login": "francozeta",
         "type": "User"
       }
     }
@@ -59382,7 +59389,7 @@
     },
     "2297": {
       "number": 2297,
-      "updatedAt": "2026-09-14T13:13:16Z",
+      "updatedAt": "2026-11-20T10:31:53Z",
       "merged": true,
       "author": {
         "login": "Andarist",
@@ -59407,6 +59414,13 @@
             "state": "APPROVED",
             "author": {
               "login": "beeequeue",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "stakleykurtis8-rgb",
               "__typename": "User"
             }
           }
@@ -60297,7 +60311,7 @@
     },
     "2354": {
       "number": 2354,
-      "updatedAt": "2026-11-13T01:44:53Z",
+      "updatedAt": "2026-11-20T20:33:15Z",
       "merged": false,
       "author": {
         "login": "changesets-org-version-bot",
@@ -60459,8 +60473,8 @@
     },
     "2365": {
       "number": 2365,
-      "updatedAt": "2026-11-18T17:20:47Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T19:26:49Z",
+      "merged": true,
       "author": {
         "login": "beeequeue",
         "__typename": "User"
@@ -60953,7 +60967,7 @@
     },
     "2380": {
       "number": 2380,
-      "updatedAt": "2026-11-17T13:48:23Z",
+      "updatedAt": "2026-11-20T19:22:10Z",
       "merged": false,
       "author": {
         "login": "Andarist",
@@ -60966,7 +60980,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "stakleykurtis8-rgb",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2382": {
@@ -61033,14 +61055,47 @@
     },
     "2387": {
       "number": 2387,
-      "updatedAt": "2026-11-18T22:09:17Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T20:28:56Z",
+      "merged": true,
       "author": {
         "login": "mixelburg",
         "__typename": "User"
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "beeequeue",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "beeequeue",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2388": {
+      "number": 2388,
+      "updatedAt": "2026-11-20T03:33:31Z",
+      "merged": false,
+      "author": {
+        "login": "francozeta",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
