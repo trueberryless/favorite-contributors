@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-19T16:32:35.946Z",
+    "lastRunAt": "2026-11-21T10:43:55.722Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33667,6 +33667,27 @@
       "number": 6664,
       "user": {
         "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "6666": {
+      "number": 6666,
+      "user": {
+        "login": "h00ns",
+        "type": "User"
+      }
+    },
+    "6667": {
+      "number": 6667,
+      "user": {
+        "login": "ben-c-atlassian",
+        "type": "User"
+      }
+    },
+    "6668": {
+      "number": 6668,
+      "user": {
+        "login": "victuribdev",
         "type": "User"
       }
     }
@@ -75374,6 +75395,42 @@
             }
           }
         ]
+      }
+    },
+    "6666": {
+      "number": 6666,
+      "updatedAt": "2026-11-20T15:38:16Z",
+      "merged": false,
+      "author": {
+        "login": "h00ns",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6668": {
+      "number": 6668,
+      "updatedAt": "2026-11-21T01:17:56Z",
+      "merged": false,
+      "author": {
+        "login": "victuribdev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

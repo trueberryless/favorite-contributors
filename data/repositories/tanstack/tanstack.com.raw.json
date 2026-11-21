@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-19T16:32:38.280Z",
+    "lastRunAt": "2026-11-21T10:43:58.112Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10883,6 +10883,20 @@
       "number": 1511,
       "user": {
         "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "1512": {
+      "number": 1512,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "1513": {
+      "number": 1513,
+      "user": {
+        "login": "manudeli",
         "type": "User"
       }
     }
@@ -37336,8 +37350,8 @@
     },
     "1354": {
       "number": 1354,
-      "updatedAt": "2026-10-06T22:36:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T20:58:27Z",
+      "merged": true,
       "author": {
         "login": "cweekly",
         "__typename": "User"
@@ -40925,6 +40939,50 @@
             }
           }
         ]
+      }
+    },
+    "1512": {
+      "number": 1512,
+      "updatedAt": "2026-11-20T07:26:39Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1513": {
+      "number": 1513,
+      "updatedAt": "2026-11-21T08:59:39Z",
+      "merged": false,
+      "author": {
+        "login": "manudeli",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

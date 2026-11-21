@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-19T16:32:42.273Z",
+    "lastRunAt": "2026-11-21T10:44:01.681Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0wMVQxNjoyMzowNlrOvu2KcA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1865,6 +1865,27 @@
       "number": 288,
       "user": {
         "login": "kirazy",
+        "type": "User"
+      }
+    },
+    "289": {
+      "number": 289,
+      "user": {
+        "login": "KevinVandy",
+        "type": "User"
+      }
+    },
+    "290": {
+      "number": 290,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "291": {
+      "number": 291,
+      "user": {
+        "login": "KevinVandy",
         "type": "User"
       }
     }
@@ -8199,6 +8220,139 @@
         "nodes": [
           {
             "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "289": {
+      "number": 289,
+      "updatedAt": "2026-11-21T08:08:43Z",
+      "merged": true,
+      "author": {
+        "login": "KevinVandy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "290": {
+      "number": 290,
+      "updatedAt": "2026-11-21T08:18:38Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "291": {
+      "number": 291,
+      "updatedAt": "2026-11-21T08:38:55Z",
+      "merged": false,
+      "author": {
+        "login": "KevinVandy",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
             "author": {
               "login": "KevinVandy",
               "__typename": "User"

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-19T16:31:54.712Z",
+    "lastRunAt": "2026-11-21T10:43:18.709Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wMi0xNVQyMDo1NjoxOVrOA4qP4g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -81722,6 +81722,9 @@
       "user": {
         "login": "thomaseizinger",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "10186": {
@@ -83303,6 +83306,55 @@
       "number": 10402,
       "user": {
         "login": "rluvaton",
+        "type": "User"
+      }
+    },
+    "10403": {
+      "number": 10403,
+      "user": {
+        "login": "SunsetTechuila",
+        "type": "User"
+      }
+    },
+    "10404": {
+      "number": 10404,
+      "user": {
+        "login": "SunsetTechuila",
+        "type": "User"
+      }
+    },
+    "10405": {
+      "number": 10405,
+      "user": {
+        "login": "SunsetTechuila",
+        "type": "User"
+      }
+    },
+    "10406": {
+      "number": 10406,
+      "user": {
+        "login": "denniszag",
+        "type": "User"
+      }
+    },
+    "10407": {
+      "number": 10407,
+      "user": {
+        "login": "denniszag",
+        "type": "User"
+      }
+    },
+    "10408": {
+      "number": 10408,
+      "user": {
+        "login": "denniszag",
+        "type": "User"
+      }
+    },
+    "10409": {
+      "number": 10409,
+      "user": {
+        "login": "kidonng",
         "type": "User"
       }
     }
@@ -270546,8 +270598,8 @@
     },
     "10394": {
       "number": 10394,
-      "updatedAt": "2026-11-13T19:25:59Z",
-      "merged": false,
+      "updatedAt": "2026-11-21T05:29:31Z",
+      "merged": true,
       "author": {
         "login": "kidonng",
         "__typename": "User"
@@ -270564,6 +270616,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "kidonng",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "fregante",
               "__typename": "User"
             }
           }
@@ -270655,6 +270714,78 @@
             }
           }
         ]
+      }
+    },
+    "10406": {
+      "number": 10406,
+      "updatedAt": "2026-11-21T05:29:04Z",
+      "merged": false,
+      "author": {
+        "login": "denniszag",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10407": {
+      "number": 10407,
+      "updatedAt": "2026-11-20T23:57:39Z",
+      "merged": false,
+      "author": {
+        "login": "denniszag",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10408": {
+      "number": 10408,
+      "updatedAt": "2026-11-20T23:57:33Z",
+      "merged": false,
+      "author": {
+        "login": "denniszag",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "10409": {
+      "number": 10409,
+      "updatedAt": "2026-11-21T07:50:10Z",
+      "merged": false,
+      "author": {
+        "login": "kidonng",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

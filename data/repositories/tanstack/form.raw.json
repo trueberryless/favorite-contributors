@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-19T16:32:35.946Z",
+    "lastRunAt": "2026-11-21T10:43:55.723Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15752,6 +15752,13 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "2485": {
+      "number": 2485,
+      "user": {
+        "login": "LeCarbonator",
+        "type": "User"
       }
     }
   },
@@ -45342,7 +45349,7 @@
     },
     "2385": {
       "number": 2385,
-      "updatedAt": "2026-09-11T10:13:51Z",
+      "updatedAt": "2026-11-19T18:49:41Z",
       "merged": false,
       "author": {
         "login": "lunaxislu",
@@ -46432,7 +46439,7 @@
     },
     "2435": {
       "number": 2435,
-      "updatedAt": "2026-11-19T08:33:27Z",
+      "updatedAt": "2026-11-20T17:41:05Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -46749,8 +46756,8 @@
     },
     "2448": {
       "number": 2448,
-      "updatedAt": "2026-10-31T09:18:10Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T18:02:38Z",
+      "merged": true,
       "author": {
         "login": "LeCarbonator",
         "__typename": "User"
@@ -46815,14 +46822,14 @@
     },
     "2450": {
       "number": 2450,
-      "updatedAt": "2026-10-29T15:26:12Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T19:23:18Z",
+      "merged": true,
       "author": {
         "login": "LeCarbonator",
         "__typename": "User"
       },
       "closingIssuesReferences": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 0
@@ -46841,6 +46848,13 @@
             "author": {
               "login": "LeCarbonator",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
             }
           },
           {
@@ -47103,8 +47117,8 @@
     },
     "2463": {
       "number": 2463,
-      "updatedAt": "2026-11-19T15:14:11Z",
-      "merged": false,
+      "updatedAt": "2026-11-20T17:39:24Z",
+      "merged": true,
       "author": {
         "login": "lachlancollins",
         "__typename": "User"
@@ -47121,6 +47135,13 @@
             "state": "APPROVED",
             "author": {
               "login": "AlemTuzlak",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
               "__typename": "User"
             }
           }
@@ -47227,7 +47248,7 @@
     },
     "2470": {
       "number": 2470,
-      "updatedAt": "2026-11-19T12:54:15Z",
+      "updatedAt": "2026-11-20T04:53:01Z",
       "merged": false,
       "author": {
         "login": "twotnguyen",
@@ -47240,7 +47261,36 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     },
     "2471": {
@@ -47492,7 +47542,7 @@
     },
     "2482": {
       "number": 2482,
-      "updatedAt": "2026-11-18T16:42:07Z",
+      "updatedAt": "2026-11-21T09:22:55Z",
       "merged": false,
       "author": {
         "login": "LeCarbonator",
@@ -47506,6 +47556,27 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -47557,6 +47628,39 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2485": {
+      "number": 2485,
+      "updatedAt": "2026-11-20T17:49:31Z",
+      "merged": true,
+      "author": {
+        "login": "LeCarbonator",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

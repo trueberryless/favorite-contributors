@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-19T16:32:37.971Z",
+    "lastRunAt": "2026-11-21T10:43:58.027Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOS0xNFQyMjo0NToyN1rOHQP4rg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8589,6 +8589,27 @@
       "number": 1385,
       "user": {
         "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "1386": {
+      "number": 1386,
+      "user": {
+        "login": "officialasishkumar",
+        "type": "User"
+      }
+    },
+    "1387": {
+      "number": 1387,
+      "user": {
+        "login": "officialasishkumar",
+        "type": "User"
+      }
+    },
+    "1388": {
+      "number": 1388,
+      "user": {
+        "login": "langleyd",
         "type": "User"
       }
     }
@@ -24939,7 +24960,7 @@
     },
     "1374": {
       "number": 1374,
-      "updatedAt": "2026-11-06T21:18:10Z",
+      "updatedAt": "2026-11-21T08:09:46Z",
       "merged": false,
       "author": {
         "login": "itisrmk",
@@ -24953,6 +24974,34 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "itisrmk",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "itisrmk",
+              "__typename": "User"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -25308,6 +25357,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1387": {
+      "number": 1387,
+      "updatedAt": "2026-11-20T00:08:10Z",
+      "merged": false,
+      "author": {
+        "login": "officialasishkumar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1388": {
+      "number": 1388,
+      "updatedAt": "2026-11-20T17:49:01Z",
+      "merged": false,
+      "author": {
+        "login": "langleyd",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
