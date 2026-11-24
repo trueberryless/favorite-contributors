@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-22T18:16:33.817Z",
+    "lastRunAt": "2026-11-24T15:12:50.140Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMS0xNFQxMjoxMjoxN1rOXzkiDg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10190,6 +10190,68 @@
     },
     "1394": {
       "number": 1394,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1395": {
+      "number": 1395,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1396": {
+      "number": 1396,
+      "user": {
+        "login": "oxc-guard[bot]",
+        "type": "Bot"
+      }
+    },
+    "1397": {
+      "number": 1397,
+      "user": {
+        "login": "thernstig",
+        "type": "User"
+      }
+    },
+    "1398": {
+      "number": 1398,
+      "user": {
+        "login": "thernstig",
+        "type": "User"
+      }
+    },
+    "1399": {
+      "number": 1399,
+      "user": {
+        "login": "thernstig",
+        "type": "User"
+      }
+    },
+    "1400": {
+      "number": 1400,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1401": {
+      "number": 1401,
+      "user": {
+        "login": "camc314",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1402": {
+      "number": 1402,
       "user": {
         "login": "camc314",
         "type": "User"
@@ -36977,6 +37039,120 @@
     "1394": {
       "number": 1394,
       "updatedAt": "2026-11-21T11:48:05Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1395": {
+      "number": 1395,
+      "updatedAt": "2026-11-22T23:42:59Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1396": {
+      "number": 1396,
+      "updatedAt": "2026-11-23T14:56:34Z",
+      "merged": true,
+      "author": {
+        "login": "oxc-guard",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "camc314",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1400": {
+      "number": 1400,
+      "updatedAt": "2026-11-24T09:58:54Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1401": {
+      "number": 1401,
+      "updatedAt": "2026-11-24T10:20:15Z",
+      "merged": true,
+      "author": {
+        "login": "camc314",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1402": {
+      "number": 1402,
+      "updatedAt": "2026-11-24T14:12:53Z",
       "merged": true,
       "author": {
         "login": "camc314",
