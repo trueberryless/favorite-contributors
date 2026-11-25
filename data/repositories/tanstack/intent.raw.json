@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-22T18:19:14.340Z",
+    "lastRunAt": "2026-11-25T00:02:34.523Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wMi0yNVQxODowMTo0NVrOxkdzGg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2380,6 +2380,41 @@
     },
     "355": {
       "number": 355,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "356": {
+      "number": 356,
+      "user": {
+        "login": "LadyBluenotes",
+        "type": "User"
+      }
+    },
+    "357": {
+      "number": 357,
+      "user": {
+        "login": "LadyBluenotes",
+        "type": "User"
+      }
+    },
+    "358": {
+      "number": 358,
+      "user": {
+        "login": "LadyBluenotes",
+        "type": "User"
+      }
+    },
+    "359": {
+      "number": 359,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "360": {
+      "number": 360,
       "user": {
         "login": "tannerlinsley",
         "type": "User"
@@ -9098,7 +9133,7 @@
     },
     "353": {
       "number": 353,
-      "updatedAt": "2026-11-19T08:35:40Z",
+      "updatedAt": "2026-11-24T00:32:17Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -9117,6 +9152,96 @@
     "355": {
       "number": 355,
       "updatedAt": "2026-11-19T02:21:35Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "356": {
+      "number": 356,
+      "updatedAt": "2026-11-22T19:00:37Z",
+      "merged": false,
+      "author": {
+        "login": "LadyBluenotes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "357": {
+      "number": 357,
+      "updatedAt": "2026-11-22T19:42:22Z",
+      "merged": true,
+      "author": {
+        "login": "LadyBluenotes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "358": {
+      "number": 358,
+      "updatedAt": "2026-11-22T19:42:23Z",
+      "merged": true,
+      "author": {
+        "login": "LadyBluenotes",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "359": {
+      "number": 359,
+      "updatedAt": "2026-11-24T00:25:09Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "360": {
+      "number": 360,
+      "updatedAt": "2026-11-24T00:23:32Z",
       "merged": true,
       "author": {
         "login": "tannerlinsley",

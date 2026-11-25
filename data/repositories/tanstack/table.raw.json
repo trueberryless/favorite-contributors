@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-22T18:19:08.268Z",
+    "lastRunAt": "2026-11-25T00:02:28.132Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33695,6 +33695,20 @@
       "number": 6670,
       "user": {
         "login": "oyobbeb",
+        "type": "User"
+      }
+    },
+    "6671": {
+      "number": 6671,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "6673": {
+      "number": 6673,
+      "user": {
+        "login": "sebdanielsson",
         "type": "User"
       }
     }
@@ -75456,6 +75470,58 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "6671": {
+      "number": 6671,
+      "updatedAt": "2026-11-24T00:23:36Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "6673": {
+      "number": 6673,
+      "updatedAt": "2026-11-24T17:19:37Z",
+      "merged": false,
+      "author": {
+        "login": "sebdanielsson",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

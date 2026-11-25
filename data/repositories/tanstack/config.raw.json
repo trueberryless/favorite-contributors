@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-22T18:19:11.510Z",
+    "lastRunAt": "2026-11-25T00:02:31.123Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMi0zMVQxMDowMDozNVrOYvrnQg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3037,6 +3037,13 @@
     },
     "435": {
       "number": 435,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "436": {
+      "number": 436,
       "user": {
         "login": "tannerlinsley",
         "type": "User"
@@ -10966,7 +10973,7 @@
     },
     "424": {
       "number": 424,
-      "updatedAt": "2026-11-22T15:00:52Z",
+      "updatedAt": "2026-11-24T23:58:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -11217,6 +11224,32 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "436": {
+      "number": 436,
+      "updatedAt": "2026-11-24T00:23:33Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-22T18:19:08.268Z",
+    "lastRunAt": "2026-11-25T00:02:28.133Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15772,6 +15772,27 @@
       "number": 2487,
       "user": {
         "login": "victuribdev",
+        "type": "User"
+      }
+    },
+    "2488": {
+      "number": 2488,
+      "user": {
+        "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "2489": {
+      "number": 2489,
+      "user": {
+        "login": "LeCarbonator",
+        "type": "User"
+      }
+    },
+    "2490": {
+      "number": 2490,
+      "user": {
+        "login": "harry-whorlow",
         "type": "User"
       }
     }
@@ -39933,7 +39954,7 @@
     },
     "2102": {
       "number": 2102,
-      "updatedAt": "2026-08-05T16:54:55Z",
+      "updatedAt": "2026-11-23T06:53:48Z",
       "merged": false,
       "author": {
         "login": "harry-whorlow",
@@ -41018,7 +41039,7 @@
     },
     "2156": {
       "number": 2156,
-      "updatedAt": "2026-11-19T14:03:56Z",
+      "updatedAt": "2026-11-24T23:01:58Z",
       "merged": false,
       "author": {
         "login": "NullVoxPopuli-ai-agent",
@@ -47349,7 +47370,7 @@
     },
     "2473": {
       "number": 2473,
-      "updatedAt": "2026-11-12T13:19:40Z",
+      "updatedAt": "2026-11-24T21:16:51Z",
       "merged": false,
       "author": {
         "login": "harry-whorlow",
@@ -47486,7 +47507,7 @@
     },
     "2478": {
       "number": 2478,
-      "updatedAt": "2026-11-12T13:32:30Z",
+      "updatedAt": "2026-11-24T19:44:59Z",
       "merged": false,
       "author": {
         "login": "harry-whorlow",
@@ -47500,6 +47521,20 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -47693,6 +47728,91 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2488": {
+      "number": 2488,
+      "updatedAt": "2026-11-24T00:23:32Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2489": {
+      "number": 2489,
+      "updatedAt": "2026-11-24T13:34:24Z",
+      "merged": false,
+      "author": {
+        "login": "LeCarbonator",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2490": {
+      "number": 2490,
+      "updatedAt": "2026-11-24T21:08:31Z",
+      "merged": true,
+      "author": {
+        "login": "harry-whorlow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
