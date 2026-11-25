@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:10:49.238Z",
+    "lastRunAt": "2026-11-25T08:20:50.625Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0xMS0wM1QxNDoxMTo0NFrODZb0Pw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1990,7 +1990,7 @@
     },
     "43": {
       "number": 43,
-      "updatedAt": "2026-05-02T00:43:39Z",
+      "updatedAt": "2026-11-24T06:09:03Z",
       "merged": false,
       "author": {
         "login": "akauppi",
@@ -2003,7 +2003,15 @@
         "totalCount": 7
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "diazgarciarolando887-a11y",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "44": {

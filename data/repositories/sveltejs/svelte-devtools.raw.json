@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:10:51.962Z",
+    "lastRunAt": "2026-11-25T08:20:53.151Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wOS0zMFQwMjozMzo1NFrOEzl7IQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1841,6 +1841,20 @@
       "number": 246,
       "user": {
         "login": "router0mail",
+        "type": "User"
+      }
+    },
+    "247": {
+      "number": 247,
+      "user": {
+        "login": "oddcelot",
+        "type": "User"
+      }
+    },
+    "248": {
+      "number": 248,
+      "user": {
+        "login": "benmccann",
         "type": "User"
       }
     }
@@ -4878,7 +4892,7 @@
     },
     "239": {
       "number": 239,
-      "updatedAt": "2025-01-22T06:43:31Z",
+      "updatedAt": "2026-11-24T16:45:37Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -4939,6 +4953,32 @@
             "state": "COMMENTED",
             "author": {
               "login": "Kolby11",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "248": {
+      "number": 248,
+      "updatedAt": "2026-11-24T16:45:28Z",
+      "merged": true,
+      "author": {
+        "login": "benmccann",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
               "__typename": "User"
             }
           }

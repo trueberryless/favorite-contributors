@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:10:56.954Z",
+    "lastRunAt": "2026-11-25T08:21:01.353Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17023,6 +17023,72 @@
       "user": {
         "login": "fortserious",
         "type": "User"
+      }
+    },
+    "2382": {
+      "number": 2382,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2383": {
+      "number": 2383,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2384": {
+      "number": 2384,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2385": {
+      "number": 2385,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "2386": {
+      "number": 2386,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2387": {
+      "number": 2387,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2388": {
+      "number": 2388,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2389": {
+      "number": 2389,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2390": {
+      "number": 2390,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -50011,7 +50077,7 @@
     },
     "1877": {
       "number": 1877,
-      "updatedAt": "2026-09-15T21:44:31Z",
+      "updatedAt": "2026-11-24T00:21:19Z",
       "merged": false,
       "author": {
         "login": "aymericzip",
@@ -60078,8 +60144,8 @@
     },
     "2292": {
       "number": 2292,
-      "updatedAt": "2026-11-20T11:59:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T07:09:27Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -60094,6 +60160,13 @@
         "nodes": [
           {
             "state": "DISMISSED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "teemingc",
               "__typename": "User"
@@ -61195,7 +61268,7 @@
     },
     "2342": {
       "number": 2342,
-      "updatedAt": "2026-11-21T01:34:00Z",
+      "updatedAt": "2026-11-23T16:37:42Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -61868,7 +61941,7 @@
     },
     "2374": {
       "number": 2374,
-      "updatedAt": "2026-11-20T01:08:46Z",
+      "updatedAt": "2026-11-24T00:19:19Z",
       "merged": false,
       "author": {
         "login": "flipcyde101",
@@ -61955,7 +62028,7 @@
     },
     "2378": {
       "number": 2378,
-      "updatedAt": "2026-11-20T23:43:33Z",
+      "updatedAt": "2026-11-24T00:22:43Z",
       "merged": false,
       "author": {
         "login": "teemingc",
@@ -61991,7 +62064,33 @@
     },
     "2380": {
       "number": 2380,
-      "updatedAt": "2026-11-22T20:42:51Z",
+      "updatedAt": "2026-11-23T12:57:33Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2382": {
+      "number": 2382,
+      "updatedAt": "2026-11-25T03:29:48Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -62004,7 +62103,199 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2383": {
+      "number": 2383,
+      "updatedAt": "2026-11-23T15:24:52Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2384": {
+      "number": 2384,
+      "updatedAt": "2026-11-24T00:18:48Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2385": {
+      "number": 2385,
+      "updatedAt": "2026-11-24T16:16:31Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2386": {
+      "number": 2386,
+      "updatedAt": "2026-11-24T17:18:04Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "2387": {
+      "number": 2387,
+      "updatedAt": "2026-11-24T18:07:18Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2388": {
+      "number": 2388,
+      "updatedAt": "2026-11-24T18:00:45Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2389": {
+      "number": 2389,
+      "updatedAt": "2026-11-24T18:04:12Z",
+      "merged": false,
+      "author": {
+        "login": "teemingc",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2390": {
+      "number": 2390,
+      "updatedAt": "2026-11-25T02:54:07Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

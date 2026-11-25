@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-22T23:46:56.085Z",
+    "lastRunAt": "2026-11-25T08:18:18.623Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0wM1QxMjowOToxOFrOGJYZEQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -27586,6 +27586,13 @@
       "user": {
         "login": "danielroe",
         "type": "User"
+      }
+    },
+    "3929": {
+      "number": 3929,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -69749,7 +69756,7 @@
     },
     "3731": {
       "number": 3731,
-      "updatedAt": "2026-02-23T18:10:44Z",
+      "updatedAt": "2026-11-23T21:02:20Z",
       "merged": false,
       "author": {
         "login": "larbish",
@@ -72293,7 +72300,7 @@
     },
     "3863": {
       "number": 3863,
-      "updatedAt": "2026-11-22T21:38:18Z",
+      "updatedAt": "2026-11-25T04:16:44Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -72815,7 +72822,7 @@
     },
     "3888": {
       "number": 3888,
-      "updatedAt": "2026-11-20T20:11:15Z",
+      "updatedAt": "2026-11-24T23:57:34Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -73792,11 +73799,37 @@
     },
     "3928": {
       "number": 3928,
-      "updatedAt": "2026-11-22T22:40:33Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T23:53:42Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "farnabaz",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3929": {
+      "number": 3929,
+      "updatedAt": "2026-11-25T04:17:52Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

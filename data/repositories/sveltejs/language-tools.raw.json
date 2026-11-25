@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:10:53.345Z",
+    "lastRunAt": "2026-11-25T08:20:54.512Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMy0xNVQyMjowMzo1OFrOFyz7vQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -56690,8 +56690,8 @@
     },
     "3143": {
       "number": 3143,
-      "updatedAt": "2026-11-06T13:03:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T00:42:38Z",
+      "merged": true,
       "author": {
         "login": "AdamAugustinsky",
         "__typename": "User"
@@ -56722,6 +56722,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "xyrolle",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jasonlyu123",
               "__typename": "User"
             }
           }
@@ -57143,7 +57150,7 @@
     },
     "3181": {
       "number": 3181,
-      "updatedAt": "2026-11-16T00:53:47Z",
+      "updatedAt": "2026-11-24T00:45:58Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -57249,7 +57256,7 @@
     },
     "3188": {
       "number": 3188,
-      "updatedAt": "2026-11-08T13:51:31Z",
+      "updatedAt": "2026-11-24T17:00:59Z",
       "merged": false,
       "author": {
         "login": "sacrosanctic",
@@ -57262,7 +57269,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dummdidumm",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3192": {
@@ -57401,8 +57423,8 @@
     },
     "3204": {
       "number": 3204,
-      "updatedAt": "2026-11-19T04:59:06Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T00:45:22Z",
+      "merged": true,
       "author": {
         "login": "jasonlyu123",
         "__typename": "User"

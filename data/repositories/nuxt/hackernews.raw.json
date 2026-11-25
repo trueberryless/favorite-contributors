@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-22T23:46:51.762Z",
+    "lastRunAt": "2026-11-25T08:18:13.371Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wNi0wNVQxMzowOTozMlrOB2Owow==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3324,6 +3324,27 @@
     },
     "475": {
       "number": 475,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "476": {
+      "number": 476,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "477": {
+      "number": 477,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "478": {
+      "number": 478,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -13070,7 +13091,7 @@
     },
     "444": {
       "number": 444,
-      "updatedAt": "2026-11-09T15:47:26Z",
+      "updatedAt": "2026-11-23T14:42:16Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -13882,6 +13903,76 @@
             }
           }
         ]
+      }
+    },
+    "476": {
+      "number": 476,
+      "updatedAt": "2026-11-23T14:39:40Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "477": {
+      "number": 477,
+      "updatedAt": "2026-11-23T14:10:35Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "478": {
+      "number": 478,
+      "updatedAt": "2026-11-25T04:13:15Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:10:57.138Z",
+    "lastRunAt": "2026-11-25T08:21:01.886Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10988,6 +10988,48 @@
       "number": 1503,
       "user": {
         "login": "jycouet",
+        "type": "User"
+      }
+    },
+    "1504": {
+      "number": 1504,
+      "user": {
+        "login": "eknathdj",
+        "type": "User"
+      }
+    },
+    "1505": {
+      "number": 1505,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1506": {
+      "number": 1506,
+      "user": {
+        "login": "JReinhold",
+        "type": "User"
+      }
+    },
+    "1507": {
+      "number": 1507,
+      "user": {
+        "login": "JReinhold",
+        "type": "User"
+      }
+    },
+    "1508": {
+      "number": 1508,
+      "user": {
+        "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1509": {
+      "number": 1509,
+      "user": {
+        "login": "teemingc",
         "type": "User"
       }
     }
@@ -42203,8 +42245,8 @@
     },
     "1493": {
       "number": 1493,
-      "updatedAt": "2026-11-20T15:09:38Z",
-      "merged": false,
+      "updatedAt": "2026-11-23T17:40:13Z",
+      "merged": true,
       "author": {
         "login": "teemingc",
         "__typename": "User"
@@ -42221,6 +42263,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
               "__typename": "User"
             }
           }
@@ -42325,7 +42374,7 @@
     },
     "1502": {
       "number": 1502,
-      "updatedAt": "2026-11-23T05:48:32Z",
+      "updatedAt": "2026-11-24T16:58:42Z",
       "merged": false,
       "author": {
         "login": "baseballyama",
@@ -42345,13 +42394,27 @@
               "login": "jycouet",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "1503": {
       "number": 1503,
-      "updatedAt": "2026-11-22T22:44:38Z",
+      "updatedAt": "2026-11-24T18:07:09Z",
       "merged": false,
       "author": {
         "login": "jycouet",
@@ -42364,7 +42427,168 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jycouet",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1504": {
+      "number": 1504,
+      "updatedAt": "2026-11-23T18:16:55Z",
+      "merged": true,
+      "author": {
+        "login": "eknathdj",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1505": {
+      "number": 1505,
+      "updatedAt": "2026-11-24T17:15:35Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1507": {
+      "number": 1507,
+      "updatedAt": "2026-11-24T16:41:01Z",
+      "merged": true,
+      "author": {
+        "login": "JReinhold",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1508": {
+      "number": 1508,
+      "updatedAt": "2026-11-25T08:16:12Z",
+      "merged": false,
+      "author": {
+        "login": "sacrosanctic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

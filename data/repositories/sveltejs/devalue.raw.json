@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:10:47.222Z",
+    "lastRunAt": "2026-11-25T08:20:47.945Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOC0wMy0xMFQyMzo0NjoyN1rOCmH-jw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1751,6 +1751,41 @@
       "number": 236,
       "user": {
         "login": "MFA-G",
+        "type": "User"
+      }
+    },
+    "237": {
+      "number": 237,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "238": {
+      "number": 238,
+      "user": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "type": "User"
+      }
+    },
+    "239": {
+      "number": 239,
+      "user": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "type": "User"
+      }
+    },
+    "241": {
+      "number": 241,
+      "user": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "type": "User"
+      }
+    },
+    "243": {
+      "number": 243,
+      "user": {
+        "login": "Jaense",
         "type": "User"
       }
     }
@@ -5752,8 +5787,8 @@
     },
     "232": {
       "number": 232,
-      "updatedAt": "2026-11-08T16:37:03Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T02:11:54Z",
+      "merged": true,
       "author": {
         "login": "RClaudiuM",
         "__typename": "User"
@@ -5765,7 +5800,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "233": {
@@ -5822,6 +5865,108 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "237": {
+      "number": 237,
+      "updatedAt": "2026-11-24T02:17:42Z",
+      "merged": true,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "238": {
+      "number": 238,
+      "updatedAt": "2026-11-24T23:07:03Z",
+      "merged": false,
+      "author": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "239": {
+      "number": 239,
+      "updatedAt": "2026-11-24T23:07:45Z",
+      "merged": false,
+      "author": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "241": {
+      "number": 241,
+      "updatedAt": "2026-11-24T23:07:52Z",
+      "merged": false,
+      "author": {
+        "login": "elliott-with-the-longest-name-on-github",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

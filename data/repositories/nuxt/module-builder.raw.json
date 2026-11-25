@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-22T23:46:59.897Z",
+    "lastRunAt": "2026-11-25T08:18:23.291Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QxMDo0MjowMlrOL1qvRA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -6258,6 +6258,20 @@
       "number": 862,
       "user": {
         "login": "danielroe",
+        "type": "User"
+      }
+    },
+    "863": {
+      "number": 863,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "864": {
+      "number": 864,
+      "user": {
+        "login": "harlan-zw",
         "type": "User"
       }
     }
@@ -22063,7 +22077,7 @@
     },
     "814": {
       "number": 814,
-      "updatedAt": "2026-11-22T21:41:31Z",
+      "updatedAt": "2026-11-23T10:08:34Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -23270,8 +23284,8 @@
     },
     "862": {
       "number": 862,
-      "updatedAt": "2026-11-22T23:25:26Z",
-      "merged": false,
+      "updatedAt": "2026-11-23T10:07:29Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -23284,6 +23298,71 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "github-advanced-security",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "863": {
+      "number": 863,
+      "updatedAt": "2026-11-25T04:11:45Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "864": {
+      "number": 864,
+      "updatedAt": "2026-11-25T05:43:49Z",
+      "merged": false,
+      "author": {
+        "login": "harlan-zw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
