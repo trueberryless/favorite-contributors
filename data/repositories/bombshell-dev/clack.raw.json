@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T18:39:34.622Z",
+    "lastRunAt": "2026-11-25T18:50:05.728Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5044,6 +5044,13 @@
       "number": 646,
       "user": {
         "login": "vazome",
+        "type": "User"
+      }
+    },
+    "647": {
+      "number": 647,
+      "user": {
+        "login": "43081j",
         "type": "User"
       }
     }
@@ -17509,7 +17516,7 @@
     },
     "639": {
       "number": 639,
-      "updatedAt": "2026-11-11T10:18:31Z",
+      "updatedAt": "2026-11-25T10:21:48Z",
       "merged": false,
       "author": {
         "login": "bombshell-bot",
@@ -17527,8 +17534,8 @@
     },
     "641": {
       "number": 641,
-      "updatedAt": "2026-11-17T04:32:16Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T12:07:52Z",
+      "merged": true,
       "author": {
         "login": "kuldeepsinh19",
         "__typename": "User"
@@ -17540,13 +17547,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "643": {
       "number": 643,
-      "updatedAt": "2026-11-18T16:12:03Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T11:46:55Z",
+      "merged": true,
       "author": {
         "login": "IG-ABHINAV",
         "__typename": "User"
@@ -17558,13 +17573,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "644": {
       "number": 644,
-      "updatedAt": "2026-11-18T19:42:06Z",
-      "merged": false,
+      "updatedAt": "2026-11-25T10:19:55Z",
+      "merged": true,
       "author": {
         "login": "trueberryless",
         "__typename": "User"
@@ -17576,13 +17599,28 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "645": {
       "number": 645,
-      "updatedAt": "2026-11-21T10:20:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T11:30:30Z",
+      "merged": true,
       "author": {
         "login": "utsxvrai",
         "__typename": "User"
@@ -17594,12 +17632,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "43081j",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "646": {
       "number": 646,
-      "updatedAt": "2026-11-22T16:20:25Z",
+      "updatedAt": "2026-11-25T09:28:25Z",
       "merged": false,
       "author": {
         "login": "vazome",
@@ -17607,6 +17653,32 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "647": {
+      "number": 647,
+      "updatedAt": "2026-11-25T13:16:25Z",
+      "merged": false,
+      "author": {
+        "login": "43081j",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

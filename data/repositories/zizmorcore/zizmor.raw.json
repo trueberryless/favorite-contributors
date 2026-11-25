@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T18:38:51.726Z",
+    "lastRunAt": "2026-11-25T18:49:29.368Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18860,6 +18860,16 @@
       "number": 2583,
       "user": {
         "login": "dependabot[bot]",
+        "type": "Bot"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2584": {
+      "number": 2584,
+      "user": {
+        "login": "github-actions[bot]",
         "type": "Bot"
       },
       "reactions": {
@@ -59771,7 +59781,7 @@
     },
     "2574": {
       "number": 2574,
-      "updatedAt": "2026-11-22T18:16:24Z",
+      "updatedAt": "2026-11-25T18:05:01Z",
       "merged": false,
       "author": {
         "login": "woodruffw",
@@ -59784,12 +59794,34 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2575": {
       "number": 2575,
-      "updatedAt": "2026-11-22T18:49:31Z",
+      "updatedAt": "2026-11-25T18:05:01Z",
       "merged": false,
       "author": {
         "login": "woodruffw",
@@ -59807,7 +59839,7 @@
     },
     "2576": {
       "number": 2576,
-      "updatedAt": "2026-11-22T19:33:48Z",
+      "updatedAt": "2026-11-25T18:05:01Z",
       "merged": false,
       "author": {
         "login": "woodruffw",
@@ -59820,7 +59852,22 @@
         "totalCount": 1
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2579": {
@@ -59861,8 +59908,8 @@
     },
     "2581": {
       "number": 2581,
-      "updatedAt": "2026-11-23T13:35:20Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T04:03:59Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
         "__typename": "Bot"
@@ -59926,10 +59973,28 @@
     },
     "2583": {
       "number": 2583,
-      "updatedAt": "2026-11-23T13:37:04Z",
-      "merged": false,
+      "updatedAt": "2026-11-24T04:03:29Z",
+      "merged": true,
       "author": {
         "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2584": {
+      "number": 2584,
+      "updatedAt": "2026-11-24T04:03:11Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {

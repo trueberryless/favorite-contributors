@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:13:22.958Z",
+    "lastRunAt": "2026-11-25T18:48:47.947Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xN1QwNjo1ODoyNVrOLizwBQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8581,6 +8581,13 @@
     },
     "1192": {
       "number": 1192,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "1193": {
+      "number": 1193,
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
@@ -29292,7 +29299,7 @@
     },
     "1076": {
       "number": 1076,
-      "updatedAt": "2026-11-19T08:43:52Z",
+      "updatedAt": "2026-11-25T10:14:34Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -31985,8 +31992,8 @@
     },
     "1189": {
       "number": 1189,
-      "updatedAt": "2026-11-19T15:11:38Z",
-      "merged": false,
+      "updatedAt": "2026-11-25T10:14:39Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -32003,6 +32010,13 @@
             "state": "APPROVED",
             "author": {
               "login": "quriosapien",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
               "__typename": "User"
             }
           }
@@ -32047,7 +32061,33 @@
     },
     "1192": {
       "number": 1192,
-      "updatedAt": "2026-11-23T03:59:59Z",
+      "updatedAt": "2026-11-25T10:06:14Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "haoqunjiang",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1193": {
+      "number": 1193,
+      "updatedAt": "2026-11-25T10:14:23Z",
       "merged": false,
       "author": {
         "login": "renovate",

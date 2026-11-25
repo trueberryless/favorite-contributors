@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:11:35.702Z",
+    "lastRunAt": "2026-11-25T18:46:55.329Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wOC0yMVQwOTo1NjoyM1rOHBrajQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8133,6 +8133,13 @@
       "number": 1178,
       "user": {
         "login": "dvinerlove",
+        "type": "User"
+      }
+    },
+    "1179": {
+      "number": 1179,
+      "user": {
+        "login": "1homsi",
         "type": "User"
       }
     }
@@ -36073,10 +36080,28 @@
     },
     "1178": {
       "number": 1178,
-      "updatedAt": "2026-11-22T09:16:25Z",
+      "updatedAt": "2026-11-25T01:32:26Z",
       "merged": false,
       "author": {
         "login": "dvinerlove",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1179": {
+      "number": 1179,
+      "updatedAt": "2026-11-25T08:02:19Z",
+      "merged": false,
+      "author": {
+        "login": "1homsi",
         "__typename": "User"
       },
       "closingIssuesReferences": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T18:38:51.726Z",
+    "lastRunAt": "2026-11-25T18:49:29.368Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNS0xOFQxNDo1MDoyMFrOlphYXg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1577,6 +1577,16 @@
     },
     "203": {
       "number": 203,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "204": {
+      "number": 204,
       "user": {
         "login": "woodruffw",
         "type": "User"
@@ -4933,6 +4943,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "204": {
+      "number": 204,
+      "updatedAt": "2026-11-24T04:51:10Z",
+      "merged": false,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
       },
       "reactions": {
         "totalCount": 1

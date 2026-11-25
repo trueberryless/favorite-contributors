@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:13:20.698Z",
+    "lastRunAt": "2026-11-25T18:48:45.332Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0xMC0wM1QwMTo0NzozN1rOHaKaIA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -41823,7 +41823,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 127
+        "total_count": 146
       }
     },
     "6171": {
@@ -43286,6 +43286,48 @@
       "number": 6372,
       "user": {
         "login": "akzarma",
+        "type": "User"
+      }
+    },
+    "6373": {
+      "number": 6373,
+      "user": {
+        "login": "DmytroMysak",
+        "type": "User"
+      }
+    },
+    "6374": {
+      "number": 6374,
+      "user": {
+        "login": "ondrhn",
+        "type": "User"
+      }
+    },
+    "6375": {
+      "number": 6375,
+      "user": {
+        "login": "tandler5",
+        "type": "User"
+      }
+    },
+    "6376": {
+      "number": 6376,
+      "user": {
+        "login": "lazerg",
+        "type": "User"
+      }
+    },
+    "6377": {
+      "number": 6377,
+      "user": {
+        "login": "Q16solver",
+        "type": "User"
+      }
+    },
+    "6378": {
+      "number": 6378,
+      "user": {
+        "login": "kvpt",
         "type": "User"
       }
     }
@@ -68047,7 +68089,7 @@
     },
     "6170": {
       "number": 6170,
-      "updatedAt": "2026-11-15T19:59:34Z",
+      "updatedAt": "2026-11-24T08:18:16Z",
       "merged": false,
       "author": {
         "login": "johnsoncodehk",
@@ -68057,10 +68099,18 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 127
+        "totalCount": 146
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "auvred",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "6172": {
@@ -70141,7 +70191,7 @@
     },
     "6317": {
       "number": 6317,
-      "updatedAt": "2026-11-20T16:16:56Z",
+      "updatedAt": "2026-11-25T13:51:09Z",
       "merged": false,
       "author": {
         "login": "TheAlexLichter",
@@ -70167,6 +70217,48 @@
             "author": {
               "login": "serkodev",
               "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "serkodev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "TheAlexLichter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "TheAlexLichter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "TheAlexLichter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
             }
           }
         ]
@@ -70584,7 +70676,7 @@
     },
     "6358": {
       "number": 6358,
-      "updatedAt": "2026-11-13T05:15:08Z",
+      "updatedAt": "2026-11-23T11:02:41Z",
       "merged": false,
       "author": {
         "login": "bardrop",
@@ -70602,7 +70694,7 @@
     },
     "6359": {
       "number": 6359,
-      "updatedAt": "2026-11-13T06:40:15Z",
+      "updatedAt": "2026-11-23T12:53:50Z",
       "merged": false,
       "author": {
         "login": "bardrop",
@@ -70743,6 +70835,42 @@
       "merged": false,
       "author": {
         "login": "akzarma",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6374": {
+      "number": 6374,
+      "updatedAt": "2026-11-23T15:06:09Z",
+      "merged": false,
+      "author": {
+        "login": "ondrhn",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6376": {
+      "number": 6376,
+      "updatedAt": "2026-11-24T02:37:23Z",
+      "merged": false,
+      "author": {
+        "login": "lazerg",
         "__typename": "User"
       },
       "closingIssuesReferences": {

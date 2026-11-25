@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:13:19.721Z",
+    "lastRunAt": "2026-11-25T18:48:44.716Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMi0yNFQxMzoyMjoxMVrOFpKUmw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -21031,6 +21031,55 @@
       "number": 3047,
       "user": {
         "login": "CharoenwitKunna",
+        "type": "User"
+      }
+    },
+    "3048": {
+      "number": 3048,
+      "user": {
+        "login": "SuperDJ",
+        "type": "User"
+      }
+    },
+    "3049": {
+      "number": 3049,
+      "user": {
+        "login": "mspiess",
+        "type": "User"
+      }
+    },
+    "3050": {
+      "number": 3050,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "3051": {
+      "number": 3051,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "3052": {
+      "number": 3052,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "3053": {
+      "number": 3053,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "3054": {
+      "number": 3054,
+      "user": {
+        "login": "masedri",
         "type": "User"
       }
     }
@@ -71774,7 +71823,7 @@
     },
     "3039": {
       "number": 3039,
-      "updatedAt": "2026-11-22T14:46:29Z",
+      "updatedAt": "2026-11-25T06:49:21Z",
       "merged": false,
       "author": {
         "login": "SuperDJ",
@@ -71885,8 +71934,8 @@
     },
     "3043": {
       "number": 3043,
-      "updatedAt": "2026-11-19T08:10:10Z",
-      "merged": false,
+      "updatedAt": "2026-11-25T05:54:46Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -71903,8 +71952,8 @@
     },
     "3044": {
       "number": 3044,
-      "updatedAt": "2026-11-19T09:39:49Z",
-      "merged": false,
+      "updatedAt": "2026-11-25T05:59:55Z",
+      "merged": true,
       "author": {
         "login": "ValentinYoushkevich",
         "__typename": "User"
@@ -71916,7 +71965,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3045": {
@@ -71957,11 +72014,140 @@
     },
     "3047": {
       "number": 3047,
-      "updatedAt": "2026-11-21T07:47:35Z",
-      "merged": false,
+      "updatedAt": "2026-11-25T06:26:31Z",
+      "merged": true,
       "author": {
         "login": "CharoenwitKunna",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3048": {
+      "number": 3048,
+      "updatedAt": "2026-11-25T12:26:27Z",
+      "merged": true,
+      "author": {
+        "login": "SuperDJ",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "cexbrayat",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3050": {
+      "number": 3050,
+      "updatedAt": "2026-11-25T06:49:54Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3051": {
+      "number": 3051,
+      "updatedAt": "2026-11-25T13:38:58Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3052": {
+      "number": 3052,
+      "updatedAt": "2026-11-25T14:36:21Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "danielroe",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3053": {
+      "number": 3053,
+      "updatedAt": "2026-11-25T14:38:13Z",
+      "merged": false,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

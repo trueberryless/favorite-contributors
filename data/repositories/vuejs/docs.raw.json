@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:13:18.500Z",
+    "lastRunAt": "2026-11-25T18:48:43.407Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wMS0zMVQwNDo0OTo1N1rOFfl_PQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -24272,6 +24272,34 @@
       "number": 3501,
       "user": {
         "login": "AloisSeckar",
+        "type": "User"
+      }
+    },
+    "3502": {
+      "number": 3502,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "3503": {
+      "number": 3503,
+      "user": {
+        "login": "su9nb",
+        "type": "User"
+      }
+    },
+    "3504": {
+      "number": 3504,
+      "user": {
+        "login": "su9nb",
+        "type": "User"
+      }
+    },
+    "3505": {
+      "number": 3505,
+      "user": {
+        "login": "ruyadorno",
         "type": "User"
       }
     }
@@ -87035,6 +87063,68 @@
       "merged": false,
       "author": {
         "login": "AloisSeckar",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3502": {
+      "number": 3502,
+      "updatedAt": "2026-11-23T19:23:21Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3503": {
+      "number": 3503,
+      "updatedAt": "2026-11-24T12:52:16Z",
+      "merged": false,
+      "author": {
+        "login": "su9nb",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "su9nb",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3505": {
+      "number": 3505,
+      "updatedAt": "2026-11-25T00:37:43Z",
+      "merged": false,
+      "author": {
+        "login": "ruyadorno",
         "__typename": "User"
       },
       "closingIssuesReferences": {

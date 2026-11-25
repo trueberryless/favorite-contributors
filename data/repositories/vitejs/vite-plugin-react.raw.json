@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:11:38.592Z",
+    "lastRunAt": "2026-11-25T18:46:59.142Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wMlQxMjo1MjozM1rORCLjPw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -10853,6 +10853,20 @@
       "number": 1581,
       "user": {
         "login": "switz",
+        "type": "User"
+      }
+    },
+    "1582": {
+      "number": 1582,
+      "user": {
+        "login": "NeilPant",
+        "type": "User"
+      }
+    },
+    "1583": {
+      "number": 1583,
+      "user": {
+        "login": "draarivpatel-ui",
         "type": "User"
       }
     }
@@ -33706,7 +33720,7 @@
     },
     "1447": {
       "number": 1447,
-      "updatedAt": "2026-11-21T03:52:20Z",
+      "updatedAt": "2026-11-23T19:44:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35170,7 +35184,7 @@
     },
     "1537": {
       "number": 1537,
-      "updatedAt": "2026-11-20T23:46:44Z",
+      "updatedAt": "2026-11-25T09:11:07Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35420,7 +35434,7 @@
     },
     "1556": {
       "number": 1556,
-      "updatedAt": "2026-11-22T23:09:47Z",
+      "updatedAt": "2026-11-25T09:10:39Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35746,6 +35760,50 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "1582": {
+      "number": 1582,
+      "updatedAt": "2026-11-25T03:18:36Z",
+      "merged": false,
+      "author": {
+        "login": "NeilPant",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1583": {
+      "number": 1583,
+      "updatedAt": "2026-11-25T16:22:37Z",
+      "merged": false,
+      "author": {
+        "login": "draarivpatel-ui",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

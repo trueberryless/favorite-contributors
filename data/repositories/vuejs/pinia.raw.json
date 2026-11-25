@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:13:17.741Z",
+    "lastRunAt": "2026-11-25T18:48:43.189Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -14124,6 +14124,27 @@
     },
     "3225": {
       "number": 3225,
+      "user": {
+        "login": "abdul-karim-mia",
+        "type": "User"
+      }
+    },
+    "3226": {
+      "number": 3226,
+      "user": {
+        "login": "abdul-karim-mia",
+        "type": "User"
+      }
+    },
+    "3227": {
+      "number": 3227,
+      "user": {
+        "login": "boyfeiyu",
+        "type": "User"
+      }
+    },
+    "3228": {
+      "number": 3228,
       "user": {
         "login": "abdul-karim-mia",
         "type": "User"
@@ -39795,7 +39816,7 @@
     },
     "3218": {
       "number": 3218,
-      "updatedAt": "2026-11-16T05:38:36Z",
+      "updatedAt": "2026-11-25T12:27:28Z",
       "merged": false,
       "author": {
         "login": "ragib-mrb",
@@ -39908,8 +39929,8 @@
     },
     "3223": {
       "number": 3223,
-      "updatedAt": "2026-11-22T13:30:11Z",
-      "merged": false,
+      "updatedAt": "2026-11-23T09:09:21Z",
+      "merged": true,
       "author": {
         "login": "sarankumar1325",
         "__typename": "User"
@@ -39921,13 +39942,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "3224": {
       "number": 3224,
-      "updatedAt": "2026-11-22T20:12:12Z",
-      "merged": false,
+      "updatedAt": "2026-11-23T08:55:02Z",
+      "merged": true,
       "author": {
         "login": "abdul-karim-mia",
         "__typename": "User"
@@ -39960,13 +39989,90 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
           }
         ]
       }
     },
     "3225": {
       "number": 3225,
-      "updatedAt": "2026-11-22T16:05:55Z",
+      "updatedAt": "2026-11-24T14:31:12Z",
+      "merged": true,
+      "author": {
+        "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3226": {
+      "number": 3226,
+      "updatedAt": "2026-11-25T11:16:53Z",
+      "merged": true,
+      "author": {
+        "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "3227": {
+      "number": 3227,
+      "updatedAt": "2026-11-25T10:34:04Z",
+      "merged": false,
+      "author": {
+        "login": "boyfeiyu",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "3228": {
+      "number": 3228,
+      "updatedAt": "2026-11-25T09:04:56Z",
       "merged": false,
       "author": {
         "login": "abdul-karim-mia",

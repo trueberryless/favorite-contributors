@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T06:11:39.313Z",
+    "lastRunAt": "2026-11-25T18:46:59.337Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wM1QxMDowNjoxNlrORDHjHw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5811,6 +5811,9 @@
       "user": {
         "login": "danielroe",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "881": {
@@ -5827,6 +5830,13 @@
       "number": 882,
       "user": {
         "login": "hannoeru",
+        "type": "User"
+      }
+    },
+    "883": {
+      "number": 883,
+      "user": {
+        "login": "draarivpatel-ui",
         "type": "User"
       }
     }
@@ -15339,7 +15349,7 @@
     },
     "826": {
       "number": 826,
-      "updatedAt": "2026-11-22T21:43:18Z",
+      "updatedAt": "2026-11-25T18:42:48Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15357,7 +15367,7 @@
     },
     "827": {
       "number": 827,
-      "updatedAt": "2026-11-17T00:02:09Z",
+      "updatedAt": "2026-11-25T18:44:08Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15427,7 +15437,7 @@
     },
     "831": {
       "number": 831,
-      "updatedAt": "2026-11-17T00:02:45Z",
+      "updatedAt": "2026-11-25T18:44:36Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15445,7 +15455,7 @@
     },
     "832": {
       "number": 832,
-      "updatedAt": "2026-11-21T00:11:14Z",
+      "updatedAt": "2026-11-25T18:45:59Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15463,7 +15473,7 @@
     },
     "833": {
       "number": 833,
-      "updatedAt": "2026-11-21T00:12:01Z",
+      "updatedAt": "2026-11-25T18:46:40Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15587,7 +15597,7 @@
     },
     "840": {
       "number": 840,
-      "updatedAt": "2026-11-21T04:22:49Z",
+      "updatedAt": "2026-11-25T18:45:27Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15737,7 +15747,7 @@
     },
     "848": {
       "number": 848,
-      "updatedAt": "2026-11-21T00:10:15Z",
+      "updatedAt": "2026-11-25T18:45:02Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -15961,7 +15971,7 @@
     },
     "861": {
       "number": 861,
-      "updatedAt": "2026-11-21T00:06:29Z",
+      "updatedAt": "2026-11-25T18:42:36Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -16123,7 +16133,7 @@
     },
     "874": {
       "number": 874,
-      "updatedAt": "2026-11-17T00:01:48Z",
+      "updatedAt": "2026-11-25T18:43:45Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -16195,7 +16205,7 @@
     },
     "879": {
       "number": 879,
-      "updatedAt": "2026-11-21T00:07:11Z",
+      "updatedAt": "2026-11-24T23:46:52Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -16213,8 +16223,8 @@
     },
     "880": {
       "number": 880,
-      "updatedAt": "2026-11-15T15:47:34Z",
-      "merged": false,
+      "updatedAt": "2026-11-25T05:09:34Z",
+      "merged": true,
       "author": {
         "login": "danielroe",
         "__typename": "User"
@@ -16223,7 +16233,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "reviews": {
         "nodes": []
@@ -16235,6 +16245,32 @@
       "merged": false,
       "author": {
         "login": "hannoeru",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "883": {
+      "number": 883,
+      "updatedAt": "2026-11-25T16:22:35Z",
+      "merged": false,
+      "author": {
+        "login": "draarivpatel-ui",
         "__typename": "User"
       },
       "closingIssuesReferences": {
