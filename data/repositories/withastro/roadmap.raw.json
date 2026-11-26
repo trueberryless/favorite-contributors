@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T18:41:41.940Z",
+    "lastRunAt": "2026-11-26T02:05:42.522Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wMVQyMTo0ODoxMFrOLykBIw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -1581,6 +1581,23 @@
       },
       "reactions": {
         "total_count": 5
+      }
+    },
+    "1474": {
+      "number": 1474,
+      "user": {
+        "login": "ascorbic",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1475": {
+      "number": 1475,
+      "user": {
+        "login": "jmurty",
+        "type": "User"
       }
     }
   },
@@ -9763,7 +9780,7 @@
     },
     "1438": {
       "number": 1438,
-      "updatedAt": "2026-11-23T16:07:34Z",
+      "updatedAt": "2026-11-25T14:57:51Z",
       "merged": false,
       "author": {
         "login": "florian-lefebvre",
@@ -9816,6 +9833,27 @@
             "state": "COMMENTED",
             "author": {
               "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "delucis",
               "__typename": "User"
             }
           }
@@ -10198,6 +10236,32 @@
               "__typename": "User"
             }
           },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "florian-lefebvre",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1474": {
+      "number": 1474,
+      "updatedAt": "2026-11-25T13:44:08Z",
+      "merged": false,
+      "author": {
+        "login": "ascorbic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
           {
             "state": "COMMENTED",
             "author": {

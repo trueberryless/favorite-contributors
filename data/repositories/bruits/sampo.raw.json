@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T18:42:23.988Z",
+    "lastRunAt": "2026-11-26T02:06:21.514Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0wMlQyMDo1NDozOVrOpl321A==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2335,6 +2335,13 @@
       "number": 384,
       "user": {
         "login": "jrandolf",
+        "type": "User"
+      }
+    },
+    "385": {
+      "number": 385,
+      "user": {
+        "login": "goulvenclech",
         "type": "User"
       }
     }
@@ -8434,7 +8441,7 @@
     },
     "383": {
       "number": 383,
-      "updatedAt": "2026-11-18T19:03:55Z",
+      "updatedAt": "2026-11-25T21:14:57Z",
       "merged": false,
       "author": {
         "login": "jrandolf",
@@ -8468,6 +8475,32 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sampo-s-bot",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "385": {
+      "number": 385,
+      "updatedAt": "2026-11-23T23:26:03Z",
+      "merged": false,
+      "author": {
+        "login": "goulvenclech",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0

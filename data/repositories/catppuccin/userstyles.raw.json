@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-23T18:40:51.159Z",
+    "lastRunAt": "2026-11-26T02:04:55.533Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMy0xOFQyMzozNjowN1rOTGCltw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -12767,7 +12767,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 2
+        "total_count": 3
       }
     },
     "1831": {
@@ -69590,7 +69590,7 @@
     },
     "1830": {
       "number": 1830,
-      "updatedAt": "2026-10-31T09:22:21Z",
+      "updatedAt": "2026-11-24T01:11:13Z",
       "merged": false,
       "author": {
         "login": "NekoDrone",
@@ -69600,7 +69600,7 @@
         "totalCount": 0
       },
       "reactions": {
-        "totalCount": 2
+        "totalCount": 3
       },
       "reviews": {
         "nodes": [
@@ -69692,6 +69692,13 @@
             "state": "CHANGES_REQUESTED",
             "author": {
               "login": "WalkQuackBack",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "badwatt",
               "__typename": "User"
             }
           }
@@ -80444,7 +80451,7 @@
     },
     "2187": {
       "number": 2187,
-      "updatedAt": "2026-06-14T22:36:20Z",
+      "updatedAt": "2026-11-25T07:17:31Z",
       "merged": false,
       "author": {
         "login": "titandrive",
@@ -82058,7 +82065,7 @@
     },
     "2281": {
       "number": 2281,
-      "updatedAt": "2026-11-20T20:46:11Z",
+      "updatedAt": "2026-11-25T21:24:28Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -83024,7 +83031,7 @@
     },
     "2317": {
       "number": 2317,
-      "updatedAt": "2026-10-17T22:16:11Z",
+      "updatedAt": "2026-11-24T01:10:52Z",
       "merged": false,
       "author": {
         "login": "Roden69",
@@ -83037,7 +83044,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "badwatt",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2320": {
@@ -83661,7 +83676,7 @@
     },
     "2345": {
       "number": 2345,
-      "updatedAt": "2026-11-21T21:39:02Z",
+      "updatedAt": "2026-11-24T02:50:39Z",
       "merged": false,
       "author": {
         "login": "uncenter",
@@ -83679,6 +83694,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "isabelroses",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "WalkQuackBack",
               "__typename": "User"
             }
           }
@@ -84287,7 +84309,7 @@
     },
     "2375": {
       "number": 2375,
-      "updatedAt": "2026-11-22T07:53:28Z",
+      "updatedAt": "2026-11-24T00:49:29Z",
       "merged": false,
       "author": {
         "login": "FarizInk",
@@ -84319,6 +84341,13 @@
             "state": "COMMENTED",
             "author": {
               "login": "uncenter",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "badwatt",
               "__typename": "User"
             }
           }

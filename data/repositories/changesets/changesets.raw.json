@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-24T04:13:57.855Z",
+    "lastRunAt": "2026-11-26T02:07:36.536Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -16723,6 +16723,41 @@
       "number": 2399,
       "user": {
         "login": "Andarist",
+        "type": "User"
+      }
+    },
+    "2400": {
+      "number": 2400,
+      "user": {
+        "login": "ofri-peretz",
+        "type": "User"
+      }
+    },
+    "2401": {
+      "number": 2401,
+      "user": {
+        "login": "trackoor",
+        "type": "User"
+      }
+    },
+    "2402": {
+      "number": 2402,
+      "user": {
+        "login": "tpluscode",
+        "type": "User"
+      }
+    },
+    "2404": {
+      "number": 2404,
+      "user": {
+        "login": "tpluscode",
+        "type": "User"
+      }
+    },
+    "2405": {
+      "number": 2405,
+      "user": {
+        "login": "draarivpatel-ui",
         "type": "User"
       }
     }
@@ -56512,7 +56547,7 @@
     },
     "2183": {
       "number": 2183,
-      "updatedAt": "2026-11-23T15:19:57Z",
+      "updatedAt": "2026-11-25T10:48:26Z",
       "merged": false,
       "author": {
         "login": "Andarist",
@@ -56605,6 +56640,13 @@
           },
           {
             "state": "COMMENTED",
+            "author": {
+              "login": "beeequeue",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "beeequeue",
               "__typename": "User"
@@ -60495,7 +60537,7 @@
     },
     "2358": {
       "number": 2358,
-      "updatedAt": "2026-11-23T08:02:18Z",
+      "updatedAt": "2026-11-24T04:29:33Z",
       "merged": false,
       "author": {
         "login": "leochiu-a",
@@ -61087,7 +61129,7 @@
     },
     "2380": {
       "number": 2380,
-      "updatedAt": "2026-11-23T13:19:45Z",
+      "updatedAt": "2026-11-24T07:55:13Z",
       "merged": false,
       "author": {
         "login": "Andarist",
@@ -61433,7 +61475,7 @@
     },
     "2399": {
       "number": 2399,
-      "updatedAt": "2026-11-23T10:25:13Z",
+      "updatedAt": "2026-11-25T22:12:01Z",
       "merged": false,
       "author": {
         "login": "Andarist",
@@ -61446,7 +61488,77 @@
         "totalCount": 0
       },
       "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "beeequeue",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2400": {
+      "number": 2400,
+      "updatedAt": "2026-11-24T14:35:26Z",
+      "merged": false,
+      "author": {
+        "login": "ofri-peretz",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
         "nodes": []
+      }
+    },
+    "2402": {
+      "number": 2402,
+      "updatedAt": "2026-11-25T15:27:22Z",
+      "merged": false,
+      "author": {
+        "login": "tpluscode",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2405": {
+      "number": 2405,
+      "updatedAt": "2026-11-25T16:41:22Z",
+      "merged": false,
+      "author": {
+        "login": "draarivpatel-ui",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }
