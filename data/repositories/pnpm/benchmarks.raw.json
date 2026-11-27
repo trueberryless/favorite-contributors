@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T08:19:13.256Z",
+    "lastRunAt": "2026-11-27T12:58:03.177Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0wOVQxNzoxNzoyOVrOBc1bwA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -636,6 +636,13 @@
     },
     "86": {
       "number": 86,
+      "user": {
+        "login": "zkochan",
+        "type": "User"
+      }
+    },
+    "87": {
+      "number": 87,
       "user": {
         "login": "zkochan",
         "type": "User"
@@ -2357,6 +2364,46 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "87": {
+      "number": 87,
+      "updatedAt": "2026-11-26T16:43:03Z",
+      "merged": true,
+      "author": {
+        "login": "zkochan",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "zkochan",
+              "__typename": "User"
+            }
+          },
           {
             "state": "APPROVED",
             "author": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T08:21:01.353Z",
+    "lastRunAt": "2026-11-27T12:59:36.101Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNi0xMFQxODowNzozNlrOcf8RgA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -17089,6 +17089,51 @@
       "user": {
         "login": "github-actions[bot]",
         "type": "Bot"
+      }
+    },
+    "2391": {
+      "number": 2391,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      }
+    },
+    "2392": {
+      "number": 2392,
+      "user": {
+        "login": "ibrahimmaq14",
+        "type": "User"
+      }
+    },
+    "2393": {
+      "number": 2393,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2394": {
+      "number": 2394,
+      "user": {
+        "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "2395": {
+      "number": 2395,
+      "user": {
+        "login": "paoloricciuti",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 2
+      }
+    },
+    "2397": {
+      "number": 2397,
+      "user": {
+        "login": "paulw1982",
+        "type": "User"
       }
     }
   },
@@ -61941,7 +61986,7 @@
     },
     "2374": {
       "number": 2374,
-      "updatedAt": "2026-11-24T00:19:19Z",
+      "updatedAt": "2026-11-27T06:29:14Z",
       "merged": false,
       "author": {
         "login": "flipcyde101",
@@ -61954,7 +61999,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2375": {
@@ -62090,7 +62150,7 @@
     },
     "2382": {
       "number": 2382,
-      "updatedAt": "2026-11-25T03:29:48Z",
+      "updatedAt": "2026-11-26T19:19:57Z",
       "merged": false,
       "author": {
         "login": "github-actions",
@@ -62288,6 +62348,109 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2391": {
+      "number": 2391,
+      "updatedAt": "2026-11-25T16:18:50Z",
+      "merged": true,
+      "author": {
+        "login": "Rich-Harris",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2392": {
+      "number": 2392,
+      "updatedAt": "2026-11-25T15:02:47Z",
+      "merged": false,
+      "author": {
+        "login": "ibrahimmaq14",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "2395": {
+      "number": 2395,
+      "updatedAt": "2026-11-25T18:38:46Z",
+      "merged": true,
+      "author": {
+        "login": "paoloricciuti",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 2
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Rich-Harris",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2397": {
+      "number": 2397,
+      "updatedAt": "2026-11-26T18:15:11Z",
+      "merged": true,
+      "author": {
+        "login": "paulw1982",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          },
           {
             "state": "APPROVED",
             "author": {

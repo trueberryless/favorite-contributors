@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T18:46:59.142Z",
+    "lastRunAt": "2026-11-27T13:00:19.491Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMi0wMlQxMjo1MjozM1rORCLjPw==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -7692,6 +7692,9 @@
       "user": {
         "login": "vixalien",
         "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
       }
     },
     "1127": {
@@ -10867,6 +10870,55 @@
       "number": 1583,
       "user": {
         "login": "draarivpatel-ui",
+        "type": "User"
+      }
+    },
+    "1584": {
+      "number": 1584,
+      "user": {
+        "login": "sapphi-red",
+        "type": "User"
+      }
+    },
+    "1585": {
+      "number": 1585,
+      "user": {
+        "login": "Wroud",
+        "type": "User"
+      }
+    },
+    "1586": {
+      "number": 1586,
+      "user": {
+        "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1587": {
+      "number": 1587,
+      "user": {
+        "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1588": {
+      "number": 1588,
+      "user": {
+        "login": "hi-ogawa",
+        "type": "User"
+      }
+    },
+    "1589": {
+      "number": 1589,
+      "user": {
+        "login": "Sheraff",
+        "type": "User"
+      }
+    },
+    "1590": {
+      "number": 1590,
+      "user": {
+        "login": "hi-ogawa",
         "type": "User"
       }
     }
@@ -31792,7 +31844,7 @@
     },
     "1346": {
       "number": 1346,
-      "updatedAt": "2026-07-29T02:58:41Z",
+      "updatedAt": "2026-11-27T08:31:36Z",
       "merged": false,
       "author": {
         "login": "hi-ogawa",
@@ -31836,7 +31888,7 @@
     },
     "1348": {
       "number": 1348,
-      "updatedAt": "2026-07-31T00:18:23Z",
+      "updatedAt": "2026-11-27T08:31:40Z",
       "merged": false,
       "author": {
         "login": "hi-ogawa",
@@ -33005,7 +33057,7 @@
     },
     "1412": {
       "number": 1412,
-      "updatedAt": "2026-08-06T10:02:23Z",
+      "updatedAt": "2026-11-27T08:31:44Z",
       "merged": false,
       "author": {
         "login": "hi-ogawa",
@@ -33720,7 +33772,7 @@
     },
     "1447": {
       "number": 1447,
-      "updatedAt": "2026-11-23T19:44:27Z",
+      "updatedAt": "2026-11-27T04:09:26Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35184,7 +35236,7 @@
     },
     "1537": {
       "number": 1537,
-      "updatedAt": "2026-11-25T09:11:07Z",
+      "updatedAt": "2026-11-27T04:09:03Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -35434,8 +35486,8 @@
     },
     "1556": {
       "number": 1556,
-      "updatedAt": "2026-11-25T09:10:39Z",
-      "merged": false,
+      "updatedAt": "2026-11-27T04:06:29Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -35804,6 +35856,171 @@
             }
           }
         ]
+      }
+    },
+    "1584": {
+      "number": 1584,
+      "updatedAt": "2026-11-27T11:41:56Z",
+      "merged": true,
+      "author": {
+        "login": "sapphi-red",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "hi-ogawa",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sapphi-red",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1585": {
+      "number": 1585,
+      "updatedAt": "2026-11-26T19:40:07Z",
+      "merged": false,
+      "author": {
+        "login": "Wroud",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1586": {
+      "number": 1586,
+      "updatedAt": "2026-11-27T04:33:46Z",
+      "merged": true,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1587": {
+      "number": 1587,
+      "updatedAt": "2026-11-27T08:03:24Z",
+      "merged": true,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1588": {
+      "number": 1588,
+      "updatedAt": "2026-11-27T11:29:14Z",
+      "merged": false,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1590": {
+      "number": 1590,
+      "updatedAt": "2026-11-27T11:34:49Z",
+      "merged": false,
+      "author": {
+        "login": "hi-ogawa",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

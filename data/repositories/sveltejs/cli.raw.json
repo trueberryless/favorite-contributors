@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T08:21:01.886Z",
+    "lastRunAt": "2026-11-27T12:59:36.169Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xNVQyMTo0MToxNlrOeINC8g==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -11030,6 +11030,44 @@
       "number": 1509,
       "user": {
         "login": "teemingc",
+        "type": "User"
+      }
+    },
+    "1510": {
+      "number": 1510,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "1511": {
+      "number": 1511,
+      "user": {
+        "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1512": {
+      "number": 1512,
+      "user": {
+        "login": "Rich-Harris",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "1513": {
+      "number": 1513,
+      "user": {
+        "login": "sacrosanctic",
+        "type": "User"
+      }
+    },
+    "1514": {
+      "number": 1514,
+      "user": {
+        "login": "sacrosanctic",
         "type": "User"
       }
     }
@@ -42141,7 +42179,7 @@
     },
     "1488": {
       "number": 1488,
-      "updatedAt": "2026-11-19T12:22:23Z",
+      "updatedAt": "2026-11-27T08:11:35Z",
       "merged": false,
       "author": {
         "login": "jycouet",
@@ -42159,6 +42197,20 @@
             "state": "APPROVED",
             "author": {
               "login": "teemingc",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sacrosanctic",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sacrosanctic",
               "__typename": "User"
             }
           }
@@ -42414,7 +42466,7 @@
     },
     "1503": {
       "number": 1503,
-      "updatedAt": "2026-11-24T18:07:09Z",
+      "updatedAt": "2026-11-26T09:29:52Z",
       "merged": false,
       "author": {
         "login": "jycouet",
@@ -42567,8 +42619,8 @@
     },
     "1508": {
       "number": 1508,
-      "updatedAt": "2026-11-25T08:16:12Z",
-      "merged": false,
+      "updatedAt": "2026-11-25T20:54:36Z",
+      "merged": true,
       "author": {
         "login": "sacrosanctic",
         "__typename": "User"
@@ -42587,8 +42639,87 @@
               "login": "manuel3108",
               "__typename": "User"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "manuel3108",
+              "__typename": "User"
+            }
           }
         ]
+      }
+    },
+    "1510": {
+      "number": 1510,
+      "updatedAt": "2026-11-25T18:08:08Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1511": {
+      "number": 1511,
+      "updatedAt": "2026-11-25T21:18:03Z",
+      "merged": false,
+      "author": {
+        "login": "sacrosanctic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1513": {
+      "number": 1513,
+      "updatedAt": "2026-11-27T09:27:29Z",
+      "merged": false,
+      "author": {
+        "login": "sacrosanctic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1514": {
+      "number": 1514,
+      "updatedAt": "2026-11-27T09:50:05Z",
+      "merged": false,
+      "author": {
+        "login": "sacrosanctic",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

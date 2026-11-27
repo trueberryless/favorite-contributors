@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T08:21:02.749Z",
+    "lastRunAt": "2026-11-27T12:59:36.208Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xNlQwODoxMDo1M1rOqKWCXQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2331,6 +2331,20 @@
       "user": {
         "login": "efekamak",
         "type": "User"
+      }
+    },
+    "325": {
+      "number": 325,
+      "user": {
+        "login": "efekamak",
+        "type": "User"
+      }
+    },
+    "326": {
+      "number": 326,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -6064,7 +6078,7 @@
     },
     "150": {
       "number": 150,
-      "updatedAt": "2026-11-23T23:35:17Z",
+      "updatedAt": "2026-11-26T06:47:17Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -10082,11 +10096,62 @@
     },
     "324": {
       "number": 324,
-      "updatedAt": "2026-11-25T02:16:31Z",
+      "updatedAt": "2026-11-26T03:25:32Z",
       "merged": false,
       "author": {
         "login": "efekamak",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "325": {
+      "number": 325,
+      "updatedAt": "2026-11-26T16:01:00Z",
+      "merged": true,
+      "author": {
+        "login": "efekamak",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "paoloricciuti",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "teemingc",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "326": {
+      "number": 326,
+      "updatedAt": "2026-11-26T16:02:24Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0
