@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T08:18:26.266Z",
+    "lastRunAt": "2026-11-27T03:09:49.598Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOS0wNlQxMDo1MToxMFrOPmaFBg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4531,7 +4531,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 2
       }
     },
     "587": {
@@ -4559,6 +4559,27 @@
       "number": 590,
       "user": {
         "login": "lafllamme",
+        "type": "User"
+      }
+    },
+    "591": {
+      "number": 591,
+      "user": {
+        "login": "kaihaase",
+        "type": "User"
+      }
+    },
+    "592": {
+      "number": 592,
+      "user": {
+        "login": "github-actions[bot]",
+        "type": "Bot"
+      }
+    },
+    "593": {
+      "number": 593,
+      "user": {
+        "login": "atinux",
         "type": "User"
       }
     }
@@ -10973,7 +10994,7 @@
     },
     "578": {
       "number": 578,
-      "updatedAt": "2026-11-19T19:35:01Z",
+      "updatedAt": "2026-11-27T01:46:03Z",
       "merged": false,
       "author": {
         "login": "brunobelloni",
@@ -11089,8 +11110,8 @@
     },
     "583": {
       "number": 583,
-      "updatedAt": "2026-11-17T22:10:39Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T22:09:49Z",
+      "merged": true,
       "author": {
         "login": "lafllamme",
         "__typename": "User"
@@ -11102,13 +11123,21 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "584": {
       "number": 584,
-      "updatedAt": "2026-11-25T04:15:53Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T21:57:54Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -11120,12 +11149,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "588": {
       "number": 588,
-      "updatedAt": "2026-11-24T09:50:19Z",
+      "updatedAt": "2026-11-26T22:00:42Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -11143,7 +11180,7 @@
     },
     "589": {
       "number": 589,
-      "updatedAt": "2026-11-24T11:34:58Z",
+      "updatedAt": "2026-11-26T22:55:18Z",
       "merged": false,
       "author": {
         "login": "onmax",
@@ -11163,6 +11200,13 @@
               "login": "coderabbitai",
               "__typename": "Bot"
             }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
           }
         ]
       }
@@ -11173,6 +11217,68 @@
       "merged": false,
       "author": {
         "login": "lafllamme",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "591": {
+      "number": 591,
+      "updatedAt": "2026-11-26T21:51:33Z",
+      "merged": true,
+      "author": {
+        "login": "kaihaase",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "atinux",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "592": {
+      "number": 592,
+      "updatedAt": "2026-11-26T22:10:03Z",
+      "merged": false,
+      "author": {
+        "login": "github-actions",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "593": {
+      "number": 593,
+      "updatedAt": "2026-11-26T22:49:34Z",
+      "merged": false,
+      "author": {
+        "login": "atinux",
         "__typename": "User"
       },
       "closingIssuesReferences": {

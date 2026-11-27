@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T00:02:28.133Z",
+    "lastRunAt": "2026-11-27T03:06:32.394Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0xMi0xOVQwMTo1NjoxMFrOBd7kfg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -15791,6 +15791,27 @@
     },
     "2490": {
       "number": 2490,
+      "user": {
+        "login": "harry-whorlow",
+        "type": "User"
+      }
+    },
+    "2491": {
+      "number": 2491,
+      "user": {
+        "login": "harry-whorlow",
+        "type": "User"
+      }
+    },
+    "2492": {
+      "number": 2492,
+      "user": {
+        "login": "draarivpatel-ui",
+        "type": "User"
+      }
+    },
+    "2493": {
+      "number": 2493,
       "user": {
         "login": "harry-whorlow",
         "type": "User"
@@ -44888,8 +44909,8 @@
     },
     "2361": {
       "number": 2361,
-      "updatedAt": "2026-10-15T12:35:16Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T13:11:30Z",
+      "merged": true,
       "author": {
         "login": "dfedoryshchev",
         "__typename": "User"
@@ -44901,7 +44922,22 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "LeCarbonator",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2362": {
@@ -45052,7 +45088,7 @@
     },
     "2371": {
       "number": 2371,
-      "updatedAt": "2026-10-13T15:28:10Z",
+      "updatedAt": "2026-11-26T02:54:59Z",
       "merged": false,
       "author": {
         "login": "dikshit-n",
@@ -45294,7 +45330,7 @@
     },
     "2380": {
       "number": 2380,
-      "updatedAt": "2026-09-14T08:10:53Z",
+      "updatedAt": "2026-11-26T02:54:51Z",
       "merged": false,
       "author": {
         "login": "dikshit-n",
@@ -46974,7 +47010,7 @@
     },
     "2456": {
       "number": 2456,
-      "updatedAt": "2026-10-30T17:32:27Z",
+      "updatedAt": "2026-11-26T13:11:32Z",
       "merged": true,
       "author": {
         "login": "ryansolid",
@@ -47370,8 +47406,8 @@
     },
     "2473": {
       "number": 2473,
-      "updatedAt": "2026-11-24T21:16:51Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T13:11:27Z",
+      "merged": true,
       "author": {
         "login": "harry-whorlow",
         "__typename": "User"
@@ -47384,6 +47420,20 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -47507,7 +47557,7 @@
     },
     "2478": {
       "number": 2478,
-      "updatedAt": "2026-11-24T19:44:59Z",
+      "updatedAt": "2026-11-25T10:36:31Z",
       "merged": false,
       "author": {
         "login": "harry-whorlow",
@@ -47663,8 +47713,8 @@
     },
     "2484": {
       "number": 2484,
-      "updatedAt": "2026-11-19T02:23:42Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T13:09:57Z",
+      "merged": true,
       "author": {
         "login": "github-actions",
         "__typename": "Bot"
@@ -47758,8 +47808,8 @@
     },
     "2489": {
       "number": 2489,
-      "updatedAt": "2026-11-24T13:34:24Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T20:58:45Z",
+      "merged": true,
       "author": {
         "login": "LeCarbonator",
         "__typename": "User"
@@ -47772,6 +47822,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -47798,6 +47855,119 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2491": {
+      "number": 2491,
+      "updatedAt": "2026-11-25T13:35:01Z",
+      "merged": true,
+      "author": {
+        "login": "harry-whorlow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "TkDodo",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "2492": {
+      "number": 2492,
+      "updatedAt": "2026-11-26T00:09:28Z",
+      "merged": false,
+      "author": {
+        "login": "draarivpatel-ui",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "2493": {
+      "number": 2493,
+      "updatedAt": "2026-11-26T20:53:17Z",
+      "merged": true,
+      "author": {
+        "login": "harry-whorlow",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T00:02:28.132Z",
+    "lastRunAt": "2026-11-27T03:06:32.394Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNy0wMS0wOVQxODo1ODo1M1rOBdmpmA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -33709,6 +33709,62 @@
       "number": 6673,
       "user": {
         "login": "sebdanielsson",
+        "type": "User"
+      }
+    },
+    "6674": {
+      "number": 6674,
+      "user": {
+        "login": "HEOJUNFO",
+        "type": "User"
+      }
+    },
+    "6675": {
+      "number": 6675,
+      "user": {
+        "login": "felipeS",
+        "type": "User"
+      }
+    },
+    "6676": {
+      "number": 6676,
+      "user": {
+        "login": "felipeS",
+        "type": "User"
+      }
+    },
+    "6677": {
+      "number": 6677,
+      "user": {
+        "login": "gustavoorth",
+        "type": "User"
+      }
+    },
+    "6678": {
+      "number": 6678,
+      "user": {
+        "login": "draarivpatel-ui",
+        "type": "User"
+      }
+    },
+    "6679": {
+      "number": 6679,
+      "user": {
+        "login": "Twiink",
+        "type": "User"
+      }
+    },
+    "6680": {
+      "number": 6680,
+      "user": {
+        "login": "Twiink",
+        "type": "User"
+      }
+    },
+    "6681": {
+      "number": 6681,
+      "user": {
+        "login": "fernandezbaptiste",
         "type": "User"
       }
     }
@@ -75522,6 +75578,111 @@
             }
           }
         ]
+      }
+    },
+    "6674": {
+      "number": 6674,
+      "updatedAt": "2026-11-25T01:58:37Z",
+      "merged": false,
+      "author": {
+        "login": "HEOJUNFO",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6676": {
+      "number": 6676,
+      "updatedAt": "2026-11-25T14:05:53Z",
+      "merged": false,
+      "author": {
+        "login": "felipeS",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6678": {
+      "number": 6678,
+      "updatedAt": "2026-11-26T00:43:15Z",
+      "merged": false,
+      "author": {
+        "login": "draarivpatel-ui",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "6679": {
+      "number": 6679,
+      "updatedAt": "2026-11-26T08:29:36Z",
+      "merged": false,
+      "author": {
+        "login": "Twiink",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "6680": {
+      "number": 6680,
+      "updatedAt": "2026-11-26T09:16:40Z",
+      "merged": false,
+      "author": {
+        "login": "Twiink",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T08:18:22.438Z",
+    "lastRunAt": "2026-11-27T03:09:45.983Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0xNFQyMToxODo0NVrOOVF6Qg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -8808,6 +8808,27 @@
       "user": {
         "login": "antfubot",
         "type": "User"
+      }
+    },
+    "1175": {
+      "number": 1175,
+      "user": {
+        "login": "lyn1dev",
+        "type": "User"
+      }
+    },
+    "1176": {
+      "number": 1176,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
+      }
+    },
+    "1177": {
+      "number": 1177,
+      "user": {
+        "login": "dependabot[bot]",
+        "type": "Bot"
       }
     }
   },
@@ -23569,7 +23590,7 @@
     },
     "1136": {
       "number": 1136,
-      "updatedAt": "2026-11-24T21:56:28Z",
+      "updatedAt": "2026-11-25T18:19:08Z",
       "merged": false,
       "author": {
         "login": "ahmetomerv",
@@ -24477,11 +24498,87 @@
     },
     "1174": {
       "number": 1174,
-      "updatedAt": "2026-11-24T22:33:01Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T13:43:02Z",
+      "merged": true,
       "author": {
         "login": "antfubot",
         "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1175": {
+      "number": 1175,
+      "updatedAt": "2026-11-26T01:09:09Z",
+      "merged": false,
+      "author": {
+        "login": "lyn1dev",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "lyn1dev",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1176": {
+      "number": 1176,
+      "updatedAt": "2026-11-26T14:02:05Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1177": {
+      "number": 1177,
+      "updatedAt": "2026-11-26T14:02:21Z",
+      "merged": false,
+      "author": {
+        "login": "dependabot",
+        "__typename": "Bot"
       },
       "closingIssuesReferences": {
         "totalCount": 0

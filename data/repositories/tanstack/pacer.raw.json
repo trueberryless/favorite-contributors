@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T00:02:32.426Z",
+    "lastRunAt": "2026-11-27T03:06:36.879Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0xMVQxNzoyMDo1M1rOjiypRg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -2096,6 +2096,13 @@
       "number": 313,
       "user": {
         "login": "tannerlinsley",
+        "type": "User"
+      }
+    },
+    "314": {
+      "number": 314,
+      "user": {
+        "login": "draarivpatel-ui",
         "type": "User"
       }
     }
@@ -7882,6 +7889,46 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "314": {
+      "number": 314,
+      "updatedAt": "2026-11-26T01:11:26Z",
+      "merged": false,
+      "author": {
+        "login": "draarivpatel-ui",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
       }
     }
   }

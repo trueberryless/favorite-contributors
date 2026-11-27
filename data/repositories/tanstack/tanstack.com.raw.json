@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T00:02:30.377Z",
+    "lastRunAt": "2026-11-27T03:06:34.894Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMi0wM1QwMzoyNDo0OFrOIJWaww==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -11751,6 +11751,41 @@
       "number": 1635,
       "user": {
         "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "1636": {
+      "number": 1636,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "1637": {
+      "number": 1637,
+      "user": {
+        "login": "sukvvon",
+        "type": "User"
+      }
+    },
+    "1638": {
+      "number": 1638,
+      "user": {
+        "login": "manudeli",
+        "type": "User"
+      }
+    },
+    "1639": {
+      "number": 1639,
+      "user": {
+        "login": "manudeli",
+        "type": "User"
+      }
+    },
+    "1640": {
+      "number": 1640,
+      "user": {
+        "login": "tannerlinsley",
         "type": "User"
       }
     }
@@ -33411,7 +33446,7 @@
     },
     "1123": {
       "number": 1123,
-      "updatedAt": "2026-11-24T10:45:43Z",
+      "updatedAt": "2026-11-25T17:48:13Z",
       "merged": false,
       "author": {
         "login": "sukvvon",
@@ -33441,6 +33476,13 @@
           },
           {
             "state": "DISMISSED",
+            "author": {
+              "login": "manudeli",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
             "author": {
               "login": "manudeli",
               "__typename": "User"
@@ -34505,7 +34547,7 @@
     },
     "1173": {
       "number": 1173,
-      "updatedAt": "2026-10-17T02:10:51Z",
+      "updatedAt": "2026-11-26T11:52:43Z",
       "merged": false,
       "author": {
         "login": "JonasBa",
@@ -41697,7 +41739,7 @@
     },
     "1507": {
       "number": 1507,
-      "updatedAt": "2026-11-24T23:31:10Z",
+      "updatedAt": "2026-11-25T00:39:41Z",
       "merged": false,
       "author": {
         "login": "Abeuty",
@@ -41887,8 +41929,8 @@
     },
     "1515": {
       "number": 1515,
-      "updatedAt": "2026-11-21T17:54:59Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T14:28:12Z",
+      "merged": true,
       "author": {
         "login": "KevinVandy",
         "__typename": "User"
@@ -44369,6 +44411,134 @@
             }
           }
         ]
+      }
+    },
+    "1636": {
+      "number": 1636,
+      "updatedAt": "2026-11-25T11:09:54Z",
+      "merged": true,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "1637": {
+      "number": 1637,
+      "updatedAt": "2026-11-25T11:11:16Z",
+      "merged": false,
+      "author": {
+        "login": "sukvvon",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "1638": {
+      "number": 1638,
+      "updatedAt": "2026-11-25T18:16:11Z",
+      "merged": true,
+      "author": {
+        "login": "manudeli",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1639": {
+      "number": 1639,
+      "updatedAt": "2026-11-25T19:10:06Z",
+      "merged": true,
+      "author": {
+        "login": "manudeli",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "KevinVandy",
+              "__typename": "User"
+            }
+          }
+        ]
+      }
+    },
+    "1640": {
+      "number": 1640,
+      "updatedAt": "2026-11-26T05:59:34Z",
+      "merged": true,
+      "author": {
+        "login": "tannerlinsley",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
       }
     }
   }
