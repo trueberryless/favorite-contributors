@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T18:50:05.728Z",
+    "lastRunAt": "2026-11-27T21:54:58.836Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0wMi0wOFQyMzo0NDo0M1rOSZHnmg==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5051,6 +5051,13 @@
       "number": 647,
       "user": {
         "login": "43081j",
+        "type": "User"
+      }
+    },
+    "648": {
+      "number": 648,
+      "user": {
+        "login": "sacrosanctic",
         "type": "User"
       }
     }
@@ -17671,7 +17678,7 @@
     },
     "647": {
       "number": 647,
-      "updatedAt": "2026-11-25T13:16:25Z",
+      "updatedAt": "2026-11-25T22:56:57Z",
       "merged": false,
       "author": {
         "login": "43081j",
@@ -17684,7 +17691,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dreyfus92",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

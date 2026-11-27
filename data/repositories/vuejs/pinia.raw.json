@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T18:48:43.189Z",
+    "lastRunAt": "2026-11-27T21:53:34.103Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMS0yMFQwNTowNzoxNVrOFHNjDQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -14147,6 +14147,13 @@
       "number": 3228,
       "user": {
         "login": "abdul-karim-mia",
+        "type": "User"
+      }
+    },
+    "3229": {
+      "number": 3229,
+      "user": {
+        "login": "lanqing431",
         "type": "User"
       }
     }
@@ -39566,8 +39573,8 @@
     },
     "3207": {
       "number": 3207,
-      "updatedAt": "2026-11-06T05:20:50Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T10:09:32Z",
+      "merged": true,
       "author": {
         "login": "shuvroroy",
         "__typename": "User"
@@ -39585,6 +39592,27 @@
             "author": {
               "login": "coderabbitai",
               "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "coderabbitai",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "posva",
+              "__typename": "User"
             }
           }
         ]
@@ -39842,7 +39870,7 @@
     },
     "3219": {
       "number": 3219,
-      "updatedAt": "2026-11-20T20:49:01Z",
+      "updatedAt": "2026-11-26T09:44:53Z",
       "merged": false,
       "author": {
         "login": "charan-rathore",
@@ -40072,10 +40100,28 @@
     },
     "3228": {
       "number": 3228,
-      "updatedAt": "2026-11-25T09:04:56Z",
+      "updatedAt": "2026-11-25T21:03:31Z",
       "merged": false,
       "author": {
         "login": "abdul-karim-mia",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "3229": {
+      "number": 3229,
+      "updatedAt": "2026-11-27T15:39:30Z",
+      "merged": false,
+      "author": {
+        "login": "lanqing431",
         "__typename": "User"
       },
       "closingIssuesReferences": {

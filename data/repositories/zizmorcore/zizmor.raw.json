@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T18:49:29.368Z",
+    "lastRunAt": "2026-11-27T21:54:20.788Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0yMlQwMTozMzo1MFrOeRATbA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -18874,6 +18874,23 @@
       },
       "reactions": {
         "total_count": 1
+      }
+    },
+    "2585": {
+      "number": 2585,
+      "user": {
+        "login": "woodruffw",
+        "type": "User"
+      },
+      "reactions": {
+        "total_count": 1
+      }
+    },
+    "2586": {
+      "number": 2586,
+      "user": {
+        "login": "luis-vidal040",
+        "type": "User"
       }
     }
   },
@@ -60005,6 +60022,46 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "2585": {
+      "number": 2585,
+      "updatedAt": "2026-11-27T02:04:39Z",
+      "merged": false,
+      "author": {
+        "login": "woodruffw",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 1
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "woodruffw",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "shaanmajid",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

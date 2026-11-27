@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-25T18:48:48.513Z",
+    "lastRunAt": "2026-11-27T21:53:39.326Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0wOFQwOTo0NjozN1rOMgBZcQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -518,6 +518,13 @@
       "number": 73,
       "user": {
         "login": "edison1105",
+        "type": "User"
+      }
+    },
+    "74": {
+      "number": 74,
+      "user": {
+        "login": "soreavis",
         "type": "User"
       }
     }
@@ -1792,6 +1799,24 @@
       },
       "closingIssuesReferences": {
         "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "74": {
+      "number": 74,
+      "updatedAt": "2026-11-26T14:27:49Z",
+      "merged": false,
+      "author": {
+        "login": "soreavis",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
       },
       "reactions": {
         "totalCount": 0
