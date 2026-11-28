@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-26T20:25:42.962Z",
+    "lastRunAt": "2026-11-28T12:47:56.814Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMC0wNS0xNlQxMDowMDo1MFrOGPbq3Q==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -52454,6 +52454,27 @@
       "number": 8629,
       "user": {
         "login": "muradeliyev",
+        "type": "User"
+      }
+    },
+    "8630": {
+      "number": 8630,
+      "user": {
+        "login": "F4M1N3C",
+        "type": "User"
+      }
+    },
+    "8631": {
+      "number": 8631,
+      "user": {
+        "login": "Ph0enix22",
+        "type": "User"
+      }
+    },
+    "8632": {
+      "number": 8632,
+      "user": {
+        "login": "Miodec",
         "type": "User"
       }
     }
@@ -166344,7 +166365,7 @@
     },
     "7444": {
       "number": 7444,
-      "updatedAt": "2026-03-17T13:57:30Z",
+      "updatedAt": "2026-11-27T13:10:59Z",
       "merged": false,
       "author": {
         "login": "fehmer",
@@ -172527,7 +172548,7 @@
     },
     "7717": {
       "number": 7717,
-      "updatedAt": "2026-03-26T12:05:33Z",
+      "updatedAt": "2026-11-27T13:12:00Z",
       "merged": false,
       "author": {
         "login": "fehmer",
@@ -176060,7 +176081,7 @@
     },
     "7888": {
       "number": 7888,
-      "updatedAt": "2026-05-22T09:05:46Z",
+      "updatedAt": "2026-11-27T13:47:28Z",
       "merged": false,
       "author": {
         "login": "d1rshan",
@@ -185122,7 +185143,7 @@
     },
     "8404": {
       "number": 8404,
-      "updatedAt": "2026-09-28T11:54:22Z",
+      "updatedAt": "2026-11-27T13:33:59Z",
       "merged": false,
       "author": {
         "login": "PanicMike-9",
@@ -189153,7 +189174,7 @@
     },
     "8612": {
       "number": 8612,
-      "updatedAt": "2026-11-22T07:20:36Z",
+      "updatedAt": "2026-11-27T15:28:07Z",
       "merged": false,
       "author": {
         "login": "Abhinav-Kamatamu",
@@ -189167,6 +189188,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
           {
             "state": "COMMENTED",
             "author": {
@@ -189404,7 +189432,7 @@
     },
     "8623": {
       "number": 8623,
-      "updatedAt": "2026-11-26T15:19:42Z",
+      "updatedAt": "2026-11-27T12:49:12Z",
       "merged": false,
       "author": {
         "login": "fehmer",
@@ -189417,12 +189445,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Miodec",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "8624": {
       "number": 8624,
-      "updatedAt": "2026-11-26T15:21:15Z",
+      "updatedAt": "2026-11-27T12:59:58Z",
       "merged": false,
       "author": {
         "login": "fehmer",
@@ -189435,12 +189471,20 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Miodec",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "8626": {
       "number": 8626,
-      "updatedAt": "2026-11-26T15:30:32Z",
+      "updatedAt": "2026-11-27T14:55:03Z",
       "merged": false,
       "author": {
         "login": "fehmer",
@@ -189453,7 +189497,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Miodec",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "8627": {
@@ -189508,6 +189560,90 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "8630": {
+      "number": 8630,
+      "updatedAt": "2026-11-27T08:32:16Z",
+      "merged": false,
+      "author": {
+        "login": "F4M1N3C",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "8631": {
+      "number": 8631,
+      "updatedAt": "2026-11-27T12:01:08Z",
+      "merged": false,
+      "author": {
+        "login": "Ph0enix22",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          }
+        ]
+      }
+    },
+    "8632": {
+      "number": 8632,
+      "updatedAt": "2026-11-27T15:27:49Z",
+      "merged": true,
+      "author": {
+        "login": "Miodec",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "fehmer",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer",
+              "__typename": "Bot"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Miodec",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
