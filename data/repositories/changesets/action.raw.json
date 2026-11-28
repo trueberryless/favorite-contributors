@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-26T02:07:36.536Z",
+    "lastRunAt": "2026-11-28T03:46:41.082Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0xMC0wNFQxMTowNTowMFrOE1kPBQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -5475,6 +5475,13 @@
     },
     "748": {
       "number": 748,
+      "user": {
+        "login": "blac-collab",
+        "type": "User"
+      }
+    },
+    "749": {
+      "number": 749,
       "user": {
         "login": "blac-collab",
         "type": "User"
@@ -18614,7 +18621,7 @@
     },
     "748": {
       "number": 748,
-      "updatedAt": "2026-11-21T08:48:41Z",
+      "updatedAt": "2026-11-27T03:57:26Z",
       "merged": false,
       "author": {
         "login": "blac-collab",
@@ -18627,7 +18634,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "blac-collab",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }

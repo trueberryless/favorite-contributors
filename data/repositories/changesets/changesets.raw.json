@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-26T02:07:36.536Z",
+    "lastRunAt": "2026-11-28T03:46:41.082Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxOS0wNS0wM1QwMTozOTozMVrOEGfL8w==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -56547,8 +56547,8 @@
     },
     "2183": {
       "number": 2183,
-      "updatedAt": "2026-11-25T10:48:26Z",
-      "merged": false,
+      "updatedAt": "2026-11-27T15:54:16Z",
+      "merged": true,
       "author": {
         "login": "Andarist",
         "__typename": "User"
@@ -60465,8 +60465,8 @@
     },
     "2354": {
       "number": 2354,
-      "updatedAt": "2026-11-23T11:35:49Z",
-      "merged": false,
+      "updatedAt": "2026-11-27T18:15:57Z",
+      "merged": true,
       "author": {
         "login": "changesets-org-version-bot",
         "__typename": "Bot"
@@ -60478,7 +60478,15 @@
         "totalCount": 0
       },
       "reviews": {
-        "nodes": []
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "Andarist",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     },
     "2355": {
@@ -61129,7 +61137,7 @@
     },
     "2380": {
       "number": 2380,
-      "updatedAt": "2026-11-24T07:55:13Z",
+      "updatedAt": "2026-11-27T15:54:14Z",
       "merged": false,
       "author": {
         "login": "Andarist",
@@ -61143,6 +61151,13 @@
       },
       "reviews": {
         "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "stakleykurtis8-rgb",
+              "__typename": "User"
+            }
+          },
           {
             "state": "APPROVED",
             "author": {
@@ -61424,7 +61439,7 @@
     },
     "2397": {
       "number": 2397,
-      "updatedAt": "2026-11-22T15:56:28Z",
+      "updatedAt": "2026-11-27T15:59:40Z",
       "merged": false,
       "author": {
         "login": "dependabot",
@@ -61475,8 +61490,8 @@
     },
     "2399": {
       "number": 2399,
-      "updatedAt": "2026-11-25T22:12:01Z",
-      "merged": false,
+      "updatedAt": "2026-11-26T07:41:43Z",
+      "merged": true,
       "author": {
         "login": "Andarist",
         "__typename": "User"
@@ -61519,7 +61534,7 @@
     },
     "2402": {
       "number": 2402,
-      "updatedAt": "2026-11-25T15:27:22Z",
+      "updatedAt": "2026-11-27T12:43:27Z",
       "merged": false,
       "author": {
         "login": "tpluscode",

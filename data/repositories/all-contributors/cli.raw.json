@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-26T02:06:56.920Z",
+    "lastRunAt": "2026-11-28T03:46:03.768Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAxNi0wNS0xMVQxODozODoyMlrOBCfYWA==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -4768,7 +4768,7 @@
         "type": "User"
       },
       "reactions": {
-        "total_count": 1
+        "total_count": 3
       }
     },
     "646": {
@@ -5379,6 +5379,27 @@
       "number": 732,
       "user": {
         "login": "allcontributors[bot]",
+        "type": "Bot"
+      }
+    },
+    "733": {
+      "number": 733,
+      "user": {
+        "login": "michaelfaith",
+        "type": "User"
+      }
+    },
+    "734": {
+      "number": 734,
+      "user": {
+        "login": "renovate[bot]",
+        "type": "Bot"
+      }
+    },
+    "735": {
+      "number": 735,
+      "user": {
+        "login": "renovate[bot]",
         "type": "Bot"
       }
     }
@@ -19217,7 +19238,7 @@
     },
     "674": {
       "number": 674,
-      "updatedAt": "2026-11-25T23:37:01Z",
+      "updatedAt": "2026-11-28T02:02:00Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -19523,7 +19544,7 @@
     },
     "694": {
       "number": 694,
-      "updatedAt": "2026-11-23T22:24:31Z",
+      "updatedAt": "2026-11-26T02:25:21Z",
       "merged": false,
       "author": {
         "login": "michaelfaith",
@@ -20210,7 +20231,7 @@
     },
     "728": {
       "number": 728,
-      "updatedAt": "2026-11-25T21:57:13Z",
+      "updatedAt": "2026-11-26T02:13:00Z",
       "merged": false,
       "author": {
         "login": "a-c-slater",
@@ -20272,7 +20293,7 @@
     },
     "731": {
       "number": 731,
-      "updatedAt": "2026-11-25T23:35:37Z",
+      "updatedAt": "2026-11-28T02:00:56Z",
       "merged": false,
       "author": {
         "login": "a-c-slater",
@@ -20294,6 +20315,60 @@
       "merged": true,
       "author": {
         "login": "allcontributors",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "733": {
+      "number": 733,
+      "updatedAt": "2026-11-26T02:27:04Z",
+      "merged": false,
+      "author": {
+        "login": "michaelfaith",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "734": {
+      "number": 734,
+      "updatedAt": "2026-11-27T00:48:39Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
+        "__typename": "Bot"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 0
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": []
+      }
+    },
+    "735": {
+      "number": 735,
+      "updatedAt": "2026-11-28T02:00:27Z",
+      "merged": true,
+      "author": {
+        "login": "renovate",
         "__typename": "Bot"
       },
       "closingIssuesReferences": {

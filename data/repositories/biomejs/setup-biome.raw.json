@@ -1,6 +1,6 @@
 {
   "syncState": {
-    "lastRunAt": "2026-11-26T11:20:36.694Z",
+    "lastRunAt": "2026-11-28T03:48:04.255Z",
     "prBackfillCursor": "Y3Vyc29yOnYyOpK0MjAyMy0xMC0wMVQxNTo1MjozNFrOW5yFFQ==",
     "prBackfillComplete": true,
     "issuesBackfillComplete": true
@@ -3576,6 +3576,20 @@
       "user": {
         "login": "renovate[bot]",
         "type": "Bot"
+      }
+    },
+    "509": {
+      "number": 509,
+      "user": {
+        "login": "potiuk",
+        "type": "User"
+      }
+    },
+    "510": {
+      "number": 510,
+      "user": {
+        "login": "potiuk",
+        "type": "User"
       }
     }
   },
@@ -12511,8 +12525,8 @@
     },
     "504": {
       "number": 504,
-      "updatedAt": "2026-11-25T22:52:15Z",
-      "merged": false,
+      "updatedAt": "2026-11-28T03:48:00Z",
+      "merged": true,
       "author": {
         "login": "renovate",
         "__typename": "Bot"
@@ -12555,7 +12569,7 @@
     },
     "506": {
       "number": 506,
-      "updatedAt": "2026-11-23T15:40:29Z",
+      "updatedAt": "2026-11-27T17:29:43Z",
       "merged": false,
       "author": {
         "login": "renovate",
@@ -12605,6 +12619,60 @@
       },
       "reviews": {
         "nodes": []
+      }
+    },
+    "510": {
+      "number": 510,
+      "updatedAt": "2026-11-27T17:28:22Z",
+      "merged": true,
+      "author": {
+        "login": "potiuk",
+        "__typename": "User"
+      },
+      "closingIssuesReferences": {
+        "totalCount": 1
+      },
+      "reactions": {
+        "totalCount": 0
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "potiuk",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "dyc3",
+              "__typename": "User"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "potiuk",
+              "__typename": "User"
+            }
+          }
+        ]
       }
     }
   }
